@@ -1,9 +1,11 @@
+I'm new to GitHub. For now, just get the mod from here: https://steamcommunity.com/workshop/filedetails/?id=1103027918
+or here: https://community.playstarbound.com/resources/the-saturnians.4918/
+
 # Saturnians
 
 Saturnians are moth wizards. For many generations, they have passed down techniques for making "light weaving" wands. They yearn to explore the unknown and meet new species. Saturnian villages are usually built on floating islands. When Saturnians ally with each other they typically connect these cities together into a larger network. Most Saturnians are from the largest network of cities, the country Solalei.
 
-================
-This mod includes:
+# This mod includes:
 
 	Two playable "species". Saturnians are the main species, while Thaumoth are a bonus nocturnal variant. Thaumoth are ever so slightly different. Both species share the same visuals. Lore-wise, they're the same species, and the two names can be used interchangeably. 
 
@@ -33,7 +35,7 @@ This mod includes:
 Mods that add features to, or require the Saturnians: https://steamcommunity.com/workshop/filedetails/discussion/1103027918/2139714324759602249/
 
 
-Q: I want to make an addon or mod this mod. What are the rules?
+# I want to make an addon or mod this mod. What are the rules?
 
 	As long as you do not break my mod, you *do not* need my permission to make any addons for this mod, or to add support for this mod. 
 	
