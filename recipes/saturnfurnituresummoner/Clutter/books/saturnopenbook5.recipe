@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "saturnebony", "count" : 5 },
+	{ "item" : "paper", "count" : 20 }
+  ],
+  "duration" : 0.005,
+  "output" : { "item" : "saturnopenbook5", "count" : 1 },
+  "groups" : [ "saturnclutter", "all" ]
+}

@@ -1,0 +1,24 @@
+{
+  "objectName" : "saturnopenbook7",
+  "colonyTags" : ["saturn", "satBooks", "knowledge" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "A book held up by a stand.",
+  "shortdescription" : "^#000400;^white;Blank Book",
+  "category" : "decorative",
+  "race" : "saturn",
+  "saturnDescription" : "It's blank?",
+  "saturn2Description" : "A blank book.",
+  "satkyterranDescription" : "A blank book.",
+  "inventoryIcon" : "saturnopenbookicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnopenbook7.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

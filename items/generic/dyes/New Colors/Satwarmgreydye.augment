@@ -1,0 +1,15 @@
+{
+  "itemName" : "Satwarmgreydye",
+  "price" : 50,
+  "rarity" : "Rare",
+  "category" : "clothingDye",
+  "inventoryIcon" : "Satwarmgreydye.png",
+  "description" : "This strange dye seems to only work properly on Saturnian equipment.",
+  "shortdescription" : "Sat Warm Gray Dye",
+
+  "dyeColorIndex" : 19,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

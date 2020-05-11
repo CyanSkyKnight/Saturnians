@@ -1,0 +1,86 @@
+{
+  "itemName" : "satlightstaff",
+  "level" : 1,
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Controls a glowing ball of light that pulls in nearby items, or makes enemies glow for 30 seconds.",
+  "shortdescription" : "Fairy Beacon Wand",
+  "category" : "saturnwand",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","wand"],
+  "tooltipKind" : "saturnstaff",
+  "animation" : "/items/active/weapons/saturnstaff/saturnlightstaff2.animation",
+  "animationParts" : {
+    "staff" : "satlightstaff.png",
+    "stone" : "",
+    "chargeEffect" : "satglowLight.png"
+  },
+  "inventoryIcon" : "satlightstaff.png",
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+  "baseDamageFactor" : 0.4,
+  
+   "stances" : {
+    "idle" : {
+      "weaponOffset" : [0, 1.0],
+      "armRotation" : 0,
+      "weaponRotation" : -5,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 0.01,
+      "armRotation" : 10,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "weaponOffset" : [0, 1.5],
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -50,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "weaponOffset" : [0, 1.0],
+      "duration" : 0.2,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+  "elementalName" : "Electric",
+  "elementalType" : "electric",
+  "primaryAbility" : {
+    "type" : "satstylelight",
+    "name" : "Light",
+    "scripts" : ["/items/active/weapons/staff/abilities/controlprojectile/controlprojectile.lua"],
+    "class" : "ControlProjectile",
+    "energyCost" : 0,
+    "maxCastRange" : 5,
+    "projectileCount" : 1,
+    "projectileDistance" : 2.5,
+    "projectileType" : "satlightorb",
+    "projectileParameters" : {
+      "baseDamage" : 0
+    }
+  },
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

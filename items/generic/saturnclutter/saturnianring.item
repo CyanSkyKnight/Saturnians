@@ -1,0 +1,9 @@
+{
+  "itemName" : "saturnianring",
+  "price" : 250,
+  "rarity" : "Common",
+  "category" : "junk",
+  "inventoryIcon" : "saturnring.png",
+  "description" : "Rings like this are usually used to store shields as light, but this one is inactive.",
+  "shortdescription" : "Sol Crystal Ring"
+}

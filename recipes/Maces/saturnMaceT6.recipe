@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 3 },
+    { "item" : "refinedviolium", "count" : 3 }
+  ],
+  "output" : { "item" : "saturnMaceT6", "count" : 1 },
+  "groups" : [ "craftingseparator", "saturnenchantedweapon", "weapons", "all" ]
+}

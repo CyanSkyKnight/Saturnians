@@ -1,0 +1,52 @@
+{
+  "type" : "SaturnWaspmimtenant",
+  "baseType" : "SaturnWaspmimVillager",
+  
+  "dropPools" : [],
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "dialog" : {
+		"tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/grumble.config:tagCriteria",
+          "enclosedArea" : "/dialog/grumble.config:enclosedArea",
+          "otherDeed" : "/dialog/grumble.config:otherDeed",
+          "severe" : "/dialog/grumble.config:severe",
+          "final" : "/dialog/grumble.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/arrivedhome.config:beacon",
+          "rent" : "/dialog/arrivedhome.config:rent"
+        }
+      },
+      "flee" : {
+        "helpme" : "/dialog/flee.config:helpme",
+        "safe" : "/dialog/flee.config:safe"
+      },
+      "converse" : "/dialog/saturnWaspmim.config:beefriendhail",
+	  "attack" : "/dialog/saturnWaspmim.config:attack",
+      "reattack" : "/dialog/saturnWaspmim.config:reattack",
+      "killedTarget" : "/dialog/saturnWaspmim.config:killedTarget",
+      "lostTarget" : "/dialog/saturnWaspmim.config:lostTarget",
+      "outOfSight" : "/dialog/saturnWaspmim.config:outOfSight",
+      "cheerOn" : "/dialog/saturnWaspmim.config:cheerOn",
+      "cantReach" : "/dialog/saturnWaspmim.config:cantReach",
+
+      "hail" : "/dialog/saturnWaspmim.config:beefriendhail",
+
+      "accuse" : "/dialog/thief.config:accuse"
+    },
+    "questGenerator" : {
+      "pools" : ["common", "tenant", "hats"],
+      "enableParticipation" : true,
+
+      "timeLimit" : 30,
+      "nearbyQuestLimit" : 2,
+      "nearbyQuestRange" : 50,
+      "chance" : 0.02
+    }
+  }
+}

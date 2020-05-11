@@ -1,0 +1,27 @@
+{
+  "name" : "saturnnova",
+  "effectConfig" : {
+    "range" : 3,
+
+    "visualProjectileCount" : 8,
+    "visualProjectileType" : "armornova",
+    "visualProjectileSpeed" : 6.66,
+    "visualProjectileTime" : 0.75,
+    "visualDuration" : 0,
+    "border" : "1;AAAA5099;00000000",
+
+    "damageProjectileType" : "novadamage",
+
+    "damageMultiplier" : 1,
+
+    "cooldown" : 1
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "thorns.lua"
+  ],
+
+  "label" : "Fire Shield",
+  "icon" : "/interface/statuses/nova.png"
+}

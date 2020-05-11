@@ -1,0 +1,34 @@
+{
+  "itemName" : "saturnbroomcontroller",
+  "level" : 1,
+  "price" : 55000,
+  "rarity" : "Rare",
+  "category" : "vehicleController",
+  "description" : "Every wizard's dream. Can fly up to 180 blocks above the ground, but has no defenses.",
+  "shortdescription" : "Hover Broom",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "saturnvehiclecontroller.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+  "tooltipKind" : "vehicle",
+  "largeImage" : "saturnbroom.png",
+
+  "respawnTime" : 1.0,
+
+  "vehicleType" : "saturnbroom",
+  "vehicleBoundingBox" : [-5, -3, 5, 3],
+  "vehicleImage" : "/vehicles/hoverbike/saturnbroomwarp.png:warp.7",
+
+  "animationParts" : {
+    "casing" : "saturnbroomcontroller.png"
+  },
+
+  "inventoryIcon" : "saturnbroomcontroller.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/saturnbroomcontroller.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/saturnbroomcontroller.png:full"
+
+}

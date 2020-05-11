@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "crystalblock", "count" : 30 },
+    { "item" : "liquidfuel", "count" : 1 },
+    { "item" : "liquidhealing", "count" : 1 }
+	
+  ],
+  "output" : { "item" : "saturncrystalblock2", "count" : 30 },
+  "duration" : 0,
+  "groups"  : [ "craftingfurniture", "saturnmaterials", "materials", "all" ]
+}

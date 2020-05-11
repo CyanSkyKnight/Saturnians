@@ -1,0 +1,17 @@
+{
+  "itemName" : "saturn_orangespray",
+  "price" : 100,
+  "rarity" : "Common",
+  "category" : "medicine",
+  "inventoryIcon" : "saturn_orangespray.png",
+  "description" : "Used by Saturnian healers who are afraid of needles.",
+  "shortdescription" : "Orange Spray Bottle",
+  "effects" : [ [
+      {
+        "effect" : "runboost",
+        "duration" : 60
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

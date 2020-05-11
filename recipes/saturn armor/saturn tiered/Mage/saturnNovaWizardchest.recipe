@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 20 },
+    { "item" : "silk", "count" : 10 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "saturnNovaWizardchest", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "armours", "all" ]
+}

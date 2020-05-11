@@ -1,0 +1,24 @@
+{
+  "materialId" : 54716,
+  "materialName" : "saturncolorfulclaywallsyellow",
+  "particleColor" : [236, 216, 190, 255],
+  "itemDrop" : "saturncolorfulclaywalls",
+  "description" : "Bright walls made from hardened clay.",
+  "shortdescription" : "Yellow Clay Wall",
+  "glitchDescription" : "Delighted. These painted bricks are quaint.",
+  "floranDescription" : "Pretty painted bricksss.",
+  "novakidDescription" : "Some real pretty painted bricks.",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "saturncolorfulclaywallsyellow.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2600
+  }
+}

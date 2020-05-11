@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "hylotltier6ahead", "count" : 1 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "saturnhylotltier6ahead", "count" : 1 },
+  "groups" : [ "saturntransmoghats", "all" ]
+}

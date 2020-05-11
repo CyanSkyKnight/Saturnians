@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "moneybagshead", "count" : 1 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "saturnmoneybagshead", "count" : 1 },
+  "groups" : [ "saturntransmoghats", "all" ]
+}

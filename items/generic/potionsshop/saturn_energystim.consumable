@@ -1,0 +1,17 @@
+{
+  "itemName" : "saturn_energystim",
+  "rarity" : "Common",
+  "price" : 200,
+  "category" : "medicine",
+  "inventoryIcon" : "saturn_energystim.png",
+  "description" : "This potion grants 50 points of temporary energy.",
+  "shortdescription" : "Potion of Mana",
+  "effects" : [ [
+      {
+        "effect" : "saturn_maxenergyboost",
+        "duration" : 60
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

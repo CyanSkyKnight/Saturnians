@@ -1,0 +1,62 @@
+[
+	{
+		"op": "add",
+		"path": "/attack/human/saturn",
+		"value": [
+		"This just isn't your day!",
+        "We are the Occasus! You can't stop us!",
+        "Don't think you can get away, nonbeliever!",
+        "If you aren't with us, then you're against us!",
+        "Are you here to stop us? It doesn't matter anyway!",
+        "You can't stop us! Don't even try!",
+        "You shouldn't have come here!",
+        "You picked a bad time to come here!",
+        "A nonbeliever approaches!",
+        "If I kill you, Nox might promote me!",
+        "You shall not stop our plans!",
+        "The only good bug is a dead bug!",
+        "How have you not flown into a star yet?"
+			]
+	},
+	{
+		"op": "add",
+		"path": "/attack/human/satkyterran",
+		"value": [
+		"This just isn't your day!",
+        "We are the Occasus! You can't stop us!",
+        "Don't think you can get away, nonbeliever!",
+        "If you aren't with us, then you're against us!",
+        "Are you here to stop us? It doesn't matter anyway!",
+        "You can't stop us! Don't even try!",
+        "You shouldn't have come here!",
+        "You picked a bad time to come here!",
+        "A nonbeliever approaches!",
+        "If I kill you, Nox might promote me!",
+        "You shall not stop our plans!",
+        "The only good bug is a dead bug!",
+		"I almost mistook you for a wild animal!",
+        "Wow! You're an ugly one!"
+			]
+	},
+	
+	{
+		"op": "add",
+		"path": "/attack/human/saturn2",
+		"value": [
+		"This just isn't your day!",
+        "We are the Occasus! You can't stop us!",
+        "Don't think you can get away, nonbeliever!",
+        "If you aren't with us, then you're against us!",
+        "Are you here to stop us? It doesn't matter anyway!",
+        "You can't stop us! Don't even try!",
+        "You shouldn't have come here!",
+        "You picked a bad time to come here!",
+        "A nonbeliever approaches!",
+        "If I kill you, Nox might promote me!",
+        "You shall not stop our plans!",
+        "The only good bug is a dead bug!",
+		"If you like spirits so much, why don't you become one?",
+        "How have you not flown into a star yet?"
+			]
+	}
+]

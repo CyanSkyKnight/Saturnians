@@ -1,0 +1,27 @@
+{
+  "name" : "saturnvampire",
+  "effectConfig" : {
+    "range" : 128,
+
+    "visualProjectileCount" : 1,
+    "visualProjectileType" : "saturnspinningHominglifebullet",
+    "visualProjectileSpeed" : 50,
+    "visualProjectileTime" : 1,
+    "visualDuration" : 0,
+    "border" : "1;AA508099;00000000",
+
+    "damageProjectileType" : "armorthornburst",
+
+    "damageMultiplier" : 0,
+
+    "cooldown" : 0.1
+  },
+  "defaultDuration" : 0.1,
+
+  "scripts" : [
+    "thorns.lua"
+  ],
+
+  "label" : "Vampire",
+  "icon" : "/interface/statuses/nova.png"
+}

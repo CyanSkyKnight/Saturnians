@@ -1,0 +1,17 @@
+{
+  "itemName" : "saturn_redspray",
+  "price" : 100,
+  "rarity" : "Common",
+  "category" : "medicine",
+  "inventoryIcon" : "saturn_redspray.png",
+  "description" : "Used by Saturnian healers who are afraid of needles.",
+  "shortdescription" : "Red Spray Bottle",
+  "effects" : [ [
+      {
+        "effect" : "runboost",
+        "duration" : 60
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

@@ -1,0 +1,10 @@
+{
+  "author" : "Cyan Sky Knight",
+  "description" : "Hold up, let me copy the description back over here!",
+  "friendlyName" : "The Saturnians",
+  "includes" : ["cskBiomes"],
+  "name" : "saturnians",
+  "steamContentId" : "1103027918",
+  "tags" : "Crafting and Building|Weapons|Dungeons|Species|Furniture and Objects|Food and Farming|Vehicles and Mounts|Armor and Clothes",
+  "version" : "1.3.3"
+}

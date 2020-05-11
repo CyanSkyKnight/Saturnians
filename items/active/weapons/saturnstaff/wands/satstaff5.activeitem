@@ -1,0 +1,96 @@
+{
+  "itemName" : "satstaffT5",
+  "price" : 960,
+  "maxStack" : 1,
+  "level" : 5,
+  "rarity" : "Rare",
+  "description" : "",
+  "shortdescription" : "Regal Wand",
+  "category" : "saturnwand",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","wand", "upgradeableWeapon"],
+  "tooltipKind" : "staff",
+  "animation" : "/items/active/weapons/wand/wand.animation",
+  "animationParts" : {
+    "wand" : "satstaffregal.png",
+    "stone" : "satstaffregalFB.png",
+    "chargeEffect" : "satglowIce.png"
+  },
+  "animationCustom" : {
+    "lights" : { "glow" : {
+      "color" : [60, 120, 100]
+    }},
+	"sounds" : {
+    "electriccharge" : ["/sfx/melee/saturnstaffcharge3.ogg","/sfx/melee/saturnstaffcharge3b.ogg"],
+    "electricfullcharge" : ["/sfx/melee/saturncharge.ogg"],
+    "electricchargedloop" : ["/sfx/melee/staff_charged_electric2.ogg"],
+    "electricdischarge" : ["/sfx/melee/saturndischarge.ogg"],
+    "electricactivate" : ["/sfx/melee/saturnactive.ogg","/sfx/melee/saturnactive2.ogg", "/sfx/melee/saturnactive3.ogg"]
+    }
+  },
+  "inventoryIcon" : "satstaffregal.png",
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+   "stances" : {
+    "idle" : {
+      "weaponOffset" : [0, 1.0],
+      "armRotation" : -90,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 1.0,
+      "armRotation" : 10,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "weaponOffset" : [0, 1.5],
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -50,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "weaponOffset" : [0, 1.0],
+      "duration" : 0.5,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+  "elementalName" : "Electric",
+  "elementalType" : "electric",
+  "primaryAbility" : {
+    "type" : "satLightningPortal",
+    "name" : "Lightning Portal",
+    "scripts" : ["/items/active/weapons/staff/abilities/controlprojectile/controlprojectile.lua"],
+    "class" : "ControlProjectile",
+    "energyCost" : 100,
+    "maxCastRange" : 30,
+    "projectileCount" : 1,
+    "projectileDistance" : 0.5,
+    "projectileType" : "satelectricportal",
+    "projectileParameters" : {
+      "baseDamage" : 6
+    }
+  },
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,52 @@
+{
+  "itemName" : "SaturnBowT3",
+  "price" : 640,
+  "inventoryIcon" : "SaturnBowT3icon.png",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "tooltipKind" : "bow",
+  "category" : "saturnbow",
+  "description" : "",
+  "shortdescription" : "Crystal Light Bow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "bow", "upgradeableWeapon"],
+  "radioMessagesOnPickup" : [ "pickupbow" ],
+  "level" : 3,
+  "animation" : "/items/active/weapons/Saturn Shortbows/SaturnLightbow.animation",
+  "animationParts" : {
+    "bow" : "SaturnBowT3.png",
+	"bowFullbright" : "SaturnBowT3FB.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0, -0.0625]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/melee/saturnbowdraw.ogg", "/sfx/melee/saturnbowdraw2.ogg", "/sfx/melee/saturnbowdraw3.ogg" ],
+      "release" : [ "/sfx/gun/bow_loose.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
+    },
+	"lights" : {
+      "glow" : {
+        "color" : [5, 43, 33]
+		}
+	  }
+  },
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "projectileType" : "Saturncrystalarrow3",
+    "powerProjectileType" : "Saturnchargedcrystalarrow3",
+    "projectileParameters" : {
+      "power" : 6.5
+    }
+  },
+  "altAbilityType" : "zenshot",
+  "altAbility" : {
+    "projectileType" : "Saturncrystalarrow3",
+    "projectileParameters" : {
+      "power" : 8.125
+    }
+  },
+  "builder" : "/items/buildscripts/buildbow.lua"
+}

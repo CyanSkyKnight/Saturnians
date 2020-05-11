@@ -1,0 +1,27 @@
+{
+  "projectileName" : "saturninvis",
+  "image" : "saturninvis.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "timeToLive" : 0.2,
+  "physics" : "laser",
+  "piercing" : false,
+  "flippable" : true,
+  "fullbright" : true,
+  "damageKindImage" : "/interface/statuses/glow.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+
+  ],
+  "damagePoly" : [ [-4.5, 0], [-3, -3], [0, -4.5], [3, -3], [4.5, 0], [3, 3], [0, 4.5], [-3, 3] ],
+  "damageKind" : "plasma",
+  "periodicActions" : [
+	{
+      "action" : "particle",
+      "specification" : "saturnsparkledim",
+      "rotate" : true,
+      "time" : 0.01,
+      "repeat" : true
+    }
+  ]
+}

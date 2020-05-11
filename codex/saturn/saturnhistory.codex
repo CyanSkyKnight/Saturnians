@@ -1,0 +1,19 @@
+{
+	"id" : "saturnhistory",
+	"title" : "Origin of the Saturnians",
+	"species" : "other",
+	"description" : "Early history of the Saturnians",
+	"icon" : "saturnbook1.png",
+	"contentPages" : [
+
+	"The origin of Saturnians has been shrouded in mystery. Solalei describes Saturnians as having fled from some calamity in the stars, and believe it is there duty to prevent such a calamity from happening again. Actias folklore describes Saturnians as being reincarnations of ancient spirits. Rubicunda believes that Saturnians and all of their history just materialized all at once.",
+
+	"Though the origin point is unknown, Saturnians were said to have spread out across the sky, forming hundreds of countries. Many Saturnians began to develop different colorations due to different environments. Over millennia, many of these countries have banded back together. As most Saturnians build on floating islands and airships, an alliance physically links the two countries together, forming a larger web of cities. "
+
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Common",
+    "price" : 50
+  }
+}

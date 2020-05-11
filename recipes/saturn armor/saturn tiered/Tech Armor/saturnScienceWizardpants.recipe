@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 8 },
+    { "item" : "durasteelbar", "count" : 4 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "saturnScienceWizardpants", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "armours", "all" ]
+}

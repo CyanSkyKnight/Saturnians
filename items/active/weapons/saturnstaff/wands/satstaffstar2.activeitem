@@ -1,0 +1,107 @@
+{
+  "itemName" : "satstaffstar2",
+  "level" : 6,
+  "price" : 1440,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Generates and fires 8 needles of evolight.",
+  "shortdescription" : "Sun Staff",
+  "category" : "saturnstaff",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","staff", "upgradeableWeapon"],
+  "tooltipKind" : "staff",
+  
+  "animation" : "/items/active/weapons/saturnstaff/satstaff.animation",
+  "animationParts" : {
+    "staff" : "satstarwand2.png",
+    "stone" : "satstarwand2FB.png",
+    "chargeEffect" : "satglowstar.png"
+  },
+   "animationCustom" : {
+    "lights" : {
+      "glow" : {
+        "color" : [100, 100, 100]
+		}
+	  },
+    "sounds" : {
+      "physicalactivate" : ["/sfx/npc/boss/cultistboss_recharge.ogg"],
+      "zoneactivate" : ["/sfx/melee/giantsword_charge_full.ogg"]
+    }
+  },
+  "inventoryIcon" : "satstarwand2ico.png",
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+  
+   "stances" : {
+    "idle" : {
+      "weaponOffset" : [0, 1.0],
+      "armRotation" : -90,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 1.0,
+      "armRotation" : 10,
+      "weaponRotation" : -20,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "weaponOffset" : [0, 1.5],
+      "armRotation" : 10,
+      "weaponRotation" : -20,
+      "twoHanded" : true,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -50,
+      "twoHanded" : true,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "weaponOffset" : [0, 1.0],
+      "duration" : 0.5,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+  "elementalName" : "Electric",
+   "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "type" : "plasmabarrage",
+    "name" : "Light Needles",
+    "scripts" : ["/items/active/weapons/staff/abilities/controlprojectile/plasmabarrage.lua"],
+    "class" : "ControlProjectile",
+    "energyCost" : 80,
+
+    "maxCastRange" : 25,
+
+    "projectileCount" : 8,
+    "projectileDistance" : 4,
+    "projectileType" : "saturnlightblade",
+    "projectileParameters" : {
+      "baseDamage" : 30
+    },
+    "triggerSound" : ["/sfx/melee/saturnstafflaunch.ogg"],
+
+    "projectileDelayFirst" : 1.0,
+    "projectileDelayEach" : 0.15
+  },
+
+  "altAbilityType" : "healingzone",
+  
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

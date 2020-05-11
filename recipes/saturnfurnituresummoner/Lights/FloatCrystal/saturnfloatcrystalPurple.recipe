@@ -1,0 +1,8 @@
+  {
+  "input" : [
+    { "item" : "torch", "count" : 1 },
+    { "item" : "glass", "count" : 2 }
+  ],
+  "duration" : 0.005, "output" : { "item" : "saturnfloatcrystalPurple", "count" : 1 },
+  "groups" : [ "saturnlights", "all" ]
+}

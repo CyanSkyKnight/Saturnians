@@ -1,0 +1,86 @@
+{
+  "itemName" : "satstafflightning",
+  "level" : 3,
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Shoots an icy comet, damaging and slowing down foes.",
+  "shortdescription" : "Comet Wand",
+  "category" : "saturnwand",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","wand"],
+  "tooltipKind" : "staff",
+  "animation" : "/items/active/weapons/saturnstaff/satstaff.animation",
+  "animationParts" : {
+    "staff" : "satstaffY.png",
+    "stone" : "",
+    "chargeEffect" : "satglowEle.png"
+  },
+  "inventoryIcon" : "satstaffY.png",
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+  "baseDamageFactor" : 0.4,
+  
+   "stances" : {
+    "idle" : {
+      "weaponOffset" : [0, 1.0],
+      "armRotation" : -90,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 1.0,
+      "armRotation" : 10,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "weaponOffset" : [0, 1.5],
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -50,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "weaponOffset" : [0, 1.0],
+      "duration" : 0.5,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+  "elementalName" : "Electric",
+  "elementalType" : "electric",
+  "primaryAbility" : {
+    "type" : "satLightning",
+    "name" : "Lightning Strike",
+    "scripts" : ["/items/active/weapons/staff/abilities/controlprojectile/controlprojectile.lua"],
+    "class" : "ControlProjectile",
+    "energyCost" : 200,
+    "maxCastRange" : 30,
+    "projectileCount" : 1,
+    "projectileDistance" : 0.5,
+    "projectileType" : "saturnlightning",
+    "projectileParameters" : {
+      "baseDamage" : 10
+    }
+  },
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

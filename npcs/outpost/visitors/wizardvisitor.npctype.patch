@@ -1,0 +1,11 @@
+[
+	{ "op" : "add", "path" : "/scriptConfig/dialog/converse/default/saturn", "value" : [
+	
+        "Intrigued. Have you found any staves or wands recently, fellow wizard? They are powerful weapons in the right hands!",
+        "Excited. I'm researching the different kinds of staves and wands. How do Saturnians weave light with them?",
+        "Nervous. These robes are elegant, but they are indeed difficult to walk in."
+        ] 
+	},
+
+
+{ "op": "copy", "from": "/scriptConfig/dialog/converse/default/saturn", "path": "/scriptConfig/dialog/converse/default/saturn2" } ] 

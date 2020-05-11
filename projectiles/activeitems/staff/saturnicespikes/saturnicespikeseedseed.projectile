@@ -1,0 +1,39 @@
+{
+  "projectileName" : "saturnicespikeseedseed",
+  "physics" : "grenade",
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/melee/saturndischarge.ogg"
+      ]
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "saturnicespikeseed",
+	  "inheritDamageFactor" : 1,
+      "config" : {}
+    },
+	{
+      "action" : "projectile",
+      "type" : "saturnianrune",
+      "config" : {}
+    }
+  ],
+  "image" : "saturnicespikeseed.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [0, 0, 0],
+  "fullbright" : true,
+  "power" : 20,
+  "speed" : 200,
+  "knockback" : 10,
+  "knockbackDirectional" : true,
+  "damageKind" : "bow",
+  "timeToLive" : 2,
+  "damagePoly" : [ [8, -0.2], [8.5, -0.2], [8.5, 0.2], [8, 0.2] ],
+  "pointLight" : false
+}

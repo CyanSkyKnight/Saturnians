@@ -1,0 +1,86 @@
+{
+  "itemName" : "satstaffBounce",
+  "level" : 1,
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Affects friends and foes caught in the field with bounce gel. Can be used to survive falls, as long as you aren't falling too fast",
+  "shortdescription" : "Bounce Wand",
+  "category" : "saturnwand",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","wand"],
+  "tooltipKind" : "staff",
+  "animation" : "/items/active/weapons/saturnstaff/satstaff.animation",
+  "animationParts" : {
+    "staff" : "satslime.png",
+    "stone" : "",
+    "chargeEffect" : "satglowPoison.png"
+  },
+  "inventoryIcon" : "satslime.png",
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+  "baseDamageFactor" : 0.4,
+  
+   "stances" : {
+    "idle" : {
+      "weaponOffset" : [0, 1.0],
+      "armRotation" : -90,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 1.0,
+      "armRotation" : 10,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "weaponOffset" : [0, 1.5],
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -50,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "weaponOffset" : [0, 1.0],
+      "duration" : 0.5,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+  "elementalName" : "Physical",
+  "elementalType" : "physical",
+  "primaryAbility" : {
+    "type" : "satbounceeffect",
+    "name" : "Bounce Field",
+    "scripts" : ["/items/active/weapons/staff/abilities/controlprojectile/controlprojectile.lua"],
+    "class" : "ControlProjectile",
+    "energyCost" : 150,
+    "maxCastRange" : 300,
+    "projectileCount" : 1,
+    "projectileDistance" : 0.5,
+    "projectileType" : "saturneffectzone",
+    "projectileParameters" : {
+      "baseDamage" : 0
+    }
+  },
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

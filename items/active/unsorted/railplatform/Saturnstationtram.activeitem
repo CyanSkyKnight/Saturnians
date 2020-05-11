@@ -1,0 +1,22 @@
+{
+  "itemName" : "Saturnstationtram",
+  "level" : 1,
+  "price" : 2500,
+  "rarity" : "Rare",
+  "category" : "railPlatform",
+  "description" : "This rail tram travels at nearly twice the speed of a standard one.",
+  "shortdescription" : "Saturnian Rail Tram",
+  "twoHanded" : true,
+  "maxStack" : 10,
+
+  "inventoryIcon" : "Saturnstationtramicon.png",
+
+  "scripts" : ["railplatform.lua"],
+  "animationScripts" : ["placementpreview.lua"],
+
+  "placementRange" : 15,
+  "placementBounds" : [-2.5, -0.25, 2.5, 3.75],
+  "placementPreviewImage" : "/items/active/unsorted/railplatform/Saturnstationtrampreview.png",
+
+  "platformType" : "Saturnstationtram"
+}

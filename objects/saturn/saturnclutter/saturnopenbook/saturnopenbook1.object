@@ -1,0 +1,31 @@
+{
+  "objectName" : "saturnopenbook1",
+  "colonyTags" : ["saturn", "satBooks", "knowledge", "magic" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "A book about staff crafting written in the Saturnian language.",
+  "shortdescription" : "^#000400;^white;^#000400;^white;Enchanter's Book",
+  "category" : "decorative",
+  "race" : "saturn",
+  
+  "glitchDescription" : "Observation. A book.",
+  "floranDescription" : "Ssstrange symbols.",
+  "novakidDescription" : "A book written in the Saturnian language.",
+  
+  "saturnDescription" : "\"Wands are built with a channeling rod and a crystal focus. Together they can be used to weave light together.\"",
+  "saturn2Description" : "\"While some do use light magic, most Actians prefer to instead channel spirits into objects. The process of this is a closely guarded secret.\"",
+  "satkyterranDescription" : "\"Wands are built with a channeling rod and a crystal focus. Together they can be used to weave light together.\"",
+  "saturnmothman" : "\"Wands are built with a channeling rod and a crystal focus. Together they can be used to weave light together.\"",
+  
+  "inventoryIcon" : "saturnopenbook1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnopenbook1.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

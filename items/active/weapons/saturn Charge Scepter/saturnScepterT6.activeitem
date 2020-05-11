@@ -1,0 +1,86 @@
+{
+  "itemName" : "saturnScepterT6",
+  "price" : 200,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Ancient weapon.",
+  "shortdescription" : "Supernova Scepter",
+  "tooltipKind" : "base",
+  "category" : "Charge Scepter",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged", "wand", "upgradeableWeapon"],
+  "level" : 1,
+  "inventoryIcon" : "saturnbeamstafficon.png",
+  "animation" : "saturnchargestaff.animation",
+  "animationParts" : {
+    "gun" : "saturnbeamstaff.png",
+    "gunfullbright" : "saturnbeamstaffFB.png"
+  },
+  "animationCustom" : {},
+  "muzzleOffset" : [0, 0],
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/abilities/chargefire/chargefire.lua"],
+    "class" : "ChargeFire",
+    "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 20,
+        "cooldown" : 0.1,
+        "projectileType" : "saturnlightbullet2",
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 1,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1.0,
+        "energyCost" : 70,
+        "cooldown" : 1,
+        "projectileType" : "saturnbeamturret",
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 1,
+        "fireSound" : "fire2"
+      }
+    ],
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : 90,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "charge" : {
+        "armRotation" : 45,
+        "weaponRotation" : 90,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.2,
+        "armRotation" : 45,
+        "weaponRotation" : 90,
+        "twoHanded" : false,
+		"armAngularVelocity" : -1060,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : -90,
+        "weaponRotation" : 90,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }}
+},
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

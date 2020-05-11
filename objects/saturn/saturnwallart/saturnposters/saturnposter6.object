@@ -1,0 +1,22 @@
+{
+  "objectName" : "saturnposter6",
+  "colonyTags" : ["saturn", "waspmim", "pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "description" : "ALL HAIL BEE!",
+  "shortdescription" : "^#000200;^white;Waspmim Bee Poster",
+  "race" : "saturn",
+
+  "inventoryIcon" : "saturnposter6icon.png",
+  "orientations" : [
+    {
+      "image" : "saturnposter6.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

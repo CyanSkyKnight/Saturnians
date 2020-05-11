@@ -1,0 +1,13 @@
+{
+  "itemName" : "saturnebonycore",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "saturnebonycore.png",
+  "largeImage" : "/items/materials/tooltips/saturnebonycore.png",
+  "tooltipKind" : "saturnpaintedblock",
+  
+  "shortdescription" : "Ebony Core",
+  "description" : "Solid wood from a giant alien tree.",
+  "materialId" : 54722
+}

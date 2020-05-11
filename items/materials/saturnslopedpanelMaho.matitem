@@ -1,0 +1,23 @@
+{
+  "itemName" : "saturnslopedpanelMaho",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "saturnslopedpanelMaho.png",
+  "largeImage" : "/items/materials/tooltips/saturnslopedpanelMaho.png",
+  "tooltipKind" : "saturnpaintedblock",
+  
+  "shortdescription" : "Mahogany Panel",
+  "description" : "Sloped wood panels similar to that of Earth's mahogany trees. It is completely fireproof. ",
+  
+  "apexDescription" : "Some crafted planks of wood.",
+  "avianDescription" : "Wood that's been crafted into planks.",
+  "glitchDescription" : "Satisfied. These are well crafted wood planks.",
+  "floranDescription" : "Sssplintery wood plankss.",
+  "humanDescription" : "Some simple planks made from wood.",
+  "hylotlDescription" : "Basic wood planks.",
+  "novakidDescription" : "Just some basic lookin' wood planks.",
+  "saturndescription" : "Supposedly this wood is only so popular because alchemists and wizards can't set it on fire.",
+
+  "materialId" : 54709
+}

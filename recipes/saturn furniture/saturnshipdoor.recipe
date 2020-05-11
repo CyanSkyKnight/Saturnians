@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 1 },
+    { "item" : "phasematter", "count" : 1 },
+    { "item" : "wire", "count" : 5 }
+  ],
+  "duration" : 0,
+  "output" : { "item" : "saturnshipdoor", "count" : 1 },
+  "groups" : [ "saturnfurniture", "craftingfurniture2", "doors", "all" ]
+}

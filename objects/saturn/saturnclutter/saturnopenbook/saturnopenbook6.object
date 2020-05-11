@@ -1,0 +1,25 @@
+{
+  "objectName" : "saturnopenbook6",
+  "colonyTags" : ["saturn", "satBooks", "knowledge" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "A book about alien mushrooms with lots of sketches of them.",
+  "shortdescription" : "^#000400;^white;Mushroom Book",
+  "category" : "decorative",
+  "race" : "saturn",
+  "saturnDescription" : "Certain mushrooms are said to be great for alchemy, but I have not seen any around here.",
+  "saturn2Description" : "Actians like to grow giant mushrooms and hollow them out as buildings.",
+  "satkyterranDescription" : "Kyterrans farm quite a variety of mushrooms.",
+  
+  "inventoryIcon" : "saturnopenbook6icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnopenbook6.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

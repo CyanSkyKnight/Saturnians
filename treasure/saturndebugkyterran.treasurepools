@@ -1,0 +1,26 @@
+
+{
+ 	"saturndebugkyterran" : [
+		[0, {
+			"fill" : [
+				{ "item" : [ "saturnAshkythead", 1]},
+				{ "item" : [ "saturnAshkytchest", 1]},
+				{ "item" : [ "saturnAshkytlegs", 1]},
+
+				{ "item" : [ "saturnAshkyt2head", 1]},
+				{ "item" : [ "saturnAshkyt2chest", 1]},
+				{ "item" : [ "saturnAshkyt2legs", 1]},
+				
+				{ "item" : [ "saturnAshkyt3head", 1]},
+				{ "item" : [ "saturnAshkyt3chest", 1]},
+				{ "item" : [ "saturnAshkyt3legs", 1]},
+				
+				{ "item" : [ "drillspear", 1]},
+				{ "item" : [ "heatprotectionback", 1]},
+				{ "item" : [ "gravityaugment", 1]},
+				
+				{ "item" : [ "money", 500000]}
+			]
+		} ]
+	]
+}

@@ -1,0 +1,36 @@
+{
+ 	"saturndebugart" : [
+		[0, {
+			"fill" : [
+				{ "item" : [ "saturnpainting1", 1]},
+				{ "item" : [ "saturnpainting2", 1]},
+				{ "item" : [ "saturnpainting3", 1]},
+				{ "item" : [ "saturnpainting4", 1]},
+				{ "item" : [ "saturnposter", 1]},
+				{ "item" : [ "saturnposter2", 1]},
+				{ "item" : [ "saturnposter3", 1]},
+				{ "item" : [ "saturnposter4", 1]},
+				{ "item" : [ "saturnposter5", 1]},
+				{ "item" : [ "saturnposter6", 1]},
+				{ "item" : [ "saturnbanner1", 1]},
+				{ "item" : [ "saturnbanner2", 1]},
+				{ "item" : [ "saturnbanner3", 1]},
+				{ "item" : [ "saturnbanner4", 1]},
+				{ "item" : [ "saturnbanner5", 1]},
+				{ "item" : [ "saturnbanner6", 1]},
+				{ "item" : [ "saturnbanner7", 1]},
+				{ "item" : [ "saturnbanner8", 1]},
+				{ "item" : [ "saturnbanner9", 1]},
+				{ "item" : [ "saturnbanner10", 1]},
+				{ "item" : [ "saturnbanner11", 1]},
+				{ "item" : [ "saturnbanner12", 1]},
+				{ "item" : [ "saturnbanner13", 1]},
+				{ "item" : [ "saturnbanner14", 1]},
+				{ "item" : [ "saturnbanner15", 1]},
+				{ "item" : [ "saturnbookcase", 1]}
+				
+				
+			]
+		} ]
+	]
+}

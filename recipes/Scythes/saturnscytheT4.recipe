@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 6 },
+    { "item" : "copperbar", "count" : 6 }
+  ],
+  "output" : { "item" : "saturnscytheT4", "count" : 1 },
+  "groups" : [ "craftinganvil3", "saturnenchantedweapon", "weapons", "all" ]
+}

@@ -1,0 +1,32 @@
+{
+  "projectileName" : "saturnhyperbeam",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "saturnlightbullet2.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "timeToLive" : 0.3,
+  "power" : 50,
+  "speed" : 140,
+  "supportsProcessing" : true,
+  "periodicActions" : [
+    {
+      "action" : "particle",
+      "specification" : "saturnhyperbeamtrail",
+      "rotate" : true,
+      "time" : 0.01,
+      "repeat" : true
+    }
+  ],
+  
+  
+  
+  
+  
+  "lightColor" : [100, 100, 90],
+  "fullbright" : true,
+  "damagePoly" : [ [-10, 0], [2, 4], [10, 0], [2, -4] ],
+  "piercing" : true,
+  "damageKind" : "plasma"
+}

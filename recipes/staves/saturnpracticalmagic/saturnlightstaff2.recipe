@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 1},
+	{ "item" : "saturnlumenjuice", "count" : 1},
+    { "item" : "darkwoodmaterial", "count" : 4 }
+  ],
+  "output" : { "item" : "saturnlightstaff2", "count" : 1 },
+  "groups" : [ "saturnpracticalmagic", "craftingfarm", "survival", "all" ]
+}

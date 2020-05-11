@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "eyepatchhead", "count" : 1 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "saturneyepatchhead", "count" : 1 },
+  "groups" : [ "saturntransmoghats", "all" ]
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "saturntenantorbT6i",
+  "colonyTags" : ["saturn", "combat", "saturnt6" ],
+  "rarity" : "rare",
+  "description" : "(Invisible) When placed with the other required items, Sat. guard tenants will spawn at ^#ffc926;Tier 6^reset;. Can be placed in midair.",
+  "shortdescription" : "Solarium Defense Gem (I)",
+  "race" : "saturn",
+  "category" : "decorative",
+  "price" : 400,
+
+  
+  "inventoryIcon" : "saturntenantorbT6icon.png",
+  "orientations" : [
+    {
+      "image" : "saturntenantorbT6i.png:<color>.<frame>",
+      "imagePosition" : [-4, -6],
+      "direction" : "left",
+      "spaceScan" : 0.1
+    },
+    {
+      "image" : "saturntenantorbT6i.png:<color>.<frame>",
+      "imagePosition" : [-4, -6],
+      "direction" : "right",
+      "spaceScan" : 0.1
+    }
+  ],
+  "animation" : "saturntenantorb.animation",
+  "animationParts" : {
+    "light" : "saturntenantorbT6i.png"
+  },
+  "animationPosition" : [-4, -6]
+
+}

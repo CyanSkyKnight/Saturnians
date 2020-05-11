@@ -1,0 +1,16 @@
+{
+  "itemName" : "saturnslopedmetalpanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "saturnslopedmetalpanel.png",
+  "largeImage" : "/items/materials/tooltips/saturnslopedmetalpanel.png",
+  "tooltipKind" : "saturnpaintedblock",
+  "shortdescription" : "Bronze Panel",
+  "description" : "Sloped bronze panels. Paint it yellow to match brass.",
+  "glitchdescription" : "Observant. This is panelling widely used for ship and station construction.",
+  "florandescription" : "Shiny sssmooth space metal.",
+  "novakiddescription" : "Some thick metal plating, looks mighty solid.",
+  "learnBlueprintsOnPickup" : [ "saturnslopedmetalpanel" ],
+  "materialId" : 54700
+}

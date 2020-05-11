@@ -1,0 +1,28 @@
+{
+  "name": "guard_saturnT4",
+  "priority": 11,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "saturn": 6,
+    "combat": 8,
+	"tier4": 6
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "saturn",
+      "level": 4,
+      "type": "friendlyguardtenant",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "villagerGift"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "projectileName" : "saturnspinningHomingbulletfast",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "saturnspinningplasmabullet.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "timeToLive" : 1,
+  "power" : 50,
+  "speed" : 75,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "lightColor" : [0, 73, 73],
+  "fullbright" : true,
+
+  "scripts" : [ "/scripts/projectiles/homingprojectile.lua"  ],
+  
+  "homingDistance" : 64,
+  "rotationRate" : 90,
+  "trackingLimit" : 360,
+  "timeToLiveVariance" : 0,
+  "damageKind" : "plasma"
+}

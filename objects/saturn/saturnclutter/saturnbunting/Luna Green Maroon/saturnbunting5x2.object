@@ -1,0 +1,27 @@
+{
+  "objectName" : "saturnbunting5x2lunamar",
+  "colonyTags" : ["thaumoth","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+  "description" : "Decorative ^#7BD67A;green ^reset;and ^#8F4652;maroon ^reset;bunting based on the colors of luna moths.",
+  "shortdescription" : "^#7BD67A;Luna ^#8F4652;Maroon^reset; Bunting 5x2",
+  "race" : "saturn",
+  "apexDescription" : "A wonderfully vibrant banner.",
+  "avianDescription" : "The grounded decorate their villages banners like this. They fill their lives with colour.",
+  "floranDescription" : "Pretty colourss, reminds Floran of flowers.",
+  "glitchDescription" : "Charmed. Poorly-made, but beautiful nonetheless.",
+  "humanDescription" : "Bright and cheerful colours",
+  "hylotlDescription" : "Such vibrancy can only exist above the ocean.",
+  "novakidDescription" : "There's somethin' about this banner. I like it.",
+  "inventoryIcon" : "saturnbuntingicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnbunting5x2.png",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1
+    }
+  ]
+}

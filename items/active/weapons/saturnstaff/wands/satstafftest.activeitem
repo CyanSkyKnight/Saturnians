@@ -1,0 +1,72 @@
+{
+  "itemName" : "satstafftest",
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "(UNUSED)",
+  "shortdescription" : "Test Wand",
+  "category" : "saturnwand",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","wand"],
+  "tooltipKind" : "staff",
+  "animation" : "/items/active/weapons/saturnstaff/satstaff.animation",
+  "animationParts" : {
+    "staff" : "satBranchstaff.png",
+    "stone" : "",
+    "chargeEffect" : "satglowPoison.png"
+  },
+  "inventoryIcon" : "satBranchstaff.png",
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+  "baseDamageFactor" : 0.4,
+  
+   "stances" : {
+    "idle" : {
+      "weaponOffset" : [0, 1.0],
+      "armRotation" : -90,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 1.0,
+      "armRotation" : 10,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "weaponOffset" : [0, 1.5],
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -50,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "weaponOffset" : [0, 1.0],
+      "duration" : 0.5,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+  "elementalType" : "poison",
+  "primaryAbilityType" : "elementswarm",
+  "primaryAbility" : {
+  },
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "saturnebony", "count" : 20 },
+	{ "item" : "saturnslopedbrasspanel", "count" : 10 }
+  ],
+  "duration" : 0.005,
+  "output" : { "item" : "saturnpropeller", "count" : 1 },
+  "groups" : [ "saturnclutter", "all" ]
+}

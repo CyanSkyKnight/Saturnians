@@ -1,0 +1,15 @@
+{
+  "itemName" : "saturnLunaDye",
+  "price" : 50,
+  "rarity" : "Legendary",
+  "category" : "clothingDye",
+  "inventoryIcon" : "saturnLunaDye.png",
+  "description" : "This strange dye only works on Sat equip. Some clothes are even dyed 2 colors. ",
+  "shortdescription" : "Sat. Luna Green Dye",
+
+  "dyeColorIndex" : 23,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

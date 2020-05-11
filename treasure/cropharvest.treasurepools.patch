@@ -1,0 +1,34 @@
+[
+ {"op":"add", "path":"/saturnlumenHarvest", 
+ "value": [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "saturnlumenfruit"},
+        {"weight" : 0.01, "item" : "saturnlumenseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ] },
+  
+ {"op":"add", "path":"/saturnlavaplantHarvest", 
+ "value": [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "obsidian"},
+        {"weight" : 0.01, "item" : "saturnlavaplant"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ] } 
+  
+  
+  
+  ]

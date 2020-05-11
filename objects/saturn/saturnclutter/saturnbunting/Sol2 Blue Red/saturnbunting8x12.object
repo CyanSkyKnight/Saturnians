@@ -1,0 +1,27 @@
+{
+  "objectName" : "saturnbunting8x12blured",
+  "colonyTags" : ["saturn","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+  "description" : "Decorative ^#5B87A8;blue ^reset;and ^#B95C50;maroon ^reset;bunting woven with silk.",
+  "shortdescription" : "^#5B87A8;Blue ^reset;+ ^#B95C50;Maroon^reset; Bunting 8x12",
+  "race" : "saturn",
+  "apexDescription" : "A wonderfully vibrant banner.",
+  "avianDescription" : "The grounded decorate their villages banners like this. They fill their lives with colour.",
+  "floranDescription" : "Pretty colourss, reminds Floran of flowers.",
+  "glitchDescription" : "Charmed. Poorly-made, but beautiful nonetheless.",
+  "humanDescription" : "Bright and cheerful colours",
+  "hylotlDescription" : "Such vibrancy can only exist above the ocean.",
+  "novakidDescription" : "There's somethin' about this banner. I like it.",
+  "inventoryIcon" : "saturnbuntingicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnbunting8x12.png",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1
+    }
+  ]
+}

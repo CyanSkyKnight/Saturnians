@@ -1,0 +1,82 @@
+{
+  "itemName" : "SatGatlingCrystal",
+  "price" : 1440,
+  "inventoryIcon" : "SatGatlingCrystal.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "That's a bit excessive.",
+  "shortdescription" : "Crystal Minigun",
+  "level" : 5,
+  "tooltipKind" : "saturngun",
+  "category" : "saturnminigun",
+  "itemTags" : ["weapon", "ranged", "assaultrifle", "crystal", "upgradeableWeapon"],
+  "twoHanded" : true,
+  "animation" : "saturnminigun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "SatGatlingCrystal.png",
+    "barrel" : "",
+	"lights" : "SatGatlingCrystalFB.png",
+    "muzzleFlash" : "saturncrystalmuzzle.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/SaturnCrystalRifle4.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [0, 0, 0]
+      },
+      "glow" : {
+        "color" : [15, 53, 43]
+		}
+    }
+  },
+  "baseOffset" : [0.6, -0.8],
+  "muzzleOffset" : [3, -0.5],
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "elementalType" : "fire",
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.08,
+    "baseDps" : 10,
+    "energyUsage" : 40,
+    "inaccuracy" : 0.1,
+    "projectileCount" : 1,
+    "fireType" : "auto",
+    "projectileType" : "Saturncrystalneedle",
+    "projectileParameters" : {
+      "speed" : 65,
+      "knockback" : 6
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : -4,
+        "weaponRotation" : -4,
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : -4,
+        "weaponRotation" : -4,
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+  
+  "altAbilityType" : "grenadelauncher",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

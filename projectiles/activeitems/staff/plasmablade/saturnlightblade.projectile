@@ -1,0 +1,39 @@
+{
+  "projectileName" : "saturnlightblade",
+  "physics" : "default",
+  "timeToLive" : 3,
+  "image" : "saturnlightblade.png",
+  "animationCycle" : 0.2,
+  "lightColor" : [30, 30, 80],
+  "frameNumber" : 1,
+  "speed" : 0,
+  "power" : 30,
+  "damageKind" : "spear",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+
+  "fullbright" : true,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/gun/impact_plasma.ogg"
+      ]
+    },
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/elementimpact/fireimpact.config"
+    }
+  ],
+
+  "bounces" : 0,
+
+  "scripts" : [ "/projectiles/activeitems/staff/plasmablade/plasmablade.lua" ],
+
+  "triggerSpeed" : 80,
+
+  "controlRotation" : {
+    "maxSpeed" : 16,
+    "controlForce" : 70,
+    "friction" : 10
+  }
+}

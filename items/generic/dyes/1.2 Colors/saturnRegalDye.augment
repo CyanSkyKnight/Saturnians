@@ -1,0 +1,15 @@
+{
+  "itemName" : "saturnRegalDye",
+  "price" : 50,
+  "rarity" : "Legendary",
+  "category" : "clothingDye",
+  "inventoryIcon" : "saturnRegalDye.png",
+  "description" : "This strange dye only works on Sat equip. Some clothes are even dyed 2 colors. ",
+  "shortdescription" : "Sat. Regal Blue Dye",
+
+  "dyeColorIndex" : 22,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

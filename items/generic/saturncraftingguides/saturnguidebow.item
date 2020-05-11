@@ -1,0 +1,22 @@
+{
+  "itemName" : "saturnguidebow",
+  "price" : 2500,
+  "rarity" : "Rare",
+  "category" : "saturncraftingguide",
+  "tooltipKind" : "saturnlorescrollpic",
+  "largeImage" : "saturnguidebow.png",
+  "inventoryIcon" : "icon.png",
+  "shortdescription" : "Saturnian Bow Scroll",
+  "description" : "This scroll details how to craft 6 Saturnian light bows, 2-handed weapons. When shot with the correct timing, the arrow stays lit for a while. \n^green;When picked up by non-Saturnians/Thaumoths, allows crafting of all tiered Saturnian light bows. (Tiers 1-6)",
+
+  
+  	"learnBlueprintsOnPickup" : [ 
+	"SaturnBowT1",
+	"SaturnBowT2",
+	"SaturnBowT3",
+	"SaturnBowT4",
+	"SaturnBowT5",
+	"SaturnBowT6"
+	
+	]
+}

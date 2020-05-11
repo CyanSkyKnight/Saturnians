@@ -1,0 +1,11 @@
+{
+  "name" : "saturnwingglow",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "saturnwingglow.lua"
+  ],
+
+  "animationConfig" : "saturnwingglow.animation"
+}

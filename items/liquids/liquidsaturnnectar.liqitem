@@ -1,0 +1,13 @@
+{
+  "itemName" : "liquidsaturnnectar",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "saturnnectaricon.png",
+  "shortdescription" : "Nectar",
+  "description" : "Very sweet nectar extracted from flowers.",
+
+  "liquid" : "saturnnectar",
+  
+  "learnBlueprintsOnPickup" : [
+    "bottledsaturnnectar"]
+}

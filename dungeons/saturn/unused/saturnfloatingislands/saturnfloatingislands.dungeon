@@ -1,0 +1,90 @@
+{
+  "metadata" : {
+    "name" : "saturnfloatingislands",
+    "species" : "saturn",
+    "rules" : [
+    ],
+    "anchor" : [ "saturnfloatingislandstower" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 30,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+  
+    {
+      "name" : "saturnfloatingislandstower",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "saturnfloatingislandstower" ] ]
+
+      ],
+      "def" : [ "tmx", "saturnfloatingislandstower.json" ]
+    },
+
+	
+//Buildings
+
+    {
+      "name" : "saturnfloatingislandshouse1",
+      "rules" : [
+        [ "maxSpawnCount", [5] ],
+        [ "doNotConnectToPart", [ "saturnfloatingislandshouse1" ] ]
+
+      ],
+      "def" : [ "tmx", "saturnfloatingislandshouse1.json" ]
+    },
+    {
+      "name" : "saturnfloatingislandshouse2",
+      "rules" : [
+        [ "maxSpawnCount", [5] ],
+        [ "doNotConnectToPart", [ "saturnfloatingislandshouse2" ] ]
+
+      ],
+      "def" : [ "tmx", "saturnfloatingislandshouse2.json" ]
+    },
+    {
+      "name" : "saturnfloatingislandshouse3",
+      "rules" : [
+        [ "maxSpawnCount", [5] ],
+        [ "doNotConnectToPart", [ "saturnfloatingislandshouse3" ] ]
+
+      ],
+      "def" : [ "tmx", "saturnfloatingislandshouse3.json" ]
+    },
+	
+	
+//Landscapes
+    {
+      "name" : "saturnfloatingislandsforest",
+      "rules" : [
+        [ "maxSpawnCount", [5] ],
+        [ "doNotConnectToPart", [ "saturnfloatingislandsforest" ] ]
+
+      ],
+      "def" : [ "tmx", "saturnfloatingislandsforest.json" ]
+    },
+
+//End caps	
+
+    {
+      "name" : "saturnfloatingislandsLeftEnd",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "saturnfloatingislandsLeftEnd.json" ] ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "saturnfloatingislandsRightEnd",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "saturnfloatingislandsRightEnd.json" ] ],
+      "chance" : 0
+    }
+  ]
+}

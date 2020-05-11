@@ -1,0 +1,123 @@
+{
+  "type" : "Saturnalchemist",
+  "baseType" : "merchant",
+
+  "dropPools" : [ "wizardtreasure" ],
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common"]
+    },
+
+    "merchant" : {
+      "categories" : {
+        "override": [ "SaturnAlchemist" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 20,
+      "storeRadius" : -1,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  Alchemist",
+          "subtitle" : " Sells potions"
+        }
+      }
+    },
+
+    "dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+              "You COULD use stims to get the same effect, but with my potions, you won't need any needles!",
+              "See anything you like?",
+              "I sell a wide variety of potions."
+            ]
+          },
+          "apex" : {
+            "default" : [
+              "I've got things the Miniknog would kill for.",
+              "You're not Miniknog are you? Goooooood.",
+              "Got more than just bananas here...",
+              "How about something wondrous, eh?"
+            ]
+          },
+          "avian" : {
+            "default" : [
+              "Kluex has blessed my stock... Probably.",
+              "I have items for sale that even the Stargazers envy.",
+              "Come and browse my wondrous items."
+            ]
+          },
+          "floran" : {
+            "default" : [
+              "Floran ssells wondrous things!",
+              "Floran stocks best sstuff around.",
+              "Floran's wares are pretty impresssive!"
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Enticing. Traveller, come hither, and browse my wares.",
+              "Furtive. Cogs and gears only go so far, young one.",
+              "Tantalising. My wares are wondrous and strange."
+            ]
+          },
+          "hylotl" : {
+            "default" : [
+              "Welcome, please browse my wares.",
+              "What can I interest you in? I have many wondrous goods.",
+              "I think you'll agree my wares are quite impressive."
+            ]
+
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+              "Farewell, traveller.",
+              "I hope to see you more in future.",
+              "Courage to you!"
+            ]
+          },
+          "glitch" : {
+            "default" : [
+              "Cordial. Farewell, traveller.",
+              "Convivial. I hope to see you more in future.",
+              "Kindly. Courage to you!"
+            ]
+
+          }
+        }
+      }
+    }
+  },
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+		  
+		"chest" : [
+              { "name" : "saturnForestMageUnarmoredchest", "parameters" : { "colorIndex" : [1, 2, 3, 7, 8, 9, 11, 12, 13, 15, 17, 18, 19, 20, 21] } }
+            ],
+		"legs" : [
+              { "name" : "saturnForestMageUnarmoredpants", "parameters" : { "colorIndex" : [1, 2, 3, 7, 8, 9, 11, 12, 13, 15, 17, 18, 19, 20, 21] } }
+            ],
+		"head" : [
+              { "name" : "saturnAlchemistset", "parameters" : { "colorIndex" : [1, 2, 3, 7, 8, 9, 11, 12, 13, 15, 17, 18, 19, 20, 21] } }
+            ],
+		"back" : [
+              { "name" : "saturnWingLeopard", "parameters" : { "colorIndex" : [1, 2, 3, 7, 8, 9, 11, 12, 13, 15, 17, 18, 19, 20, 21] } },
+              { "name" : "saturnWingLeopardB", "parameters" : { "colorIndex" : [1, 2, 3, 7, 8, 9, 11, 12, 13, 15, 17, 18, 19, 20, 21] } },			  
+			  { "name" : "saturnWingLeopardC", "parameters" : { "colorIndex" : [1, 2, 3, 7, 8, 9, 11, 12, 13, 15, 17, 18, 19, 20, 21] } },
+			  { "name" : "saturnWingLeopardD", "parameters" : { "colorIndex" : [1, 2, 3, 7, 8, 9, 11, 12, 13, 15, 17, 18, 19, 20, 21] } }
+            ],
+        "primary" : [ "saturn_greenstim" ],
+            "sheathedprimary" : [ "npcdagger" ]
+          }
+        ] ]
+    ]
+  }
+}

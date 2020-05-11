@@ -1,0 +1,33 @@
+{
+  "itemName" : "SaturnWaspLancenpc",
+  "price" : 480,
+  "maxStack" : 1,
+  "fixedLevel" : false,
+  "rarity" : "Rare",
+  "description" : "One of a pair wielded by wasp mimics, but the wasp people don't dual wield lances?",
+  "shortdescription" : "Wasp Mimic Lance",
+  "tooltipKind" : "sword",
+  "category" : "saturnrapier",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "melee", "shortspear", "waspmim", "upgradeableWeapon"],
+  "handGrip" : "wrap",
+  "inventoryIcon" : "SaturnWaspLance.png",
+  "animation" : "/items/active/weapons/Saturn Rapier/Saturnshortswordcombo.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "SaturnWaspLance.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/SaturnFencingSwordThrust.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "poison",
+  "primaryAbilityType" : "Saturnshortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.625,
+    "baseDps" : 7.5
+  },
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

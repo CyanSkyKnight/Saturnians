@@ -1,0 +1,57 @@
+{
+  "name" : "Saturnstationtram2",
+  "boundBox" : [-2.5, -0.25, 2.5, 3.75],
+  "slaveControlTimeout" : 2.0,
+  "slaveControlHeartbeat" : 1.0,
+  "canBeHit" : false,
+
+  "persistent" : true,
+
+  "script" : "/vehicles/railtram/railtram.lua",
+  "animation" : "/vehicles/railtram/Saturnstationtram2.animation",
+
+  "animationPartTags" : {
+    "gate" : {
+      "partImage" : "/vehicles/railtram/Saturnstationtram2_gate.png"
+    },
+    "tram" : {
+      "partImage" : "/vehicles/railtram/Saturnstationtram2.png"
+    },
+    "tramfullbright" : {
+      "partImage" : "/vehicles/railtram/Saturnstationtram_fullbright.png"
+    }
+    ,
+    "tramControls" : {
+      "partImage" : "/vehicles/railtram/Saturnstationtram_arrows.png"
+    }
+  },
+
+  "movementSettings" : {
+    "collisionPoly" : [ [-2.5, 3.75], [2.5, 3.75], [2.5, -0.25], [-2.5, -0.25] ],
+    "mass" : 2.0,
+    "ignorePlatformCollision" : true,
+    "physicsEffectCategories" : []
+  },
+
+  "loungePositions" : {
+    "seat" : {
+      "part" : "gate",
+      "partAnchor" : "standPosition",
+      "orientation" : "stand",
+      "statusEffects" : ["nofalldamage"]
+    }
+  },
+
+  "physicsCollisions" : {
+    "platform" : {
+      "collision" : [ [-2.5, 0.5], [2.5, 0.5] ],
+      "collisionKind" : "platform"
+    }
+  },
+
+  "railConfig" : {
+    "speed" : 30
+  },
+
+  "popItem" : "Saturnstationtram2"
+}

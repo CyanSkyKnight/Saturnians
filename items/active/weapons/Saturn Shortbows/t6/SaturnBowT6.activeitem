@@ -1,0 +1,47 @@
+{
+  "itemName" : "SaturnBowT6",
+  "price" : 960,
+  "inventoryIcon" : "SaturnBowT6bicon.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "tooltipKind" : "bow",
+  "category" : "saturnbow",
+  "description" : "",
+  "shortdescription" : "Evolight Bow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "bow", "upgradeableWeapon"],
+  "radioMessagesOnPickup" : [ "pickupbow" ],
+  "level" : 6,
+  "animation" : "/items/active/weapons/Saturn Shortbows/SaturnLightbow.animation",
+  "animationParts" : {
+    "bow" : "SaturnBowT6b.png",
+	"bowFullbright" : "SaturnBowT6bFB.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0, -0.0625]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/melee/saturnbowdraw.ogg", "/sfx/melee/saturnbowdraw2.ogg", "/sfx/melee/saturnbowdraw3.ogg" ],
+      "release" : [ "/sfx/gun/bow_loose.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "projectileType" : "Saturncrystalarrow6",
+    "powerProjectileType" : "Saturnchargedcrystalarrow6",
+    "projectileParameters" : {
+      "power" : 6.5
+    }
+  },
+  "altAbilityType" : "zenshot",
+  "altAbility" : {
+    "projectileType" : "Saturncrystalarrow6",
+    "projectileParameters" : {
+      "power" : 8.125
+    }
+  },
+  "builder" : "/items/buildscripts/buildbow.lua"
+}

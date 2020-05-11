@@ -1,0 +1,33 @@
+{
+  "projectileName" : "satstarswarmer",
+  "physics" : "laser",
+  "timeToLive" : 5,
+  "image" : "satstarswarmer.png",
+  "animationCycle" : 0.3,
+  "lightColor" : [120, 60, 30],
+  "frameNumber" : 4,
+  "periodicActions" : [ ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/elementimpact/fireimpact.config"
+    }
+  ],
+  "speed" : 10,
+  "power" : 30,
+  "damageKind" : "electric",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "statusEffects" : [ "burning" ],
+
+  "fullbright" : true,
+
+
+  "bounces" : 0,
+
+  "scripts" : [ "/projectiles/activeitems/staff/staffprojectile.lua" ],
+
+  "controlMovement" : {
+    "maxSpeed" : 60,
+    "controlForce" : 40
+  }
+}

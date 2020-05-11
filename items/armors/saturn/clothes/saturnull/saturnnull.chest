@@ -1,0 +1,64 @@
+{
+  "itemName" : "saturnnullchest",
+  "price" : 1,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "chestwear",
+  "description" : "Doesn't hide you, because it's made for invisible wizards",
+  "shortdescription" : "Invisible Wizard Robe",
+  "tooltipKind" : "armor",
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "colorOptions" : [
+    // GREY
+    { "ffca8a" : "b5b5b5", "e0975c" : "808080", "a85636" : "555555", "6f2919" : "303030" },
+    // BLACK
+    { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
+    // GREY
+    { "ffca8a" : "b5b5b5", "e0975c" : "808080", "a85636" : "555555", "6f2919" : "303030" },
+    // WHITE
+    { "ffca8a" : "e6e6e6", "e0975c" : "b6b6b6", "a85636" : "7b7b7b", "6f2919" : "373737" },
+    // RED
+    { "ffca8a" : "f4988c", "e0975c" : "d93a3a", "a85636" : "932625", "6f2919" : "601119" },
+    // ORANGE
+    { "ffca8a" : "ffd495", "e0975c" : "ea9931", "a85636" : "af4e00", "6f2919" : "6e2900" },
+    // YELLOW
+    { "ffca8a" : "ffffa7", "e0975c" : "e2c344", "a85636" : "a46e06", "6f2919" : "642f00" },
+    // GREEN
+    { "ffca8a" : "b2e89d", "e0975c" : "51bd3b", "a85636" : "247824", "6f2919" : "144216" },
+    // BLUE
+    { "ffca8a" : "96cbe7", "e0975c" : "5588d4", "a85636" : "344495", "6f2919" : "1a1c51" },
+    // PURPLE
+    { "ffca8a" : "d29ce7", "e0975c" : "a451c4", "a85636" : "6a2284", "6f2919" : "320c40" },
+    // PINK
+    { "ffca8a" : "eab3db", "e0975c" : "d35eae", "a85636" : "97276d", "6f2919" : "59163f" },
+    // BROWN
+    { "ffca8a" : "ccae7c", "e0975c" : "a47844", "a85636" : "754c23", "6f2919" : "472b13" },
+	
+	//SATURNIAN MAROON 12
+	{ "ffca8a" : "8C5357", "e0975c" : "804247", "a85636" : "5D2730", "6f2919" : "411A24" },
+	//SATURNIAN TAN 13
+	{ "ffca8a" : "E7DFBD", "e0975c" : "BCAD80", "a85636" : "8D7B58", "6f2919" : "5D4F34" },
+	//SATURNIAN LIME 14
+	{ "ffca8a" : "C2CC6A", "e0975c" : "9BBA3D", "a85636" : "63822E", "6f2919" : "32491A" },
+	//SATURNIAN GREEN 15
+	{ "ffca8a" : "6CA563", "e0975c" : "3F6B38", "a85636" : "284223", "6f2919" : "0E2809" },
+	//SATURNIAN CYAN 16
+	{ "ffca8a" : "8EE5DF", "e0975c" : "4FACB2", "a85636" : "30636C", "6f2919" : "233C43" },
+	//SATURNIAN INDIGO 17
+	{ "ffca8a" : "675BCC", "e0975c" : "463CB7", "a85636" : "2D317F", "6f2919" : "192247" },
+	//SATURNIAN COOL GREY 18
+	{ "ffca8a" : "5B6779", "e0975c" : "4B586B", "a85636" : "2F3C4B", "6f2919" : "202C35" },
+	//SATURNIAN WARM GREY 19
+	{ "ffca8a" : "706460", "e0975c" : "615350", "a85636" : "433634", "6f2919" : "2F2424" }
+  ]
+}

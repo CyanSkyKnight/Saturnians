@@ -1,0 +1,24 @@
+{
+  "projectileName" : "saturnhoneyball1",
+  "physics" : "laser",
+  "bounces" : 0,
+  "timeToLive" : 0.01,
+  "image" : "saturnhoneyball.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 5.0,
+  "speed" : 32,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "saturnhoneyball",
+	  "inheritDamageFactor" : 1,
+	  "angleAdjust" : 0,
+      "config" : {}
+    }
+  ],
+  "damageKind" : "default",
+  "statusEffects" : [
+    "saturnhoneyslow"
+  ]
+}

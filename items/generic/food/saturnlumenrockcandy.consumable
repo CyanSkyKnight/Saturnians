@@ -1,0 +1,25 @@
+{
+  "itemName" : "saturnlumenrockcandy",
+  "rarity" : "Rare",
+  "price" : 200,
+  "category" : "food",
+  "inventoryIcon" : "saturnlumenrockcandy.png",
+  "description" : "Luminous crystalline candy.",
+  "shortdescription" : "Lumen Rock Candy",
+  "effects" : [ [
+    {
+        "effect" : "glow",
+        "duration" : 200
+    }
+  ] ],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

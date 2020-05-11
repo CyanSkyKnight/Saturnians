@@ -1,0 +1,22 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000,
+      "crewSize" : 12
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "saturnT8.png",
+      "position" : [11.625, 33.625],
+      "fullbright" : true
+    },
+    {
+      "image" : "saturnT8lit.png",
+      "position" : [11.625, 33.625]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "saturnT8blocks.png"
+}

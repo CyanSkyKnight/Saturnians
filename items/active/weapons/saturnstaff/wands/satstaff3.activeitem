@@ -1,0 +1,93 @@
+{
+  "itemName" : "satstaffT3",
+  "level" : 3,
+  "price" : 600,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Creates a swarm of dark lightning.",
+  "shortdescription" : "Lightning Swarm Wand",
+  "category" : "saturnwand",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","wand", "upgradeableWeapon"],
+  "tooltipKind" : "staff",
+  "animation" : "/items/active/weapons/saturnstaff/satstaff.animation",
+  "animationParts" : {
+    "staff" : "satstaffT3Void.png",
+    "stone" : "satstaffT3VoidStone.png",
+    "chargeEffect" : "satglowVoid.png"
+  },
+   "animationCustom" : {
+	"lights" : {
+      "glow" : {
+        "color" : [30, 63, 53]
+		}
+	  }
+	  },
+  "inventoryIcon" : "satstaffT3Void.png",
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+  "baseDamageFactor" : 0.5,
+  
+   "stances" : {
+    "idle" : {
+      "weaponOffset" : [0, 0.8],
+      "armRotation" : -55,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 1.0,
+      "armRotation" : 10,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "weaponOffset" : [0, 1.5],
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -50,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "weaponOffset" : [0, 1.0],
+      "duration" : 0.5,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+  "elementalName" : "Electric",
+  "elementalType" : "electric",
+  "primaryAbility" : {
+    "type" : "satelectricswarmer",
+    "name" : "Void Swarm",
+    "scripts" : ["/items/active/weapons/staff/abilities/controlprojectile/controlprojectile.lua"],
+    "class" : "ControlProjectile",
+    "energyCost" : 50,
+    "maxCastRange" : 25,
+    "projectileCount" : 6,
+    "projectileDistance" : 1.5,
+    "projectileType" : "satelectricswarmer",
+    "projectileParameters" : {
+      "baseDamage" : 35
+    }
+  },
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

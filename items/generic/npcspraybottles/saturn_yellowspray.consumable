@@ -1,0 +1,17 @@
+{
+  "itemName" : "saturn_yellowspray",
+  "price" : 100,
+  "rarity" : "Common",
+  "category" : "medicine",
+  "inventoryIcon" : "saturn_yellowspray.png",
+  "description" : "Used by Saturnian healers who are afraid of needles.",
+  "shortdescription" : "Yellow Spray Bottle",
+  "effects" : [ [
+      {
+        "effect" : "runboost",
+        "duration" : 60
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

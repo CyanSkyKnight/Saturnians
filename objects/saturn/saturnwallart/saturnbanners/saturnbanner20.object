@@ -1,0 +1,28 @@
+{
+  "objectName" : "saturnbanner20",
+  "colonyTags" : ["kyterran", "mining"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+  "description" : "A Kyterran banner with a drill design.",
+  "shortdescription" : "^#000300;^white;Kyterran Drill Banner",
+  "race" : "kyterran",
+  "apexDescription" : "A wonderfully vibrant banner.",
+  "avianDescription" : "The grounded decorate their villages banners like this. They fill their lives with colour.",
+  "floranDescription" : "Pretty colourss, reminds Floran of flowers.",
+  "glitchDescription" : "Charmed. Poorly-made, but beautiful nonetheless.",
+  "humanDescription" : "Bright and cheerful colours",
+  "hylotlDescription" : "Such vibrancy can only exist above the ocean.",
+  "novakidDescription" : "There's somethin' about this banner. I like it.",
+  "inventoryIcon" : "saturnbanner20icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnbanner20.png",
+      "imagePosition" : [-8, -24],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "bgAnchors" : [ [0, 0], [-1, 0] ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "objectName" : "saturnmortar",
+  "colonyTags" : ["saturn", "alchemy" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "An obsidian mortar and pestle.",
+  "shortdescription" : "^#000290;^white;Mortar and Pestle",
+  "category" : "decorative",
+  "race" : "generic",
+  
+  "floranDescription" : "Floran sssmash many bowl.",
+  "glitchDescription" : "Observation. This mortar and pestle has seen much use.",
+  "novakidDescription" : "Some kinda mixin' bowl.",
+  
+  "saturnDescription" : "A mortar and pestle are essential for alchemy.",
+  "saturn2Description" : "A mortar and pestle are essential for alchemy.",
+  "satkyterranDescription" : "A mortar made of obsidian.",
+  "inventoryIcon" : "saturnmortaricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnmortar.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "type" : "saturndarkmage",
+  "baseType" : "hostile",
+
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Attack!"
+          ]
+        },
+        "saturn2" : {
+          "default" : [
+            "Fool! You've wandered right into our lair!",
+            "No one can know about this place!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "saturnNecromagehead", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnNecromagehead", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "chest" : [
+              { "name" : "saturnForestMagechest", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnFluxMagechest", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnNecromagechest", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "legs" : [
+              { "name" : "saturnFluxMagepants", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnNecromagepants", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "back" : [
+              { "name" : "saturnWingSimple", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnWingSimple", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnWingSimple", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnWingSimple", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnWingSimple", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnWingSimple", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnWingSimple2", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnWingSimple2", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnWingSimple2", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnWingSimple2", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnWingSimple2", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnWingSimple2", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnWingCecropia", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnWingCecropia", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnWingCecropia", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnWingCecropia", "parameters" : { "colorIndex" : 1 } },
+              { "name" : "saturnWingTrimmedBlack", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingTrimmedBlack", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingTrimmedBlack", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingTrimmedBlack", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingTrimmedBlack", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingCape", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingCape", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingCape", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingCape", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingCape", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingCape", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingIOM", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingIOM", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingIOM", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingLeopard", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingLeopardB", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingLeopardC", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingLeopardD", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingLeopardD", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingLeopardD", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingLeopardD", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingRosyD", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingRosyD", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingRosyD", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingRosyD", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingRosyE", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingRosyE", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingRosyE", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingRosyE", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } },
+              { "name" : "saturnWingWasp", "parameters" : { "colorIndex" : [1, 2, 3, 12, 18, 19] } }
+            ],
+            "primary" : [
+              "saturnscytheT1",
+              "saturnscytheT3",
+              "saturnscytheT4",
+              "saturnscytheT4",
+              "saturnscytheT4",
+              "saturnscytheT4b",
+              "saturnBatonSlow",
+              "saturnBatonT2",
+              "SaturnRapierNPC3",
+              "saturnGeneratedBatonBeam",
+              "saturnGeneratedBatonBeam",
+              "saturnGeneratedBatonBeam",
+              "saturnGeneratedBatonBeam",
+              "saturnGeneratedBatonBeam",
+              "saturnGeneratedBatonBeam",
+              "saturnGeneratedBatonBeam",
+              "saturnGeneratedBatonBeam",
+			  "saturnGeneratedBatonOrb",
+			  "saturnGeneratedBatonOrb",
+			  "saturnGeneratedBatonOrb",
+			  "saturnGeneratedBatonOrb",
+			  "saturnGeneratedBatonOrb",
+			  "saturnGeneratedBatonOrb",
+			  "saturnGeneratedBatonOrb",
+			  "saturnGeneratedBatonOrb",
+			  "saturnGeneratedBatonOrb"
+            ],
+            "sheathedprimary" : [ 
+              { "name" : "SaturnBowNpc" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

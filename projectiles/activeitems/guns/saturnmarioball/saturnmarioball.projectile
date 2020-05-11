@@ -1,0 +1,39 @@
+{
+  "projectileName" : "saturnmarioball",
+  "physics" : "fireball",
+  "bounces" : 5,
+  "timeToLive" : 2,
+  "image" : "saturnmarioball.png",
+  "damageKindImage" : "icon.png",
+  "speed" : 19,
+  "animationCycle" : 0.5,
+  "lightColor" : [153, 82, 2],
+  "frameNumber" : 4,
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/gun/saturnboop.ogg"
+      ]
+    }
+  ],
+  "actionOnReap" : [
+	{
+      "action" : "projectile",
+      "type" : "saturnmolotovflame",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.1,
+      "angleAdjust" : 0
+    },
+	{
+      "action" : "config",
+      "file" : "/projectiles/explosions/burningexplosion/saturnburningexplosion.config"
+    }
+	
+  ],
+  "power" : 50,
+  "fullbright" : true,
+  "damageKind" : "fireplasma",
+  "hydrophobic" : true,
+  "emitters" : [ "fireplasma", "flames" ]
+}

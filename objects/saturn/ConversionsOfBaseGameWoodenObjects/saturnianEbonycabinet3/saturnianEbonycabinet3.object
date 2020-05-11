@@ -1,0 +1,47 @@
+{
+  "objectName" : "saturnianEbonycabinet3",
+  "colonyTags" : ["saturn", "storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "A sturdy wooden cabinet with brass handles.",
+  "shortdescription" : "Wide Ebony Cabinet",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 110,
+  "health" : 1.5,
+
+  "apexDescription" : "A medium amount of storage space.",
+  "avianDescription" : "A little more storage space would be nice.",
+  "floranDescription" : "Medium ssize ssstorage.",
+  "glitchDescription" : "Neutral. A medium amount of storage.",
+  "humanDescription" : "A cabinet with a couple of drawers.",
+  "hylotlDescription" : "Not a bad amount of storage.",
+  "novakidDescription" : "Only two drawers? I could do with more.",
+  "saturnDescription" : "A cabinet. I could probably put a lot of robes in here.",
+  "saturn2Description" : "A simple cabinet. Fit for apparel.",
+  "satkyterranDescription" : "It's a sturdy looking cabinet. I could fit so many socks in here.",
+  "saturnmothman" : "A cabinet.",
+  "inventoryIcon" : "saturnianEbonycabinet3icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnianEbonycabinet3.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

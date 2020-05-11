@@ -1,0 +1,12 @@
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "Some wandsmiths swear by using anvils, but wands made with them tend to take long to charge."
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "A boring anvil. It doesn't even GLOW!"
+}
+]

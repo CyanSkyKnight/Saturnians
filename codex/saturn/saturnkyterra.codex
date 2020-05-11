@@ -1,0 +1,21 @@
+{
+	"id" : "saturnkyterra",
+	"title" : "Kyterra, the Land of Wind",
+	"description" : "A guide to some sort of region on the Saturnian homeworld.",
+	"icon" : "saturnbook2.png",
+	"contentPages" : [
+	
+    "The northern peninsula, Kyterra has always sparked curiosity due to the historical difficulty in exploring it. The peninsula is split in half by a large volcano, Mt. Kyta; the west is covered in ash, while the east is a desert region. Windstorms and extreme temperatures are common in Kyterra, preventing travel by traditional airships. Special equipment is needed for surface travel. Heat resistant clothing, goggles, and wing braces are mandatory for travelers. ",
+	
+	"The species that lives there, the Kyterran, live in villages built in underground tunnels safe from the surface weather. Kyterran have hard, heat resistant plates covering their bodies and have colored lenses covering their eyes. They have long slender bodies, large claws, and thin legs. "
+
+
+
+	
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Common",
+    "price" : 25
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "projectileName" : "saturnbubbleshieldseed",
+  "physics" : "default",
+
+  "actionOnReap" : [    
+	{
+      "action" : "projectile",
+      "type" : "saturnbubbleshield",
+      "config" : {}
+    },
+	{
+      "action" : "projectile",
+      "type" : "saturnianrune",
+      "config" : {}
+    }
+	
+  ],
+  "image" : "saturnbubbleshieldseed.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "onlyHitTerrain" : true,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [25, 25, 10],
+  "fullbright" : true,
+  "power" : 20,
+  "speed" : 0,
+  "knockback" : 0,
+  "knockbackDirectional" : true,
+  "damageKind" : "nodamage",
+  "piercing" : true,
+  "timeToLive" : 0.1,
+
+  "pointLight" : false
+}

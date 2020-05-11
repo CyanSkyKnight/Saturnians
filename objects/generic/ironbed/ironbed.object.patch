@@ -1,0 +1,13 @@
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "A bed of swords. W-w-why have they been sharpened?"
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "A bed for a warrior, perhaps a Kyterran?"
+}
+
+]

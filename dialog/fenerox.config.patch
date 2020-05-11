@@ -1,0 +1,33 @@
+[
+	{
+		"op": "add",
+		"path": "/converse/default/saturn",
+		"value": [
+        "New person. Very colorful. Quite exciting!",
+        "Odd person. Hopefully nice. Feeling cautious!",
+        "Weird person. Not Fenerox. Being polite!",
+        "Meeting stranger. Being friendly. New experience!",
+        "Odd person. Saying hello. Not Fenerox?",
+        "Friendly stranger. Feeling awkward. Cautiously optimistic!",
+        "New stranger. Not confident. Saying hello!",
+        "Unknown person. Large eyes. Fluffy body?"
+			]
+	},
+
+	{
+		"op": "add",
+		"path": "/converse/default/satkyterran",
+		"value": [
+        "New person. Very dusty. Quite exciting!",
+        "Odd person. Hopefully nice. Feeling cautious!",
+        "Weird person. Not Fenerox. Being polite!",
+        "Meeting stranger. Being friendly. New experience!",
+        "Odd person. Saying hello. Not Fenerox?",
+        "Friendly stranger. Feeling awkward. Cautiously optimistic!",
+        "New stranger. Not confident. Saying hello!",
+        "Unknown person. Large eyes. Thin body?"
+			]
+	},
+	
+
+ { "op": "copy", "from": "/converse/default/saturn", "path": "/converse/default/saturn2" } ]

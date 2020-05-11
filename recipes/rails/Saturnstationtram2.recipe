@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "phasematter", "count" : 1 },
+    { "item" : "diamond", "count" : 1 },
+    { "item" : "glass", "count" : 5 },
+    { "item" : "durasteelbar", "count" : 10 },
+    { "item" : "goldbar", "count" : 10 }
+  ],
+  "output" : { "item" : "Saturnstationtram2", "count" : 1 },
+  "duration" : 3.0,
+  "groups" : [ "rail" ]
+}

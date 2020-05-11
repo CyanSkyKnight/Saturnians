@@ -1,0 +1,18 @@
+{
+ 	"saturndebugdye12" : [
+		[0, {
+			"fill" : [
+				{ "item" : [ "saturnRegalDye", 3]},
+				{ "item" : [ "saturnLunaDye", 3]},
+				{ "item" : [ "saturnIODye", 3]},
+				{ "item" : [ "saturnLightPinkDye", 3]},
+				{ "item" : [ "saturnVenoDye", 3]},
+				{ "item" : [ "saturnSnowDye", 3]},
+				{ "item" : [ "saturnMidnightDye", 3]},
+				{ "item" : [ "saturnEvolightDye", 3]}
+				
+				
+			]
+		} ]
+	]
+}

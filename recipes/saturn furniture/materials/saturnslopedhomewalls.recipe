@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "firedclay", "count" : 2 }
+
+  ],
+  "output" : { "item" : "saturnslopedhomewalls", "count" : 200 },
+  "duration" : 0,
+  "groups"  : [ "craftingfurniture", "saturnmaterials", "materials", "all" ]
+}

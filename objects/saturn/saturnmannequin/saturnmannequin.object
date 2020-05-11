@@ -1,0 +1,39 @@
+{
+  "objectName" : "saturnmannequin",
+  "colonyTags" : ["saturn"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "other",
+  "price" : 500,
+  "description" : "A fluffy mannequin made for Saturnian armor and clothes.",
+  "shortdescription" : "Saturnian Mannequin",
+  "race" : "generic",
+  "inventoryIcon" : "saturnmannequinicon.png",
+
+  "humanDescription" : "It's so soft and cute. I want to hug it!",
+
+  "saturnDescription" : "Hello! How's your day- Oh. Whoops!",
+  "saturn2Description" : "Why would I display armor on something so soft?",
+  "satkyterranDescription" : "Kyterrans and Saturnians can fit most of the same hats, but any other clothes will just look silly.",
+  
+  "orientations" : [
+    {
+      "dualImage" : "saturnmannequin.png",
+      "imagePosition" : [-21, 0],
+      "spaces" : [[-1, 0], [-1, 1], [-1, 2], [-1, 3], [0, 0], [0, 1], [0, 2], [0, 3]],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "animation" : "saturnmannequin.animation",
+  "animationPosition" : [-21, 0],
+  "health" : 1.5,
+  "objectType" : "container",
+  "openSounds" : [ "/sfx/objects/mannequin_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/mannequin_close.ogg" ],
+  "slotCount" : 4,
+  "uiConfig" : "/interface/scripted/mannequin/mannequingui.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  "scripts" : [ "/objects/saturn/saturnmannequin/saturnmannequin.lua" ],
+  "scriptDelta" : 5
+}

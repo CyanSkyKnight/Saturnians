@@ -1,0 +1,16 @@
+{
+  "itemName" : "mechbodysaturnproto",
+  "price" : 6400,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechbodysaturnproto.png",
+  "description" : "A prototype mech body, designed for Saturnian pilots.",
+  "shortdescription" : "Sphinx-00 Mech Body",
+  "itemTags" : [ ],
+  "learnBlueprintsOnPickup" : [ "mechbodysaturnproto" ],
+
+  "mechPart" : ["body", "saturnproto"]
+}

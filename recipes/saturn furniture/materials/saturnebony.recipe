@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 200 },
+    { "item" : "blackdye", "count" : 1 }	
+
+  ],
+  "output" : { "item" : "saturnebony", "count" : 200 },
+  "duration" : 0,
+  "groups"  : [ "craftingfurniture", "saturnmaterials", "materials", "all" ]
+}

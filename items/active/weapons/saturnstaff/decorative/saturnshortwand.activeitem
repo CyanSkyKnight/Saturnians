@@ -1,0 +1,94 @@
+{
+  "itemName" : "saturnshortwand",
+  "level" : 1,
+  "price" : 200,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A weaker, short ranged wand with a lightning fast charge time. Shoots a small flurry of razor sharp leaves.",
+  "shortdescription" : "Stage Wand Lv1",
+  "category" : "shortwand",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","wand", "upgradeableWeapon"],
+  "tooltipKind" : "saturnstaff",
+  "animation" : "/items/active/weapons/saturnstaff/satshortwand.animation",
+  "animationParts" : {
+    "staff" : "saturnstagewandT1.png",
+    "stone" : "saturnstagewandblankstone.png",
+    "chargeEffect" : "saturnshortwandshine.png"
+  },
+  "inventoryIcon" : "saturnstagewandT1.png",
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+  "baseDamageFactor" : 0.25,
+  
+   "stances" : {
+    "idle" : {
+      "weaponOffset" : [0, 1.0],
+      "armRotation" : -90,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 0.2,
+      "armRotation" : 90,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "weaponOffset" : [0, 1.5],
+      "armRotation" : 10,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -50,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "weaponOffset" : [0, 1.0],
+      "duration" : 0.5,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+  "elementalName" : "Physical",
+  "elementalType" : "physical",
+  "primaryAbility" : {
+    "type" : "plasmabarrage",
+    "name" : "Razor Leaf",
+    "scripts" : ["/items/active/weapons/staff/abilities/controlprojectile/plasmabarrage.lua"],
+    "class" : "ControlProjectile",
+
+    "energyCost" : 80,
+
+    "maxCastRange" : 8,
+
+    "projectileCount" : 3,
+    "projectileDistance" : 2,
+    "projectileType" : "saturnleafshot",
+    "projectileParameters" : {
+      "baseDamage" : 40
+    },
+    "triggerSound" : ["/sfx/blocks/footstep_lightwood.ogg"],
+
+    "projectileDelayFirst" : 0.5,
+    "projectileDelayEach" : 0.15},
+	
+  
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

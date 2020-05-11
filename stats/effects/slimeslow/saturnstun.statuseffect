@@ -1,0 +1,15 @@
+{
+  "name" : "saturnstun",
+  "blockingStat" : "stunImmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "saturnstun.lua"
+  ],
+
+  "animationConfig" : "saturnstun.animation",
+
+  "label" : "Slow",
+  "icon" : "/interface/statuses/slow.png"
+}

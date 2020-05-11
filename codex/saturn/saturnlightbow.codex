@@ -1,0 +1,15 @@
+{
+	"id" : "saturnlightbow",
+	"title" : "Light Bow",
+	"description" : "Guide to the crystal firing magic bows.",
+	"icon" : "saturnbook3.png",
+  "contentPages" : [
+
+    "Light bows are built with a traditional body and silk string, but requires no arrows thanks to a glowing, gelatinous orb floating in front of the arrow rest. This orb forms the shape of an arrow when pulled back. When a sudden force is applied, like a bow string being released, the arrow crystallizes and shines brightly, acting as a sort of beacon. After firing, the orb quickly reforms from the archer's energy. Timing is critical for using this bow; if not properly timed, the arrow will be dim and will quickly melt."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Common",
+    "price" : 25
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 1 },
+    { "item" : "obsidian", "count" : 4 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "saturnCircletObsidian", "count" : 1 },
+  "groups" : [ "craftingwheel", "Saturnconver" ]
+}

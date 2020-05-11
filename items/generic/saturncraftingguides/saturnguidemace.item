@@ -1,0 +1,22 @@
+{
+  "itemName" : "saturnguidemace",
+  "price" : 2500,
+  "rarity" : "Rare",
+  "category" : "saturncraftingguide",
+  "tooltipKind" : "saturnlorescrollpic",
+  "largeImage" : "saturnguidemace.png",
+  "inventoryIcon" : "icon2.png",
+  "shortdescription" : "Saturnian Mace Scroll",
+  "description" : "This scroll details how to craft 6 Saturnian maces and hammers, 1-handed weapons that function like axes. \n^green;When picked up by non-Saturnians/Thaumoths, allows crafting of all tiered Saturnian maces. (Tiers 1-6)",
+
+  
+  	"learnBlueprintsOnPickup" : [ 
+	"saturnMaceT1",
+	"saturnMaceT2",
+	"saturnMaceT3",
+	"saturnMaceT4",
+	"saturnMaceT5",
+	"saturnMaceT6"
+	
+	]
+}

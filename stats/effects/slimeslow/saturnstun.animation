@@ -1,0 +1,52 @@
+{
+  "particleEmitters" : {
+      "drips" : {
+      "enabled" : true,
+      "emissionRate" : 20.0,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/shards/saturnsilkshard2.animation",
+            "position" : [0, 0],
+            "finalVelocity" : [0, 0],
+            "approach" : [1.5, 1.5],
+            "destructionAction" : "fade",
+            "destructionTime" : 0.85,
+            "fade" : 1,
+            "size" : 0.3,
+            "layer" : "middle",
+            "timeToLive" : 0.35,
+            "variance" : {
+              "size" : 0.2,
+              "position" : [1.2, 1.0],
+              "initialVelocity" : [2.0, 2.0]
+            }
+          }
+        }		
+      ]
+    },
+    "sparks" : {
+      "enabled" : true,
+      "emissionRate" : 10.0,
+      "particles" : [
+        {
+          "particle" : "saturnsilkshard2"
+        },
+        {
+          "particle" : "saturnsilkshard"
+        }
+      ]
+    }
+  },
+  "lights" : {
+    "glow" : {
+      "active" : true,
+      "position" : [0, 0],
+      "color" : [50, 50, 50]
+    }
+  },
+  "sounds" : {
+    "bolt" : [ "/sfx/projectiles/electric_barrier_shock1.ogg" ]
+  }
+}

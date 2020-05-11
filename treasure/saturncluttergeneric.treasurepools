@@ -1,0 +1,356 @@
+{
+ 	"saturncluttergeneric" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.50, "pool" : "basicTreasure"},
+		{"weight" : 0.05, "pool" : "saturnclutteralchem"},
+		{"weight" : 0.05, "pool" : "saturnclutterpainter"},
+		{"weight" : 0.02, "pool" : "saturnLore"},
+        {"weight" : 0.25, "item" : [ "crystal", 3]},
+        {"weight" : 0.05, "item" : [ "screws", 5]},
+        {"weight" : 0.15, "item" : [ "wire", 1]},
+        {"weight" : 0.15, "item" : [ "string", 1]},
+        {"weight" : 0.20, "item" : [ "silk", 1]},
+        {"weight" : 0.15, "item" : [ "saturnmundanebroom", 1]},
+        {"weight" : 0.10, "item" : [ "bugnet", 1]},		
+        {"weight" : 0.10, "item" : [ "parasol", 1]},		
+        {"weight" : 0.10, "item" : [ "woodenwateringcan", 1]},	
+        {"weight" : 0.10, "item" : [ "fossilbrushbeginner", 3]},	
+        {"weight" : 0.05, "item" : [ "fossilbrushstudent", 1]},	
+        {"weight" : 0.05, "item" : [ "fishingrod", 1]},		
+		{"weight" : 0.05, "item" : [ "saturn_scales", 1]},
+
+		
+        {"weight" : 0.05, "item" : [ "lightbulb3", 1]},
+        {"weight" : 0.15, "item" : [ "glass", 2]},
+        {"weight" : 0.05, "item" : [ "glowfibre", 1]},
+        {"weight" : 0.15, "item" : [ "corefragmentore", 1]},
+        {"weight" : 0.15, "item" : [ "saturnianring", 1]},
+        {"weight" : 0.02, "item" : [ "satshieldregal", 1]},
+        {"weight" : 0.02, "item" : [ "satshieldroyal", 1]},
+        {"weight" : 0.05, "item" : [ "satringshieldleveled", 1]},
+        {"weight" : 0.02, "item" : [ "satshieldwoodtower", 1]},
+		{"weight" : 0.01, "item" : [ "saturnbroomT1", 1]},
+		{"weight" : 0.15, "item" : [ "saturnslopedglass", 50]},
+		{"weight" : 0.15, "item" : [ "saturnslopedhomewalls", 50]},
+		{"weight" : 0.15, "item" : [ "saturnslopedmetalpanel", 50]},
+		{"weight" : 0.15, "item" : [ "saturnslopedpanel", 50]},
+		
+
+		
+		{"weight" : 0.15, "item" : [ "saturnslopedhomewalls", 50]},
+		{"weight" : 0.15, "item" : [ "saturnslopedmetalpanel", 50]},
+		{"weight" : 0.15, "item" : [ "saturnslopedpanel", 50]},
+		
+		
+		
+		{"weight" : 0.05, "item" : [ "capturepod", 1]},
+		{"weight" : 0.01, "item" : [ "Saturnrailhook", 1]},
+        {"weight" : 0.05, "item" : [ "corefragmentore", 2]}
+      ],
+      "poolRounds" : [
+        [0.25, 0],
+        [0.70, 1],
+        [0.05, 2]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  
+ 	"saturnclutterkitchen" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.15, "item" : [ "fossilbrushbeginner", 3]},
+        {"weight" : 0.15, "item" : [ "saturnLightKnife", 1]}
+      ],
+      "poolRounds" : [
+        [0.30, 0],
+        [0.20, 1],
+        [0.40, 2],
+        [0.10, 3]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  
+ 	"saturnclutteralchem" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.25, "item" : [ "saturnbottle", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle2", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle3", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle4", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle5", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle6", 3]},
+        {"weight" : 0.25, "item" : [ "saturnbottle7", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle8", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle9", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle10", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle11", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle12", 3]},
+		{"weight" : 0.25, "item" : [ "saturnredpotion", 3]},
+		{"weight" : 0.10, "item" : [ "saturn_redstim", 1]},
+		{"weight" : 0.10, "item" : [ "saturn_greenstim", 1]},
+		{"weight" : 0.10, "item" : [ "saturn_yellowstim", 1]},
+		{"weight" : 0.10, "item" : [ "saturn_bluestim", 1]},
+		{"weight" : 0.10, "item" : [ "saturn_orangestim", 1]},
+		{"weight" : 0.10, "item" : [ "saturn_antidote", 1]},
+		{"weight" : 0.10, "item" : [ "saturn_salve", 5]},
+		{"weight" : 0.10, "item" : [ "saturn_scales", 1]},
+		{"weight" : 1, "item" : [ "petalred", 5]},
+		{"weight" : 1, "item" : [ "petalyellow", 5]},
+		{"weight" : 1, "item" : [ "petalblue", 5]},
+		{"weight" : 0.10, "item" : [ "fabric", 5]},
+		{"weight" : 0.10, "item" : [ "venomsample", 1]},
+		{"weight" : 0.10, "item" : [ "livingroot", 5]},
+		{"weight" : 0.10, "item" : [ "bandage", 1]},
+		{"weight" : 1, "item" : [ "bottle", 5]},
+		{"weight" : 0.10, "item" : [ "volatilepowder", 1]},
+		{"weight" : 0.10, "item" : [ "bandage", 1]},
+		{"weight" : 0.10, "item" : [ "bandage", 1]},
+		{"weight" : 0.10, "item" : [ "phasematter", 1]},
+		{"weight" : 0.10, "item" : [ "plantfibre", 1]},
+		
+		{"weight" : 1, "item" : [ "saturnscale", 1]},
+		{"weight" : 1, "item" : [ "saturnalembic", 1]},
+        {"weight" : 1, "item" : [ "saturnmortar", 1]}
+      ],
+      "poolRounds" : [
+        [0.30, 0],
+        [0.20, 1],
+        [0.40, 2],
+        [0.10, 3]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  
+  
+ 	"saturnclutterbee" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.25, "item" : [ "saturnbottle", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle2", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle3", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle4", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle5", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle6", 3]},
+        {"weight" : 0.25, "item" : [ "saturnbottle7", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle8", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle9", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle10", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle11", 3]},
+		{"weight" : 0.25, "item" : [ "saturnbottle12", 3]},
+		{"weight" : 0.25, "item" : [ "saturnredpotion", 3]},
+		{"weight" : 0.10, "item" : [ "saturn_antidote", 1]},
+		{"weight" : 0.10, "item" : [ "saturn_salve", 5]},
+		{"weight" : 1, "item" : [ "petalred", 5]},
+		{"weight" : 1, "item" : [ "petalyellow", 5]},
+		{"weight" : 1, "item" : [ "petalblue", 5]},
+		{"weight" : 1, "item" : [ "fabric", 5]},
+		{"weight" : 1, "item" : [ "venomsample", 1]},
+		{"weight" : 1, "item" : [ "livingroot", 5]},
+		{"weight" : 1, "item" : [ "plantfibre", 1]}
+      ],
+      "poolRounds" : [
+        [0.30, 0],
+        [0.20, 1],
+        [0.40, 2],
+        [0.10, 3]
+      ],
+      "allowDuplication" : true
+    }]
+  ], 
+  
+  
+  
+  
+ 	"saturnclutterpainter" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1,    "item" : [ "fossilbrushbeginner", 1]},
+        {"weight" : 0.25, "item" : [ "dyeremover", 3]},
+        {"weight" : 0.20, "item" : [ "blackdye", 3]},
+        {"weight" : 0.20, "item" : [ "whitedye", 3]},
+        {"weight" : 0.20, "item" : [ "reddye", 3]},
+        {"weight" : 0.20, "item" : [ "bluedye", 3]},
+        {"weight" : 0.20, "item" : [ "yellowdye", 3]},
+		
+		
+        {"weight" : 0.10, "item" : [ "browndye", 3]},
+        {"weight" : 0.10, "item" : [ "greendye", 3]},
+        {"weight" : 0.10, "item" : [ "greydye", 3]},
+        {"weight" : 0.10, "item" : [ "orangedye", 3]},
+        {"weight" : 0.10, "item" : [ "pinkdye", 3]},
+        {"weight" : 0.10, "item" : [ "purpledye", 3]},
+		
+        {"weight" : 0.05, "item" : [ "Satcoolgreydye", 3]},
+        {"weight" : 0.05, "item" : [ "Satcyandye", 3]},
+        {"weight" : 0.05, "item" : [ "Satearthdye", 3]},
+        {"weight" : 0.05, "item" : [ "Satindigodye", 3]},
+        {"weight" : 0.05, "item" : [ "Satlimedye", 3]},
+        {"weight" : 0.05, "item" : [ "Satmaroondye", 3]},
+        {"weight" : 0.05, "item" : [ "Satsanddye", 3]},
+        {"weight" : 0.05, "item" : [ "Satsundye", 3]},
+        {"weight" : 0.05, "item" : [ "Sattealdye", 3]},
+        {"weight" : 0.05, "item" : [ "Satwarmgreydye", 3]},
+        {"weight" : 0.15, "item" : [ "fossilbrushstudent", 1]}
+      ],
+      "poolRounds" : [
+        [0.30, 1],
+        [0.20, 2],
+        [0.40, 3],
+        [0.10, 4]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+
+  "saturnLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "item" : "saturnhistory-codex"},
+		{"weight" : 0.2, "item" : "saturnfactions-codex"},
+        {"weight" : 0.2, "item" : "saturnkyterra-codex"},
+		{"weight" : 0.2, "item" : "saturntoaflame-codex"},
+		{"weight" : 0.4, "item" : "saturntennantguide-codex"},
+        {"weight" : 0.2, "item" : "saturnlightbow-codex"}
+      ],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+    }]
+  ],
+  
+  "saturnBeeLore" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "item" : "saturnbee-codex"},
+		{"weight" : 0.2, "item" : "saturnmagicbuzz-codex"},
+		{"weight" : 0.05, "item" : "saturntennantguide-codex"}
+      ],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+    }]
+  ],
+
+
+
+
+ 
+   	"saturnenchantsilk" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "silkfibre", 4]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  
+  
+  "saturnMothmanGift" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.4, "pool" : "villagerGift"},
+        {"weight" : 0.2, "item" : [ "liquidoil", 50]},
+        {"weight" : 0.2, "item" : [ "SaturnSilkshade", 1]},
+        {"weight" : 0.2, "item" : [ "blackblock", 50]}
+      ],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+    }]
+  ],
+  "saturnCrystalLamps" : [
+    [1, {
+      "pool" : [
+
+        {"weight" : 0.05, "item" : [ "saturnfloatcrystalRed", 5]},
+        {"weight" : 0.05, "item" : [ "saturnfloatcrystalYellow", 5]},
+        {"weight" : 0.05, "item" : [ "saturnfloatcrystalGreen", 5]},
+        {"weight" : 0.05, "item" : [ "saturnfloatcrystalBlue", 5]},
+        {"weight" : 0.05, "item" : [ "saturnfloatcrystalPurple", 5]},
+        {"weight" : 0.05, "item" : [ "saturnfloatcrystalWhite", 5]},
+
+        {"weight" : 0.05, "item" : [ "saturnfloatorbRed", 5]},
+        {"weight" : 0.05, "item" : [ "saturnfloatorbYellow", 5]},
+        {"weight" : 0.05, "item" : [ "saturnfloatorbGreen", 5]},
+        {"weight" : 0.05, "item" : [ "saturnfloatorbBlue", 5]},
+        {"weight" : 0.05, "item" : [ "saturnfloatorbPurple", 5]},
+        {"weight" : 0.05, "item" : [ "saturnfloatorbWhite", 5]},
+		
+		
+        {"weight" : 0.05, "item" : [ "saturncirclesollampRed", 5]},
+        {"weight" : 0.05, "item" : [ "saturncirclesollampYellow", 5]},
+        {"weight" : 0.05, "item" : [ "saturncirclesollampGreen", 5]},
+        {"weight" : 0.05, "item" : [ "saturncirclesollampTrueBlue", 5]},
+        {"weight" : 0.05, "item" : [ "saturncirclesollampPurple", 5]},
+        {"weight" : 0.05, "item" : [ "saturncirclesollampWhite", 5]},
+
+        {"weight" : 0.05, "item" : [ "saturncrystallampRed", 5]},
+        {"weight" : 0.05, "item" : [ "saturncrystallampYellow", 5]},
+        {"weight" : 0.05, "item" : [ "saturncrystallampGreen", 5]},
+        {"weight" : 0.05, "item" : [ "saturncrystallampBlue", 5]},
+        {"weight" : 0.05, "item" : [ "saturncrystallampPurple", 5]},
+        {"weight" : 0.05, "item" : [ "saturncrystallampWhite", 5]}
+      ],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+    }]
+  ],
+  "saturnLumothGift" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.1, "pool" : "saturnCrystalLamps"},
+        {"weight" : 0.01, "item" : [ "cabinlamp", 1]},
+        {"weight" : 0.02, "item" : [ "doomlight", 4]},
+        {"weight" : 0.01, "item" : [ "sunmodel", 1]},
+        {"weight" : 0.02, "item" : [ "executivelight", 4]},
+        {"weight" : 0.02, "item" : [ "geometriclight", 4]},
+        {"weight" : 0.01, "item" : [ "islandlamp", 4]},
+        {"weight" : 0.02, "item" : [ "opulentlight", 4]},
+        {"weight" : 0.04, "item" : [ "lamppost1", 4]},
+        {"weight" : 0.01, "item" : [ "lamppost2", 4]},
+        {"weight" : 0.01, "item" : [ "lamppost3", 4]},
+        {"weight" : 0.02, "item" : [ "pastellight", 4]},
+        {"weight" : 0.01, "item" : [ "retroscifilight", 4]},
+        {"weight" : 0.01, "item" : [ "sealamp", 1]},
+        {"weight" : 0.02, "item" : [ "serenelight", 4]},
+        {"weight" : 0.02, "item" : [ "steampunklamp", 4]},
+        {"weight" : 0.02, "item" : [ "wavelight", 4]},
+        {"weight" : 0.008, "item" : [ "ancientlightround", 4]},
+        {"weight" : 0.008, "item" : [ "ancientlight", 4]},
+        {"weight" : 0.003, "item" : [ "ancientbust", 1]},
+        {"weight" : 0.01, "item" : [ "outpostlight", 4]},
+        {"weight" : 0.005, "item" : [ "ancientchest", 1]},
+        {"weight" : 0.02, "item" : [ "classiclight", 4]},
+        {"weight" : 0.01, "item" : [ "apexlamp2", 4]},
+        {"weight" : 0.01, "item" : [ "crystaltorch", 4]},
+        {"weight" : 0.01, "item" : [ "floranlamp1", 4]},
+        {"weight" : 0.01, "item" : [ "fairylights", 4]},
+        {"weight" : 0.01, "item" : [ "floodlights", 4]},
+        {"weight" : 0.01, "item" : [ "woodenlamp1", 4]},
+        {"weight" : 0.01, "item" : [ "woodenlamp2", 4]},
+        {"weight" : 0.01, "item" : [ "holidaylights", 4]},
+        {"weight" : 0.01, "item" : [ "hylotllamp", 4]},
+        {"weight" : 0.01, "item" : [ "hylotlsign1g", 1]},
+        {"weight" : 0.01, "item" : [ "numisign", 1]},
+        {"weight" : 0.01, "item" : [ "frontierlamp", 4]},
+        {"weight" : 0.01, "item" : [ "officelamp", 1]},
+        {"weight" : 0.01, "item" : [ "outpostlamp", 4]},
+        {"weight" : 0.01, "item" : [ "penguinbarlamp", 4]},
+        {"weight" : 0.01, "item" : [ "peacekeeperlamppost", 4]},
+        {"weight" : 0.01, "item" : [ "protectoratelavalamp", 1]},
+        {"weight" : 0.01, "item" : [ "tier2light", 4]},
+        {"weight" : 0.005, "item" : [ "tier3light", 4]},
+        {"weight" : 0.005, "item" : [ "tier4light", 4]}
+      ],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+    }]
+  ]
+  
+}
+
+

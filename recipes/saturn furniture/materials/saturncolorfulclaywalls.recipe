@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "firedclay", "count" : 2 },
+    { "item" : "bluedye", "count" : 1 }
+
+  ],
+  "output" : { "item" : "saturncolorfulclaywalls", "count" : 200 },
+  "duration" : 0,
+  "groups"  : [ "craftingfurniture", "saturnmaterials", "materials", "all" ]
+}

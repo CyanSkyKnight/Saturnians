@@ -1,0 +1,23 @@
+[
+	{
+		"op": "add",
+		"path": "/beacon/saturn",
+		"value": {
+			"default": [
+				"Hi",
+				"Huh?",
+				"What is it?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/rent/saturn",
+		"value": {
+			"default": [
+				"Thanks friend!",
+				"Please take this!"
+			]
+		}
+	}
+]

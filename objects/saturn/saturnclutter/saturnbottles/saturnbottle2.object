@@ -1,0 +1,34 @@
+{
+  "objectName" : "saturnbottle2",
+  "colonyTags" : ["saturn", "alchemy" ],
+  "rarity" : "Common",
+  "price" : 10,
+  "description" : "[^#ff99ff;Decorative^reset;] Coffee in a bottle with a handle.",
+  "shortdescription" : "^#000300;^white;Coffee Bottle Mug",
+  "category" : "decorative",
+  "race" : "generic",
+  
+  "apexDescription" : "There isn't anything special about this bottle.",
+  "avianDescription" : "I like the smell of this.",
+  "floranDescription" : "Smelly drink.",
+  "glitchDescription" : "Neutral. A cup of coffee.",
+  "humanDescription" : "Someone forgot their coffee.",
+  "hylotlDescription" : "A bitter, unpleasant drink.",
+  "novakidDescription" : "I prefer my coffee black.",
+  
+  "saturnDescription" : "It's a coffee mug.",
+  "saturn2Description": "I'm more of a tea person.",
+  "satkyterranDescription" : "COFFEE!",
+  
+  "inventoryIcon" : "saturnbottle2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnbottle2.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

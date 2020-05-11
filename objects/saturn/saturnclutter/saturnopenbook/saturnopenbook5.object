@@ -1,0 +1,26 @@
+{
+  "objectName" : "saturnopenbook5",
+  "colonyTags" : ["saturn", "satBooks", "knowledge", "magic" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "A book about crystals used as focuses for wands, and theories for how they work.",
+  "shortdescription" : "^#000400;^white;Crystal Book",
+  "category" : "decorative",
+  "race" : "saturn",
+  
+  "saturnDescription" : "\"Despite how integral crystals are to wands, there's a lot we don't understand.\"",
+  "saturn2Description" : "\"Despite how integral crystals are to wands, there's a lot we don't understand.\"",
+  "satkyterranDescription" : "\"Despite how integral crystals are to wands, there's a lot we don't understand.\"",
+  
+  "inventoryIcon" : "saturnopenbook5icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnopenbook5.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

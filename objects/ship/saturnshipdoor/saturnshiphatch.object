@@ -1,0 +1,54 @@
+{
+  "objectName" : "saturnshiphatch",
+  "colonyTags" : ["saturn","door"],
+  "rarity" : "Common",
+  "category" : "door",
+  "price" : 125,
+  "description" : "Generates a bubble-like forcefield as a hatch. Has questionable safety.",
+  "shortdescription" : "Saturnian Bubble Hatch",
+  "race" : "saturn",
+  "apexDescription" : "A forcefield hatch.",
+  "avianDescription" : "A spaceship hatch.",
+  "floranDescription" : "Floran pop bubble",
+  "glitchDescription" : "Proud. A ship door.",
+  "humanDescription" : "This looks like something out of a sci-fi movie.",
+  "hylotlDescription" : "A rather bright hatch.",
+  "novakidDescription" : "A hatch?",
+  "saturnDescription" : "A bubble hatch. If I press the center, the bubble will pop.",
+  "saturn2Description" : "A bubble hatch. If I press the center, the bubble will pop.",
+   "inventoryIcon" : "saturnshiphatchicon.png",
+  
+  "orientations" : [
+    {
+      "dualImage" : "saturnshiphatch.png:default",
+      "imagePosition" : [-16, -20],
+      "renderLayer" : "Object+5",
+      "spaces" : [ 
+                    [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], 
+                    [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1]
+      ],
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+  "animation" : "saturnshipdoor.animation",
+ "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/saturnbubbledoor2.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/saturnbubbledoorClose.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "saturnshiphatch.png"
+  },
+  "animationPosition" : [-16, -20],
+  "inputNodes" : [ [-1, 0] ],
+  "outputNodes" : [ [1, -1] ]
+}

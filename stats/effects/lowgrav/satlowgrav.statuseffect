@@ -1,0 +1,16 @@
+{
+  "name" : "satlowgrav",
+  "effectConfig" : {
+    "gravityModifier" : 0.7
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "satlowgrav.lua"
+  ],
+  
+  "label" : "Featherweight",
+  "icon" : "/interface/statuses/saturnmothwings.png",
+
+  "animationConfig" : "satlowgrav.animation"
+}

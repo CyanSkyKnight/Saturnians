@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 10 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "saturnsmartpants", "count" : 1 },
+  "groups" : [ "craftingwheel", "Saturnconver" ]
+}

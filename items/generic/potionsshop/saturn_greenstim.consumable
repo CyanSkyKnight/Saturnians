@@ -1,0 +1,17 @@
+{
+  "itemName" : "saturn_greenstim",
+  "price" : 100,
+  "rarity" : "Common",
+  "category" : "medicine",
+  "inventoryIcon" : "saturn_greenstim.png",
+  "description" : "A bottle full of green liquid, gives your run a boost!",
+  "shortdescription" : "Potion of Speed",
+  "effects" : [ [
+      {
+        "effect" : "runboost",
+        "duration" : 60
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

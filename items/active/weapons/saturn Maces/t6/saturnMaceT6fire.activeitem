@@ -1,0 +1,37 @@
+{
+  "itemName" : "saturnMaceT6fire",
+  "level" : 6,
+  "price" : 480,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A glowing maul made from some sort of crystal.",
+  "shortdescription" : "Meteor Maul",
+  "tooltipKind" : "sword",
+  "category" : "saturnmace",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe", "upgradeableWeapon"],
+  "inventoryIcon" : "saturnMaceT6.png",
+  "animation" : "/items/active/weapons/saturn Maces/SaturnGlowMace.animation",
+  "animationParts" : {
+    "blade" : "saturnMaceT6fireFB.png",
+    "handle" : "saturnMaceT6fire.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_axe.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "fire",
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 1.05,
+    "baseDps" : 8,
+    "damageConfig" : {
+      "knockback" : 50,
+	  "damageSourceKind" : "hammer"
+    }
+  },
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

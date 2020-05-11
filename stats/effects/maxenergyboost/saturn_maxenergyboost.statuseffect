@@ -1,0 +1,14 @@
+{
+  "name" : "saturn_maxenergyboost",
+  "effectConfig" : {
+    "energyAmount" : 50
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "maxenergyboost.lua"
+  ],
+  
+  "label" : "Energy Boost",
+  "icon" : "/interface/statuses/maxenergy.png"
+}

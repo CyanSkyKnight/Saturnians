@@ -1,0 +1,12 @@
+{
+  "type" : "SaturnWizardMerchant_tenant",
+  "baseType" : "SaturnWizardMerchant",
+  
+  "dropPools" : [],
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common", "tenant", "merchant"]
+    }
+  }
+}

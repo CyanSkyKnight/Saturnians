@@ -1,0 +1,38 @@
+{
+  "objectName" : "saturnmarketstall",
+  "colonyTags" : ["saturn", "commerce", "magic"],
+  "rarity" : "Common",
+  "description" : "A stall set up by a wizard.",
+  "shortdescription" : "Staff Market Stall",
+  "race" : "saturn",
+  "category" : "decorative",
+  "price" : 120,
+
+  "apexDescription" : "Are these some kind of sci staff?",
+  "avianDescription" : "These staves are made from obsidian.",
+  "floranDescription" : "Crude mothman weaponss. Sssnap like twig.",
+  "glitchDescription" : "Observant. This weaponry would shatter as soon as it hits a foe.",
+  "humanDescription" : "Are these staves for LARP? Sweet!",
+  "hylotlDescription" : "Judging by this stall, these poor people can barely defend themselves.",
+  "novakidDescription" : "No thanks. I just need a six-shooter, not some weird staff I have to charge.",
+  
+  "saturnDescription" : "Magic staves for weaving light into matter.",
+  "saturn2Description" : "Although Solaleians weave light with their staves instead of using spirit magic, most of my skills would translate over just fine.",
+  "satkyterranDescription" : "Kyterran mages like to use hybrid melee and magic weapons, like axe-staves.",
+
+  "inventoryIcon" : "saturnmarketstallicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnmarketstall.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

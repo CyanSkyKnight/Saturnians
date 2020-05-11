@@ -1,0 +1,25 @@
+{
+  "materialId" : 54711,
+  "materialName" : "saturnslopedcolorfulclaywalls",
+  "particleColor" : [124, 145, 86, 255],
+  "itemDrop" : "saturnslopedcolorfulclaywalls",
+
+  "description" : "Solid stone used by Saturnians for houses and ships.",
+  "glitchDescription" : "Observant. This stone is free of scratches.",
+  "floranDescription" : "Sssmooth ssstone.",
+  "novakidDescription" : "Some thick stone slopes, looks mighty solid.",
+  "shortdescription" : "Mage Sloped Clay",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 12,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "saturnslopedcolorfulclaywalls.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 5000
+  }
+}

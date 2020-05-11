@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "phrygiancaphead", "count" : 1 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "saturnphrygiancaphead", "count" : 1 },
+  "groups" : [ "saturntransmoghats", "all" ]
+}

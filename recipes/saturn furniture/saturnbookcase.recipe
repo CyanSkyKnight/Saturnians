@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "saturnebony", "count" : 15 },
+    { "item" : "glass", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "saturnbookcase",
+    "count" : 1
+  },
+  "duration" : 0,
+  "groups" : [ "craftingfurniture", "saturnstorage", "storage", "all" ]
+}

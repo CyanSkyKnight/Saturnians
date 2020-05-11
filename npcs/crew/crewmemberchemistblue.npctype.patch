@@ -1,0 +1,22 @@
+[
+
+{"op" : "add", "path" : "/items/saturn", "value":[[0, [
+		{
+
+			
+			"chest" : [
+			{ "name" : "saturnVoidMageOldchest"}
+			],
+			
+			"legs" : [
+			{ "name" : "saturnVoidMageOldpants"}
+			],
+			
+			"primary" : [
+			{ "name" : "saturn_bluespray"}
+			],
+			"sheathedprimary" : [ "saturnGeneratedBatonOrb" ]
+			
+		}
+	]]]}
+]

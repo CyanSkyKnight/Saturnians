@@ -1,0 +1,33 @@
+{
+  "itemName" : "saturnhalberd",
+  "price" : 400,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A halberd made for keeping enemies at bay.",
+  "shortdescription" : "Obsidian Halberd",
+  "tooltipKind" : "sword",
+  "category" : "hammer",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "axe", "upgradeableWeapon"],
+  "inventoryIcon" : "saturnhalberd.png",
+  "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "saturnhalberd.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "hammersmash",
+  "primaryAbility" : {
+    "fireTime" : 0.75,
+    "baseDps" : 9
+  },
+  "altAbilityType" : "spearcharge",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

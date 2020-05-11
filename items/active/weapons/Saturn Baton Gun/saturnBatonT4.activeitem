@@ -1,0 +1,126 @@
+{
+  "itemName" : "saturnBatonT4",
+  "price" : 800,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Casts a lightning ball that bounces off of walls. Doriyah!",
+  "shortdescription" : "^#000400;^reset;Phantom Baton",
+  "tooltipKind" : "saturngun",
+  "category" : "saturnbaton",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "ranged", "wand", "upgradeableWeapon"],
+  "level" : 4,
+
+  "inventoryIcon" : "saturnBatonT4.png",
+
+  "animation" : "/items/active/weapons/ranged/saturnwindupgun.animation",
+  "animationParts" : {
+    "chargeFlash" : "/items/active/weapons/saturnstaff/wands/satglowEle.png",
+    "middle" : "saturnBatonT4.png",
+    "barrel" : "saturnBatonT4FB.png",
+    "muzzleFlash" : "/items/active/weapons/ranged/saturnwandfire.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+    "charge" : [ "/sfx/melee/saturnQuickSpin.ogg" ],
+	"charge2" : [ "/sfx/melee/SaturnShortwandFlick.ogg" ],
+	"charge3" : [ "/sfx/melee/saturnBlank.ogg" ],
+    "fire" : [ "/sfx/melee/travelingslash_electric3.ogg", "/sfx/melee/travelingslash_electric4.ogg", "/sfx/melee/travelingslash_electric5.ogg" ]
+	},
+	"lights" : {
+      "glow" : {
+        "color" : [20, 53, 20]
+		}
+	  }
+  },
+  "aimOffset" : -1,
+  "muzzleOffset" : [2, 0.8],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/saturngunfire.lua"],
+    "class" : "SaturnGunFire",
+
+    "fireTime" : 0.5,
+    "baseDps" : 15.5,
+    "energyUsage" : 32,
+	"projectileCount" : 1,
+    "inaccuracy" : 0,
+    "fireType" : "auto",
+
+    "projectileType" : ["saturnganontennisball"],
+    "projectileParameters" : {
+	"knockback" : 35
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : 0,
+        "weaponOffset" : [0, 0],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "windup" : {
+        "duration" : 0.4,
+        "armRotation" : 10,
+        "weaponRotation" : -30,
+        "weaponOffset" : [0, 0],
+		"armAngularVelocity" : -500,
+		"weaponAngularVelocity" : -1230,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "windup2" : {
+	    "duration" : 0.3,
+        "armRotation" : -120,
+        "weaponRotation" : 30,
+        "weaponOffset" : [0, 0.5],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "windup3" : {
+	    "duration" : 0.001,
+        "armRotation" : -120,
+        "weaponRotation" : 30,
+        "weaponOffset" : [0, 0.5],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "aimcorrect" : {
+	    "duration" : 0.001,
+        "armRotation" : -20,
+        "weaponRotation" : -70,
+        "weaponOffset" : [0, 0.5],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.2,
+        "armRotation" : -20,
+        "weaponRotation" : -70,
+        "weaponOffset" : [0, 0.5],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.001,
+        "armRotation" : -20,
+        "weaponRotation" : -70,
+        "weaponOffset" : [0, 0.5],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

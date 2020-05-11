@@ -1,0 +1,280 @@
+{
+  "metadata" : {
+    "name" : "saturnskygarden",
+    "species" : "saturn",
+    "rules" : [
+    ],
+    "anchor" : [ "saturngardentower", "saturngardentower2" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 30,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+  
+    {
+      "name" : "saturngardentower",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "saturngardentower" ] ],
+		[ "doNotCombineWith", [ "saturngardentower2"] ]
+
+      ],
+      "def" : [ "tmx", "saturngardentower.json" ]
+    },
+	
+    {
+      "name" : "saturngardentower2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "saturngardentower2" ] ],
+		[ "doNotCombineWith", [ "saturngardentower"] ]
+
+      ],
+      "def" : [ "tmx", "saturngardentower2.json" ]
+    },
+
+//Paths
+	
+    {
+      "name" : "saturngardenpathSmall",
+      "rules" : [
+        [ "maxSpawnCount", [15] ],
+        [ "doNotConnectToPart", [ "saturngardenpathSmall", "saturngardenpathSmall2", "saturngardenpath1",  "saturngardenpath2", "saturngardenpath3", "saturngardenpath3Lower", "saturngardenpath3Raise" ] ]
+
+      ],
+      "def" : [ "tmx", "saturngardenpathSmall.json" ]
+    },	
+	
+    {
+      "name" : "saturngardenpathSmall2",
+      "rules" : [
+        [ "maxSpawnCount", [10] ],
+        [ "doNotConnectToPart", [ "saturngardenpathSmall", "saturngardenpathSmall2", "saturngardenpath1",  "saturngardenpath2", "saturngardenpath3", "saturngardenpath3Lower", "saturngardenpath3Raise" ] ]
+
+      ],
+      "def" : [ "tmx", "saturngardenpathSmall2.json" ]
+    },	
+	
+	
+    {
+      "name" : "saturngardenpath1",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "saturngardenpathSmall", "saturngardenpathSmall2", "saturngardenpath1",  "saturngardenpath2", "saturngardenpath3", "saturngardenpath3Lower", "saturngardenpath3Raise" ] ]
+
+      ],
+      "def" : [ "tmx", "saturngardenpath1.json" ]
+    },
+    {
+      "name" : "saturngardenpath2",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "saturngardenpathSmall", "saturngardenpathSmall2", "saturngardenpath1",  "saturngardenpath2", "saturngardenpath3", "saturngardenpath3Lower", "saturngardenpath3Raise" ] ]
+
+      ],
+      "def" : [ "tmx", "saturngardenpath2.json" ]
+    },
+	
+    {
+      "name" : "saturngardenpath3",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "saturngardenpathSmall", "saturngardenpathSmall2", "saturngardenpath1",  "saturngardenpath2", "saturngardenpath3", "saturngardenpath3Lower", "saturngardenpath3Raise" ] ]
+
+      ],
+      "def" : [ "tmx", "saturngardenpath3.json" ]
+    },
+    {
+      "name" : "saturngardenpath3Lower",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "saturngardenpathSmall", "saturngardenpathSmall2", "saturngardenpath1",  "saturngardenpath2", "saturngardenpath3", "saturngardenpath3Lower", "saturngardenpath3Raise" ] ]
+
+      ],
+      "def" : [ "tmx", "saturngardenpath3Lower.json" ]
+    },
+    {
+      "name" : "saturngardenpath3Raise",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "saturngardenpathSmall", "saturngardenpathSmall2", "saturngardenpath1",  "saturngardenpath2", "saturngardenpath3", "saturngardenpath3Lower", "saturngardenpath3Raise" ] ]
+
+      ],
+      "def" : [ "tmx", "saturngardenpath3Raise.json" ]
+    },
+	
+
+
+
+
+	
+	
+//Buildings
+
+    {
+      "name" : "saturngardenhouse1",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "saturngardenhouse1", "saturngardenhouse1a", "saturngardenhouse2a", "saturngardenhouse2b", "saturngardenhouse2", "saturngardenpotionshop", "saturngardenInn", "saturngardenstaffshop", "saturngardenstaffshop2", "saturngardentower", "saturngardenGreenhouse", "saturngardensmith", "saturngardensmithkyta", "saturngardenLibrary", "saturngardenartshop" ] ]
+
+      ],
+      "def" : [ "tmx", "saturngardenhouse1.json" ]
+    },
+    {
+      "name" : "saturngardenhouse1a",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "saturngardenhouse1", "saturngardenhouse1a", "saturngardenhouse2a", "saturngardenhouse2b", "saturngardenhouse2", "saturngardenpotionshop", "saturngardenInn", "saturngardenstaffshop", "saturngardenstaffshop2", "saturngardentower", "saturngardenGreenhouse", "saturngardensmith", "saturngardensmithkyta", "saturngardenLibrary", "saturngardenartshop" ] ]
+
+      ],
+      "def" : [ "tmx", "saturngardenhouse1a.json" ]
+    },
+	
+    {
+      "name" : "saturngardenhouse2",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "saturngardenhouse1", "saturngardenhouse1a", "saturngardenhouse2a", "saturngardenhouse2b", "saturngardenhouse2", "saturngardenpotionshop", "saturngardenInn", "saturngardenstaffshop", "saturngardenstaffshop2", "saturngardentower", "saturngardenGreenhouse", "saturngardensmith", "saturngardensmithkyta", "saturngardenLibrary", "saturngardenartshop" ] ]
+
+      ],
+      "def" : [ "tmx", "saturngardenhouse2.json" ]
+    },
+    {
+      "name" : "saturngardenhouse2a",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "saturngardenhouse1", "saturngardenhouse1a", "saturngardenhouse2a", "saturngardenhouse2b", "saturngardenhouse2", "saturngardenpotionshop", "saturngardenInn", "saturngardenstaffshop", "saturngardenstaffshop2", "saturngardentower", "saturngardenGreenhouse", "saturngardensmith", "saturngardensmithkyta", "saturngardenLibrary", "saturngardenartshop" ] ]
+
+      ],
+      "def" : [ "tmx", "saturngardenhouse2a.json" ]
+    },
+    {
+      "name" : "saturngardenhouse2b",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "saturngardenhouse1", "saturngardenhouse1a", "saturngardenhouse2a", "saturngardenhouse2b", "saturngardenhouse2", "saturngardenpotionshop", "saturngardenInn", "saturngardenstaffshop", "saturngardenstaffshop2", "saturngardentower", "saturngardenGreenhouse", "saturngardensmith", "saturngardensmithkyta", "saturngardenLibrary", "saturngardenartshop" ] ]
+
+      ],
+      "def" : [ "tmx", "saturngardenhouse2b.json" ]
+    },
+	
+    {
+      "name" : "saturngardenLibrary",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "saturngardenhouse1", "saturngardenhouse1a", "saturngardenhouse2a", "saturngardenhouse2b", "saturngardenhouse2", "saturngardenpotionshop", "saturngardenInn", "saturngardenstaffshop", "saturngardenstaffshop2", "saturngardentower", "saturngardenGreenhouse", "saturngardensmith", "saturngardensmithkyta", "saturngardenLibrary", "saturngardenartshop" ] ]
+
+      ],
+      "def" : [ "tmx", "saturngardenLibrary.json" ]
+    },
+    {
+      "name" : "saturngardenGreenhouse",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "saturngardenhouse1", "saturngardenhouse1a", "saturngardenhouse2a", "saturngardenhouse2b", "saturngardenhouse2", "saturngardenpotionshop", "saturngardenInn", "saturngardenstaffshop", "saturngardenstaffshop2", "saturngardentower", "saturngardenGreenhouse", "saturngardensmith", "saturngardensmithkyta", "saturngardenLibrary", "saturngardenartshop" ] ]
+
+      ],
+      "def" : [ "tmx", "saturngardenGreenhouse.json" ]
+    },
+	
+    {
+      "name" : "saturngardenpotionshop",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "saturngardenhouse1", "saturngardenhouse1a", "saturngardenhouse2a", "saturngardenhouse2b", "saturngardenhouse2", "saturngardenpotionshop", "saturngardenInn", "saturngardenstaffshop", "saturngardenstaffshop2", "saturngardentower", "saturngardenGreenhouse", "saturngardensmith", "saturngardensmithkyta", "saturngardenLibrary", "saturngardenartshop" ] ]
+
+      ],
+      "def" : [ "tmx", "saturngardenpotionshop.json" ]
+    },
+	
+    {
+      "name" : "saturngardenInn",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "saturngardenhouse1", "saturngardenhouse1a", "saturngardenhouse2a", "saturngardenhouse2b", "saturngardenhouse2", "saturngardenpotionshop", "saturngardenInn", "saturngardenstaffshop", "saturngardenstaffshop2", "saturngardentower", "saturngardenGreenhouse", "saturngardensmith", "saturngardensmithkyta", "saturngardenLibrary", "saturngardenartshop" ] ]
+
+      ],
+      "def" : [ "tmx", "saturngardenInn.json" ]
+    },
+	
+    {
+      "name" : "saturngardenstaffshop",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "doNotCombineWith", [ "saturngardenstaffshop2"] ],
+        [ "doNotConnectToPart", [ "saturngardenhouse1", "saturngardenhouse1a", "saturngardenhouse2a", "saturngardenhouse2b", "saturngardenhouse2", "saturngardenpotionshop", "saturngardenInn", "saturngardenstaffshop", "saturngardenstaffshop2", "saturngardentower", "saturngardenGreenhouse", "saturngardensmith", "saturngardensmithkyta", "saturngardenLibrary", "saturngardenartshop" ] ]
+
+      ],
+      "def" : [ "tmx", "saturngardenstaffshop.json" ]
+    },
+	
+    {
+      "name" : "saturngardenstaffshop2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "doNotCombineWith", [ "saturngardenstaffshop"] ],
+        [ "doNotConnectToPart", [ "saturngardenhouse1", "saturngardenhouse1a", "saturngardenhouse2a", "saturngardenhouse2b", "saturngardenhouse2", "saturngardenpotionshop", "saturngardenInn", "saturngardenstaffshop", "saturngardenstaffshop2", "saturngardentower", "saturngardenGreenhouse", "saturngardensmith", "saturngardensmithkyta", "saturngardenLibrary", "saturngardenartshop" ] ]
+
+      ],
+      "def" : [ "tmx", "saturngardenstaffshop2.json" ]
+    },
+	
+    {
+      "name" : "saturngardensmith",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "saturngardenhouse1", "saturngardenhouse1a", "saturngardenhouse2a", "saturngardenhouse2b", "saturngardenhouse2", "saturngardenpotionshop", "saturngardenInn", "saturngardenstaffshop", "saturngardenstaffshop2", "saturngardentower", "saturngardenGreenhouse", "saturngardensmith", "saturngardensmithkyta", "saturngardenLibrary", "saturngardenartshop" ] ],
+		[ "doNotCombineWith", [ "saturngardensmithkyta"] ]
+
+      ],
+      "def" : [ "tmx", "saturngardensmith.json" ]
+    },
+
+    {
+      "name" : "saturngardensmithkyta",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "saturngardenhouse1", "saturngardenhouse1a", "saturngardenhouse2a", "saturngardenhouse2b", "saturngardenhouse2", "saturngardenpotionshop", "saturngardenInn", "saturngardenstaffshop", "saturngardenstaffshop2", "saturngardentower", "saturngardenGreenhouse", "saturngardensmith", "saturngardensmithkyta", "saturngardenLibrary", "saturngardenartshop" ] ],
+		[ "doNotCombineWith", [ "saturngardensmith"] ]
+
+      ],
+      "def" : [ "tmx", "saturngardensmithkyta.json" ]
+    },
+	
+    {
+      "name" : "saturngardenartshop",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "saturngardenhouse1", "saturngardenhouse1a", "saturngardenhouse2a", "saturngardenhouse2b", "saturngardenhouse2", "saturngardenpotionshop", "saturngardenInn", "saturngardenstaffshop", "saturngardenstaffshop2", "saturngardentower", "saturngardenGreenhouse", "saturngardensmith", "saturngardensmithkyta", "saturngardenLibrary", "saturngardenartshop" ] ]
+
+      ],
+      "def" : [ "tmx", "saturngardenartshop.json" ]
+    },
+
+	
+	
+
+//End caps	
+
+    {
+      "name" : "saturngardenLeftEnd",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "saturngardenLeftEnd.json" ] ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "saturngardenRightEnd",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "saturngardenRightEnd.json" ] ],
+      "chance" : 0
+    }
+  ]
+}

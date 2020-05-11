@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "saturnSolhead", "count" : 1 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "saturnSolheadCL", "count" : 1 },
+  "groups" : [ "saturntransmogbonus", "all" ]
+}

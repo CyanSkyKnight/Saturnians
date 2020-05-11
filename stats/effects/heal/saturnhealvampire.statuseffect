@@ -1,0 +1,17 @@
+{
+  "name" : "saturnhealvampire",
+  "effectConfig" : {
+    "healAmount" : 5,
+    "emissionRate" : 0.1
+  },
+  "defaultDuration" : 0.1,
+
+  "scripts" : [
+    "heal.lua"
+  ],
+
+  "animationConfig" : "heal.animation",
+
+  "label" : "Vampire Healing",
+  "icon" : "/interface/statuses/heal.png"
+}

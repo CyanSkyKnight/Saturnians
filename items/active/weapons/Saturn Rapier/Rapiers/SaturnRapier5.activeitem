@@ -1,0 +1,35 @@
+{
+  "itemName" : "SaturnRapier5",
+  "price" : 760,
+  "level" : 5,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Wielding this gives you the urge to laugh maniacally. Ohohoho!",
+  "shortdescription" : "Regal Rapier",
+  "tooltipKind" : "sword",
+  "category" : "saturnrapier",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "melee", "rapier", "upgradeableWeapon"],
+  "critChance" : 1,
+  "critBonus" : 1, 
+  "inventoryIcon" : "SaturnRegalRapier.png",
+  "animation" : "/items/active/weapons/Saturn Rapier/SaturnGlowshortswordcomboB.animation",
+  "animationParts" : {
+    "handle": "SaturnRegalRapier.png",
+    "blade" : "SaturnRegalRapierFB.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/SaturnFencingSwordThrust.ogg" ],
+	  "fire3" : [ "/sfx/melee/SaturnFencingSwordThrust4.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "poison",
+  "primaryAbilityType" : "Saturnshortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.625,
+    "baseDps" : 7.5
+  },
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

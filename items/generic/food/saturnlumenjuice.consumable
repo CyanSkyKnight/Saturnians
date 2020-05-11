@@ -1,0 +1,23 @@
+{
+  "itemName" : "saturnlumenjuice",
+  "rarity" : "Common",
+  "price" : 50,
+  "category" : "drink",
+  "inventoryIcon" : "saturnlumenjuice.png",
+  "description" : "When boiled, lumen fruit juice glows for much longer.",
+  "shortdescription" : "Lumen Fruit Juice",
+  "effects" : [ [
+    {
+        "effect" : "glow",
+        "duration" : 200
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "learnBlueprintsOnPickup" : [ "saturnlumenrockcandy", "saturnlumenade" ],
+  "emitters" : [ "drinking" ]
+}

@@ -1,0 +1,15 @@
+{
+  "name" : "saturnburning",
+  "blockingStat" : "specialStatusImmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 8,
+
+  "scripts" : [
+    "burning.lua"
+  ],
+
+  "animationConfig" : "saturnburning.animation",
+
+  "label" : "Soul Burning",
+  "icon" : "/interface/statuses/fire.png"
+}

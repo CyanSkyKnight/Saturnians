@@ -1,0 +1,66 @@
+{
+  "type" : "saturnMothmantenant",
+  "baseType" : "generictenant",
+
+  "scriptConfig" : {
+    "questGenerator" : {
+	
+      "pools" : ["common", "tenant"],
+      "graduation" : {
+        "nextNpcType" : [
+          [1, "crewmembersaturnMothman"]
+        ]
+      }
+    },
+
+    "dialog" : {
+		"tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/grumble.config:tagCriteria",
+          "enclosedArea" : "/dialog/grumble.config:enclosedArea",
+          "otherDeed" : "/dialog/grumble.config:otherDeed",
+          "severe" : "/dialog/grumble.config:severe",
+          "final" : "/dialog/grumble.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/arrivedhome.config:beacon",
+          "rent" : "/dialog/arrivedhome.config:rent"
+        }
+      },
+      "flee" : {
+        "helpme" : "/dialog/flee.config:helpme",
+        "safe" : "/dialog/flee.config:safe"
+      },
+      "converse" : {
+
+        "default" : {
+		  "default" : [
+            "Hello! Thanks for bringing me here! This place is way better than where I was. That old place was BORING!"
+			
+          ],
+          "saturn" : [
+            "Hello moth! What? Do you think 'I' look like a moth? Tee hee hee!"
+			
+          ],
+          "saturn2" : [
+            "Hello moth! What? Do you think 'I' look like a moth? Tee hee hee!"
+			
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+			"head" : [ { "name" : "saturnnull", "data" : { "colorIndex" : [1] } } ],
+			"chest" : [ { "name" : "avianadventurershirt", "data" : { "colorIndex" : [1] } }  ],
+            "legs" : [ { "name" : "avianadventurerpants", "data" : { "colorIndex" : [1] } }  ],
+			"back" : [ { "name" : "saturnWingMothman", "data" : { "colorIndex" : [28] } }  ]
+			}
+        ] ]
+    ]
+  }
+}

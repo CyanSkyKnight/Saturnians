@@ -1,0 +1,39 @@
+{
+  "itemName" : "saturnlanceT3",
+  "price" : 500,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "An electrified lance for charging at enemies.",
+  "shortdescription" : "Crystal Lance",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear", "upgradeableWeapon"],
+  "inventoryIcon" : "saturnlanceT3.png",
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "saturnlanceT3.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    },
+	"lights" : {
+      "glow" : {
+        "color" : [15, 53, 43]
+		}
+	  }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "electric",
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 1.5,
+    "baseDps" : 10.5
+  },
+  "altAbilityType" : "spearcharge",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

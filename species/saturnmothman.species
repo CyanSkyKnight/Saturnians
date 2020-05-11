@@ -1,0 +1,417 @@
+{
+  "kind" : "saturnmothman",
+   "charCreationTooltip" : {
+      "title" : "Mothman",
+      "subTitle" : "Ne",
+      "description" : "This is used to ensure a rare crewmember has glowing eyes. This isn't intended as a playable species."
+  },
+  
+  
+  "nameGen" : [ "/species/saturnlunarnames.config:names", "/species/saturnlunarnames.config:names" ],
+  
+  "ouchNoises" : [ "/sfx/humanoid/saturn_hawk1.ogg", "/sfx/humanoid/saturn_sfx1b.ogg", "/sfx/humanoid/saturn_sfx1c.ogg", "/sfx/humanoid/saturn_sfx1d.ogg", "/sfx/humanoid/saturn_sfx2.ogg", "/sfx/humanoid/saturn_sfx3.ogg" ],
+  
+  "gruntNoises" : [ [ "/sfx/humanoid/saturn_sfx3.ogg", "/sfx/humanoid/saturn_sfx2.ogg.ogg" ], [ "/sfx/humanoid/saturn_sfx1.ogg", "/sfx/humanoid/saturn_sfx1b.ogg"] ],
+  
+  "charGenTextLabels" : [ "Primary Color", "Antennae Style", "Shirt", "Pants", "Face/Fluff Type", "Fluff Color", "Shirt Color", "Pants Color", "MOTHMAN", "Personality" ],
+  
+  "effectDirectives" : "?replace=FEFFFFFF=000000FF?replace=9bd4ffFF=000000FF?replace=31a6ffFF=000000FF",
+  
+  
+  "humanoidOverrides" : {
+    "bodyFullbright" : true
+  },
+  
+  "statusEffects" : [ "novakidglow" ],
+  
+  "skull" : "/humanoid/saturn/dead.png",
+   
+  "defaultBlueprints" : {
+    "tier1" : [
+// Empty Hands
+      { "item" : "flagsaturn" },
+	  
+      { "item" : "saturnmannequin" },
+      { "item" : "saturnwarpgem" },
+	  { "item" : "liquidsaturnnectar" },
+	  { "item" : "SaturnSilk" },
+	  
+
+	  { "item" : "saturnMagicLoom" },
+	  
+// Anvil
+      { "item" : "saturnNovMhead" },
+	  { "item" : "saturnNovMchest" },
+	  { "item" : "saturnNovMpants" },
+	  
+      { "item" : "saturnForestMagehead" },
+	  { "item" : "saturnForestMagechest" },
+	  { "item" : "saturnForestMagepants" },
+	  
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+	  
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+	  
+// Anvil2
+      { "item" : "saturnVoidMagehead" },
+	  { "item" : "saturnVoidMagechest" },
+	  { "item" : "saturnVoidMagepants" },
+	  
+      { "item" : "saturnNecromagehead" },
+	  { "item" : "saturnNecromagechest" },
+	  { "item" : "saturnNecromagepants" },
+	  
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+ 
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+	  
+// Anvil3
+//Mage
+      { "item" : "saturntier5mhead" },
+	  { "item" : "saturntier5mchest" },
+	  { "item" : "saturntier5mpants" },
+	  
+      { "item" : "saturnNovaWizardhead" },
+	  { "item" : "saturnNovaWizardchest" },
+	  { "item" : "saturnNovaWizardpants" },	  
+	  
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+	  
+	  { "item" : "satstaffT1" },	  
+	  { "item" : "satstaffT2" },
+	  { "item" : "satstaffT3" },	 	  
+	  { "item" : "satstaffT4" },	  
+      { "item" : "satstaffT5" },
+      { "item" : "satstaffstar1" },
+	  
+//Warrior
+      { "item" : "saturnkni5head" },
+	  { "item" : "saturnkni5chest" },
+	  { "item" : "saturnkni5pants" },
+	  
+      { "item" : "saturnSolhead" },
+	  { "item" : "saturnSolchest" },
+	  { "item" : "saturnSolpants" },
+	  
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+	  
+	  { "item" : "saturnMaceT1" },	  
+	  { "item" : "saturnMaceT2" },
+	  { "item" : "saturnMaceT3" },	 	  
+	  { "item" : "saturnMaceT4" },
+	  { "item" : "saturnMaceT5" },	 	  
+	  { "item" : "saturnMaceT6" },
+	  
+	  { "item" : "SaturnRapier" },	  
+	  { "item" : "SaturnRapier2" },
+	  { "item" : "SaturnRapier3" },	 	  
+	  { "item" : "SaturnRapier4" },
+	  { "item" : "SaturnRapier5" },	 	  
+	  { "item" : "SaturnRapier6" },
+
+	  { "item" : "saturnscytheT1" },	 
+	  { "item" : "saturnscytheT2" },
+	  { "item" : "saturnscytheT3" },	 	  
+	  { "item" : "saturnscytheT4" },
+	  { "item" : "saturnscytheT5" },	 	  
+	  { "item" : "saturnscytheT6" },	  
+	  
+//Ranger
+	  
+      { "item" : "saturnArcherhead" },
+	  { "item" : "saturnArcherchest" },
+	  { "item" : "saturnArcherpants" },
+	  { "item" : "saturnRocSlayerhead" },
+	  { "item" : "saturnRocSlayerchest" },
+	  { "item" : "saturnRocSlayerpants" },
+	  
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+	  
+	  { "item" : "SaturnBowT1" },	  
+	  { "item" : "SaturnBowT2" },
+	  { "item" : "SaturnBowT3" },	 	  
+	  { "item" : "SaturnBowT4" },
+	  { "item" : "SaturnBowT5" },	 	  
+	  { "item" : "SaturnBowT6" },
+// Furniture Table
+      { "item" : "saturnbookcase" },
+      { "item" : "saturncanvas" },
+      { "item" : "saturncrystalball" },
+      { "item" : "saturncrystallamp" },
+      { "item" : "saturncrystallampOrange" },
+	  
+	  { "item" : "saturncirclesollamp" },
+      { "item" : "saturncirclesollampblue" },
+	  
+      { "item" : "saturnebonychair" },
+      { "item" : "saturnebony" },
+      { "item" : "saturnebonytable" },
+	  
+	  
+      { "item" : "glitchstoragelocker" },
+      { "item" : "glitchshipdoor" },
+      { "item" : "glitchshiphatch" },
+	  
+      { "item" : "saturnshiplocker" },
+      { "item" : "saturnshipdoor" },
+      { "item" : "saturnshiphatch" },
+	  
+	  { "item" : "saturnicebox2" },
+	  
+//Misc Armor	  
+      { "item" : "saturnSoldierhead" },
+      { "item" : "saturnSoldierchest" },
+      { "item" : "saturnSoldierpants" },
+//Clothes
+      { "item" : "saturngoggles" },
+      { "item" : "saturngoggles2" },
+      { "item" : "saturngoggles3" },
+	  
+	  { "item" : "saturnStarhatAnt" },
+	  { "item" : "saturnCirclet" },
+	  { "item" : "saturnCircletSilver" },
+	  { "item" : "saturnStarhat" },
+	  { "item" : "saturnglasses" },
+	  { "item" : "saturnglasses2" },
+	  { "item" : "saturnglasses3" },
+	  { "item" : "saturnglasses4" },
+	  { "item" : "saturnProtectoratechest" },
+	  { "item" : "saturnProtectoratepants" },
+	  { "item" : "saturnsmartchest" },
+	  { "item" : "saturnsmartpants" },
+	  { "item" : "saturnmerchantchest" },
+	  { "item" : "saturnmerchantlegs" },
+	  
+//1.0.4 stuff
+	  { "item" : "saturnHeavyHood" },
+	  { "item" : "saturnHeavyScarfedHood" },
+	  { "item" : "saturnHeavyFluffhood" },
+	  { "item" : "saturnscarf" },
+	  { "item" : "saturnscarf2" },
+	  { "item" : "saturnnull" },
+	  { "item" : "saturnnullchest" },
+	  { "item" : "saturnnullpants" },
+	  { "item" : "saturnkyterranHelmhead" },
+//1.1 stuff
+
+	  { "item" : "saturnNocturneRobehead" },
+	  { "item" : "saturnNocturneRobechest" },
+	  { "item" : "saturnNocturneRobepants" },
+	  
+	  { "item" : "saturnNocturneRobeBhead" },
+	  { "item" : "saturnNocturneRobeBchest" },
+	  { "item" : "saturnNocturneRobeBpants" },
+	  
+	  { "item" : "saturnornaterobeshead" },
+	  { "item" : "saturnornaterobeschest" },
+	  { "item" : "saturnornaterobespants" },
+	  
+	  { "item" : "saturnVoidMageOldchest" },
+	  
+	  { "item" : "saturnlightstaff2" },
+	  { "item" : "saturnfishingwand" },
+	  
+	  { "item" : "saturnFluffScarf" },
+	  { "item" : "saturnFluffScarf2" },
+	  
+//1.1.1
+	  {"item" : "saturnLumothMask"},
+	  {"item" : "saturnVoidMageOldpants"},
+	  {"item" : "saturnRena1chest"},
+	  {"item" : "saturnRobechest"},
+	  {"item" : "saturnnoblelegs"},
+	  {"item" : "saturnFakeProboscis"},
+	  
+//1.1.2
+	  {"item" : "saturntier4headnotevil"},
+	  {"item" : "saturntier4chestnotevil"},
+
+	  {"item" : "saturnKypteranHelmhead"},
+	  {"item" : "saturnCircletObsidian"},
+	  
+	  {"item" : "saturnBuckledHat"},
+	  {"item" : "saturnShadowhat"},
+	  {"item" : "saturnStarhat2"},
+	  {"item" : "saturnTophat"},
+	  {"item" : "saturnTophat2"},
+	  {"item" : "saturnSunHat"},
+	  {"item" : "saturnWideHat"},
+	  {"item" : "saturnWideShadyHat"},
+	  {"item" : "saturngoggles4"},
+
+	  
+
+	  
+//Dye
+      { "item" : "Satcoolgreydye" },
+      { "item" : "Satcyandye" },
+      { "item" : "Satearthdye" },
+      { "item" : "Satindigodye" },
+      { "item" : "Satlimedye" },
+      { "item" : "Satmaroondye" },
+      { "item" : "Satsanddye" },
+      { "item" : "Satwarmgreydye" },
+      { "item" : "Satsundye" },
+      { "item" : "Sattealdye" },	  
+	  
+//Wings
+	  {"item" : "saturnLowgravAugment"},
+	  
+	  {"item" : "saturnWingRegal"},
+	  {"item" : "saturnWingRegalKnight"},
+	  {"item" : "saturnWingLuna"},
+ 	  {"item" : "saturnWingLunaB"},
+	  {"item" : "saturnWingSimple"},
+	  {"item" : "saturnWingLeopard"},
+	  {"item" : "saturnWingLeopardB"},
+	  {"item" : "saturnWingLeopardC"},
+	  {"item" : "saturnWingLeopardD"},
+      {"item" : "saturnWingRosy"},
+      {"item" : "saturnWingRosyB"},
+      {"item" : "saturnWingRosyC"},
+      {"item" : "saturnWingRosyD"},
+      {"item" : "saturnWingRosyE"},
+      {"item" : "saturnWingWasp"},
+	  {"item" : "saturnWingWasp2"},
+	  {"item" : "saturnWingWasp3"},
+      {"item" : "saturnWingSpearsmoth"},
+      {"item" : "saturnWingParallelogram"},
+      {"item" : "saturnWingMerchant"},
+      {"item" : "saturnWinglanternstick"},
+      {"item" : "saturnWingIOF"},
+      {"item" : "saturnWingIOM"},
+	  
+      {"item" : "saturnWingSimple2"},
+	  {"item" : "saturnWingTrimmed"},
+	  
+      {"item" : "saturnWingLuna2"},
+      {"item" : "saturnWingLunaB2"},
+      {"item" : "saturnWingComet"},
+	  {"item" : "saturnWingBanded"},
+	  {"item" : "saturnWingLumoth"},
+      {"item" : "saturnWingEternal"},
+      {"item" : "saturnWingSolar"},
+      {"item" : "saturnWingBeeFly"},
+      {"item" : "saturnWingMothron"},
+      {"item" : "saturnWingEnergy"},
+	  {"item" : "saturnWingTrimmedWhite"},
+	  {"item" : "saturnWingTrimmedBlack"},
+	  {"item" : "saturnWingTuliptree"},
+	  {"item" : "saturnWingCecropia"},
+	  {"item" : "saturnWingGalaxy"},
+	  {"item" : "saturnWingMothman"}
+	  
+	  
+    ]
+  },
+  "altOptionAsFacialMask" : true,
+  "bodyColorAsFacialMaskSubColor" : true,
+  "altColorAsFacialMaskSubColor" : true,
+  "headOptionAsHairColor" : true,
+  "hairColorAsBodySubColor" : true,
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/male.png",
+      "characterImage" : "/interface/title/saturnmale.png",
+	  
+	  "hair" : [ 
+		"satlargeM",
+		"satleaf2DamagedM",
+		"satleaf2M",
+		"satleaf3M"
+		],
+	  
+	  "shirt" : [ 
+				"saturnProtectoratechest",
+				"saturnVoidMageOldchest",
+				"saturnornaterobeschest",
+				"saturnNocturneRobechest",
+				"saturnNocturneRobeBchest",
+				"saturnRobechest",
+				"saturnRena1chest",
+				"saturnsmartchest",
+				"saturnmerchantchest" 
+				], 
+	  
+      "pants" : [  
+				"saturnProtectoratepants",
+				"saturnVoidMageOldpants", 
+				"saturnornaterobespants",
+				"saturnNocturneRobepants",
+				"saturnNocturneRobeBpants",
+				"saturnnoblelegs",
+				"saturnsmartpants",
+				"saturnmerchantlegs" 
+				],
+
+      "facialHairGroup" : "",
+      "facialHair" : [  ],
+      "facialMaskGroup" : "saturnfacetype",
+      "facialMask" : [ 
+		"CsatfaceMM"
+		]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/female.png",
+      "characterImage" : "/interface/title/saturnfemale.png",
+	  
+	  "hair" : [ 
+		"satlargeF",
+		"satleaf2DamagedF",
+		"satleaf2F",
+		"satleaf3F"
+		],
+	  
+	  "shirt" : [ 
+				"saturnProtectoratechest",
+				"saturnVoidMageOldchest",
+				"saturnornaterobeschest",
+				"saturnNocturneRobechest",
+				"saturnNocturneRobeBchest",
+				"saturnRobechest",
+				"saturnRena1chest",
+				"saturnsmartchest",
+				"saturnmerchantchest" 
+				], 
+	  
+      "pants" : [  
+				"saturnProtectoratepants",
+				"saturnVoidMageOldpants", 
+				"saturnornaterobespants",
+				"saturnNocturneRobepants",
+				"saturnNocturneRobeBpants",
+				"saturnnoblelegs",
+				"saturnsmartpants",
+				"saturnmerchantlegs" 
+				],
+
+      "facialHairGroup" : "",
+      "facialHair" : [  ],
+      "facialMaskGroup" : "saturnfacetype",
+      "facialMask" : [ 
+		"CsatfaceMM"
+		]
+    }
+  ],
+ "bodyColor" : [			
+	{ "EFF4F4" : "131313", "D5E1E2" : "090909", "A2AEB2" : "040404", "7E8899" : "020202" } //Midnight	
+
+		],
+ "undyColor" : [
+	{ "E5DB72" : "EFF4F4", "DBC762" : "D5E1E2", "CCB551" : "A2AEB2", "B2933E" : "7E8899" } //Unused
+	
+		],
+ "hairColor" : [	
+	{ "E5DB72" : "131313", "DBC762" : "090909", "CCB551" : "040404", "B2933E" : "020202" } 	//112Midnight	
+	
+		]
+}

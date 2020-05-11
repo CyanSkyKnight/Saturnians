@@ -1,0 +1,37 @@
+{
+  "itemName" : "saturnMaceT1",
+  "level" : 1,
+  "price" : 480,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Heavier than an axe, but more powerful.",
+  "shortdescription" : "Saturnian Mace",
+  "tooltipKind" : "sword",
+  "category" : "saturnmace",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "melee", "mace", "upgradeableWeapon"],
+  "inventoryIcon" : "saturnMaceT1.png",
+  "animation" : "/items/active/weapons/melee/axe/axe.animation",
+  "animationParts" : {
+    "blade" : "saturnMaceT1.png",
+    "handle" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_axe.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 1.05,
+    "baseDps" : 8,
+    "damageConfig" : {
+      "knockback" : 50,
+	  "damageSourceKind" : "hammer"
+    }
+  },
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

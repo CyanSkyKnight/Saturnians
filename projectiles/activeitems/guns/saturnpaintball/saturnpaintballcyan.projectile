@@ -1,0 +1,27 @@
+{
+  "projectileName" : "saturnpaintballcyan",
+  "physics" : "laser",
+  "bounces" : 0,
+  "image" : "saturnpaintballcyan.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "timeToLive" : 2,
+  "power" : 50,
+  "lightColor" : [40, 20, 4],
+  "speed" : 19,
+  "fullbright" : true,
+  "periodicActions" : [
+    {
+      "action" : "particle",
+      "specification" : "saturnpaintdripcyan",
+      "rotate" : true,
+      "time" : 0.01,
+      "repeat" : true
+    }
+  ],
+
+  "damageKind" : "default",
+  "statusEffects" : [
+    "saturnhoneyslow"
+  ]
+}

@@ -1,0 +1,35 @@
+//Dialog here is unfinished and should be assumed to be non-canon. 
+
+[
+    {
+      "op": "add",
+      "path": "/converse/saturn2",
+      "value": {
+		"default":[
+			"It's so dark out here, but the view of the stars is amazing!",
+			"We are the Nocturnians, the void-wandering Thaumoths. I wouldn't be surprised if you've never heard of us.",
+			"Yes, we do have solar filters on our windows.",
+			"Have you stumbled across any interesting tech?",
+			"Have you seen any space jellies?",
+			"Squeak?",
+			"Squeak!"
+			],
+		"saturn" : [
+			"Hello Sun-Thaumoth, how has Solalei been? Did they finally finish their unification project?", 
+		    "Has Nocturne been forgotten from the minds of the Thaumoths?",
+			"Ah! The Thaumoths of Solalei have entered space",
+			"Are we near Thaumoth space again, or did you also travel far away from it?",
+			"This ship looks really futuristic, right? It's actually old Metalumna tech.",
+			"We were the first Thaumoths in space, but we never had the time to go home. We still haven't completed our mission."
+		    ],
+		"saturn2" : [
+			"Moon-Thaumoth, what's happened since we've been gone? Did Lunai change their name AGAIN?",
+		    "Actian, ",
+			"We found a planet around a black hole; the Metalumna there were much more advanced than us, but didn't seem to care much about space travel.",
+			"Are we near Thaumoth space again, or did you also travel far away from it?",
+			"This ship looks really futuristic, right? It's actually old Metalumna tech.",
+			"We were the first Thaumoths in space, but we never had the time to go home. We still haven't completed our mission."
+		]
+		}
+	}
+]

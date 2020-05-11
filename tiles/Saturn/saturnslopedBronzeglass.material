@@ -1,0 +1,26 @@
+{
+  "materialId" : 54729,
+  "materialName" : "saturnslopedBronzeglass",
+  "particleColor" : [170, 238, 236, 255],
+  "itemDrop" : "saturnslopedBronzeglass",
+
+  "description" : "Solid glowing crystal paneling used in sky cities. ",
+  "glitchdescription" : "Observant. This is panelling widely used for ship and station construction.",
+  "florandescription" : "Shiny sssmooth glassss.",
+  "novakiddescription" : "Some thick glass, looks mighty solid.",
+  "shortdescription" : "Mage Bronze Glass",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 12,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "saturnslopedBronzeglass.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 5000,
+    "radiantLight" : [50, 50, 50]
+  }
+}

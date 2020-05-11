@@ -1,0 +1,15 @@
+{
+  "itemName" : "Satsundye",
+  "price" : 50,
+  "rarity" : "Rare",
+  "category" : "clothingDye",
+  "inventoryIcon" : "Satsundye.png",
+  "description" : "This strange dye seems to only work properly on Saturnian equipment.",
+  "shortdescription" : "Sat Soft Yellow Dye",
+
+  "dyeColorIndex" : 20,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

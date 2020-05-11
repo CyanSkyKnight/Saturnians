@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "money", "count" : 50 } 
+  ],
+  "duration" : 0.01,
+  "output" : { "item" : "saturnWingRosyC", "count" : 1 },
+  "groups" : [ "SaturnWings", "all" ]
+}

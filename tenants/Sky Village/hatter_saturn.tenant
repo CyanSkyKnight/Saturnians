@@ -1,0 +1,27 @@
+{
+  "name": "hatter_saturn",
+  "priority": 8,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "saturn": 6,
+    "sathats": 4,
+    "commerce": 4
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "saturn",
+      "type": "SaturnHatguy",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "merchantGift"
+  }
+}

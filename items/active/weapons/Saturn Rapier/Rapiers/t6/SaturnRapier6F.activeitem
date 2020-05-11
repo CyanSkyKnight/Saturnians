@@ -1,0 +1,40 @@
+{
+  "itemName" : "SaturnRapier6F",
+  "price" : 960,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A staff that summons a rapier made of light.",
+  "shortdescription" : "Solar Rapier",
+  "tooltipKind" : "sword",
+  "category" : "saturnrapier",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "melee", "rapier", "upgradeableWeapon"],
+  "critChance" : 1,
+  "critBonus" : 1, 
+  "inventoryIcon" : "SaturnRapier6fire.png",
+  "animation" : "/items/active/weapons/Saturn Rapier/SaturnEvoshortswordcombo.animation",
+  "animationParts" : {
+    "handle": "SaturnRapier6fire.png",
+    "blade" : "SaturnRapier6fireFB.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/SaturnFencingSwordThrust.ogg" ],
+	  "fire3" : [ "/sfx/melee/SaturnFencingSwordThrust4.ogg" ]
+    },
+	"lights" : {
+      "glow" : {
+        "color" : [110, 105, 90]
+		}
+	  }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "fire",
+  "primaryAbilityType" : "Saturnshortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.625,
+    "baseDps" : 7.5
+  },
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

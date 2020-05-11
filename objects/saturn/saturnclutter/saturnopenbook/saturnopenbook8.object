@@ -1,0 +1,23 @@
+{
+  "objectName" : "saturnopenbook8",
+  "colonyTags" : ["saturn", "satBooks", "knowledge" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "A book filled with thousands of bug puns. I don't beelieve it!",
+  "shortdescription" : "^#000400;^white;Joke Book",
+  "category" : "decorative",
+  "race" : "saturn",
+  "saturnDescription" : "\"What do Saturnians study to learn numbers?\"\n\"Mothematics!\"",
+  "saturn2Description" : "\"Why do Actians live in giant fungi?\"\n\"There's so mushroom.\"",
+  "inventoryIcon" : "saturnopenbook8icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnopenbook8.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

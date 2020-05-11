@@ -1,0 +1,24 @@
+{
+  "itemName" : "saturnSTcolorfulclaywalls",
+  "price" : 500,
+  "level" : 1,
+  "maxStack" : 1000,
+  "rarity" : "Common",
+  "category" : "block",
+  "description" : "Contains a full stack (1000) of Colorful Stone Blocks. Click while holding to open.",
+  "shortdescription" : "Stack of Colorful Stone",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "saturnSTcolorfulclaywalls.png",
+  "animation" : "saturnBlockStack.animation",
+  "animationCustom" : {},
+  "scripts" : ["saturnBlockStack.lua"],
+
+  "fireTime" : 0.01,
+  "fireOffset" : [0.5, 0.0],
+
+  "treasure" : {
+    "pool" : "saturnSTcolorfulclaywalls",
+    "level" : 1
+  }
+}

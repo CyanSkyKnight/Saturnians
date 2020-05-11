@@ -1,0 +1,142 @@
+{
+  "itemName" : "SatGatlingVoid",
+  "price" : 1440,
+  "inventoryIcon" : "SatGatlingPlasma.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "An otherworldly minigun that fires void energy.",
+  "shortdescription" : "Void Minigun",
+  "level" : 6,
+  "tooltipKind" : "saturngun",
+  "category" : "saturnminigun",
+  "itemTags" : ["weapon", "ranged", "assaultrifle", "plasma", "upgradeableWeapon"],
+  "twoHanded" : true,
+  "animation" : "saturnminigun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "SatGatlingPlasma.png",
+    "barrel" : "",
+	"lights" : "SatGatlingPlasmaFB.png",
+    "muzzleFlash" : "SatGatlingPlasmamuzzle.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : {
+      "grenadelauncher" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "offset" : [0, 0],
+          "transformationGroups" : ["muzzle"],
+          "firePosition" : [0, 0],
+          "image" : "/items/active/weapons/ranged/abilities/grenadelauncher/grenadelauncher.png"
+        }
+      }
+    }},
+    "sounds" : {
+      "fire" : ["/sfx/gun/SaturnCrystalRifle5.ogg"],
+	  "altFire" : [ "/sfx/gun/grenade1.ogg" ]
+    },
+    "particleEmitters" : {
+      "altMuzzleFlash" : {
+        "active" : false,
+        "emissionRate" : 8,
+        "transformationGroups" : ["muzzle"],
+        "offsetRegion" : [0, 0, 0, 0],
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
+        ]
+      }
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [0, 0, 0]
+      },
+      "glow" : {
+        "color" : [5, 43, 33]
+		}
+    }
+  },
+  "baseOffset" : [0.6, -0.8],
+  "muzzleOffset" : [3, -0.5],
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "elementalType" : "electric",
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.08,
+    "baseDps" : 10,
+    "energyUsage" : 40,
+    "inaccuracy" : 0.03,
+    "projectileCount" : 1,
+    "fireType" : "auto",
+    "projectileType" : "saturnlightbulletMinigun",
+    "projectileParameters" : {
+      "speed" : 100,
+      "knockback" : 10
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : -4,
+        "weaponRotation" : -4,
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : -4,
+        "weaponRotation" : -4,
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+  
+  "altAbility" : {     
+    "name" : "Void Launcher",
+    "type" : "saturngrenadelauncher",
+    "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class" : "AltFireAttack",
+	"projectileType" : "saturnblackhole",
+    "projectileParameters" : {"speed" : 5},
+    "projectileCount" : 1,
+    "inaccuracy" : 0,
+    "baseDamage" : 4,
+    "energyUsage" : 200,
+    "fireTime" : 2.0,
+    "fireType" : "auto",
+	
+    "stances" : {
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

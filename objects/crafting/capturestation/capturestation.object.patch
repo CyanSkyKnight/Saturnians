@@ -1,0 +1,12 @@
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "This has what I need to befriend and take care of creatures."
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "This station has everything I need to make monsters do my bidding. Ha ha ha!"
+}
+]

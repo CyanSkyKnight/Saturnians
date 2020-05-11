@@ -1,0 +1,15 @@
+{
+  "itemName" : "saturnMidnightDye",
+  "price" : 50,
+  "rarity" : "Rare",
+  "category" : "clothingDye",
+  "inventoryIcon" : "saturnMidnightDye.png",
+  "description" : "This strange dye only works on Saturnian equipment. Darker than black dye.",
+  "shortdescription" : "Saturnian Midnight Dye",
+
+  "dyeColorIndex" : 28,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

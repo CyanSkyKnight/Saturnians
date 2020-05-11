@@ -1,0 +1,1014 @@
+{
+  "kind" : "saturn2",
+   "charCreationTooltip" : {
+      "title" : "Thaumoth",
+      "subTitle" : "Ag",
+      "description" : "Nocturnal Saturnians call themselves Thaumoths. They are from the strange, moon worshiping, treetop country Actias. Thaumoths tend to practice what Saturnians call dark magic. Recent lunar activity has drawn them to space..."
+  },
+  
+  "nameGen" : [ "/species/saturnlunarnames.config:names", "/species/saturnlunarnames.config:names" ],
+  
+  "ouchNoises" : [ "/sfx/humanoid/saturn_hawk1.ogg", "/sfx/humanoid/saturn_hawk1.ogg", "/sfx/humanoid/saturn_hawk1.ogg", "/sfx/humanoid/saturn_hawk1.ogg", "/sfx/humanoid/saturn_hawk1.ogg", "/sfx/humanoid/saturn_hawk1.ogg" ],
+  
+  "gruntNoises" : [ [ "/sfx/humanoid/saturn_sfx3.ogg", "/sfx/humanoid/saturn_sfx2.ogg" ], [ "/sfx/humanoid/saturn_sfx1.ogg", "/sfx/humanoid/saturn_sfx1b.ogg"] ],
+  
+  "charGenTextLabels" : [ "Primary Color", "Antennae Style", "Shirt", "Pants", "Face/Fluff Type", "Fluff Color", "Shirt Color", "Pants Color", "THAUMOTH", "Personality" ],
+  
+  "effectDirectives" : "?replace=FEFFFFFF=000119FF?replace=9bd4ffFF=7A0F9DFF?replace=31a6ffFF=C440DEFF?replace=24232FFF=231D0FFF?replace=3D3D51FF=443C1FFF?replace=676F83FF=7F7A42FF?replace=9DA8AFFF=B7B066FF?replace=303030FF=3F3B31FF?replace=555555FF=6D6956FF?replace=808080FF=939380FF?replace=FD8F4DFF=C440DEFF?replace=FDD14DFF=7A0F9DFF?replace=FFFFFFFF=000119FF",
+  
+  "skull" : "/humanoid/saturn2/dead.png",
+   
+  "defaultBlueprints" : {
+    "tier1" : [
+// Empty Hands
+      { "item" : "flagsaturn2" },
+	  
+      { "item" : "saturnmannequin" },
+      { "item" : "saturnmannequin2" },
+      { "item" : "saturn2warpgem" },
+	  { "item" : "liquidsaturnnectar" },
+	  { "item" : "SaturnSilk" },
+	  
+
+	  { "item" : "saturnMagicLoom" },
+
+	  
+// Anvil
+      { "item" : "saturnNovMhead" },
+	  { "item" : "saturnNovMchest" },
+	  { "item" : "saturnNovMpants" },
+	  
+      { "item" : "saturnForestMagehead" },
+	  { "item" : "saturnForestMagechest" },
+	  { "item" : "saturnForestMagepants" },
+	  
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+	  
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+	  
+// Anvil2
+      { "item" : "saturnFluxMagehead" },
+	  { "item" : "saturnFluxMagechest" },
+	  { "item" : "saturnFluxMagepants" },
+	  
+      { "item" : "saturnNecromagehead" },
+	  { "item" : "saturnNecromagechest" },
+	  { "item" : "saturnNecromagepants" },
+	  
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+ 
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+	  
+// Anvil3
+//Mage
+      { "item" : "saturntier5mhead" },
+	  { "item" : "saturntier5mchest" },
+	  { "item" : "saturntier5mpants" },
+	  
+      { "item" : "saturnNovaWizardhead" },
+	  { "item" : "saturnNovaWizardchest" },
+	  { "item" : "saturnNovaWizardpants" },	  
+	  
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+	  
+	  { "item" : "satstaffT1" },	  
+	  { "item" : "satstaffT2" },
+	  { "item" : "satstaffT3" },	 	  
+	  { "item" : "satstaffT4" },	  
+      { "item" : "satstaffT5" },
+      { "item" : "satstaffstar1" },
+	  
+//Warrior
+      { "item" : "saturnkni5head" },
+	  { "item" : "saturnkni5chest" },
+	  { "item" : "saturnkni5pants" },
+	  
+      { "item" : "saturnSolhead" },
+	  { "item" : "saturnSolchest" },
+	  { "item" : "saturnSolpants" },
+	  
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+	  
+	  { "item" : "saturnMaceT1" },	  
+	  { "item" : "saturnMaceT2" },
+	  { "item" : "saturnMaceT3" },	 	  
+	  { "item" : "saturnMaceT4" },
+	  { "item" : "saturnMaceT5" },	 	  
+	  { "item" : "saturnMaceT6" },
+	  
+	  { "item" : "SaturnRapier" },	  
+	  { "item" : "SaturnRapier2" },
+	  { "item" : "SaturnRapier3" },	 	  
+	  { "item" : "SaturnRapier4" },
+	  { "item" : "SaturnRapier5" },	 	  
+	  { "item" : "SaturnRapier6" },
+
+	  { "item" : "saturnscytheT1" },	 
+	  { "item" : "saturnscytheT2" },
+	  { "item" : "saturnscytheT3" },	 	  
+	  { "item" : "saturnscytheT4" },
+	  { "item" : "saturnscytheT5" },	 	  
+	  { "item" : "saturnscytheT6" },	  
+	  
+//Ranger
+	  
+      { "item" : "saturnArcherhead" },
+	  { "item" : "saturnArcherchest" },
+	  { "item" : "saturnArcherpants" },
+	  { "item" : "saturnRocSlayerhead" },
+	  { "item" : "saturnRocSlayerchest" },
+	  { "item" : "saturnRocSlayerpants" },
+	  
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+	  
+	  { "item" : "SaturnBowT1" },	  
+	  { "item" : "SaturnBowT2" },
+	  { "item" : "SaturnBowT3" },	 	  
+	  { "item" : "SaturnBowT4" },
+	  { "item" : "SaturnBowT5" },	 	  
+	  { "item" : "SaturnBowT6" },
+	  
+// Furniture Table
+      { "item" : "saturnbookcase" },
+      { "item" : "saturncanvas" },
+      { "item" : "saturncrystalball" },
+      { "item" : "saturncrystallamp" },
+      { "item" : "saturncrystallampOrange" },
+	  
+	  { "item" : "saturncirclesollamp" },
+      { "item" : "saturncirclesollampblue" },
+	  
+      { "item" : "saturnebonychair" },
+      { "item" : "saturnebonytable" },
+	  
+	  
+      { "item" : "glitchstoragelocker" },
+      { "item" : "glitchshipdoor" },
+      { "item" : "glitchshiphatch" },
+	  
+      { "item" : "saturnshiplocker" },
+	  
+      { "item" : "saturnshipdoor" },
+      { "item" : "saturnshiphatch" },
+	  
+      { "item" : "saturnshipdoor2" },
+      { "item" : "saturnshiphatch2" },
+	  
+	  { "item" : "saturnicebox2" },
+//Tiles
+	  { "item" : "saturnebony" },
+	  { "item" : "saturnbirch" },
+	  { "item" : "saturnOak" },
+	  { "item" : "saturnMaho" },
+
+	  { "item" : "saturnslopedpanel" },
+	  { "item" : "saturnslopedpanelBirch" },
+	  { "item" : "saturnslopedpanelOak" },
+	  { "item" : "saturnslopedpanelMaho" },	  
+	  
+	  { "item" : "saturncolorfulclaywalls" },
+	  { "item" : "sathomewalls1" },
+	  { "item" : "saturnslopedhomewalls" },	
+	  { "item" : "saturnslopedglass" },
+	  { "item" : "saturnslopedmetalpanel" },	  
+	  { "item" : "saturnslopedbrasspanel" },
+	  { "item" : "saturnslopedstainedglass" },	 
+//Misc Armor	  
+      { "item" : "saturnSoldierhead" },
+      { "item" : "saturnSoldierchest" },
+      { "item" : "saturnSoldierpants" },
+//Clothes
+      { "item" : "saturngoggles" },
+      { "item" : "saturngoggles2" },
+      { "item" : "saturngoggles3" },
+	  
+	  { "item" : "saturnStarhatAnt" },
+	  { "item" : "saturnCirclet" },
+	  { "item" : "saturnCircletSilver" },
+	  { "item" : "saturnStarhat" },
+	  { "item" : "saturnglasses" },
+	  { "item" : "saturnglasses2" },
+	  { "item" : "saturnglasses3" },
+	  { "item" : "saturnglasses4" },
+	  { "item" : "saturnProtectoratechest" },
+	  { "item" : "saturnProtectorate2chest" },
+	  { "item" : "saturnProtectoratepants" },
+	  { "item" : "saturnProtectorate2pants" },
+	  { "item" : "saturnsmartchest" },
+	  { "item" : "saturnsmartpants" },
+	  { "item" : "saturnmerchantchest" },
+	  { "item" : "saturnmerchantlegs" },
+	  
+//1.0.4 stuff
+	  { "item" : "saturnHeavyHood" },
+	  { "item" : "saturnHeavyScarfedHood" },
+	  { "item" : "saturnHeavyFluffhood" },
+	  { "item" : "saturnscarf" },
+	  { "item" : "saturnscarf2" },
+	  { "item" : "saturnnull" },
+	  { "item" : "saturnnullchest" },
+	  { "item" : "saturnnullpants" },
+	  { "item" : "saturnkyterranHelmhead" },
+//1.1 stuff
+
+	  { "item" : "saturnNocturneRobehead" },
+	  { "item" : "saturnNocturneRobechest" },
+	  { "item" : "saturnNocturneRobepants" },
+	  
+	  { "item" : "saturnNocturneRobeBhead" },
+	  { "item" : "saturnNocturneRobeBchest" },
+	  { "item" : "saturnNocturneRobeBpants" },
+	  
+	  { "item" : "saturnornaterobeshead" },
+	  { "item" : "saturnornaterobeschest" },
+	  { "item" : "saturnornaterobespants" },
+	  
+	  { "item" : "saturnVoidMageOldchest" },
+	  
+	  { "item" : "saturnlightstaff2" },
+	  { "item" : "saturnfishingwand" },
+	  
+	  { "item" : "saturnFluffScarf" },
+	  { "item" : "saturnFluffScarf2" },
+	  
+//1.1.1
+	  {"item" : "saturnLumothMask"},
+	  {"item" : "saturnVoidMageOldpants"},
+	  {"item" : "saturnRena1chest"},
+	  {"item" : "saturnRobechest"},
+	  {"item" : "saturnnoblelegs"},
+	  {"item" : "saturnFakeProboscis"},
+	  
+//1.1.2
+	  {"item" : "saturntier4headnotevil"},
+	  {"item" : "saturntier4chestnotevil"},
+
+	  {"item" : "saturnKypteranHelmhead"},
+	  {"item" : "saturnCircletObsidian"},
+	  
+	  {"item" : "saturnBuckledHat"},
+	  {"item" : "saturnShadowhat"},
+	  {"item" : "saturnStarhat2"},
+	  {"item" : "saturnTophat"},
+	  {"item" : "saturnTophat2"},
+	  {"item" : "saturnSunHat"},
+	  {"item" : "saturnWideHat"},
+	  {"item" : "saturnWideShadyHat"},
+	  {"item" : "saturngoggles4"},
+	  
+	  
+//1.2
+
+	  {"item" : "outfitfitter_saturn"},
+	  
+	  {"item" : "saturnArmorTransmog"},
+	 
+	  {"item" : "saturnshortrobe"},
+	  {"item" : "saturnTophat3"},
+	  {"item" : "saturnSorcererRobeshead"},
+	  {"item" : "saturnWideHatUnrelated"},
+	  
+	  {"item" : "saturnForestMageUnarmoredhead"},
+	  {"item" : "saturnForestMageUnarmoredchest"},
+	  {"item" : "saturnForestMageUnarmoredpants"},
+//1.3
+	  {"item" : "saturnianEbonydoor"},
+	  {"item" : "saturnCrown"},
+	  {"item" : "saturnscarf3" },
+	  {"item" : "saturnFurnitureSummoner" },
+	  {"item" : "saturnMagicCrystalTable"},
+	  
+//1.3.2
+	  {"item" : "saturnPartyhat"},
+	  {"item" : "saturncouncilchest"},
+	  {"item" : "saturnlunairobes2chest"},
+	  
+	  {"item" : "saturnSolChead"},
+	  {"item" : "saturnSolmechanic"},
+	  {"item" : "saturnSolmechanic2"},
+	  
+	  { "item" : "saturnNocturneRobeChead" },
+	  { "item" : "saturnNocturneRobeCchest" },
+	  { "item" : "saturnNocturneRobeCpants" },
+	  
+	  { "item" : "saturnNocturneRobeDhead" },
+	  { "item" : "saturnNocturneRobeDchest" },
+	  { "item" : "saturnNocturneRobeDpants" },
+	  
+	  { "item" : "saturnNocturneRobeNLhead" },
+	  { "item" : "saturnNocturneRobeBNLhead" },
+	  { "item" : "saturnNocturneRobeCNLhead" },
+	  { "item" : "saturnNocturneRobeDNLhead" },
+	  
+//Dye
+      { "item" : "Satcoolgreydye" },
+      { "item" : "Satcyandye" },
+      { "item" : "Satearthdye" },
+      { "item" : "Satindigodye" },
+      { "item" : "Satlimedye" },
+      { "item" : "Satmaroondye" },
+      { "item" : "Satsanddye" },
+      { "item" : "Satwarmgreydye" },
+	  
+      { "item" : "Satsundye" },
+      { "item" : "Sattealdye" },	  
+	  
+      { "item" : "saturnRegalDye" },
+      { "item" : "saturnLunaDye" },
+      { "item" : "saturnIODye" },
+      { "item" : "saturnLightPinkDye" },
+      { "item" : "saturnVenoDye" },
+      { "item" : "saturnSnowDye" },
+      { "item" : "saturnMidnightDye" },
+      { "item" : "saturnEvolightDye" },
+	  
+//Wings
+	  {"item" : "saturnLowgravAugment"},
+	  
+	  {"item" : "saturnWingRegal"},
+	  {"item" : "saturnWingRegalKnight"},
+	  {"item" : "saturnWingLuna"},
+ 	  {"item" : "saturnWingLunaB"},
+	  {"item" : "saturnWingSimple"},
+	  {"item" : "saturnWingLeopard"},
+	  {"item" : "saturnWingLeopardB"},
+	  {"item" : "saturnWingLeopardC"},
+	  {"item" : "saturnWingLeopardD"},
+      {"item" : "saturnWingRosy"},
+      {"item" : "saturnWingRosyB"},
+      {"item" : "saturnWingRosyC"},
+      {"item" : "saturnWingRosyD"},
+      {"item" : "saturnWingRosyE"},
+      {"item" : "saturnWingWasp"},
+	  {"item" : "saturnWingWasp2"},
+	  {"item" : "saturnWingWasp3"},
+      {"item" : "saturnWingSpearsmoth"},
+      {"item" : "saturnWingParallelogram"},
+      {"item" : "saturnWingMerchant"},
+      {"item" : "saturnWinglanternstick"},
+      {"item" : "saturnWingIOF"},
+      {"item" : "saturnWingIOM"},
+	  
+      {"item" : "saturnWingSimple2"},
+	  {"item" : "saturnWingTrimmed"},
+	  
+      {"item" : "saturnWingLuna2"},
+      {"item" : "saturnWingLunaB2"},
+      {"item" : "saturnWingComet"},
+	  {"item" : "saturnWingBanded"},
+	  {"item" : "saturnWingLumoth"},
+      {"item" : "saturnWingEternal"},
+      {"item" : "saturnWingSolar"},
+      {"item" : "saturnWingBeeFly"},
+      {"item" : "saturnWingMothron"},
+      {"item" : "saturnWingEnergy"},
+	  {"item" : "saturnWingTrimmedWhite"},
+	  {"item" : "saturnWingTrimmedBlack"},
+	  {"item" : "saturnWingTuliptree"},
+	  {"item" : "saturnWingCecropia"},
+	  {"item" : "saturnWingGalaxy"},
+	  {"item" : "saturnWingPlume"},
+	  {"item" : "saturnWingEnergyParallelogram"},
+	  {"item" : "saturnWingRainbow"},
+	  {"item" : "saturnWingCape"},
+	  {"item" : "saturnWingPolyphemus"},
+	  {"item" : "saturnWingAutomerisFrankae"},
+	  {"item" : "saturnWingMothman"}
+	  
+	  
+	  
+    ]
+  },
+  "altOptionAsFacialMask" : true,
+  "bodyColorAsFacialMaskSubColor" : true,
+  "altColorAsFacialMaskSubColor" : true,
+  "headOptionAsHairColor" : true,
+  "hairColorAsBodySubColor" : true,
+  "genders" : [
+    {
+      "name" : "male",
+      "image" : "/interface/title/male.png",
+      "characterImage" : "/interface/title/saturn2male.png",
+	  
+	  "hair" : [ 
+		"sathairblank",
+		"satbranchM",
+		"satfluffM",
+		"sathoodM",
+		"sathoodWhiteM",
+		"sathoodGreyM",
+		"sathoodBlackM",
+		"sathoodPinkM",
+		"sathoodRedM",
+		"sathoodOrangeM",
+		"sathoodBrownM",
+		"sathoodYellowM",
+		"sathoodLunaM",
+		"sathoodEarthM",
+		"sathoodLblueM",
+		"sathoodPurpleM",
+		"sathornM",
+		"satleafM",
+		"satleafSilverM",
+		"satleafGildedM",
+		"satleaf2M",
+		"satleaf2DamagedM",
+		"satleaf3M",
+		"satpoison",
+		"satpoisonb",
+		"satdust",
+		"sateternal",
+		"satra",
+		"satcflyM",
+		"satkaiB",
+		"satbfly",
+		"satbflyponytail",
+		"satearM",
+		"sathornB",
+		"sathornBSilver",
+		"sathornBGilded",
+		"satmaskM",
+		"satleafSilverM2",
+		"satleafGildedM2",
+		"satlargeM",
+		"satcrownM",
+		"satleaf4M",
+		"satlonghairM",
+		"satlonghair2M",
+		"satlonghairbM",
+		"satlonghair2bM",
+		"sattailM"
+		],
+	  
+	  "shirt" : [ 
+				"saturnProtectoratechest",
+				"saturnProtectorate2chest",
+				"saturnVoidMageOldchest",
+				"saturnornaterobeschest",
+				"saturnNocturneRobechest",
+				"saturnNocturneRobeBchest",
+				"saturnNocturneRobeCchest",
+				"saturnNocturneRobeDchest",
+				"saturnRobechest",
+				"saturnRena1chest",
+				"saturnForestMageUnarmoredchest",
+				"saturnlunairobes2chest",
+				"saturnmerchantchest" 
+				], 
+	  
+      "pants" : [  
+				"saturnProtectoratepants",
+				"saturnProtectorate2pants",
+				"saturnVoidMageOldpants", 
+				"saturnornaterobespants",
+				"saturnNocturneRobepants",
+				"saturnNocturneRobeBpants",
+				"saturnNocturneRobeCpants",
+				"saturnNocturneRobeDpants",
+				"saturnnoblelegs",
+				"saturnForestMageUnarmoredpants",
+				"saturnmerchantlegs",
+				"saturnshortrobe"
+				],
+
+      "facialHairGroup" : "",
+      "facialHair" : [  ],
+      "facialMaskGroup" : "saturnfacetype",
+      "facialMask" : [ 
+		"satfaceBlank",
+		"CsatfacesaturniidaeGrey",
+		"CsatfacesaturniidaeGreyB",
+		"CsatfacesaturniidaeGreyC",
+		"satfacesaturniidae",
+		"satfacesaturniidaeB",
+		"satfacesaturniidaeC",
+		"CsatfacesaturniidaeAltcolorA",
+		"CsatfacesaturniidaeAltcolorB",
+		"CsatfacesaturniidaeAltcolorC",
+		"CsatfacesaturniidaeRed",
+		"CsatfacesaturniidaeRedB",
+		"CsatfacesaturniidaeRedC",
+		"CsatfacesaturniidaeOra",
+		"CsatfacesaturniidaeOraB",
+		"CsatfacesaturniidaeOraC",
+		"CsatfacesaturniidaeAmb",
+		"CsatfacesaturniidaeAmbB",
+		"CsatfacesaturniidaeAmbC",
+		"CsatfacesaturniidaeGold",
+		"CsatfacesaturniidaeGoldB",
+		"CsatfacesaturniidaeGoldC",
+		"CsatfacesaturniidaeLime",
+		"CsatfacesaturniidaeLimeB",
+		"CsatfacesaturniidaeLimeC",
+		"CsatfacesaturniidaeGreen",
+		"CsatfacesaturniidaeGreenB",
+		"CsatfacesaturniidaeGreenC",
+		"CsatfacesaturniidaeTeal",
+		"CsatfacesaturniidaeTealB",
+		"CsatfacesaturniidaeTealC",
+		"CsatfacesaturniidaeCyan",
+		"CsatfacesaturniidaeCyanB",
+		"CsatfacesaturniidaeCyanC",
+		"CsatfacesaturniidaeBlue",
+		"CsatfacesaturniidaeBlueB",
+		"CsatfacesaturniidaeBlueC",
+		"CsatfacesaturniidaePurple",
+		"CsatfacesaturniidaePurpleB",
+		"CsatfacesaturniidaePurpleC",
+		"CsatfacesaturniidaeMagenta",
+		"CsatfacesaturniidaeMagentaB",
+		"CsatfacesaturniidaeMagentaC",
+		"satfacebeard",
+		"satfacebeardB",
+		"satfacebeardC",
+		"satfacebeardAlt",
+		"satfacebeardAltB",
+		"satfacebeardAltC",
+		"satfaceimperial",
+		"satfaceimperialB",
+		"satfaceimperialC",
+		"satfaceimperialAlt",
+		"satfaceimperialAltB",
+		"satfaceimperialAltC",
+		"satfacefuzzy",
+		"satfacefuzzyB",
+		"satfacefuzzyC",
+		"satfacefuzzyAlt",
+		"satfacefuzzyAltB",
+		"satfacefuzzyAltC",
+		"satfacesaturniidaeGloweye",
+		"NeckFluff/satfaceBlank",
+		"satneckfluff1",
+		"satneckfluff1B",
+		"satneckfluff1C",
+		"satneckfluff2",
+		"satneckfluff2B",
+		"satneckfluff2C",
+		"satneckfluffLA",
+		"satneckfluffLB",
+		"satneckfluffLC",
+		"satneckfluffLcA",
+		"satneckfluffLcB",
+		"satneckfluffLcC",
+		"NeckFluff/CsatfacesaturniidaeGrey",
+		"NeckFluff/CsatfacesaturniidaeGreyB",
+		"NeckFluff/CsatfacesaturniidaeGreyC",
+		"NeckFluff/CsatfacesaturniidaeRed",
+		"NeckFluff/CsatfacesaturniidaeRedB",
+		"NeckFluff/CsatfacesaturniidaeRedC",
+		"NeckFluff/CsatfacesaturniidaeOra",
+		"NeckFluff/CsatfacesaturniidaeOraB",
+		"NeckFluff/CsatfacesaturniidaeOraC",
+		"NeckFluff/CsatfacesaturniidaeAmb",
+		"NeckFluff/CsatfacesaturniidaeAmbB",
+		"NeckFluff/CsatfacesaturniidaeAmbC",
+		"NeckFluff/CsatfacesaturniidaeGold",
+		"NeckFluff/CsatfacesaturniidaeGoldB",
+		"NeckFluff/CsatfacesaturniidaeGoldC",
+		"NeckFluff/CsatfacesaturniidaeLime",
+		"NeckFluff/CsatfacesaturniidaeLimeB",
+		"NeckFluff/CsatfacesaturniidaeLimeC",
+		"NeckFluff/CsatfacesaturniidaeGreen",
+		"NeckFluff/CsatfacesaturniidaeGreenB",
+		"NeckFluff/CsatfacesaturniidaeGreenC",
+		"NeckFluff/CsatfacesaturniidaeTeal",
+		"NeckFluff/CsatfacesaturniidaeTealB", 
+		"NeckFluff/CsatfacesaturniidaeTealC",
+		"NeckFluff/CsatfacesaturniidaeCyan",
+		"NeckFluff/CsatfacesaturniidaeCyanB",
+		"NeckFluff/CsatfacesaturniidaeCyanC",
+		"NeckFluff/CsatfacesaturniidaeBlue",
+		"NeckFluff/CsatfacesaturniidaeBlueB",
+		"NeckFluff/CsatfacesaturniidaeBlueC",
+		"NeckFluff/CsatfacesaturniidaePurple",
+		"NeckFluff/CsatfacesaturniidaePurpleB",
+		"NeckFluff/CsatfacesaturniidaePurpleC",
+		"NeckFluff/CsatfacesaturniidaeMagenta",
+		"NeckFluff/CsatfacesaturniidaeMagentaB",
+		"NeckFluff/CsatfacesaturniidaeMagentaC",
+		"Proboscis/CsatfacesaturniidaeGrey",
+		"Proboscis/CsatfacesaturniidaeGreyB",
+		"Proboscis/CsatfacesaturniidaeGreyC",
+		"Proboscis/CsatfacesaturniidaeAltcolorA",
+		"Proboscis/CsatfacesaturniidaeAltcolorB",
+		"Proboscis/CsatfacesaturniidaeAltcolorC",
+		"Proboscis/CsatfacesaturniidaeRed",
+		"Proboscis/CsatfacesaturniidaeRedB",
+		"Proboscis/CsatfacesaturniidaeRedC",
+		"Proboscis/CsatfacesaturniidaeOra",
+		"Proboscis/CsatfacesaturniidaeOraB",
+		"Proboscis/CsatfacesaturniidaeOraC",
+		"Proboscis/CsatfacesaturniidaeAmb", 
+		"Proboscis/CsatfacesaturniidaeAmbB", 
+		"Proboscis/CsatfacesaturniidaeAmbC", 
+		"Proboscis/CsatfacesaturniidaeGold",
+		"Proboscis/CsatfacesaturniidaeGoldB",
+		"Proboscis/CsatfacesaturniidaeGoldC",
+		"Proboscis/CsatfacesaturniidaeLime",
+		"Proboscis/CsatfacesaturniidaeLimeB",
+		"Proboscis/CsatfacesaturniidaeLimeC",
+		"Proboscis/CsatfacesaturniidaeGreen",
+		"Proboscis/CsatfacesaturniidaeGreenB",
+		"Proboscis/CsatfacesaturniidaeGreenC",
+		"Proboscis/CsatfacesaturniidaeTeal",
+		"Proboscis/CsatfacesaturniidaeTealB",
+		"Proboscis/CsatfacesaturniidaeTealC",
+		"Proboscis/CsatfacesaturniidaeCyan",
+		"Proboscis/CsatfacesaturniidaeCyanB",
+		"Proboscis/CsatfacesaturniidaeCyanC",
+		"Proboscis/CsatfacesaturniidaeBlue",
+		"Proboscis/CsatfacesaturniidaeBlueB",
+		"Proboscis/CsatfacesaturniidaeBlueC",
+		"Proboscis/CsatfacesaturniidaePurple",
+		"Proboscis/CsatfacesaturniidaePurpleB",
+		"Proboscis/CsatfacesaturniidaePurpleC",
+		"Proboscis/CsatfacesaturniidaeMagenta",
+		"Proboscis/CsatfacesaturniidaeMagentaB",
+		"Proboscis/CsatfacesaturniidaeMagentaC",
+		"satfacePro",
+		"satfaceProB",
+		"satfaceProC", 
+		"satfaceProAlt",
+		"satfaceProAltB",
+		"satfaceProAltC" 
+		]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/female.png",
+      "characterImage" : "/interface/title/saturn2female.png",
+	  
+	  "hair" : [ 
+		"sathairblank",
+		"satbranchF",
+		"satfluffF",
+		"sathoodF",
+		"sathoodWhiteF",
+		"sathoodGreyF",
+		"sathoodBlackF",
+		"sathoodPinkF",
+		"sathoodRedF",
+		"sathoodOrangeF",
+		"sathoodBrownF",
+		"sathoodYellowF",
+		"sathoodLunaF",
+		"sathoodEarthF",
+		"sathoodLblueF",
+		"sathoodPurpleF",
+		"sathornF",
+		"satleafF",
+		"satleafSilverF",
+		"satleafGildedF",
+		"satleaf2F",
+		"satleaf2DamagedF",
+		"satleaf3F",
+		"satpoison",
+		"satpoisonb",
+		"satdust",
+		"sateternal",
+		"satra",
+		"satcflyF",
+		"satkaiB",
+		"satbfly",
+		"satbflyponytail",
+		"satearF",
+		"sathornB",
+		"sathornBSilver",
+		"sathornBGilded",
+		"satmaskF",
+		"satleafSilverF2",
+		"satleafGildedF2",
+		"satlargeF",
+		"satcrownF",
+		"satleaf4F",
+		"satlonghairF",
+		"satlonghair2F",
+		"satlonghairbF",
+		"satlonghair2bF",
+		"sattailF"
+		],
+	  
+	  "shirt" : [ 
+				"saturnProtectoratechest",
+				"saturnProtectorate2chest",
+				"saturnVoidMageOldchest",
+				"saturnornaterobeschest",
+				"saturnNocturneRobechest",
+				"saturnNocturneRobeBchest",
+				"saturnNocturneRobeCchest",
+				"saturnNocturneRobeDchest",
+				"saturnRobechest",
+				"saturnRena1chest",
+				"saturnForestMageUnarmoredchest",
+				"saturnlunairobes2chest",
+				"saturnmerchantchest" 
+				], 
+	  
+      "pants" : [  
+				"saturnProtectoratepants",
+				"saturnProtectorate2pants",
+				"saturnVoidMageOldpants", 
+				"saturnornaterobespants",
+				"saturnNocturneRobepants",
+				"saturnNocturneRobeBpants",
+				"saturnNocturneRobeCpants",
+				"saturnNocturneRobeDpants",
+				"saturnnoblelegs",
+				"saturnForestMageUnarmoredpants",
+				"saturnmerchantlegs",
+				"saturnshortrobe"
+				],
+	  
+      "facialHairGroup" : "",
+      "facialHair" : [  ],
+      "facialMaskGroup" : "saturnfacetype",
+      "facialMask" : [ 
+		"satfaceBlank",
+		"CsatfacesaturniidaeGrey",
+		"CsatfacesaturniidaeGreyB",
+		"CsatfacesaturniidaeGreyC",
+		"satfacesaturniidae",
+		"satfacesaturniidaeB",
+		"satfacesaturniidaeC",
+		"CsatfacesaturniidaeAltcolorA",
+		"CsatfacesaturniidaeAltcolorB",
+		"CsatfacesaturniidaeAltcolorC",
+		"CsatfacesaturniidaeRed",
+		"CsatfacesaturniidaeRedB",
+		"CsatfacesaturniidaeRedC",
+		"CsatfacesaturniidaeOra",
+		"CsatfacesaturniidaeOraB",
+		"CsatfacesaturniidaeOraC",
+		"CsatfacesaturniidaeAmb",
+		"CsatfacesaturniidaeAmbB",
+		"CsatfacesaturniidaeAmbC",
+		"CsatfacesaturniidaeGold",
+		"CsatfacesaturniidaeGoldB",
+		"CsatfacesaturniidaeGoldC",
+		"CsatfacesaturniidaeLime",
+		"CsatfacesaturniidaeLimeB",
+		"CsatfacesaturniidaeLimeC",
+		"CsatfacesaturniidaeGreen",
+		"CsatfacesaturniidaeGreenB",
+		"CsatfacesaturniidaeGreenC",
+		"CsatfacesaturniidaeTeal",
+		"CsatfacesaturniidaeTealB",
+		"CsatfacesaturniidaeTealC",
+		"CsatfacesaturniidaeCyan",
+		"CsatfacesaturniidaeCyanB",
+		"CsatfacesaturniidaeCyanC",
+		"CsatfacesaturniidaeBlue",
+		"CsatfacesaturniidaeBlueB",
+		"CsatfacesaturniidaeBlueC",
+		"CsatfacesaturniidaePurple",
+		"CsatfacesaturniidaePurpleB",
+		"CsatfacesaturniidaePurpleC",
+		"CsatfacesaturniidaeMagenta",
+		"CsatfacesaturniidaeMagentaB",
+		"CsatfacesaturniidaeMagentaC",
+		"satfacebeard",
+		"satfacebeardB",
+		"satfacebeardC",
+		"satfacebeardAlt",
+		"satfacebeardAltB",
+		"satfacebeardAltC",
+		"satfaceimperial",
+		"satfaceimperialB",
+		"satfaceimperialC",
+		"satfaceimperialAlt",
+		"satfaceimperialAltB",
+		"satfaceimperialAltC",
+		"satfacefuzzy",
+		"satfacefuzzyB",
+		"satfacefuzzyC",
+		"satfacefuzzyAlt",
+		"satfacefuzzyAltB",
+		"satfacefuzzyAltC",
+		"satfacesaturniidaeGloweye",
+		"NeckFluff/satfaceBlank",
+		"satneckfluff1",
+		"satneckfluff1B",
+		"satneckfluff1C",
+		"satneckfluff2",
+		"satneckfluff2B",
+		"satneckfluff2C",
+		"satneckfluffLA",
+		"satneckfluffLB",
+		"satneckfluffLC",
+		"satneckfluffLcA",
+		"satneckfluffLcB",
+		"satneckfluffLcC",
+		"NeckFluff/CsatfacesaturniidaeGrey",
+		"NeckFluff/CsatfacesaturniidaeGreyB",
+		"NeckFluff/CsatfacesaturniidaeGreyC",
+		"NeckFluff/CsatfacesaturniidaeRed",
+		"NeckFluff/CsatfacesaturniidaeRedB",
+		"NeckFluff/CsatfacesaturniidaeRedC",
+		"NeckFluff/CsatfacesaturniidaeOra",
+		"NeckFluff/CsatfacesaturniidaeOraB",
+		"NeckFluff/CsatfacesaturniidaeOraC",
+		"NeckFluff/CsatfacesaturniidaeAmb",
+		"NeckFluff/CsatfacesaturniidaeAmbB",
+		"NeckFluff/CsatfacesaturniidaeAmbC",
+		"NeckFluff/CsatfacesaturniidaeGold",
+		"NeckFluff/CsatfacesaturniidaeGoldB",
+		"NeckFluff/CsatfacesaturniidaeGoldC",
+		"NeckFluff/CsatfacesaturniidaeLime",
+		"NeckFluff/CsatfacesaturniidaeLimeB",
+		"NeckFluff/CsatfacesaturniidaeLimeC",
+		"NeckFluff/CsatfacesaturniidaeGreen",
+		"NeckFluff/CsatfacesaturniidaeGreenB",
+		"NeckFluff/CsatfacesaturniidaeGreenC",
+		"NeckFluff/CsatfacesaturniidaeTeal",
+		"NeckFluff/CsatfacesaturniidaeTealB", 
+		"NeckFluff/CsatfacesaturniidaeTealC",
+		"NeckFluff/CsatfacesaturniidaeCyan",
+		"NeckFluff/CsatfacesaturniidaeCyanB",
+		"NeckFluff/CsatfacesaturniidaeCyanC",
+		"NeckFluff/CsatfacesaturniidaeBlue",
+		"NeckFluff/CsatfacesaturniidaeBlueB",
+		"NeckFluff/CsatfacesaturniidaeBlueC",
+		"NeckFluff/CsatfacesaturniidaePurple",
+		"NeckFluff/CsatfacesaturniidaePurpleB",
+		"NeckFluff/CsatfacesaturniidaePurpleC",
+		"NeckFluff/CsatfacesaturniidaeMagenta",
+		"NeckFluff/CsatfacesaturniidaeMagentaB",
+		"NeckFluff/CsatfacesaturniidaeMagentaC",
+		"Proboscis/CsatfacesaturniidaeGrey",
+		"Proboscis/CsatfacesaturniidaeGreyB",
+		"Proboscis/CsatfacesaturniidaeGreyC",
+		"Proboscis/CsatfacesaturniidaeAltcolorA",
+		"Proboscis/CsatfacesaturniidaeAltcolorB",
+		"Proboscis/CsatfacesaturniidaeAltcolorC",
+		"Proboscis/CsatfacesaturniidaeRed",
+		"Proboscis/CsatfacesaturniidaeRedB",
+		"Proboscis/CsatfacesaturniidaeRedC",
+		"Proboscis/CsatfacesaturniidaeOra",
+		"Proboscis/CsatfacesaturniidaeOraB",
+		"Proboscis/CsatfacesaturniidaeOraC",
+		"Proboscis/CsatfacesaturniidaeAmb", 
+		"Proboscis/CsatfacesaturniidaeAmbB", 
+		"Proboscis/CsatfacesaturniidaeAmbC", 
+		"Proboscis/CsatfacesaturniidaeGold",
+		"Proboscis/CsatfacesaturniidaeGoldB",
+		"Proboscis/CsatfacesaturniidaeGoldC",
+		"Proboscis/CsatfacesaturniidaeLime",
+		"Proboscis/CsatfacesaturniidaeLimeB",
+		"Proboscis/CsatfacesaturniidaeLimeC",
+		"Proboscis/CsatfacesaturniidaeGreen",
+		"Proboscis/CsatfacesaturniidaeGreenB",
+		"Proboscis/CsatfacesaturniidaeGreenC",
+		"Proboscis/CsatfacesaturniidaeTeal",
+		"Proboscis/CsatfacesaturniidaeTealB",
+		"Proboscis/CsatfacesaturniidaeTealC",
+		"Proboscis/CsatfacesaturniidaeCyan",
+		"Proboscis/CsatfacesaturniidaeCyanB",
+		"Proboscis/CsatfacesaturniidaeCyanC",
+		"Proboscis/CsatfacesaturniidaeBlue",
+		"Proboscis/CsatfacesaturniidaeBlueB",
+		"Proboscis/CsatfacesaturniidaeBlueC",
+		"Proboscis/CsatfacesaturniidaePurple",
+		"Proboscis/CsatfacesaturniidaePurpleB",
+		"Proboscis/CsatfacesaturniidaePurpleC",
+		"Proboscis/CsatfacesaturniidaeMagenta",
+		"Proboscis/CsatfacesaturniidaeMagentaB",
+		"Proboscis/CsatfacesaturniidaeMagentaC",
+		"satfacePro",
+		"satfaceProB",
+		"satfaceProC", 
+		"satfaceProAlt",
+		"satfaceProAltB",
+		"satfaceProAltC" 
+		]
+    }
+  ],
+ "bodyColor" : [
+ 	{ "EFF4F4" : "FFFFFF", "D5E1E2" : "F2F2F2", "A2AEB2" : "CCCCCC", "7E8899" : "A8A8A8" }, //Primary  112Supernova		Antennae/Fluff
+	{ "EFF4F4" : "EFF4F4", "D5E1E2" : "D5E1E2", "A2AEB2" : "A2AEB2", "7E8899" : "7E8899" }, //white 	
+	{ "EFF4F4" : "D3D3D3", "D5E1E2" : "B4B4B4", "A2AEB2" : "969696", "7E8899" : "7A7A7A" }, //112Light Grey
+	{ "EFF4F4" : "ADADAD", "D5E1E2" : "8C8C8C", "A2AEB2" : "717171", "7E8899" : "515151" }, //grey 						
+	{ "EFF4F4" : "575757", "D5E1E2" : "474747", "A2AEB2" : "373737", "7E8899" : "2A2A2A" }, //112Ash Grey
+	{ "EFF4F4" : "3C3C3C", "D5E1E2" : "292929", "A2AEB2" : "171717", "7E8899" : "080808" }, //112Charcoal
+	{ "EFF4F4" : "434D5B", "D5E1E2" : "353D49", "A2AEB2" : "222433", "7E8899" : "120C23" }, //black 					
+	{ "EFF4F4" : "232323", "D5E1E2" : "131313", "A2AEB2" : "040404", "7E8899" : "020202" }, //112Midnight	
+	{ "EFF4F4" : "FBF4F1", "D5E1E2" : "F9E2DC", "A2AEB2" : "EBB2AD", "7E8899" : "DF9991" }, //Pink 				 		
+	{ "EFF4F4" : "FFC6F0", "D5E1E2" : "E5A7D9", "A2AEB2" : "CC8AC5", "7E8899" : "B270B1" }, //112Pink 2	
+	{ "EFF4F4" : "EA7CB7", "D5E1E2" : "CE61A6", "A2AEB2" : "B24794", "7E8899" : "992D83" }, //rosey pink 	
+	{ "EFF4F4" : "512659", "D5E1E2" : "3D1A45", "A2AEB2" : "291032", "7E8899" : "1D0627" }, //133dark magenta 2 
+	{ "EFF4F4" : "D3716E", "D5E1E2" : "B54D4A", "A2AEB2" : "99322F", "7E8899" : "70201D" }, //red 					
+	{ "EFF4F4" : "E0734C", "D5E1E2" : "C6553B", "A2AEB2" : "AD382B", "7E8899" : "931F1D" }, //112Orange Red	
+	{ "EFF4F4" : "6F4F4C", "D5E1E2" : "603C42", "A2AEB2" : "512D39", "7E8899" : "3A222E" }, //maroon 		
+	{ "EFF4F4" : "56312E", "D5E1E2" : "442121", "A2AEB2" : "331618", "7E8899" : "260E12" }, //133dark maroon 		
+	{ "EFF4F4" : "4D3D33", "D5E1E2" : "3B2B24", "A2AEB2" : "2C1E19", "7E8899" : "201411" }, //133dark maroonG 		
+	{ "EFF4F4" : "E8A34E", "D5E1E2" : "CC7928", "A2AEB2" : "AD591A", "7E8899" : "993F0F" }, //orange 								
+	{ "EFF4F4" : "FBF7F1", "D5E1E2" : "F9ECDC", "A2AEB2" : "EBC8AD", "7E8899" : "DFB491" }, //pastel orange 						
+	{ "EFF4F4" : "C5AA9E", "D5E1E2" : "AA8D81", "A2AEB2" : "927669", "7E8899" : "735B53" }, //lbrown2 								
+	{ "EFF4F4" : "FFECBD", "D5E1E2" : "F2D3A1", "A2AEB2" : "DBB68C", "7E8899" : "BA987C" }, //sand 								
+	{ "EFF4F4" : "E9D3AF", "D5E1E2" : "CAB28C", "A2AEB2" : "AF9771", "7E8899" : "8A775A" }, //lbrown 						
+	{ "EFF4F4" : "D8A060", "D5E1E2" : "C48A45", "A2AEB2" : "9B6530", "7E8899" : "6F4A2B" }, //133polyphemus brown					
+	{ "EFF4F4" : "846D4D", "D5E1E2" : "755C3A", "A2AEB2" : "664D2B", "7E8899" : "503C23" }, //mid brown`
+	{ "EFF4F4" : "C1AB87", "D5E1E2" : "A28A64", "A2AEB2" : "876F49", "7E8899" : "624F32" }, //brown 							
+	{ "EFF4F4" : "C7BAA5", "D5E1E2" : "AD9F88", "A2AEB2" : "968872", "7E8899" : "796D5C" }, //grey brown 	
+	{ "EFF4F4" : "563E2E", "D5E1E2" : "442C21", "A2AEB2" : "331D16", "7E8899" : "26120E" }, //133dark brown 	
+	{ "EFF4F4" : "F4D57F", "D5E1E2" : "E5BB67", "A2AEB2" : "D3A156", "7E8899" : "B58956" }, //yellow 							
+	{ "EFF4F4" : "F7F7E4", "D5E1E2" : "E7E2BE", "A2AEB2" : "DAD4A6", "7E8899" : "C4BD89" }, //wax 								
+	{ "EFF4F4" : "D6BA5E", "D5E1E2" : "B79538", "A2AEB2" : "99751D", "7E8899" : "725110" }, //gold 									
+	{ "EFF4F4" : "554A2F", "D5E1E2" : "433722", "A2AEB2" : "322717", "7E8899" : "25190E" }, //133dark yellow 	
+	{ "EFF4F4" : "BDDD66", "D5E1E2" : "96C244", "A2AEB2" : "74A82B", "7E8899" : "548423" }, //lime 									
+	{ "EFF4F4" : "455430", "D5E1E2" : "374223", "A2AEB2" : "2A3118", "7E8899" : "20240E" }, //133olive drab     	
+	{ "EFF4F4" : "E2F7DC", "D5E1E2" : "B7EAAD", "A2AEB2" : "98DD92", "7E8899" : "88CC88" }, //Mint									
+	{ "EFF4F4" : "A3ED9A", "D5E1E2" : "7BD67A", "A2AEB2" : "5DBF65", "7E8899" : "3E994D" }, //luna green 							
+	{ "EFF4F4" : "61925E", "D5E1E2" : "407544", "A2AEB2" : "2B5E37", "7E8899" : "1A4229" }, //green` 							
+	{ "EFF4F4" : "61925E", "D5E1E2" : "407544", "A2AEB2" : "2B5E37", "7E8899" : "1A4229" }, //133dark green	 								
+	{ "EFF4F4" : "87C19B", "D5E1E2" : "63A082", "A2AEB2" : "488470", "7E8899" : "326059" }, //teal 								
+	{ "EFF4F4" : "79DAD2", "D5E1E2" : "58BEB5", "A2AEB2" : "48989E", "7E8899" : "306B7C" }, //cyan 			
+	{ "EFF4F4" : "2B5551", "D5E1E2" : "1F433C", "A2AEB2" : "15322B", "7E8899" : "0C261E" }, //133dark cyan 	 	
+	{ "EFF4F4" : "81C0D3", "D5E1E2" : "619DB7", "A2AEB2" : "47799B", "7E8899" : "38597A" }, //cyablue 		
+	{ "EFF4F4" : "2B495B", "D5E1E2" : "1F3A47", "A2AEB2" : "142D35", "7E8899" : "0A2229" }, //133dark cyablue	 		
+	{ "EFF4F4" : "819ED6", "D5E1E2" : "6176B7", "A2AEB2" : "4958A0", "7E8899" : "383D7C" }, //blue 						
+	{ "EFF4F4" : "2D377A", "D5E1E2" : "212E66", "A2AEB2" : "162551", "7E8899" : "091638" }, //133leopard blue 		
+	{ "EFF4F4" : "242C62", "D5E1E2" : "19224D", "A2AEB2" : "0F1A39", "7E8899" : "05102D" }, //133dark blue		 		
+	{ "EFF4F4" : "282D50", "D5E1E2" : "1D223E", "A2AEB2" : "131A2E", "7E8899" : "081022" }, //133dark blueG	 		
+	{ "EFF4F4" : "96C5FF", "D5E1E2" : "80A5E5", "A2AEB2" : "6884CC", "7E8899" : "556EBA" }, //112Veno Shiny	
+	{ "EFF4F4" : "8281D6", "D5E1E2" : "6167B7", "A2AEB2" : "4958A0", "7E8899" : "384A7C" }, //indigo 								
+	{ "EFF4F4" : "2D2659", "D5E1E2" : "1E1A45", "A2AEB2" : "101032", "7E8899" : "060627" }, //133dark indigo 	 				
+	{ "EFF4F4" : "A781D6", "D5E1E2" : "7F61B7", "A2AEB2" : "5F49A0", "7E8899" : "43387C" }, //purple 					
+	{ "EFF4F4" : "3B2659", "D5E1E2" : "2A1A45", "A2AEB2" : "1A1032", "7E8899" : "0F0627" }, //133dark purple 	
+	{ "EFF4F4" : "512659", "D5E1E2" : "3D1A45", "A2AEB2" : "291032", "7E8899" : "1D0627" }, //133dark purple 2 	
+	{ "EFF4F4" : "8D7799", "D5E1E2" : "7A6489", "A2AEB2" : "66537A", "7E8899" : "53436B" }, //112IO Purple
+	{ "EFF4F4" : "DEC6FF", "D5E1E2" : "BCA7E5", "A2AEB2" : "9B8ACC", "7E8899" : "7B70B2" }, //112Veno lavender
+	{ "EFF4F4" : "EFEFEF", "D5E1E2" : "CBD1ED", "A2AEB2" : "B2C6EB", "7E8899" : "9EBFE7" }, //whiteblue 							
+	{ "EFF4F4" : "F6E1F7", "D5E1E2" : "D8A8E0", "A2AEB2" : "B985C6", "7E8899" : "9B67AF" }  //whitepink 			
+
+		],
+ "undyColor" : [
+	{ "E5DB72" : "EFF4F4", "DBC762" : "D5E1E2", "CCB551" : "A2AEB2", "B2933E" : "7E8899" } //Unused, Eye Color is handled through facial masks because I didn't know you can change palettes and facial masks with the same button.
+		],
+ "hairColor" : [
+ 	{ "E5DB72" : "FFFFFF", "DBC762" : "F2F2F2", "CCB551" : "CCCCCC", "B2933E" : "A8A8A8" }, //Primary  112Supernova		Antennae/Fluff
+	{ "E5DB72" : "EFF4F4", "DBC762" : "D5E1E2", "CCB551" : "A2AEB2", "B2933E" : "7E8899" }, //white 	
+	{ "E5DB72" : "D3D3D3", "DBC762" : "B4B4B4", "CCB551" : "969696", "B2933E" : "7A7A7A" }, //112Light Grey
+	{ "E5DB72" : "ADADAD", "DBC762" : "8C8C8C", "CCB551" : "717171", "B2933E" : "515151" }, //grey 						
+	{ "E5DB72" : "575757", "DBC762" : "474747", "CCB551" : "373737", "B2933E" : "2A2A2A" }, //112Ash Grey
+	{ "E5DB72" : "3C3C3C", "DBC762" : "292929", "CCB551" : "171717", "B2933E" : "080808" }, //112Charcoal
+	{ "E5DB72" : "434D5B", "DBC762" : "353D49", "CCB551" : "222433", "B2933E" : "120C23" }, //black 					
+	{ "E5DB72" : "232323", "DBC762" : "131313", "CCB551" : "040404", "B2933E" : "020202" }, //112Midnight	
+	{ "E5DB72" : "FBF4F1", "DBC762" : "F9E2DC", "CCB551" : "EBB2AD", "B2933E" : "DF9991" }, //Pink 				 		
+	{ "E5DB72" : "FFC6F0", "DBC762" : "E5A7D9", "CCB551" : "CC8AC5", "B2933E" : "B270B1" }, //112Pink 2	
+	{ "E5DB72" : "EA7CB7", "DBC762" : "CE61A6", "CCB551" : "B24794", "B2933E" : "992D83" }, //rosey pink 	
+	{ "E5DB72" : "512659", "DBC762" : "3D1A45", "CCB551" : "291032", "B2933E" : "1D0627" }, //133dark magenta 2 
+	{ "E5DB72" : "D3716E", "DBC762" : "B54D4A", "CCB551" : "99322F", "B2933E" : "70201D" }, //red 					
+	{ "E5DB72" : "E0734C", "DBC762" : "C6553B", "CCB551" : "AD382B", "B2933E" : "931F1D" }, //112Orange Red	
+	{ "E5DB72" : "6F4F4C", "DBC762" : "603C42", "CCB551" : "512D39", "B2933E" : "3A222E" }, //maroon 		
+	{ "E5DB72" : "56312E", "DBC762" : "442121", "CCB551" : "331618", "B2933E" : "260E12" }, //133dark maroon 		
+	{ "E5DB72" : "4D3D33", "DBC762" : "3B2B24", "CCB551" : "2C1E19", "B2933E" : "201411" }, //133dark maroonG 	
+	{ "E5DB72" : "E8A34E", "DBC762" : "CC7928", "CCB551" : "AD591A", "B2933E" : "993F0F" }, //orange 								
+	{ "E5DB72" : "FBF7F1", "DBC762" : "F9ECDC", "CCB551" : "EBC8AD", "B2933E" : "DFB491" }, //pastel orange 						
+	{ "E5DB72" : "C5AA9E", "DBC762" : "AA8D81", "CCB551" : "927669", "B2933E" : "735B53" }, //lbrown2 								
+	{ "E5DB72" : "FFECBD", "DBC762" : "F2D3A1", "CCB551" : "DBB68C", "B2933E" : "BA987C" }, //sand 								
+	{ "E5DB72" : "E9D3AF", "DBC762" : "CAB28C", "CCB551" : "AF9771", "B2933E" : "8A775A" }, //lbrown 						
+	{ "E5DB72" : "D8A060", "DBC762" : "C48A45", "CCB551" : "9B6530", "B2933E" : "6F4A2B" }, //133polyphemus brown					
+	{ "E5DB72" : "846D4D", "DBC762" : "755C3A", "CCB551" : "664D2B", "B2933E" : "503C23" }, //mid brown`
+	{ "E5DB72" : "C1AB87", "DBC762" : "A28A64", "CCB551" : "876F49", "B2933E" : "624F32" }, //brown 							
+	{ "E5DB72" : "C7BAA5", "DBC762" : "AD9F88", "CCB551" : "968872", "B2933E" : "796D5C" }, //grey brown 	
+	{ "E5DB72" : "563E2E", "DBC762" : "442C21", "CCB551" : "331D16", "B2933E" : "26120E" }, //133dark brown 	
+	{ "E5DB72" : "F4D57F", "DBC762" : "E5BB67", "CCB551" : "D3A156", "B2933E" : "B58956" }, //yellow 							
+	{ "E5DB72" : "F7F7E4", "DBC762" : "E7E2BE", "CCB551" : "DAD4A6", "B2933E" : "C4BD89" }, //wax 								
+	{ "E5DB72" : "D6BA5E", "DBC762" : "B79538", "CCB551" : "99751D", "B2933E" : "725110" }, //gold 									
+	{ "E5DB72" : "554A2F", "DBC762" : "433722", "CCB551" : "322717", "B2933E" : "25190E" }, //133dark yellow 	
+	{ "E5DB72" : "BDDD66", "DBC762" : "96C244", "CCB551" : "74A82B", "B2933E" : "548423" }, //lime 									
+	{ "E5DB72" : "455430", "DBC762" : "374223", "CCB551" : "2A3118", "B2933E" : "20240E" }, //133olive drab     	
+	{ "E5DB72" : "E2F7DC", "DBC762" : "B7EAAD", "CCB551" : "98DD92", "B2933E" : "88CC88" }, //Mint									
+	{ "E5DB72" : "A3ED9A", "DBC762" : "7BD67A", "CCB551" : "5DBF65", "B2933E" : "3E994D" }, //luna green 							
+	{ "E5DB72" : "61925E", "DBC762" : "407544", "CCB551" : "2B5E37", "B2933E" : "1A4229" }, //green` 							
+	{ "E5DB72" : "61925E", "DBC762" : "407544", "CCB551" : "2B5E37", "B2933E" : "1A4229" }, //133dark green	 								
+	{ "E5DB72" : "87C19B", "DBC762" : "63A082", "CCB551" : "488470", "B2933E" : "326059" }, //teal 								
+	{ "E5DB72" : "79DAD2", "DBC762" : "58BEB5", "CCB551" : "48989E", "B2933E" : "306B7C" }, //cyan 			
+	{ "E5DB72" : "2B5551", "DBC762" : "1F433C", "CCB551" : "15322B", "B2933E" : "0C261E" }, //133dark cyan 	 	
+	{ "E5DB72" : "81C0D3", "DBC762" : "619DB7", "CCB551" : "47799B", "B2933E" : "38597A" }, //cyablue 		
+	{ "E5DB72" : "2B495B", "DBC762" : "1F3A47", "CCB551" : "142D35", "B2933E" : "0A2229" }, //133dark cyablue	 		
+	{ "E5DB72" : "819ED6", "DBC762" : "6176B7", "CCB551" : "4958A0", "B2933E" : "383D7C" }, //blue 			
+	{ "E5DB72" : "2D377A", "DBC762" : "212E66", "CCB551" : "162551", "B2933E" : "091638" }, //133leopard blue 
+	{ "E5DB72" : "242C62", "DBC762" : "19224D", "CCB551" : "0F1A39", "B2933E" : "05102D" }, //133dark blue		 		
+	{ "E5DB72" : "282D50", "DBC762" : "1D223E", "CCB551" : "131A2E", "B2933E" : "081022" }, //133dark blueG	 		
+	{ "E5DB72" : "96C5FF", "DBC762" : "80A5E5", "CCB551" : "6884CC", "B2933E" : "556EBA" }, //112Veno Shiny	
+	{ "E5DB72" : "8281D6", "DBC762" : "6167B7", "CCB551" : "4958A0", "B2933E" : "384A7C" }, //indigo 								
+	{ "E5DB72" : "2D2659", "DBC762" : "1E1A45", "CCB551" : "101032", "B2933E" : "060627" }, //133dark indigo 	 				
+	{ "E5DB72" : "A781D6", "DBC762" : "7F61B7", "CCB551" : "5F49A0", "B2933E" : "43387C" }, //purple 					
+	{ "E5DB72" : "3B2659", "DBC762" : "2A1A45", "CCB551" : "1A1032", "B2933E" : "0F0627" }, //133dark purple 	
+	{ "E5DB72" : "512659", "DBC762" : "3D1A45", "CCB551" : "291032", "B2933E" : "1D0627" }, //133dark purple 2 	
+	{ "E5DB72" : "8D7799", "DBC762" : "7A6489", "CCB551" : "66537A", "B2933E" : "53436B" }, //112IO Purple
+	{ "E5DB72" : "DEC6FF", "DBC762" : "BCA7E5", "CCB551" : "9B8ACC", "B2933E" : "7B70B2" }, //112Veno lavender
+	{ "E5DB72" : "EFEFEF", "DBC762" : "CBD1ED", "CCB551" : "B2C6EB", "B2933E" : "9EBFE7" }, //whiteblue 							
+	{ "E5DB72" : "F6E1F7", "DBC762" : "D8A8E0", "CCB551" : "B985C6", "B2933E" : "9B67AF" }  //whitepink 					
+	
+
+		]
+}

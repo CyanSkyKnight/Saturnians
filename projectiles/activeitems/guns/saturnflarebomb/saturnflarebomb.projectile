@@ -1,0 +1,23 @@
+{
+  "projectileName" : "saturnflarebomb",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "saturnflarebomb.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "timeToLive" : 4,
+  "power" : 50,
+  "speed" : 75,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/vsmallregularexplosion/vsmallregularexplosionknockback.config"
+    }
+  ],
+  "lightColor" : [0, 73, 73],
+  "fullbright" : true,
+  "physics" : "laser",
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

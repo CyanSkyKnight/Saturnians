@@ -1,0 +1,22 @@
+{
+  "objectName" : "saturnpainting1",
+  "colonyTags" : ["saturn", "pretty", "saturnpaintings"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "description" : "A photograph of an ancient structure still floating above the clouds somewhere.",
+  "shortdescription" : "^#000250;^white;Cloud Ruins Photo",
+  "race" : "saturn",
+
+  "inventoryIcon" : "saturnpainting1icon.png",
+  "orientations" : [
+    {
+      "image" : "saturnpainting1.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

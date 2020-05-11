@@ -1,0 +1,93 @@
+[
+	{
+		"op": "add",
+		"path": "/attack/saturn",
+		"value": {
+			"default": [
+				"Attack!",
+				"A foe!",
+				"Have at thee!",
+				"I will not be easily overcome.",
+				"To battle!",
+				"I shall defeat this foe!",
+				"You have breathed your last!",
+				"Prepare to lose your life!",
+				"Never should have come here!",
+				"You're going to lose, BUG TIME! I mean big time...",
+				"*ANGRY MOTH NOISES*"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/killedTarget/saturn",
+		"value": {
+			"default": [
+				"Don't do that.",
+				"You should have dodged that.",
+				"What was your plan?",
+				"Victory!",
+				"You can do better than that.",
+			    "Never mess with me!",
+				"Phew.",
+				"Another victory.",
+				"I didn't even break a sweat.",
+				"Heh.",
+				"Sorry!",
+				"Please forgive me!",
+				"I'm pretty good at this.",
+				"That was stressful...",
+				"Yes.",
+				"I think I lost some scales.",
+				"That's what you get."
+			]
+		}
+	},
+	
+	{
+		"op": "add",
+		"path": "/cantReach/saturn",
+		"value": {
+			"default" : [
+				"Get over here!",
+				"Come here!",
+				"Get back here!",
+				"How did you get over there?",
+				"I can't reach!",
+				"No fair!",
+				"I should have brought my slightly longer weapon..."
+			]
+		}
+	},
+	
+	{
+		"op": "add",
+		"path": "/cheerOn/saturn",
+		"value": {
+			"default" : [
+				"I have a plan",
+				"Get them",
+				"Come on!",
+		        "Strike them down!",
+				"Lets go!",
+				"We shall destroy them!",
+				"We can stop them.",
+				"Get the foe!"
+				]
+		}
+	},	
+	{
+		"op": "add",
+		"path": "/lostTarget/saturn",
+		"value": {
+			"default": [
+				"Eh?",
+				"Where did you go?",
+				"No no NO!",
+				"I'm not gonna chase you across the planet. Come back!",
+				"So you are one of THOSE fighters...",
+				"That's no fun."
+			]
+		}
+	}
+]

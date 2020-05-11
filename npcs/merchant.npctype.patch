@@ -1,0 +1,117 @@
+[
+{"op" : "add", "path" : "/scriptConfig/merchant/categories/saturn", "value":["Saturnarmour", "basicmerchant", "Saturnweapons", "Saturninnkeeper"] },
+{"op" : "add", "path" : "/items/saturn", "value":[[0, [
+		{
+			"head" : [
+			{ "name" : "saturnglasses", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnglasses", "parameters" : { "colorIndex" : 2 } },
+			{ "name" : "saturnglasses", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "saturnglasses", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "saturnglasses2", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnglasses2", "parameters" : { "colorIndex" : 2 } },
+			{ "name" : "saturnglasses2", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "saturnglasses2", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "saturnglasses3", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnglasses", "parameters" : { "colorIndex" : 2 } },
+			{ "name" : "saturnglasses", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "saturnglasses", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "saturnglasses4", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnglasses4", "parameters" : { "colorIndex" : 2 } },
+			{ "name" : "saturntier4headnotevil", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "saturntier4headnotevil", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "saturnnull", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnnull", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnnull", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnnull", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnnull", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnnull", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnnull", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnnull", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnStarhat", "parameters" : { "colorIndex" : 0 } },
+			{ "name" : "saturnStarhatAnt", "parameters" : { "colorIndex" : 0 } },
+			{ "name" : "saturnForestMageUnarmoredhead", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnForestMageUnarmoredhead", "parameters" : { "colorIndex" : 11 } }
+			],
+			
+			
+			
+			"back" : [
+			{ "name" : "saturnWinglanternstick", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnWinglanternstick", "parameters" : { "colorIndex" : 2 } },
+			{ "name" : "saturnWinglanternstick", "parameters" : { "colorIndex" : 3 } },
+			{ "name" : "saturnWinglanternstick", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "saturnWinglanternstick", "parameters" : { "colorIndex" : 4 } },
+			{ "name" : "saturnWingMerchant", "parameters" : { "colorIndex" : 0 } },
+			{ "name" : "saturnWingMerchant", "parameters" : { "colorIndex" : 0 } },
+			{ "name" : "saturnWingMerchant", "parameters" : { "colorIndex" : 0 } },
+			{ "name" : "saturnWingMerchant", "parameters" : { "colorIndex" : 0 } },
+			{ "name" : "saturnWingMerchant", "parameters" : { "colorIndex" : 0 } },
+			{ "name" : "saturnWingSpearsmoth", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnWingSpearsmoth", "parameters" : { "colorIndex" : 2 } },
+			{ "name" : "saturnWingMerchant", "parameters" : { "colorIndex" : 3 } },
+			{ "name" : "saturnWingMerchant", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "saturnWingMerchant", "parameters" : { "colorIndex" : 0 } }
+			],
+			
+			
+			
+			"chest" : [
+			{ "name" : "saturnmerchantchest", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnmerchantchest", "parameters" : { "colorIndex" : 2 } },
+			{ "name" : "saturnmerchantchest", "parameters" : { "colorIndex" : 3 } },
+			{ "name" : "saturnmerchantchest", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "saturnmerchantchest", "parameters" : { "colorIndex" : 4 } },
+			{ "name" : "hikerchest", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "hikerchest", "parameters" : { "colorIndex" : 2 } },
+			{ "name" : "hikerchest", "parameters" : { "colorIndex" : 3 } },
+			{ "name" : "hikerchest", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "hikerchest", "parameters" : { "colorIndex" : 4 } },
+			{ "name" : "saturnsmartchest", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnsmartchest", "parameters" : { "colorIndex" : 2 } },
+			{ "name" : "saturnsmartchest", "parameters" : { "colorIndex" : 3 } },
+			{ "name" : "saturnsmartchest", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "saturnsmartchest", "parameters" : { "colorIndex" : 4 } },
+			{ "name" : "saturntier4chestnotevil", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturntier4chestnotevil", "parameters" : { "colorIndex" : 2 } },
+			{ "name" : "saturntier4chestnotevil", "parameters" : { "colorIndex" : 3 } },
+			{ "name" : "saturntier4chestnotevil", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "saturntier4chestnotevil", "parameters" : { "colorIndex" : 4 } },
+			{ "name" : "saturnForestMageUnarmoredchest", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnForestMageUnarmoredchest", "parameters" : { "colorIndex" : 2 } },
+			{ "name" : "saturnForestMageUnarmoredchest", "parameters" : { "colorIndex" : 3 } },
+			{ "name" : "saturnForestMageUnarmoredchest", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "saturnForestMageUnarmoredchest", "parameters" : { "colorIndex" : 4 } },
+			{ "name" : "saturntier5mchest", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturntier5mchest", "parameters" : { "colorIndex" : 2 } },
+			{ "name" : "saturntier5mchest", "parameters" : { "colorIndex" : 3 } },
+			{ "name" : "saturntier5mchest", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "saturntier5mchest", "parameters" : { "colorIndex" : 4 } }
+			],
+			
+			
+			
+			"legs" : [
+			{ "name" : "saturnmerchantlegs", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnmerchantlegs", "parameters" : { "colorIndex" : 2 } },
+			{ "name" : "saturnmerchantlegs", "parameters" : { "colorIndex" : 3 } },
+			{ "name" : "saturnmerchantlegs", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "saturnmerchantlegs", "parameters" : { "colorIndex" : 4 } },
+			{ "name" : "saturntier5mpants", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturntier5mpants", "parameters" : { "colorIndex" : 2 } },
+			{ "name" : "saturntier5mpants", "parameters" : { "colorIndex" : 3 } },
+			{ "name" : "saturntier5mpants", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "saturntier5mpants", "parameters" : { "colorIndex" : 4 } },
+			{ "name" : "saturnsmartpants", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnsmartpants", "parameters" : { "colorIndex" : 2 } },
+			{ "name" : "saturnsmartpants", "parameters" : { "colorIndex" : 3 } },
+			{ "name" : "saturnsmartpants", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "saturnsmartpants", "parameters" : { "colorIndex" : 4 } },
+			{ "name" : "saturnNecromagepants", "parameters" : { "colorIndex" : 1 } },
+			{ "name" : "saturnNecromagepants", "parameters" : { "colorIndex" : 2 } },
+			{ "name" : "saturnNecromagepants", "parameters" : { "colorIndex" : 3 } },
+			{ "name" : "saturnNecromagepants", "parameters" : { "colorIndex" : 8 } },
+			{ "name" : "saturnNecromagepants", "parameters" : { "colorIndex" : 4 } }
+			]
+		}
+	]]]}
+]

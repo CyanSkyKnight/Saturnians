@@ -1,0 +1,352 @@
+{ "columns":0,
+ "margin":0,
+ "name":"saturnianTiles",
+ "properties":
+    {
+
+    },
+ "spacing":0,
+ "tilecount":29,
+ "tileheight":8,
+ "tileproperties":
+    {
+     "0":
+        {
+         "\/\/description":"These bricks create the illusion of depth.",
+         "\/\/name":"sathomewalls1",
+         "\/\/shortdescription":"Dark Painted Brick",
+         "material":"sathomewalls1"
+        },		
+     "1":
+        {
+         "\/\/description":"Cheap, resilient panelling widely used for ship and station construction.",
+         "\/\/name":"saturnslopedglass",
+         "\/\/shortdescription":"Crystal Panel",
+         "material":"saturnslopedglass"
+        },		
+     "2":
+        {
+         "\/\/description":"Wood that has been prepared for building and crafting.",
+         "\/\/name":"saturnebony",
+         "\/\/shortdescription":"Ebony Planks",
+         "material":"saturnebony"
+        },
+     "3":
+        {
+         "\/\/description":"Wood that has been prepared for building and crafting.",
+         "\/\/name":"saturnebony",
+         "\/\/shortdescription":"Sloped home walls",
+         "material":"saturnslopedhomewalls"
+        },
+     "4":
+        {
+         "\/\/description":"Wood that has been prepared for building and crafting.",
+         "\/\/name":"saturnslopedhomewalls",
+         "\/\/shortdescription":"saturn sloped panel",
+         "material":"saturnslopedpanel"
+        },
+		
+		
+		
+     "5":
+        {
+         "\/\/description":"Wood that has been prepared for building and crafting.",
+         "\/\/name":"saturnslopedmetalpanel",
+         "\/\/shortdescription":"saturn magebronze panel",
+         "material":"saturnslopedmetalpanel"
+        },
+     "6":
+        {
+         "\/\/description":"Wood that has been prepared for building and crafting.",
+         "\/\/name":"saturnslopedstainedglass",
+         "\/\/shortdescription":"saturn stained Glass",
+         "material":"saturnslopedstainedglass"
+        },
+     "7":
+        {
+         "\/\/description":"Wood that has been prepared for building and crafting.",
+         "\/\/name":"saturncolorfulclaywalls",
+         "\/\/shortdescription":"saturn Clay Walls",
+         "material":"saturncolorfulclaywalls"
+        },
+     "8":
+        {
+         "\/\/description":"Wood that has been prepared for building and crafting.",
+         "\/\/name":"saturnbirch",
+         "\/\/shortdescription":"Birch Planks",
+         "material":"saturnbirch"
+        },
+     "9":
+        {
+         "\/\/description":"Wood that has been prepared for building and crafting.",
+         "\/\/name":"saturnslopedpanelBirch",
+         "\/\/shortdescription":"Birch Panel",
+         "material":"saturnslopedpanelBirch"
+        },
+		
+		
+     "10":
+        {
+         "\/\/description":"Technical block. Red painted ebony panel",
+         "\/\/name":"saturnslopedpanelMaho",
+         "\/\/shortdescription":"Mahogany Panel",
+         "material":"saturnslopedpanelMaho"
+        },
+     "11":
+        {
+         "\/\/description":"Technical block. Brown painted ebony panel",
+         "\/\/name":"saturnslopedpanelOak",
+         "\/\/shortdescription":"Oak Panel",
+         "material":"saturnslopedpanelOak"
+        },
+     "12":
+        {
+         "\/\/description":"Technical block. Red painted Clay",
+         "\/\/name":"saturncolorfulclaywallsred",
+         "\/\/shortdescription":"Red Clay",
+         "material":"saturncolorfulclaywallsred"
+        },
+     "13":
+        {
+         "\/\/description":"Technical block. Blue painted Clay",
+         "\/\/name":"saturncolorfulclaywallsblue",
+         "\/\/shortdescription":"Blue Clay",
+         "material":"saturncolorfulclaywallsblue"
+        },
+     "14":
+        {
+         "\/\/description":"Technical block. Green painted Clay",
+         "\/\/name":"saturncolorfulclaywallsgreen",
+         "\/\/shortdescription":"Green Clay",
+         "material":"saturncolorfulclaywallsgreen"
+        },
+		
+		
+     "15":
+        {
+         "\/\/description":"Technical block. Yellow painted Clay",
+         "\/\/name":"saturncolorfulclaywallsyellow",
+         "\/\/shortdescription":"Yellow Clay",
+         "material":"saturncolorfulclaywallsyellow"
+        },
+     "16":
+        {
+         "\/\/description":"Technical block. Orange painted Clay",
+         "\/\/name":"saturncolorfulclaywallsorange",
+         "\/\/shortdescription":"Orange Clay",
+         "material":"saturncolorfulclaywallsorange"
+        },
+     "17":
+        {
+         "\/\/description":"Technical block. Green painted Clay",
+         "\/\/name":"saturncolorfulclaywallspurple",
+         "\/\/shortdescription":"Purple Clay",
+         "material":"saturncolorfulclaywallspurple"
+        },
+     "18":
+        {
+         "\/\/description":"Technical block. Black painted Clay",
+         "\/\/name":"saturncolorfulclaywallsblack",
+         "\/\/shortdescription":"Black Clay",
+         "material":"saturncolorfulclaywallsblack"
+        },
+     "19":
+        {
+         "\/\/description":"Technical block. White painted Clay",
+         "\/\/name":"saturncolorfulclaywallswhite",
+         "\/\/shortdescription":"White Clay",
+         "material":"saturncolorfulclaywallswhite"
+        },
+     "20":
+        {
+         "\/\/description":"Technical block. Yellow painted Bronze",
+         "\/\/name":"saturnslopedBrasspanel",
+         "\/\/shortdescription":"Brass Panel",
+         "material":"saturnslopedBrasspanel"
+        },
+		
+		
+	 "21":
+        {
+         "\/\/description":"wood used for giant trees",
+         "\/\/name":"saturnebonycore",
+         "\/\/shortdescription":"Ebony Core",
+         "material":"saturnebonycore"
+        },
+	 "22":
+        {
+         "\/\/description":"wood used for giant trees",
+         "\/\/name":"saturncrystalblock2",
+         "\/\/shortdescription":"Moon Crystal",
+         "material":"saturncrystalblock2"
+        },
+		
+	 "23":
+        {
+         "\/\/description":"reddish planks",
+         "\/\/name":"saturnMaho",
+         "\/\/shortdescription":"Mahogany Planks",
+         "material":"saturnMaho"
+        },
+	 "24":
+        {
+         "\/\/description":"dark brown planks",
+         "\/\/name":"saturnOak",
+         "\/\/shortdescription":"Dark Oak Planks",
+         "material":"saturnOak"
+        },
+	 "25":
+        {
+         "\/\/description":"glass birch slope",
+         "\/\/name":"saturnslopedstainedglassBirch",
+         "\/\/shortdescription":"Glass Birch Slope",
+         "material":"saturnslopedstainedglassBirch"
+        },
+	 "26":
+        {
+         "\/\/description":"mahogany wood glass",
+         "\/\/name":"saturnslopedstainedglassMaho",
+         "\/\/shortdescription":"Mahogany Planks",
+         "material":"saturnslopedstainedglassMaho"
+        },
+	 "27":
+        {
+         "\/\/description":"dark brown glass",
+         "\/\/name":"saturnslopedstainedglassOak",
+         "\/\/shortdescription":"Dark Oak Glass",
+         "material":"saturnslopedstainedglassOak"
+        },
+	 "28":
+        {
+         "\/\/description":"dark brown glass",
+         "\/\/name":"saturnslopedBronzeglass",
+         "\/\/shortdescription":"Bronze Glass",
+         "material":"saturnslopedBronzeglass"
+        }
+		
+		
+		
+		
+	},
+
+ "tiles":
+    {
+     "0":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnhomewalls.png"
+        },
+     "1":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnslopedglass.png"
+        },
+     "2":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnebony.png"
+        },
+     "3":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnslopedhomewalls.png"
+        },
+     "4":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnslopedpanel.png"
+        },	
+     "5":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnslopedmetalpanel.png"
+        },	
+     "6":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnslopedstainedglass.png"
+        },	
+     "7":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturncolorfulclaywalls.png"
+        },
+     "8":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnbirch.png"
+        },	
+     "9":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnslopedpanelBirch.png"
+        },	
+     "10":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnslopedpanelMaho.png"
+        },
+     "11":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnslopedpanelOak.png"
+        },
+     "12":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturncolorfulclaywallsred.png"
+        },
+     "13":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturncolorfulclaywallsblue.png"
+        },
+     "14":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturncolorfulclaywallsgreen.png"
+        },
+     "15":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturncolorfulclaywallsyellow.png"
+        },
+     "16":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturncolorfulclaywallsorange.png"
+        },
+     "17":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturncolorfulclaywallspurple.png"
+        },
+     "18":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturncolorfulclaywallsblack.png"
+        },
+     "19":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturncolorfulclaywallswhite.png"
+        },
+     "20":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnslopedBrasspanel.png"
+        },
+     "21":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnebonycore.png"
+        },
+     "22":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturncrystalblock2.png"
+        },
+     "23":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnMaho.png"
+        },
+     "24":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnOak.png"
+        },
+     "25":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnslopedstainedglassBirch.png"
+        },
+     "26":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnslopedstainedglassMaho.png"
+        },
+     "27":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnslopedstainedglassOak.png"
+        },
+     "28":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnslopedBronzeglass.png"
+        }
+    },
+ "tilewidth":8
+}

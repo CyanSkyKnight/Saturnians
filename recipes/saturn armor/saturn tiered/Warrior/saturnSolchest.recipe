@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 20 },
+    { "item" : "saturnkni5chest", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "saturnSolchest", "count" : 1 },
+  "groups" : [ "craftingseparator", "armours", "all" ]
+}

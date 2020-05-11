@@ -1,0 +1,17 @@
+{
+  "itemName" : "saturn_bluestim",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "medicine",
+  "inventoryIcon" : "saturn_bluestim.png",
+  "description" : "A bottle full of blue liquid, it gives your jump a boost!",
+  "shortdescription" : "Potion of Jump",
+  "effects" : [ [
+      {
+        "effect" : "jumpboost",
+        "duration" : 60
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

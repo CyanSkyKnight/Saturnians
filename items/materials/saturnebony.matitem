@@ -1,0 +1,22 @@
+{
+  "itemName" : "saturnebony",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "saturnebony.png",
+  "largeImage" : "/items/materials/tooltips/saturnebony.png",
+  "tooltipKind" : "saturnpaintedblock",
+  
+  "description" : "Shiny alien wood similar to that of Earth's ebony trees. It is completely fireproof.",
+  "shortdescription" : "Ebony Planks",
+  "apexDescription" : "Some crafted planks of wood.",
+  "avianDescription" : "Wood that's been crafted into planks.",
+  "glitchDescription" : "Satisfied. These are well crafted wood planks.",
+  "floranDescription" : "Sssplintery wood plankss.",
+  "humanDescription" : "Some simple planks made from wood.",
+  "hylotlDescription" : "Basic wood planks.",
+  "novakidDescription" : "Just some basic lookin' wood planks.",
+  "saturndescription" : "Supposedly this wood is only so popular because alchemists and wizards can't set it on fire.",
+  "learnBlueprintsOnPickup" : [ "saturnbirch", "saturnslopedpanelBirch", "saturnebony", "saturnslopedpanel" ],
+  "materialId" : 54703
+}

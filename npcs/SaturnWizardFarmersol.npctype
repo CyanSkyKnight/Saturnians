@@ -1,0 +1,125 @@
+{
+  "type": "SaturnWizardFarmersol",
+  "baseType": "merchant",
+  "dropPools": [
+    "wizardtreasure"
+  ],
+  "scriptConfig": {
+    "questGenerator": {
+      "pools": [
+        "common"
+      ]
+    },
+    "merchant": {
+      "categories": {
+        "override": [
+          "Saturnfarmer"
+        ]
+      },
+      "buyFactorRange": [
+        1,
+        1
+      ],
+      "sellFactorRange": [
+        0.2,
+        0.2
+      ],
+      "numItems": 30,
+      "storeRadius": -1,
+      "paneLayoutOverride": {
+        "windowtitle": {
+          "title": "Wizard Farmer",
+          "subtitle": "Sells produce and seeds"
+        }
+      }
+    },
+    "dialog": {
+        "merchant": {
+		"start" : {
+          "saturn": {
+            "default": [
+              "It's fun growing alien plants. You should try it!",
+              "See anything you like?"
+            ],
+			
+			"saturn2": [
+              "It's fun growing alien plants. You should try it!",
+              "See anything you like?"
+            ]
+          },
+          "saturn2": {
+            "default": [
+              "It's fun growing alien plants. You should try it!",
+              "See anything you like?"
+            ],
+			
+			"saturn2": [
+              "It's fun growing alien plants. You should try it!",
+              "See anything you like?"
+            ]
+          }
+        },
+      
+      "end": {
+        "saturn": {
+          "default": [
+            "Farewell, traveler.",
+            "I hope to see you more in future.",
+			"I'm not responsible for any figurative rain clouds over heads, only literal ones."
+          ],
+          "saturn2": [
+            "Farewell, traveler.",
+            "I hope to see you more in future.",
+			"I'm not responsible for any figurative rain clouds over heads, only literal ones."
+          ]
+        },
+        "saturn2": {
+          "default": [
+            "Farewell, traveler.",
+            "I hope to see you more in future.",
+			"I'm not responsible for any figurative rain clouds over heads, only literal ones."
+          ],
+          "saturn2": [
+            "Farewell, traveler.",
+            "I hope to see you more in future.",
+			"I'm not responsible for any figurative rain clouds over heads, only literal ones."
+          ]
+        }
+      } 
+    }
+	}
+  },
+  "items": {
+    "override": [
+      [
+        0,
+        [
+          {
+            "chest": [
+              "saturntier4chestnotevil"
+            ],
+            "legs": [
+              "saturnmerchantlegs"
+            ],
+            "head": [
+			{ "name" : "SunHat", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnWideHat", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnBuckledHat", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnnull", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } }
+            ],
+            "back": [
+			{ "name" : "saturnWingSimple"},
+			{ "name" : "saturnWingSimple2"},
+			{ "name" : "saturnWingSimple2"},
+			{ "name" : "saturnWingSimple2"},
+			{ "name" : "saturnWingSimple2"}
+            ],
+            "primary": [
+              "satstaffrain"
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

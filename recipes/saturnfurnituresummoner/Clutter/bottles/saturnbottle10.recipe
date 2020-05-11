@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "glass", "count" : 2 }
+  ],
+  "duration" : 0.005,
+  "output" : { "item" : "saturnbottle10", "count" : 1 },
+  "groups" : [ "saturnclutter", "all" ]
+}

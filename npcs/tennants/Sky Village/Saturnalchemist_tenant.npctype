@@ -1,0 +1,12 @@
+{
+  "type" : "Saturnalchemist_tenant",
+  "baseType" : "Saturnalchemist",
+  
+  "dropPools" : [],
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common", "tenant", "merchant"]
+    }
+  }
+}

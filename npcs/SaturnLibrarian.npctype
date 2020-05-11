@@ -1,0 +1,81 @@
+{
+  "type" : "SaturnLibrarian",
+  "baseType" : "merchant",
+  
+  
+  
+  "identity" : {
+
+    "bodyDirectives" : "?replace=EFF4F4FF=2D377AFF?replace=D5E1E2FF=212E66FF?replace=A2AEB2FF=162551FF?replace=7E8899FF=091638FF?replace=E5DB72FF=EFF4F3FF?replace=DBC762FF=D5E1E1FF?replace=CCB551FF=A2AEB1FF?replace=B2933EFF=7E8899FF",
+	"emoteDirectives" : "?replace=EFF4F4FF=2D377AFF?replace=D5E1E2FF=212E66FF?replace=A2AEB2FF=162551FF?replace=7E8899FF=091638FF",
+    "facialMaskDirectives" : "?replace=EFF4F4FF=2D377AFF?replace=D5E1E2FF=212E66FF?replace=A2AEB2FF=162551FF?replace=7E8899FF=091638FF?replace=E5DB72FF=EFF4F3FF?replace=DBC762FF=D5E1E1FF?replace=CCB551FF=A2AEB1FF?replace=B2933EFF=7E8899FF",
+    "hairDirectives" : "?replace=E5DB72FF=EFF4F3FF?replace=DBC762FF=D5E1E1FF?replace=CCB551FF=A2AEB2FF?replace=B2933EFF=7E8899FF"
+  },
+  
+  
+  "dropPools" : [ "wizardtreasure" ],
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common"]
+    },
+
+    "merchant" : {
+      "categories" : {
+        "override": [ "SaturnLibrarian" ]
+      },
+      "buyFactorRange" : [ 2.0, 2.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 30,
+      "storeRadius" : -1,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "Saturnian Librarian",
+          "subtitle" : "Sells books and crafting scrolls."
+        }
+      }
+    },
+
+
+	
+
+    "dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+              "Hi! I'm Lorekeeper <selfname>.",
+			  "I have had artist's block for months. Would you like to buy some of my supplies?"
+            ]
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+              "Farewell, traveler.",
+              "I hope to see you more in future.",
+              "Courage to you!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "saturntier4chestnotevil", "parameters" : { "colorIndex" : [3] } } ],
+            "legs" : [ { "name" : "saturnshortrobe", "parameters" : { "colorIndex" : [3] } } ],
+            "head" : [ { "name" : "saturnFluffScarf2", "parameters" : { "colorIndex" : [3] } } ],
+            "back" : [ { "name" : "saturnWingLeopard", "parameters" : { "colorIndex" : [0] } } ],
+            "primary" : [ "saturnlightstaff2" ],
+            "sheathedprimary" : [
+              "SaturnGenwand"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

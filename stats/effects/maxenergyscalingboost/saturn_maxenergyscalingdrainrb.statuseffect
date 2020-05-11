@@ -1,0 +1,14 @@
+{
+  "name" : "saturn_maxenergyscalingdrainrb",
+  "effectConfig" : {
+    "energyModifier" : 0.85
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "maxenergyscalingboost.lua"
+  ],
+
+  "label" : "Minus 15% Energy",
+  "icon" : "/interface/statuses/maxenergy.png"
+}

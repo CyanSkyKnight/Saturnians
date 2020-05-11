@@ -1,0 +1,18 @@
+{
+  "itemName" : "saturn_orangestim",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "medicine",
+  "inventoryIcon" : "saturn_orangestim.png",
+  "description" : "A bottle full of orange liquid, it will get you all fired up!",
+  "shortdescription" : "Potion of Rage",
+  "handPosition" : [8, 0],
+  "effects" : [ [
+      {
+        "effect" : "rage",
+        "duration" : 120
+      }
+    ] ],
+  "emote" : "annoyed",
+  "emitters" : [ "drinking" ]
+}

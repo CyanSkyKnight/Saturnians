@@ -1,0 +1,76 @@
+{
+  "itemName" : "saturnAxeStaff",
+  "level" : 2,
+  "price" : 400,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "description" : "Creates a fire portal.",
+  "shortdescription" : "Axe Staff",
+  "category" : "saturnstaff",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","wand", "upgradeableWeapon"],
+  "tooltipKind" : "staff",
+  "animation" : "/items/active/weapons/saturnstaff/satstaff.animation",
+  "animationParts" : {
+    "staff" : "saturnAxeStaff.png",
+    "stone" : "saturnAxeStaffFB.png",
+    "chargeEffect" : "satglowAxeStaff.png"
+  },
+  "inventoryIcon" : "satstaffT2.png",
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+  
+   "stances" : {
+    "idle" : {
+      "weaponOffset" : [0, 1.0],
+      "armRotation" : -90,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 1.0,
+      "armRotation" : 10,
+      "weaponRotation" : -20,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "weaponOffset" : [0, 1.5],
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -50,
+      "twoHanded" : true,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "weaponOffset" : [0, 1.0],
+      "duration" : 0.5,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+  "elementalName" : "Fire",
+  "elementalType" : "fire",
+  "baseDamageFactor" : 0.5,
+  "primaryAbilityType" : "elementorb",
+  "primaryAbility" : {
+      "name" : "Fire Orb"
+  },
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

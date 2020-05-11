@@ -1,0 +1,47 @@
+[
+	{
+		"op": "add",
+		"path": "/tagCriteria/saturn",
+		"value": {
+			"default": [
+				"Could you please return what you have taken?"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/enclosedArea/saturn",
+		"value": {
+			"default": [
+				"Please fix my house."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/otherDeed/saturn",
+		"value": {
+			"default": [
+				"Uhh... Could you please remove that other deed?."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/severe/saturn",
+		"value": {
+			"default": [
+				"If you don't fix this, we can't be friends anymore..."
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/final/saturn",
+		"value": {
+			"default": [
+				"Sorry, it's looking like I'll have to go."
+			]
+		}
+	}
+]

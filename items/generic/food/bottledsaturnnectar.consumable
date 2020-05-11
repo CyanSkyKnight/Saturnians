@@ -1,0 +1,22 @@
+{
+  "itemName" : "bottledsaturnnectar",
+  "rarity" : "Common",
+  "price" : 115,
+  "category" : "drink",
+  "inventoryIcon" : "bottledsaturnnectar.png",
+  "description" : "A bottle of nectar.",
+  "shortdescription" : "Bottled Nectar",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 135
+    }
+  ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10,
+  "emitters" : [ "drinking" ]
+}

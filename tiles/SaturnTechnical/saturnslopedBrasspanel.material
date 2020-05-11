@@ -1,0 +1,25 @@
+{
+  "materialId" : 54721,
+  "materialName" : "saturnslopedBrasspanel",
+  "particleColor" : [124, 145, 86, 255],
+  "itemDrop" : "saturnslopedbrasspanel",
+
+  "description" : "Sloped metal panels usually found in sky cities.",
+  "glitchDescription" : "Observant. This is panelling widely used for ship and station construction.",
+  "floranDescription" : "Shiny sssmooth space metal.",
+  "novakidDescription" : "Some thick metal plating, looks mighty solid.",
+  "shortdescription" : "Mage Brass Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 12,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "saturnslopedBrasspanel.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 5000
+  }
+}

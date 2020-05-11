@@ -1,0 +1,15 @@
+{
+  "itemName" : "Satearthdye",
+  "price" : 50,
+  "rarity" : "Rare",
+  "category" : "clothingDye",
+  "inventoryIcon" : "Satearthdye.png",
+  "description" : "This strange dye seems to only work properly on Saturnian equipment.",
+  "shortdescription" : "Sat Earth Green Dye",
+
+  "dyeColorIndex" : 15,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "saturnlumenjuice", "count" : 1 },
+	{ "item" : "sugar", "count" : 1 }
+  ],
+  "output" : { "item" : "saturnlumenade", "count" : 1 },
+  "groups" : [ "craftingfood", "snacks" ]
+}

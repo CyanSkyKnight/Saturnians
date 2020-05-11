@@ -1,0 +1,27 @@
+{
+  "projectileName" : "saturnmagiccardHeart",
+  "image" : "saturnmagiccardHeart.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "flippable" : true,
+  "fullbright" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "speed" : 0.2,
+  "damageKind" : "default",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "statusEffects" : [ "love" ],
+
+  "timeToLive" : 3,
+
+  "scripts" : [ "saturnmagiccards.lua" ],
+  "delayTime" : 0.5,
+  "triggerSpeed" : 100
+}

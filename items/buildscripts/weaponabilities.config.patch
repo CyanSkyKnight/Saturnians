@@ -1,0 +1,17 @@
+[
+  {
+    "op" : "add",
+    "path" : "/Saturnshortswordcombo",
+    "value" : "/items/active/weapons/Saturn Rapier/abilities/Saturnshortswordcombo.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/saturnscythecombo",
+    "value" : "/items/active/weapons/Saturn Scythes/abilities/saturnscythecombo.weaponability"
+  },
+  {
+    "op" : "add",
+    "path" : "/saturnburningzone",
+    "value" : "/items/active/weapons/staff/abilities/saturnburningzone.weaponability"
+  }
+]

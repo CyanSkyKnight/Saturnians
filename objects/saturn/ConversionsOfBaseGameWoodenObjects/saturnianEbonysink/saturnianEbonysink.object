@@ -1,0 +1,47 @@
+{
+  "objectName" : "saturnianEbonysink",
+  "colonyTags" : ["saturn", "storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "decorative",
+  "price" : 85,
+
+  "description" : "A wooden cabinet with a magic sink installed.",
+  "shortdescription" : "Ebony Sink",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "Where does the water come from?",
+  "avianDescription" : "A water basin.",
+  "floranDescription" : "Turn handle, water comess out!",
+  "glitchDescription" : "Appreciative. Hot and cold water, at your convenience.",
+  "humanDescription" : "A homely sink.",
+  "hylotlDescription" : "I wonder if the water is fresh.",
+  "novakidDescription" : "A kitchen sink.",
+  "saturnDescription" : "This sink can pull water from the air.",
+  "saturn2Description" : "A crystal inside can be activated to form water from the air.",
+  "satkyterranDescription" : "The lever on this sink activates a crystal inside, that rapidly condenses drinkable water.",
+  "saturnmothman" : "Magic sink. Ha! Show-offs!",
+  
+  "inventoryIcon" : "saturnianEbonysinkicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnianEbonysink.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

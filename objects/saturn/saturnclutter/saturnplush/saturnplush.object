@@ -1,0 +1,41 @@
+{
+  "objectName" : "saturnplush",
+  "colonyTags" : ["saturn","pretty", "magic"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 250,
+  "printable" : false,
+
+  "description" : "A plush doll of a regal moth wizard.",
+  "shortdescription" : "Wizard Moth Plush",
+  "race" : "saturn",
+
+
+
+
+  "inventoryIcon" : "saturnplushicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "saturnplushlit.png:<color>.<frame>", "fullbright" : true }, { "image" : "saturnplush.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.5,
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "saturnplushlit.png:<color>.<frame>", "fullbright" : true }, { "image" : "saturnplush.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.5,
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

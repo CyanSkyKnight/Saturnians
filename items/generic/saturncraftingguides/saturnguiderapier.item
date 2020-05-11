@@ -1,0 +1,22 @@
+{
+  "itemName" : "saturnguiderapier",
+  "price" : 2500,
+  "rarity" : "Rare",
+  "category" : "saturncraftingguide",
+  "tooltipKind" : "saturnlorescrollpic",
+  "largeImage" : "saturnguiderapier.png",
+  "inventoryIcon" : "icon3.png",
+  "shortdescription" : "Saturnian Rapier Scroll",
+  "description" : "This scroll details how to craft 6 Saturnian rapiers, 1-handed weapons with a 3-hit combo. The 3rd hit deals the most damage. \n^green;When picked up by non-Saturnians/Thaumoths, allows crafting of all tiered Saturnian rapiers. (Tiers 1-6)",
+
+  
+  	"learnBlueprintsOnPickup" : [ 
+	"SaturnRapier",
+	"SaturnRapier2",
+	"SaturnRapier3",
+	"SaturnRapier4",
+	"SaturnRapier5",
+	"SaturnRapier6"
+	
+	]
+}

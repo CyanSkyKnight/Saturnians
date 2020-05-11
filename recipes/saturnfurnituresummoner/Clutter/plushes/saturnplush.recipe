@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 20 },
+    { "item" : "cottonwool", "count" : 4 }
+  ],
+  "duration" : 0.005,
+  "output" : { "item" : "saturnplush", "count" : 1 },
+  "groups" : [ "saturnclutter", "all", "craftingwheel2", "ingredients" ]
+}

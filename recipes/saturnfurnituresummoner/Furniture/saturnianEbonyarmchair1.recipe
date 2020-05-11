@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "saturnebony", "count" : 10 },
+	{ "item" : "silkfibre", "count" : 3 }
+  ],
+  "duration" : 0.005,
+  "output" : { "item" : "saturnianEbonyarmchair1", "count" : 1 },
+  "groups" : [ "saturnfurniture", "all" ]
+}

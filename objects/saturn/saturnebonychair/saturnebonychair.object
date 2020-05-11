@@ -1,0 +1,37 @@
+{
+  "objectName" : "saturnebonychair",
+  "colonyTags" : ["saturn"],
+  "rarity" : "Common",
+  "description" : "A hard ebony chair.",
+  "shortdescription" : "Saturnian Ebony Chair",
+  "race" : "saturn",
+  "category" : "furniture",
+  "price" : 75,
+  
+  "apexDescription" : "A hard wood dining chair.",
+  "avianDescription" : "An uncomfortable wooden seat. Decorated with modesty.",
+  "floranDescription" : "Pointy ssseat make good weapon.",
+  "glitchDescription" : "Pleased. A common dining room chair styled in typical medieval fashion.",
+  "humanDescription" : "A fancy dining chair. It's hard and uncomfortable.",
+  "hylotlDescription" : "An uncomfortable wooden seat, decorated modestly.",
+  "novakidDescription" : "A hard wood chair.",
+  
+  "saturnDescription" : "A Glitch style chair made from ebony wood.",
+  "saturn2Description" : "A Glitch style chair made from ebony wood.",
+  "satkyterranDescription" : "Saturnians seem to really like the Glitch's furniture.",
+  
+  "inventoryIcon" : "saturnebonychairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnebonychair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 20]
+}

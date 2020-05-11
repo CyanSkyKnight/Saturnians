@@ -1,0 +1,39 @@
+{
+  "objectName" : "saturnwarpgem",
+  "colonyTags" : ["saturn"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 70,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+  "description" : "A subtle gem to mark a teleport location. Use ^green;[E]^white; to bookmark a teleportation location.",
+  "shortdescription" : "Saturnian Warp Gem",
+  "saturndescription" : "This gem can mark a warp location for teleporters.",
+  "saturn2description" : "This gem can mark a warp location for teleporters.",
+  "race" : "saturn",
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+  "inventoryIcon" : "saturnwarpgem.png",
+  "orientations" : [
+    {
+      "image" : "saturnwarpgem.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "saturnwarpgem.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

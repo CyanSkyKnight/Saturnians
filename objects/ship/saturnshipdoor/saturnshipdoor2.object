@@ -1,0 +1,55 @@
+{
+  "objectName" : "saturnshipdoor2",
+  "colonyTags" : ["saturn", "thaumoth", "door"],
+  "rarity" : "Common",
+  "category" : "door",
+  "price" : 125,
+  "description" : "Generates a bubble-like forcefield. The center can be pressed to open the door.",
+  "shortdescription" : "Actian Bubble Door",
+  "race" : "saturn",
+  "apexDescription" : "A forcefield door.",
+  "avianDescription" : "A spaceship door.",
+  "floranDescription" : "Floran pop bubble!",
+  "glitchDescription" : "Confused. A ship door?",
+  "humanDescription" : "This looks like something out of a sci-fi movie.",
+  "hylotlDescription" : "The design of this door pleases me.",
+  "novakidDescription" : "A door?",
+  "saturnDescription" : "It's a bubble door. If I press the center, the bubble will pop.",
+  "saturn2Description" : "It's a bubble door. If I press the center, the bubble will pop.",
+  
+  "inventoryIcon" : "saturnshipdoor2icon.png",
+  "lightColor" : [96, 184, 234],
+  "lightPosition" : [-1, 0],  
+  
+  "orientations" : [
+    {
+      "dualImage" : "saturnshipdoor2.png:default", 
+	  "fullbright" : true,
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+  "animation" : "saturnshipdoor.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/saturnbubbledoor2.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/saturnbubbledoorClose.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "saturnshipdoor2.png"
+  },
+  "animationPosition" : [-20, 0],
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

@@ -1,0 +1,4 @@
+[
+{ "op":"add","path":"/speciesOrdering/-","value":"saturn" },
+{ "op":"add","path":"/speciesOrdering/-","value":"saturn2" }
+]

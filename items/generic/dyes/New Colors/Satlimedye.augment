@@ -1,0 +1,15 @@
+{
+  "itemName" : "Satlimedye",
+  "price" : 50,
+  "rarity" : "Rare",
+  "category" : "clothingDye",
+  "inventoryIcon" : "Satlimedye.png",
+  "description" : "This strange dye seems to only work properly on Saturnian equipment.",
+  "shortdescription" : "Saturnian Lime Dye",
+
+  "dyeColorIndex" : 14,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

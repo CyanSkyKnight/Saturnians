@@ -1,0 +1,36 @@
+{
+  "objectName" : "saturnFurnitureSummoner",
+  "colonyTags" : ["crafting", "magic", "saturn"],
+  "rarity" : "Legendary",
+  "price" : 100,
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/saturncraftingfurniture.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Furniture Summoner",
+        "subtitle" : "Conjure me up a warm bed, would you?",
+        "icon" : {
+          "file" : "/interface/crafting/craftingfurnace3.png"
+        }
+      }
+    },
+     "filter" : [ "saturnlights", "saturnclutter", "saturnart", "saturnfurniture", "saturnstorage", "saturnmaterials" ]
+  },
+  "printable" : false,
+  "description" : "Used to craft most Saturnian furniture.",
+  "shortdescription" : "^orange;Saturnian Furniture Table^white;",
+  "race" : "saturn",
+  "category" : "crafting",
+  "inventoryIcon" : "saturnFurnitureSummonericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnFurnitureSummoner.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

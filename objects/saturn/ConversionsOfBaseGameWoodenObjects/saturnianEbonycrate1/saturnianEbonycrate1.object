@@ -1,0 +1,63 @@
+{
+  "objectName" : "saturnianEbonycrate1",
+  "colonyTags" : ["saturn","storage","commerce"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 15,
+  "description" : "A mysterious brass crate.",
+  "shortdescription" : "Brass Crate",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "A brass crate.",
+  "avianDescription" : "A storage box.",
+  "floranDescription" : "Box!",
+  "glitchDescription" : "Curious. Is there anything inside?",
+  "humanDescription" : "A brass crate. It's open.",
+  "hylotlDescription" : "An open crate.",
+  "novakidDescription" : "A regular brass crate.",
+  "saturnDescription" : "This crate is used to transport stuff across space.",
+  "saturn2Description" : "This metal almost reflects like a mirror.",
+  "satkyterranDescription" : "This box was forged from brass.",
+  "saturnmothman" : "This box must get really hot in the sun.",
+
+  "inventoryIcon" : "saturnianEbonycrate1icon.png",
+  "orientations" : [
+    {
+      "image" : "saturnianEbonycrate1.png:default",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "saturnianEbonycrate1.png:default",
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

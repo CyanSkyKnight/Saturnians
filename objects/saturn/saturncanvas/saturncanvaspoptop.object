@@ -1,0 +1,32 @@
+{
+  "objectName" : "saturncanvaspoptop",
+  "colonyTags" : ["saturn", "saturnpaintings"],
+  "rarity" : "Common",
+  "description" : "A painting of a Poptop.",
+  "shortdescription" : "Eb. Easel + Poptop Painting",
+  "race" : "saturn",
+  "apexDescription" : "Poptops give me the creeps, but this one is almost cute.",
+  "avianDescription" : "Who would draw such a terrifying little creature?",
+  "floranDescription" : "Floran likess Poptop drawing.",
+  "glitchDescription" : "Conflicted. Poptops are deadly creatures, but they're quite cute.",
+  "humanDescription" : "Aww, it's almost enough to make you forget how scary real Poptops are.",
+  "hylotlDescription" : "This is quite an adorable painting of a rather scary creature.",
+  "novakidDescription" : "Too cute to be a real Poptop.",
+  "saturnDescription" : "A cute painting of a Poptop, a common alien monster.",
+  "saturn2Description" : "This painting looks like it was worth getting paint absolutely everywhere!",
+  "satkyterranDescription" : "I'm sure there are plenty of creatures out there that are cute and WON'T try to kill me.",
+  "category" : "decorative",
+  "price" : 110,
+  "inventoryIcon" : "saturncanvaspoptopicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturncanvaspoptop.png:<color>",
+      "imagePosition" : [-16, -0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
+ 

@@ -1,0 +1,74 @@
+{
+  "objectName" : "saturngenerator",
+  "colonyTags" : ["saturn","electronic","magic"],
+  "rarity" : "Legendary",
+  "description" : "A shield generator. Protective",
+  "shortdescription" : "Solar Shield Generator",
+  "race" : "saturn",
+  "price" : 1000,
+  "lightColor" : [128, 111, 78],
+  "category" : "wire",
+  "printable" : false,
+  "apexDescription" : "A shield generator.",
+  "avianDescription" : "This generates a shield.",
+  "floranDescription" : "Shieldsss",
+  "glitchDescription" : "Comforted. A shield generator.",
+  "humanDescription" : "This'll keep me safe",
+  "hylotlDescription" : "A crude protection device.",
+  "novakidDescription" : "Who needs a shield anyhow?",
+  
+  "saturnDescription" : "This shield generator is powered with sunlight absorbing crystals. Crystals like these are kinda the basis for most of our magic.",
+  "saturn2Description" : "Even though the Saturnians' defenses are solar powered, Actian explorers have reported finding ruined sky city anchors on worlds that never get light.",
+  "satkyterranDescription" : "It's a solar-powered shield generator. You can power underground cities with light as well, if you have enough tunnels and mirrors.",
+  
+  "inventoryIcon" : "saturngeneratoricon.png",
+  "orientations" : [
+    {
+      "image" : "saturngenerator.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "lightPosition" : [0, 2],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "saturngenerator.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "lightPosition" : [1, 2],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "animation" : "saturngenerator.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/apexconsole2switch.ogg" ],
+      "off" : [ "/sfx/melee/apexconsole2switch.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "saturngenerator.png",
+    "fg" : "saturngeneratorlit.png"
+  },
+  "animationPosition" : [0, 0],
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/melee/kill_robotic1.ogg" ],
+  "health" : 250,
+  "interactive" : false,
+  "smashParticles" : [ { "count" : 50, "particle" : "generatorshard" }, { "count" : 50, "particle" : "generatorredshard" }, { "count" : 10, "particle" : "generatorglassshard" } ],
+  "smashDropPool" : "empty",
+  "breakDropPool" : "empty",
+  "scripts" : [ "/objects/wired/shieldgenerator/shieldgenerator.lua" ],
+  "scriptDelta" : 5,
+  "outputNodes" : [ [0, 0] ],
+  "inputNodes" : [ [0, 2] ],
+  "explodeOnSmash" : true,
+  "explosionProjectile" : "explosivegenerator",
+  "explosionOffset" : [0, 2]
+}

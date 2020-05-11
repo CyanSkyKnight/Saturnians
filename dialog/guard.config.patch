@@ -1,0 +1,59 @@
+[
+
+	[{
+		"op": "add",
+		"path": "/hail/saturn",
+		"value": {
+		"default": [
+			"Buzz."
+		],
+		"saturn": [
+			"A moth? How do you defend yourself?"
+		],
+		"saturn2": [
+			"A moth? How do you defend yourself?"
+		],
+		"generic": [
+            "Buzz.",
+			"Buzz Buzz.",
+			"Buzz Buzz Buzz.",
+			"BUZZ!",
+			"B U Z Z",
+			"Squeak, I-I-I mean BUZZ!",
+			"A bee I am... Not?!",
+			"I am glad that bees like me have the means to defend ourselves, and that we don't have to pretend to be strong.",
+			"Did you come to admire our beautiful wax architecture?",
+			"Zzzzz... Huh? I wasn't sleeping!",
+			"I sure love light, I mean honey.",
+			"My strength matches a wasp's love for honey.", 
+			"I hope this place is safe. Not that THAT MATTERS since we are THE BEST!",
+            "We are the proud, brave, and invincible Waspmim. Do not even think of attacking us. We should be friends instead!"
+			],
+		"vespoid": [
+			"GASP! Could it be? A BEE?!",
+			"Oh my gosh!",
+			"A real bee?! Can I have your autograph!",
+			"BEE!",
+			"Hello fellow bee.",
+			"Hello bee friend.",
+			"Are you a bee or a wasp?",
+			"I don't beelieve it!",
+			"GASP! A b-b-bee!",
+			"Th-th-there are still bees among the s-s-stars?!",
+			"We apologize for the mimicry. Our survival used to depend on it. Nowadays, I'm not sure.",
+			"UH?! Are you the species we've been mimicking?",
+			"Have you heard that saying about imitation?"
+		],
+		"wasphive": [
+			"Oh! Wasp! Hello wasp friend.",
+			"Oh my gosh!",
+			"A WASP?!",
+			"I don't beelieve it!",
+			"Hello fellow bee. Oh, are you a wasp?",
+			"We apologize for the mimicry. Our survival used to depend on it. Nowadays, I'm not sure.",
+			"UH?! Are you the species we've been mimicking?",
+			"Have you heard that saying about imitation?"
+		]
+		}
+	}
+]]

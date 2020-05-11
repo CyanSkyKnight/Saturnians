@@ -1,0 +1,34 @@
+{
+  "objectName" : "saturnbottle4",
+  "colonyTags" : ["saturn", "alchemy" ],
+  "rarity" : "Common",
+  "price" : 10,
+  "description" : "[^#ff99ff;Decorative^reset;] Sweet nectar in a bottle.",
+  "shortdescription" : "^#000300;^white;Nectar Bottle",
+  "category" : "decorative",
+  "race" : "generic",
+  
+  "apexDescription": "It's flower nectar.",
+  "avianDescription": "This smells really sweet.",
+  "floranDescription": "Sssweet drink.",
+  "glitchDescription": "Confused. This looks like a potion bottle, but it seems to contain nectar.",
+  "humanDescription": "This smells very sweet.",
+  "hylotlDescription": "This potion has a floral scent.",
+  "novakidDescription": "I can't say I'm much of a fan of drinks this sweet.",
+  
+  "saturnDescription": "It's a bottle of nectar gathered from flowers.",
+  "saturn2Description": "It's a bottle of nectar gathered from flowers.",
+  "satkyterranDescription" : "Nectar? There aren't a lot of flowers in Kyterra.",
+  
+  "inventoryIcon" : "saturnbottle4icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnbottle4.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

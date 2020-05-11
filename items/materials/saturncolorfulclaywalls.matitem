@@ -1,0 +1,14 @@
+{
+  "itemName" : "saturncolorfulclaywalls",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "saturncolorfulclaywalls.png",
+  "largeImage" : "/items/materials/tooltips/saturncolorfulclaywalls.png",
+  "tooltipKind" : "saturnpaintedblock",
+  
+  "shortdescription" : "Colorful Stone",
+  "description" : "This stone was collected from a mountain said to have every color of the rainbow.",
+  "learnBlueprintsOnPickup" : [ "saturncolorfulclaywalls", "saturnslopedcolorfulclaywalls" ],
+  "materialId" : 54707
+}

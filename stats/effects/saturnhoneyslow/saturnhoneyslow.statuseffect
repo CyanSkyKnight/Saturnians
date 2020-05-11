@@ -1,0 +1,15 @@
+{
+  "name" : "saturnhoneyslow",
+  "blockingStat" : "tarStatusImmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "saturnhoneyslow.lua"
+  ],
+
+  "animationConfig" : "saturnhoneyslow.animation",
+
+  "label" : "Slow",
+  "icon" : "/interface/statuses/tar.png"
+}

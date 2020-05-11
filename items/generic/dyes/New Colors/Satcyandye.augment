@@ -1,0 +1,15 @@
+{
+  "itemName" : "Satcyandye",
+  "price" : 50,
+  "rarity" : "Rare",
+  "category" : "clothingDye",
+  "inventoryIcon" : "Satcyandye.png",
+  "description" : "This strange dye seems to only work properly on Saturnian equipment.",
+  "shortdescription" : "Saturnian Cyan Dye",
+
+  "dyeColorIndex" : 16,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

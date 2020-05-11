@@ -1,0 +1,9 @@
+{
+  "name" : "satkyterranRundust",
+  "effectConfig" : {},
+  "defaultDuration" : 3,
+  "animationConfig" : "satkyterranRundust.animation",
+  "scripts" : [
+    "satkyterranRundust.lua"
+  ]
+}

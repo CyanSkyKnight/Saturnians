@@ -1,0 +1,29 @@
+{
+  "objectName" : "saturnmacerack",
+  "colonyTags" : ["saturn", "kyterran", "pretty", "combat", "tier2"],
+  "rarity" : "Common",
+  "description" : "A rack full of obsidian maces.",
+  "shortdescription" : "Saturnian Mace Rack",
+  "race" : "saturn",
+  "category" : "decorative",
+  "price" : 110,
+  "apexDescription" : "Maces weigh about the same as swords. Most of the weight is just distributed on the head.",
+  "avianDescription" : "A selection of maces.",
+  "floranDescription" : "Too heavy",
+  "glitchDescription" : "Curious. Could these dent Glitch armor?",
+  "humanDescription" : "A set of heavy maces made of some kind of glass?",
+  "hylotlDescription" : "Maces that are too heavy to fight with properly.",
+  "novakidDescription" : "Not a lotta good to anyone.",
+  "saturnDescription" : "Saturnians historically fought a lot of armored foes, so maces were very useful to us. ",
+  "inventoryIcon" : "saturnmacerackicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnmacerack.png:<color>",
+      "imagePosition" : [-16, -0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

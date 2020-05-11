@@ -1,0 +1,179 @@
+{
+  "itemName" : "saturnGeneratedBatonOrb",
+  "price" : 400,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "(Randomly Generated) Quickly casts small elemental orbs that leave damaging energy on impact.",
+  "shortdescription" : "Generated Spike Orb Baton",
+  "tooltipKind" : "saturngun",
+  "category" : "saturngenbaton",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "ranged", "wand", "upgradeableWeapon"],
+  "level" : 1,
+
+
+  "animation" : "/items/active/weapons/ranged/saturnwindupgun.animation",
+  "animationParts" : {
+    "chargeFlash" : "",
+    "middle" : "saturnBatonT2.png",
+    "barrel" : "saturnBatonT2FB.png",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+    "charge" : [ "/sfx/melee/saturnBlank.ogg" ],
+	"charge2" : [ "/sfx/melee/SaturnShortwandFlick.ogg" ],
+	"charge3" : [ "/sfx/melee/saturnBlank.ogg" ],
+    "fire" : [ "/sfx/melee/travelingslash_fire1.ogg", "/sfx/melee/travelingslash_fire2.ogg", "/sfx/melee/travelingslash_fire3.ogg" ]
+	},
+	"lights" : {
+      "glow" : {
+        "color" : [35, 35, 32]
+		}
+	  }
+  },
+  "aimOffset" : -1,
+  "muzzleOffset" : [2, 0.8],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/saturngunfire.lua"],
+    "class" : "SaturnGunFire",
+
+    "fireTime" : 0.5,
+    "baseDps" : 15.25,
+    "energyUsage" : 30,
+	"projectileCount" : 1,
+    "inaccuracy" : 0.01,
+    "fireType" : "auto",
+
+    "projectileType" : ["saturngunbouncer"],
+    "projectileParameters" : {
+	"knockback" : 35
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 10,
+        "weaponRotation" : -30,
+        "weaponOffset" : [0, 1],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "windup" : {
+        "duration" : 0.001,
+        "armRotation" : -120,
+        "weaponRotation" : 30,
+        "weaponOffset" : [0, 1.5],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "windup2" : {
+	    "duration" : 0.3,
+        "armRotation" : -120,
+        "weaponRotation" : 30,
+        "weaponOffset" : [0, 1.5],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "windup3" : {
+	    "duration" : 0.001,
+        "armRotation" : -120,
+        "weaponRotation" : 30,
+        "weaponOffset" : [0, 1.5],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "aimcorrect" : {
+	    "duration" : 0.001,
+        "armRotation" : -20,
+        "weaponRotation" : -70,
+        "weaponOffset" : [0, 1.5],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.2,
+        "armRotation" : -20,
+        "weaponRotation" : -70,
+        "weaponOffset" : [0, 1.5],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.001,
+        "armRotation" : -20,
+        "weaponRotation" : -70,
+        "weaponOffset" : [0, 1.5],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildsaturnbaton.lua",
+  "builderConfig" : [{
+	"nameGenerator" : "/items/active/weapons/saturnstaff/generated/Saturnwandnames.config:nameGen",
+    "elementalType" : [
+      "fire",
+      "ice",
+      "electric",
+      "poison"
+    ],
+    "elementalConfig" : {
+      "fire" : {
+        "primaryAbility" : { "projectileType" : "saturngunbouncerfire", "projectileParameters" : { "statusEffects" : [ "burning" ] } },
+        "fireSounds" : [ "/sfx/melee/travelingslash_fire1.ogg", "/sfx/melee/travelingslash_fire2.ogg", "/sfx/melee/travelingslash_fire3.ogg" ],
+        "animationCustom" : { "lights" : { "glow" : {
+          "color" : [100, 40, 30]
+        }}}
+      },
+      "ice" : {
+        "primaryAbility" : { "projectileType" : "saturngunbouncerice", "projectileParameters" : { "statusEffects" : [ "frostslow" ] } },
+        "fireSounds" : [ "/sfx/melee/travelingslash_ice1.ogg", "/sfx/melee/travelingslash_ice2.ogg", "/sfx/melee/travelingslash_ice3.ogg" ],
+        "animationCustom" : { "lights" : { "glow" : {
+          "color" : [30, 80, 100]
+        }}}
+      },
+      "poison" : {
+        "primaryAbility" : { "projectileType" : "saturngunbouncerpoison", "projectileParameters" : { "statusEffects" : [ "weakpoison" ] } },
+        "fireSounds" : [ "/sfx/melee/travelingslash_poison1.ogg", "/sfx/melee/travelingslash_poison2.ogg", "/sfx/melee/travelingslash_poison3.ogg" ],
+        "animationCustom" : { "lights" : { "glow" : {
+          "color" : [30, 100, 30]
+        }}}
+      },
+      "electric" : {
+        "primaryAbility" : { "projectileType" : "saturngunbouncerelectric", "projectileParameters" : { "statusEffects" : [ "electrified" ] } },
+        "fireSounds" : [ "/sfx/melee/travelingslash_electric1.ogg", "/sfx/melee/travelingslash_electric2.ogg", "/sfx/melee/travelingslash_electric3.ogg" ],
+        "animationCustom" : { "lights" : { "glow" : {
+          "color" : [80, 30, 100]
+        }}}
+      }
+    },
+    "animationParts" : {
+      "middle" : {
+        "path" : "/items/active/weapons/Saturn Baton Gun/generated/handle/<variant>.png",
+        "variants" : 11,
+        "paletteSwap" : true
+      },
+      "barrel" : {
+        "path" : "/items/active/weapons/Saturn Baton Gun/generated/stone/<variant>.png",
+        "variants" : 10,
+        "paletteSwap" : true
+      },
+      "muzzleFlash" : ""
+    },
+    "gunParts" : ["middle", "barrel"],
+    "altAbilities" : [ ],
+    "palette" : "/items/active/weapons/colors/SaturnStaff.weaponcolors",
+    "iconDrawables" : ["middle", "barrel"]
+  }]
+}

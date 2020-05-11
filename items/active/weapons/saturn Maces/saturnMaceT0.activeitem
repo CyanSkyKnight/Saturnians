@@ -1,0 +1,37 @@
+{
+  "itemName" : "saturnMaceT0",
+  "level" : 0,
+  "price" : 200,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Not a weapon, but it can still pack a punch.",
+  "shortdescription" : "Mage Smith's Hammer",
+  "tooltipKind" : "sword",
+  "category" : "saturnmace",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "melee", "mace", "upgradeableWeapon"],
+  "inventoryIcon" : "saturnMaceT0.png",
+  "animation" : "/items/active/weapons/saturn Maces/SaturnGlowMace.animation",
+  "animationParts" : {
+    "blade" : "saturnMaceT0FB.png",
+    "handle" : "saturnMaceT0.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_axe.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 1.05,
+    "baseDps" : 8,
+    "damageConfig" : {
+      "knockback" : 50,
+	  "damageSourceKind" : "hammer"
+    }
+  },
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

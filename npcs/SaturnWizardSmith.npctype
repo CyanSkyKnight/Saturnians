@@ -1,0 +1,140 @@
+{
+  "type": "SaturnWizardSmith",
+  "baseType": "merchant",
+  "identity": {
+
+    "bodyDirectives": "?replace=EFF4F4FF=A781D6FF?replace=D5E1E2FF=7F61B7FF?replace=A2AEB2FF=5F49A0FF?replace=7E8899FF=43387CFF?replace=E5DB72=6F4F4C?replace=DBC762=603C42?replace=CCB551=512D39?replace=B2933E=3A222E",
+	"emoteDirectives" : "?replace=EFF4F4FF=A781D6FF?replace=D5E1E2FF=7F61B7FF?replace=A2AEB2FF=5F49A0FF?replace=7E8899FF=43387CFF",
+    "facialMaskDirectives": "?replace=EFF4F4FF=A781D6FF?replace=D5E1E2FF=7F61B7FF?replace=A2AEB2FF=5F49A0FF?replace=7E8899FF=43387CFF?replace=E5DB72=6F4F4C?replace=DBC762=603C42?replace=CCB551=512D39?replace=B2933E=3A222E",
+    "hairDirectives": "?replace=E5DB72=6F4F4C?replace=DBC762=603C42?replace=CCB551=512D39?replace=B2933E=3A222E"
+  },
+  "dropPools": [
+    "wizardtreasure"
+  ],
+  "scriptConfig": {
+    "questGenerator": {
+      "pools": [
+        "common"
+      ]
+    },
+    "merchant": {
+      "categories": {
+        "override": [
+          "Saturnarmour", "Saturnweapons"
+        ]
+      },
+      "buyFactorRange": [
+        1,
+        1
+      ],
+      "sellFactorRange": [
+        0.2,
+        0.2
+      ],
+      "numItems": 30,
+      "storeRadius": -1,
+      "paneLayoutOverride": {
+        "windowtitle": {
+          "title": "  Wizard Smith",
+          "subtitle": " Sells armor and weapons"
+        }
+      }
+    },
+    "dialog": {
+      "merchant": {
+        "start": {
+          "default": {
+            "default": [
+              "The surface is dangerous. Make sure you have the means to protect yourself!",
+              "See anything you like?",
+              "I forge the armor for our guards, but I'm also a mechanic.",
+              "I'm the smith around here. My name's <selfname>."
+            ]
+          }
+        }
+      },
+      "end": {
+        "default": {
+          "default": [
+            "Farewell, traveler.",
+            "I've heard there's this purple anvil somewhere that can strengthen these weapons.",
+            "I hope to see you more in future.",
+			"Don't worry. It's magically reinforced glass. It's not going to shatter.",
+            "I sure wish I had my mech right about now..."
+          ]
+        },
+        "glitch": {
+          "default": [
+            "Cordial. Farewell, traveler.",
+            "Convivial. I hope to see you more in future.",
+            "Kindly. Courage to you!"
+          ]
+        }
+      }
+    }
+  },
+  "items": {
+    "saturn": [
+      [
+        0,
+        [
+          {
+            "chest": [
+              "saturnobsidianarmorchest"
+            ],
+            "legs": [
+              "saturnobsidianarmorpants"
+            ],
+            "head": [
+			{ "name" : "saturnAshkythead", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnvikinghead", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnobsidianarmorhead", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnobsidianarmorhead", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnobsidianarmorhead", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnnull", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } }
+            ],
+            "back": [
+              "saturnWingTrimmed"
+            ],
+            "primary": [
+              "saturnMaceT0"
+            ]
+          }
+        ]
+      ]
+    ],
+	
+	"satkyterran": [
+      [
+        0,
+        [
+          {
+            "chest": [
+              "saturnAshkytchest"
+            ],
+            "legs": [
+              "saturnAshkytlegs"
+            ],
+            "head": [
+
+			{ "name" : "saturnAshkythead", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnAshkythead", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnAshkyt3head", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnAshkythead", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnAshkyt3head", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnnull", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnnull", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } }
+            ],
+            "back": [
+			{ "name" : "simplecapeback", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] } }
+            ],
+            "primary": [
+              "saturnKyterraPick2"
+            ]
+          }
+
+        ]
+      ]
+    ]
+  }
+}

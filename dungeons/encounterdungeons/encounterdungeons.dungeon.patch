@@ -1,0 +1,34 @@
+[
+    
+{ "op" : "add", "path" : "/metadata/anchor/-",
+"value" : "merchant_saturn"},
+    
+    
+    
+    
+    
+{ "op" : "add", "path" : "/parts/-",
+"value" : {
+      "name" : "merchant_saturn",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "merchant_saturn.json" ]
+    }
+},
+
+{ "op" : "add", "path" : "/metadata/anchor/-",
+"value" : "saturn_explorers"},
+    
+{ "op" : "add", "path" : "/parts/-",
+"value" : {
+      "name" : "saturn_explorers",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "saturn_explorers.json" ]
+    }
+}
+
+
+]

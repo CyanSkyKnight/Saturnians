@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "saturnebony", "count" : 15 },
+	{ "item" : "saturnslopedbrasspanel", "count" : 5 },
+    { "item" : "glass", "count" : 2 }
+  ],
+  "duration" : 0.005,
+  "output" : { "item" : "saturnianEbonydoor", "count" : 1 },
+  "groups" : [ "saturnfurniture", "all" ]
+}

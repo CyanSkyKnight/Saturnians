@@ -1,0 +1,33 @@
+{
+  "itemName" : "saturnStaffAxe",
+  "price" : 400,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "",
+  "shortdescription" : "Flame Bardiche",
+  "tooltipKind" : "sword",
+  "category" : "hammer",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "axe", "upgradeableWeapon"],
+  "inventoryIcon" : "saturnStaffAxe.png",
+  "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "saturnStaffAxe.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "fire",
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "hammersmash",
+  "primaryAbility" : {
+    "fireTime" : 0.75,
+    "baseDps" : 9
+  },
+  "altAbilityType" : "travelingslash",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

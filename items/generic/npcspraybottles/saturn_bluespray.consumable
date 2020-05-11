@@ -1,0 +1,17 @@
+{
+  "itemName" : "saturn_bluespray",
+  "price" : 100,
+  "rarity" : "Common",
+  "category" : "medicine",
+  "inventoryIcon" : "saturn_bluespray.png",
+  "description" : "Used by Saturnian healers who are afraid of needles.",
+  "shortdescription" : "Blue Spray Bottle",
+  "effects" : [ [
+      {
+        "effect" : "runboost",
+        "duration" : 60
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

@@ -1,0 +1,102 @@
+{
+  "type": "SaturnWitchMerchant",
+  "baseType": "merchant",
+  "identity": {
+    "bodyDirectives": "?replace=EFF4F4FF=A781D6FF?replace=D5E1E2FF=7F61B7FF?replace=A2AEB2FF=5F49A0FF?replace=7E8899FF=43387CFF?replace=E5DB72=6F4F4C?replace=DBC762=603C42?replace=CCB551=512D39?replace=B2933E=3A222E",
+	"emoteDirectives" : "?replace=EFF4F4FF=A781D6FF?replace=D5E1E2FF=7F61B7FF?replace=A2AEB2FF=5F49A0FF?replace=7E8899FF=43387CFF",
+    "facialMaskDirectives": "?replace=EFF4F4FF=A781D6FF?replace=D5E1E2FF=7F61B7FF?replace=A2AEB2FF=5F49A0FF?replace=7E8899FF=43387CFF?replace=E5DB72=6F4F4C?replace=DBC762=603C42?replace=CCB551=512D39?replace=B2933E=3A222E",
+    "hairDirectives": "?replace=E5DB72=6F4F4C?replace=DBC762=603C42?replace=CCB551=512D39?replace=B2933E=3A222E"
+  },
+  "dropPools": [
+    "wizardtreasure"
+  ],
+  "scriptConfig": {
+    "questGenerator": {
+      "pools": [
+        "common"
+      ]
+    },
+    "merchant": {
+      "categories": {
+        "override": [
+          "SaturnWizardMerchant"
+        ]
+      },
+      "buyFactorRange": [
+        1,
+        1
+      ],
+      "sellFactorRange": [
+        0.2,
+        0.2
+      ],
+      "numItems": 20,
+      "storeRadius": -1,
+      "paneLayoutOverride": {
+        "windowtitle": {
+          "title": "  Staff Enchanter",
+          "subtitle": "  Sells Wands"
+        }
+      }
+    },
+    "dialog": {
+      "merchant": {
+        "start": {
+          "default": {
+            "default": [
+              "Welcome to my shop of wonders.",
+              "See anything you like?",
+              "Anyone can use magic; it just takes the right tools!",
+              "These wands can only cast one spell, but you don't need to study magic to use them.",
+              "I'm <selfname>, the local staffmaker.",
+              "With the power of light, the elements will be yours to command!"
+            ]
+          }
+        }
+      },
+      "end": {
+        "default": {
+          "default": [
+            "Farewell, traveler.",
+            "The light shall guide your travels.",
+            "I hope to see you more in future.",
+            "Courage to you!"
+          ]
+        },
+        "glitch": {
+          "default": [
+            "Cordial. Farewell, traveller.",
+            "Convivial. I hope to see you more in future.",
+            "Kindly. Courage to you!"
+          ]
+        }
+      }
+    }
+  },
+  "items": {
+    "override": [
+      [
+        0,
+        [
+          {
+            "chest": [
+              "saturntier5mchest"
+            ],
+            "legs": [
+              "saturntier5mpants"
+            ],
+            "head": [
+              "saturntier5mhead"
+            ],
+            "back": [
+              "saturnWingIOF"
+            ],
+            "sheathedprimary": [
+              "satstaffT1"
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

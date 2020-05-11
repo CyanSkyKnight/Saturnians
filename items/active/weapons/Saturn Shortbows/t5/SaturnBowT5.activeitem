@@ -1,0 +1,47 @@
+{
+  "itemName" : "SaturnBowT5",
+  "price" : 800,
+  "inventoryIcon" : "SaturnBowT5icon.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "tooltipKind" : "bow",
+  "category" : "saturnbow",
+  "description" : "A golden bow. How does it keep its shape?",
+  "shortdescription" : "Regal Light Bow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "bow", "upgradeableWeapon"],
+  "radioMessagesOnPickup" : [ "pickupbow" ],
+  "level" : 5,
+  "animation" : "/items/active/weapons/Saturn Shortbows/SaturnLightbow.animation",
+  "animationParts" : {
+    "bow" : "SaturnBowT5.png",
+	"bowFullbright" : "SaturnBowT5FB.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0, -0.0625]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/melee/saturnbowdraw.ogg", "/sfx/melee/saturnbowdraw2.ogg", "/sfx/melee/saturnbowdraw3.ogg" ],
+      "release" : [ "/sfx/gun/bow_loose.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "projectileType" : "Saturncrystalarrow5",
+    "powerProjectileType" : "Saturnchargedcrystalarrow5",
+    "projectileParameters" : {
+      "power" : 6.5
+    }
+  },
+  "altAbilityType" : "zenshot",
+  "altAbility" : {
+    "projectileType" : "Saturncrystalarrow5",
+    "projectileParameters" : {
+      "power" : 8.125
+    }
+  },
+  "builder" : "/items/buildscripts/buildbow.lua"
+}

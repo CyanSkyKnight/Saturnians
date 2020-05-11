@@ -1,0 +1,95 @@
+{
+  "itemName" : "saturnstaffumbrella",
+  "level" : 4,
+  "price" : 800,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A staff built into an umbrella.",
+  "shortdescription" : "Umbrella Staff",
+  "category" : "saturnstaff",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "staff", "upgradeableWeapon"],
+  "tooltipKind" : "staff",
+  "animation" : "/items/active/weapons/saturnstaff/satstaff.animation",
+  "animationParts" : {
+    "staff" : "saturnstaffumbrella.png",
+    "stone" : "saturnstaffumbrellaFB.png",
+    "chargeEffect" : "saturnshortwandshine.png"
+  },
+  "inventoryIcon" : "saturnstaffumbrella.png",
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+  "baseDamageFactor" : 0.5,
+  
+   "stances" : {
+    "idle" : {
+      "weaponOffset" : [0, 1.0],
+      "armRotation" : 0,
+      "weaponRotation" : 10,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 1.0,
+      "armRotation" : 10,
+      "weaponRotation" : -20,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "weaponOffset" : [0, 1.5],
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -50,
+      "twoHanded" : true,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "weaponOffset" : [0, 1.0],
+      "duration" : 0.5,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+  "elementalName" : "Ice",
+  "elementalType" : "ice",
+  "primaryAbilityType" : "elementrain",
+  "primaryAbility" : {
+      "name" : "Freezing Rain"
+  },
+  
+    "altAbility" : {
+    "type" : "saturnbubbleshieldseed",
+    "name" : "Bubble Shield",
+    "scripts" : ["/items/active/weapons/staff/abilities/controlprojectile/controlprojectile.lua"],
+    "class" : "ControlProjectile",
+
+    "energyCost" : 80,
+
+    "maxCastRange" : 10,
+
+    "projectileCount" : 1,
+    "projectileDistance" : 2.5,
+    "projectileType" : "saturnbubbleshieldseed",
+    "projectileParameters" : {
+      "baseDamage" : 0
+    }
+  },
+  
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

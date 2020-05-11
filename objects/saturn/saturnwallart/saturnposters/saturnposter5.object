@@ -1,0 +1,22 @@
+{
+  "objectName" : "saturnposter5",
+  "colonyTags" : ["saturn", "waspmim", "pretty", "magic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "description" : "A poster of a honey dipper?",
+  "shortdescription" : "^#000200;^white;Waspmim Wand Poster",
+  "race" : "saturn",
+
+  "inventoryIcon" : "saturnposter5icon.png",
+  "orientations" : [
+    {
+      "image" : "saturnposter5.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

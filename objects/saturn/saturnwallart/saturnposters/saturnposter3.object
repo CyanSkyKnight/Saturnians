@@ -1,0 +1,22 @@
+{
+  "objectName" : "saturnposter3",
+  "colonyTags" : ["saturn", "pretty", "solalei", "rocslayer"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "description" : "A poster of the Roc Slayers, Solalei's most famous archers.",
+  "shortdescription" : "^#000200;^white;Saturnian Archer Poster",
+  "race" : "saturn",
+
+  "inventoryIcon" : "saturnposter3icon.png",
+  "orientations" : [
+    {
+      "image" : "saturnposter3.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "itemName" : "saturnfishingwand",
+  "level" : 1,
+  "price" : 1500,
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Summons a line and hook. It's just a themed durasteel fishing rod.",
+  "shortdescription" : "Fishing Wand",
+  "tooltipKind" : "fishingrod",
+  "category" : "fishingRod",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "saturnfishingwand.png:light",
+
+  "animation" : "fishingrod.animation",
+  "animationParts" : {
+    "fishingrod" : "saturnfishingwand.png"
+  },
+  "animationScripts" : ["/items/active/effects/renderrope.lua"],
+
+  "ropeWidth" : 0.5,
+  "ropeColor" : [0, 255, 255, 50],
+  "ropeFlashColor" : [220, 200, 0, 200],
+
+  "scripts" : ["fishingrod.lua"],
+
+  "corrodeLiquidIds" : [],
+  "corrodeParticle" : "poisonswoosh2",
+
+  "burnLiquidIds" : [8],
+  "burnParticle" : "fireswoosh1",
+
+  "usesFishingUpgrades" : true,
+
+  "lureType" : "basic",
+  "lureName" : "Basic Lure",
+  "lureIcon" : "/items/augments/fishing/lurebasic.png",
+  "lureProjectile" : "fishinglure",
+
+  "reelType" : "basic",
+  "reelName" : "Basic Reel",
+  "reelIcon" : "/items/augments/fishing/reelbasic.png",
+  "reelParameters" : {
+    "reelOutLength" : 50,
+    "lineBreakMargin" : 10,
+    "reelSpeed" : 11,
+    "lineBreakTime" : 0.7
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -80,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "armRotation" : -80,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "cast" : {
+      "armRotation" : -40,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "reel" : {
+      "armRotation" : -35,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "catch" : {
+      "duration" : 0.25,
+      "transition" : "idle",
+      "armRotation" : -30,
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildfishingrod.lua"
+}

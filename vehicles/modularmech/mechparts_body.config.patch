@@ -1,0 +1,105 @@
+[
+{ "op" : "add", "path" : "/saturnproto",
+"value" : {
+	"stats" : {
+	"energy" : 3,
+	"protection" : 3
+	},
+	"partParameters" : {},
+	"partImages" : {
+	"bodyBack" : "body/saturn_back.png",
+	"bodyFront" : "body/saturnProto_front.png"
+	},
+	"defaultPrimaryColors" : ["b5b5b5", "808080", "555555", "303030"],
+	"defaultSecondaryColors" : ["c0ab5e", "9b7e14", "6b5509", "342804"],
+	"animationCustom" : {
+	"animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+		"sitPosition" : [0.55, 0.7]
+	}}}}}
+	}
+},
+{ "op" : "add", "path" : "/saturnSphinx",
+"value" : {
+	"stats" : {
+	"energy" : 5,
+	"protection" : 5
+	},
+	"partParameters" : {
+	"hazardImmunities" : ["biomeradiation", "biomecold"]
+	},
+	"partImages" : {
+	"bodyBack" : "body/saturn_back.png",
+	"bodyFront" : "body/saturn_front.png",
+	"bodyFullbright" : "body/saturn_fullbright.png"
+	},
+	"defaultPrimaryColors" : ["ccae7c", "a47844", "754c23", "472b13"],
+	"defaultSecondaryColors" : ["838383", "555555", "383838", "151515"],
+	"animationCustom" : {      "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+		"sitPosition" : [0.55, 0.7]
+	}}}}}
+}
+},
+{ "op" : "add", "path" : "/saturnSphinxA",
+"value" : {
+	"stats" : {
+	"energy" : 5,
+	"protection" : 5
+	},
+	"partParameters" : {
+	"hazardImmunities" : ["biomeradiation", "biomecold"]
+	},
+	"partImages" : {
+	"bodyBack" : "body/saturn_back.png",
+	"bodyFront" : "body/saturn_front.png",
+	"bodyFullbright" : "body/saturn_fullbrightA.png"
+	},
+	"defaultPrimaryColors" : ["ccae7c", "a47844", "754c23", "472b13"],
+	"defaultSecondaryColors" : ["838383", "555555", "383838", "151515"],
+	"animationCustom" : {      "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+		"sitPosition" : [0.55, 0.7]
+	}}}}}
+}
+},
+{ "op" : "add", "path" : "/saturnSphinxR",
+"value" : {
+	"stats" : {
+	"energy" : 5,
+	"protection" : 5
+	},
+	"partParameters" : {
+	"hazardImmunities" : ["biomeradiation", "biomecold"]
+	},
+	"partImages" : {
+	"bodyBack" : "body/saturn_back.png",
+	"bodyFront" : "body/saturn_front.png",
+	"bodyFullbright" : "body/saturn_fullbrightR.png"
+	},
+	"defaultPrimaryColors" : ["ccae7c", "a47844", "754c23", "472b13"],
+	"defaultSecondaryColors" : ["838383", "555555", "383838", "151515"],
+	"animationCustom" : {      "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+		"sitPosition" : [0.55, 0.7]
+	}}}}}
+}
+},
+{ "op" : "add", "path" : "/saturnSphinxW",
+"value" : {
+	"stats" : {
+	"energy" : 5,
+	"protection" : 5
+	},
+	"partParameters" : {
+	"hazardImmunities" : ["biomeradiation", "biomecold"]
+	},
+	"partImages" : {
+	"bodyBack" : "body/saturn_back.png",
+	"bodyFront" : "body/saturn_front.png",
+	"bodyFullbright" : "body/saturn_fullbrightW.png"
+	},
+	"defaultPrimaryColors" : ["ccae7c", "a47844", "754c23", "472b13"],
+	"defaultSecondaryColors" : ["838383", "555555", "383838", "151515"],
+	"animationCustom" : {      "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+		"sitPosition" : [0.55, 0.7]
+	}}}}}
+}
+}
+]

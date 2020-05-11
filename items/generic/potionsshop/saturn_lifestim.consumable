@@ -1,0 +1,17 @@
+{
+  "itemName" : "saturn_lifestim",
+  "rarity" : "Common",
+  "price" : 200,
+  "category" : "medicine",
+  "inventoryIcon" : "saturn_lifestim.png",
+  "description" : "This potion grants 50 points of temporary HP.",
+  "shortdescription" : "Potion of Life",
+  "effects" : [ [
+      {
+        "effect" : "maxhealthboost50",
+        "duration" : 60
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

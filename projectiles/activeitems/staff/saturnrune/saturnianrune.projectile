@@ -1,0 +1,30 @@
+{
+  "projectileName" : "saturnianrune",
+  "physics" : "laser",
+  "timeToLive" : 1,
+  "image" : "saturnianrune.png",
+  "animationCycle" : 1,
+  "lightColor" : [60, 100, 100],
+  "frameNumber" : 5,
+  "actionOnReap" : [],
+  "speed" : 0,
+  "power" : 30,
+  "damageKind" : "nodamage",
+
+  "statusEffects" : [ ],
+  "damageRepeatTimeout" : 0.25,
+
+  "orientationLocked" : true,
+  "onlyHitTerrain" : true,
+  "fullbright" : true,
+  "renderLayer" : "Projectile+1",
+  "piercing" : true,
+  "bounces" : -1,
+
+  "scripts" : [ "/projectiles/activeitems/staff/staffprojectile.lua" ],
+
+  "controlMovement" : {
+    "maxSpeed" : 15,
+    "controlForce" : 80
+  }
+}

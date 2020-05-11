@@ -1,0 +1,27 @@
+{
+  "objectName" : "saturnbunting8x12wasp",
+  "colonyTags" : ["saturn","pretty", "waspmim"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+  "description" : "Decorative ^#EBCA43;yellow ^reset;and ^#B95C50;maroon ^reset;bunting. The official colors of the Waspmim.",
+  "shortdescription" : "^#EBCA43;Yel. ^reset;+ ^#B95C50;Maroon^reset; Bunt. 8x12",
+  "race" : "saturn",
+  "apexDescription" : "A wonderfully vibrant banner.",
+  "avianDescription" : "The grounded decorate their villages banners like this. They fill their lives with colour.",
+  "floranDescription" : "Pretty colourss, reminds Floran of flowers.",
+  "glitchDescription" : "Charmed. Poorly-made, but beautiful nonetheless.",
+  "humanDescription" : "Bright and cheerful colours",
+  "hylotlDescription" : "Such vibrancy can only exist above the ocean.",
+  "novakidDescription" : "There's somethin' about this banner. I like it.",
+  "inventoryIcon" : "saturnbuntingicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnbunting8x12.png",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1
+    }
+  ]
+}

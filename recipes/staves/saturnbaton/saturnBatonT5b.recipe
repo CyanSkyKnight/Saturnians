@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedferozium", "count" : 3 },
+	{ "item" : "goldbar", "count" : 3 },
+    { "item" : "diamond", "count" : 1 }
+  ],
+  "output" : { "item" : "saturnBatonT5b", "count" : 1 },
+  "groups" : [ "saturnbaton2", "all" ]
+}

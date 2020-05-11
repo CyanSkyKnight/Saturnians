@@ -1,0 +1,91 @@
+{
+  "itemName" : "saturnHoneyScepter",
+  "price" : 1000,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "fixedLevel" : false,
+  "description" : "Throws magic blobs of honey that bounce. The honey slows down enemies.",
+  "shortdescription" : "Honey Scepter",
+  "tooltipKind" : "base",
+  "category" : "uniqueWeapon",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "ranged", "wand", "waspmim", "upgradeableWeapon"],
+  "inventoryIcon" : "saturnHoneySceptericon.png",
+  "animation" : "saturnchargestaff.animation",
+  "animationParts" : {
+    "gun" : "saturnHoneyScepter.png",
+    "gunfullbright" : "saturnHoneyScepterFB.png"
+  },
+  "animationCustom" : {
+  "sounds" : {
+    "fire" : [ "/sfx/gun/saturnbeeshot.ogg" ],
+    "fire2" : [ "/sfx/gun/satChargestaff.ogg" ]
+  }
+  },
+  "muzzleOffset" : [0, 0],
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "elementalType" : "fire",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/abilities/chargefire/chargefire.lua"],
+    "class" : "ChargeFire",
+    "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 5,
+        "cooldown" : 0.1,
+        "projectileType" : "saturnhoneyball1",
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 9,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1.0,
+        "energyCost" : 40,
+        "cooldown" : 0.5,
+        "projectileType" : "saturnhoneyball2",
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 9,
+        "fireSound" : "fire2"
+      }
+    ],
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : 90,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "charge" : {
+        "armRotation" : 45,
+        "weaponRotation" : 90,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.2,
+        "armRotation" : 45,
+        "weaponRotation" : 90,
+        "twoHanded" : false,
+		"armAngularVelocity" : -1060,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : -90,
+        "weaponRotation" : 90,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }}
+},
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

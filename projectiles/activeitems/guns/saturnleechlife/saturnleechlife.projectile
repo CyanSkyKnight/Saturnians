@@ -1,0 +1,55 @@
+{
+  "projectileName" : "saturnleechlife",
+  "physics" : "laser",
+  "bounces" : 0,
+  "timeToLive" : 3,
+  "damageKindImage" : "icon.png",
+  "image" : "saturnleechlife.png",
+  "animationCycle" : 1.0,
+  "frameNumber" : 2,
+  "power" : 50,
+  "speed" : 50,
+  "supportsProcessing" : true,
+  "statusEffects" : [
+    "saturnvampire"
+  ],  
+ "damagePoly" : [ [-4.4, 0], [-2.9, -2.9], [0, -4.4], [2.9, -2.9], [4.4, 0], [2.9, 2.9], [0, 4.4], [-2.9, 2.9] ],
+  "lightColor" : [200, 73, 73],
+  "periodicActions" : [
+	{
+      "action" : "particle",
+      "specification" : "saturnglowmothred1",
+      "rotate" : false,
+      "time" : 0.2,
+      "repeat" : true
+    },
+	{
+      "action" : "particle",
+      "specification" : "saturnglowmothred1",
+      "rotate" : false,
+      "time" : 0.3,
+      "repeat" : true
+    },
+	{
+      "action" : "particle",
+      "specification" : "saturnglowmothred2",
+      "rotate" : false,
+      "time" : 0.4,
+      "repeat" : true
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/globeexplosions/redglobeexplosion/redglobeexplosion.config"
+    },
+	{
+      "action" : "projectile",
+      "type" : "saturninvis",
+	  "inheritDamageFactor" : 0.1,
+      "config" : {"speed" : 0}
+    }
+  ],
+  "persistentAudio" : "/sfx/projectiles/mech_wobbleshot_loop.ogg",
+  "damageKind" : "plasma"
+}

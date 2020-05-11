@@ -1,0 +1,27 @@
+{
+  "projectileName" : "saturnmagiccardDiamond",
+  "image" : "saturnmagiccardDiamond.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "fullbright" : true,
+  "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "power" : 5.0,
+  "speed" : 0.2,
+  "piercing" : true,
+  "damageKind" : "spear",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "timeToLive" : 3,
+
+  "scripts" : [ "saturnmagiccards.lua" ],
+  "delayTime" : 0.5,
+  "triggerSpeed" : 100
+}

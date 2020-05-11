@@ -1,0 +1,19 @@
+{
+  "itemName" : "saturn_redstim",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "medicine",
+  "inventoryIcon" : "saturn_redstim.png",
+  "description" : "A bottle full of red liquid, grants brief but powerful regeneration!",
+  "shortdescription" : "Potion of Healing",
+  "effects" : [ [
+      {
+        "effect" : "redstim"
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ],
+  "blockingEffects" : [
+    "redstim"
+  ]
+}

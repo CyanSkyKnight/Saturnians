@@ -1,0 +1,22 @@
+{
+  "itemName" : "saturn_honey",
+  "rarity" : "Common",
+  "price" : 20,
+  "category" : "medicine",
+  "inventoryIcon" : "saturn_honey.png",
+  "description" : "It's just nectar with yellow food dye? Restores 50 health over 10 sec.",
+  "shortdescription" : "Waspmim Honey",
+  "effects" : [ [
+      {
+        "effect" : "salveheal"
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ],
+  "blockingEffects" : [
+    "salveheal",
+    "bandageheal",
+    "medkitheal",
+    "nanowrapheal"
+  ]
+}

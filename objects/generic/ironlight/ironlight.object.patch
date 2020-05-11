@@ -1,0 +1,12 @@
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "Saturnians use glowing weapons like this all the time. Huh? It's a...\n...lamp?!"
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "Leaving this on seems like a bad idea."
+}
+]

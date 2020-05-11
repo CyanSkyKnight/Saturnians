@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "swamphat", "count" : 1 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "saturnswamphat", "count" : 1 },
+  "groups" : [ "saturntransmoghats", "all" ]
+}

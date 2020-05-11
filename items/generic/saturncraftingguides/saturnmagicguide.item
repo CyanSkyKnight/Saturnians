@@ -1,0 +1,17 @@
+{
+  "itemName" : "saturnguidemagic",
+  "price" : 5000,
+  "rarity" : "Legendary",
+  "category" : "saturncraftingguide",
+  "tooltipKind" : "saturnlorescrollpic",
+  "largeImage" : "saturnguidemagic.png",
+  "inventoryIcon" : "icon5.png",
+  "shortdescription" : "Saturnian Wand Scroll",
+  "description" : "This scroll details how to craft a large amount of wands and batons. \n^green;When picked up by non-Saturnians/Thaumoths, allows crafting of Staff Enchanting Tables (Crafted with an inventor's table.) Staff Enchanting tables can craft all Saturnian wands/batons without additional crafting scrolls.",
+
+  
+  	"learnBlueprintsOnPickup" : [ 
+	"saturnMagicCrystalTable"
+	
+	]
+}

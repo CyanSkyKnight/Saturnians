@@ -1,0 +1,33 @@
+{
+  "objectName" : "saturntenantorbT5i",
+  "colonyTags" : ["saturn", "combat", "saturnt5" ],
+  "rarity" : "rare",
+  "description" : "(Invisible) When placed with the other required items, Sat. guard tenants will spawn at ^#26ffff;Tier 5^reset;. Can be placed in midair.",
+  "shortdescription" : "Ferozium Defense Gem (I)",
+  "race" : "saturn",
+  "category" : "decorative",
+  "price" : 200,
+
+  
+  "inventoryIcon" : "saturntenantorbT5icon.png",
+  "orientations" : [
+    {
+      "image" : "saturntenantorbT5i.png:<color>.<frame>",
+      "imagePosition" : [-4, -6],
+      "direction" : "left",
+      "spaceScan" : 0.1
+    },
+    {
+      "image" : "saturntenantorbT5i.png:<color>.<frame>",
+      "imagePosition" : [-4, -6],
+      "direction" : "right",
+      "spaceScan" : 0.1
+    }
+  ],
+  "animation" : "saturntenantorb.animation",
+  "animationParts" : {
+    "light" : "saturntenantorbT5i.png"
+  },
+  "animationPosition" : [-4, -6]
+
+}

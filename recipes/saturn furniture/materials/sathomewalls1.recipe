@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "homewalls1", "count" : 1 } 
+
+  ],
+  "output" : { "item" : "sathomewalls1", "count" : 1 },
+  "duration" : 0,
+  "groups"  : [ "craftingfurniture", "saturnmaterials", "materials", "all" ]
+}

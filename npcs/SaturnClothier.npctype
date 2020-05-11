@@ -1,0 +1,87 @@
+{
+  "type" : "SaturnClothier",
+  "baseType" : "merchant",
+  
+  
+  
+  "identity" : {
+    "bodyDirectives" : "?replace=EFF4F4FF=F4D57FFF?replace=D5E1E2FF=E5BB67FF?replace=A2AEB2FF=D3A156FF?replace=7E8899FF=B58956FF?replace=E5DB72FF=F4D57FFF?replace=DBC762FF=E5BB67FF?replace=CCB551FF=D3A156FF?replace=B2933EFF=B58956FF",
+	"emoteDirectives" : "?replace=EFF4F4FF=F4D57FFF?replace=D5E1E2FF=E5BB67FF?replace=A2AEB2FF=D3A156FF?replace=7E8899FF=B58956FF",
+    "facialMaskDirectives" : "?replace=EFF4F4FF=F4D57FFF?replace=D5E1E2FF=E5BB67FF?replace=A2AEB2FF=D3A156FF?replace=7E8899FF=B58956FF?replace=E5DB72FF=F4D57FFF?replace=DBC762FF=E5BB67FF?replace=CCB551FF=D3A156FF?replace=B2933EFF=B58956FF",
+    "hairDirectives" : "?replace=E5DB72FF=F4D57FFF?replace=DBC762FF=E5BB67FF?replace=CCB551FF=D3A156FF?replace=B2933EFF=B58956FF"
+  },
+
+
+  
+  
+  "dropPools" : [ "wizardtreasure" ],
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common"]
+    },
+
+    "merchant" : {
+      "categories" : {
+        "override": [ "Saturnclothes" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 50,
+      "storeRadius" : -1,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "Clothier",
+          "subtitle" : "Sells clothes."
+        }
+      }
+    },
+
+
+	
+
+    "dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+              "Hello traveler! Would you like to buy some clothes? Even if you are not Saturnian, they should still fit.",
+			  "We make our clothes with our own silk."
+            ],
+			"saturn" : [
+              "Hello traveler! Would you like to buy some clothes?",
+			  "I make these clothes with my own silk."
+            ]
+			
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+              "Farewell, traveler.",
+              "I hope to see you more in future.",
+              "Courage to you!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ "saturnRena1chest" ],
+            "legs" : [ "saturnsmartpants" ],
+            "head" : [ "saturnglasses5" ],
+            "back" : [ "saturnWingComet" ],
+            "primary" : [ "SaturnClutterSilk" ],
+            "sheathedprimary" : [
+              "SaturnGenwand"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

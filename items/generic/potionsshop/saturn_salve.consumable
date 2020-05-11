@@ -1,0 +1,22 @@
+{
+  "itemName" : "saturn_salve",
+  "rarity" : "Common",
+  "price" : 20,
+  "category" : "medicine",
+  "inventoryIcon" : "saturn_salve.png",
+  "description" : "M. Co. asserts that this wax was quite ethically obtained. Restores 50 health over 10 sec.",
+  "shortdescription" : "Mellonella Co. Wax Salve",
+  "effects" : [ [
+      {
+        "effect" : "salveheal"
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ],
+  "blockingEffects" : [
+    "salveheal",
+    "bandageheal",
+    "medkitheal",
+    "nanowrapheal"
+  ]
+}

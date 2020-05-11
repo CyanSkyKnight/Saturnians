@@ -1,0 +1,698 @@
+[
+{"op" : "add", "path" : "/Saturnclothes", "value":[
+	[0, [
+	  { "item" : { "name" : "saturnmerchantchest" }},
+	  { "item" : { "name" : "saturnmerchantlegs" }},
+	  { "item" : { "name" : "saturnnoblelegs" }},
+	  
+	  { "item" : { "name" : "saturnNocturneRobechest" }},
+	  { "item" : { "name" : "saturnNocturneRobepants" }},
+
+	  { "item" : { "name" : "saturnNocturneRobeBchest" }},
+	  { "item" : { "name" : "saturnNocturneRobeBpants" }},
+
+	  { "item" : { "name" : "saturnornaterobeschest" }},
+	  { "item" : { "name" : "saturnornaterobespants" }},
+	  
+	  { "item" : { "name" : "saturnProtectoratechest" }},
+	  { "item" : { "name" : "saturnProtectoratepants" }},
+	  
+	  { "item" : { "name" : "saturnRobechest" }},
+	  { "item" : { "name" : "saturnRobepants" }},
+	  
+	  { "item" : { "name" : "saturnsmartchest" }},
+	  { "item" : { "name" : "saturnsmartpants" }},
+	  
+	  { "item" : { "name" : "saturntier4chestnotevil" }},
+
+	  { "item" : { "name" : "saturnForestMageUnarmoredchest" }},
+	  { "item" : { "name" : "saturnForestMageUnarmoredpants" }}
+	]]
+	]},
+	
+{"op" : "add", "path" : "/SaturnHatguy", "value":[
+	[0, [
+	  { "item" : { "name" : "saturngoggles" }},
+	  { "item" : { "name" : "saturngoggles2" }},
+	  { "item" : { "name" : "saturngoggles3" }},
+	  { "item" : { "name" : "saturngoggles4" }},
+	  
+	  { "item" : { "name" : "saturncontactsBfly" }},
+	  { "item" : { "name" : "saturncontactsBfly2" }},
+	  { "item" : { "name" : "saturncontactsBfly3" }},  
+	  { "item" : { "name" : "saturncontactsXeye" }},
+	  
+	  { "item" : { "name" : "saturnglasses" }},
+	  { "item" : { "name" : "saturnglasses2" }},
+	  { "item" : { "name" : "saturnglasses3" }},
+	  { "item" : { "name" : "saturnglasses4" }},
+	  
+	  { "item" : { "name" : "saturnStarhatAnt" }},
+	  
+	  { "item" : { "name" : "saturnCirclet" }},
+	  { "item" : { "name" : "saturnCircletSilver" }},
+	  { "item" : { "name" : "saturnCircletObsidian" }},
+	  
+	  { "item" : { "name" : "saturnShadowhat" }},
+	  { "item" : { "name" : "saturnSorcererRobeshead" }},
+	  { "item" : { "name" : "saturnStarhat" }},
+	  { "item" : { "name" : "saturnStarhat2" }},
+	  { "item" : { "name" : "saturnTophat" }},
+	  { "item" : { "name" : "saturnTophat2" }},
+	  { "item" : { "name" : "saturnchef" }},
+	  { "item" : { "name" : "saturnWideHat" }},
+	  { "item" : { "name" : "saturnWideShadyHat" }},
+	  { "item" : { "name" : "saturnWidestHat" }},
+	  
+	  { "item" : { "name" : "saturnKypteranHelmhead" }},
+	  { "item" : { "name" : "saturnVoidMageRhead" }},
+
+	  { "item" : { "name" : "saturnNocturneRobehead" }},
+
+	  { "item" : { "name" : "saturnNocturneRobeBhead" }},
+
+	  { "item" : { "name" : "saturnornaterobeshead" }},
+
+	  { "item" : { "name" : "saturntier4headnotevil" }},
+	  { "item" : { "name" : "saturnHeavyFluffhood" }},
+	  { "item" : { "name" : "saturnHeavyHood" }},
+	  { "item" : { "name" : "saturnHeavyScarfedHood" }},
+	  { "item" : { "name" : "saturnscarf" }},
+	  { "item" : { "name" : "saturnscarf2" }},
+	  { "item" : { "name" : "saturnForestMageUnarmoredhead" }}
+	]]
+	]},
+	
+{"op" : "add", "path" : "/SaturnLibrarian", "value":[
+	[0, [
+  
+	  { "item" : { "name" : "saturnhistory-codex" }},
+	  { "item" : { "name" : "saturnfactions-codex" }},
+	  { "item" : { "name" : "saturnkyterra-codex" }},
+	  { "item" : { "name" : "saturntoaflame-codex" }},
+	  { "item" : { "name" : "saturntennantguide-codex" }},
+	  { "item" : { "name" : "saturnlightbow-codex" }},
+	  
+	  { "item" : { "name" : "saturnguiderapier" }},
+	  { "item" : { "name" : "saturnguidemace" }},
+	  { "item" : { "name" : "saturnguidebow" }},
+	  { "item" : { "name" : "saturnguidescythe" }},
+	  { "item" : { "name" : "saturnguidemagic" }}
+	]]
+	]},
+	
+	
+	
+	
+	
+{"op" : "add", "path" : "/Saturnarmour", "value":[
+	[0, [
+	  { "item" : { "name" : "saturnNovMhead" }},
+	  { "item" : { "name" : "saturnNovMchest" }},
+	  { "item" : { "name" : "saturnNovMpants" }}
+	]],
+	[1.9, [
+	  { "item" : { "name" : "saturnNovMhead" }},
+	  { "item" : { "name" : "saturnNovMchest" }},
+	  { "item" : { "name" : "saturnNovMpants" }},
+	  { "item" : { "name" : "saturnSoldierhead" }},
+	  { "item" : { "name" : "saturnSoldierchest" }},
+	  { "item" : { "name" : "saturnSoldierpants" }},
+	  { "item" : { "name" : "saturnForestMagehead" }},
+	  { "item" : { "name" : "saturnForestMagechest" }},
+	  { "item" : { "name" : "saturnForestMagepants" }},
+	  { "item" : { "name" : "saturnobsidianarmorhead" }},
+	  { "item" : { "name" : "saturnobsidianarmorchest" }},
+	  { "item" : { "name" : "saturnobsidianarmorpants" }}
+	]],
+	[2.9, [
+	  
+	  { "item" : { "name" : "saturnSoldierhead" }},
+	  { "item" : { "name" : "saturnSoldierchest" }},
+	  { "item" : { "name" : "saturnSoldierpants" }},
+      { "item" : { "name" : "saturnForestMagehead" }},
+	  { "item" : { "name" : "saturnForestMagechest" }},
+	  { "item" : { "name" : "saturnForestMagepants" }},
+      { "item" : { "name" : "saturnVoidMagehead" }},
+	  { "item" : { "name" : "saturnVoidMagechest" }},
+	  { "item" : { "name" : "saturnVoidMagepants" }}
+	]],
+	[3.9, [
+	  
+	  { "item" : { "name" : "saturnSoldierhead" }},
+	  { "item" : { "name" : "saturnSoldierchest" }},
+	  { "item" : { "name" : "saturnSoldierpants" }},
+      { "item" : { "name" : "saturnForestMagehead" }},
+	  { "item" : { "name" : "saturnForestMagechest" }},
+	  { "item" : { "name" : "saturnForestMagepants" }},
+      { "item" : { "name" : "saturnVoidMagehead" }},
+	  { "item" : { "name" : "saturnVoidMagechest" }},
+	  { "item" : { "name" : "saturnVoidMagepants" }},
+      { "item" : { "name" : "saturnNecromagehead" }},
+      { "item" : { "name" : "saturnDemonhead" }},
+	  { "item" : { "name" : "saturnNecromagechest" }},
+	  { "item" : { "name" : "saturnNecromagepants" }}
+	]],
+	[4.9, [
+	
+	  
+	  { "item" : { "name" : "saturnNecromagehead" }},
+	  { "item" : { "name" : "saturnDemonhead" }},
+	  { "item" : { "name" : "saturnNecromagechest" }},
+	  { "item" : { "name" : "saturnNecromagepants" }},
+	  { "item" : { "name" : "saturntier5mhead" }},
+	  { "item" : { "name" : "saturntier5mchest" }},
+	  { "item" : { "name" : "saturntier5mpants" }},
+	  { "item" : { "name" : "saturnkni5head" }},
+	  { "item" : { "name" : "saturnkni5chest" }},
+	  { "item" : { "name" : "saturnkni5pants" }},
+	  { "item" : { "name" : "saturnArcherhead" }},
+	  { "item" : { "name" : "saturnArcherchest" }},
+	  { "item" : { "name" : "saturnArcherpants" }},
+	  { "item" : { "name" : "saturnScienceWizardhead" }},
+	  { "item" : { "name" : "saturnScienceWizardchest" }},
+	  { "item" : { "name" : "saturnScienceWizardpants" }},	  
+	  { "item" : { "name" : "saturnNovaWizardhead" }},
+	  { "item" : { "name" : "saturnNovaWizardchest" }},
+	  { "item" : { "name" : "saturnNovaWizardpants" }},	  
+	  { "item" : { "name" : "saturnSolhead" }},
+	  { "item" : { "name" : "saturnSolchest" }},
+	  { "item" : { "name" : "saturnSolpants" }},
+	  { "item" : { "name" : "saturnSolBhead" }},
+	  { "item" : { "name" : "saturnSolBchest" }},
+	  { "item" : { "name" : "saturnSolBpants" }},
+	  { "item" : { "name" : "saturnWasphead" }},
+	  { "item" : { "name" : "saturnWaspchest" }},
+	  { "item" : { "name" : "saturnWasppants" }},
+	  { "item" : { "name" : "saturnRocSlayerhead" }},
+	  { "item" : { "name" : "saturnRocSlayerchest" }},
+	  { "item" : { "name" : "saturnRocSlayerpants" }},
+	  { "item" : { "name" : "saturnCrystallinehead" }},
+	  { "item" : { "name" : "saturnCrystallinechest" }},
+	  { "item" : { "name" : "saturnCrystallinepants" }}
+	]]
+	]},
+	
+	
+	
+	
+	
+{"op" : "add", "path" : "/SaturnWizardMerchant", "value":[
+	[0, [
+	  { "item" : { "name" : "saturncrystalball" } },
+	  { "item" : { "name" : "saturnSTslopedpanel" } },
+	  { "item" : { "name" : "saturnSTslopedbrasspanel" } },
+	  { "item" : { "name" : "saturnSTebony" } },
+	  { "item" : { "name" : "saturnSTbirch" } },
+	  { "item" : { "name" : "saturnSTMaho" } },
+	  { "item" : { "name" : "saturnSTOak" } },
+	  { "item" : { "name" : "saturnSTcolorfulclaywalls" } },
+	  { "item" : { "name" : "crystal" } },
+	  { "item" : { "name" : "SaturnGenwand" } },
+	  { "item" : { "name" : "saturnGeneratedBatonOrb" } },
+	  { "item" : { "name" : "SaturnGenwandPractical" } },
+	  { "item" : { "name" : "saturnBatonT1" } },
+	  { "item" : { "name" : "saturnBatonT1b" } },
+	  { "item" : { "name" : "satstaffT1" } }
+	]],
+	[1.9, [
+	  { "item" : { "name" : "saturncrystalball" } },
+	  { "item" : { "name" : "saturnSTslopedpanel" } },
+	  { "item" : { "name" : "saturnSTslopedbrasspanel" } },
+	  { "item" : { "name" : "saturnSTebony" } },
+	  { "item" : { "name" : "saturnSTbirch" } },
+	  { "item" : { "name" : "saturnSTMaho" } },
+	  { "item" : { "name" : "saturnSTOak" } },
+	  { "item" : { "name" : "saturnSTcolorfulclaywalls" } },
+	  { "item" : { "name" : "crystal" } },
+	  { "item" : { "name" : "saturnBatonT2" } },
+	  { "item" : { "name" : "saturnBatonT2b" } },
+	  { "item" : { "name" : "satstaffT2" } },
+	  { "item" : { "name" : "SaturnGenwand" } },
+	  { "item" : { "name" : "saturnGeneratedBatonOrb" } },
+	  { "item" : { "name" : "SaturnGenwand" } },
+	  { "item" : { "name" : "SaturnGenwandPractical" } }
+	]],
+	[2.9, [
+	  { "item" : { "name" : "saturncrystalball" } },
+	  { "item" : { "name" : "saturnSTslopedpanel" } },
+	  { "item" : { "name" : "saturnSTslopedbrasspanel" } },
+	  { "item" : { "name" : "saturnSTebony" } },
+	  { "item" : { "name" : "saturnSTbirch" } },
+	  { "item" : { "name" : "saturnSTMaho" } },
+	  { "item" : { "name" : "saturnSTOak" } },
+	  { "item" : { "name" : "saturnSTcolorfulclaywalls" } },
+	  { "item" : { "name" : "crystal" } },
+	  { "item" : { "name" : "saturnBatonT3" } },
+	  { "item" : { "name" : "saturnBatonT3b" } },
+	  { "item" : { "name" : "saturnBatonT3c" } },
+	  { "item" : { "name" : "satstaffT3" } },
+	  { "item" : { "name" : "SaturnGenwand" } },
+	  { "item" : { "name" : "saturnGeneratedBatonOrb" } },
+	  { "item" : { "name" : "SaturnGenwand" } },
+	  { "item" : { "name" : "SaturnGenwand" } },
+	  { "item" : { "name" : "SaturnGenwandPractical" } }
+	]],
+	[3.9, [
+	  { "item" : { "name" : "saturnSTslopedpanel" } },
+	  { "item" : { "name" : "saturnSTslopedbrasspanel" } },
+	  { "item" : { "name" : "saturnSTebony" } },
+	  { "item" : { "name" : "saturnSTbirch" } },
+	  { "item" : { "name" : "saturnSTMaho" } },
+	  { "item" : { "name" : "saturnSTOak" } },
+	  { "item" : { "name" : "saturnSTcolorfulclaywalls" } },
+	  { "item" : { "name" : "crystal" } },
+	  { "item" : { "name" : "saturnBatonT4" } },
+	  { "item" : { "name" : "saturnBatonT4b" } },
+	  { "item" : { "name" : "satstaffT4" } },
+	  { "item" : { "name" : "saturnGeneratedBatonOrb" } },
+	  { "item" : { "name" : "saturnGeneratedBatonOrb" } },
+	  { "item" : { "name" : "saturnGeneratedBatonBeam" } },
+	  { "item" : { "name" : "SaturnGenwand" } },
+	  { "item" : { "name" : "SaturnGenwand" } },
+	  { "item" : { "name" : "SaturnGenwand" } },
+	  { "item" : { "name" : "SaturnGenwandPractical" } },
+	  { "item" : { "name" : "SaturnGenwandPractical" } },
+	  { "item" : { "name" : "saturnbroomcontroller" } },
+	  { "item" : { "name" : "rarewand" } }	  
+	]],
+	[4.9, [
+	  { "item" : { "name" : "saturnMagicCrystalTable" } },
+	  { "item" : { "name" : "saturnSTslopedpanel" } },
+	  { "item" : { "name" : "saturnSTslopedbrasspanel" } },
+	  { "item" : { "name" : "saturnSTebony" } },
+	  { "item" : { "name" : "saturnSTbirch" } },
+	  { "item" : { "name" : "saturnSTMaho" } },
+	  { "item" : { "name" : "saturnSTOak" } },
+	  { "item" : { "name" : "saturnSTcolorfulclaywalls" } },
+	  { "item" : { "name" : "crystal" } },
+	  { "item" : { "name" : "satstaffT5" } },
+	  { "item" : { "name" : "saturnBatonT5" } },
+	  { "item" : { "name" : "saturnBatonT5b" } },
+	  { "item" : { "name" : "saturnGeneratedBatonOrb" } },
+	  { "item" : { "name" : "saturnGeneratedBatonBeam" } },
+	  { "item" : { "name" : "saturnGeneratedBatonOrb" } },
+	  { "item" : { "name" : "saturnGeneratedBatonBeam" } },
+	  { "item" : { "name" : "SaturnGenwand" } },
+	  { "item" : { "name" : "SaturnGenwand" } },
+	  { "item" : { "name" : "SaturnGenwand" } },
+	  { "item" : { "name" : "SaturnGenwand" } },
+	  { "item" : { "name" : "SaturnGenwandPractical" } },
+	  { "item" : { "name" : "SaturnGenwandPractical" } },
+	  { "item" : { "name" : "SaturnGenwandPractical" } },
+	  { "item" : { "name" : "saturnbroomcontroller" } },
+	  { "item" : { "name" : "rarewand" } }	  
+	]]
+	]},
+	
+	
+	
+{"op" : "add", "path" : "/SaturnWaspWizardMerchant", "value":[
+	[0, [
+	  { "item" : { "name" : "saturnHoneyScepter" } },
+	  { "item" : { "name" : "saturnBatonBee" } },
+	  { "item" : { "name" : "saturn_honey" } },
+	  { "item" : { "name" : "Satsundye" } },
+	  { "item" : { "name" : "saturnbanner10" } },
+	  { "item" : { "name" : "saturncirclesollamp" } },
+	  { "item" : { "name" : "saturncrystallampOrange" } },
+	  { "item" : { "name" : "saturncrystalblock2" } },
+	  { "item" : { "name" : "saturnposter5" } },
+	  { "item" : { "name" : "saturnposter6" } },
+	  { "item" : { "name" : "SaturnGenwand" } },
+	  { "item" : { "name" : "saturnGeneratedBatonOrb" } },
+	  { "item" : { "name" : "SaturnGenwandPractical" } },
+	  { "item" : { "name" : "SaturnWaspLancenpc2" } },
+	  { "item" : { "name" : "satstaffT1" } }
+	]],
+	[1.9, [
+	  { "item" : { "name" : "saturnHoneyScepter" } },
+	  { "item" : { "name" : "saturnBatonBee" } },
+	  { "item" : { "name" : "saturn_honey" } },
+	  { "item" : { "name" : "Satsundye" } },
+	  { "item" : { "name" : "saturnbanner10" } },
+	  { "item" : { "name" : "saturncirclesollamp" } },
+	  { "item" : { "name" : "saturncrystallampOrange" } },
+	  { "item" : { "name" : "saturncrystalblock2" } },
+	  { "item" : { "name" : "saturnposter5" } },
+	  { "item" : { "name" : "saturnposter6" } },
+	  { "item" : { "name" : "SaturnGenwand" } },
+	  { "item" : { "name" : "SaturnGenwandPractical" } },
+	  { "item" : { "name" : "saturnGeneratedBatonOrb" } },
+	  { "item" : { "name" : "SaturnWaspLancenpc2" } },
+	  { "item" : { "name" : "satstaffT2" } }
+	]],
+	[2.9, [
+	  { "item" : { "name" : "saturnHoneyScepter" } },
+	  { "item" : { "name" : "saturnBatonBee" } },
+	  { "item" : { "name" : "saturn_honey" } },
+	  { "item" : { "name" : "Satsundye" } },
+	  { "item" : { "name" : "saturnbanner10" } },
+	  { "item" : { "name" : "saturncirclesollamp" } },
+	  { "item" : { "name" : "saturncrystallampOrange" } },
+	  { "item" : { "name" : "saturncrystalblock2" } },
+	  { "item" : { "name" : "saturnposter5" } },
+	  { "item" : { "name" : "saturnposter6" } },
+	  { "item" : { "name" : "SaturnGenwand" } },
+	  { "item" : { "name" : "saturnGeneratedBatonOrb" } },
+	  { "item" : { "name" : "SaturnGenwandPractical" } },
+	  { "item" : { "name" : "SaturnWaspLancenpc2" } },
+	  { "item" : { "name" : "sattitaniumlance" } },
+	  { "item" : { "name" : "satstaffT3" } }
+	]],
+	[3.9, [
+	  { "item" : { "name" : "saturnHoneyScepter" } },
+	  { "item" : { "name" : "saturnBatonBee" } },
+	  { "item" : { "name" : "saturn_honey" } },
+	  { "item" : { "name" : "Satsundye" } },
+	  { "item" : { "name" : "saturnbanner10" } },
+	  { "item" : { "name" : "saturncirclesollamp" } },
+	  { "item" : { "name" : "saturncrystallampOrange" } },
+	  { "item" : { "name" : "saturncrystalblock2" } },
+	  { "item" : { "name" : "saturnposter5" } },
+	  { "item" : { "name" : "saturnposter6" } },
+	  { "item" : { "name" : "SaturnGenwand" } },
+	  { "item" : { "name" : "SaturnGenwandPractical" } },
+	  { "item" : { "name" : "saturnGeneratedBatonOrb" } },
+	  { "item" : { "name" : "SaturnWaspLancenpc2" } },
+	  { "item" : { "name" : "SaturnWaspLance" } },
+	  { "item" : { "name" : "rarewand" } },
+	  { "item" : { "name" : "satstaffT4" } }
+	]],
+	[4.9, [
+	  { "item" : { "name" : "saturnHoneyScepter" } },
+	  { "item" : { "name" : "saturnBatonBee" } },
+	  { "item" : { "name" : "saturn_honey" } },
+	  { "item" : { "name" : "Satsundye" } },
+	  { "item" : { "name" : "saturnbanner10" } },
+	  { "item" : { "name" : "saturncirclesollamp" } },
+	  { "item" : { "name" : "saturncrystallampOrange" } },
+	  { "item" : { "name" : "saturncrystalblock2" } },
+	  { "item" : { "name" : "saturnposter5" } },
+	  { "item" : { "name" : "saturnposter6" } },
+	  { "item" : { "name" : "SaturnGenwand" } },
+	  { "item" : { "name" : "SaturnGenwandPractical" } },
+	  { "item" : { "name" : "saturnGeneratedBatonOrb" } },
+	  { "item" : { "name" : "SaturnWaspLancenpc2" } },
+	  { "item" : { "name" : "SaturnWaspLance" } },
+	  { "item" : { "name" : "rarewand" } },
+	  { "item" : { "name" : "satstaffT5" } },
+	  
+	  { "item" : { "name" : "saturnWasphead" } },
+	  { "item" : { "name" : "saturnWaspchest" } },
+	  { "item" : { "name" : "saturnWasppants" } },
+	  
+	  { "item" : { "name" : "saturnWaspBhead" } },
+	  { "item" : { "name" : "saturnWaspBchest" } },
+	  { "item" : { "name" : "saturnWaspBpants" } },
+	  
+	  { "item" : { "name" : "saturnWasparmorhead" } },
+	  { "item" : { "name" : "saturnWaspGhead" } },
+	  
+	  { "item" : { "name" : "SaturnWaspUltraLance" } }
+	]]
+	]},
+	
+	
+{"op" : "add", "path" : "/SaturnTiles", "value":[
+	[0, [
+	  { "item" : { "name" : "saturnSTslopedpanel" } },
+	  { "item" : { "name" : "saturnSTslopedbrasspanel" } },
+	  { "item" : { "name" : "saturnSTebony" } },
+	  { "item" : { "name" : "saturnSTbirch" } },
+	  { "item" : { "name" : "saturnSTMaho" } },
+	  { "item" : { "name" : "saturnSTOak" } },
+	  { "item" : { "name" : "saturnSTcolorfulclaywalls" } }
+	]]
+	]},
+	
+{"op" : "add", "path" : "/SaturnAlchemist", "value":[
+	[0, [
+	  { "item" : { "name" : "saturnAlchemistset" }},
+	  { "item" : { "name" : "saturn_salve" }},
+	  { "item" : { "name" : "saturn_bluestim" }},
+	  { "item" : { "name" : "saturn_scales" }},
+	  { "item" : { "name" : "saturnalembic" }},
+	  { "item" : { "name" : "saturnmortar" }},
+	  { "item" : { "name" : "saturnscale" }},
+	  { "item" : { "name" : "saturn_greenstim" }}
+	]],
+	[1.9, [
+	  { "item" : { "name" : "saturnAlchemistset" }},
+	  { "item" : { "name" : "saturn_salve" }},
+	  { "item" : { "name" : "saturn_scales" }},
+	  { "item" : { "name" : "saturn_bluestim" }},
+	  { "item" : { "name" : "saturnalembic" }},
+	  { "item" : { "name" : "saturnmortar" }},
+	  { "item" : { "name" : "saturnscale" }},
+	  { "item" : { "name" : "saturn_greenstim" }}
+	]],
+	[2.9, [
+	  { "item" : { "name" : "saturnAlchemistset" }},
+	  { "item" : { "name" : "saturn_salve" }},
+	  { "item" : { "name" : "saturn_scales" }},
+	  { "item" : { "name" : "saturn_bluestim" }},
+	  { "item" : { "name" : "saturn_greenstim" }},
+	  { "item" : { "name" : "saturn_redstim" }},
+	  { "item" : { "name" : "saturn_yellowstim" }},
+	  { "item" : { "name" : "saturn_orangestim" }},	  
+	  { "item" : { "name" : "saturn_solcrystal" }},
+	  { "item" : { "name" : "saturnalembic" }},
+	  { "item" : { "name" : "saturnmortar" }},
+	  { "item" : { "name" : "saturnscale" }},
+	  { "item" : { "name" : "saturn_antidote" }}
+	]],
+	[3.9, [
+	  { "item" : { "name" : "saturnAlchemistset" }},
+	  { "item" : { "name" : "saturn_salve" }},
+	  { "item" : { "name" : "saturn_scales" }},
+	  { "item" : { "name" : "saturn_bluestim" }},
+	  { "item" : { "name" : "saturn_greenstim" }},
+	  { "item" : { "name" : "saturn_redstim" }},
+	  { "item" : { "name" : "saturn_yellowstim" }},
+	  { "item" : { "name" : "saturn_orangestim" }},	  
+	  { "item" : { "name" : "saturn_lifestim" }},
+	  { "item" : { "name" : "saturn_energystim" }},	  
+	  { "item" : { "name" : "saturn_solcrystal" }},
+	  { "item" : { "name" : "saturnalembic" }},
+	  { "item" : { "name" : "saturnmortar" }},
+	  { "item" : { "name" : "saturnscale" }},
+	  { "item" : { "name" : "saturn_antidote" }}
+	]],
+	[4.9, [
+	  { "item" : { "name" : "saturnAlchemistset" }},
+	  { "item" : { "name" : "saturn_salve" }},
+	  { "item" : { "name" : "saturn_scales" }},
+	  { "item" : { "name" : "saturn_bluestim" }},
+	  { "item" : { "name" : "saturn_greenstim" }},
+	  { "item" : { "name" : "saturn_redstim" }},
+	  { "item" : { "name" : "saturn_yellowstim" }},
+	  { "item" : { "name" : "saturn_orangestim" }},	  
+	  { "item" : { "name" : "saturn_lifestim" }},
+	  { "item" : { "name" : "saturn_energystim" }},	  
+	  { "item" : { "name" : "saturn_solcrystal" }},
+	  { "item" : { "name" : "saturnalembic" }},
+	  { "item" : { "name" : "saturnmortar" }},
+	  { "item" : { "name" : "saturnscale" }},
+	  { "item" : { "name" : "saturn_antidote" }}
+	]]
+	]},	
+	
+	
+{"op" : "add", "path" : "/SaturnArtist", "value":[
+	[0, [
+	  { "item" : { "name" : "fossilbrushbeginner" } },
+	  { "item" : { "name" : "dyeremover" } },
+	  { "item" : { "name" : "blackdye" } },
+	  { "item" : { "name" : "whitedye" } },
+	  { "item" : { "name" : "reddye" } },
+	  { "item" : { "name" : "bluedye" } },
+	  { "item" : { "name" : "yellowdye" } },
+	  { "item" : { "name" : "saturnArtWizardhead" } },
+	  { "item" : { "name" : "saturnArtWizardchest" } },
+	  { "item" : { "name" : "saturnArtWizardpants" } }
+	]],
+	[1.9, [
+	  { "item" : { "name" : "fossilbrushbeginner" } },
+	  { "item" : { "name" : "dyeremover" } },
+	  { "item" : { "name" : "blackdye" } },
+	  { "item" : { "name" : "whitedye" } },
+	  { "item" : { "name" : "reddye" } },
+	  { "item" : { "name" : "bluedye" } },
+	  { "item" : { "name" : "yellowdye" } },
+	  { "item" : { "name" : "saturnArtWizardhead" } },
+	  { "item" : { "name" : "saturnArtWizardchest" } },
+	  { "item" : { "name" : "saturnArtWizardpants" } },
+	  { "item" : { "name" : "fossilbrushstudent" } },
+	  { "item" : { "name" : "browndye" } },
+	  { "item" : { "name" : "greendye" } },
+	  { "item" : { "name" : "greydye" } },
+	  { "item" : { "name" : "orangedye" } },
+	  { "item" : { "name" : "pinkdye" } },
+	  { "item" : { "name" : "purpledye" } }
+	]],
+	[2.9, [
+	  { "item" : { "name" : "fossilbrushbeginner" } },
+	  { "item" : { "name" : "dyeremover" } },
+	  { "item" : { "name" : "blackdye" } },
+	  { "item" : { "name" : "whitedye" } },
+	  { "item" : { "name" : "reddye" } },
+	  { "item" : { "name" : "bluedye" } },
+	  { "item" : { "name" : "yellowdye" } },
+	  { "item" : { "name" : "saturnArtWizardhead" } },
+	  { "item" : { "name" : "saturnArtWizardchest" } },
+	  { "item" : { "name" : "saturnArtWizardpants" } },
+	  { "item" : { "name" : "Satcoolgreydye" } },
+	  { "item" : { "name" : "Satcyandye" } },
+	  { "item" : { "name" : "Satearthdye" } },
+	  { "item" : { "name" : "Satindigodye" } },
+	  { "item" : { "name" : "Satlimedye" } },
+	  { "item" : { "name" : "Satmaroondye" } },
+	  { "item" : { "name" : "Satsanddye" } },
+	  { "item" : { "name" : "Satsundye" } },
+	  { "item" : { "name" : "Sattealdye" } },
+	  { "item" : { "name" : "Satwarmgreydye" } }
+	]]
+	]},	
+	
+{"op" : "add", "path" : "/Saturninnkeeper", "value":[
+	[0, [
+      { "item" : { "name" : "bread" }},
+	  { "item" : { "name" : "bottledsaturnnectar" }},
+	  { "item" : { "name" : "saturncoffee" }},
+	  { "item" : { "name" : "saturnlumenade" }},
+      { "item" : { "name" : "carrotjuice" }},
+      { "item" : { "name" : "grapejuice" }},
+      { "item" : { "name" : "kiwijuice" }},
+      { "item" : { "name" : "tomatojuice" }},
+      { "item" : { "name" : "bottledwater" }},
+      { "item" : { "name" : "milk" }},
+      { "item" : { "name" : "coffee" }},
+      { "item" : { "name" : "flatwhite" }},
+      { "item" : { "name" : "pineapplejuice" }}
+	]],
+	[1.9, [
+      { "item" : { "name" : "coffeecake" }},
+      { "item" : { "name" : "carrotbread" }},
+      { "item" : { "name" : "chocolatecake" }},
+      { "item" : { "name" : "flatwhite" }},
+      { "item" : { "name" : "carrotjuice" }},
+      { "item" : { "name" : "mushroombread" }},
+      { "item" : { "name" : "beakseedjam" }},
+      { "item" : { "name" : "kiwijam" }},
+      { "item" : { "name" : "pearlpeajam" }},
+      { "item" : { "name" : "sweetpopcorn" }},
+      { "item" : { "name" : "cake" }},
+      { "item" : { "name" : "carrotcake" }},
+      { "item" : { "name" : "tomatosoup" }},
+      { "item" : { "name" : "carrotsoup" }},
+      { "item" : { "name" : "avesmingojuice" }},
+      { "item" : { "name" : "mocha" }}
+	]],
+	[2.9, [
+	  { "item" : { "name" : "saturnlumenrockcandy" }},
+      { "item" : { "name" : "desertsalsa" }},
+      { "item" : { "name" : "pineapplejam" }},
+      { "item" : { "name" : "tropicalpunch" }},
+      { "item" : { "name" : "spookypie" }},
+      { "item" : { "name" : "spookydonut" }},
+      { "item" : { "name" : "sweetpunch" }},
+      { "item" : { "name" : "snowcone" }}
+	]],
+	[3.9, [
+      { "item" : { "name" : "reefjuice" }},
+      { "item" : { "name" : "reefshake" }},
+      { "item" : { "name" : "alienfruitjam" }}
+	]]
+	]},
+	
+	
+	
+	
+{"op" : "add", "path" : "/Saturnfarmer", "value":[
+	[0, [
+	  { "item" : { "name" : "saturnscytheT1" }},
+      { "item" : { "name" : "bottledwater" }},
+	  
+      { "item" : { "name" : "saturnlumenseed" }},
+      { "item" : { "name" : "saturnlumenfruit" }},
+	  
+      { "item" : { "name" : "sugarcaneseed" }},
+      { "item" : { "name" : "sugar" }},
+	  
+      { "item" : { "name" : "wheatseed" }},
+      { "item" : { "name" : "wheat" }},
+	  { "item" : { "name" : "bread" }},
+	  
+      { "item" : { "name" : "cocoaseed" }},
+      { "item" : { "name" : "cocoa" }},
+
+      { "item" : { "name" : "grapesseed" }},
+      { "item" : { "name" : "grapes" }},
+	  
+      { "item" : { "name" : "neonmelonseed" }},
+      { "item" : { "name" : "neonmelon" }},      
+	  
+	  { "item" : { "name" : "coffeeseed" }},
+      { "item" : { "name" : "coffeebeans" }},
+	  
+      { "item" : { "name" : "satstaffgrass" }},
+      { "item" : { "name" : "satstaffrain" }}
+	]]
+	]},
+	
+{"op" : "add", "path" : "/Saturnweapons", "value":[
+	[0, [  
+	  { "item" : { "name" : "saturnMaceT1" }},
+	  { "item" : { "name" : "saturnscytheT1" }},
+	  { "item" : { "name" : "SaturnRapier" }},	  
+	  { "item" : { "name" : "saturnSTslopedmetalpanel" } },
+	  { "item" : { "name" : "saturnSTslopedbrasspanel" } },
+	  { "item" : { "name" : "SaturnBowT1" }}
+	]],
+	[1.9, [	  
+	  { "item" : { "name" : "saturnMaceT2" }},
+	  { "item" : { "name" : "saturnscytheT2" }},
+	  { "item" : { "name" : "SaturnRapier2" }},
+	  { "item" : { "name" : "SaturnBowT2" }},
+	  { "item" : { "name" : "saturnDesertdagger" }},
+	  { "item" : { "name" : "saturnDesertdagger2" }},
+	  
+	  { "item" : { "name" : "saturnhalberd" }}
+	]],
+	[2.9, [	  
+	  { "item" : { "name" : "saturnhalberd" }},
+	  { "item" : { "name" : "saturnscytheT3" }},
+	  { "item" : { "name" : "saturnMaceT3" }},	 	
+	  { "item" : { "name" : "SaturnRapier3" }},
+	  { "item" : { "name" : "SaturnBowT3" }},	 	
+	  
+	  { "item" : { "name" : "sattitaniumlance" }},
+	  { "item" : { "name" : "saturnlanceT3" }}
+	]],
+	[3.9, [
+	  { "item" : { "name" : "saturnhalberd" }},	 
+	  { "item" : { "name" : "saturnscytheT4" }},
+	  { "item" : { "name" : "saturnscytheT4b" }},
+	  { "item" : { "name" : "saturnMaceT4" }},
+	  { "item" : { "name" : "SaturnRapier4" }},
+	  { "item" : { "name" : "SaturnWaspLance" }},
+	  { "item" : { "name" : "SaturnBowT4" }}
+		]],
+	[4.9, [
+	  { "item" : { "name" : "saturnscytheT5" }},
+	  { "item" : { "name" : "saturnhalberd" }},
+	  { "item" : { "name" : "saturnMaceT5" }},	 	  
+	  { "item" : { "name" : "SaturnRapier5" }},	 	  
+	  { "item" : { "name" : "SaturnBowT5" }},	 	  
+	  { "item" : { "name" : "satfocusbeam" }},
+	  { "item" : { "name" : "SatGatlingCrystal" }},
+
+
+	  { "item" : { "name" : "Saturncrossbow" }},
+	  { "item" : { "name" : "SaturnLunacrossbow" }},
+
+	  { "item" : { "name" : "SaturnWaspUltraLance" }}
+	]]
+	]}
+]

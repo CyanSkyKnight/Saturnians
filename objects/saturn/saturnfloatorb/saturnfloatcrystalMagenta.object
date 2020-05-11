@@ -1,0 +1,59 @@
+{
+  "objectName" : "saturnfloatorbMagenta",
+  "colonyTags" : ["light", "saturn", "crystal", "pretty" ],
+  "rarity" : "Common",
+  "description" : "A floating, glowing crystal ball taken from the Saturnian homeworld. Can be placed in midair.",
+  "shortdescription" : "Magenta Float Orb",
+  "race" : "saturn",
+  "category" : "light",
+  "price" : 30,
+  "lightColor" : [200, 130, 220],
+  
+  "flickerPeriod" : 2.9,
+  "flickerMinIntensity" : 0.9,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+  "apexDescription" : "A floating orb, cut from a crystal, that's used as a light source.",
+  "avianDescription" : "A glowing, floating crystal, not too different from the ones Avians use.",
+  "floranDescription" : "Floating cryssstalss.",
+  "glitchDescription" : "Intrigued. This crystal appears to float, generating its own gravitational field and also produces its own light.",
+  "humanDescription" : "I think I did this experiment for a science class as a kid.",
+  "hylotlDescription" : "A colorful crystal lamp.",
+  "novakidDescription" : "This floating shiny orb is glowin' just a like a torch.",
+  "saturnDescription" : "Floating crystals are sometimes cut into smaller orbs like this one.",
+  "saturn2Description" : "Floating crystals are sometimes cut into smaller orbs like this one.",
+  "satkyterranDescription" : "Floating crystals are sometimes cut into smaller orbs like this one.",
+  "inventoryIcon" : "saturnfloatcrystalicon.png:magenta",
+  "tooltipKind" : "saturnlight",
+  "largeImage" : "saturnfloatcrystalMagenta.png:default.on",
+  "orientations" : [
+    {
+      "image" : "saturnfloatcrystalMagenta.png:<color>.<frame>",
+      "imagePosition" : [-4, -6],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "lightPosition" : [0, 0],
+      "beamAngle" : 270
+    },
+    {
+      "image" : "saturnfloatcrystalMagenta.png:<color>.<frame>",
+      "imagePosition" : [-4, -6],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "lightPosition" : [0, 0],
+      "beamAngle" : 270
+    }
+  ],
+  "animation" : "saturnfloatcrystal.animation",
+  "animationParts" : {
+    "light" : "saturnfloatcrystalMagenta.png"
+  },
+  "animationPosition" : [-4, -6],
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+  "inputNodes" : [ [0, 0] ]
+}

@@ -1,0 +1,25 @@
+{
+  "projectileName" : "saturnhealspinswoosh",
+  "image" : "saturnhealspinswoosh.png",
+  "animationCycle" : 0.067,
+  "timeToLive" : 0.4,
+  "frameNumber" : 4,
+  "damageKindImage" : "/interface/statuses/ice.png",
+  "speed" : 50,
+  "orientationLocked" : true,
+  "damagePoly" : [ [-30, 14], [-14, 30], [14, 30], [30, 14], [30, -14], [14, -30], [-14, -30], [-30, -14] ],
+  "animationLoops" : true,
+  "piercing" : true,
+  "bounces" : 0,
+  "flippable" : true,
+  "fullbright" : true,
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageKind" : "default",
+  "statusEffects" : [
+    "saturnhealstaff25"
+  ],
+  "lightColor" : [98, 28, 28],
+  "pointLight" : true,
+  "knockback" : 10,
+  "knockbackDirectional" : true
+}

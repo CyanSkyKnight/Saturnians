@@ -1,0 +1,273 @@
+[
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/offer/saturn",
+"value":  {
+
+
+"default" : [
+
+	"I've been stuck in this spot for almost a year. Can I travel with you?",
+	"I'm just an apprentice, but I am eager to learn about what lies among the stars. Can I travel with you?",
+	"Staying on this world can only get me so far. Can I explore with you?"
+	],
+	
+"novakid" : [
+
+
+	"I've been stuck in this spot for almost a year. Can I travel with you?",
+	"I'm just an apprentice, but I am eager to learn about what lies among the stars. Can I travel with you?",
+	"Staying on this world can only get me so far. Can I explore with you?",
+	"Could I travel with you across the stars? I swear this has nothing to do with the way you are glowing!"
+	]
+	
+
+}},
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/respawned/saturn",
+"value":  {
+
+
+"default" : [
+
+
+	"I... am... REBORN!",
+	"Does this count as necromancy?",
+	"As long as my soul is left intact, I should be fine.",
+	"Ow!",
+	"Are you ok, too?",
+	"I don't want to do that again...",
+	"Huh? Did your ship save me, <entityname>?"
+	]
+	
+
+}},
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/respawned/saturn2",
+"value":  {
+
+
+"default" : [
+
+
+	"I... am... REBORN!",
+	"Does this count as necromancy?",
+	"Not even death can stop me!",
+	"Hahaha!",
+	"Sometimes sacrifice is required to achieve victory...",
+	"I don't want to do that again.",
+	"What just happened?"
+	]
+	
+
+}},
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/unfollow/saturn",
+"value":  {
+"default" : [
+      "I'll just wait here.",
+      "I'll stay here. Come back when you need me, <entityname>!",
+      "I'll stay here for now, <entityname>.",
+      "Do you need me to stay here?",
+      "I'll stay here for now, then.",
+      "I'll stay here and observe my surroundings."
+	]
+}},
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/unfollow/saturn2",
+"value":  {
+"default" : [
+      "Then I shall wait.",
+      "I'll stay here. Do not hesitate to return if you need me!",
+      "I'll stay here for now, <entityname>.",
+      "Do you need me to stay here?",
+      "I'll meditate here for now, then.",
+      "I'll stay here and observe my surroundings."
+	]
+}},
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/follow/saturn",
+"value":  {
+
+
+"default" : [
+	 "Are you ready to go?",
+     "Let's get going!",
+     "Let's go!",
+     "Are we going somewhere?"
+	]
+}},
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/follow/saturn2",
+"value":  {
+
+
+"default" : [
+	 "We shall move on then.",
+     "Onwards!",
+     "Let's go!",
+     "Are we going somewhere?"
+	]
+}},
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/cantreach/saturn",
+"value":  {
+"default" : [
+	 "I'm falling behind!",
+     "I can't reach you!",
+     "You're too far!",
+     "Hey, wait up!",
+	 "Whoa! Wait for me!",
+     "Don't go too far!",
+     "Let me catch up!"
+	]
+}},
+
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/offer/saturnmothman",
+"value":  {
+
+
+"default" : [
+
+	"A space traveler! Can you help me out of here? I've been here since... uh, I can't remember.",
+	"You're late! Oh sorry I thought you were someone else. Hey! Since I have no plans now, can I join your group?",
+	"A space traveler! Can you help me out of here? I've been stuck here for what feels like forever..."
+	]
+	
+
+}},
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/respawned/saturnmothman",
+"value":  {
+
+
+"default" : [
+
+
+	"I... am... REBORN!",
+	"Does this count as necromancy?",
+	"As long as my soul is left intact, I should be fine.",
+	"Ow!",
+	"I don't want to do that again...",
+	"Huh? Did your ship save me, <entityname>?"
+	]
+	
+
+}},
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/unfollow/saturnmothman",
+"value":  {
+"default" : [
+      "I'll just wait here.",
+      "I'll stay here. Come back when you need me, <entityname>!",
+      "I'll stay here for now, <entityname>.",
+      "Do you need me to stay here?",
+      "I'll stay here for now, then.",
+      "..."
+	]
+}},
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/follow/saturnmothman",
+"value":  {
+
+
+"default" : [
+	 "Are you ready to go?",
+     "Let's get going!",
+     "Let's go!",
+     "Are we going somewhere?"
+	]
+}},
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/cantreach/saturnmothman",
+"value":  {
+"default" : [
+	 "I'm falling behind!",
+     "I can't reach you!",
+     "You're too far!",
+     "Hey, wait up!",
+     "Don't forget me!",
+     "Let me catch up!"
+	]
+}},
+
+
+
+
+{"op" : "add", "path" : "/items/saturn", "value":[[0, [
+		{
+
+			
+			"chest" : [
+			{ "name" : "saturnobsidianarmorchest"}
+			],
+			
+			"legs" : [
+			{ "name" : "saturnobsidianarmorpants"}
+			],
+
+			"sheathedalt" : [
+            "satringshieldleveled",
+            "satringshieldroyal"
+            ],
+			"sheathedprimary" : [
+			  "SaturnBowT3",
+              "saturnGeneratedBatonOrb",
+			  "saturnGeneratedBatonBeam",
+              "npcaxe",
+              "npcbroadsword",
+              "npcshortsword"
+			]
+			
+		}
+	]]]},
+
+
+{"op" : "add", "path" : "/items/saturnmothman", "value":[[0, [
+		{
+
+			
+			"chest" : [
+			{ "name" : "saturnobsidianarmorchest"}
+			],
+			
+			"legs" : [
+			{ "name" : "saturnobsidianarmorpants"}
+			],
+			
+			"primary" : [
+			"saturnscytheMM"
+			],
+			"sheathedprimary" : [
+			"SaturnBowT3"
+			]
+			
+		}
+	]]]}
+]

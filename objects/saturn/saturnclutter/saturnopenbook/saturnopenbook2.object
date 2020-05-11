@@ -1,0 +1,30 @@
+{
+  "objectName" : "saturnopenbook2",
+  "colonyTags" : ["saturn", "satBooks", "knowledge", "commerce" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "Records of sales and inventory noted in the Saturnian language.",
+  "shortdescription" : "^#000400;^white;Record Book",
+  "category" : "decorative",
+  "race" : "saturn",
+  
+  "glitchDescription" : "Observation. It looks like sales records.",
+  "floranDescription" : "Ssstrange symbols.",
+  "novakidDescription" : "Looks like sales records.",
+
+  "saturnDescription" : "It is full of sales records.",
+  "saturn2Description" : "It is full of sales records.",
+  "satkyterranDescription" : "It is full of sales records.",
+  
+  "inventoryIcon" : "saturnopenbook2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnopenbook2.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

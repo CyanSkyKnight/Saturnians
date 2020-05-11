@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "saturnebony", "count" : 1 }
+
+  ],
+  "output" : { "item" : "saturnslopedpanel", "count" : 1 },
+  "duration" : 0,
+  "groups"  : [ "craftingfurniture", "saturnmaterials", "materials", "all" ]
+}

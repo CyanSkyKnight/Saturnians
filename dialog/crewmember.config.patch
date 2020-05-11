@@ -1,0 +1,24 @@
+[
+	{
+		"op": "add",
+		"path": "/converse/saturn",
+		"value": {
+			"default": [
+				"My ancestors used to travel like this all the time.",
+				"What are you searching for in these stars?",
+				"Thanks for letting me travel with you.",
+				"I wonder what we'll find out there.",
+				"There's so much to discover out there.",
+				"I'm writing a novel based on our travels."
+			],
+			"saturn": [
+				"My ancestors used to travel like this all the time.",
+				"What are you searching for in these stars?",
+				"Thanks for letting me travel with you.",
+				"I wonder what we'll find out there.",
+				"There's so much to discover out there.",
+				"I'm writing a novel based on our travels."
+			]
+		}
+	}
+]

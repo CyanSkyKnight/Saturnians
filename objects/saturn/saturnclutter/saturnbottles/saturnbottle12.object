@@ -1,0 +1,34 @@
+{
+  "objectName" : "saturnbottle12",
+  "colonyTags" : ["saturn", "alchemy" ],
+  "rarity" : "Common",
+  "price" : 10,
+  "description" : "[^#ff99ff;Decorative^reset;] A bottle of normal dark ink.",
+  "shortdescription" : "^#000300;^white;Ink Bottle",
+  "category" : "decorative",
+  "race" : "generic",
+
+  "apexDescription": "A bottle of ink.",
+  "avianDescription" : "Ick! It smells terrible! It's just ink.",
+  "floranDescription": "Ssstrange drink.",
+  "glitchDescription": "Observant. Glitch often write using ink like this.",
+  "humanDescription": "Do Saturnians write with quills?",
+  "hylotlDescription": "Ink for the art of calligraphy.",
+  "novakidDescription": "Ink for a typewriter.",
+  
+  "saturnDescription" : "Oh, it's just ink.",
+  "saturn2Description" : "A vial of void liquid?!. Is that safe to have here? Spirits could fuse with this to form- oh, it's just ink.",
+  "satkyterranDescription" : "A bottle of ink.",
+  
+  "inventoryIcon" : "saturnbottle12icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnbottle12.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

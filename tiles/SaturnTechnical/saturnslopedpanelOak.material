@@ -1,0 +1,29 @@
+{
+  "materialId" : 54710,
+  "materialName" : "saturnslopedpanelOak",
+  "particleColor" : [124, 145, 86, 255],
+  "itemDrop" : "saturnslopedpanelOak",
+
+  "description" : "Sloped alien wood used in Saturnian construction. It's fireproof.",
+  "apexDescription" : "Some crafted planks of wood.",
+  "avianDescription" : "Wood that's been crafted into planks.",
+  "glitchDescription" : "Satisfied. These are well crafted wood planks.",
+  "floranDescription" : "Sssplintery wood plankss.",
+  "humanDescription" : "Some simple planks made from wood.",
+  "hylotlDescription" : "Basic wood planks.",
+  "saturndescription" : "This wood has been colored with illusory magic. It's actually ebony.",
+  "shortdescription" : "Mage Oak Panel",
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 12,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "saturnslopedpanelOak.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 5000
+  }
+}

@@ -1,0 +1,57 @@
+{
+ 	"saturnStarterTreasure" : [
+		[0, {
+			"fill" : [
+				{"pool" : "starterTreasure"},
+				{ "item" : [ "saturnWingSimple2", 1]},
+				{ "item" : [ "saturnlightstaff2", 1]},
+				{ "item" : [ "saturnMaceT0", 1]},
+				{ "item" : [ "bottledsaturnnectar", 1]},
+				{ "item" : [ "saturnlumenseed", 2]},
+				{ "item" : [ "saturnMagicLoom", 1]},
+				{ "item" : [ "bottle", 8]},
+				{ "item" : [ "whitedye", 1]},
+				{ "item" : [ "blackdye", 1]},
+				{ "item" : [ "dyeremover", 3]},
+				
+
+				
+				{ "item" : [ "crystal", 5]},
+				{ "item" : [ "petalred", 5]},
+				{ "item" : [ "petalyellow", 5]},
+				{ "item" : [ "petalblue", 5]},
+				{ "item" : [ "silkfibre", 3]},
+				{ "item" : [ "saturnslopedglass", 100]},
+				{ "item" : [ "saturnslopedmetalpanel", 100]}
+			]
+		} ]
+	],
+	
+	 	"saturn2StarterTreasure" : [
+		[0, {
+			"fill" : [
+				{"pool" : "starterTreasure"},
+				{ "item" : [ "saturnWingSimple2", 1]},
+				{ "item" : [ "saturnlightstaff2", 1]},
+				{ "item" : [ "saturnMaceT0", 1]},
+				{ "item" : [ "bottledsaturnnectar", 1]},
+				{ "item" : [ "saturnlumenseed", 2]},
+				{ "item" : [ "saturnMagicLoom", 1]},
+				{ "item" : [ "bottle", 8]},
+				{ "item" : [ "whitedye", 1]},
+				{ "item" : [ "blackdye", 1]},
+				{ "item" : [ "dyeremover", 3]},
+				
+
+				
+				{ "item" : [ "crystal", 5]},
+				{ "item" : [ "petalred", 5]},
+				{ "item" : [ "petalyellow", 5]},
+				{ "item" : [ "petalblue", 5]},
+				{ "item" : [ "silkfibre", 3]},
+				{ "item" : [ "saturnslopedglass", 100]},
+				{ "item" : [ "saturnslopedmetalpanel", 100]}
+			]
+		} ]
+	]
+}

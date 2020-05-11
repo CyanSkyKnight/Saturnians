@@ -1,0 +1,48 @@
+{
+  "objectName" : "saturnianEbonybed2Mask",
+  "colonyTags" : ["saturn", "saturnsilk", "bed"],
+  "rarity" : "Common",
+  "description" : "A comfy wooden bed with a footboard.",
+  "shortdescription" : "Ebony Bed (Sleeping Mask)",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 75,
+
+  "apexDescription" : "A simple wooden bed, nice and comfortable.",
+  "avianDescription" : "A wooden frame and a comfortable mattress. What more could you need?",
+  "floranDescription" : "Floran rarely ssleep in ssuch nice bed.",
+  "glitchDescription" : "Drowsy. My power levels are low. This bed looks inviting.",
+  "humanDescription" : "Your basic, comfy bed.",
+  "hylotlDescription" : "A good place to close one's eyes.",
+  "novakidDescription" : "A decent place to get some shut-eye.",
+  "saturnDescription" : "There's a sleeping mask under the pillow.",
+  "saturn2Description" : "The legs seem to have been grown into that shape. Clearly, Solalei has been learning some of our techniques.",
+  "satkyterranDescription" : "I don't need a sleeping mask, living underground is dark enough. Saturnians love lights though.",
+  "saturnmothman" : "Since my eyes glow, I should wear a sleeping mask for the sake of others.",
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 13],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/saturn/ConversionsOfBaseGameWoodenObjects/saturnianEbonybed2Mask/saturnianEbonybed2Maskcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "saturnianEbonybed2Maskicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnianEbonybed2Mask.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

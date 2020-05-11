@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 1 },
+    { "item" : "goldbar", "count" : 1 },
+    { "item" : "phasematter", "count" : 1 },
+	{ "item" : "silk", "count" : 1 } 
+  ],
+  "duration" : 0.01,
+  "output" : { "item" : "saturnLowgravAugment", "count" : 1 },
+  "groups" : [ "SaturnWings", "all" ]
+}

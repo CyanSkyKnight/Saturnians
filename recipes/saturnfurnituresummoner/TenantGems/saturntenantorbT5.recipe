@@ -1,0 +1,8 @@
+  {
+  "input" : [
+    { "item" : "refinedferozium", "count" : 10 },
+    { "item" : "glass", "count" : 2 }
+  ],
+  "output" : { "item" : "saturntenantorbT5", "count" : 1 },
+  "groups" : [ "saturnfurniture", "all" ]
+}

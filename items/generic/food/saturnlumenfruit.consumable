@@ -1,0 +1,25 @@
+{
+  "itemName" : "saturnlumenfruit",
+  "rarity" : "Common",
+  "price" : 90,
+  "category" : "food",
+  "inventoryIcon" : "saturnlumenfruit.png",
+  "description" : "It's like a lemon, but luminous.",
+  "shortdescription" : "Lumen Fruit",
+  "effects" : [ [
+    {
+        "effect" : "glow",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "learnBlueprintsOnPickup" : [ "saturnlumenjuice" ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

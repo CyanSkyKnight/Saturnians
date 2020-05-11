@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "saturnapextier6ahead", "count" : 1 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "saturnapextier6aBhead", "count" : 1 },
+  "groups" : [ "saturntransmoghelms", "all" ]
+}

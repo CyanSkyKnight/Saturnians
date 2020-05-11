@@ -1,0 +1,34 @@
+{
+  "objectName" : "outfitfitter_saturn",
+  "colonyTags" : ["commerce", "magic", "saturn"],
+  "rarity" : "Rare",
+  "description" : "Morphs hats and helmets to better fit Saturnians. Converted hats are marked with \"^cyan;^white;\"",
+  "shortdescription" : "^cyan;^white;^orange;Saturnian Hat Fitter ^white;",
+  "subtitle" : "Morphs hats to fit Saturnians. Converted hats are marked with \"^cyan;^white;\"",
+  "race" : "saturn",
+  "category" : "crafting",
+  "price" : 0,
+  "objectType" : "container",
+  "printable" : false,
+
+
+  "inventoryIcon" : "outfitfitter_saturnicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "outfitfitter_saturn.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "recipeGroup" : "saturntransmoghats",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/outfitfitter_saturn/outfitfitter_saturn.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

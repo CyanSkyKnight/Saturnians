@@ -1,0 +1,92 @@
+Generic description that can be reused for almost all crystal items, so I don't have to write 600 descriptions for everything.
+--------------------------------------------------------------------
+"Crystal Lamp",
+  "description" : "A glowing crystal taken from the Saturnian homeworld.",
+
+
+  "apexDescription" : "A glowing crystal used as a light source.",
+  "avianDescription" : "A glowing crystal lamp, not too different from the ones Avians use.",
+  "floranDescription" : "Pretty cryssstalss.",
+  "glitchDescription" : "Perplexed. What causes this crystal to glow so brightly for so long?",
+  "humanDescription" : "This lamp makes me think of rock candy.",
+  "hylotlDescription" : "A colorful crystal lamp.",
+  "novakidDescription" : "Just a glowing rock.",
+  "saturnDescription" : "Crystals like these last basically forever, and they don't set anyone on fire like torches do!",
+  "saturn2Description" : "A glowing crystal probably mined somewhere below Solalei.",
+  "satkyterranDescription" : "A glowing crystal probably mined somewhere below Solalei.",
+  
+--------------------------------------------------------------------
+"Crystal Bottle",
+  "description" : "A glowing crystal taken from the Saturnian homeworld.",
+
+
+  "apexDescription" : "A glowing crystal used as a light source.",
+  "avianDescription" : "A glowing crystal lamp, not too different from the ones Avians use.",
+  "floranDescription" : "Pretty cryssstalss.",
+  "glitchDescription" : "Perplexed. What causes this crystal to glow so brightly for so long?",
+  "humanDescription" : "I think I did this experiment for a science class as a kid.",
+  "hylotlDescription" : "A colorful crystal lamp.",
+  "novakidDescription" : "Just a glowing rock.",
+  "saturnDescription" : "This lamp was fashioned from a glowing crystal, a potion bottle, and some rope.",
+  "saturn2Description" : "A glowing crystal probably mined somewhere below Solalei.",
+  "satkyterranDescription" : "A glowing crystal probably mined somewhere below Solalei.",
+  
+--------------------------------------------------------------------
+"Float Crystal S",
+  "description" : "A floating, glowing crystal taken from the Saturnian homeworld. Can be placed in midair.",
+  "apexDescription" : "A floating crystal used as a light source.",
+  "avianDescription" : "A glowing, floating crystal, not too different from the ones Avians use.",
+  "floranDescription" : "Floating cryssstalss.",
+  "glitchDescription" : "Intrigued. This crystal appears to float, generating its own gravitational field and also produces its own light.",
+  "humanDescription" : "What could be keeping this crystal in the air?",
+  "hylotlDescription" : "A colorful crystal lamp.",
+  "novakidDescription" : "This floating shiny rock is glowin' just a like a torch.",
+  "saturnDescription" : "These floating crystals are pretty popular.",
+  "saturn2Description" : "A glowing crystal probably mined somewhere below Solalei.",
+  "satkyterranDescription" : "A glowing crystal probably mined somewhere below Solalei.",
+  
+--------------------------------------------------------------------
+"Float Orb",
+  "description" : "A floating, glowing crystal ball taken from the Saturnian homeworld. Can be placed in midair.",
+
+  "apexDescription" : "A floating orb, cut from a crystal, that's used as a light source.",
+  "avianDescription" : "A glowing, floating crystal, not too different from the ones Avians use.",
+  "floranDescription" : "Floating cryssstalss.",
+  "glitchDescription" : "Intrigued. This crystal appears to float, generating its own gravitational field and also produces its own light.",
+  "humanDescription" : "I think I did this experiment for a science class as a kid.",
+  "hylotlDescription" : "A colorful crystal lamp.",
+  "novakidDescription" : "This floating shiny orb is glowin' just a like a torch.",
+  "saturnDescription" : "Floating crystals are sometimes cut into smaller orbs like this one.",
+  "saturn2Description" : "Floating crystals are sometimes cut into smaller orbs like this one.",
+  "satkyterranDescription" : "Floating crystals are sometimes cut into smaller orbs like this one.",
+  
+-------------------------------------------------------------------- 
+"Crystal Lamppost",
+  "description" : "A lamppost made with a shining crystal. Crystals like these can store a ton of energy.",
+
+  "apexDescription" : "A lamppost that uses a crystal as it's light source.",
+  "avianDescription" : "A helpful guide in the dark.",
+  "floranDescription" : "Tall and shiny lamp.",
+  "glitchDescription" : "Satisfied. A tall lamppost made from sturdy materials.",
+  "humanDescription" : "The Saturnians sure love lamps.",
+  "hylotlDescription" : "Like a bright star shining in the sky.",
+  "novakidDescription":  "A crystal street lamp.",
+  "saturnDescription" : "Crystals lamps like this can absorb sunlight as energy.",
+  "saturn2Description" : "These types of lamps charge during the day when I'm asleep.",
+  "satkyterranDescription" : "These crystals are a hassle to use underground, since they're solar-powered.",
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

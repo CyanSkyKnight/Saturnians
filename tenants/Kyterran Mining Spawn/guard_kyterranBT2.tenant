@@ -1,0 +1,29 @@
+{
+  "name": "guard_kyterranBT2",
+  "priority": 7,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+	"kyterran": 1,
+    "mining": 6,
+    "combat": 8,
+	"tier2": 6
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "satkyterran",
+      "level": 2,
+      "type": "friendlyguardtenant",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "villagerGift"
+  }
+}

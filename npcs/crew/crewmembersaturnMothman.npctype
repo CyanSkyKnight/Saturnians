@@ -1,0 +1,65 @@
+{
+  "type" : "crewmembersaturnMothman",
+  "baseType" : "crewmember",
+  
+
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : false
+    },
+
+    "crew" : {
+      "role" : {
+        "type" : "mothman",
+        "name" : "Mothman?",
+        "field" : "Dark",
+        "uniformColorIndex" : 1
+      }
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "offer" : {
+          "default" : {
+            "default" : [
+              "?"
+            ]
+          }
+        },
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+			"head" : [ { "name" : "saturnnull" } ],
+			"chest" : [ { "name" : "avianadventurershirt" } ],
+            "legs" : [ { "name" : "avianadventurerpants" } ],
+			"back" : [ { "name" : "saturnWingMothman" } ],
+			
+            "primary" : [
+			"saturnscytheMM",
+			"npcaxe"
+			],
+			"alt" : [
+            { "name" : "satringshieldleveled" },
+            { "name" : "satshieldregal" }
+            ],
+			"sheathedprimary" : [
+			{ "name" : "SaturnBowT3"}
+			]
+			}
+        ] ]
+    ]
+  }
+}

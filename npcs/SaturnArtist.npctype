@@ -1,0 +1,84 @@
+{
+  "type" : "SaturnArtist",
+  "baseType" : "merchant",
+  
+  
+  
+  "identity" : {
+
+    "bodyDirectives" : "?replace=EFF4F4FF=E99C4DFF?replace=D5E1E2FF=CC7928FF?replace=A2AEB2FF=B15F0EFF?replace=7E8899FF=834303FF?replace=E5DB72FF=F7F7E4FF?replace=DBC762FF=E7E2BEFF?replace=CCB551FF=DAD4A6FF?replace=B2933EFF=C4BD89FF",
+	"emoteDirectives" : "?replace=EFF4F4FF=E99C4DFF?replace=D5E1E2FF=CC7928FF?replace=A2AEB2FF=B15F0EFF?replace=7E8899FF=834303FF",
+    "facialMaskDirectives" : "?replace=EFF4F4FF=E99C4DFF?replace=D5E1E2FF=CC7928FF?replace=A2AEB2FF=B15F0EFF?replace=7E8899FF=834303FF?replace=E5DB72FF=F7F7E4FF?replace=DBC762FF=E7E2BEFF?replace=CCB551FF=DAD4A6FF?replace=B2933EFF=C4BD89FF",
+    "hairDirectives" : "?replace=E5DB72FF=F7F7E4FF?replace=DBC762FF=E7E2BEFF?replace=CCB551FF=DAD4A6FF?replace=B2933EFF=C4BD89FF"
+  },
+
+
+  
+  
+  "dropPools" : [ "wizardtreasure" ],
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common"]
+    },
+
+    "merchant" : {
+      "categories" : {
+        "override": [ "SaturnArtist" ]
+      },
+      "buyFactorRange" : [ 2.0, 2.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 30,
+      "storeRadius" : -1,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "Art Wizard",
+          "subtitle" : "Sells brushes and dyes."
+        }
+      }
+    },
+
+
+	
+
+    "dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+              "Be careful not to get this paint on your clothes. It stains badly!",
+			  "I, <selfname> the Great, have traveled across the stars in search of inspiration for my work!",
+			  "I have had artist's block for months. Would you like to buy some of my supplies?"
+            ]
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+              "Farewell, traveler.",
+              "I hope to see you more in future.",
+              "Courage to you!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ "saturnArtWizardchest" ],
+            "legs" : [ "saturnArtWizardpants" ],
+            "head" : [ "saturnArtWizardhead" ],
+            "back" : [ "saturnWingRegal" ],
+            "primary" : [ "fossilbrushmaster" ],
+            "sheathedprimary" : [
+              "SaturnGenwand"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

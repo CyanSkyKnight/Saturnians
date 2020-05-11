@@ -1,0 +1,32 @@
+{
+  "itemName" : "Saturnclimbingrope",
+  "price" : 650,
+  "inventoryIcon" : "saturngrapplegunicon.png",
+  "rarity" : "Rare",
+  "maxStack" : 1,
+  "description" : "Creates a length of reusable silk rope. Very useful for climbing",
+  "shortdescription" : "Silk Grapple Wand",
+  "category" : "saturnwand",
+  "twoHanded" : false,
+  "scripts" : ["/items/active/grapplinghooks/grapplinghook.lua"],
+  "animationScripts" : ["/items/active/effects/renderrope.lua"],
+  "animation" : "Saturnclimbingrope.animation",
+  "fireOffset" : [0, 0],
+  "ropeOffset" : [-1.75, 0.3],
+  "ropeVisualOffset" : [0.5, 0],
+  "consumeOnUse" : false,
+  "projectileType" : "saturnclimbingropehook",
+  "projectileParameters" : {
+    "speed" : 60,
+    "timeToLive" : 2.5
+  },
+  "ropeWidth" : 2,
+  "ropeColor" : [240, 240, 250, 255],
+  "reelInDistance" : 2.5,
+  "reelOutLength" : 50,
+  "breakLength" : 50,
+  "minSwingDistance" : 1.5,
+  "reelSpeed" : 8,
+  "controlForce" : 2000,
+  "groundLagTime" : 0.2
+}

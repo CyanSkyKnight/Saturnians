@@ -1,0 +1,293 @@
+{
+  "itemName" : "saturnbroomT1",
+  "price" : 50,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "There doesn't seem to be anything special about this broom?!",
+  "shortdescription" : "Mage Broom",
+  "category" : "tool",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "upgradeableWeapon"],
+
+  "inventoryIcon" : "/items/active/unsorted/broom/saturnmundanebroom.png",
+
+  "animation" : "/items/active/weapons/Saturn Scythes/saturnscythe.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "saturnbroomT1.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { 
+	"swoosh" : { "partStates" : { "swoosh" : { 
+	"fire" : { "properties" : { "image" : "/items/active/weapons/Saturn Scythes/swoosh/timeswoosh.png:<frame>",
+	"fullbright" : false}
+	
+	},
+	
+    "fire2" : { "properties" : { "image" : "/items/active/weapons/Saturn Scythes/swoosh2/timeswoosh.png:<frame>",
+	"fullbright" : false}},
+	
+    "fire3" : { "properties" : { "image" : "/items/active/weapons/Saturn Scythes/risingswoosh/timeswoosh.png:<frame>",
+	"fullbright" : false}}
+	
+    }}},
+	      "risingSwoosh" : {
+          "properties" : {
+            "zLevel" : -1,
+            "centered" : true,
+            "offset" : [0.25, -2.5],
+			"fullbright" : false,
+            "transformationGroups" : ["swoosh"],
+            "rotationCenter" : [0, 0]
+          },
+
+          "partStates" : {
+            "risingSwoosh" : {
+              "idle" : {
+                "properties" : {
+                  "image" : ""
+                }
+              },
+              "slash" : {
+                "properties" : {
+                  "image" : "/items/active/weapons/Saturn Scythes/risingswoosh/timeswoosh.png:<frame>",
+                  "damageArea" : [[-5, -2], [-2.5, -3], [1, -3], [4, -1.75], [5, 0.25], [5, 2.25], [4, 3.25], [0, 2.5]]
+                }
+              }
+            }
+          }
+        }},
+	"stateTypes" : {
+        "risingSwoosh" : {
+          "default" : "idle",
+          "states" : {
+            "idle" : {
+            },
+            "slash" : {
+              "frames" : 3,
+              "cycle" : 0.05,
+              "mode" : "transition",
+              "transition" : "idle"
+            }
+          }
+        }
+      }
+	},
+    "particleEmitters" : {
+      "numerals" : {
+        "active" : false,
+        "transformationGroups" : ["swoosh"],
+        "offsetRegion" : [0.75, 0.0, 4.25, 5.0],
+        "particles" : [
+          { "particle" : "erchiussmoke"},
+          { "particle" : "erchiussmoke"},
+          { "particle" : "erchiussmoke"},
+          { "particle" : "erchiussmoke"}
+        ]
+      }
+    },
+    "sounds" : {
+	  "fire" : [ "/sfx/melee/swing_broadsword.ogg" ],
+      "fire2" : [ "/sfx/melee/swing_shortsword.ogg" ],
+      "fire3" : [ "/sfx/melee/flip_slash.ogg" ],
+	  "upswing" : [ "/sfx/melee/swing_shortsword.ogg" ],
+      "altWindup" : [ "/sfx/statuseffects/timefreeze_start.ogg" ],
+      "altFire" : [ "/sfx/melee/travelingslash_fire1.ogg", "/sfx/melee/travelingslash_fire2.ogg", "/sfx/melee/travelingslash_fire3.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+
+  "primaryAbility" : {
+    "name" : "Combo Slash",
+    "type" : "saturnbroadswordcombo",
+    "scripts" : ["/items/active/weapons/melee/meleecombo.lua"],
+    "class" : "MeleeCombo",
+
+    "comboSteps" : 2,
+
+    "flashTime" : 0.15,
+    "flashDirectives" : "fade=FFFFFFFF=0.15",
+
+    "swooshOffsetRegions" : [
+      [0.75, 0.0, 4.25, 5.0],
+      [3.0, -0.5, 6.5, 2.0],
+      [1.5, -1.0, 5.5, 1.0]
+    ],
+
+    // cooldown time multiplier for steps after the first, compounded per combo step
+    "comboSpeedFactor" : 0.8,
+
+    "edgeTriggerGrace" : 0.25,
+
+    "fireTime" : 0.8,
+    "baseDps" : 3.0,
+
+    "damageConfig" : {
+      "damageSourceKind" : "broadsword",
+      "statusEffects" : [ "saturnburning" ],
+      "knockbackMode" : "facing",
+      "timeout" : 0.10
+    },
+    "stepDamageConfig" : [
+      {
+        "baseDamageFactor" : 0.5,
+        "knockback" : 20
+      },
+      {
+        "baseDamageFactor" : 0.5,
+        "knockback" : 50
+      }
+    ],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : -10,
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "windup1" : {
+        "duration" : 0.1,
+        "armRotation" : 90,
+        "weaponRotation" : -10,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "preslash1" : {
+        "duration" : 0.025,
+        "armRotation" : 55,
+        "weaponRotation" : -45,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "fire1" : {
+        "duration" : 0.15,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "wait1" : {
+        "duration" : 0.2,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "twoHanded" : true
+      },
+      "windup2" : {
+        "duration" : 0.15,
+        "armRotation" : -15,
+        "weaponRotation" : -60,
+        "weaponOffset" : [0, 0],
+        "twoHanded" : true,
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "fire2" : {
+        "duration" : 0.2,
+        "armRotation" : -150,
+        "weaponRotation" : 55,
+        "weaponOffset" : [0, 0],
+        "twoHanded" : true,
+        "allowFlip" : false,
+        "allowRotate" : false
+      },
+      "wait2" : {
+        "duration" : 0.2,
+        "armRotation" : -150,
+        "weaponRotation" : 55,
+        "weaponOffset" : [0, 0],
+        "allowRotate" : false,
+        "allowFlip" : true,
+        "twoHanded" : true
+      },
+      "windup3" : {
+        "duration" : 0.15,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "fire3" : {
+        "duration" : 0.2,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Hover",
+    "type" : "saturnrisingslash",
+    "scripts" : ["/items/active/weapons/melee/abilities/broadsword/risingslash/risingslash.lua"],
+    "class" : "RisingSlash",
+
+    "energyUsage" : 90.0,
+    "cooldownTime" : 2,
+
+    "dashSpeed" : 4,
+    "dashControlForce" : 10000,
+
+    "damageConfig" : {
+      "damageSourceKind" : "broadsword",
+      "baseDamage" : 0,
+	  "statusEffects" : [ "saturnburning" ],
+      "knockback" : [0, 40],
+      "timeout" : 0.1,
+      "timeoutGroup" : "alt"
+    },
+	"fireSound" : "fire3",
+
+    "stances" : {
+      "windup" : {
+        "duration" : 0.01,
+        "armRotation" : -90,
+        "weaponRotation" : -170,
+        "twoHanded" : true,
+        "allowRotate" : false,
+
+		"burstParticleEmitters" : ["numerals"],
+        "allowFlip" : true
+      },
+      "slash" : {
+        "duration" : 5,
+        "armRotation" : -90,
+        "weaponRotation" : -170,
+        "twoHanded" : true,
+		"playSounds" : ["altWindup"],
+		"burstParticleEmitters" : ["numerals"],
+		
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "freeze" : {
+        "duration" : 0.01,
+        "armRotation" : -90,
+        "weaponRotation" : -170,
+        "twoHanded" : true,
+		"burstParticleEmitters" : ["numerals"],
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

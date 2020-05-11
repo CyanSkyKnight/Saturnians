@@ -1,0 +1,22 @@
+{
+  "itemName" : "saturnslopedpanelBirch",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "saturnslopedpanelBirch.png",
+  "largeImage" : "/items/materials/tooltips/saturnslopedpanelBirch.png",
+  "tooltipKind" : "saturnpaintedblock",
+  
+  "shortdescription" : "Birch Panel",
+  "description" : "Sloped wood panels similar to that of Earth's birch trees. It is completely fireproof.",
+  "apexDescription" : "This wood has a fireproof coating.",
+  "avianDescription" : "Wood that's been crafted into planks.",
+  "glitchDescription" : "Satisfied. These are well crafted wood planks.",
+  "floranDescription" : "Sssplintery wood plankss.",
+  "humanDescription" : "Some simple planks made from wood.",
+  "hylotlDescription" : "Basic wood planks.",
+  "novakidDescription" : "Just some basic lookin' wood planks.",
+  "saturndescription" : "Supposedly this wood is only so popular because alchemists and wizards can't set it on fire.",
+  "learnBlueprintsOnPickup" : [ "saturnbirch", "saturnslopedpanelBirch" ],
+  "materialId" : 54708
+}

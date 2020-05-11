@@ -1,0 +1,21 @@
+{
+  "kind" : "saturnsparkledim",
+  "definition" : {
+    "type" : "animated",
+    "looping" : true,
+    "animation" : "/animations/sparkles/sparkle4.animation",
+    "position" : [0, 0],
+    "finalVelocity" : [0, 0],
+    "approach" : [50, 50],
+    "destructionAction" : "shrink",
+    "destructionTime" : 1,
+    "fade" : 0.4,
+    "fullbright" : true,
+    "size" : 0.5,
+    "layer" : "middle",
+    "timeToLive" : 0.425,
+    "variance" : {
+      "finalVelocity" : [1.5, 1.5]
+    }
+  }
+}

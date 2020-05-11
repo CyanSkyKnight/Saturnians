@@ -1,0 +1,22 @@
+{
+  "projectileName" : "saturnvoidbomb",
+  "physics" : "grenade",
+  "bounces" : 0,
+  "timeToLive" : 3,
+  "damageKindImage" : "electricicon.png",
+  "image" : "saturnvoidbomb.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 1,
+      "type" : "saturnblackhole",
+      "fuzzAngle" : 0,
+      "angleAdjust" : 0
+    }
+  ],
+  "power" : 50,
+  "damageType" : "NoDamage",
+  "damageKind" : "electricplasma"
+}

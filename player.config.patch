@@ -1,0 +1,50 @@
+[
+{ "op" : "add", "path" : "/species/-",
+"value" : "saturn"
+},
+{ "op" : "add", "path" : "/species/-",
+"value" : "saturn2"
+},
+
+{
+"op": "add",
+"path": "/defaultCodexes/saturn",
+"value": [ "protectorate1", "protectorate2" ]
+},
+
+{
+"op": "add",
+"path": "/defaultCodexes/saturn2",
+"value": [ "protectorate1", "protectorate2" ]
+},
+
+
+{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value":{"item" : "saturnbookcase"} },
+{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value":{"item" : "saturncanvas"} },
+{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value":{"item" : "saturncrystalball"} },
+{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value":{"item" : "saturncrystallamp"} },
+{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value":{"item" : "saturncrystallampOrange"} },
+{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value":{"item" : "saturnebony"} },
+{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value":{"item" : "saturnbirch"} },
+
+
+{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value":{"item" : "saturnebonychair"} },
+{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value":{"item" : "saturnebonytable"} },
+
+{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value":{"item" : "Saturnstationtram"} },
+{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value":{"item" : "Saturnstationtram2"} },
+
+
+{"op" : "add", "path" : "/defaultBlueprints/tier1/-", "value":{"item" : "saturnFurnitureSummoner" } },
+{
+"op": "add",
+"path": "/deploymentConfig/speciesStarterMechBody/saturn",
+"value":  "mechbodysaturnproto" 
+},
+{
+"op": "add",
+"path": "/deploymentConfig/speciesStarterMechBody/saturn2",
+"value":  "mechbodysaturnproto" 
+}
+
+]

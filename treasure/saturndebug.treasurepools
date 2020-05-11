@@ -1,0 +1,30 @@
+//this is what I use to test new characters
+{
+ 	"saturndebug" : [
+		[0, {
+			"fill" : [
+				{ "item" : [ "superfishaxe", 1]},
+				{ "item" : [ "saturnLunaGuard", 1]},
+				{ "item" : [ "saturnWaspchest", 1]},
+				{ "item" : [ "saturnWasppants", 1]},
+				{ "item" : [ "saturnBatonT7", 1]},
+				{ "item" : [ "drillspear", 1]},
+				{ "item" : [ "heatprotectionback", 1]},
+				{ "item" : [ "gravityaugment", 1]},
+				{ "item" : [ "Saturnclimbingrope", 1]},
+				{ "item" : [ "saturn_bluestim", 100]},
+				{ "item" : [ "saturn_greenstim", 100]},
+				{ "item" : [ "manipulatormodule", 100]},
+				{ "item" : [ "Saturnrailhook", 1]},
+				{ "item" : [ "saturnWingEnergy", 1]},
+				{ "item" : [ "saturnwiretool", 1]},
+				{ "item" : [ "saturnWingEnergy", 1]},
+				
+				{ "item" : [ "spaceorgan", 1]},
+				{ "item" : [ "brightpiano", 1]},
+				{ "item" : [ "rockorgan", 1]},
+				{ "item" : [ "money", 500000]}
+			]
+		} ]
+	]
+}

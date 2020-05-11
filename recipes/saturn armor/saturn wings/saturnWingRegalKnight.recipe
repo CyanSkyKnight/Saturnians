@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 1 },
+    { "item" : "goldbar", "count" : 1 },
+	{ "item" : "money", "count" : 50 } 
+  ],
+  "duration" : 0.01,
+  "output" : { "item" : "saturnWingRegalKnight", "count" : 1 },
+  "groups" : [ "SaturnWings", "all" ]
+}

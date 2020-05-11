@@ -1,0 +1,23 @@
+{
+  "itemName" : "saturnslopedpanelOak",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "saturnslopedpanelOak.png",
+  "largeImage" : "/items/materials/tooltips/saturnslopedpanelOak.png",
+  "tooltipKind" : "saturnpaintedblock",
+  
+  "shortdescription" : "Dark Oak Panel",
+  "description" : "Sloped wood panels similar to that of Earth's oak trees. It is completely fireproof. ",
+  
+  "apexDescription" : "Some crafted planks of wood.",
+  "avianDescription" : "Wood that's been crafted into planks.",
+  "glitchDescription" : "Satisfied. These are well crafted wood planks.",
+  "floranDescription" : "Sssplintery wood plankss.",
+  "humanDescription" : "Some simple planks made from wood.",
+  "hylotlDescription" : "Basic wood planks.",
+  "novakidDescription" : "Just some basic lookin' wood planks.",
+  "saturndescription" : "Supposedly this wood is only so popular because alchemists and wizards can't set it on fire.",
+
+  "materialId" : 54710
+}

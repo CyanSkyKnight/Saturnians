@@ -1,0 +1,12 @@
+[ 
+    { 
+        "op" : "add", "path" : "/npc/species/-", 
+        "value" : "saturn"
+    },
+    { 
+        "op" : "add", "path" : "/npc/species/-", 
+        "value" : "saturn2"
+    }
+
+
+]

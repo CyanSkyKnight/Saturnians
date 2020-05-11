@@ -1,0 +1,47 @@
+{
+  "itemName" : "SaturnBowT2",
+  "price" : 410,
+  "inventoryIcon" : "SaturnBowT2icon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "tooltipKind" : "bow",
+  "category" : "saturnbow",
+  "description" : "Wooden bow used for hunting and light.",
+  "shortdescription" : "Forester's Ebony Bow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "bow", "upgradeableWeapon"],
+  "radioMessagesOnPickup" : [ "pickupbow" ],
+  "level" : 2,
+  "animation" : "/items/active/weapons/Saturn Shortbows/SaturnLightbow.animation",
+  "animationParts" : {
+    "bow" : "SaturnBowT2.png",
+	"bowFullbright" : "SaturnBowT2FB.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0, -0.0625]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/melee/saturnbowdraw.ogg", "/sfx/melee/saturnbowdraw2.ogg", "/sfx/melee/saturnbowdraw3.ogg" ],
+      "release" : [ "/sfx/gun/bow_loose.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "projectileType" : "Saturncrystalarrow2",
+    "powerProjectileType" : "Saturnchargedcrystalarrow2",
+    "projectileParameters" : {
+      "power" : 6.5
+    }
+  },
+  "altAbilityType" : "zenshot",
+  "altAbility" : {
+    "projectileType" : "Saturncrystalarrow2",
+    "projectileParameters" : {
+      "power" : 8.125
+    }
+  },
+  "builder" : "/items/buildscripts/buildbow.lua"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "wizardsmith_kyterranB",
+  "priority": 10,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "kyterran": 1,
+    "mining": 6,
+    "crafting": 4
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "satkyterran",
+      "type": "SaturnWizardSmith_tenant",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "merchantGift"
+  }
+}

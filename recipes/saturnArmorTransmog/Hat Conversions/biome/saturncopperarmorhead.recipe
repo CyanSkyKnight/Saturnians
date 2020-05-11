@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "copperarmorhead", "count" : 1 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "saturncopperarmorhead", "count" : 1 },
+  "groups" : [ "saturntransmoghats", "all" ]
+}

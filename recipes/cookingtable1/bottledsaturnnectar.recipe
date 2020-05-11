@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "liquidsaturnnectar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "bottledsaturnnectar",
+    "count" : 1
+  },
+  "groups" : [ "craftingfood", "drinks" ]
+}

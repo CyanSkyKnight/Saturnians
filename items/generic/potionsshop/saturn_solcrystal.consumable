@@ -1,0 +1,28 @@
+{
+  "itemName" : "saturn_solcrystal",
+  "price" : 500,
+  "rarity" : "Common",
+  "category" : "medicine",
+  "inventoryIcon" : "saturn_solcrystal.png",
+  "description" : "This crystal can absorb and store a massive amount of energy from sunlight.",
+  "shortdescription" : "Sol Crystal",
+  "effects" : [ [
+      {
+        "effect" : "burning",
+        "duration" : 4
+      },
+	  {
+        "effect" : "saturnnova",
+        "duration" : 7
+      },
+	  {
+        "effect" : "paralysis",
+        "duration" : 8
+      },
+	  {
+        "effect" : "energyregen",
+        "duration" : 7
+      }
+    ] ],
+  "emote" : "oooh"
+}

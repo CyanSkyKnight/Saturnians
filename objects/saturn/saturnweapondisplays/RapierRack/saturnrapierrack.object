@@ -1,0 +1,30 @@
+{
+  "objectName" : "saturnrapierrack",
+  "colonyTags" : ["saturn", "pretty", "combat", "tier2"],
+  "rarity" : "Common",
+  "description" : "A rack full of obsidian rapiers.",
+  "shortdescription" : "Saturnian Rapier Rack",
+  "race" : "saturn",
+  "category" : "decorative",
+  "price" : 110,
+  
+  "apexDescription" : "Huh? An obsidian weapon would just shatter as soon as it hits something.",
+  "avianDescription" : "A selection of glass swords shining in the light.",
+  "floranDescription" : "Ssstand holdss swordss.",
+  "glitchDescription" : "Curious. Could these pierce Glitch armor?",
+  "humanDescription" : "A set of rapiers made of some kind of glass?",
+  "hylotlDescription" : "These swords look nice, but they would break very easily.",
+  "novakidDescription" : "These swords can pierce weak spots on armor, but a revolver can do this from a distance.",
+  "saturnDescription" : "Many of our enemies have tough shells or armor, so regular swords just won't do. ",
+  "inventoryIcon" : "saturnrapierrackicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnrapierrack.png:<color>",
+      "imagePosition" : [-16, -0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

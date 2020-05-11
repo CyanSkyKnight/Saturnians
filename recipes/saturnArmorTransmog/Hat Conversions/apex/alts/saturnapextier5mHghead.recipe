@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "saturnapextier5mGohead", "count" : 1 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "saturnapextier5mHghead", "count" : 1 },
+  "groups" : [ "saturntransmoghelms", "all" ]
+}

@@ -1,0 +1,84 @@
+{
+  "itemName" : "satstaffT4",
+  "level" : 4,
+  "price" : 800,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Shoots a poison cloud.",
+  "shortdescription" : "Poison Rain Wand",
+  "category" : "saturnwand",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","wand", "upgradeableWeapon"],
+  "tooltipKind" : "staff",
+  "animation" : "/items/active/weapons/saturnstaff/satstaff.animation",
+  "animationParts" : {
+    "staff" : "satstaffOverdesigned.png",
+    "stone" : "satstaffOverdesignedFB.png",
+    "chargeEffect" : "satglowPoison.png"
+  },
+  "animationCustom" : {
+	"lights" : {
+      "glow" : {
+        "color" : [20, 53, 20]
+		}
+	  }
+  },
+  "inventoryIcon" : "satstaffOverdesigned.png",
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+  "baseDamageFactor" : 0.5,
+  
+   "stances" : {
+    "idle" : {
+      "weaponOffset" : [0, 1.0],
+      "armRotation" : -90,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 1.0,
+      "armRotation" : 10,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "weaponOffset" : [0, 1.5],
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -50,
+      "twoHanded" : false,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "weaponOffset" : [0, 1.0],
+      "duration" : 0.5,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+  "elementalName" : "Poison",
+  "elementalType" : "poison",
+  "primaryAbilityType" : "elementrain",
+  "primaryAbility" : {
+      "name" : "Poison Rain"
+  },
+  
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

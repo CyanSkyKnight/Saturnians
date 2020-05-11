@@ -1,0 +1,34 @@
+{
+  "objectName" : "saturnbottle9",
+  "colonyTags" : ["saturn", "alchemy" ],
+  "rarity" : "Common",
+  "price" : 10,
+  "description" : "[^#ff99ff;Decorative^reset;] A strange potion that makes the drinker jump higher.",
+  "shortdescription" : "^#000300;^white;Blue Potion Bottle",
+  "category" : "decorative",
+  "race" : "generic",
+  
+  "apexDescription": "What could this liquid do?",
+  "avianDescription": "I wonder what the effect of this is?",
+  "floranDescription": "Ssstrange drink.",
+  "glitchDescription": "Pleased. Glitch alchemists also brew potions like this one.",
+  "humanDescription": "I wonder what the effect of this is?",
+  "hylotlDescription": "What a strange liquid.",
+  "novakidDescription": "I'm not drinkin' any random liquids unless I know what they do.",
+  
+  "saturnDescription": "This potion boosts one's jumping ability. Woooo!",
+  "saturn2Description": "This potion grants the ability to jump nearly twice one's regular height.",
+  "satkyterranDescription" : "A potion of high jump. I don't want to remember the time I used one underground...",
+  
+  "inventoryIcon" : "saturnbottle9icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnbottle9.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

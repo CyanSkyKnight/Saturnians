@@ -1,0 +1,46 @@
+{
+  "objectName" : "saturnteleporterTier0",
+  "colonyTags" : ["saturn"],
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "category" : "decorative",
+  "description" : "A disabled teleporter. Power needs to be redirected to it.",
+  "shortdescription" : "Sat. Powerless Warp Pad",
+  "race" : "saturn",
+  "apexDescription" : "The ship's teleporter. I need to power it up.",
+  "avianDescription" : "The teleporter If only this one was powered up.",
+  "floranDescription" : "Ship teleporter. This one dead.",
+  "glitchDescription" : "Disappointed. A teleporter without power. I need to power it up.",
+  "humanDescription" : "The teleporter Too bad it isn't powered up.",
+  "hylotlDescription" : "This teleporter is off.",
+  "novakidDescription" : "Ship's teleporter. I need to power her up",
+  "saturnDescription" : "S.A.I.L. can power this back up. Ow my back...",
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [ ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+  "inventoryIcon" : "teleportericonTier0.png",
+  "orientations" : [
+    {
+      "image" : "saturnteleporterTier0.png:<color>",
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [-2, 9], [-1, 9], [0, 9], [1, 9] ],
+      "sitPosition" : [-8, 8]
+    }
+  ],
+  "animation" : "/objects/noisy/noisy.animation",
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
+}

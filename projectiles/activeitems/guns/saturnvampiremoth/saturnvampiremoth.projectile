@@ -1,0 +1,23 @@
+{
+  "projectileName" : "saturnvampiremoth",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "saturnvampiremoth.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "timeToLive" : 1,
+  "power" : 50,
+  "speed" : 75,
+  "supportsProcessing" : true,
+  "statusEffects" : [
+    "saturnvampire"
+  ],  
+  "lightColor" : [200, 73, 73],
+  "fullbright" : true,
+  "physics" : "laser",
+  "scripts" : [ "/scripts/projectiles/sinewaveprojectile.lua" ],
+  "wavePeriod" : 0.4,
+
+  "waveAmplitude" : 0.2,
+  "damageKind" : "default"
+}

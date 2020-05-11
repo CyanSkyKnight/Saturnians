@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 1},
+	{ "item" : "liquidhealing", "count" : 25},
+	{ "item" : "scorchedcore", "count" : 3},
+	{ "item" : "cryonicextract", "count" : 3},
+    { "item" : "wateringcan", "count" : 1 }
+  ],
+  "output" : { "item" : "satstaffrain", "count" : 1 },
+  "groups" : [ "saturnpracticalmagic", "all" ]
+}

@@ -1,0 +1,15 @@
+{
+  "name" : "saturncalm75sleep",
+  "effectConfig" : {
+    "powerModifier" : 0.6
+  },
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "rage.lua"
+  ],
+
+  "animationConfig" : "saturncalm.animation",
+  "label" : "60% Damage",
+  "icon" : "/interface/statuses/sleep.png"
+}

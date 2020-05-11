@@ -1,0 +1,59 @@
+{
+  "objectName" : "saturnicebox2",
+  "colonyTags" : ["saturn","storage","cooking"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "fridgeStorage",
+  "price" : 110,
+  "description" : "An icebox that cools food and drinks in a similar manner to a wand.",
+  "shortdescription" : "Mage Icebox",
+  "race" : "saturn",
+  "health" : 1.5,
+
+  "apexDescription" : "It's rare the Apex have food to spare.",
+  "avianDescription" : "A food storage device.",
+  "floranDescription" : "Floran lovesss cold food ssstore. Keep meat fresh, yesss.",
+  "glitchDescription" : "Determined. I must raid this food storage device!",
+  "humanDescription" : "A fridge! Just what you need to keep food cool.",
+  "hylotlDescription" : "We have no need for such devices under the ocean.",
+  "novakidDescription" : "It's chilly on the inside to keep food fresh for longer.",
+  
+  "saturnDescription" : "The crystal on the side of this box is the same kind that powers ice wands.",
+  "saturn2Description" : "This type of ice magic has more in common with sci staves than it does with light magic.",
+  "satkyterranDescription" : "Aack! It's cold!",
+  
+  "inventoryIcon" : "saturnicebox2icon.png",
+  "orientations" : [
+  
+      {
+      "image" : "saturnicebox2.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+  
+  
+  
+    {
+      "image" : "saturnicebox2.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "itemAgeMultiplier" : 0.0
+}

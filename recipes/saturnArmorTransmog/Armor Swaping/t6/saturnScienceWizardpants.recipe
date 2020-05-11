@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "saturnNovaWizardpants", "count" : 1 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "saturnScienceWizardpants", "count" : 1 },
+  "groups" : [ "saturntransmogbonus", "all" ]
+}

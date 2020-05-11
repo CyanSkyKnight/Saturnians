@@ -1,0 +1,29 @@
+{
+  "objectName" : "saturnalembic",
+  "colonyTags" : ["saturn", "alchemy" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "An alchemical device for distilling liquids.",
+  "shortdescription" : "^#000290;^white;Alembic",
+  "category" : "decorative",
+  "race" : "saturn",
+ 
+  "apexDescription" : "It's chemistry equipment.",
+  "floranDescription" : "Cleansss liquidsss.",
+  "glitchDescription" : "Informative. Alchemists use these to distill liquids.",
+  "novakidDescription": "It's some kinda liquid purifier.",
+  "saturnDescription" : "A crystal heats this up to distill a liquid.",
+  "saturn2Description" : "A crystal heats this up to distill a liquid.",
+  "satkyterranDescription" : "A crystal heats this up to distill a liquid.",
+  "inventoryIcon" : "saturnalembicicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnalembic.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

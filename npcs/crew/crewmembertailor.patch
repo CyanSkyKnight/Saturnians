@@ -1,0 +1,25 @@
+[
+
+
+
+{"op" : "add", "path" : "/items/saturn", "value":[[0, [
+		{
+
+			"chest" : [
+			{ "name" : "saturnmerchantchest"}
+			],
+			
+			"legs" : [
+			{ "name" : "saturnmerchantlegs"}
+			],
+			
+			"primary" : [
+			{ "name" : "saturnmundanebroom"}
+			],
+			"sheathedprimary" : [
+			{ "name" : "SaturnBowNpc"}
+			]
+			
+		}
+	]]]}
+]

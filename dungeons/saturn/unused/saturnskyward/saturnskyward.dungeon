@@ -1,0 +1,129 @@
+{
+  "metadata" : {
+    "name" : "saturnskyward",
+    "species" : "saturn",
+    "rules" : [
+    ],
+    "anchor" : [ "saturnskywardtower" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 60,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+  
+    {
+      "name" : "saturnskywardtower",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "saturnskywardtowerpinnacle", "saturnskywardtower", "saturnskywardtowerConnector" ] ]
+
+      ],
+      "def" : [ "tmx", "saturnskywardtower.json" ]
+    },
+	
+    {
+      "name" : "saturnskywardtowerpinnacle",
+      "rules" : [
+		[ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "saturnskywardtowerpinnacle", "saturnskywardtower", "saturnskywardtowerConnector" ] ]
+
+      ],
+      "def" : [ "tmx", "saturnskywardtowerpinnacle.json" ],
+	  "chance" : 0
+    },
+
+	
+//houses
+
+    {
+      "name" : "saturnskywardwizard",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "saturnskywardtowerpinnacle", "saturnskywardtower", "saturnskywardairship", "saturnskywardhouse1", "saturnskywardwizard" ] ]
+
+      ],
+      "def" : [ "tmx", "saturnskywardwizard.json" ]
+    },
+
+
+    {
+      "name" : "saturnskywardairship",
+      "rules" : [
+        [ "doNotConnectToPart", [ "saturnskywardtowerpinnacle", "saturnskywardtower", "saturnskywardairship", "saturnskywardhouse1", "saturnskywardwizard" ] ]
+
+      ],
+      "def" : [ "tmx", "saturnskywardairship.json" ]
+    },
+	
+	
+//left
+
+    {
+      "name" : "saturnskywardhouse1",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "saturnskywardtowerpinnacle", "saturnskywardtower", "saturnskywardairship", "saturnskywardhouse1", "saturnskywardwizard" ] ]
+
+      ],
+      "def" : [ "tmx", "saturnskywardhouse1.json" ]
+    },
+
+	
+	
+	
+//Paths
+	
+
+//tower connectors
+    {
+      "name" : "saturnskywardpathR1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "saturnskywardpathR1", "saturnskywardpathR2", "saturnskywardpathL1", "saturnskywardpathL2" ] ]
+
+      ],
+      "def" : [ "tmx", "saturnskywardpathR1.json" ]
+    },
+    {
+      "name" : "saturnskywardpathL1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "saturnskywardpathR1", "saturnskywardpathR2", "saturnskywardpathL1", "saturnskywardpathL2" ] ]
+
+      ],
+      "def" : [ "tmx", "saturnskywardpathL1.json" ]
+    },
+	
+	
+	
+//tileable connectors 
+    {
+      "name" : "saturnskywardpathR2",
+      "rules" : [
+        [ "maxSpawnCount", [8] ],
+        [ "doNotConnectToPart", [ "saturnskywardpathR1", "saturnskywardpathR2", "saturnskywardpathL1", "saturnskywardpathL2" ] ]
+
+      ],
+      "def" : [ "tmx", "saturnskywardpathR2.json" ]
+    },
+	
+
+    {
+      "name" : "saturnskywardpathL2",
+      "rules" : [
+        [ "maxSpawnCount", [8] ],
+		
+        [ "doNotConnectToPart", [ "saturnskywardpathR1", "saturnskywardpathR2", "saturnskywardpathL1", "saturnskywardpathL2" ] ]
+
+      ],
+      "def" : [ "tmx", "saturnskywardpathL2.json" ]
+    }
+	
+	
+  ]
+}

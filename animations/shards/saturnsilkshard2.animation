@@ -1,0 +1,10 @@
+{
+  "frames" : "saturnsilkshard2.png",
+  "variants" : 1,
+  "loops" : 1,
+  "frameNumber" : 5,
+  "animationCycle" : 1,
+  "fullbright" : true,
+  "looping" : false,
+  "offset" : [0, 0]
+}

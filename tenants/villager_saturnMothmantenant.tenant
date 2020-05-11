@@ -1,0 +1,26 @@
+{
+  "name": "saturnMothmantenant",
+  "priority": 2,
+
+  "colonyTagCriteria": {
+    "light": 0,
+    "door": 1,
+    "saturn": 2,
+	"dark" : 4
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "saturnmothman",
+      "type": "saturnMothmantenant",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "saturnMothmanGift"
+  }
+}

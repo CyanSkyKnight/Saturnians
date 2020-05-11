@@ -1,0 +1,206 @@
+{
+  "globalTagDefaults" : {
+    "paletteSwaps" : ""
+  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "charge" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {},
+          "charge" : {
+            "frames" : 13,
+            "cycle" : 1.3,
+            "mode" : "transition",
+            "transition" : "spark"
+          },
+          "spark" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "transition",
+            "transition" : "charged"
+          },
+          "charged" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          },
+          "discharge" : {
+            "frames" : 3,
+            "cycle" : 0.3,
+            "mode" : "transition",
+            "transition" : "idle"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "stone" : {
+        "properties" : {
+          "zLevel" : 0,
+          "centered" : true,
+          "fullbright" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0.0, 0.5],
+          "focalPoint" : [0.0, 1.25],
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "handle" : {
+        "properties" : {
+          "zLevel" : 1,
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0.0, 0.5],
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "crown" : {
+        "properties" : {
+          "zLevel" : 2,
+          "centered" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [0.0, 0.5],
+          "transformationGroups" : ["weapon"]
+        }
+      },
+      "chargeEffect" : {
+        "properties" : {
+          "zLevel" : 3,
+          "fullbright" : true,
+          "centered" : true,
+          "offset" : [0, 1.0],
+          "transformationGroups" : ["weapon"]
+        },
+
+        "partStates" : {
+          "charge" : {
+            "charge" : {
+              "properties" : {
+                "image" : "<partImage>:charging.<frame>"
+              }
+            },
+            "spark" : {
+              "properties" : {
+                "image" : "<partImage>:spark.<frame>"
+              }
+            },
+            "charged" : {
+              "properties" : {
+                "image" : "<partImage>:loop.<frame>"
+              }
+            },
+            "discharge" : {
+              "properties" : {
+                "image" : "<partImage>:discharge.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "lights" : {
+    "glow" : {
+      "active" : true,
+      "position" : [0, 3.0],
+      "color" : [0, 0, 0],
+      "transformationGroups" : ["weapon"]
+    }
+  },
+
+  "particleEmitters" : {
+    "physicalcharge" : {
+      "active" : false,
+      "transformationGroups" : ["weapon"],
+      "emissionRate" : 10,
+      "offsetRegion" : [-0.5, 1.0, 0.5, 2.5],
+      "particles" : []
+    },
+    "firecharge" : {
+      "active" : false,
+      "transformationGroups" : ["weapon"],
+      "emissionRate" : 10,
+      "offsetRegion" : [-0.5, 1.0, 0.5, 2.5],
+      "particles" : [
+        {"particle" : "fireswoosh1"},
+        {"particle" : "fireswoosh2"},
+        {"particle" : "fireswoosh3"}
+      ]
+    },
+    "electriccharge" : {
+      "active" : false,
+      "transformationGroups" : ["weapon"],
+      "emissionRate" : 10,
+      "offsetRegion" : [-0.5, 1.0, 0.5, 2.5],
+      "particles" : [
+        {"particle" : "electricswoosh1"},
+        {"particle" : "electricswoosh2"},
+        {"particle" : "electricswoosh2"}
+      ]
+    },
+    "poisoncharge" : {
+      "active" : false,
+      "transformationGroups" : ["weapon"],
+      "emissionRate" : 10,
+      "offsetRegion" : [-0.5, 1.0, 0.5, 2.5],
+      "particles" : [
+        {"particle" : "poisonswoosh1"},
+        {"particle" : "poisonswoosh2"},
+        {"particle" : "fireswoosh2"}
+      ]
+    },
+    "icecharge" : {
+      "active" : false,
+      "transformationGroups" : ["weapon"],
+      "emissionRate" : 10,
+      "offsetRegion" : [-0.5, 1.0, 0.5, 2.5],
+      "particles" : [
+        {"particle" : "iceswoosh1"},
+        {"particle" : "iceswoosh2"},
+        {"particle" : "iceswoosh3"}
+      ]
+    }
+  },
+
+  "transformationGroups" : {
+    "weapon" : {}
+  },
+
+  "sounds" : {
+    "physicalcharge" : ["/sfx/melee/saturnactive.ogg"],
+    "physicalfullcharge" : ["/sfx/melee/saturncharge.ogg"],
+    "physicalchargedloop" : ["/sfx/melee/charge_full_hold1.ogg"],
+    "physicaldischarge" : ["/sfx/melee/saturndischarge.ogg"],
+    "physicalactivate" : ["/sfx/melee/saturnactive.ogg"],
+
+    "firecharge" : ["/sfx/melee/saturnactive.ogg"],
+    "firefullcharge" : ["/sfx/melee/saturncharge.ogg"],
+    "firechargedloop" : ["/sfx/melee/staff_charged_fire2.ogg"],
+    "firedischarge" : ["/sfx/melee/saturndischarge.ogg"],
+    "fireactivate" : ["/sfx/melee/saturnactive.ogg"],
+
+    "icecharge" : ["/sfx/melee/saturnactive.ogg"],
+    "icefullcharge" : ["/sfx/melee/saturncharge.ogg"],
+    "icechargedloop" : ["/sfx/melee/staff_charged_ice2.ogg"],
+    "icedischarge" : ["/sfx/melee/saturndischarge.ogg"],
+    "iceactivate" : ["/sfx/melee/saturnactive.ogg"],
+
+    "electriccharge" : ["/sfx/melee/saturnactive.ogg"],
+    "electricfullcharge" : ["/sfx/melee/saturncharge.ogg"],
+    "electricchargedloop" : ["/sfx/melee/staff_charged_electric2.ogg"],
+    "electricdischarge" : ["/sfx/melee/saturndischarge.ogg"],
+    "electricactivate" : ["/sfx/melee/saturnactive.ogg"],
+
+    "poisoncharge" : ["/sfx/melee/saturnactive.ogg"],
+    "poisonfullcharge" : ["/sfx/melee/saturncharge.ogg"],
+    "poisonchargedloop" : ["/sfx/melee/staff_charged_poison2.ogg"],
+    "poisondischarge" : ["/sfx/melee/saturndischarge.ogg"],
+    "poisonactivate" : ["/sfx/melee/saturnactive.ogg"],
+
+    "zoneactivate" : ["/sfx/melee/staff_aura_activate.ogg"]
+  }
+}

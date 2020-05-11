@@ -1,0 +1,50 @@
+[
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/roleDescription/saturn",
+"value":  {"default" : [
+
+
+	"I've been running around spraying everyone with this potion. Is that ok?",
+	"I've applied these potions to everyone with this perfume bottle. Is that fine, or should I get the needles?",
+	"I'll give you a boost whenever we're on the ship!",
+    "I'll give everyone on the ship buffs whilst we're on board!"]
+
+}},
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/combatBenefit/saturn",
+"value":  {"default" : [
+
+
+          "Let me give you a boost real quick!",
+          "Here, let me spray you with this potion.",
+          "Let me help you out!",
+          "Looks like you could use my assistance!",
+          "I can help!"]
+
+}},
+
+
+{"op" : "add", "path" : "/items/saturn", "value":[[0, [
+		{
+
+			
+			"chest" : [
+			{ "name" : "saturnVoidMageOldchest"}
+			],
+			
+			"legs" : [
+			{ "name" : "saturnVoidMageOldpants"}
+			],
+			
+			"primary" : [
+			{ "name" : "saturn_redspray"}
+			],
+			"sheathedprimary" : [ "SaturnBowNpc"]
+			
+		}
+	]]]}
+
+]

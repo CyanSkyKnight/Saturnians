@@ -1,0 +1,86 @@
+{
+  "type" : "SaturnHatguy",
+  "baseType" : "merchant",
+  
+  
+  
+  "identity" : {
+    "bodyDirectives" : "?replace=EFF4F4FF=EA7CB7FF?replace=D5E1E2FF=CE61A6FF?replace=A2AEB2FF=B24794FF?replace=7E8899FF=992D83FF?replace=E5DB72FF=F4D57FFF?replace=DBC762FF=E5BB67FF?replace=CCB551FF=D3A156FF?replace=B2933EFF=B58956FF",
+	"emoteDirectives" : "?replace=EFF4F4FF=EA7CB7FF?replace=D5E1E2FF=CE61A6FF?replace=A2AEB2FF=B24794FF?replace=7E8899FF=992D83FF",
+    "facialMaskDirectives" : "?replace=EFF4F4FF=EA7CB7FF?replace=D5E1E2FF=CE61A6FF?replace=A2AEB2FF=B24794FF?replace=7E8899FF=992D83FF?replace=E5DB72FF=F4D57FFF?replace=DBC762FF=E5BB67FF?replace=CCB551FF=D3A156FF?replace=B2933EFF=B58956FF",
+    "hairDirectives" : "?replace=E5DB72FF=F4D57FFF?replace=DBC762FF=E5BB67FF?replace=CCB551FF=D3A156FF?replace=B2933EFF=B58956FF"
+  },
+
+
+  
+  
+  "dropPools" : [ "wizardtreasure" ],
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common"]
+    },
+
+    "merchant" : {
+      "categories" : {
+        "override": [ "SaturnHatguy" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 50,
+      "storeRadius" : -1,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "Hat Wizard",
+          "subtitle" : "Sells hats. Not magical ones though."
+        }
+      }
+    },
+
+
+	
+
+    "dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+              "I don't think these will fit you. If you have any Saturnian friends, you can get them a gift though!",
+			  "Huh? We don't get many alien travelers. I'm afraid these won't fit you quite right."
+            ],
+			"saturn" : [
+              "Would you like a hat? Every wizard needs a hat!",
+			  "I have a wide selection of hats, glasses, and circlets for sale."
+            ]
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+              "Farewell, traveler.",
+              "I hope to see you in the future.",
+              "Courage to you!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ "saturnRena1chest" ],
+            "legs" : [ "saturnsmartpants" ],
+            "head" : [ "saturnTophat" ],
+            "back" : [ "saturnWingRosy" ],
+            "primary" : [ "SaturnClutterSilk" ],
+            "sheathedprimary" : [
+              "SaturnGenwand"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

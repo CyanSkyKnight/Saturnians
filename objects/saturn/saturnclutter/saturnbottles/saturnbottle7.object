@@ -1,0 +1,34 @@
+{
+  "objectName" : "saturnbottle7",
+  "colonyTags" : ["saturn", "alchemy" ],
+  "rarity" : "Common",
+  "price" : 10,
+  "description" : "[^#ff99ff;Decorative^reset;] A strange potion that makes the drinker run faster.",
+  "shortdescription" : "^#000300;^white;Green Potion Bottle",
+  "category" : "decorative",
+  "race" : "generic",
+  
+  "apexDescription": "What could this liquid do?",
+  "avianDescription": "I wonder what the effect of this is?",
+  "floranDescription": "Ssstrange drink.",
+  "glitchDescription": "Pleased. Glitch alchemists also brew potions like this one.",
+  "humanDescription": "I wonder what the effect of this is?",
+  "hylotlDescription": "What a strange liquid.",
+  "novakidDescription": "I'm not drinkin' any random liquids unless I know what they do.",
+  
+  "saturnDescription": "It's a swiftness potion. Useful for avoiding foes.",
+  "saturn2Description": "It's a swiftness potion. It can make me run swifter than wind.",
+  "satkyterranDescription" : "A potion of swiftness? This would be perfect for dashing across the desert.",
+  
+  "inventoryIcon" : "saturnbottle7icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnbottle7.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

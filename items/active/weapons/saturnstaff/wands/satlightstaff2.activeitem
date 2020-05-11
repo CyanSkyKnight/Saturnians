@@ -1,0 +1,86 @@
+{
+  "itemName" : "saturnlightstaff2",
+  "level" : 1,
+  "price" : 500,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "This wand glows faintly. Raise it to light a larger area.",
+  "shortdescription" : "Beacon Wand",
+  "category" : "saturnwand",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","wand"],
+  "tooltipKind" : "saturnstaff",
+  "animation" : "/items/active/weapons/saturnstaff/saturnlightstaff2.animation",
+  "animationParts" : {
+    "staff" : "satlightstaff2.png",
+    "stone" : "satlightstaff2FB.png",
+    "chargeEffect" : "satglowLight2.png"
+  },
+  "inventoryIcon" : "satlightstaff2.png",
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+  "baseDamageFactor" : 0.4,
+  
+   "stances" : {
+    "idle" : {
+      "weaponOffset" : [0, 1.0],
+      "armRotation" : 0,
+      "weaponRotation" : -5,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 0.01,
+      "armRotation" : 10,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "weaponOffset" : [0, 1.5],
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "weaponOffset" : [0, 1.5],
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -50,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "weaponOffset" : [0, 1.0],
+      "duration" : 0.2,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+  "elementalName" : "Physical",
+  "elementalType" : "physical",
+  "primaryAbility" : {
+    "type" : "satstylelight",
+    "name" : "Light",
+    "scripts" : ["/items/active/weapons/staff/abilities/controlprojectile/controlprojectile.lua"],
+    "class" : "ControlProjectile",
+    "energyCost" : 0,
+    "maxCastRange" : 0,
+    "projectileCount" : 1,
+    "projectileDistance" : 2.5,
+    "projectileType" : "satlightorb",
+    "projectileParameters" : {
+      "baseDamage" : 0
+    }
+  },
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

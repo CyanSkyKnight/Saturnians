@@ -1,0 +1,32 @@
+{
+  "objectName" : "saturncanvaslumoth",
+  "colonyTags" : ["saturn", "saturnpaintings"],
+  "rarity" : "Common",
+  "description" : "A painting of a happy Lumoth.",
+  "shortdescription" : "Eb. Easel + Lumoth Painting",
+  "race" : "saturn",
+  "apexDescription" : "Lumoths have a synthetic looking light bulb on their back.",
+  "avianDescription" : "Do Saturnians keep Lumoths as pets",
+  "floranDescription" : "Floran likess Poptop drawing.",
+  "glitchDescription" : "Curious. I've heard Lumoths are mechanical beings like I am.",
+  "humanDescription" : "Probably should keep this kind of moth away from a mirror.",
+  "hylotlDescription" : "This poor thing will never catch the light on its back.",
+  "novakidDescription" : "I'm sure glad I don't have to keep movin' to glow like this moth does.",
+  "saturnDescription" : "Lumoth are popular pets back home.",
+  "saturn2Description" : "This painting looks like it was worth getting paint absolutely everywhere!",
+  "satkyterranDescription" : "I think the Saturnians have trained some of these to not tackle people.",
+  "category" : "decorative",
+  "price" : 110,
+  "inventoryIcon" : "saturncanvaslumothicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturncanvaslumoth.png:<color>",
+      "imagePosition" : [-16, -0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
+ 

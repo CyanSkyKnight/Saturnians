@@ -1,0 +1,27 @@
+{
+  "objectName" : "saturnbunting5x3bw",
+  "colonyTags" : ["saturn","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+  "description" : "Decorative ^#7267a5;black ^reset;and ^#ebe3ab;white ^reset;bunting based on the colors of banded tiger moths.",
+  "shortdescription" : "^#7267a5;Black ^reset;+ ^#ebe3ab;White^reset; Bunting 5x3",
+  "race" : "saturn",
+  "apexDescription" : "A wonderfully vibrant banner.",
+  "avianDescription" : "The grounded decorate their villages banners like this. They fill their lives with colour.",
+  "floranDescription" : "Pretty colourss, reminds Floran of flowers.",
+  "glitchDescription" : "Charmed. Poorly-made, but beautiful nonetheless.",
+  "humanDescription" : "Bright and cheerful colours",
+  "hylotlDescription" : "Such vibrancy can only exist above the ocean.",
+  "novakidDescription" : "There's somethin' about this banner. I like it.",
+  "inventoryIcon" : "saturnbuntingicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnbunting5x3.png",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1
+    }
+  ]
+}

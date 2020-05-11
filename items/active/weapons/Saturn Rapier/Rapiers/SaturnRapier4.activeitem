@@ -1,0 +1,35 @@
+{
+  "itemName" : "SaturnRapier4",
+  "price" : 570,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "The highly toxic poison from this rapier causes bleeding. Don't touch it.",
+  "shortdescription" : "Lonomia Rapier",
+  "tooltipKind" : "sword",
+  "category" : "saturnrapier",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "melee", "rapier", "upgradeableWeapon"],
+  "critChance" : 1,
+  "critBonus" : 1, 
+  "inventoryIcon" : "SaturnLonomiaRapier2.png",
+  "animation" : "/items/active/weapons/Saturn Rapier/SaturnGlowshortswordcombo.animation",
+  "animationParts" : {
+    "handle": "SaturnLonomiaRapier2.png",
+    "blade" : "SaturnLonomiaRapier2FB.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/SaturnFencingSwordThrust.ogg" ],
+	  "fire3" : [ "/sfx/melee/SaturnFencingSwordThrust4.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "poison",
+  "primaryAbilityType" : "Saturnshortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.625,
+    "baseDps" : 7.5
+  },
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,4 @@
+[ 
+{"op":"add", "path":"/initialquests/saturn",   "value": [ "protectorate" ]},
+{"op":"add", "path":"/initialquests/saturn2",   "value": [ "protectorate" ]}
+]

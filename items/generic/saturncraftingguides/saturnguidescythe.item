@@ -1,0 +1,22 @@
+{
+  "itemName" : "saturnguidescythe",
+  "price" : 2500,
+  "rarity" : "Rare",
+  "category" : "saturncraftingguide",
+  "tooltipKind" : "saturnlorescrollpic",
+  "largeImage" : "saturnguidescythe.png",
+  "inventoryIcon" : "icon4.png",
+  "shortdescription" : "Thaumoth Scythe Scroll",
+  "description" : "This scroll details how to craft 6 Thaumoth scythes, 2-handed weapons with a 3-hit combo. The finishing step to the combo spins the scythe, hitting foes three times. \n^green;When picked up by non-Saturnians/Thaumoths, allows crafting of all tiered Thaumoth scythes. (Tiers 1-6)",
+
+  
+  	"learnBlueprintsOnPickup" : [ 
+	"saturnscytheT1",
+	"saturnscytheT2",
+	"saturnscytheT3",
+	"saturnscytheT4",
+	"saturnscytheT5",
+	"saturnscytheT6"
+	
+	]
+}

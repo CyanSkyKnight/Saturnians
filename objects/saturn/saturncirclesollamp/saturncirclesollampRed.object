@@ -1,0 +1,62 @@
+{
+  "objectName" : "saturncirclesollampRed",
+  "colonyTags" : ["light", "saturn"],
+  "rarity" : "Common",
+  "description" : "A glowing Avolite crystal. A favorite of the Avians.",
+  "shortdescription" : "Red Crystal Lamp",
+  "race" : "saturn",
+  "category" : "light",
+  "price" : 30,
+  "lightColor" : [240, 100, 100],
+  
+  "flickerPeriod" : 2.9,
+  "flickerMinIntensity" : 0.9,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+  "apexDescription" : "A glowing crystal used as a light source.",
+  "avianDescription" : "This crystal looks like it's the same kind Avians use. ",
+  "floranDescription" : "Pretty cryssstalss.",
+  "glitchDescription" : "Perplexed. What causes this crystal to glow so brightly for so long?",
+  "humanDescription" : "This lamp makes me think of rock candy.",
+  "hylotlDescription" : "A colorful crystal lamp.",
+  "novakidDescription" : "Just a glowing rock.",
+  "saturnDescription" : "Crystals like these last basically forever, and they don't set anyone on fire like torches do!",
+  "saturn2Description" : "A glowing crystal probably mined somewhere below Solalei.",
+  "satkyterranDescription" : "A glowing crystal probably mined somewhere below Solalei.",
+  "inventoryIcon" : "saturncirclesollampicon2.png:red",
+  "tooltipKind" : "saturnlight",
+  "largeImage" : "saturncirclesollampPreview.png:red",
+  "orientations" : [
+    {
+      "image" : "saturncirclesollamp.png:<color>.<frame>",
+      "imagePosition" : [-4, -24],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaces" : [ [0, 0], [0, -1], [-1, -2], [0, -2], [1, -2], [0, -3] ],
+      "anchors" : [ "top" ],
+      "lightPosition" : [0, -2],
+      "beamAngle" : 270
+    },
+    {
+      "image" : "saturncirclesollamp.png:<color>.<frame>",
+      "imagePosition" : [-4, -24],
+      "direction" : "right",
+      "spaces" : [ [0, 0], [0, -1], [-1, -2], [0, -2], [1, -2], [0, -3] ],
+      "anchors" : [ "top" ],
+      "lightPosition" : [0, -2],
+      "beamAngle" : 270
+    }
+  ],
+  "animation" : "/objects/wired/light/lighttogglefgfullbright.animation",
+  "animationParts" : {
+    "bg" : "saturncirclesollamp.png",
+    "fg" : "saturncirclesollampRed.png"
+  },
+  "animationPosition" : [-4, -24],
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+  "inputNodes" : [ [0, -2] ]
+}

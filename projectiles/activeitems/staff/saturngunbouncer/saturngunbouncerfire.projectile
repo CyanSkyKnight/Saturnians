@@ -1,0 +1,55 @@
+{
+  "projectileName" : "saturngunbouncerfire",
+  "physics" : "laser",
+  "timeToLive" : 5,
+  "image" : "saturngunbouncerfire.png",
+  "animationCycle" : 0.3,
+  "lightColor" : [120, 60, 30],
+  "frameNumber" : 4,
+  "periodicActions" : [ ],
+  "actionOnCollide" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/elementimpact/fireimpact.config"
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "loop",
+      "count" : 4,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : "fireshard"
+        }
+      ]
+    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/fireball_spit.ogg" ]
+    }
+  ],
+  "knockback" : 35,
+  "speed" : 45,
+  "power" : 30,
+  "piercing" : false,
+  "damageKind" : "fire",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "statusEffects" : [ "burning" ],
+
+  "fullbright" : true,
+  "hydrophobic" : true,
+  "emitters" : [ "fireplasma" ],
+
+  "bounces" : 0,
+
+  "scripts" : [ "/projectiles/activeitems/staff/staffprojectile.lua", "/projectiles/activeitems/staff/elementbouncer/bouncespikes.lua" ],
+
+  "spikeProjectile" : "saturnfirestickyspikes",
+  "spikeDamageFactor" : 0.1,
+
+  "controlMovement" : {
+    "maxSpeed" : 60,
+    "controlForce" : 0
+  }
+}

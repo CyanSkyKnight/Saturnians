@@ -1,0 +1,26 @@
+{
+  "name": "villager_kyterranB",
+  "priority": 6,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+	"kyterran": 1,
+    "mining": 6
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "satkyterran",
+      "type": "generictenant",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "villagerGift"
+  }
+}

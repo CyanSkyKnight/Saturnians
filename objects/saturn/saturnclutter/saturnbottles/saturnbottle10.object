@@ -1,0 +1,34 @@
+{
+  "objectName" : "saturnbottle10",
+  "colonyTags" : ["saturn", "alchemy" ],
+  "rarity" : "Common",
+  "price" : 10,
+  "description" : "[^#ff99ff;Decorative^reset;] A strange potion with an unknown effect.",
+  "shortdescription" : "^#000300;^white;Purple Potion Bottle",
+  "category" : "decorative",
+  "race" : "generic",
+  
+  "apexDescription": "What could this liquid do?",
+  "avianDescription": "I wonder what the effect of this is?",
+  "floranDescription": "Ssstrange drink.",
+  "glitchDescription": "Pleased. Glitch alchemists also brew potions like this one.",
+  "humanDescription": "I wonder what the effect of this is?",
+  "hylotlDescription": "What a strange liquid.",
+  "novakidDescription": "I'm not drinkin' any random liquids unless I know what they do.",
+  
+  "saturnDescription": "I'm not sure what this potion does.",
+  "saturn2Description": "What does this potion do? It isn't wise to leave these unlabeled.",
+  "satkyterranDescription" : "A strange potion. What does it do?",
+  
+  "inventoryIcon" : "saturnbottle10icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnbottle10.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "itemName" : "SaturnClutterSilk",
+  "price" : 80,
+  "rarity" : "Common",
+  "category" : "junk",
+  "inventoryIcon" : "SaturnSilk.png",
+  "description" : "Most Saturnians are able to produce a strong silk throughout their entire life.",
+  "shortdescription" : "Spool of Silk"
+}

@@ -1,0 +1,483 @@
+{ "columns":0,
+ "margin":0,
+ "name":"saturnianClutter",
+ "spacing":0,
+ "tilecount":32,
+ "tileheight":96,
+ "tileproperties":
+    {
+     "0":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnbottle",
+         "\/\/shortdescription":"empty bottle",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnbottle",
+         "tilesetDirection":"right"
+        },
+     "1":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnbottle2",
+         "\/\/shortdescription":"coffee bottle",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnbottle2",
+         "tilesetDirection":"right"
+        },
+     "2":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnbottle3",
+         "\/\/shortdescription":"lumen bottle",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnbottle3",
+         "tilesetDirection":"right"
+        },
+     "3":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnbottle4",
+         "\/\/shortdescription":"nectar bottle",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnbottle4",
+         "tilesetDirection":"right"
+        },
+		
+		
+     "4":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnredpotion",
+         "\/\/shortdescription":"red potion",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnredpotion",
+         "tilesetDirection":"right"
+        },
+		
+     "5":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnbottle",
+         "\/\/shortdescription":"orange potion",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnbottle5",
+         "tilesetDirection":"right"
+        },
+     "6":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnbottle",
+         "\/\/shortdescription":"yellow potion",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnbottle6",
+         "tilesetDirection":"right"
+        },
+     "7":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnbottle",
+         "\/\/shortdescription":"green potion",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnbottle7",
+         "tilesetDirection":"right"
+        },
+     "8":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnbottle",
+         "\/\/shortdescription":"cyan potion",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnbottle8",
+         "tilesetDirection":"right"
+        },
+     "9":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnbottle",
+         "\/\/shortdescription":"blue potion",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnbottle9",
+         "tilesetDirection":"right"
+        },
+     "10":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnbottle",
+         "\/\/shortdescription":"purple potion",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnbottle10",
+         "tilesetDirection":"right"
+        },
+     "11":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnbottle",
+         "\/\/shortdescription":"white potion",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnbottle11",
+         "tilesetDirection":"right"
+        },
+     "12":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnbottle",
+         "\/\/shortdescription":"black potion",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnbottle12",
+         "tilesetDirection":"right"
+        },		
+		
+		
+		
+     "13":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnalembic",
+         "\/\/shortdescription":"alembic",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnalembic",
+         "tilesetDirection":"right"
+        },
+     "14":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnmortar",
+         "\/\/shortdescription":"mortar",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnmortar",
+         "tilesetDirection":"right"
+        },
+     "15":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnscale",
+         "\/\/shortdescription":"weight scale",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnscale",
+         "tilesetDirection":"right"
+        },
+     "16":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnscale",
+         "\/\/shortdescription":"unknown alchemy apparatus",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnscale",
+         "tilesetDirection":"right"
+        },
+     "17":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnscale",
+         "\/\/shortdescription":"unknown alchemy apparatus",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnscale",
+         "tilesetDirection":"right"
+        },
+     "18":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnscale",
+         "\/\/shortdescription":"unknown alchemy apparatus",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnscale",
+         "tilesetDirection":"right"
+        },
+     "19":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnscale",
+         "\/\/shortdescription":"unknown alchemy apparatus",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnscale",
+         "tilesetDirection":"right"
+        },
+     "20":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnscale",
+         "\/\/shortdescription":"unknown alchemy apparatus",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnscale",
+         "tilesetDirection":"right"
+        },
+		
+		
+		
+		
+		
+     "21":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnsmallscrollshelf",
+         "\/\/shortdescription":"scroll shelf",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnsmallscrollshelf",
+         "tilesetDirection":"right"
+        },	
+     "22":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnsmallscrollshelf2",
+         "\/\/shortdescription":"scroll shelf",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnsmallscrollshelf2",
+         "tilesetDirection":"right"
+        },	
+		
+     "23":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnopenbook1",
+         "\/\/shortdescription":"open book",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnopenbook1",
+         "tilesetDirection":"right"
+        },	
+     "24":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnopenbook2",
+         "\/\/shortdescription":"open book",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnopenbook2",
+         "tilesetDirection":"right"
+        },	
+     "25":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnopenbook3",
+         "\/\/shortdescription":"open book",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnopenbook3",
+         "tilesetDirection":"right"
+        },	
+     "26":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnopenbook4",
+         "\/\/shortdescription":"open book",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnopenbook4",
+         "tilesetDirection":"right"
+        },	
+     "27":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnopenbook5",
+         "\/\/shortdescription":"open book",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnopenbook5",
+         "tilesetDirection":"right"
+        },	
+     "28":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnopenbook6",
+         "\/\/shortdescription":"open book",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnopenbook6",
+         "tilesetDirection":"right"
+        },	
+     "29":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnopenbook7",
+         "\/\/shortdescription":"open book",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnopenbook7",
+         "tilesetDirection":"right"
+        },	
+     "30":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnopenbook1",
+         "\/\/shortdescription":"open book",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnopenbook1",
+         "tilesetDirection":"right"
+        },
+		"31":
+        {
+         "\/\/description":"",
+         "\/\/name":"saturnplush",
+         "\/\/shortdescription":"plush",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"saturnplush",
+         "tilesetDirection":"right"
+        }
+    },
+
+ "tiles":
+    {
+     "0":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnbottle.png"
+        },
+     "1":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnbottle2.png"
+        },
+     "2":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnbottle3.png"
+        },
+     "3":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnbottle4.png"
+        },
+     "4":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnredpotion.png"
+        },
+     "5":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnbottle5.png"
+        },
+     "6":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnbottle6.png"
+        },
+     "7":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnbottle7.png"
+        },
+     "8":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnbottle8.png"
+        },
+     "9":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnbottle9.png"
+        },
+     "10":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnbottle10.png"
+        },
+     "11":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnbottle11.png"
+        },
+     "12":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnbottle12.png"
+        },
+		
+		
+		
+     "13":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnalembic.png"
+        },
+     "14":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnmortar.png"
+        },
+     "15":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnscale.png"
+        },
+     "16":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnmortar.png"
+        },
+     "17":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnscale.png"
+        },
+     "18":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnscale.png"
+        },
+     "19":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnscale.png"
+        },
+     "20":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnscale.png"
+        },
+		
+		
+     "21":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnsmallscrollshelf.png"
+        },
+     "22":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnsmallscrollshelf2.png"
+        },
+     "23":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnopenbook1.png"
+        },
+     "24":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnopenbook2.png"
+        },
+     "25":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnopenbook3.png"
+        },
+     "26":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnopenbook4.png"
+        },
+     "27":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnopenbook5.png"
+        },
+     "28":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnopenbook6.png"
+        },
+     "29":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnopenbook7.png"
+        },
+     "30":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnopenbook1.png"
+        },
+	 "31":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnplush.png"
+        }
+	 
+	 
+
+    },
+ "tilewidth":80
+}

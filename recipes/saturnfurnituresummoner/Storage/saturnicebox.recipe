@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 2 },
+	{ "item" : "saturnslopedbrasspanel", "count" : 10 },
+    { "item" : "cryonicextract", "count" : 1 },
+    { "item" : "snow", "count" : 10 }
+  ],
+  "duration" : 0.005,
+  "output" : { "item" : "saturnicebox", "count" : 1 },
+  "groups" : [ "saturnstorage", "all" ]
+}

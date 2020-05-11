@@ -1,0 +1,22 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : [],
+      "maxFuel" : 1000,
+      "crewSize" : 2
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "saturnT1.png",
+      "position" : [8, 11.875],
+      "fullbright" : true
+    },
+    {
+      "image" : "saturnT1lit.png",
+      "position" : [8, 11.875]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "saturnT0blocks.png"
+}

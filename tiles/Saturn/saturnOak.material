@@ -1,0 +1,29 @@
+{
+  "materialId" : 54724,
+  "materialName" : "saturnOak",
+  "particleColor" : [33, 35, 43, 255],
+  "itemDrop" : "saturnOak",
+  "description" : "Alien wood often used in Saturnian construction. It's fireproof. ",
+  "shortdescription" : "Mage Oak Planks",
+  "apexDescription" : "Some crafted planks of wood.",
+  "avianDescription" : "Wood that's been crafted into planks.",
+  "glitchDescription" : "Satisfied. These are well crafted wood planks.",
+  "floranDescription" : "Sssplintery wood plankss.",
+  "humanDescription" : "Some simple planks made from wood.",
+  "hylotlDescription" : "Basic wood planks.",
+  "novakidDescription" : "Just some basic lookin' wood planks.",
+  "saturndescription" : "Supposedly, this wood is only so popular because alchemists and wizards can't set it on fire.",
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 2,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "saturnOak.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 2830
+  }
+}

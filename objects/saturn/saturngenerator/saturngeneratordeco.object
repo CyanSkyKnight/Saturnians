@@ -1,0 +1,57 @@
+{
+  "objectName" : "saturngeneratordeco",
+  "colonyTags" : ["saturn","electronic","magic"],
+  "rarity" : "Legendary",
+  "description" : "A shield generator? It doesn't work.",
+//Would a real generator allow you to protect ANY random dungeon?
+  "shortdescription" : "Decorative Solar Generator",
+  "race" : "saturn",
+  "price" : 1000,
+  "lightColor" : [128, 111, 78],
+  "category" : "wire",
+  "apexDescription" : "A shield generator.",
+  "saturnDescription" : "This shield generator is powered with sunlight.",
+  "avianDescription" : "This generates a shield.",
+  "floranDescription" : "Shieldsss",
+  "glitchDescription" : "Comforted. A shield generator.",
+  "humanDescription" : "This'll keep me safe",
+  "hylotlDescription" : "A crude protection device.",
+  "novakidDescription" : "Who needs a shield anyhow?",
+  "inventoryIcon" : "saturngeneratoricon.png",
+  "orientations" : [
+    {
+      "image" : "saturngenerator.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "lightPosition" : [0, 2],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "saturngenerator.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "lightPosition" : [1, 2],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "animation" : "saturngenerator.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/apexconsole2switch.ogg" ],
+      "off" : [ "/sfx/melee/apexconsole2switch.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "saturngenerator.png",
+    "fg" : "saturngenerator.png"
+  },
+  "animationPosition" : [0, 0],
+  "interactive" : false
+}

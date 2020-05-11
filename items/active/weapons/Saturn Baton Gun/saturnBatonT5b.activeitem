@@ -1,0 +1,127 @@
+{
+  "itemName" : "saturnBatonT5b",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Casts a piercing elemental beam of fire, ice, or lightning.",
+  "shortdescription" : "^#000500;^reset;Prism Beam Baton",
+  "tooltipKind" : "saturngun",
+  "category" : "saturnbaton",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "ranged", "wand", "upgradeableWeapon"],
+  "level" : 5,
+
+  "inventoryIcon" : "saturnBatonT5b.png",
+
+  "animation" : "/items/active/weapons/ranged/saturnwindupgun.animation",
+  "animationParts" : {
+    "chargeFlash" : "",
+    "middle" : "saturnBatonT5b.png",
+    "barrel" : "saturnBatonT5bFB",
+    "muzzleFlash" : "/items/active/weapons/ranged/saturnwandfire.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+    "charge" : [ "/sfx/melee/saturnshortstaffcharge5.ogg" ],
+	"charge2" : [ "/sfx/melee/saturnBlank.ogg" ],
+	"charge3" : [ "/sfx/melee/saturnBlank.ogg" ],
+    "fire" : [ "/sfx/gun/SaturnWandshotani1.ogg" ]
+	},
+    "lights" : { "glow" : {
+      "color" : [90, 70, 30]
+    }}
+  },
+  "aimOffset" : -1,
+  "muzzleOffset" : [2, 0.8],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/saturngunfire.lua"],
+    "class" : "SaturnGunFire",
+
+    "fireTime" : 0.6,
+    "baseDps" : 9.25,
+    "energyUsage" : 18.75,
+	"projectileCount" : 1,
+    "inaccuracy" : 0,
+    "fireType" : "auto",
+
+    "projectileType" : ["saturnbeamIce", "saturnbeamFire", "saturnbeamEle"],
+    "projectileParameters" : {
+      "knockback" : 0,
+	  "timeToLive" : 0.5,
+	  "piercing" : true,
+	  "bounces" : 1,
+	  "speed" : 100
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 10,
+        "weaponRotation" : -30,
+        "weaponOffset" : [0, 0],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "windup" : {
+        "duration" : 0.001,
+        "armRotation" : -120,
+        "weaponRotation" : 30,
+        "weaponOffset" : [0, 0.5],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "windup2" : {
+	    "duration" : 0.5,
+        "armRotation" : -120,
+        "weaponRotation" : 30,
+        "weaponOffset" : [0, 0.5],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "windup3" : {
+	    "duration" : 0.001,
+        "armRotation" : -120,
+        "weaponRotation" : 30,
+        "weaponOffset" : [0, 0.5],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "aimcorrect" : {
+	    "duration" : 0.001,
+        "armRotation" : -20,
+        "weaponRotation" : -70,
+        "weaponOffset" : [0, 0.5],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.2,
+        "armRotation" : -20,
+        "weaponRotation" : -70,
+        "weaponOffset" : [0, 0.5],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.001,
+        "armRotation" : -20,
+        "weaponRotation" : -70,
+        "weaponOffset" : [0, 0.5],
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

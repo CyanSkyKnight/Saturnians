@@ -1,0 +1,15 @@
+{
+  "itemName" : "saturnLightPinkDye",
+  "price" : 50,
+  "rarity" : "Rare",
+  "category" : "clothingDye",
+  "inventoryIcon" : "saturnLightPinkDye.png",
+  "description" : "This strange dye seems to only work properly on Saturnian equipment.",
+  "shortdescription" : "Sat. Light Pink Dye",
+
+  "dyeColorIndex" : 25,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

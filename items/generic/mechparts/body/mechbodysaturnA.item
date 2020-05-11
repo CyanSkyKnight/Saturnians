@@ -1,0 +1,16 @@
+{
+  "itemName" : "mechbodysaturnA",
+  "price" : 9600,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechbodysaturnA.png",
+  "description" : "A mech body with an amber windshield, designed for Saturnian pilots.",
+  "shortdescription" : "Sphinx Mech Body Amber",
+  "itemTags" : [ ],
+  "learnBlueprintsOnPickup" : [ "mechbodysaturn", "mechbodysaturnA", "mechbodysaturnR", "mechbodysaturnW" ],
+
+  "mechPart" : ["body", "saturnSphinxA"]
+}

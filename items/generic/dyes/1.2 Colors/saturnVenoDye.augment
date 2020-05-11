@@ -1,0 +1,15 @@
+{
+  "itemName" : "saturnVenoDye",
+  "price" : 50,
+  "rarity" : "Rare",
+  "category" : "clothingDye",
+  "inventoryIcon" : "saturnVenoDye.png",
+  "description" : "Only works properly on Saturnian equipment. Poison colored; not real lavender.",
+  "shortdescription" : "Saturnian Lavender Dye",
+
+  "dyeColorIndex" : 26,
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

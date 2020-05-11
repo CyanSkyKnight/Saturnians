@@ -1,0 +1,29 @@
+{
+  "name": "guard_saturnMageT6",
+  "priority": 17,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "saturn": 6,
+	"magic": 6,
+    "combat": 4,
+	"saturnt6": 1
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "saturn",
+      "level": 6,
+      "type": "SaturnGuardMage",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "villagerGift"
+  }
+}

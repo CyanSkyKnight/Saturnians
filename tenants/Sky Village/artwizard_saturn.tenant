@@ -1,0 +1,26 @@
+{
+  "name": "artwizard_saturn",
+  "priority": 8,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "saturn": 4,
+    "saturnpaintings": 10
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "saturn",
+      "type": "SaturnArtist",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "merchantGift"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "projectileName" : "Saturnchargedcrystalarrow4",
+  "physics" : "arrow",
+  "image" : "Saturnchargedcrystalarrow.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "emitters" : [ "daggerblue" ],
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 120,
+  "damagePoly" : [ [8, -0.2], [8.5, -0.2], [8.5, 0.2], [8, 0.2] ],
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/arrowexplosion/arrowexplosion.config"
+    }
+  ],
+  "power" : 20,
+  "knockback" : 20,
+   "lightColor" : [120, 120, 120],
+  "fullbright" : true,
+  "knockbackDirectional" : true,
+  "damageKind" : "bow"
+}

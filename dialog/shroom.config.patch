@@ -1,0 +1,34 @@
+[
+	{
+		"op": "add",
+		"path": "/hail/floran/saturn",
+		"value": [
+        "Hoom flutter! Bizarra no light fry!",
+        "Halhoom fluffsqueak. Choka smashroom nab house.",
+        "Halhalhoom, weepa cantara swoop nab cloudchaser.",
+        "Hoomay, fluffsqueak! Halberdeen habble fluffy flutter.",
+        "Haba hoom, fluffsqueak! Hehehe! Swoop bizarra!",
+        "Hoom fluffsqueak? Saturniidae?",
+        "Hoom! Hoom hoom! Chop smashroom nab peace kisser!",
+        "Hoom habba flutter flap, deka nab thaumataka?",
+        "Hoom? Fluffy mesti cuddle?"
+			]
+	},
+
+	{
+		"op": "add",
+		"path": "/hail/floran/satkyterran",
+		"value": [
+        "Hoom, dustbeast. Habba nab cartography spaceshroom.",
+        "Halhoom, okay. Nab chop weepa, deka hairthing? Flap?",
+        "Halhalhoom. Smashroom nab plant?",
+        "Hurm. Hoom. Dustbeast house fry, shroomy halb.",
+        "Dustbeast! Chop carpa, cantara.",
+        "Hoom dustbeast. Halb plesti cantara, nab?",
+        "Hoom. Shroomy nab dustbeast feara. Mesti bravada!",
+        "Hoom. Dustbeast halb mesti, deka plant?"
+			]
+	},
+	
+
+ { "op": "copy", "from": "/hail/floran/saturn", "path": "/hail/floran/saturn2" } ]

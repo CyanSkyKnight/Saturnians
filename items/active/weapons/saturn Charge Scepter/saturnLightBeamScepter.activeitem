@@ -1,0 +1,87 @@
+{
+  "itemName" : "saturnLightBeamScepter",
+  "price" : 200,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "This wand functions like a charging gun.",
+  "shortdescription" : "Prism Beam Scepter",
+  "tooltipKind" : "base",
+  "category" : "Saturn Scepter",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "wand", "ranged", "upgradeableWeapon"],
+  "level" : 1,
+  "inventoryIcon" : "saturnchargestaffT1icon.png",
+  "animation" : "saturnchargestaff.animation",
+  "animationParts" : {
+    "gun" : "saturnchargestaffT1.png",
+    "gunfullbright" : "saturnchargestaffT1fullbright.png"
+  },
+  "animationCustom" : {},
+  "muzzleOffset" : [0, 0],
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "elementalType" : "ice",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/abilities/chargefire/chargefire.lua"],
+    "class" : "ChargeFire",
+    "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 20,
+        "cooldown" : 0.1,
+        "projectileType" : "saturnlightbullet2",
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 1,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1.0,
+        "energyCost" : 70,
+        "cooldown" : 0.5,
+        "projectileType" : "saturnlightbullet3",
+        "projectileParameters" : {},
+		"projectileCount" : 4,
+		"inaccuracy" : 0.1,
+        "baseDamage" : 1,
+        "fireSound" : "fire2"
+      }
+    ],
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : 90,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "charge" : {
+        "armRotation" : 45,
+        "weaponRotation" : 90,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.2,
+        "armRotation" : 45,
+        "weaponRotation" : 90,
+        "twoHanded" : false,
+		"armAngularVelocity" : -1060,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : -90,
+        "weaponRotation" : 90,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }}
+},
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

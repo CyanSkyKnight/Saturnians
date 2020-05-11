@@ -1,0 +1,77 @@
+{
+ 	"saturndebugconvhat" : [
+		[0, {
+			"fill" : [
+				{ "item" : [ "saturnbananahead", 1]},
+				{ "item" : [ "saturnbandithat1", 1]},
+				{ "item" : [ "saturnbandithat2", 1]},
+				{ "item" : [ "saturnianbearhead", 1]},
+				{ "item" : [ "saturnbeehivehead", 1]},
+				{ "item" : [ "saturnberethead", 1]},
+				{ "item" : [ "saturnbevhead", 1]},
+				{ "item" : [ "saturnbunnyhead", 1]},
+				{ "item" : [ "saturncaphead", 1]},
+				{ "item" : [ "saturncaptainshead", 1]},
+				{ "item" : [ "saturncardboardhead", 1]},
+				{ "item" : [ "saturnclocktophathead", 1]},
+				{ "item" : [ "saturndinosaurhead", 1]},
+				{ "item" : [ "saturndivingmaskhead", 1]},
+				{ "item" : [ "saturneyehead", 1]},
+				{ "item" : [ "saturneyehead2", 1]},
+				{ "item" : [ "saturneyepatchhead", 1]},
+				{ "item" : [ "saturnfancyhead", 1]},
+				{ "item" : [ "saturnfedorahead", 1]},
+				{ "item" : [ "saturnfloppyhathead", 1]}
+				
+				
+			]
+		} ]
+	],
+ 	"saturndebugconvhat2" : [
+		[0, {
+			"fill" : [
+				{ "item" : [ "saturngasmaskhead", 1]},
+				{ "item" : [ "saturnherocaphead", 1]},
+				{ "item" : [ "saturnhobohead", 1]},
+				{ "item" : [ "saturnindustrialcrewhead", 1]},
+				{ "item" : [ "saturnkathoodhead", 1]},
+				{ "item" : [ "saturnkittyhead", 1]},
+				{ "item" : [ "saturnladyhathead", 1]},
+				{ "item" : [ "saturnluchadorhead", 1]},
+				{ "item" : [ "saturnm1helmethead", 1]},
+				{ "item" : [ "saturnmechpilothead", 1]},
+				{ "item" : [ "saturnmininghathead", 1]},
+				{ "item" : [ "saturnphrygiancaphead", 1]},
+				{ "item" : [ "saturnplaguedoctorhead", 1]},
+				{ "item" : [ "saturnplainhoodhead", 1]},
+				{ "item" : [ "saturnprotectorateflowerhead", 1]},
+				{ "item" : [ "saturnpyramidhead", 1]},
+				{ "item" : [ "saturnrainbowhoodhead", 1]},
+				{ "item" : [ "saturnsafetyhelmethead", 1]},
+				{ "item" : [ "saturnsharkhead", 1]},
+				{ "item" : [ "saturnsombrerohead", 1]}
+				
+				
+			]
+		} ]
+	],
+
+ 	"saturndebugconvhat3" : [
+		[0, {
+			"fill" : [
+				{ "item" : [ "saturnstrawberryhead", 1]},
+				{ "item" : [ "saturnswamphat", 1]},
+				{ "item" : [ "saturnteddyhead", 1]},
+				{ "item" : [ "saturntigerhead", 1]},
+				{ "item" : [ "saturnushankahead", 1]},
+				{ "item" : [ "saturnvenetianmaskhead", 1]},
+				{ "item" : [ "saturnvikinghead", 1]},
+				{ "item" : [ "saturnvisorhead", 1]},
+				{ "item" : [ "saturnwighead", 1]}
+				
+				
+			]
+		} ]
+	]
+
+}

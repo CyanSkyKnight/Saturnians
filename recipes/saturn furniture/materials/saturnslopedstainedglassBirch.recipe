@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "saturnslopedpanelBirch", "count" : 25 },
+    { "item" : "glass", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "saturnslopedstainedglassBirch",
+    "count" : 25
+  },
+  "duration" : 0,
+  "groups"  : [ "craftingfurniture", "saturnmaterials", "materials", "all" ]
+}

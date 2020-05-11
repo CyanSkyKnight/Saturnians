@@ -1,0 +1,47 @@
+{
+  "itemName" : "SaturnBowNpc",
+  "price" : 410,
+  "inventoryIcon" : "SaturnBowNpcicon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "fixedLevel" : false,
+  "tooltipKind" : "bow",
+  "category" : "saturnbow",
+  "description" : "You shouldn't have this.",
+  "shortdescription" : "Npc's Ebony Bow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "bow", "upgradeableWeapon"],
+  "radioMessagesOnPickup" : [ "pickupbow" ],
+  "animation" : "/items/active/weapons/Saturn Shortbows/SaturnLightbow.animation",
+  "animationParts" : {
+    "bow" : "SaturnBowNpc.png",
+	"bowFullbright" : "SaturnBowNpcFB.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0, -0.0625]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/melee/saturnbowdraw.ogg", "/sfx/melee/saturnbowdraw2.ogg", "/sfx/melee/saturnbowdraw3.ogg" ],
+      "release" : [ "/sfx/gun/bow_loose.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "projectileType" : "Saturncrystalarrow2",
+    "powerProjectileType" : "Saturnchargedcrystalarrow2",
+    "projectileParameters" : {
+      "power" : 6.5
+    }
+  },
+  "altAbilityType" : "zenshot",
+  "altAbility" : {
+    "projectileType" : "Saturncrystalarrow2",
+    "projectileParameters" : {
+      "power" : 8.125
+    }
+  },
+  "builder" : "/items/buildscripts/buildbow.lua"
+}

@@ -1,0 +1,17 @@
+{
+  "itemName" : "saturnslopedstainedglass",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "saturnslopedstainedglass.png",
+  "largeImage" : "/items/materials/tooltips/saturnslopedstainedglass.png",
+  "tooltipKind" : "saturnpaintedblock",
+  
+  "shortdescription" : "Ebony Sloped Glass",
+  "description" : "Glowing, solid crystal panelling used in floating Saturnian structures.",
+  "glitchdescription" : "Observant. This is panelling widely used for ship and station construction.",
+  "florandescription" : "Shiny sssmooth glassss.",
+  "novakiddescription" : "Some thick glass, looks mighty solid.",
+  "learnBlueprintsOnPickup" : [ "saturnslopedstainedglass" ],
+  "materialId" : 54706
+}

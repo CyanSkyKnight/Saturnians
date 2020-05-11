@@ -1,0 +1,18 @@
+{
+ 	"saturndebugtiles" : [
+		[0, {
+			"fill" : [
+				{ "item" : [ "superfishaxe", 1]},
+				{ "item" : [ "saturnpainttool", 1]},
+				{ "item" : [ "sathomewalls1", 1000]},
+				{ "item" : [ "saturnebony", 1000]},
+				{ "item" : [ "saturnslopedglass", 1000]},
+				{ "item" : [ "saturnslopedstainedglass", 1000]},				
+				{ "item" : [ "saturnslopedhomewalls", 1000]},
+				{ "item" : [ "saturncolorfulclaywalls", 1000]},
+				{ "item" : [ "saturnslopedmetalpanel", 1000]},
+				{ "item" : [ "saturnslopedpanel", 1000]}
+			]
+		} ]
+	]
+}

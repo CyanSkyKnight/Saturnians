@@ -1,0 +1,30 @@
+{
+  "objectName" : "saturnscale",
+  "colonyTags" : ["saturn", "alchemy" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "An obsidian scale.",
+  "shortdescription" : "^#000290;^white;Obsidian Scale",
+  "category" : "decorative",
+  "race" : "saturn",
+  
+  "glitchDescription" : "Observation. An obsidian scale.",
+  "floranDescription" : "Ssscale.",
+  "novakidDescription" : "Some kinda scale.",
+  
+  "saturnDescription" : "This scale is useful for measuring ingredients for potions.",
+  "saturn2Description" : "This scale is useful for measuring ingredients for potions.",
+  "satkyterranDescription" : "A scale made from obsidian collected from Mt. Kyta.",
+  
+  "inventoryIcon" : "saturnscaleicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnscale.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

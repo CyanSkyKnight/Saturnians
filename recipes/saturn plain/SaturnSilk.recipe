@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "liquidsaturnnectar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "SaturnSilk",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all" ]
+}

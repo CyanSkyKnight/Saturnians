@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "saturnebony", "count" : 10 },
+	{ "item" : "saturnslopedbrasspanel", "count" : 5 }
+  ],
+  "duration" : 0.005,
+  "output" : { "item" : "saturnianEbonysink", "count" : 1 },
+  "groups" : [ "saturnstorage", "all" ]
+}

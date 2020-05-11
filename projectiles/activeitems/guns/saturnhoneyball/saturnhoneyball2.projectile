@@ -1,0 +1,51 @@
+{
+  "projectileName" : "saturnhoneyball2",
+  "physics" : "laser",
+  "bounces" : 0,
+  "timeToLive" : 0.01,
+  "image" : "saturnhoneyball.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 5.0,
+  "speed" : 32,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "saturnhoneyball",
+	  "inheritDamageFactor" : 0.20,
+	  "angleAdjust" : 0,
+      "config" : {}
+    },
+	{
+      "action" : "projectile",
+      "type" : "saturnhoneyball",
+	  "inheritDamageFactor" : 0.20,
+	  "angleAdjust" : -2,
+      "config" : {}
+    },
+	{
+      "action" : "projectile",
+      "type" : "saturnhoneyball",
+	  "inheritDamageFactor" : 0.20,
+	  "angleAdjust" : 4,
+      "config" : {}
+    },{
+      "action" : "projectile",
+      "type" : "saturnhoneyball",
+	  "inheritDamageFactor" : 0.20,
+	  "angleAdjust" : 6,
+      "config" : {}
+    },
+	{
+      "action" : "projectile",
+      "type" : "saturnhoneyball",
+	  "inheritDamageFactor" : 0.20,
+	  "angleAdjust" : 8,
+      "config" : {}
+    }
+  ],
+  "damageKind" : "default",
+  "statusEffects" : [
+    "saturnhoneyslow"
+  ]
+}

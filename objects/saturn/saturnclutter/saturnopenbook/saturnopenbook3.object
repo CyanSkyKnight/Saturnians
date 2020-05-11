@@ -1,0 +1,26 @@
+{
+  "objectName" : "saturnopenbook3",
+  "colonyTags" : ["saturn", "satBooks", "knowledge" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "A book of poems written in the Saturnian language.",
+  "shortdescription" : "^#000400;^white;Open Book",
+  "category" : "decorative",
+  "race" : "saturn",
+  
+  "saturnDescription" : "It's full of poems! Are these handwritten?",
+  "saturn2Description" : "It's full of poems! Are these handwritten?",
+  "satkyterranDescription" : "It's full of poems! Are these handwritten?",
+  
+  "inventoryIcon" : "saturnopenbook3icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnopenbook3.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

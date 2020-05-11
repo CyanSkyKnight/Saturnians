@@ -1,0 +1,27 @@
+{
+  "name": "wizardmerchant_saturn",
+  "priority": 7,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "saturn": 6,
+    "magic": 6,
+    "saturnstaffenchanterF": 1
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "saturn",
+      "type": "SaturnWizardMerchant_tenant",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "merchantGift"
+  }
+}

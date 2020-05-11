@@ -1,0 +1,105 @@
+{
+  "projectileName" : "saturncrystalzone",
+  "physics" : "laser",
+  "timeToLive" : 10,
+  "image" : "saturncrystalzone.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "periodicActions" : [
+    {
+      "time" : 0.3,
+      "action" : "loop",
+      "count" : 1,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : {
+            "type" : "animated",
+            "animation" : "/animations/statuseffects/frozen/frozen.animation",
+            "initialVelocity" : [0.0, 7.0],
+            "finalVelocity" : [0.0, 3.0],
+            "approach" : [0.3, 60],
+            "timeToLive" : 0.8,
+            "layer" : "back",
+            "size" : 0.5,
+            "collidesForeground" : true,
+            "variance" : {
+            "position" : [0.5, 0.5],
+            "initialVelocity" : [5, 3],
+            "finalVelocity" : [0, 0],
+            "rotation" : 180,
+            "angularVelocity" : 180
+            }
+          }
+        },
+        {
+          "action" : "particle",
+          "specification" : {
+            "type" : "animated",
+            "animation" : "/animations/icecloudpuff/icecloudpuff.animation",
+            "initialVelocity" : [0.0, 7.0],
+            "finalVelocity" : [0.0, 3.0],
+            "approach" : [0.3, 60],
+            "timeToLive" : 0.7,
+            "layer" : "front",
+            "size" : 0.6,
+            "collidesForeground" : true,
+            "variance" : {
+            "position" : [0.5, 0.5],
+            "size" : 0.2,
+            "initialVelocity" : [5, 3],
+            "finalVelocity" : [0, 0],
+            "rotation" : 180,
+            "angularVelocity" : 180
+            }
+          }  
+        },
+        {
+          "action" : "particle",
+          "specification" : {
+            "type" : "animated",
+            "animation" : "/animations/iceball/iceball.animation",
+            "position" : [0, 0],
+            "initialVelocity" : [0.2, -10],
+            "finalVelocity" : [0.1, -50],
+            "approach" : [0, 10],
+            "fade" : 0.5,
+            "destructionAction" : "shrink",
+            "destructionTime" : 2,
+            "layer" : "middle",
+            "size" : 0.3,
+            "timeToLive" : 1,
+            "variance" : {
+            "position" : [1, 1],
+            "size" : 0.2,
+            "initialVelocity" : [0, 4]
+            }
+          }
+        } 
+      ]
+    }
+  ],
+  "actionOnReap" : [],
+  "speed" : 0,
+  "power" : 0,
+
+
+  "damagePoly" : [ [-208, 0], [-156, -156], [0, -208], [156, -156], [208, 0], [156, 156], [0, 208], [-156, 156] ],
+  "piercing" : true,
+  "statusEffects" : [
+    {"effect": "ghostlyglow", "duration" : 1},
+	{"effect": "bottledwaterheal", "duration" : 1}
+  ],
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageType" : "ignoresdef",
+  "damageKind" : "nodamage",
+  "damageRepeatTimeout" : 0.05,
+
+  "renderLayer" : "Player+1",
+  "orientationLocked" : true,
+  "fullbright" : true,
+  "emitters" : [],
+  "bounces" : -1,
+  
+  "persistentAudio" : "/sfx/projectiles/zone_lowgrav_loop.ogg"
+}

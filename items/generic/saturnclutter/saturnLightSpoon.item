@@ -1,0 +1,9 @@
+{
+  "itemName" : "saturnLightSpoon",
+  "price" : 100,
+  "rarity" : "Common",
+  "category" : "junk",
+  "inventoryIcon" : "saturnLightSpoon.png",
+  "description" : "A handle that forms a spoon from light. It never needs cleaning.",
+  "shortdescription" : "Sol Spoon"
+}

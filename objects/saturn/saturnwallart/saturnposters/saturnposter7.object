@@ -1,0 +1,22 @@
+{
+  "objectName" : "saturnposter7",
+  "colonyTags" : ["saturn", "scyphojel", "pretty"], //SHHH!
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "description" : "A jellyfish?",
+  "shortdescription" : "^#000210;^white;Space Jelly Poster",
+  "race" : "saturn",
+
+  "inventoryIcon" : "saturnposter7icon.png",
+  "orientations" : [
+    {
+      "image" : "saturnposter7.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

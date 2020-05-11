@@ -1,0 +1,14 @@
+{
+  "kind" : "saturnhyperbeamtrail",
+  "definition" : {
+    "type" : "animated",
+    "animation" : "/animations/saturnhyperbeamtrail/saturnhyperbeamtrail.animation",
+    "position" : [0, 0],
+    "initialVelocity" : [0, 0],
+    "finalVelocity" : [0, 0],
+    "size" : 1,
+	"fullbright" : true,
+    "layer" : "middle",
+    "timeToLive" : 0.3
+  }
+}

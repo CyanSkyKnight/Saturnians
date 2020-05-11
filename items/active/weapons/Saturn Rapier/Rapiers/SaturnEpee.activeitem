@@ -1,0 +1,32 @@
+{
+  "itemName" : "SaturnEpee",
+  "price" : 200,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A golden dueling foil. Fit for royalty.",
+  "shortdescription" : "Saturnian Foil",
+  "tooltipKind" : "sword",
+  "category" : "saturnrapier",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword", "upgradeableWeapon"],
+  "inventoryIcon" : "SaturnEpee.png",
+  "animation" : "/items/active/weapons/Saturn Rapier/Saturnshortswordcombo.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "SaturnEpee.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/SaturnFencingSwordThrust.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "primaryAbilityType" : "Saturnshortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.625,
+    "baseDps" : 7.5
+  },
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

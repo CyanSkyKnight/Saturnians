@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "glitchtier5shead", "count" : 1 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "saturnglitchtier5shead", "count" : 1 },
+  "groups" : [ "saturntransmoghats", "all" ]
+}

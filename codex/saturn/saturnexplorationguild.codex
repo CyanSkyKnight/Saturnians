@@ -1,0 +1,18 @@
+{
+	"id" : "saturnexplorationguild",
+	"title" : "SolaEx Guild Handbook",
+	"species" : "other",
+	"description" : "Instructions for an official member of the Solalei Guild of Exploration!",
+	"icon" : "saturnjournal.png",
+	"contentPages" : [
+
+    "The Solalei Guild of Exploration (SolaEx) has approved you for star travel. Thank you for helping us explore and chart faraway lands. 
+
+We have provided a starship to you, designed after that of Glitch. "
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Common",
+    "price" : 0
+  }
+}

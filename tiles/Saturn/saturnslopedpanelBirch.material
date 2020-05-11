@@ -1,0 +1,30 @@
+{
+  "materialId" : 54708,
+  "materialName" : "saturnslopedpanelBirch",
+  "particleColor" : [124, 145, 86, 255],
+  "itemDrop" : "saturnslopedpanelBirch",
+
+  "description" : "Sloped wood used in Saturnian construction. It's fireproof.",
+  "apexDescription" : "Some crafted planks of wood.",
+  "avianDescription" : "Wood that's been crafted into planks.",
+  "glitchDescription" : "Satisfied. These are well crafted wood planks.",
+  "floranDescription" : "Sssplintery wood plankss.",
+  "humanDescription" : "Some simple planks made from wood.",
+  "hylotlDescription" : "Basic wood planks.",
+  "novakidDescription" : "Just some basic lookin' wood planks.",
+  "saturndescription" : "Supposedly this wood is only so popular because alchemists and wizards can't set it on fire.",
+  "shortdescription" : "Mage Birch Panel",
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 12,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "saturnslopedpanelBirch.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 5000
+  }
+}

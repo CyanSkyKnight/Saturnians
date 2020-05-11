@@ -1,0 +1,31 @@
+{
+  "projectileName" : "saturnbeamPoison",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "saturninvis.png",
+  "animationCycle" : 0.5,
+  "timeToLive" : 1,
+  "frameNumber" : 1,
+  "power" : 50,
+  "speed" : 75,
+  "supportsProcessing" : true,
+  "periodicActions" : [
+    {
+      "action" : "particle",
+      "specification" : "saturnlightbeamtrailG",
+      "rotate" : true,
+      "time" : 0.01,
+      "repeat" : true
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/saturnglobeexplosions/saturnWglobeexplosion.config"
+    }
+  ],
+  "lightColor" : [80, 110, 30],
+  "fullbright" : true,
+  "damageKind" : "poison"
+}

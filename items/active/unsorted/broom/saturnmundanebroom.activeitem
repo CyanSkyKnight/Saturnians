@@ -1,0 +1,19 @@
+{
+  "itemName" : "saturnmundanebroom",
+  "price" : 50,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "tool",
+  "description" : "There doesn't seem to be anything special about this broom.",
+  "shortdescription" : "Mage Broom",
+  "twoHanded" : true,
+  "itemTags" : [],
+
+  "inventoryIcon" : "saturnmundanebroom.png",
+
+  "animation" : "/items/active/unsorted/broom/saturnmundanebroom.animation",
+
+  "scripts" : ["/items/active/unsorted/broom/broom.lua"],
+  "scriptDelta" : 3
+}

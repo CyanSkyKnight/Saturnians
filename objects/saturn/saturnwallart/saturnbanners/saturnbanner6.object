@@ -1,0 +1,29 @@
+{
+  "objectName" : "saturnbanner6",
+  "colonyTags" : ["saturn", "thaumoth", "pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+  "description" : "A Saturnian banner woven with silk.",
+  "shortdescription" : "^#000300;^white;Saturn. Banded Banner",
+  "race" : "saturn",
+  "apexDescription" : "A wonderfully vibrant banner.",
+  "avianDescription" : "The grounded decorate their villages with such banners. They fill their lives with colour.",
+  "floranDescription" : "Pretty colourss, reminds Floran of flowers.",
+  "glitchDescription" : "Charmed. Poorly-made, but beautiful nonetheless.",
+  "humanDescription" : "Bright and cheerful colours",
+  "hylotlDescription" : "Such vibrancy can only exist above the ocean.",
+  "novakidDescription" : "There's somethin' about this banner. I like it.",
+  "saturnDescription" : "Fifty years ago, the council banded together to ban banded banners, because they made villages prime targets for the Banded Banner Bandits.",
+  "inventoryIcon" : "saturnbanner6icon.png",
+  "orientations" : [
+    {
+      "image" : "saturnbanner6.png",
+      "imagePosition" : [-8, -24],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "bgAnchors" : [ [0, 0], [-1, 0] ]
+    }
+  ]
+}

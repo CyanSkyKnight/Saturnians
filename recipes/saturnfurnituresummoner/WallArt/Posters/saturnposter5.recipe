@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "paper", "count" : 20 }
+  ],
+  "duration" : 0.005,
+  "output" : { "item" : "saturnposter5", "count" : 1 },
+  "groups" : [ "saturnart", "all" ]
+}

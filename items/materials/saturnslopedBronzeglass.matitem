@@ -1,0 +1,17 @@
+{
+  "itemName" : "saturnslopedBronzeglass",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "saturnslopedBronzeglass.png",
+  "largeImage" : "/items/materials/tooltips/saturnslopedBronzeglass.png",
+  "tooltipKind" : "saturnpaintedblock",
+  
+  "shortdescription" : "Bronze Sloped Glass",
+  "description" : "Glowing, solid crystal panelling used in sky cities.",
+  "glitchdescription" : "Observant. This is panelling widely used for ship and station construction.",
+  "florandescription" : "Shiny sssmooth glassss.",
+  "novakiddescription" : "Some thick glass, looks mighty solid.",
+  "learnBlueprintsOnPickup" : [ "saturnslopedglass" ],
+  "materialId" : 54729
+}

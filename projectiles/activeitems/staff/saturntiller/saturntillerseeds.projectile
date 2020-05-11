@@ -1,0 +1,26 @@
+{
+  "projectileName" : "saturntillerseeds",
+  "image" : "saturntillerseed.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "timeToLive" : 1,
+  "physics" : "grenade",
+  "piercing" : true,
+  "flippable" : true,
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "applySurfaceMod",
+      "previousMod" : "metamod:none",
+      //"previousMod" : "metamod:none",
+      // "previousMod" : null,
+      "newMod" : "tilled",
+      "radius" : 1
+    }
+  ],
+  "damagePoly" : [ ],
+  "damageKind" : "hidden",
+  "statusEffects" : [
+  
+  ]
+}

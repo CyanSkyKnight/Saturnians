@@ -1,0 +1,108 @@
+{
+  "metadata" : {
+    "name" : "saturnMimic",
+    "species" : "saturn",
+    "rules" : [
+    ],
+    "anchor" : [ "saturnMimicLeft", "saturnMimicRight" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 10,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+  
+    {
+      "name" : "saturnMimict1",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "saturnMimict1" ] ]
+		
+      ],
+      "def" : [ "tmx", "saturnMimict1.json" ]
+    },
+  
+    {
+      "name" : "saturnMimict2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "saturnMimict2" ] ]
+		
+      ],
+      "def" : [ "tmx", "saturnMimict2.json" ]
+    },
+
+    {
+      "name" : "saturnMimict3",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "saturnMimict3" ] ]
+		
+      ],
+      "def" : [ "tmx", "saturnMimict3.json" ]
+    },
+  
+    {
+      "name" : "saturnMimicForest",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "saturnMimicForest" ] ]
+		
+      ],
+      "def" : [ "tmx", "saturnMimicForest.json" ]
+    },
+	
+	{
+      "name" : "saturnMimicShrine",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "saturnMimicShrine" ] ]
+		
+		
+      ],
+      "def" : [ "tmx", "saturnMimicShrine.json" ]
+    },
+	
+    {
+      "name" : "saturnMimicGarden",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "saturnMimicGarden" ] ]
+		
+      ],
+      "def" : [ "tmx", "saturnMimicGarden.json" ]
+    },
+	
+    {
+      "name" : "saturnMimicLeft",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "saturnMimicLeft" ] ]
+		
+      ],
+      "def" : [ "tmx", "saturnMimicLeft.json" ],
+	  "chance" : 0
+    },
+	
+    {
+      "name" : "saturnMimicRight",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "saturnMimicRight" ] ]
+		
+      ],
+      "def" : [ "tmx", "saturnMimicRight.json" ],
+	  "chance" : 0
+    }
+	
+	
+	
+  ]
+}

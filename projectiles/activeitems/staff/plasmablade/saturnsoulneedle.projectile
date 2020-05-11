@@ -1,0 +1,48 @@
+{
+  "projectileName" : "saturnsoulneedle",
+  "physics" : "laser",
+  "timeToLive" : 4,
+  "image" : "saturnlightblade.png",
+  "animationCycle" : 0.2,
+  "lightColor" : [30, 30, 80],
+  "frameNumber" : 1,
+  "damageKind" : "spear",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/gun/impact_plasma.ogg"
+      ]
+    },
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/elementimpact/fireimpact.config"
+    },
+	{
+	  "action" : "projectile",
+      "type" : "saturnbeamturret",
+      "config" : {"speed" : 0, "knockback" : 0},
+      "inheritDamageFactor" : 1
+	}
+  ],
+
+  "speed" : 0,
+  "power" : 0,
+  "damageRepeatTimeout" : 0.25,
+
+  "orientationLocked" : false,
+  "fullbright" : true,
+
+  "piercing" : true,
+  "bounces" : -1,
+
+  "scripts" : [ "/projectiles/activeitems/staff/staffprojectile.lua" ],
+
+  "controlMovement" : {
+    "maxSpeed" : 0.0001,
+    "controlForce" : 80
+  }
+//at a speed of zero, it won't rotate towards the cursor
+}

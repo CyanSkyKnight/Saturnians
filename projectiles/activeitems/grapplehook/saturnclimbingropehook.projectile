@@ -1,0 +1,39 @@
+{
+  "projectileName" : "saturnclimbingropehook",
+  "image" : "saturnclimbingropehook.png",
+  "animationCycle" : 1.0,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "fullbright" : true,
+  "emitters" : [ "daggerblue" ],
+  "lightColor" : [30, 63, 53],
+  "flippable" : false,
+  "actionOnReap" : [ ],
+  "statusEffects" : [ ],
+  "power" : 0.0,
+  "speed" : 40,
+  "damageKind" : "default",
+  "physics" : "ballisticgrapplehook",
+  "bounces" : -1,
+  "piercing" : true,
+  "timeToLive" : 5,
+
+  "onlyHitTerrain" : true,
+
+  "scripts" : [ "grapplehook.lua" ],
+  
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/tech/tech_dashftl.ogg"
+      ]
+    },
+    {
+      "action" : "projectile",
+      "type" : "saturnGrappleexplosion",
+      "inheritDamageFactor" : 0,
+      "inheritSpeedFactor" : 0
+    }
+  ]
+}

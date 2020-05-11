@@ -1,0 +1,146 @@
+{
+  "objectName" : "saturnMagicCrystalTable",
+  "colonyTags" : ["crafting", "magic", "saturn"],
+  "rarity" : "Legendary",
+  "price" : 1250,
+
+  "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
+  
+
+  "breakDropOptions" : [],
+  "printable" : false,
+  "animation" : "saturnMagicCrystalTable.animation",
+  "animationPosition" : [0, 16],
+  "description" : "This is used to create wands and staves.",
+  "shortdescription" : "^orange;Staff Enchanting Table^white;",
+  "race" : "saturn",
+  "category" : "crafting",
+  "inventoryIcon" : "saturnMagicCrystalTableicon.png",
+"particleEmitter" : {
+    "emissionRate" : 1,
+    "emissionVariance" : 0.5,
+    "particle" : {
+      "type" : "ember",
+      "position" : [-0.5, 0],
+      "size" : 1.0,
+      "color" : [255, 153, 92, 200],
+      "light" : [165, 127, 61],
+      "fade" : 0.3,
+      "destructionAction" : "shrink",
+      "destructionTime" : 1,
+      "initialVelocity" : [0.0, 0.0],
+      "finalVelocity" : [0.0, 0.0],
+      "approach" : [0, 1],
+      "timeToLive" : 1.5,
+      "layer" : "middle"
+    },
+    "particleVariance" : {
+      "initialVelocity" : [1, 1],
+      "finalVelocity" : [0, 0],
+      "position" : [1.5, 1.5],
+      "size" : 0.5
+    }
+	},
+  "startingUpgradeStage" : 1,
+  "maxUpgradeStage" : 2,
+  
+  
+"upgradeStages" : [
+    {
+      "animationState" : "saturnMagicCrystalTable",
+
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "saturnMagicCrystalTableicon.png",
+        "placementImage" : "saturnMagicCrystalTable.png",
+        "placementImagePosition" : [-16, 0],   
+
+        "description" : "Crafts wands, staves, batons, scepters, and other magical weapons.",
+        "shortdescription" : "^orange;Staff Enchanting Table^white;",
+
+  "apexDescription" : "This table can craft weapons that seem to weave together hard light.",
+  "avianDescription" : "The wands made here must work like avolite tech.",
+  "floranDescription" : "Shiny!",
+  "glitchDescription" : "Excited. I can use this table to make staves just like the wizards of legend.",
+  "humanDescription" : "This table can make magic staves. I can be a space wizard!",
+  "hylotlDescription" : "This table can craft strange, wand-like weapons.",
+  "novakidDescription" : "A table with a crystal ball on it.",
+  "saturnDescription" : "I can use this to craft magical items.",
+  "saturn2Description" : "With staves, the powers of the arcane are at my control."
+      },
+
+  "interactData" : {
+    "config" : "/interface/windowconfig/saturnMagicCrystalTable.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Staff Enchanting Table",
+        "subtitle" : "Light into matter.",
+        "icon" : {
+          "file" : "/interface/crafting/craftingfurnace3.png"
+				 }
+		}
+        },
+     "filter" : [ "saturnstaff", "saturnbaton", "saturnstatusmagic", "saturnpracticalmagic" ],
+        "upgradeMaterials" : [
+          { "item" : "durasteelbar", "count" : 12 },
+          { "item" : "battery", "count" : 1 },
+          { "item" : "siliconboard", "count" : 10 },
+          { "item" : "wire", "count" : 20 }
+        ]
+      },
+      "learnBlueprintsOnPickup" : [],
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+	
+    {
+      "animationState" : "saturnMagicCrystalTable2",
+
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "saturnMagicCrystalTable2icon.png",
+        "placementImage" : "saturnMagicCrystalTable2.png",
+        "placementImagePosition" : [-16, 0],   
+
+        "description" : "Crafts wands, staves, batons, scepters, and other magical weapons.",
+        "shortdescription" : "^orange;Energized Enchanting Table^white;",
+
+  "apexDescription" : "This table can craft weapons that seem to weave together hard light.",
+  "avianDescription" : "The wands made here must work like avolite tech.",
+  "floranDescription" : "Shiny!",
+  "glitchDescription" : "Excited. I can use this table to make staves just like the wizards of legend.",
+  "humanDescription" : "This table can make magic staves. I can be a space wizard!",
+  "hylotlDescription" : "This table can craft strange, wand-like weapons.",
+  "novakidDescription" : "A table with a crystal ball on it.",
+  "saturnDescription" : "I can use this to craft powerful magical items.",
+  "saturn2Description" : "With staves, the powers of the arcane are at my control."
+      },
+
+  "interactData" : {
+    "config" : "/interface/windowconfig/saturnMagicCrystalTable.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Energized Enchanting Table",
+        "subtitle" : "Crafts powerful light controlling weapons and tools.",
+        "icon" : {
+          "file" : "/interface/crafting/craftingfurnace3.png"
+				 }
+		}
+        },
+     "filter" : [ "saturnstaff", "saturnbaton", "saturnstatusmagic", "saturnpracticalmagic", "saturnstaff2", "saturnbaton2", "saturnstatusmagic2", "saturnpracticalmagic2" ]
+      },
+      "learnBlueprintsOnPickup" : [],
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    }
+	],
+	
+  "orientations" : [
+    {
+      "dualImage" : "saturnMagicCrystalTable.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

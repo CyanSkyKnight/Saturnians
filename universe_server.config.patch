@@ -1,0 +1,36 @@
+[
+    
+    
+	{ "op" : "add",
+		"path" : "/speciesShips/saturn",
+		"value" : [
+			"/ships/saturn/saturnt0.structure",
+			"/ships/saturn/saturnt1.structure",
+			"/ships/saturn/saturnt2.structure",
+			"/ships/saturn/saturnt3.structure",
+			"/ships/saturn/saturnt4.structure",
+			"/ships/saturn/saturnt5.structure",
+			"/ships/saturn/saturnt6.structure",
+			"/ships/saturn/saturnt7.structure",
+			"/ships/saturn/saturnt8.structure"
+		]},
+		
+	{ "op" : "add",
+		"path" : "/speciesShips/saturn2",
+		"value" : [
+			"/ships/saturn2/saturnt0.structure",
+			"/ships/saturn2/saturnt1.structure",
+			"/ships/saturn2/saturnt2.structure",
+			"/ships/saturn2/saturnt3.structure",
+			"/ships/saturn2/saturnt4.structure",
+			"/ships/saturn2/saturnt5.structure",
+			"/ships/saturn2/saturnt6.structure",
+			"/ships/saturn2/saturnt7.structure",
+			"/ships/saturn2/saturnt8.structure"
+		]}
+	
+		
+]
+
+	
+

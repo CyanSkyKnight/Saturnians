@@ -1,0 +1,26 @@
+{
+  "itemName" : "saturncoffee",
+  "rarity" : "Common",
+  "price" : 115,
+  "category" : "drink",
+  "inventoryIcon" : "saturncoffee.png",
+  "description" : "A bit more magical than regular coffee.",
+  "shortdescription" : "Mage Coffee",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 180
+    },
+    {
+        "effect" : "bottledwaterheal",
+        "duration" : 10
+    }
+  ] ],
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "emitters" : [ "drinking" ]
+}

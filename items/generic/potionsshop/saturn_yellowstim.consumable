@@ -1,0 +1,17 @@
+{
+  "itemName" : "saturn_yellowstim",
+  "rarity" : "Common",
+  "price" : 50,
+  "category" : "medicine",
+  "inventoryIcon" : "saturn_yellowstim.png",
+  "description" : "A potion made from lumens. This'll make you glow!",
+  "shortdescription" : "Potion of Light",
+  "effects" : [ [
+      {
+        "effect" : "glow",
+        "duration" : 180
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "drinking" ]
+}

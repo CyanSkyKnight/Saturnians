@@ -1,0 +1,9 @@
+{
+  "itemName" : "saturnLightKnife",
+  "price" : 100,
+  "rarity" : "Common",
+  "category" : "junk",
+  "inventoryIcon" : "saturnLightKnife.png",
+  "description" : "A butter knife made from light. It's warm to the touch.",
+  "shortdescription" : "Sol Butter Knife"
+}

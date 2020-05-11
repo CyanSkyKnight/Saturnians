@@ -1,0 +1,38 @@
+{
+  "objectName" : "saturnmarketstall2",
+  "colonyTags" : ["saturn", "commerce", "satclothes"],
+  "rarity" : "Common",
+  "description" : "A stall set up by a wizard.",
+  "shortdescription" : "Clothing Market Stall",
+  "race" : "saturn",
+  "category" : "decorative",
+  "price" : 120,
+
+  "apexDescription" : "Are these made from Saturnian silk?.",
+  "avianDescription" : "These robes must have had a lot of care put into them.",
+  "floranDescription" : "Sssoft sssilk.",
+  "glitchDescription" : "Observant. These clothes have holes for wings.",
+  "humanDescription" : "Wizard clothes!",
+  "hylotlDescription" : "These robes are elegant.",
+  "novakidDescription" : "Seems like it'd be hard to walk with this kinda getup.",
+  
+  "saturnDescription" : "Most Saturnians know how to sew. It's a required class in wizard elementary school.",
+  "saturn2Description" : "I personally prefer sowing to sewing. \n...\nThat would have worked better written down.",
+  "satkyterranDescription" : "Robes like these are popular with Kyterrans as well.",
+
+  "inventoryIcon" : "saturnmarketstallicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnmarketstall2.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

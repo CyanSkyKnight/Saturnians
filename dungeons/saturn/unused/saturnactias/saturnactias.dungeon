@@ -1,0 +1,28 @@
+{
+  "metadata" : {
+    "name" : "saturnactias",
+    "species" : "saturn",
+    "rules" : [
+    ],
+    "anchor" : [ "saturntree" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 30,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+  
+    {
+      "name" : "saturntree",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "saturntree" ] ]
+		
+      ],
+      "def" : [ "tmx", "saturntree.json" ]
+    }
+
+  ]
+}

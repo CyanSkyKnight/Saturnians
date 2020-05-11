@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "tungstenbar", "count" : 2},
+	{ "item" : "darkwoodmaterial", "count" : 4 },
+    { "item" : "string", "count" : 5},
+    { "item" : "silkfibre", "count" : 9 }
+  ],
+  "output" : { "item" : "saturnBatonSlow", "count" : 1 },
+  "groups" : [ "saturnstatusmagic", "all" ]
+}

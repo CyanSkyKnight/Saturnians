@@ -1,0 +1,35 @@
+{
+  "itemName" : "saturnkyterransword",
+  "price" : 320,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Typical style of sword popular with Kyterran from desert regions.",
+  "shortdescription" : "Chitin Sabre",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","sword", "upgradeableWeapon"],
+  "inventoryIcon" : "saturnDesertSword.png",
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "saturnDesertSword.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_dagger.ogg" ]
+    }
+  },
+  
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "aimOffset" : 0.0,
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.5,
+    "baseDps" : 8
+  },
+  "fireSounds" : [ "/sfx/melee/swing_dagger.ogg" ],
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

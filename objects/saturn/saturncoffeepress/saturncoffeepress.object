@@ -1,0 +1,44 @@
+{
+  "objectName" : "saturncoffeepress",
+  "colonyTags" : ["cooking", "magic", "alchemy", "saturn"],
+  "rarity" : "Uncommon",
+  "description" : "An obsidian funnel over a pot for the ancient alchemical art of coffee brewing. ^cyan;Crafts Coffee^white;.",
+  "shortdescription" : "^#000290;^white;^cyan;Mage Coffee Maker^white;",
+  "subtitle" : "Makes coffee.",
+  "race" : "saturn",
+  "category" : "crafting",
+  "price" : 65,
+  "objectType" : "container",
+  "printable" : false,
+
+  "apexDescription" : "This glass is for filtering coffee.",
+  "avianDescription" : "I like the smell of this.",
+  "floranDescription" : "A smelly drinksss glassss.",
+  "glitchDescription" : "Neutral. A coffee maker.",
+  "humanDescription" : "Damn fine coffee.",
+  "hylotlDescription" : "A bitter, unpleasant drink.",
+  "novakidDescription" : "Black, no milk, no sugar. Don't mind if I do!",
+  
+  "saturnDescription" : "Coffee is really popular among alchemists.",
+  "saturn2Description" : "Most Actians prefer tea to coffee.",
+  "satkyterranDescription" : "Adjusting my sleeping schedule to being off world basically got me addicted to coffee.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturncoffeepress.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "recipeGroup" : "saturncoffee",
+  "openSounds" : [ "/sfx/objects/campfire_use.ogg" ],
+  "slotCount" : 2,
+  "uiConfig" : "/interface/outfitfitter_saturn/saturncoffeemaker.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

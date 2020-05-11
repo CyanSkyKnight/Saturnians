@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "saturnNovaWizardhead", "count" : 1 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "saturnScienceWizardhead", "count" : 1 },
+  "groups" : [ "saturntransmogbonus", "all" ]
+}

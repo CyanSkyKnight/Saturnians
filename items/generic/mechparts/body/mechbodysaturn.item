@@ -1,0 +1,16 @@
+{
+  "itemName" : "mechbodysaturn",
+  "price" : 9600,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechbodysaturn.png",
+  "description" : "A mech body with a cyan windshield, designed for Saturnian pilots.",
+  "shortdescription" : "Sphinx Mech Body Cyan",
+  "itemTags" : [ ],
+  "learnBlueprintsOnPickup" : [ "mechbodysaturn", "mechbodysaturnA", "mechbodysaturnR", "mechbodysaturnW" ],
+
+  "mechPart" : ["body", "saturnSphinx"]
+}

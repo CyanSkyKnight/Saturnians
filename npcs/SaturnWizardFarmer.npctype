@@ -1,0 +1,198 @@
+{
+  "type": "SaturnWizardFarmer",
+  "baseType": "merchant",
+  "identity": {
+
+    "bodyDirectives": "?replace=EFF4F4FF=FFECBDFF?replace=D5E1E2FF=F2D3A1FF?replace=A2AEB2FF=DBB68CFF?replace=7E8899FF=BA987CFF?replace=E5DB72FF=EFEFEFFF?replace=DBC762FF=CBD1EDFF?replace=CCB551FF=B2C6EBFF?replace=B2933EFF=9EBFE7FF",
+	"emoteDirectives" : "?replace=EFF4F4FF=FFECBDFF?replace=D5E1E2FF=F2D3A1FF?replace=A2AEB2FF=DBB68CFF?replace=7E8899FF=BA987CFF",
+    "facialMaskDirectives": "?replace=EFF4F4FF=FFECBDFF?replace=D5E1E2FF=F2D3A1FF?replace=A2AEB2FF=DBB68CFF?replace=7E8899FF=BA987CFF?replace=E5DB72FF=EFEFEFFF?replace=DBC762FF=CBD1EDFF?replace=CCB551FF=B2C6EBFF?replace=B2933EFF=9EBFE7FF",
+    "hairDirectives": "?replace=E5DB72FF=EFEFEFFF?replace=DBC762FF=CBD1EDFF?replace=CCB551FF=B2C6EBFF?replace=B2933EFF=9EBFE7FF"
+  },
+  "dropPools": [
+    "wizardtreasure"
+  ],
+  "scriptConfig": {
+    "questGenerator": {
+      "pools": [
+        "common"
+      ]
+    },
+	"personalities" : [
+      [1.0, {
+        "personality" : "nocturnal",
+        "behaviorConfig" : {
+          "sleepUntil" : [0.5,0.0]
+        },
+        "reactions" : {
+          "spontaneous" : [
+            [5.0, "sleep", { "timeRange" : [0.0, 0.4] }],
+            [1.0, "sit", { "timeRange" : [0.5,0.0]}],
+            [1.0, "wander"]
+          ],
+          "hasquest" : [
+            [1.0, "sleep"]
+          ],
+          "nearplayer" : [
+            [1.0, "gohome", { "timeRange" : [0.5,0.0]}]
+          ],
+          "default" : [
+            [3.0, "bored"],
+            [3.0, "neutral"],
+            [1.0, "oh"],
+            [1.0, "oooh"],
+            [1.0, "wink"],
+            [0.3, "nosebleed"],
+
+            // Chat-ending behaviors:
+            [1.0, "quit"],
+            [4.0, "follow"]
+          ],
+          "cry" : [
+            [1.0, "neutral"]
+          ],
+          "wink" : [
+            [1.0, "smile"],
+            [1.0, "nosebleed"],
+            [1.0, "neutral"]
+          ],
+          "love" : [
+            [1.0, "smile"],
+            [2.0, "wink"]
+          ],
+          "nosebleed" : [
+            [1.0, "wink"],
+            [1.0, "love"]
+          ],
+          "vomit" : [
+            [1.0, "annoyed"],
+            [1.0, "gohome"]
+          ],
+          "flee" : [
+            [3.0, "quit"],
+            [1.0, "neutral"],
+            [1.0, "smile"],
+            [1.0, "chase"]
+          ],
+          "bored" : [
+            [1.0, "annoyed"],
+            [1.0, "neutral"],
+            [1.0, "gohome"]
+          ]
+        }
+      }]
+     ],
+    "merchant": {
+      "categories": {
+        "override": [
+          "Saturnfarmer"
+        ]
+      },
+      "buyFactorRange": [
+        1,
+        1
+      ],
+      "sellFactorRange": [
+        0.2,
+        0.2
+      ],
+      "numItems": 30,
+      "storeRadius": -1,
+      "paneLayoutOverride": {
+        "windowtitle": {
+          "title": "Wizard Farmer",
+          "subtitle": "Sells produce and seeds"
+        }
+      }
+    },
+    "dialog": {
+        "merchant": {
+		"start" : {
+          "saturn": {
+            "default": [
+              "It's fun growing alien plants. You should try it!",
+              "See anything you like?"
+            ],
+			
+			"saturn2": [
+              "It's fun growing alien plants. You should try it!",
+              "See anything you like?"
+            ]
+          },
+          "saturn2": {
+            "default": [
+              "It's fun growing alien plants. You should try it!",
+              "See anything you like?"
+            ],
+			
+			"saturn2": [
+              "It's fun growing alien plants. You should try it!",
+              "See anything you like?"
+            ]
+          }
+        },
+      
+      "end": {
+        "saturn": {
+          "default": [
+            "Farewell, traveler.",
+            "Have you heard about those spirits showing up on the moons?",
+            "I hope to see you more in future.",
+			"I'm not responsible for any figurative rain clouds over heads, only literal ones."
+          ],
+          "saturn2": [
+            "Farewell, traveler.",
+            "Oh! Another Thaumoth! Have you heard about those spirits showing up on the moons? Amazing, huh?",
+            "I hope to see you more in future.",
+			"I'm not responsible for any figurative rain clouds over heads, only literal ones."
+          ]
+        },
+        "saturn2": {
+          "default": [
+            "Farewell, traveler.",
+            "Have you heard about those spirits showing up on the moons? Amazing, huh?",
+            "I hope to see you more in future.",
+			"I'm not responsible for any figurative rain clouds over heads, only literal ones."
+          ],
+          "saturn2": [
+            "Farewell, traveler.",
+            "Oh! Another Thaumoth! Have you heard about those spirits showing up on the moons? Amazing, huh?",
+            "I hope to see you more in future.",
+			"I'm not responsible for any figurative rain clouds over heads, only literal ones."
+          ]
+        }
+      } 
+    }
+	}
+  },
+  "items": {
+    "override": [
+      [
+        0,
+        [
+          {
+            "chest": [
+              "saturntier4chestnotevil"
+            ],
+            "legs": [
+              "saturnmerchantlegs"
+            ],
+            "head": [
+			{ "name" : "SunHat", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnWideHat", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnBuckledHat", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnnull", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } }
+            ],
+            "back": [
+			{ "name" : "saturnWingLuna2"},
+			{ "name" : "saturnWingLunaB2"},
+			{ "name" : "saturnWingLunaB2"}
+            ],
+            "primary": [
+              "satstaffrain"
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

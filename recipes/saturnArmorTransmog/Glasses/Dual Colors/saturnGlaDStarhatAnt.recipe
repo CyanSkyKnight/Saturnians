@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "saturnStarhatAnt", "count" : 1 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "saturnGlaDStarhatAnt", "count" : 1 },
+  "groups" : [ "saturntransmogarmor", "all" ]
+}

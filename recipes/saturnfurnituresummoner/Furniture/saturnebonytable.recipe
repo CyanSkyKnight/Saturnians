@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "saturnebony", "count" : 20 }
+  ],
+  "duration" : 0.005,
+  "output" : { "item" : "saturnebonytable", "count" : 1 },
+  "groups" : [ "saturnfurniture", "all" ]
+}

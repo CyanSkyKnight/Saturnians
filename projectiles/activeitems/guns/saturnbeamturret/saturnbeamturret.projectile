@@ -1,0 +1,84 @@
+{
+  "projectileName" : "saturnbeamturret",
+  "physics" : "laser",
+  "timeToLive" : 2,
+  "image" : "satelectricportal.png",
+  "animationCycle" : 0.7,
+  "lightColor" : [60, 110, 90],
+  "frameNumber" : 8,
+  "windupFrames" : 3,
+  "winddownFrames" : 3,
+  "periodicActions" : [
+    {
+      "time" : 0,
+      "repeat" : false,
+      "action" : "sound",
+      "options" : [ "/sfx/melee/astraltear2.ogg" ]
+    },
+	{
+      "time" : 0.5,
+      "repeat" : false,
+      "action" : "sound",
+      "options" : [ "/sfx/gun/satbeamfall.ogg" ]
+    },
+    {
+      "time" : 5.65,
+      "repeat" : false,
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/astraltear_stop3.ogg" ]
+    }
+  ],
+
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/elementcloud_break1.ogg", "/sfx/projectiles/elementcloud_break2.ogg" ]
+    }
+  ],
+  
+  "speed" : 0,
+  "power" : 30,
+  "damageKind" : "default",
+  "damagePoly" : [ ],
+  "fullbright" : true,
+
+
+  "renderLayer" : "Projectile-1",
+  "orientationLocked" : true,
+
+  "bounces" : -1,
+  "onlyHitTerrain" : true,
+
+  "scripts" : [ "/projectiles/activeitems/staff/staffprojectile.lua" ],
+  "scriptDelta" : 1,
+
+  "controlMovement" : {
+    "maxSpeed" : 80,
+    "controlForce" : 0
+  },
+
+  "timedActions" : [
+    {
+      "delayTime" : 0.5,
+      "loopTime" : 0.20,
+      "loopTimeVariance" : 0,
+      "action" : "projectile",
+      "type" : "saturnhyperbeam",
+      "config" : {"speed" : 100, "knockback" : 10},
+      "inheritDamageFactor" : 0.2
+    },
+	
+	{
+      "delayTime" : 0.5,
+      "loopTime" : 3,
+      "loopTimeVariance" : 0,
+      "action" : "projectile",
+      "type" : "saturnhyperbeamblastspawner",
+      "config" : {"speed" : 100},
+      "inheritDamageFactor" : 0
+    }
+	
+  ],
+
+  "persistentAudio" : "/sfx/melee/staff_charged_poison.ogg"
+}

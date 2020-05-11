@@ -1,0 +1,31 @@
+{
+  "projectileName" : "saturnbeamEle",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "saturninvis.png",
+  "animationCycle" : 0.5,
+  "timeToLive" : 1,
+  "frameNumber" : 1,
+  "power" : 50,
+  "speed" : 75,
+  "supportsProcessing" : true,
+  "periodicActions" : [
+    {
+      "action" : "particle",
+      "specification" : "saturnlightbeamtraily",
+      "rotate" : true,
+      "time" : 0.01,
+      "repeat" : true
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/saturnglobeexplosions/saturnWglobeexplosion.config"
+    }
+  ],
+  "lightColor" : [100, 100, 50],
+  "fullbright" : true,
+  "damageKind" : "electric"
+}

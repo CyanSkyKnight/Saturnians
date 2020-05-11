@@ -1,0 +1,25 @@
+{
+  "materialId" : 54722,
+  "materialName" : "saturnebonycore",
+  "particleColor" : [124, 145, 86, 255],
+  "itemDrop" : "saturnebonycore",
+
+  "description" : "Solid wood from a giant alien tree.",
+  "glitchDescription" : "Observant. This wood is free of scratches.",
+  "floranDescription" : "Sssmooth wood.",
+  "novakidDescription" : "Some thick wood slopes, looks mighty solid.",
+  "shortdescription" : "Ebony Core",
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 12,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "saturnebonycore.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 5000
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "objectName" : "saturntechstation",
+  "colonyTags" : ["saturn"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "interactAction" : "OpenAiInterface",
+
+  "category" : "decorative",
+  "lightColor" : [67, 102, 61],
+  "lightPosition" : [-1, 0],
+
+  "description" : "Ship-based Artificial Intelligence Lattice, or S.A.I.L for short.",
+  "shortdescription" : "S.A.I.L",
+  "race" : "saturn",
+
+  "apexDescription" : "I can talk to SAIL through this console.",
+  "avianDescription" : "I can use this station to talk to SAIL.",
+  "floranDescription" : "Floran use thisss magic panel to talk to SAIL!",
+  "glitchDescription" : "Happy. This station allows me to talk to SAIL.",
+  "humanDescription" : "This station allows me to communicate with SAIL.",
+  "hylotlDescription" : "This console allows me to communicate with SAIL.",
+  "novakidDescription" : "This here station let's me talk with SAIL.",
+  "saturnDescription" : "Hi SAIL.",
+  "inventoryIcon" : "saturntechstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "saturntechstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "saturntechstationlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 32,
+      "animationCycle" : 3.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "offeredQuests" : [ "gaterepair" ],
+
+  "animation" : "/objects/ship/techstation.animation",
+  "scripts" : [
+    "/objects/spawner/techstation.lua"
+  ],
+  "scriptDelta" : 20,
+  "shipPetType" : "snugget",
+  "spawnOffset" : [2, -1],
+
+  "chatPortrait" : "/ai/portraits/saturnportrait.png:yell.1",
+  "dialog" : {
+    "wakeUp" : [
+      [ "Rebooting system. CAUTION: Unusual amounts of dimensional flux detected since destruction of Earth.", "/ai/portraits/saturnportrait.png:unique.1" ],
+      [ "Ship is heavily damaged. Engines and navigation are down. All location bookmark data has been corrupted. ", "/ai/portraits/saturnportrait.png:refuse.0" ],
+      [ "Life Support, Storage, Lighting, Teleporter, and Air Conditioning systems are online.", "/ai/portraits/saturnportrait.png:talk.1" ],
+      [ "The surface below seems safe. Maybe you can find someone that can repair the ship.", "/ai/portraits/saturnportrait.png:unique.1" ],
+      [ "Go ahead and get your supplies from the storage locker", "/ai/portraits/saturnportrait.png:talk.1" ]
+    ],
+    "wakePlayer" : [
+      [ "System is down, please reboot.", "/ai/portraits/saturnportrait.png:unique.1"],
+      [ "Please reboot.", "/ai/portraits/saturnportrait.png:yell.1"],
+      [ "We are unable to do anything else unless you reboot.", "/ai/portraits/saturnportrait.png:unique.1"],
+      [ "Hello?", "/ai/portraits/saturnportrait.png:unique.1" ],
+      [ "Did we just enter the orbit of a planet? I cannot scan far in low power mode.", "/ai/portraits/saturnportrait.png:unique.0"],
+      [ "No activity detected. Ship recovery signal sent to rescue team. Est. arrival: 1,094,877,360 hours.", "/ai/portraits/saturnportrait.png:refuse.0" ]
+    ]
+  },
+
+  "uniqueId" : "techstation"
+}

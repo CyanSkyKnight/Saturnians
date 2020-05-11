@@ -1,0 +1,39 @@
+{
+  "objectName": "saturnbottle",
+  "colonyTags": [ "saturn", "alchemy"],
+  "rarity": "Common",
+  "price": 10,
+  "description": "[^#ff99ff;Decorative^reset;] An empty bottle.",
+  "shortdescription" : "^#000300;^white;Empty Bottle",
+  "category": "decorative",
+  "race": "generic",
+  
+  "apexDescription": "There isn't anything special about this bottle.",
+  "avianDescription": "It's just a bottle.",
+  "floranDescription": "Empty.",
+  "glitchDescription": "Analytical. I detect a small amount of sugar. This is just a sugar jar.",
+  "humanDescription": "What does the label on this bottle say?",
+  "hylotlDescription": "Such a plain bottle.",
+  "novakidDescription": "It's empty.",
+  
+  "saturnDescription": "The label says: \"sugar\".",
+  "saturn2Description": "It's an empty sugar jar.",
+  "satkyterranDescription" : "It's an empty sugar jar.",
+  
+  "inventoryIcon": "saturnbottleicon.png",
+  "orientations": [
+    {
+      "dualImage": "saturnbottle.png:<color>",
+      "imagePosition": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "animationCycle": 0.5,
+      "spaceScan": 0.1,
+      "anchors": [
+        "bottom"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "projectileName" : "saturndarkbolt",
+  "image" : "saturndarkbolt.png",
+  "animationCycle" : 0.4,
+  "frameNumber" : 6,
+  "speed" : 40,
+  "damagePoly" : [ [-18, 0], [-12, -12], [0, -18], [12, -12], [18, 0], [12, 12], [0, 18], [-12, 12] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "electric",
+  "statusEffects" : [ "electrified" ],
+  "lightColor" : [181, 28, 238],
+  "pointLight" : true
+}

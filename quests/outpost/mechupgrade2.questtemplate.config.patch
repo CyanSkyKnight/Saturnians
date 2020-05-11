@@ -1,0 +1,8 @@
+[
+{ "op" : "add", "path" : "/scriptConfig/giveSpeciesBlueprints/saturn",
+"value" : ["mechbodysaturn", "mechbodysaturnA", "mechbodysaturnR", "mechbodysaturnW" ]
+},
+{ "op" : "add", "path" : "/scriptConfig/giveSpeciesBlueprints/saturn2",
+"value" : ["mechbodysaturn", "mechbodysaturnA", "mechbodysaturnR", "mechbodysaturnW" ]
+}
+]

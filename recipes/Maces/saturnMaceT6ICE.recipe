@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "saturnMaceT6", "count" : 1 },
+    { "item" : "cryonicextract", "count" : 1 }
+  ],
+  "output" : { "item" : "saturnMaceT6ICE", "count" : 1 },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
+}

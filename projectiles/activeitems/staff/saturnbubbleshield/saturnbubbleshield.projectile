@@ -1,0 +1,59 @@
+{
+  "projectileName" : "saturnbubbleshield",
+  "physics" : "default",
+  "timeToLive" : 5,
+  "image" : "saturnbubbleshield.png",
+  "animationCycle" : 0.1,
+  "frameNumber" : 3,
+  "windupFrames" : 3,
+  "winddownFrames" : 3,
+  "periodicActions" : [
+    {
+      "time" : 4.8,
+      "repeat" : false,
+      "action" : "sound",
+      "options" : [ "/sfx/objects/saturnbubbledoor2.ogg" ]
+    }
+  ],
+  "actionOnReap" : [],
+  "speed" : 0,
+  "power" : 0,
+
+  "onlyHitTerrain" : true,
+
+  "physicsCollisions" : {
+    "piece1" : {
+      "collision" : [ [-3.0, 0], [0, 3.0] ],
+      "collisionKind" : "slippery",
+      "categoryWhitelist" : ["projectile"]
+    },
+    "piece2" : {
+      "collision" : [ [0, 3.0], [3.0, 0] ],
+      "collisionKind" : "slippery",
+      "categoryWhitelist" : ["projectile"]
+    },
+    "piece3" : {
+      "collision" : [ [3.0, 0], [0, -3.0] ],
+      "collisionKind" : "slippery",
+      "categoryWhitelist" : ["projectile"]
+    },
+    "piece4" : {
+      "collision" : [ [0, -3.0], [-3.0, 0] ],
+      "collisionKind" : "slippery",
+      "categoryWhitelist" : ["projectile"]
+    }
+  },
+
+  "renderLayer" : "ItemDrop+1",
+  "orientationLocked" : true,
+  "fullbright" : true,
+  "emitters" : [ ],
+  "lightColor" : [60, 110, 130],
+
+  "piercing" : true,
+  "bounces" : -1,
+
+  "scripts" : [ "/projectiles/activeitems/staff/staffprojectile.lua" ],
+
+  "persistentAudio" : "/sfx/projectiles/forcecage_loop.ogg"
+}

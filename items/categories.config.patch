@@ -1,0 +1,64 @@
+[
+
+{ "op" : "add", "path" : "/labels/saturncraftingguide",
+"value" : "Crafting Guide Scroll"
+},
+
+{ "op" : "add", "path" : "/labels/saturnrapier",
+"value" : "Saturnian Rapier"
+},
+{ "op" : "add", "path" : "/labels/saturnmace",
+"value" : "Saturnian Mace"
+},
+
+{ "op" : "add", "path" : "/labels/saturnbow",
+"value" : "Saturnian Light Bow"
+},
+
+{ "op" : "add", "path" : "/labels/saturnminigun",
+"value" : "Nocturne Minigun"
+},
+
+{ "op" : "add", "path" : "/labels/saturnscythe",
+"value" : "Thaumoth Scythe"
+},
+
+{ "op" : "add", "path" : "/labels/saturnwand",
+"value" : "Saturnian Wand"
+},
+
+{ "op" : "add", "path" : "/labels/saturngenwand",
+"value" : "Random Moth Wand"
+},
+
+{ "op" : "add", "path" : "/labels/saturnsilkitem",
+"value" : "Saturnian Silk"
+},
+
+{ "op" : "add", "path" : "/labels/saturngenwand2",
+"value" : "Random Effect Zone Wand"
+},
+
+{ "op" : "add", "path" : "/labels/saturngenbaton",
+"value" : "Random Moth Baton"
+},
+
+{ "op" : "add", "path" : "/labels/saturnstaff",
+"value" : "Saturnian Staff"
+},
+{ "op" : "add", "path" : "/labels/saturn2wand",
+"value" : "Thaumoth Wand"
+},
+{ "op" : "add", "path" : "/labels/saturnbaton",
+"value" : "Mage's Baton"
+},
+{ "op" : "add", "path" : "/labels/saturntoolbaton",
+"value" : "Mage's Scepter"
+},
+{ "op" : "add", "path" : "/labels/saturnheadwear",
+"value" : "Saturnian Fitted Headwear"
+},
+{ "op" : "add", "path" : "/labels/saturndev",
+"value" : "INCOMPLETE. Tell Cyan Sky Knight if you see this!"
+}
+]

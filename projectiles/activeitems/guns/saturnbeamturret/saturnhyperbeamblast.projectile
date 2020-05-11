@@ -1,0 +1,42 @@
+{
+  "projectileName" : "saturnhyperbeamblast",
+  "physics" : "laser",
+  "timeToLive" : 2,
+  "image" : "satelectricportalblast.png",
+  "animationCycle" : 0.7,
+  "lightColor" : [60, 110, 90],
+  "frameNumber" : 8,
+  "windupFrames" : 3,
+  "winddownFrames" : 3,
+
+
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/elementcloud_break1.ogg", "/sfx/projectiles/elementcloud_break2.ogg" ]
+    }
+  ],
+  
+  "speed" : 0,
+  "power" : 30,
+  "damageKind" : "default",
+  "damagePoly" : [ ],
+  "fullbright" : true,
+  
+
+  "renderLayer" : "Projectile-1",
+  "orientationLocked" : true,
+
+  "bounces" : -1,
+  "onlyHitTerrain" : true,
+
+  "scripts" : [ "/projectiles/activeitems/staff/staffprojectile.lua" ],
+  "scriptDelta" : 1,
+
+  "controlMovement" : {
+    "maxSpeed" : 80,
+    "controlForce" : 0
+  },
+
+  "persistentAudio" : "/sfx/melee/staff_charged_poison.ogg"
+}

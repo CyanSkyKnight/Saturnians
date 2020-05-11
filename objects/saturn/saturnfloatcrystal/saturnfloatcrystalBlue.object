@@ -1,0 +1,59 @@
+{
+  "objectName" : "saturnfloatcrystalBlue",
+  "colonyTags" : ["light", "saturn", "crystal", "pretty" ],
+  "rarity" : "Common",
+  "description" : "A floating, glowing crystal taken from the Saturnian homeworld. Can be placed in midair.",
+  "shortdescription" : "Blue Float Crystal S",
+  "race" : "saturn",
+  "category" : "light",
+  "price" : 30,
+  "lightColor" : [120, 140, 220],
+  
+  "flickerPeriod" : 2.9,
+  "flickerMinIntensity" : 0.9,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+  "apexDescription" : "A floating crystal used as a light source.",
+  "avianDescription" : "A glowing, floating crystal, not too different from the ones Avians use.",
+  "floranDescription" : "Floating cryssstalss.",
+  "glitchDescription" : "Intrigued. This crystal appears to float, generating its own gravitational field and also produces its own light.",
+  "humanDescription" : "What could be keeping this crystal in the air?",
+  "hylotlDescription" : "A colorful crystal lamp.",
+  "novakidDescription" : "This floating shiny rock is glowin' just a like a torch.",
+  "saturnDescription" : "These floating crystals are pretty popular.",
+  "saturn2Description" : "A glowing crystal probably mined somewhere below Solalei.",
+  "satkyterranDescription" : "A glowing crystal probably mined somewhere below Solalei.",
+  "inventoryIcon" : "saturnfloatcrystalicon.png:blue",
+  "tooltipKind" : "saturnlight",
+  "largeImage" : "saturnfloatcrystalBlue.png:default.on",
+  "orientations" : [
+    {
+      "image" : "saturnfloatcrystalBlue.png:<color>.<frame>",
+      "imagePosition" : [-4, -24],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "lightPosition" : [0, -2],
+      "beamAngle" : 270
+    },
+    {
+      "image" : "saturnfloatcrystalBlue.png:<color>.<frame>",
+      "imagePosition" : [-4, -24],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "lightPosition" : [0, -2],
+      "beamAngle" : 270
+    }
+  ],
+  "animation" : "saturnfloatcrystal.animation",
+  "animationParts" : {
+    "light" : "saturnfloatcrystalBlue.png"
+  },
+  "animationPosition" : [-4, -24],
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+  "inputNodes" : [ [0, -2] ]
+}

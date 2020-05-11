@@ -1,0 +1,25 @@
+{
+  "materialId" : 54723,
+  "materialName" : "saturncrystalblock2",
+  "particleColor" : [104, 241, 157, 255],
+  "itemDrop" : "saturncrystalblock2",
+  "description" : "A shimmering block of made from glowing crystals.",
+  "shortdescription" : "Moongem Block",
+  "glitchDescription" : "Calm. This crystal block has a soothing appearance.",
+  "floranDescription" : "Ssshiny block made from crysstalss.",
+  "novakidDescription" : "The crystals in this block are real purdy.",
+  "footstepSound" : "/sfx/blocks/footstep_crystal.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "saturncrystalblock2.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 1560,
+    "radiantLight" : [64, 151, 87]
+  }
+}

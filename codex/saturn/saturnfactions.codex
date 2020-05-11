@@ -1,0 +1,20 @@
+{
+	"id" : "saturnfactions",
+	"title" : "Saturnian Civilization",
+	"species" : "other",
+	"description" : "A guide to Saturnian civilization.",
+	"icon" : "saturnbook4.png",
+	"contentPages" : [
+
+		"The largest and most widespread Saturnian country is Solalei. Since ancient times, this alliance between the Sun Kingdom and the Io Mages eventually has expanded to include around 40 other countries. Many Saturnians travel to Solalei City to learn magic from the wizard college there. The Solalei Exploration Guild travels across space in search of new resources, technology, and potential allies. Alien cultures are very popular in Solalei. Saturnians from here often call themselves bizarre alien names, like \"Robert\"",
+	
+		"The next largest country is Actias. The Actian people highly value tradition, often using ancient names for themselves. For example, they use the word \"Thaumoth\" instead of \"Saturnian\"  Cities are built on the top of giant trees and mushrooms. Actians channel moonlight to summon spirits and animated armor, among other things. This reliance on the moon means that most Actians stayed on the homeworld until recently. ",
+	
+		"There are many other groups that remain mostly independent of these two. The most famous are Rubicunda, who are known for covering their islands in colorful flowers; and the Waspmim, whose culture is centered around mimicking a wasp species they encountered on their travels."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Common",
+    "price" : 50
+  }
+}

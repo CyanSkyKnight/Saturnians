@@ -1,0 +1,30 @@
+{
+  "projectileName" : "saturnfireshot",
+  "physics" : "default",
+  "timeToLive" : 1.5,
+  "image" : "satfireswarmer.png",
+  "animationCycle" : 0.5,
+  "lightColor" : [0, 0, 0],
+  "frameNumber" : 4,
+  "speed" : 0,
+  "power" : 30,
+  "damageKind" : "fire",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "statusEffects" : [ "burning" ],
+
+
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/elementimpact/fireimpact.config"
+    }
+  ],
+  
+  "fullbright" : true,
+  "emitters" : [ "fireplasma" ],
+  "bounces" : 0,
+
+  "scripts" : [ "/projectiles/activeitems/staff/plasmaball/plasmaball.lua" ],
+
+  "triggerSpeed" : 40
+}

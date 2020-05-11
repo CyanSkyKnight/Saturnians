@@ -1,0 +1,44 @@
+{
+  "projectileName" : "saturngunbouncerpoison",
+  "physics" : "laser",
+  "timeToLive" : 5,
+  "image" : "saturngunbouncerpoison.png",
+  "animationCycle" : 0.3,
+  "lightColor" : [80, 110, 30],
+  "frameNumber" : 4,
+  "periodicActions" : [ ],
+  "actionOnCollide" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/elementimpact/poisonimpact2.config"
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/elementimpact/poisonimpact.config"
+    }
+  ],
+  "knockback" : 35,
+  "speed" : 45,
+  "power" : 30,
+  "piercing" : false,
+  "damageKind" : "poison",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "statusEffects" : [ "weakpoison" ],
+
+  "fullbright" : true,
+  "emitters" : [ "poisonplasma" ],
+
+  "bounces" : 0,
+
+  "scripts" : [ "/projectiles/activeitems/staff/staffprojectile.lua", "/projectiles/activeitems/staff/elementbouncer/bouncespikes.lua" ],
+
+  "spikeProjectile" : "saturnpoisonstickyspikes",
+  "spikeDamageFactor" : 0.1,
+
+  "controlMovement" : {
+    "maxSpeed" : 60,
+    "controlForce" : 0
+  }
+}

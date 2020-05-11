@@ -1,0 +1,17 @@
+{
+  "itemName" : "saturnslopedbrasspanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "saturnslopedbrasspanel.png",
+  "largeImage" : "/items/materials/tooltips/saturnslopedbrasspanel.png",
+  "tooltipKind" : "saturnpaintedblock",
+  
+  "shortdescription" : "Brass Panel",
+  "description" : "Sloped brass panels. Its painted colors are the same as the bronze panels, so you can use them together without them merging.",
+  "glitchdescription" : "Observant. This is panelling widely used for ship and station construction.",
+  "florandescription" : "Shiny sssmooth space metal.",
+  "novakiddescription" : "Some thick metal plating, looks mighty solid.",
+  "learnBlueprintsOnPickup" : [ "saturnslopedmetalpanel" ],
+  "materialId" : 54721
+}

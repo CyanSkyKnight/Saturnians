@@ -1,0 +1,17 @@
+{
+  "itemName" : "saturnslopedpanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "saturnslopedpanel.png",
+  "largeImage" : "/items/materials/tooltips/saturnslopedpanel.png",
+  "tooltipKind" : "saturnpaintedblock",
+  
+  "shortdescription" : "Ebony Panel",
+  "description" : "Sloped wood panels similar to that of Earth's ebony trees. It is completely fireproof.",
+  "glitchdescription" : "Observant. This is panelling widely used for ship and station construction.",
+  "florandescription" : "Shiny sssmooth space metal.",
+  "novakiddescription" : "Some thick metal plating, looks mighty solid.",
+  "learnBlueprintsOnPickup" : [ "saturnslopedpanel" ],
+  "materialId" : 54705
+}

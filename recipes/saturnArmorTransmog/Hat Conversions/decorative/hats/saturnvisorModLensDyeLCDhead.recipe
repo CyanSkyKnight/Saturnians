@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "saturnvisorModLensDyehead", "count" : 1 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "saturnvisorModLensDyeLCDhead", "count" : 1 },
+  "groups" : [ "saturntransmoghelms", "all" ]
+}

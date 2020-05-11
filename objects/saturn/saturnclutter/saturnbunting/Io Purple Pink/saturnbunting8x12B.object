@@ -1,0 +1,27 @@
+{
+  "objectName" : "saturnbunting8x12Biop",
+  "colonyTags" : ["saturn","pretty", "magic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+  "description" : "Decorative ^#867CAC;purple ^reset;and ^#D8608C;pink ^reset;bunting based on the colors of io moths.",
+  "shortdescription" : "^#D8608C;Pink ^#867CAC;I^#D8608C;O^reset; Bunting 8x12-B",
+  "race" : "saturn",
+  "apexDescription" : "A wonderfully vibrant banner.",
+  "avianDescription" : "The grounded decorate their villages banners like this. They fill their lives with colour.",
+  "floranDescription" : "Pretty colourss, reminds Floran of flowers.",
+  "glitchDescription" : "Charmed. Poorly-made, but beautiful nonetheless.",
+  "humanDescription" : "Bright and cheerful colours",
+  "hylotlDescription" : "Such vibrancy can only exist above the ocean.",
+  "novakidDescription" : "There's somethin' about this banner. I like it.",
+  "inventoryIcon" : "saturnbuntingicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnbunting8x12B.png",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1
+    }
+  ]
+}

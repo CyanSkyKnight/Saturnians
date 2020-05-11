@@ -1,0 +1,31 @@
+{
+  "objectName" : "saturncanvas",
+  "colonyTags" : ["saturn", "saturnpaintings"],
+  "rarity" : "Common",
+  "description" : "A blank canvas on an ebony easel. What will you paint? ",
+  "shortdescription" : "Eb. Easel + Blank Canvas",
+  "race" : "saturn",
+  "category" : "decorative",
+  "price" : 110,
+  "apexDescription" : "A blank canvas.",
+  "avianDescription" : "An empty canvas.",
+  "floranDescription" : "Nothing.",
+  "glitchDescription" : "Bored. A blank canvas.",
+  "humanDescription" : "A blank canvas. Where's the paint?",
+  "hylotlDescription" : "A blank canvas? Perhaps it has deeper meaning.",
+  "novakidDescription" : "Just a blank canvas.",
+  "saturnDescription" : "It's a blank canvas. Maybe I could find some paint?",
+  "saturn2Description" : "Hmm. Now what could I paint?",
+  "satkyterranDescription" : "This is basically what some sandstorms look like.",
+  "inventoryIcon" : "saturncanvasicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturncanvas.png:<color>",
+      "imagePosition" : [-16, -0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

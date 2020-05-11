@@ -1,0 +1,128 @@
+{
+  "itemName" : "saturnBatonT6c",
+  "price" : 1440,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Slowly charges, then fires a large, lingering beam of light.",
+  "shortdescription" : "^#000600;^reset;Hyper Beam Baton",
+  "tooltipKind" : "saturngun",
+  "category" : "saturnbaton",
+  "twoHanded" : false,
+  "itemTags" : ["weapon", "ranged", "wand", "upgradeableWeapon"],
+  "level" : 6,
+
+  "inventoryIcon" : "saturnBatonT6.png",
+
+  "animation" : "/items/active/weapons/ranged/saturnwindupgun.animation",
+  "animationParts" : {
+    "chargeFlash" : "",
+    "middle" : "saturnBatonT6.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+     "particleEmitters" : {
+      "muzzleFlash" : {
+        "particles" : [
+          { "particle" : "ghostsparkle", "offset" : [-2, 0.8] },
+          { "particle" : "ghostsparkle", "offset" : [-2, 0.8] },
+          { "particle" : "ghostsparkle", "offset" : [-2, 0.8] }
+        ]
+		
+      }
+	  },
+    "sounds" : {
+		"charge" : [ "/sfx/melee/saturnQuickSpin.ogg" ],
+		"charge2" : [ "/sfx/melee/saturnshortstaffcharge4.ogg" ],
+		"charge3" : [ "/sfx/melee/saturnBlank.ogg" ],
+      "fire" : ["/sfx/gun/SaturnWandshot.ogg", "/sfx/gun/SaturnWandshot2.ogg"]
+    }
+  },
+  "aimOffset" : -1,
+  "muzzleOffset" : [2, 0.8],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/saturngunfire.lua"],
+    "class" : "SaturnGunFire",
+
+    "fireTime" : 1,
+    "baseDps" : 10,
+    "energyUsage" : 100,
+    "projectileCount" : 1,
+    "inaccuracy" : 0,
+    "fireType" : "auto",
+
+    "projectileType" : ["saturnbeamturret"],
+    "projectileParameters" : {
+      "knockback" : 20,
+	  "speed" : 0
+    },
+   "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : 0,
+        "weaponOffset" : [0, 0.5],
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "windup" : {
+        "duration" : 0.5,
+        "armRotation" : -80,
+        "weaponRotation" : -70,
+        "weaponOffset" : [0, 0.5],
+		"armAngularVelocity" : 250,
+		"weaponAngularVelocity" : 1230,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "windup2" : {
+        "duration" : 0.8,
+        "armRotation" : 10,
+        "weaponRotation" : -30,
+        "weaponOffset" : [0, 0.5],
+		"armAngularVelocity" : 100,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "windup3" : {
+        "duration" : 0,
+        "armRotation" : 10,
+        "weaponRotation" : -30,
+        "weaponOffset" : [0, 0.5],
+		"armAngularVelocity" : 200,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "aimcorrect" : {
+	    "duration" : 0.001,
+        "armRotation" : -20,
+        "weaponRotation" : -70,
+        "weaponOffset" : [0, 1],
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.5,
+        "armRotation" : -20,
+        "weaponRotation" : -70,
+        "weaponOffset" : [0, 1],
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0,
+        "armRotation" : -20,
+        "weaponRotation" : -70,
+        "weaponOffset" : [0, 1],
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

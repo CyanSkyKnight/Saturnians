@@ -1,0 +1,97 @@
+{
+  "type": "SaturnWaspmimWizard",
+  "baseType": "merchant",
+  "dropPools": [
+    "wizardtreasure"
+  ],
+  "scriptConfig": {
+    "questGenerator": {
+      "pools": [
+        "common"
+      ]
+    },
+    "merchant": {
+      "categories": {
+        "override": [
+          "SaturnWaspWizardMerchant"
+        ]
+      },
+      "buyFactorRange": [
+        1,
+        1
+      ],
+      "sellFactorRange": [
+        0.2,
+        0.2
+      ],
+      "numItems": 20,
+      "storeRadius": -1,
+      "paneLayoutOverride": {
+        "windowtitle": {
+          "title": "  Waspmin Wizard",
+          "subtitle": "  Sells Wands"
+        }
+      }
+    },
+    "dialog": {
+      "merchant": {
+        "start": {
+          "default": {
+            "default": [
+              "You can tell by my hood that I am the bee wizard. Buzz buzz!",
+              "See anything you like?",
+              "Anyone can use magic; it just takes the right tools!",
+			  "Bee magic is way better than moth magic.",
+              "These wands can only cast one spell, but you don't need to study magic to use them.",
+              "I'm Bee-<selfname>, the local bee wizard.",
+              "With the power of... bees? The elements will be yours to command? Yeah, let's go with that."
+            ]
+          }
+        }
+      },
+      "end": {
+        "default": {
+          "default": [
+            "Farewell, traveler.",
+            "May the Great Queen guide your travels.",
+            "I hope to see you more in future.",
+            "Buzziness to you!"
+          ]
+        },
+        "glitch": {
+          "default": [
+            "Cordial. Farewell, traveller.",
+            "Convivial. I hope to see you more in future.",
+            "Kindly. Courage to you!"
+          ]
+        }
+      }
+    }
+  },
+  "items": {
+    "override": [
+      [
+        0,
+        [
+          {
+            "chest": [
+              "saturnWaspmimRobeschest"
+            ],
+            "legs": [
+              "saturnWaspmimRobeslegs"
+            ],
+            "head": [
+              "saturnWaspmimRobeshead"
+            ],
+            "back": [
+              "saturnWingWasp"
+            ],
+            "primary": [
+              "saturnHoneyScepter"
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "objectName" : "saturnposter4",
+  "colonyTags" : ["thaumoth", "pretty", "magic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "description" : "A poster of trendy witch-styled fashion.",
+  "shortdescription" : "^#000200;^white;Thaumoth Witch Poster",
+  "race" : "saturn",
+
+  "inventoryIcon" : "saturnposter4icon.png",
+  "orientations" : [
+    {
+      "image" : "saturnposter4.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

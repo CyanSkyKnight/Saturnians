@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 1 },
+    { "item" : "silverbar", "count" : 1 }
+  ],
+  "duration" : 0,
+  "output" : {
+    "item" : "saturnshiplocker",
+    "count" : 1
+  },
+  "groups" : [ "saturnstorage", "craftingfurniture2", "storage", "all" ]
+}

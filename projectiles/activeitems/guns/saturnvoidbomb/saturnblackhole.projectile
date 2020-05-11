@@ -1,0 +1,66 @@
+{
+  "projectileName" : "saturnblackhole",
+  "physics" : "laser",
+  "timeToLive" : 5,
+  "image" : "saturnblackhole.png",
+  "animationCycle" : 0.7,
+  "lightColor" : [60, 110, 90],
+  "frameNumber" : 8,
+  "windupFrames" : 3,
+  "winddownFrames" : 3,
+  "periodicActions" : [
+    {
+      "time" : 0,
+      "repeat" : false,
+      "action" : "sound",
+      "options" : [ "/sfx/melee/astraltear2.ogg" ]
+    },
+    {
+      "time" : 5.65,
+      "repeat" : false,
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/astraltear_stop3.ogg" ]
+    }
+  ],
+
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/elementcloud_break1.ogg", "/sfx/projectiles/elementcloud_break2.ogg" ]
+    }
+  ],
+  
+  "speed" : 0,
+  "power" : 30,
+  "damageKind" : "electric",
+  "damagePoly" : [ [-10, 0], [-7, -7], [0, -10], [7, -7], [10, 0], [7, 7], [0, 10], [-7, 7] ],
+  "fullbright" : true,
+  
+  "boundBox" : [-7, -7, 7, 7],
+  "physicsForces" : {
+    "pull" : {
+      "type" : "RadialForceRegion",
+      "categoryWhitelist" : ["monster", "npc", "itemdrop"],
+      "outerRadius" : 7,
+      "innerRadius" : 3,
+      "targetRadialVelocity" : -30,
+      "controlForce" : 300
+    }
+  },
+
+  "renderLayer" : "Projectile-1",
+  "orientationLocked" : true,
+
+  "bounces" : -1,
+  "onlyHitTerrain" : true,
+
+  "scripts" : [ "/projectiles/activeitems/staff/staffprojectile.lua" ],
+  "scriptDelta" : 1,
+
+  "controlMovement" : {
+    "maxSpeed" : 60,
+    "controlForce" : 0
+  },
+
+  "persistentAudio" : "/sfx/melee/staff_charged_poison.ogg"
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "op": "add",
+    "path": "/species/saturn",
+    "value": {
+      "aiFrames": "SaturnAI.png",
+      "portraitFrames": "portraits/saturnportrait.png",
+      "staticFrames": "staticsaturn.png"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/species/saturn2",
+    "value": {
+      "aiFrames": "Saturn2AI.png",
+      "portraitFrames": "portraits/saturn2portrait.png",
+      "staticFrames": "staticsaturn.png"
+    }
+  }
+]

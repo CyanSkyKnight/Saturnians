@@ -1,0 +1,82 @@
+{
+  "itemName" : "SatGatlingPlasma",
+  "price" : 1440,
+  "inventoryIcon" : "SatGatlingPlasma.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Part of this minigun's power has phased into another dimension.",
+  "shortdescription" : "Nocturne Minigun",
+  "level" : 6,
+  "tooltipKind" : "saturngun",
+  "category" : "saturnminigun",
+  "itemTags" : ["weapon", "ranged", "assaultrifle", "plasma", "upgradeableWeapon"],
+  "twoHanded" : true,
+  "animation" : "saturnminigun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "SatGatlingPlasma.png",
+    "barrel" : "",
+	"lights" : "SatGatlingPlasmaFB.png",
+    "muzzleFlash" : "SatGatlingPlasmamuzzle.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/SaturnCrystalRifle5.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [0, 0, 0]
+      },
+      "glow" : {
+        "color" : [5, 43, 33]
+		}
+    }
+  },
+  "baseOffset" : [0.6, -0.8],
+  "muzzleOffset" : [3, -0.5],
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "elementalType" : "electric",
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.1,
+    "baseDps" : 10,
+    "energyUsage" : 40,
+    "inaccuracy" : 0.1,
+    "projectileCount" : 1,
+    "fireType" : "auto",
+    "projectileType" : "saturnlightbulletMinigun",
+    "projectileParameters" : {
+      "speed" : 80,
+      "knockback" : 10
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : -4,
+        "weaponRotation" : -4,
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.02,
+        "armRotation" : -4,
+        "weaponRotation" : -4,
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+  
+  "altAbilityType" : "grenadelauncher",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 1 }
+  ],
+  "duration" : 0.005,
+  "output" : { "item" : "saturnbunting5x3rosy", "count" : 1 },
+  "groups" : [ "saturnclutter", "all" ]
+}

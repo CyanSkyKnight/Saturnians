@@ -1,0 +1,24 @@
+{
+  "materialId" : 54701,
+  "materialName" : "sathomewalls1",
+  "particleColor" : [236, 216, 190, 255],
+  "itemDrop" : "sathomewalls1",
+  "description" : "These bricks create the illusion of depth.",
+  "shortdescription" : "Dark Painted Brick",
+  "glitchDescription" : "Delighted. These painted bricks are quaint.",
+  "floranDescription" : "Pretty painted bricksss.",
+  "novakidDescription" : "Some real pretty painted bricks.",
+  "footstepSound" : "/sfx/blocks/footstep_stone2.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "sathomewalls1.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2600
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "projectileName" : "saturnwebblast",
+  "image" : "saturnwebblast.png",
+  "animationCycle" : 0.5,
+  "animationLoops" : false,
+  "timeToLive" : 0.5,
+  "frameNumber" : 6,
+  "power" : 0,
+  "speed" : 0,
+  "orientationLocked" : false,
+  "bounces" : -1,
+  "piercing" : true,
+  "flippable" : true,
+  "knockback" : 0,
+  "knockbackDirectional" : true,
+  "damagePoly" : [ [-32, -24], [-28, -12], [-8, 14], [22, 32], [32, -24] ],
+  "damageKind" : "tarball",
+  "statusEffects" : [
+    {"effect" : "saturnstun", "duration" : 5.0}
+  ],
+  "emitters" : []
+}

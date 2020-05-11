@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 15 },
+    { "item" : "logblock", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "saturnebonytable",
+    "count" : 1
+  },
+  "duration" : 0,
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "villager_saturnlumoth",
+  "priority": 20,
+
+  "colonyTagCriteria": {
+    "saturn": 2,
+    "door": 1,
+	"light": 50
+    
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "saturn",
+      "type": "saturnlumoth",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "saturnLumothGift"
+  }
+}

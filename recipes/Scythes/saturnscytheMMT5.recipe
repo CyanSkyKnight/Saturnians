@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "SaturnSilkshade", "count" : 1 },
+    { "item" : "saturnscytheT5", "count" : 1 }
+  ],
+  "output" : { "item" : "saturnscytheMMT5", "count" : 1 },
+  "groups" : [ "craftingseparator", "saturnenchantedweapon", "weapons", "all" ]
+}

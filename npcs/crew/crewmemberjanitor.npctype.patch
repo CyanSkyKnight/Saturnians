@@ -1,0 +1,40 @@
+[
+
+
+{
+"op": "add",
+"path": "/scriptConfig/dialog/crewmember/roleDescription/saturn",
+"value":  {"default" : [
+
+
+	"Where is all of this dust coming from?",
+	"Every time I turn around, the spots I just swept are covered in dust again. It's a never-ending battle!"]
+
+}},
+
+
+
+
+
+
+{"op" : "add", "path" : "/items/saturn", "value":[[0, [
+		{
+
+			"chest" : [
+			{ "name" : "saturnmerchantchest"}
+			],
+			
+			"legs" : [
+			{ "name" : "saturnmerchantlegs"}
+			],
+			
+			"primary" : [
+			{ "name" : "saturnmundanebroom"}
+			],
+			"sheathedprimary" : [
+			{ "name" : "saturnbroomT1"}
+			]
+			
+		}
+	]]]}
+]

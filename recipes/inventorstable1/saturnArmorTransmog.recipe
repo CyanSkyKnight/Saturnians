@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 15 },
+    { "item" : "logblock", "count" : 1 },
+    { "item" : "glass", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "saturnArmorTransmog",
+    "count" : 1
+  },
+  "duration" : 5,
+  "groups" : [ "inventorstable", "craftingstations", "all" ]
+}

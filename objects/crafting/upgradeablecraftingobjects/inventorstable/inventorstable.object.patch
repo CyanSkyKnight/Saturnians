@@ -1,0 +1,12 @@
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "It's a crafting table for crafting tables!"
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "I can use this to blueprint crafting tables."
+}
+]

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 1},
+	{ "item" : "giantflowerpetal", "count" : 5},
+	{ "item" : "livingroot", "count" : 5},
+	{ "item" : "grassseeds", "count" : 100},
+    { "item" : "plantfibre", "count" : 25 }
+  ],
+  "output" : { "item" : "satstaffgrass", "count" : 1 },
+  "groups" : [ "saturnpracticalmagic", "all" ]
+}

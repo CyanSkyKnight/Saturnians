@@ -1,0 +1,17 @@
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "Why would I hurt moths to steal their silk when I can just spin my own?"
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "Fools! Once they break free, they will bring destruction upon the cosmos!"
+},
+{
+"op": "add",
+"path": "/satkyterranDescription",
+"value": "I shall raise these until they are the size of a fortress. Then I will ride them into battle, striking fear into my foes'-\nIs this the right species for that?"
+}
+]

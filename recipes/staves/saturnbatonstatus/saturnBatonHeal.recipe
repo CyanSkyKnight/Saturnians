@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "liquidhealing", "count" : 10},
+	{ "item" : "salve", "count" : 10},
+	{ "item" : "darkwoodmaterial", "count" : 4 },
+    { "item" : "livingroot", "count" : 2 }
+  ],
+  "output" : { "item" : "saturnBatonHeal", "count" : 1 },
+  "groups" : [ "saturnstatusmagic", "all" ]
+}

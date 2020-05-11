@@ -1,0 +1,10 @@
+{
+  "itemName" : "SaturnSilkshade",
+  "price" : 300,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "inventoryIcon" : "SaturnSilkshade.png",
+  "learnBlueprintsOnPickup" : [ "saturnscytheT5", "saturnscytheMMT5", "saturnscytheT6", "saturnscytheMMT6" ],
+  "description" : "Rare silk made from unstable shadow? Used for crafting?",
+  "shortdescription" : "Shade Silk"
+}

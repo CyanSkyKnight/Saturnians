@@ -1,0 +1,26 @@
+{
+  "projectileName" : "saturnspinningSinebullet",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "saturnspinningplasmabullet.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "timeToLive" : 4,
+  "power" : 50,
+  "speed" : 75,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "lightColor" : [0, 73, 73],
+  "fullbright" : true,
+
+  "scripts" : [ "/scripts/projectiles/sinewaveprojectile.lua" ],
+  "wavePeriod" : 0.2,
+  "waveAmplitude" : 1,
+  "damageKind" : "plasma"
+}

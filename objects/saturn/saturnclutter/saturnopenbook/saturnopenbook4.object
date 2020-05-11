@@ -1,0 +1,26 @@
+{
+  "objectName" : "saturnopenbook4",
+  "colonyTags" : ["thamoth", "satBooks", "knowledge" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "A book about the effects of moon phases on spirit magic.",
+  "shortdescription" : "^#000400;^white;Luna Book",
+  "category" : "decorative",
+  "race" : "saturn",
+  
+  "saturnDescription" : "Thaumoth plan everything out according to our moon's phase. The moon is said to have control over spirits.",
+  "saturn2Description" : "Actians plan everything out according to our moon's phase. The moon has power over spirits.",
+  "satkyterranDescription" : "Thaumoth plan everything out according to our moon's phase. The moon is said to have control over spirits.",
+  
+  "inventoryIcon" : "saturnopenbook4icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnopenbook4.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

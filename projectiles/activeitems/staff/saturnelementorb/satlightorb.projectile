@@ -1,0 +1,51 @@
+{
+  "projectileName" : "satlightorb",
+  "physics" : "laser",
+  "timeToLive" : 1000,
+  "image" : "satlightorb.png",
+  "animationCycle" : 0.3,
+  "lightColor" : [150, 150, 50],
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "loop",
+      "count" : 4,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : "iceshard"
+        }
+      ]
+    }
+  ],   
+  "speed" : 0,
+  "power" : 0,
+  "damageKind" : "electric",
+  "damagePoly" : [ [-10, 0], [-7, -7], [0, -10], [7, -7], [10, 0], [7, 7], [0, 10], [-7, 7] ],
+  "boundBox" : [-14, -14, 14, 14],
+  "physicsForces" : {
+    "pull" : {
+      "type" : "RadialForceRegion",
+      "categoryWhitelist" : ["itemdrop"],
+      "outerRadius" : 14,
+      "innerRadius" : 3,
+      "targetRadialVelocity" : -20,
+      "controlForce" : 300
+    }
+  },
+  "statusEffects" : [ {"effect" : "glow", "duration" : 30.0} ],
+  "damageRepeatTimeout" : 0.25,
+
+  "orientationLocked" : true,
+  "fullbright" : true,
+
+  "piercing" : true,
+  "bounces" : -1,
+
+  "scripts" : [ "/projectiles/activeitems/staff/staffprojectile.lua" ],
+
+  "controlMovement" : {
+    "maxSpeed" : 15,
+    "controlForce" : 80
+  }
+}

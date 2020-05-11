@@ -1,0 +1,75 @@
+{
+  "type" : "saturnlumoth",
+  "baseType" : "generictenant",
+
+  "scriptConfig" : {
+	"behavior" : "tutorial",
+    "questGenerator" : {
+	
+      "pools" : ["common", "tenant"],
+      "graduation" : {
+        "nextNpcType" : [
+          [1, "crewmemberchemistyellow"]
+        ]
+      }
+    },
+
+    "dialog" : {
+		"tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/grumble.config:tagCriteria",
+          "enclosedArea" : "/dialog/grumble.config:enclosedArea",
+          "otherDeed" : "/dialog/grumble.config:otherDeed",
+          "severe" : "/dialog/grumble.config:severe",
+          "final" : "/dialog/grumble.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/arrivedhome.config:beacon",
+          "rent" : "/dialog/arrivedhome.config:rent"
+        }
+      },
+      "flee" : {
+        "helpme" : "/dialog/flee.config:helpme",
+        "safe" : "/dialog/flee.config:safe"
+      },	
+      "converse" : {
+
+        "saturn" : {
+          "default" : [
+            "LIGHT!",
+			"So much light!",
+			"Lights everywhere!",
+			"Would you like to know more about light?",
+            "Light is sight!",
+			"Light is might!",
+			"Light makes right!",
+			"Light guides us through the darkness. That's how I got here!",
+			"That's right! The light here can be seen from space!",
+			"Light light light light light light light light light!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "saturnLumothMask" }
+            ],
+            "chest" : [
+              { "name" : "saturnornaterobeschest" }
+            ],
+            "legs" : [
+              { "name" : "saturnornaterobespants" }
+            ],
+			"back" : [
+              { "name" : "saturnWingLumoth" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

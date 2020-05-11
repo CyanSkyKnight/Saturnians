@@ -1,0 +1,55 @@
+{
+ 	"saturndebugfurniture" : [
+		[0, {
+			"fill" : [
+				{ "item" : [ "saturnMagicLoom", 1]},
+				{ "item" : [ "saturncolonydeed", 1]},
+				{ "item" : [ "saturnshipdoor", 1]},
+				{ "item" : [ "saturnshiplocker", 1]},
+				{ "item" : [ "saturnshiphatch", 1]},
+				{ "item" : [ "saturnbookcase", 1]},
+				{ "item" : [ "saturncanvas", 1]},
+				{ "item" : [ "saturncirclesollamp", 1]},
+				{ "item" : [ "saturncirclesollampblue", 1]},
+				{ "item" : [ "saturncoffeepress", 1]},
+				{ "item" : [ "saturncrystalball", 1]},
+				{ "item" : [ "saturncrystallamp", 1]},
+				{ "item" : [ "saturncrystallampOrange", 1]},
+				{ "item" : [ "saturnebonychair", 1]},
+				{ "item" : [ "saturnebonytable", 1]},
+				{ "item" : [ "saturnenchantertable", 1]},
+				{ "item" : [ "saturngenerator", 1]},
+				{ "item" : [ "saturnianStaffCase", 1]},
+				{ "item" : [ "saturnmannequin", 1]},
+				{ "item" : [ "saturnmortar", 1]},
+				{ "item" : [ "saturnredpotion", 1]},
+				{ "item" : [ "saturnscale", 1]},
+				{ "item" : [ "saturnmacerack", 1]},
+				{ "item" : [ "saturnmacestand", 1]},
+				{ "item" : [ "saturnrapierrack", 1]},
+				{ "item" : [ "saturnianEbonyarmchair1", 1]},
+				{ "item" : [ "saturnianEbonybed", 1]},
+				{ "item" : [ "saturnianEbonybed2", 1]},
+				{ "item" : [ "saturnianEbonybox1", 1]},
+				{ "item" : [ "saturnianEbonybox2", 1]},
+				{ "item" : [ "saturnianEbonycabinet1", 1]},
+				{ "item" : [ "saturnianEbonycabinet2", 1]},
+				{ "item" : [ "saturnianEbonycabinet3", 1]},
+				{ "item" : [ "saturnianEbonyceilingbookcase1", 1]},
+				{ "item" : [ "saturnianEbonyceilingcabinet1", 1]},
+				{ "item" : [ "saturnianEbonyceilingcabinet2", 1]},
+				{ "item" : [ "saturnianEbonychair", 1]},
+				{ "item" : [ "saturnianEbonychest", 1]},
+				{ "item" : [ "saturnianEbonycrate1", 1]},
+				{ "item" : [ "saturnianEbonycrate2", 1]},
+				{ "item" : [ "saturnianEbonydesk", 1]},
+				{ "item" : [ "saturnianEbonydoor", 1]},
+				{ "item" : [ "saturnianEbonysink", 1]},
+				{ "item" : [ "saturnianEbonystand1", 1]},
+				{ "item" : [ "saturnianEbonystool", 1]}
+				
+				
+			]
+		} ]
+	]
+}

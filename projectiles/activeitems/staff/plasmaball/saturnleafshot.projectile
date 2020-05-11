@@ -1,0 +1,27 @@
+{
+  "projectileName" : "saturnleafshot",
+  "physics" : "default",
+  "timeToLive" : 1.5,
+  "image" : "saturnleafshot.png",
+  "animationCycle" : 0.5,
+  "lightColor" : [0, 0, 0],
+  "frameNumber" : 4,
+  "speed" : 0,
+  "power" : 30,
+  "damageKind" : "default",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+
+
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/elementimpact/poisonimpact.config"
+    }
+  ],
+
+  "bounces" : 0,
+
+  "scripts" : [ "/projectiles/activeitems/staff/plasmaball/plasmaball.lua" ],
+
+  "triggerSpeed" : 40
+}

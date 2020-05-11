@@ -1,0 +1,25 @@
+{
+  "projectileName" : "saturnlightbulletMinigun",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "saturnlightbulletMinigun.png",
+  "animationCycle" : 0.5,
+  "timeToLive" : 1,
+  "frameNumber" : 1,
+  "power" : 50,
+  "speed" : 75,
+  "supportsProcessing" : true,
+
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/saturnglobeexplosions/saturnVoidglobeexplosion.config"
+    }
+  ],
+  "lightColor" : [5, 43, 33],
+  "fullbright" : true,
+  "damagePoly" : [ [-10, 0], [2, 4], [10, 0], [2, -4] ],
+  "piercing" : false,
+  "damageKind" : "plasma"
+}

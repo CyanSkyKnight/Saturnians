@@ -1,0 +1,152 @@
+{
+
+//Metal---------------------------------------------------------------
+
+   	"saturnSTslopedmetalpanel" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnslopedmetalpanel", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  
+   	"saturnSTslopedglass" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnslopedglass", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  
+   	"saturnSTslopedBronzeglass" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnslopedBronzeglass", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  
+   	"saturnSTslopedbrasspanel" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnslopedbrasspanel", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  
+   	"saturnSTbirch" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnbirch", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  
+   	"saturnSTebony" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnebony", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+   	"saturnSTslopedpanel" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnslopedpanel", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  
+   	"saturnSTMaho" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnMaho", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+
+   	"saturnSTOak" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnOak", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  
+//Stone---------------------------------------------------------------
+  
+   	"saturnSTcolorfulclaywalls" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturncolorfulclaywalls", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  
+   	"saturnSTcrystalblock2" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturncrystalblock2", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  
+   	"saturnSTslopedhomewalls" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnslopedhomewalls", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ]
+  
+}
+
+

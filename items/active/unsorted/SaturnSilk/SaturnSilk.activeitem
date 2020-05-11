@@ -1,0 +1,24 @@
+{
+  "itemName" : "SaturnSilk",
+  "price" : 15,
+  "level" : 1,
+  "maxStack" : 1000,
+  "rarity" : "Common",
+  "category" : "saturnsilkitem",
+  "description" : "Silk made from unstable matter. Left click to convert into 4 units of silk fiber.",
+  "shortdescription" : "Mage Silk",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "SaturnSilk.png",
+  "animation" : "SaturnSilk.animation",
+  "animationCustom" : {},
+  "scripts" : ["SaturnSilk.lua"],
+
+  "fireTime" : 0.01,
+  "fireOffset" : [0.5, 0.0],
+
+  "treasure" : {
+    "pool" : "saturnenchantsilk",
+    "level" : 1
+  }
+}

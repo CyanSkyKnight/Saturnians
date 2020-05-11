@@ -1,0 +1,11 @@
+{
+  "itemName" : "saturnguidedualdyes",
+  "price" : 200,
+  "rarity" : "Common",
+  "category" : "saturncraftingguide",
+  "tooltipKind" : "saturnlorescrollpic",
+  "largeImage" : "saturnguidedualdyes.png",
+  "inventoryIcon" : "icon4.png",
+  "shortdescription" : "Dual Color Scroll",
+  "description" : "Reference picture guide for how dyes affect clothes marked as ^#26ffff;dual colored^reset;. or it will be when it's actually done!"
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "saturnlightstaff2", "count" : 1},
+	{ "item" : "glowfibre", "count" : 5},
+	{ "item" : "silverbar", "count" : 2 },
+    { "item" : "phasematter", "count" : 2 }
+  ],
+  "output" : { "item" : "satlightstaff", "count" : 1 },
+  "groups" : [ "saturnpracticalmagic", "all" ]
+}

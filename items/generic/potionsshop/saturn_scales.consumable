@@ -1,0 +1,16 @@
+{
+  "itemName" : "saturn_scales",
+  "price" : 25,
+  "rarity" : "Common",
+  "category" : "medicine",
+  "inventoryIcon" : "saturn_scales.png",
+  "description" : "Wing scales that seem to have antigravity properties. It's mostly used in potions.",
+  "shortdescription" : "Saturnian Scales",
+  "effects" : [ [
+      {
+        "effect" : "levitation",
+        "duration" : 30
+      }
+    ] ],
+  "emote" : ""
+}

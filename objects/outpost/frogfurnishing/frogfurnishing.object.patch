@@ -1,0 +1,5 @@
+[
+{ "op" : "add", "path" : "/storeInventory/deeds/-", "value" : "saturncolonydeed" },
+{ "op" : "add", "path" : "/saturnDescription", "value" :  "Hello!" },
+{ "op" : "add", "path" : "/saturn2Description", "value" :  "Greetings!" }
+]

@@ -1,0 +1,36 @@
+{
+  "objectName" : "saturnArmorTransmog",
+  "colonyTags" : ["crafting", "magic", "saturn"],
+  "rarity" : "Legendary",
+  "price" : 100,
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/saturnArmorTransmog.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Cosmetics Transmogrifier",
+        "subtitle" : "Transforms armor appearances.",
+        "icon" : {
+          "file" : "/interface/crafting/craftingfurnace3.png"
+        }
+      }
+    },
+     "filter" : [ "saturntransmogarmor", "saturntransmoghelms", "saturntransmogarmorsets", "saturntransmoghats", "saturntransmogtiles", "saturntransmogbonus" ]
+  },
+  "printable" : false,
+  "description" : "Switch Saturnian armor with alt appearances, or add antennae. Can also fit hats.",
+  "shortdescription" : "^orange;Cosmetics Transmogrifier^white;",
+  "race" : "saturn",
+  "category" : "crafting",
+  "inventoryIcon" : "saturnArmorTransmogicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnArmorTransmog.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

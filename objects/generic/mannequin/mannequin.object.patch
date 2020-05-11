@@ -1,0 +1,12 @@
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "This mannequin doesn't quite fit with Saturnian armor."
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "This mannequin doesn't quite fit with Thaumoth armor."
+}
+]

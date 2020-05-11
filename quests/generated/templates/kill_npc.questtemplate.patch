@@ -1,0 +1,21 @@
+[
+	[ 
+		{ "op" : "test", "path" : "/scriptConfig/generatedText/fluff/1/0", "value" : "crime" },
+		{ "op" : "add", "path" : "/scriptConfig/generatedText/fluff/1/1/-", "value" : "<enemy.pronoun.subject> set up hundreds of disco balls in a Saturnian village." }
+	],
+
+	[ 
+		{ "op" : "test", "path" : "/scriptConfig/generatedText/fluff/2/0", "value" : "company" },
+		{ "op" : "add", "path" : "/scriptConfig/generatedText/fluff/2/1/-", "value" : "Solaleian" },
+		{ "op" : "add", "path" : "/scriptConfig/generatedText/fluff/2/1/-", "value" : "Actian" },
+		{ "op" : "add", "path" : "/scriptConfig/generatedText/fluff/2/1/-", "value" : "Waspmim" }
+		
+	],
+
+	[ 
+		{ "op" : "test", "path" : "/scriptConfig/generatedText/fluff/3/0", "value" : "individual" },
+		{ "op" : "add", "path" : "/scriptConfig/generatedText/fluff/3/1/-", "value" : "Saturnian royal" },
+		{ "op" : "add", "path" : "/scriptConfig/generatedText/fluff/3/1/-", "value" : "Thaumoth sorcerer" }
+	]
+
+]

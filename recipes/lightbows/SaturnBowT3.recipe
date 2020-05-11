@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 3 },
+    { "item" : "darkwoodmaterial", "count" : 8 },
+	{ "item" : "string", "count" : 3}
+  ],
+  "output" : { "item" : "SaturnBowT3", "count" : 1 },
+  "groups" : [ "craftinganvil2", "saturnenchantedranged", "weapons", "all" ]
+}

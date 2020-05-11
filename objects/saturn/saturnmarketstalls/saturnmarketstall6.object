@@ -1,0 +1,38 @@
+{
+  "objectName" : "saturnmarketstall6",
+  "colonyTags" : ["saturn", "commerce", "sathats"],
+  "rarity" : "Common",
+  "description" : "A stall set up by a wizard.",
+  "shortdescription" : "Hat Market Stall",
+  "race" : "saturn",
+  "category" : "decorative",
+  "price" : 120,
+
+  "apexDescription" : "Hats and circlets are sold here.",
+  "avianDescription" : "Hats and circlets are sold here.",
+  "floranDescription" : "Sssoft sssilk.",
+  "glitchDescription" : "Nostalgic. Glitch wizards wear hats just like this.",
+  "humanDescription" : "Wizard clothes!",
+  "hylotlDescription" : "Hats and circlets are sold here.",
+  "novakidDescription" : "Why does this hat need to curl like that.",
+  
+  "saturnDescription" : "In all of our recorded history, wizard hats have always been in style.",
+  "saturn2Description" : "In all of our recorded history, wizard hats have always been in style.",
+  "satkyterranDescription" : "There are tales of a legendary hero that once wore a circlet like this.",
+
+  "inventoryIcon" : "saturnmarketstallicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnmarketstall6.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

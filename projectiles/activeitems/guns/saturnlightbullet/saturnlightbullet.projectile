@@ -1,0 +1,30 @@
+{
+  "projectileName" : "saturnlightbullet",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "saturnlightbullet.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "power" : 50,
+  "speed" : 75,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/gun/satChargestaffLowPower.ogg"
+      ]
+    }
+  ],
+  "lightColor" : [100, 100, 90],
+  "damagePoly" : [ [-10, 0], [2, 4], [10, 0], [2, -4] ],
+  "fullbright" : true,
+  "damageKind" : "plasma"
+}

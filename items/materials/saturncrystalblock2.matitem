@@ -1,0 +1,17 @@
+{
+  "itemName" : "saturncrystalblock2",
+  "price" : 1,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "saturncrystalblock2.png",
+  "largeImage" : "/items/materials/tooltips/saturncrystalblock2.png",
+  "tooltipKind" : "saturnpaintedblock",
+  
+  "description" : "Brightly glowing teal crystals that are normally found around Actias. They're said to attract spirits.",
+  "shortdescription" : "Voidgem Block",
+  "glitchdescription" : "Calm. This crystal block has a soothing appearance.",
+  "florandescription" : "Ssshiny block made from crysstalss.",
+  "novakiddescription" : "The crystals in this block are real purdy.",
+
+  "materialId" : 54723
+}

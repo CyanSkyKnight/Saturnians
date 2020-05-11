@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 1},
+	{ "item" : "silkfibre", "count" : 6},
+    { "item" : "syntheticmaterial", "count" : 1 }
+  ],
+  "output" : { "item" : "Saturnclimbingrope", "count" : 1 },
+  "groups" : [ "saturnpracticalmagic2", "all" ]
+}

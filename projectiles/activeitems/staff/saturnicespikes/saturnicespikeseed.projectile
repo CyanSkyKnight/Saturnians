@@ -1,0 +1,46 @@
+{
+  "projectileName" : "saturnicespikeseed",
+  "physics" : "stickybomb",
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/melee/saturndischarge.ogg"
+      ]
+    },
+	{
+      "action" : "projectile",
+      "type" : "saturnianrune",
+      "config" : {}
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "saturnicespike",
+	  "inheritDamageFactor" : 1,
+      "config" : {}
+    },
+	{
+      "action" : "sound",
+      "options" : [ "/sfx/melee/swing_spear_ice1.ogg", "/sfx/melee/swing_spear_ice2.ogg" ]
+    }
+	
+  ],
+  "image" : "saturnicespikeseed.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "onlyHitTerrain" : true,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [25, 25, 10],
+  "fullbright" : true,
+  "power" : 20,
+  "speed" : 0,
+  "knockback" : 0,
+  "knockbackDirectional" : true,
+  "damageKind" : "nodamage",
+  "piercing" : true,
+  "timeToLive" : 0.5,
+
+  "pointLight" : false
+}

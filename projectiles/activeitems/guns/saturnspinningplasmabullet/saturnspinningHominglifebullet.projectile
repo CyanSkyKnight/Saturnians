@@ -1,0 +1,42 @@
+{
+  "projectileName" : "saturnspinningHominglifebullet",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "saturnspinningHominglifebullet.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "timeToLive" : 5,
+  "power" : 0,
+  "speed" : 20,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0,
+      "repeat" : false,
+      "action" : "sound",
+      "options" : [ "/sfx/gun/SaturnLifeDrain.ogg"  ]
+    }
+  ],
+  
+  
+  "lightColor" : [100, 20, 30],
+  "fullbright" : true,
+
+  "scripts" : [ "/scripts/projectiles/homingprojectile.lua"  ],
+
+  "damageKind" : "default",
+  "statusEffects" : [
+    "saturnhealvampire"
+  ],  
+  "homingDistance" : 64,
+  "rotationRate" : 200,
+  "trackingLimit" : 360,
+  "timeToLiveVariance" : 0
+}
