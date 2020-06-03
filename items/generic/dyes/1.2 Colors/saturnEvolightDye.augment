@@ -4,7 +4,7 @@
   "rarity" : "Legendary",
   "category" : "clothingDye",
   "inventoryIcon" : "saturnEvolightDye.png",
-  "description" : "This strange dye only works on Saturnian equipment. Unfortunately does not glow.",
+  "description" : "This odd dye only works on Saturnian items. Unfortunately does not glow.",
   "shortdescription" : "Saturnian Evolight Dye",
 
   "dyeColorIndex" : 29,

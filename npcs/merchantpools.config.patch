@@ -640,7 +640,24 @@
       { "item" : { "name" : "satstaffrain" }}
 	]]
 	]},
-	
+{"op" : "add", "path" : "/Saturnmothman", "value":[
+	[0, [
+	  { "item" : { "name" : "SaturnSilkshade" }},
+	  { "item" : { "name" : "saturnSTebony" }},
+	  { "item" : { "name" : "saturnSTslopedpanel" }},
+	  
+	  { "item" : { "name" : "saturnVoidArmorhead" }},
+	  { "item" : { "name" : "saturnVoidArmorchest" }},
+	  { "item" : { "name" : "saturnVoidArmorpants" }},
+
+	  { "item" : { "name" : "saturnWideShadyHat" }},
+	  { "item" : { "name" : "saturnCircletObsidian" }},
+
+	  { "item" : { "name" : "saturnSTblack" }},
+
+	  { "item" : { "name" : "saturnForestMageUnarmoredpants" }}
+	]]
+	]},	
 {"op" : "add", "path" : "/Saturnweapons", "value":[
 	[0, [  
 	  { "item" : { "name" : "saturnMaceT1" }},

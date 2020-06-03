@@ -6,7 +6,7 @@
   "description" : "This wand functions like a charging gun.",
   "shortdescription" : "Ice Scepter",
   "tooltipKind" : "base",
-  "category" : "Charge Scepter",
+  "category" : "saturndev",
   "twoHanded" : false,
   "itemTags" : ["weapon", "wand", "ranged", "upgradeableWeapon"],
   "level" : 1,

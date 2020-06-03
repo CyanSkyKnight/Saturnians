@@ -45,6 +45,11 @@
 "op": "add",
 "path": "/deploymentConfig/speciesStarterMechBody/saturn2",
 "value":  "mechbodysaturnproto" 
+},
+{
+"op": "add",
+"path": "/deploymentConfig/speciesStarterMechBody/satkyterran",
+"value":  "mechbodysaturnproto" 
 }
 
 ]

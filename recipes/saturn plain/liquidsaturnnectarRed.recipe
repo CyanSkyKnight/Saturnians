@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "petalred", "count" : 6 }
+
+  ],
+  "output" : {
+    "item" : "liquidsaturnnectar",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all" ]
+}

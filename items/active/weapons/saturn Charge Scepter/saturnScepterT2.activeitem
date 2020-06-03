@@ -6,7 +6,7 @@
   "description" : "Ancient Saturnian weapon. Fires stored energy forward.",
   "shortdescription" : "Fireball Scepter",
   "tooltipKind" : "base",
-  "category" : "Charge Scepter",
+  "category" : "saturndev",
   "twoHanded" : false,
   "itemTags" : ["weapon", "ranged", "wand", "upgradeableWeapon"],
   "level" : 1,

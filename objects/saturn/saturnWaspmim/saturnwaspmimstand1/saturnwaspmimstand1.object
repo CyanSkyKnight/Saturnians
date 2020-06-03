@@ -1,0 +1,38 @@
+{
+  "objectName" : "saturnwaspmimstand1",
+  "colonyTags" : ["misc", "waspmim"],
+  "rarity" : "Common",
+  "description" : "A thin solid wooden stand.",
+  "shortdescription" : "Dark Oak Stand",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 20,
+
+  "apexDescription" : "A narrow wooden stand.",
+  "avianDescription" : "A solid piece of carved wood. Perhaps used to display items.",
+  "floranDescription" : "What iss wood ssstump for?",
+  "glitchDescription" : "Amused. An object used to display objects.",
+  "humanDescription" : "A little display stand.",
+  "hylotlDescription" : "A plinth, for displaying art.",
+  "novakidDescription" : "A stand... For somethin'.",
+  "saturnDescription" : "This stand could display a number of things. Maybe it could display a light of some kind?",
+  "saturn2Description" : "This stand could display a number of things. It should display a glowing crystal.",
+  "satkyterranDescription" : "This stand could display a number of things. Maybe it could display a bottle of sand from faraway lands?",
+  "saturnmothman" : "This stand could display a number of things. Maybe it could display more stands! Rising endlessly to the heavens! Muahaha!",
+  
+  "inventoryIcon" : "saturnwaspmimstand1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnwaspmimstand1.png",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

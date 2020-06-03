@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "darkwoodmaterial", "count" : 5 },
-    { "item" : "fabric", "count" : 1 }
+    { "item" : "silkfibre", "count" : 2 }
   ],
   "output" : {
     "item" : "flagsaturn2",

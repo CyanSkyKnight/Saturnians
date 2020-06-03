@@ -1,44 +1,37 @@
 {
-  "itemName" : "saturnPrismchest",
-  "price" : 4000,
-  "inventoryIcon" : "icons.png:chest",
+  "itemName" : "saturnPrismhead",
+  "price" : 2400,
+  "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "category" : "chestarmour",
-  "description" : "A robe modeled after those worn by a necromancer cult.",
-  "shortdescription" : "Prism Robe",
+  "category" : "headarmour",
+  "description" : "",
+  "shortdescription" : "Prism Hood",
   "tooltipKind" : "armor",
-  "maleFrames" : {
-    "body" : "chestm.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
-  },
-  "femaleFrames" : {
-    "body" : "chestf.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
-  },
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
   "level" : 4,
   "leveledStatusEffects" : [
     {
       "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.25
+      "baseMultiplier" : 1.15
     },
     {
       "levelFunction" : "standardArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 0.5
+      "amount" : 0.3
     },
     {
       "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 5
+      "amount" : 3
     },
     {
       "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 5
+      "amount" : 3
     }
   ],
   "itemTags" : [ "tier4armour" ],

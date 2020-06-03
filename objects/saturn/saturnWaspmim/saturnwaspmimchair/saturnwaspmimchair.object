@@ -1,0 +1,40 @@
+{
+  "objectName" : "saturnwaspmimchair",
+  "colonyTags" : ["waspmim", "misc"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A wooden chair with a hexagon back.",
+  "shortdescription" : "Dark Oak Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 10,
+
+  "apexDescription" : "A very simple wooden chair.",
+  "avianDescription" : "A rough wooden chair.",
+  "floranDescription" : "Chair needss pillow. Thiss wood too rough.",
+  "glitchDescription" : "Disappointed. Uncomfortable seating.",
+  "humanDescription" : "I couldn't sit here long.",
+  "hylotlDescription" : "Little effort has been made to make this chair comfortable.",
+  "novakidDescription" : "I'm a fan of simple carpentry.",
+  "saturnDescription" : "This chair spirals around like probosci.",
+  "saturn2Description" : "This chair reminds me of home.",
+  "satkyterranDescription" : "The legs on this chair are rather odd.",
+  "saturnmothman" : "A rough wooden chair.",
+  "inventoryIcon" : "saturnwaspmimchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnwaspmimchair.png",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+
+}

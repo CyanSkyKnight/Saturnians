@@ -4,7 +4,7 @@
   "rarity" : "Rare",
   "category" : "clothingDye",
   "inventoryIcon" : "saturnVenoDye.png",
-  "description" : "Only works properly on Saturnian equipment. Poison colored; not real lavender.",
+  "description" : "Only works properly on Saturnian items. Poison colored; not real lavender.",
   "shortdescription" : "Saturnian Lavender Dye",
 
   "dyeColorIndex" : 26,

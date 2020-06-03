@@ -6,7 +6,7 @@
   "description" : "Ancient weapon.",
   "shortdescription" : "Beam Whip Scepter",
   "tooltipKind" : "base",
-  "category" : "Charge Scepter",
+  "category" : "saturndev",
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged", "wand", "upgradeableWeapon"],
   "level" : 1,

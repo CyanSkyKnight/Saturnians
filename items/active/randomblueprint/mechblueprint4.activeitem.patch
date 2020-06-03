@@ -1,0 +1,14 @@
+[
+//If someone added an array for mech bodies to tier 4, then I'll add to theirs.
+	[
+	{ "op" : "test", "path" : "/recipes/3" },
+		{ "op" : "add", "path" : "/recipes/3/0", "value" : "mechbodysaturn" }
+	],
+	
+//If not, I'll make my own.
+	[
+	{ "op" : "test", "path" : "/recipes/3", "inverse" : true },
+		{ "op" : "add", "path" : "/recipes/-", "value" : ["mechbodysaturn"]}
+	]
+
+]

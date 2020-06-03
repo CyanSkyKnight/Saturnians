@@ -1,0 +1,44 @@
+{
+  "objectName" : "saturnupsidedownplant",
+  "colonyTags" : ["kyterran", "nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "This plant collects minerals by melting stone. Watering it makes it produce needles of obsidian. ",
+  "shortdescription" : "Lavabulb Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 500,
+  "inventoryIcon" : "saturnupsidedownplanticon.png",
+  "tooltipKind" : "seed",
+  "largeImage" : "saturnupsidedownplant.png:default.3.0",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "saturnupsidedownplant.png:<color>.<stage>.<alt>" }, { "image" : "saturnupsidedownplantFB.png:<color>.<stage>.<alt>", "fullbright" : true } ],
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+  "stages" : [
+    {
+      "duration" : [570, 630]
+    },
+    {
+      "duration" : [570, 630]
+    },
+    {
+      "alts" : 5,
+      "duration" : [1170, 1230]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "saturnupsidedownplantHarvest",
+      "resetToStage" : 2
+    }
+  ],
+  "maxImmersion" : 0.125
+}

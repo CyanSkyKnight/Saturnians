@@ -4,7 +4,7 @@
   "rarity" : "Rare",
   "category" : "clothingDye",
   "inventoryIcon" : "Satmaroondye.png",
-  "description" : "This strange dye seems to only work properly on Saturnian equipment.",
+  "description" : "This odd dye seems to only stick to items made with Saturnian silk.",
   "shortdescription" : "Saturnian Maroon Dye",
 
   "dyeColorIndex" : 12,

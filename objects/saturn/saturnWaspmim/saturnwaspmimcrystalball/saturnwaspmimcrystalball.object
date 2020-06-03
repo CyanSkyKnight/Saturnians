@@ -1,0 +1,34 @@
+{
+  "objectName" : "saturnwaspmimcrystalball",
+  "colonyTags" : ["waspmim", "magic"],
+  "rarity" : "Common",
+  "description" : "A crystal ball.",
+  "shortdescription" : "Dark Oak Crystal Ball",
+  "race" : "saturn",
+  "category" : "decorative",
+  "price" : 60,
+  "inventoryIcon" : "saturnwaspmimcrystalballicon.png",
+  
+  "apexDescription" : "A crystal ball, probably just decorative.",
+  "avianDescription" : "A crystal ball. What is in my future?",
+  "floranDescription" : "Glasss ball.",
+  "glitchDescription" : "Neutral. A crystal ball.",
+  "humanDescription" : "Apparently, my future will be neon orange.",
+  "hylotlDescription" : "A well crafted crystal ball.",
+  "novakidDescription" : "A crystal ball.",
+  
+  "saturnDescription" : "Crystal balls like these are decorative, but some people install holograms and touch sensors into them.",
+  "saturn2Description" : "Spirits are known to hide in crystal balls like this.",
+  "satkyterranDescription" : "A crystal ball, probably just decorative.",
+
+  "orientations" : [
+    {
+      "dualImage" : "saturnwaspmimcrystalball.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "rarity" : "Rare",
   "category" : "clothingDye",
   "inventoryIcon" : "Satsundye.png",
-  "description" : "This strange dye seems to only work properly on Saturnian equipment.",
+  "description" : "This odd dye seems to only stick to items made with Saturnian silk.",
   "shortdescription" : "Sat Soft Yellow Dye",
 
   "dyeColorIndex" : 20,

@@ -1,8 +1,8 @@
 {
   "input" : [
-    { "item" : "petalred", "count" : 3 },
-	{ "item" : "petalblue", "count" : 3 },
-	{ "item" : "petalyellow", "count" : 3 }
+    { "item" : "petalred", "count" : 2 },
+	{ "item" : "petalblue", "count" : 2 },
+	{ "item" : "petalyellow", "count" : 2 }
 
   ],
   "output" : {

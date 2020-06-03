@@ -1,11 +1,11 @@
 {
   "itemName" : "saturnpainttool",
-  "price" : 0,
+  "price" : 3500,
   "inventoryIcon" : "/items/tools/paintergunicon.png",
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "Primary fire applies paint, secondary changes colour. ^green;Quick select with [Y] key.",
-  "shortdescription" : "Paint Mode",
+  "description" : "Primary fire applies paint, secondary changes colour.",
+  "shortdescription" : "Saturnian Paint Tool",
 
   "fireTime" : 0.05,
   "blockRadius" : 3,

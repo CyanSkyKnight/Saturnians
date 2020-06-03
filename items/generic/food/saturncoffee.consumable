@@ -16,7 +16,7 @@
         "duration" : 10
     }
   ] ],
-  "foodValue" : 30,
+  "foodValue" : 25,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1,

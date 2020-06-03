@@ -4,7 +4,7 @@
   "rarity" : "Rare",
   "category" : "clothingDye",
   "inventoryIcon" : "saturnMidnightDye.png",
-  "description" : "This strange dye only works on Saturnian equipment. Darker than black dye.",
+  "description" : "This odd dye only works on Saturnian items. Darker than black dye.",
   "shortdescription" : "Saturnian Midnight Dye",
 
   "dyeColorIndex" : 28,

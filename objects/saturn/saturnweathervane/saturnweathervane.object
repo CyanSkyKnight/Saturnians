@@ -1,0 +1,33 @@
+{
+  "objectName" : "saturnweathervane",
+  "colonyTags" : ["saturn","pretty"],
+  "rarity" : "Common",
+  "description" : "A brass weathervane made to look like a Lumoth.",
+  "shortdescription" : "Lumoth Weathervane",
+  "race" : "avian",
+  "category" : "decorative",
+  "price" : 55,
+
+  "apexDescription" : "I think it indicates the direction the wind is blowing.",
+  "avianDescription" : "Avians have always paid close attention to the wind.",
+  "floranDescription" : "Wind moth!",
+  "glitchDescription" : "Observant. A crude device built to measure wind direction.",
+  "humanDescription" : "It's a weathervane!",
+  "hylotlDescription" : "The Hylotl similarly measure water currents.",
+  "novakidDescription" : "Today ain't a windy day.",
+
+  "inventoryIcon" : "saturnweathervaneicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnweathervane.png",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

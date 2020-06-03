@@ -1,8 +1,6 @@
 [
 
-{ "op" : "add", "path" : "/labels/saturncraftingguide",
-"value" : "Crafting Guide Scroll"
-},
+// Weapons----------~
 
 { "op" : "add", "path" : "/labels/saturnrapier",
 "value" : "Saturnian Rapier"
@@ -31,10 +29,6 @@
 "value" : "Random Moth Wand"
 },
 
-{ "op" : "add", "path" : "/labels/saturnsilkitem",
-"value" : "Saturnian Silk"
-},
-
 { "op" : "add", "path" : "/labels/saturngenwand2",
 "value" : "Random Effect Zone Wand"
 },
@@ -55,10 +49,23 @@
 { "op" : "add", "path" : "/labels/saturntoolbaton",
 "value" : "Mage's Scepter"
 },
+
+// Clothes----------~
+
 { "op" : "add", "path" : "/labels/saturnheadwear",
 "value" : "Saturnian Fitted Headwear"
 },
+// Misc----------~
+
+{ "op" : "add", "path" : "/labels/saturncraftingguide",
+"value" : "Crafting Guide Scroll"
+},
+{ "op" : "add", "path" : "/labels/saturnsilkitem",
+"value" : "Saturnian Silk"
+},
+
+// Debug----------~
 { "op" : "add", "path" : "/labels/saturndev",
-"value" : "INCOMPLETE. Tell Cyan Sky Knight if you see this!"
+"value" : "UNUSED ITEM (Saturnians) Please report!"
 }
 ]

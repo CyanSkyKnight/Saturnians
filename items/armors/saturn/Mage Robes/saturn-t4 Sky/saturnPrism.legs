@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "category" : "legarmour",
-  "description" : "A robe modeled after those worn by a necromancer cult.",
+  "description" : "",
   "shortdescription" : "Prism Pants",
   "tooltipKind" : "armor",
   "maleFrames" : "pants.png",

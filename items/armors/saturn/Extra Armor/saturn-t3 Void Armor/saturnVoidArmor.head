@@ -1,19 +1,19 @@
 {
   "itemName" : "saturnVoidArmorhead",
-  "price" : 1920,
+  "price" : 500,
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "category" : "headarmour",
-  "description" : "",
-  "shortdescription" : "Precursor's Hood",
+  "description" : "That shadow, it covers your face, but your eyes shine, just like mine.",
+  "shortdescription" : "Midnight Hood",
   "tooltipKind" : "armor",
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
   "colorOptions" : [
-    // NOCOLOR
-    { "ffca8a" : "e2c344", "e0975c" : "5588d4", "a85636" : "344495", "6f2919" : "1a1c51" },
+    // BLACK
+    { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     // BLACK
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     // GREY

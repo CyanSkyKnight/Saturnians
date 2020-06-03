@@ -51,5 +51,27 @@
 				
 			]
 		} ]
+	],
+ 	"saturndebugwaspmim" : [
+		[0, {
+			"fill" : [
+				{ "item" : [ "saturnwaspmimtable", 1]},
+				{ "item" : [ "saturnwaspmimstool", 1]},
+				{ "item" : [ "saturnwaspmimstand1", 1]},
+				{ "item" : [ "saturnwaspmimsink", 1]},
+				{ "item" : [ "saturnwaspmimdesk", 1]},
+				{ "item" : [ "saturnwaspmimchest", 1]},
+				{ "item" : [ "saturnwaspmimchair", 1]},
+				{ "item" : [ "saturnwaspmimbookcase", 1]},
+				{ "item" : [ "saturnwaspmimbed", 1]},
+				{ "item" : [ "saturnpainting5", 1]},
+				{ "item" : [ "saturnposter5", 1]},
+				{ "item" : [ "saturnposter6", 1]},
+				{ "item" : [ "saturnbanner10", 1]}
+				
+				
+			]
+		} ]
 	]
+	
 }
