@@ -1,4 +1,4 @@
-I'm new to GitHub. For now, just get the mod from here: https://steamcommunity.com/workshop/filedetails/?id=1103027918
+I'm new to GitHub. Until there's an actual release: https://github.com/CyanSkyKnight/Saturnians/releases, you should just get the mod from here: https://steamcommunity.com/workshop/filedetails/?id=1103027918
 or here: https://community.playstarbound.com/resources/the-saturnians.4918/
 
 # Saturnians
