@@ -1,0 +1,108 @@
+{
+  "type" : "saturnbeevisitor",
+  "baseType" : "outpostvisitor",
+
+  "scriptConfig" : {
+    "dialog" : {
+      "converse" : {
+      "saturn": {
+      "default": [
+        "Researching this place has had me as busy as a bee, Buzz buzz!",
+		"Many faraway places seem to be linked to this outpost. I don't beelieve it!"
+      ],
+      "saturn": [
+        "Hello moth friend! Researching this place has had me as busy as a bee, Buzz buzz!"
+      ],
+      "saturn2": [
+        "Hello moth friend! Researching this place has had me as busy as a bee, Buzz buzz!"
+      ],
+      "generic": [
+        "Researching this place has had me as busy as a bee, Buzz buzz!",
+		"Many faraway places seem to be linked to this outpost. I don't beelieve it!"
+      ],
+      "satkyterran": [
+		"Buzzah! That's Waspmim for huzzah.",
+        "Hello antlion friend! Researching this place has had me as busy as a bee, Buzz buzz!"
+      ],
+      "vespoid": [
+        "Hello fellow bee! Many faraway places seem to be linked to this outpost. I don't beelieve it!"
+      ],
+      "wasphive": [
+		"Hello wasp friend! Many faraway places seem to be linked to this outpost. I don't beelieve it!"
+      ]
+    }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "saturnWaspGhead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspGhead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspGhead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspGhead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspGhead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspGhead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWasphead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWasphead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWasphead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWasphead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeshead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeshead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeshead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeshead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } }
+            ],
+            "chest" : [
+              { "name" : "saturnWaspchest", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeschest", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeschest", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeschest", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeschest", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } }
+			  
+			  
+            ],
+            "legs" : [
+			
+			  { "name" : "saturnWaspmimRobeslegs", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeslegs", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeslegs", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeslegs", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  
+			  { "name" : "saturnornaterobespants", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  
+              { "name" : "saturnWasppants", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } }
+            ],
+			"back" : [
+			{ "name" : "saturnWingWasp", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			
+			{ "name" : "saturnWingWasp2", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp2", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp2", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp2", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp2", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp2", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			
+			{ "name" : "saturnWingWasp3", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp3", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp3", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp3", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingBeeFly", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } }
+			],
+            "primary" : [
+              "saturnHoneyScepter"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

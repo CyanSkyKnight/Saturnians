@@ -1,0 +1,15 @@
+[
+
+{ "op" : "add", "path" : "/npctypes/-",
+"value" : {
+      "type" : "saturnbeevisitor",
+      "species" : [ "saturn" ]
+}
+},
+{ "op" : "add", "path" : "/npctypes/-",
+"value" : {
+      "type" : "saturnnocturnevisitor",
+      "species" : [ "saturn" ]
+}
+}
+]
