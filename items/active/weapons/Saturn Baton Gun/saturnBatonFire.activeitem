@@ -16,8 +16,8 @@
   "animation" : "/items/active/weapons/ranged/saturnwindupgun.animation",
   "animationParts" : {
     "chargeFlash" : "",
-    "middle" : "saturnBatonFire.png",
-    "barrel" : "saturnBatonFireFB.png",
+    "middle" : "saturnBatonBeamFire.png",
+    "barrel" : "saturnBatonBeamFireFB.png",
     "muzzleFlash" : ""
   },
   "animationCustom" : {

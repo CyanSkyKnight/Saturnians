@@ -12,9 +12,9 @@
   "tooltipKind" : "staff",
   "animation" : "/items/active/weapons/saturnstaff/satstaff.animation",
   "animationParts" : {
-    "staff" : "satstaffwood1.png",
-    "stone" : "satstarwandNLight.png",
-    "chargeEffect" : "satglowstar.png"
+    "staff" : "satstaffblue.png",
+    "stone" : "satstaffregalFB.png",
+    "chargeEffect" : "satglowLeafGreen.png"
   },
   "animationCustom" : {
     "lights" : { "glow" : {

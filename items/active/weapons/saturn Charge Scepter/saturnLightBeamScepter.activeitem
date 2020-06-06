@@ -13,8 +13,8 @@
   "inventoryIcon" : "saturnchargestaffT1icon.png",
   "animation" : "saturnchargestaff.animation",
   "animationParts" : {
-    "gun" : "saturnchargestaffT1.png",
-    "gunfullbright" : "saturnchargestaffT1fullbright.png"
+    "gun" : "saturnScepterT2.png",
+    "gunfullbright" : "saturnScepterT2FB.png"
   },
   "animationCustom" : {},
   "muzzleOffset" : [0, 0],
