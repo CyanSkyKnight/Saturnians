@@ -1,0 +1,11 @@
+{
+  "itemName" : "saturnbronzeblock",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "saturnbronzeblock.png",
+  "description" : "A solid bronze block.",
+  "shortdescription" : "Bronze Block",
+
+  "materialId" : 54731
+}

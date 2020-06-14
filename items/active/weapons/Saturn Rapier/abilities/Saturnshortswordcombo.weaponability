@@ -34,7 +34,7 @@
     "baseDps" : 7.5,
 
     "damageConfig" : {
-      "damageSourceKind" : "shortsword",
+      "damageSourceKind" : "<elementalType>shortsword",
       "statusEffects" : [ ],
       "knockbackMode" : "facing",
       "timeout" : 0.5

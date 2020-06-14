@@ -1,0 +1,11 @@
+{
+  "itemName" : "saturnbrassblock",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "saturnbrassblock.png",
+  "description" : "A solid brass block.",
+  "shortdescription" : "Brass Block",
+
+  "materialId" : 54730
+}

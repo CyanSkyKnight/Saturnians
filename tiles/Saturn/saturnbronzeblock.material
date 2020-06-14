@@ -1,0 +1,24 @@
+{
+  "materialId" : 54731,
+  "materialName" : "saturnbronzeblock",
+  "particleColor" : [176, 174, 168, 255],
+  "itemDrop" : "saturnbronzeblock",
+  "description" : "A solid bronze block.",
+  "shortdescription" : "Bronze Block",
+  "glitchDescription" : "Pleased. It's nice to see bronze used in construction.",
+  "floranDescription" : "Cold bronze metal blockss.",
+  "novakidDescription" : "These blocks are crafted outta bronze.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "saturnbronzeblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3000
+  }
+}

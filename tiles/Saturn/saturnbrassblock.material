@@ -1,0 +1,24 @@
+{
+  "materialId" : 54730,
+  "materialName" : "saturnbrassblock",
+  "particleColor" : [176, 174, 168, 255],
+  "itemDrop" : "saturnbrassblock",
+  "description" : "A solid brass block.",
+  "shortdescription" : "Brass Block",
+  "glitchDescription" : "Pleased. It's nice to see brass used in construction.",
+  "floranDescription" : "Cold brass metal blockss.",
+  "novakidDescription" : "These blocks are crafted outta brass.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "saturnbrassblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3000
+  }
+}
