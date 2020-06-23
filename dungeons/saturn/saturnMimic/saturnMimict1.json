@@ -3,7 +3,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJztmNFt4zAMQL1CPpoRMkGH6Hcmyg75ux1ujO7VpI0OKo+iSImSRZoPIAobsis9kBaV+2Xb7lkckfulHkckvOCEF5zwghNecMILTnjBCS844QUnvOCEF5zwghNecGZ7eX\/F6oQXnPCCM9PLO4iVCS844QVnlhfo5BU3nbfrE15wwgvODC8FJ99eJG5mfpfCC85oL4STf164bsJL\/T2jCS84I71UnPzyUnMTXtjvKY7XYJQXhpP\/vJTW6sUL0wnqBVuvVS9\/H\/Hx+pvdu7UEfLdW7yNllJfH9a0l4Lu9edHIF609voWR+XJ+PPuMUxZvRJzA\/\/LsBboouXneh3Xk1QvlAF6fgRfNnrAFbS+SmjllTrx7SfTki2ZP2MpIL9dN\/n3R7glX9ZLcSPaj3j0em89qXlr2o96ecHUvrd8Xj\/misR+19oQpVvSSqOXLOQuYL7094epeSms7IwG\/L5IavG72vMBawJz01Eza86x5KdUM5oRbM9bzhXJAOaEcWP2+jKwZT\/uRds1YzZfcS+p3tWuG6gmteJGejzR+o7DgRZIH+bOe80Wytg0867XfldQCxPP5iHIDXVD5wv1mW8mXRK1m8nEJ6R5vqd\/NoWoGjkt\/uT2htfMRXGvpGrsvPUNY88JxgF1TPWHtNwpqPhJG7kcUtf0I6wm5tbWyl7R2DEm+YD2c5XxJ9HxfSnsy9RtobT5cVt2PvJ6P4FpL19Q4j+cjbK2l+9Q4j+cjCkltcc9H1HykrJ4v8Jpz3lrdC8aI2uqZT4lZXqT7UW0c9T5LXhIjaqtnPiVme3nCdVB7rnTfqpcn3P0oH1sb0zMfyF5eWjhCvrRi\/fvy5\/I7NLG4H0EfI7xI5tNKj5e05vDyQ2ntVMxkppcWF3t5kVCaJ8dLrxNLXlKEl\/CCsbcXaxFe2r0c0Q3Xy9H8SL1Yd9SzXk+e9vCwop+9176Xn73XFBHBjc9tu\/XE3vMf6KXbjUc\/Gk48utHKF4de1PLFk58vhpXHhw==",
+         "data":"eJztmNFtAyEMQJmmWaBD9LvL5K\/KEvlodugcXau9NlTENQaD4bDPT7Kiu1xO8GSDyfkUwjmJI3I+leOIuBcc94LjXnDcC457wXEvOO4Fx73guBcc94LjXnDcC85sL8\/3WB33guNecGZ6eQaxMu4Fx73gzPICndzjIvN2edwLjnvBmeEl4+THC8fNzHXJveCM9kI4+fNS68a9lN8zGveCM9JLwcmDl5Ib91L9nuzzEozyUuHkn5fcXK14qXSCesHmq9XLx3e83D+Te5eWgO+W6n24jPLyfX1pCfhua14k8kVqj29hZL7cnkLY4prEOxHb9ymWvUAXOTfbfVhHVr1QDuD1DXiR7AlbkPbCqZlr4sS6l0hPvkj2hK2M9PIa+OuLdE+4qpfohrMf9e7x2HhW89KyH\/X2hKt7aV1fLOaLxH7U2hPGWNFLpJQvtyRgvvT2hKt7yc3thgRcXzg1+Br0eYG1gDnpqZm452nzkqsZzEltzWjPF8oB5YRyoHV9GVkzlvYj6ZrRmi+pl9jvStcM1RNq8cI9H0n8R6HBCycP0t9azhfO3AL4rdV+l1MLEMvnI8oNdEHlS+2arSVfIqWaSZ+LcPd4Tf1uClUz8Ln4WdsTajsfwbnmrrH73DOENi81DrBrqics\/UdBjYfDyP2IorQfYT1hbW2t7CXOHYOTL1gPpzlfIj3rS25Ppv4DLY2nllX3I6vnIzjX3DX1nMXzETbX3H3qOYvnIwpObdWej6jxcFk9X+B1zXlrdS8YI2qrZzw5Znnh7kel56j3afISGVFbPePJMdvLRq2D0u9y97V62ajdj9JnS8\/0jAeyl5cWjpAvrWhfX95OjyGJxv0I+hjhhTOeVnq8xDm7l19yc6diJjO9tLjYywuH3DhrvPQ60eQlhntxLxh7e9EW7qXdyxHd1Ho5mh+uF+2OeuZrydMeHlb0s\/fc9\/Kz95w8PGrjM4RLT+w9\/oFeut1Y9CPhxKKbT6F8MehFLF8s+fkC\/tRlsg==",
          "encoding":"base64",
          "height":100,
          "name":"back",
@@ -16,7 +16,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJztmMFSAyEMhuvJixfvnvsEfQjPPlGfw7vefMcWLc4uhAUCu0ng\/2YyOk53JV+BBE4nAAAAAAAAAAAAaOLyCLAGXmjgJeYSBPgDXmjgJSZ08oir5Jg0AC808BKTcPLrpcbNaPsSvMRsOPn3UuoGXvLvsc7sXp7P8d8yTlZecm7gpfg9yc9rwTl5O6\/dFDiJvKRyHcVLoRPSC5WvVS\/fi\/D83MfNifDdvXofCZyPr9Pay\/t9zJwI323dyx7zpVeN1wT13ed4DWoavNDPwEv8TGvvQ\/VTktzXwvUR1Yzqxfnwv38wnvdeWntCqs+UYunEwfXSoyfU4iV04nBeXp7qwq+91hpP9Q1a8PPF5VuKX0etPSHVZ2rBz5cafG4jz5eWetSjJ9RKS\/\/CeZazz0sALzQuN0498lGLJS\/uZ7j31u7FpVjyknKwhxsrXnJrobcbK\/Xo6O+Ps1dLAC80HC\/LelRby0b1stwftvbsEP+5Eb2Ee2aqxqewNF9ya2Grh1vmuHwm9\/+4PeHRpMaYG3vrOcCim5Ix9zgfWXFTM8d7nY8suKmBc6dl5RzQAucOdCYvjto785FJffd73VFYYWtNzOzm6DsKS8ywX3CZ0Q3n3JOrR6XvHA3ueWsGOOetWbB0pyDFbHtJDXCTJqxPYCw+z\/uGVvbO24Ij6by1OZLOUZMn6Ty0eZIer0Y30uPU6kZ6jPCiJ+AFXnp7mdFNLdLj1eplBj+9kM7jyFwtO9IKHAAAAADgaG5rS21w",
+         "data":"eJztmEFSBCEMRccTeIvxAnMI1x7Imr1r92505x0ddLC6ITQQ6E4C\/1WltKzplrwBEjidAAAAAAAAAAAAoInLPcAaeKGBl5hLEOAPeKGBl5jQyT2ukmPSALzQwEtMwsmvlxo3o+1L8BKz4eTfS6kbeMm\/xzqze3k7x3\/LOFl5ybmBl+L3JD+vBefk47x2U+Ak8pLKdRQvhU5IL1S+Vr18LcLzfRs3J8J39+p9JHA+Pk9rL8+3MXMifLd1L3vMl141XhPUd5\/jPahp8EI\/Ay\/xM629D9VPSXJbC9d7VDOqF+fD\/\/7CeN57ae0JqT5TiqUTB9dLj55Qi5fQicN5eXyoC7\/2Wms81Tdowc8Xl28pfh219oRUn6kFP19q8LmNPF9a6lGPnlArLf0L51nOPi8BvNC43Dj1yEctlry4n+HeW7sXl2LJS8rBHm6seMmthd5urNSjo78\/zl4tAbzQcLws61FtLRvVy3J\/2NqzQ\/znRvQS7pmpGp\/C0nzJrYWtHm6Z4\/KZ3P\/j9oRHkxpjbuyt5wCLbkrG3ON8ZMVNzRzvdT6y4KYGzp2WlXNAC5w70Jm8OGrvzEcm9d3vdUdhha01MbObo+8oLDHDfsFlRjecc0+uHpW+czS4560Z4Jy3ZsHSnYIUs+0lNcBNmrA+gbF4fdo3tLJ33hYcSeetzZF0jpo8SeehzZP0eDW6kR6nVjfSY4QXPQEv8NLby4xuapEer1YvM\/jphXQeR+Zq2ZFW4AAAAAAAR\/MDLi449g==",
          "encoding":"base64",
          "height":100,
          "name":"front",
@@ -47,31 +47,7 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":9794,
-                 "height":40,
-                 "id":1460,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":344,
-                 "y":544
-                }, 
-                {
-                 "gid":9794,
-                 "height":40,
-                 "id":1461,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":232,
-                 "y":424
-                }, 
-                {
-                 "gid":9767,
+                 "gid":9905,
                  "height":32,
                  "id":1468,
                  "name":"",
@@ -83,7 +59,7 @@
                  "y":512
                 }, 
                 {
-                 "gid":203,
+                 "gid":205,
                  "height":8,
                  "id":1471,
                  "name":"",
@@ -95,7 +71,7 @@
                  "y":632
                 }, 
                 {
-                 "gid":203,
+                 "gid":205,
                  "height":8,
                  "id":1472,
                  "name":"",
@@ -107,7 +83,7 @@
                  "y":640
                 }, 
                 {
-                 "gid":202,
+                 "gid":204,
                  "height":8,
                  "id":1473,
                  "name":"",
@@ -119,7 +95,7 @@
                  "y":616
                 }, 
                 {
-                 "gid":9767,
+                 "gid":9905,
                  "height":32,
                  "id":1474,
                  "name":"",
@@ -131,7 +107,7 @@
                  "y":368
                 }, 
                 {
-                 "gid":9767,
+                 "gid":9905,
                  "height":32,
                  "id":1475,
                  "name":"",
@@ -143,7 +119,7 @@
                  "y":384
                 }, 
                 {
-                 "gid":9767,
+                 "gid":9905,
                  "height":32,
                  "id":1476,
                  "name":"",
@@ -155,75 +131,7 @@
                  "y":312
                 }, 
                 {
-                 "gid":9778,
-                 "height":24,
-                 "id":1484,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":48,
-                 "x":192,
-                 "y":328
-                }, 
-                {
-                 "gid":2147493437,
-                 "height":20,
-                 "id":1485,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":344,
-                 "y":496
-                }, 
-                {
-                 "gid":9763,
-                 "height":16,
-                 "id":1486,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":48,
-                 "x":296,
-                 "y":496
-                }, 
-                {
-                 "gid":9789,
-                 "height":20,
-                 "id":1487,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":280,
-                 "y":496
-                }, 
-                {
-                 "gid":9793,
-                 "height":16,
-                 "id":1490,
-                 "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"saturncluttergeneric\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":144,
-                 "y":376
-                }, 
-                {
-                 "gid":9774,
+                 "gid":9912,
                  "height":16,
                  "id":1503,
                  "name":"",
@@ -235,27 +143,7 @@
                  "y":408
                 }, 
                 {
-                 "gid":9783,
-                 "height":16,
-                 "id":1506,
-                 "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"saturncluttergeneric\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":264,
-                 "y":424
-                }, 
-                {
-                 "gid":9773,
+                 "gid":9911,
                  "height":8,
                  "id":1507,
                  "name":"",
@@ -267,27 +155,7 @@
                  "y":408
                 }, 
                 {
-                 "gid":9787,
-                 "height":16,
-                 "id":1508,
-                 "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"saturncluttergeneric\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":264,
-                 "y":384
-                }, 
-                {
-                 "gid":9809,
+                 "gid":9947,
                  "height":32,
                  "id":1510,
                  "name":"",
@@ -299,7 +167,7 @@
                  "y":536
                 }, 
                 {
-                 "gid":9809,
+                 "gid":9947,
                  "height":32,
                  "id":1512,
                  "name":"",
@@ -311,7 +179,7 @@
                  "y":320
                 }, 
                 {
-                 "gid":6725,
+                 "gid":6827,
                  "height":24,
                  "id":1516,
                  "name":"",
@@ -323,19 +191,7 @@
                  "y":544
                 }, 
                 {
-                 "gid":9867,
-                 "height":16,
-                 "id":1518,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":152,
-                 "y":360
-                }, 
-                {
-                 "gid":9850,
+                 "gid":9989,
                  "height":8,
                  "id":1519,
                  "name":"",
@@ -347,7 +203,7 @@
                  "y":480
                 }, 
                 {
-                 "gid":9842,
+                 "gid":9981,
                  "height":8,
                  "id":1521,
                  "name":"",
@@ -359,7 +215,7 @@
                  "y":408
                 }, 
                 {
-                 "gid":6444,
+                 "gid":6531,
                  "height":56,
                  "id":1536,
                  "name":"",
@@ -371,7 +227,7 @@
                  "y":624
                 }, 
                 {
-                 "gid":6444,
+                 "gid":6531,
                  "height":56,
                  "id":1537,
                  "name":"",
@@ -383,7 +239,7 @@
                  "y":616
                 }, 
                 {
-                 "gid":4086,
+                 "gid":4143,
                  "height":24,
                  "id":1541,
                  "name":"",
@@ -395,7 +251,7 @@
                  "y":424
                 }, 
                 {
-                 "gid":9791,
+                 "gid":9929,
                  "height":16,
                  "id":1545,
                  "name":"",
@@ -415,27 +271,7 @@
                  "y":568
                 }, 
                 {
-                 "gid":9782,
-                 "height":16,
-                 "id":1546,
-                 "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"saturncluttergeneric\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":160,
-                 "y":472
-                }, 
-                {
-                 "gid":9792,
+                 "gid":9930,
                  "height":24,
                  "id":1547,
                  "name":"",
@@ -455,9 +291,157 @@
                  "y":448
                 }, 
                 {
-                 "gid":9781,
+                 "gid":205,
+                 "height":8,
+                 "id":1553,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":64,
+                 "y":640
+                }, 
+                {
+                 "gid":10035,
                  "height":16,
-                 "id":1550,
+                 "id":1563,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":312,
+                 "y":496
+                }, 
+                {
+                 "gid":10026,
+                 "height":20,
+                 "id":1564,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":296,
+                 "y":496
+                }, 
+                {
+                 "gid":2147493674,
+                 "height":20,
+                 "id":1565,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":344,
+                 "y":496
+                }, 
+                {
+                 "gid":2147493680,
+                 "height":24,
+                 "id":1567,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"treasurePools\":[\"saturncluttergeneric\"]}"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":328,
+                 "y":424
+                }, 
+                {
+                 "gid":10021,
+                 "height":16,
+                 "id":1568,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"treasurePools\":[\"saturncluttergeneric\"]}"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":264,
+                 "y":424
+                }, 
+                {
+                 "gid":10024,
+                 "height":16,
+                 "id":1569,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"treasurePools\":[\"saturncluttergeneric\"]}"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":264,
+                 "y":384
+                }, 
+                {
+                 "gid":10018,
+                 "height":40,
+                 "id":1570,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"treasurePools\":[\"saturnBeeLore\"]}"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":144,
+                 "y":448
+                }, 
+                {
+                 "gid":10020,
+                 "height":16,
+                 "id":1571,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"treasurePools\":[\"saturncluttergeneric\"]}"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":160,
+                 "y":472
+                }, 
+                {
+                 "gid":10019,
+                 "height":16,
+                 "id":1573,
                  "name":"",
                  "properties":
                     {
@@ -475,9 +459,9 @@
                  "y":448
                 }, 
                 {
-                 "gid":2147493432,
+                 "gid":2147493670,
                  "height":32,
-                 "id":1552,
+                 "id":1575,
                  "name":"",
                  "properties":
                     {
@@ -495,36 +479,88 @@
                  "y":376
                 }, 
                 {
-                 "gid":203,
-                 "height":8,
-                 "id":1553,
+                 "gid":10030,
+                 "height":16,
+                 "id":1576,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":8,
-                 "x":64,
-                 "y":640
+                 "width":32,
+                 "x":144,
+                 "y":376
                 }, 
                 {
-                 "gid":9759,
-                 "height":40,
-                 "id":1562,
+                 "gid":10017,
+                 "height":24,
+                 "id":1577,
                  "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"saturnBeeLore\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":192,
+                 "y":328
+                }, 
+                {
+                 "gid":10011,
+                 "height":16,
+                 "id":1578,
+                 "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":24,
-                 "x":144,
-                 "y":448
+                 "x":152,
+                 "y":360
+                }, 
+                {
+                 "gid":10028,
+                 "height":24,
+                 "id":1584,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":288,
+                 "y":544
+                }, 
+                {
+                 "gid":10017,
+                 "height":24,
+                 "id":1585,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":192,
+                 "y":304
+                }, 
+                {
+                 "gid":10031,
+                 "height":40,
+                 "id":1586,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":40,
+                 "x":232,
+                 "y":424
+                }, 
+                {
+                 "gid":10031,
+                 "height":40,
+                 "id":1587,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":40,
+                 "x":344,
+                 "y":544
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -611,7 +647,7 @@
          "name":"anchors etc",
          "objects":[
                 {
-                 "gid":201,
+                 "gid":203,
                  "height":8,
                  "id":713,
                  "name":"",
@@ -623,7 +659,7 @@
                  "y":672
                 }, 
                 {
-                 "gid":201,
+                 "gid":203,
                  "height":8,
                  "id":714,
                  "name":"",
@@ -635,7 +671,7 @@
                  "y":672
                 }, 
                 {
-                 "gid":9886,
+                 "gid":10114,
                  "height":8,
                  "id":1557,
                  "name":"",
@@ -647,7 +683,7 @@
                  "y":656
                 }, 
                 {
-                 "gid":9886,
+                 "gid":10114,
                  "height":8,
                  "id":1558,
                  "name":"",
@@ -659,7 +695,7 @@
                  "y":656
                 }, 
                 {
-                 "gid":200,
+                 "gid":202,
                  "height":8,
                  "id":1560,
                  "name":"",
@@ -669,26 +705,6 @@
                  "width":8,
                  "x":344,
                  "y":584
-                }, 
-                {
-                 "gid":2147493443,
-                 "height":24,
-                 "id":1561,
-                 "name":"",
-                 "properties":
-                    {
-                     "parameters":"{\"treasurePools\":[\"saturncluttergeneric\"]}"
-                    },
-                 "propertytypes":
-                    {
-                     "parameters":"string"
-                    },
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":328,
-                 "y":424
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -709,7 +725,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":1563,
+ "nextobjectid":1588,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tileheight":8,
@@ -719,207 +735,211 @@
          "source":"..\/..\/..\/tilesets\/packed\/materials.json"
         }, 
         {
-         "firstgid":196,
+         "firstgid":198,
          "source":"..\/..\/..\/tilesets\/packed\/miscellaneous.json"
         }, 
         {
-         "firstgid":218,
+         "firstgid":221,
          "source":"..\/..\/..\/tilesets\/packed\/liquids.json"
         }, 
         {
-         "firstgid":246,
+         "firstgid":249,
          "source":"..\/..\/..\/tilesets\/packed\/supports.json"
         }, 
         {
-         "firstgid":282,
+         "firstgid":285,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/generic.json"
         }, 
         {
-         "firstgid":2207,
+         "firstgid":2256,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/ancient.json"
         }, 
         {
-         "firstgid":2369,
+         "firstgid":2419,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/apex.json"
         }, 
         {
-         "firstgid":2740,
+         "firstgid":2790,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/avian.json"
         }, 
         {
-         "firstgid":3045,
+         "firstgid":3095,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/floran.json"
         }, 
         {
-         "firstgid":3240,
+         "firstgid":3290,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/glitch.json"
         }, 
         {
-         "firstgid":3466,
+         "firstgid":3516,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/human.json"
         }, 
         {
-         "firstgid":3747,
+         "firstgid":3803,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/hylotl.json"
         }, 
         {
-         "firstgid":3979,
+         "firstgid":4035,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/novakid.json"
         }, 
         {
-         "firstgid":4042,
+         "firstgid":4099,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/crafting.json"
         }, 
         {
-         "firstgid":4122,
+         "firstgid":4179,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/decorative.json"
         }, 
         {
-         "firstgid":5538,
+         "firstgid":5614,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/door.json"
         }, 
         {
-         "firstgid":5666,
+         "firstgid":5745,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/farmable.json"
         }, 
         {
-         "firstgid":5741,
+         "firstgid":5820,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/furniture.json"
         }, 
         {
-         "firstgid":6087,
+         "firstgid":6174,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/light.json"
         }, 
         {
-         "firstgid":6529,
+         "firstgid":6631,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/other.json"
         }, 
         {
-         "firstgid":6832,
+         "firstgid":6941,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/pot.json"
         }, 
         {
-         "firstgid":7129,
+         "firstgid":7238,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/sapling.json"
         }, 
         {
-         "firstgid":7130,
+         "firstgid":7239,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/spawner.json"
         }, 
         {
-         "firstgid":7146,
+         "firstgid":7255,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/storage.json"
         }, 
         {
-         "firstgid":7377,
+         "firstgid":7489,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/teleporter.json"
         }, 
         {
-         "firstgid":7417,
+         "firstgid":7530,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/tools.json"
         }, 
         {
-         "firstgid":7422,
+         "firstgid":7535,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/trap.json"
         }, 
         {
-         "firstgid":7626,
+         "firstgid":7739,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-category\/wire.json"
         }, 
         {
-         "firstgid":7843,
+         "firstgid":7960,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-type\/container.json"
         }, 
         {
-         "firstgid":8125,
+         "firstgid":8245,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-type\/farmable.json"
         }, 
         {
-         "firstgid":8203,
+         "firstgid":8323,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-type\/loungeable.json"
         }, 
         {
-         "firstgid":8481,
+         "firstgid":8604,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-type\/noisy.json"
         }, 
         {
-         "firstgid":8522,
+         "firstgid":8645,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-type\/teleporter.json"
         }, 
         {
-         "firstgid":8548,
+         "firstgid":8672,
          "source":"..\/..\/..\/tilesets\/packed\/huge-objects.json"
         }, 
         {
-         "firstgid":8649,
+         "firstgid":8773,
          "source":"..\/..\/..\/tilesets\/packed\/materials.json"
         }, 
         {
-         "firstgid":8844,
+         "firstgid":8970,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-race\/avian.json"
         }, 
         {
-         "firstgid":9149,
+         "firstgid":9275,
          "source":"..\/..\/..\/tilesets\/packed\/materials.json"
         }, 
         {
-         "firstgid":9344,
+         "firstgid":9472,
          "source":"..\/..\/..\/tilesets\/packed\/materials.json"
         }, 
         {
-         "firstgid":9539,
+         "firstgid":9669,
          "source":"..\/..\/..\/tilesets\/packed\/materials.json"
         }, 
         {
-         "firstgid":9734,
+         "firstgid":9866,
          "source":"..\/..\/..\/tilesets\/saturn-custom\/saturnianTiles.json"
         }, 
         {
-         "firstgid":9757,
+         "firstgid":9895,
          "source":"..\/..\/..\/tilesets\/saturn-custom\/SaturnFurniture.json"
         }, 
         {
-         "firstgid":9842,
+         "firstgid":9981,
          "source":"..\/..\/..\/tilesets\/saturn-custom\/saturnianClutter.json"
         }, 
         {
-         "firstgid":9874,
+         "firstgid":10017,
+         "source":"..\/..\/..\/tilesets\/saturn-custom\/SaturnFurniturewasp.json"
+        }, 
+        {
+         "firstgid":10102,
          "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/starsassets\/onethree\/tilesets\/packed\/miscellaneous.json"
         }, 
         {
-         "firstgid":9896,
+         "firstgid":10124,
          "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/starsassets\/onethree\/tilesets\/packed\/materials.json"
         }, 
         {
-         "firstgid":10091,
+         "firstgid":10319,
          "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/starsassets\/onethree\/tilesets\/packed\/supports.json"
         }, 
         {
-         "firstgid":10127,
+         "firstgid":10355,
          "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/starsassets\/onethree\/tilesets\/packed\/objects-by-category\/wire.json"
         }, 
         {
-         "firstgid":10344,
+         "firstgid":10572,
          "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/starsassets\/onethree\/tilesets\/packed\/objects-by-race\/generic.json"
         }, 
         {
-         "firstgid":12269,
+         "firstgid":12497,
          "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/starsassets\/onethree\/tilesets\/packed\/objects-by-category\/decorative.json"
         }, 
         {
-         "firstgid":13685,
+         "firstgid":13913,
          "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/starsassets\/onethree\/tilesets\/packed\/objects-by-type\/container.json"
         }, 
         {
-         "firstgid":13967,
+         "firstgid":14195,
          "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/starsassets\/onethree\/tilesets\/packed\/objects-by-race\/avian.json"
         }, 
         {
-         "firstgid":14272,
+         "firstgid":14500,
          "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/starsassets\/onethree\/tilesets\/packed\/objects-by-category\/door.json"
         }, 
         {
-         "firstgid":14400,
+         "firstgid":14628,
          "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/starsassets\/onethree\/tilesets\/packed\/objects-by-category\/railpoint.json"
         }],
  "tilewidth":8,

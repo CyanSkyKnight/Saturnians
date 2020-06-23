@@ -6,7 +6,7 @@
   "tooltipKind" : "container",
   "category" : "storage",
   "price" : 75,
-  "description" : "A secured wooden crate.",
+  "description" : "A secured dark oak crate.",
   "shortdescription" : "Brass Reinforced Crate",
   "race" : "generic",
   "health" : 1.5,

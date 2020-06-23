@@ -1,11 +1,11 @@
 {
-  "objectName" : "saturnianStaffCase",
-  "colonyTags" : ["storage", "saturn", "magic"],
+  "objectName" : "saturnwaspmimStaffCase",
+  "colonyTags" : ["storage", "waspmim", "magic"],
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",
-  "description" : "A sturdy ebony cabinet that can store a large amount of staves.",
-  "shortdescription" : "Ebony Staff Cabinet",
+  "description" : "A sturdy dark oak cabinet that can store a large amount of staves.",
+  "shortdescription" : "Oak Staff Cabinet",
   "race" : "generic",
   "category" : "storage",
   "price" : 160,
@@ -23,10 +23,10 @@
   "saturn2Description" : "A display case made to fit a lot of wands and staves.",
   "satkyterranDescription" : "Kyterran mages like to use hybrid melee and magic weapons, like axe-staves.",
 
-  "inventoryIcon" : "saturnianStaffCaseicon.png",
+  "inventoryIcon" : "saturnwaspmimStaffCaseicon.png",
   "orientations" : [
     {
-      "dualImage" : "saturnianStaffCase.png:<color>",
+      "dualImage" : "saturnwaspmimStaffCase.png:<color>",
 
       "imagePosition" : [-16, 0],
       "frames" : 1,

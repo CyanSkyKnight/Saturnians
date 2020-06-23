@@ -1,6 +1,6 @@
 { "columns":0,
  "margin":0,
- "name":"objects-by-race\/saturn",
+ "name":"objects-by-race\/waspmim",
  "spacing":0,
  "tilecount":85,
  "tileheight":96,
@@ -8,233 +8,233 @@
     {
      "0":
         {
-         "\/\/description":"The Novakid flag. Use ^green;[E]^white; to bookmark a teleportation location.",
-         "\/\/name":"flagsaturn",
-         "\/\/shortdescription":"Saturn Flag",
-         "imagePositionX":"0",
+         "\/\/description":"",
+         "\/\/name":"saturnwaspmimbed",
+         "\/\/shortdescription":"Dark Oak Bed",
+         "imagePositionX":"-24",
          "imagePositionY":"0",
-         "object":"flagsaturn",
+         "object":"saturnwaspmimbed",
          "tilesetDirection":"right"
         },
 	
 	"1":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturnbanner1",
-         "\/\/shortdescription":"Saturn Banner",
+         "\/\/name":"saturnwaspmimbookcase",
+         "\/\/shortdescription":"Dark Oak Bookcase",
          "imagePositionX":"-8",
-         "imagePositionY":"-24",
-         "object":"saturnbanner1",
+         "imagePositionY":"0",
+         "object":"saturnwaspmimbookcase",
          "tilesetDirection":"right"
         },
 	"2":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturnbookcase",
-         "\/\/shortdescription":"Saturn Bookcase",
+         "\/\/name":"saturnwaspmimbox1",
+         "\/\/shortdescription":"Dark Oak Crate",
          "imagePositionX":"-8",
          "imagePositionY":"0",
-         "object":"saturnbookcase",
+         "object":"saturnwaspmimbox1",
          "tilesetDirection":"right"
         },
 	"3":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturncanvas",
-         "\/\/shortdescription":"Saturn Canvas",
-         "imagePositionX":"-16",
+         "\/\/name":"saturnwaspmimbox2",
+         "\/\/shortdescription":"Brass Reinforced Crate",
+         "imagePositionX":"-8",
          "imagePositionY":"0",
-         "object":"saturncanvas",
+         "object":"saturnwaspmimbox2",
          "tilesetDirection":"right"
         },
 	"4":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturncrystalball",
-         "\/\/shortdescription":"Saturnian Crystal Ball",
-         "imagePositionX":"-8",
+         "\/\/name":"saturnwaspmimcabinet1",
+         "\/\/shortdescription":"Dark Oak Cabinet",
+         "imagePositionX":"-16",
          "imagePositionY":"0",
-         "object":"saturncrystalball",
+         "object":"saturnwaspmimcabinet1",
          "tilesetDirection":"right"
         },
 	"5":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturnebonychair",
-         "\/\/shortdescription":"Saturn Chair",
-         "imagePositionX":"-8",
+         "\/\/name":"saturnwaspmimcabinet2",
+         "\/\/shortdescription":"shortdesc",
+         "imagePositionX":"-16",
          "imagePositionY":"0",
-         "object":"saturnebonychair",
+         "object":"saturnwaspmimcabinet2",
          "tilesetDirection":"right"
         },
 	"6":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturnebonytable",
-         "\/\/shortdescription":"Saturn Table",
-         "imagePositionX":"-24",
-         "imagePositionY":"0",
-         "object":"saturnebonytable",
+         "\/\/name":"saturnwaspmimceilingbookcase1",
+         "\/\/shortdescription":"shortdesc",
+         "imagePositionX":"-16",
+         "imagePositionY":"-8",
+         "object":"saturnwaspmimceilingbookcase1",
          "tilesetDirection":"right"
         },
 	"7":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturnenchantertable",
-         "\/\/shortdescription":"Saturn Enchant Table",
-         "imagePositionX":"-24",
-         "imagePositionY":"0",
-         "object":"saturnenchantertable",
+         "\/\/name":"saturnwaspmimceilingcabinet1",
+         "\/\/shortdescription":"shortdesc",
+         "imagePositionX":"-16",
+         "imagePositionY":"-8",
+         "object":"saturnwaspmimceilingcabinet1",
          "tilesetDirection":"right"
         },
 	"8":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturnianStaffCase",
-         "\/\/shortdescription":"Saturnian Staff Case",
+         "\/\/name":"saturnwaspmimceilingcabinet2",
+         "\/\/shortdescription":"shortdesc",
          "imagePositionX":"-16",
-         "imagePositionY":"0",
-         "object":"saturnianStaffCase",
+         "imagePositionY":"-8",
+         "object":"saturnwaspmimceilingcabinet2",
          "tilesetDirection":"right"
         },
 	"9":		
 		 {
-         "\/\/description":"must be wired to work",
-         "\/\/name":"saturngenerator",
-         "\/\/shortdescription":"saturn shield generator",
-         "imagePositionX":"0",
+         "\/\/description":"",
+         "\/\/name":"saturnwaspmimchair",
+         "\/\/shortdescription":"shortdesc",
+         "imagePositionX":"-8",
          "imagePositionY":"0",
-         "object":"saturngenerator",
+         "object":"saturnwaspmimchair",
          "tilesetDirection":"right"
         },
 	"10":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturncirclesollamp",
-         "\/\/shortdescription":"sat circle sol lamp",
-         "imagePositionX":"-4",
-         "imagePositionY":"-24",
-         "object":"saturncirclesollamp",
+         "\/\/name":"saturnwaspmimchest",
+         "\/\/shortdescription":"shortdesc",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"saturnwaspmimchest",
          "tilesetDirection":"right"
         },
 	"11":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturncirclesollampblue",
-         "\/\/shortdescription":"sat circle luna lamp",
-         "imagePositionX":"-4",
-         "imagePositionY":"-24",
-         "object":"saturncirclesollampblue",
+         "\/\/name":"saturnwaspmimcouch",
+         "\/\/shortdescription":"shortdesc",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"saturnwaspmimcouch",
          "tilesetDirection":"right"
         }, 
 	"12":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturnmacestand",
-         "\/\/shortdescription":"saturn mace stand",
-         "imagePositionX":"-16",
-         "imagePositionY":"-16",
-         "object":"saturnmacestand",
+         "\/\/name":"saturnwaspmimcrystalball",
+         "\/\/shortdescription":"shortdesc",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"saturnwaspmimcrystalball",
          "tilesetDirection":"right"
         },
 	"13":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturnrapierrack",
-         "\/\/shortdescription":"saturn rapier rack",
+         "\/\/name":"saturnwaspmimdesk",
+         "\/\/shortdescription":"shortdesc",
          "imagePositionX":"-16",
          "imagePositionY":"0",
-         "object":"saturnrapierrack",
+         "object":"saturnwaspmimdesk",
          "tilesetDirection":"right"
         },
 	"14":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturnlumenseed",
-         "\/\/shortdescription":"saturnlumenseed",
-         "imagePositionX":"0",
+         "\/\/name":"saturnwaspmimdoor",
+         "\/\/shortdescription":"shortdesc",
+         "imagePositionX":"-16",
          "imagePositionY":"0",
-         "object":"saturnlumenseed",
+         "object":"saturnwaspmimdoor",
          "tilesetDirection":"right"
         },
 	"15":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturnredpotion",
-         "\/\/shortdescription":"saturnredpotion",
-         "imagePositionX":"0",
+         "\/\/name":"saturnwaspmimsink",
+         "\/\/shortdescription":"shortdesc",
+         "imagePositionX":"-16",
          "imagePositionY":"0",
-         "object":"saturnredpotion",
+         "object":"saturnwaspmimsink",
          "tilesetDirection":"right"
         },
 	"16":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturnmortar",
-         "\/\/shortdescription":"saturnmortar",
+         "\/\/name":"saturnwaspmimstand1",
+         "\/\/shortdescription":"shortdesc",
          "imagePositionX":"0",
          "imagePositionY":"0",
-         "object":"saturnmortar",
+         "object":"saturnwaspmimstand1",
          "tilesetDirection":"right"
         },
 	"17":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturnscale",
-         "\/\/shortdescription":"saturnscale",
+         "\/\/name":"saturnwaspmimstool",
+         "\/\/shortdescription":"shortdesc",
          "imagePositionX":"0",
          "imagePositionY":"0",
-         "object":"saturnscale",
+         "object":"saturnwaspmimstool",
          "tilesetDirection":"right"
         },
 	"18":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturnlumenseed",
-         "\/\/shortdescription":"saturnlumenseed",
-         "imagePositionX":"0",
+         "\/\/name":"saturnwaspmimtable",
+         "\/\/shortdescription":"shortdesc",
+         "imagePositionX":"-24",
          "imagePositionY":"0",
-         "object":"saturnlumenseed",
+         "object":"saturnwaspmimtable",
          "tilesetDirection":"right"
         },
 	"19":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturnmannequin",
-         "\/\/shortdescription":"saturnmannequin",
-         "imagePositionX":"-21",
+         "\/\/name":"saturnwaspmimStaffCase",
+         "\/\/shortdescription":"shortdesc",
+         "imagePositionX":"-16",
          "imagePositionY":"0",
-         "object":"saturnmannequin",
+         "object":"saturnwaspmimStaffCase",
          "tilesetDirection":"right"
         },
 	"20":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturnianEbonyarmchair1",
-         "\/\/shortdescription":"saturnianEbonyarmchair1",
-         "imagePositionX":"-8",
+         "\/\/name":"saturnbanner1",
+         "\/\/shortdescription":"shortdesc",
+         "imagePositionX":"0",
          "imagePositionY":"0",
-         "object":"saturnianEbonyarmchair1",
+         "object":"saturnbanner1",
          "tilesetDirection":"right"
         },
 	"21":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturnianEbonybed",
-         "\/\/shortdescription":"saturnianEbonybed",
-         "imagePositionX":"-24",
+         "\/\/name":"saturnbanner1",
+         "\/\/shortdescription":"shortdesc",
+         "imagePositionX":"0",
          "imagePositionY":"0",
-         "object":"saturnianEbonybed",
+         "object":"saturnbanner1",
          "tilesetDirection":"right"
         },
 	"22":		
 		 {
          "\/\/description":"",
-         "\/\/name":"saturnianEbonybed2",
-         "\/\/shortdescription":"saturnianEbonybed2",
-         "imagePositionX":"-24",
+         "\/\/name":"saturnbanner1",
+         "\/\/shortdescription":"shortdesc",
+         "imagePositionX":"0",
          "imagePositionY":"0",
-         "object":"saturnianEbonybed2",
+         "object":"saturnbanner1",
          "tilesetDirection":"right"
         },
 	"23":		
@@ -864,83 +864,83 @@
     {
      "0":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/flagsaturn.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimbed.png"
         },
      "1":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnbanner1.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimbookcase.png"
         },
      "2":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnbookcase.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimbox1.png"
         },
      "3":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturncanvas.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimbox2.png"
         },
      "4":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturncrystalball.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimcabinet1.png"
         },
      "5":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnebonychair.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimcabinet2.png"
         },
      "6":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnebonytable.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimceilingbookcase1.png"
         },
      "7":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnenchantertable.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimceilingcabinet1.png"
         },
      "8":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnianStaffCase.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimceilingcabinet2.png"
         },
      "9":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturngenerator.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimchair.png"
         },
      "10":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturncirclesollamp.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimchest.png"
         },
      "11":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturncrystallamp.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimcouch.png"
         },
      "12":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnmacestand.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimcrystalball.png"
         },
      "13":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnrapierrack.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimdesk.png"
         },
      "14":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnlumenseed.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimdoor.png"
         },
      "15":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnredpotion.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimsink.png"
         },
      "16":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnmortar.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimstand1.png"
         },
      "17":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnscale.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimstool.png"
         },
      "18":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnlumenseed.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimtable.png"
         },
      "19":
         {
-         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnmannequin.png"
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnwaspmimStaffCase.png"
         },
 		
      "20":

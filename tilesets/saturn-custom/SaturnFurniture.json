@@ -2,7 +2,7 @@
  "margin":0,
  "name":"objects-by-race\/saturn",
  "spacing":0,
- "tilecount":85,
+ "tilecount":86,
  "tileheight":96,
  "tileproperties":
     {
@@ -857,6 +857,15 @@
       "imagePositionY" : "-24",
       "object" : "saturnshiphatch",
       "tilesetDirection" : "right"
+    },
+	 "85" : {
+      "//description" : "A beautifully crafted propeller.",
+      "//name" : "Saturn Propeller",
+      "//shortdescription" : "saturnweathervane",
+      "imagePositionX" : "-8",
+      "imagePositionY" : "0",
+      "object" : "saturnweathervane",
+      "tilesetDirection" : "right"
     }
     },
 
@@ -1203,6 +1212,10 @@
 	 "84" : 
 		{
       "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnshiphatch.png"
+		},
+	 "85" : 
+		{
+      "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/objects\/saturnweathervane.png"
 		}
     },
  "tilewidth":80
