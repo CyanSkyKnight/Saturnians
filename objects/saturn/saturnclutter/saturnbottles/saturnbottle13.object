@@ -1,0 +1,35 @@
+{
+  "objectName" : "saturnbottle13",
+  "colonyTags" : ["waspmim", "alchemy" ],
+  "rarity" : "Common",
+  "price" : 10,
+  "description" : "[^#ff99ff;Decorative^reset;] A bottle of sugary yellow water.",
+  "shortdescription" : "^#000300;^white;Waspmim Honey Bottle",
+  "category" : "decorative",
+  "race" : "generic",
+
+  "apexDescription": "This isn't viscous like honey should be.",
+  "avianDescription": "I wonder what the effect of this is?",
+  "floranDescription": "Sssweet drink.",
+  "glitchDescription": "Pleased. Glitch alchemists also brew potions like this one.",
+  "humanDescription": "I wonder what the effect of this is?",
+  "hylotlDescription": "What a strange liquid.",
+  "novakidDescription": "I'm not drinkin' any random liquids unless I know what they do.",
+  
+  "saturnDescription": "It's sugar water dyed to look like honey.",
+  "saturn2Description": "It's sugar water dyed to look like honey.",
+  "satkyterranDescription" : "It's sugar water dyed to look like honey.",
+  
+  "inventoryIcon" : "saturnbottle13icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnbottle13.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "objectName" : "saturnwaspmimceilingbookcase1",
+  "colonyTags" : ["waspmim","knowledge","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "description" : "A sturdy suspended bookshelf made of dark oak.",
+  "shortdescription" : "Wall Bookshelf",
+  "race" : "generic",
+  "price" : 75,
+  "health" : 1.5,
+
+  "apexDescription" : "A bookcase that hangs on the wall.",
+  "avianDescription" : "A bookcase for the space conscious.",
+  "floranDescription" : "Sssmall book holder for wall.",
+  "glitchDescription" : "Delighted. A wall mounted bookcase, how charming.",
+  "humanDescription" : "A nice wooden bookshelf.",
+  "hylotlDescription" : "These books are mounted on the wall to save space.",
+  "novakidDescription" : "A great space-saving idea.",
+  "saturnDescription" : "There's a lot of books here! Guides for wandcrafting, alchemy; books about ancient myths.",
+  "saturn2Description" : "Who left these books unorganized?!",
+  "satkyterranDescription" : "These are mostly books about magic, but there's also books on smithing and combat here.",
+  "saturnmothman" : "Who has the time to read all of this!",
+  "inventoryIcon" : "saturnwaspmimceilingbookcase1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnwaspmimceilingbookcase1.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

@@ -33,7 +33,8 @@
 
       "sitPosition" : [5, 21],
 
-      "direction" : "right"
+      "direction" : "right",
+      "collision" : "platform"
     },
     {
       "image" : "saturnwaspmimstool.png",
@@ -47,7 +48,8 @@
 
       "sitPosition" : [-5, 21],
 
-      "direction" : "left"
+      "direction" : "left",
+      "collision" : "platform"
     }
   ],
 

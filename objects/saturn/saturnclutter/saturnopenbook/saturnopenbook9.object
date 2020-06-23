@@ -1,0 +1,23 @@
+{
+  "objectName" : "saturnopenbook9",
+  "colonyTags" : ["waspmim", "satBooks", "knowledge" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "A book about bees?",
+  "shortdescription" : "^#000400;^white;Bee Text Book",
+  "category" : "decorative",
+  "race" : "saturn",
+  "saturnDescription" : "\"The bee of course, flies anyways.\"",
+  "saturn2Description" : "\"The bee of course, flies anyways.\"",
+  "inventoryIcon" : "saturnopenbook9icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnopenbook9.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

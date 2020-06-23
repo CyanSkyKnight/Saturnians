@@ -1,0 +1,47 @@
+{
+  "objectName" : "saturnwaspmimceilingcabinet1",
+  "colonyTags" : ["waspmim", "storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 85,
+
+  "description" : "A sturdy suspended cabinet made of dark oak.",
+  "shortdescription" : "Double Wall Cabinet",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "Useful for adding additional storage to a room.",
+  "avianDescription" : "A wall cabinet, for storing items up high.",
+  "floranDescription" : "Turn wallss into sstorage. Clever.",
+  "glitchDescription" : "Optimistic. Suspended storage. Useful.",
+  "humanDescription" : "A couple of wall cabinets. Good for saving space.",
+  "hylotlDescription" : "A good way to make use of empty space.",
+  "novakidDescription" : "A handy wall mounted cabinet.",
+  "saturnDescription" : "A wall cabinet. Is this design a moth?",
+  "saturn2Description" : "A wall cabinet. Is this design a moth?",
+  "satkyterranDescription" : "All I see on this cabinet are two giant eyes staring at me.",
+  "saturnmothman" : "A wall cabinet. Is this design a moth?",
+  "inventoryIcon" : "saturnwaspmimceilingcabinet1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnwaspmimceilingcabinet1.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

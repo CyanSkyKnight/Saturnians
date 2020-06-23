@@ -1,0 +1,21 @@
+{
+  "objectName" : "saturnopenbook10",
+  "colonyTags" : ["waspmim", "satBooks", "knowledge" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "A book that mentions a species called the Apiarians.",
+  "shortdescription" : "^#000400;^white;Mimic Text Book",
+  "category" : "decorative",
+  "race" : "saturn",
+  "inventoryIcon" : "saturnopenbook10icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnopenbook10.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

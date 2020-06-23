@@ -1,0 +1,27 @@
+{
+  "objectName" : "saturnsmallscrollshelf3",
+  "colonyTags" : ["waspmim", "satBooks", "knowledge" ],
+  "rarity" : "Common",
+  "price" : 30,
+  "description" : "A small dark oak shelf of blank scrolls.",
+  "shortdescription" : "Small Scroll Shelf",
+  "category" : "decorative",
+  "race" : "saturn",
+
+  "saturnDescription" : "All of the scrolls are blank.",
+  "saturn2Description" : "All of the scrolls are blank.",
+  "satkyterranDescription" : "All of the scrolls are blank.",
+  
+  "inventoryIcon" : "saturnsmallscrollshelf3icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "saturnsmallscrollshelf3.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}
