@@ -1,9 +1,9 @@
 {
   "input" : [
-	{ "item" : "saturnebony", "count" : 10 },
+	{ "item" : "saturnOak", "count" : 10 },
     { "item" : "glass", "count" : 4 }
   ],
   "duration" : 0.005,
-  "output" : { "item" : "saturncrystalball", "count" : 1 },
+  "output" : { "item" : "saturnwaspmimcrystalball", "count" : 1 },
   "groups" : [ "saturnclutter", "all" ]
 }

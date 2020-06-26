@@ -15,7 +15,10 @@
   "humanDescription" : "It's a weathervane!",
   "hylotlDescription" : "The Hylotl similarly measure water currents.",
   "novakidDescription" : "Today ain't a windy day.",
-
+  "saturnDescription" : "Lumoth are popular pets back home.",
+  "saturn2Description" : "I think the Saturnians have trained some of these to not tackle people.",
+  "satkyterranDescription" : "I think the Saturnians have trained some of these to not tackle people.",
+  
   "inventoryIcon" : "saturnweathervaneicon.png",
   "orientations" : [
     {

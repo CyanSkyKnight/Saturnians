@@ -9,17 +9,19 @@
   "category" : "furniture",
   "price" : 10,
 
-  "apexDescription" : "A very simple wooden chair.",
-  "avianDescription" : "A rough wooden chair.",
-  "floranDescription" : "Chair needss pillow. Thiss wood too rough.",
-  "glitchDescription" : "Disappointed. Uncomfortable seating.",
-  "humanDescription" : "I couldn't sit here long.",
-  "hylotlDescription" : "Little effort has been made to make this chair comfortable.",
-  "novakidDescription" : "I'm a fan of simple carpentry.",
-  "saturnDescription" : "This chair spirals around like probosci.",
-  "saturn2Description" : "This chair reminds me of home.",
-  "satkyterranDescription" : "The legs on this chair are rather odd.",
-  "saturnmothman" : "A rough wooden chair.",
+  "apexDescription" : "A simple wooden chair with a hexagonal cushion.",
+  "avianDescription" : "The pillows make this chair comfortable.",
+  "floranDescription" : "Bug couch. Ssoft pillows.",
+  "glitchDescription" : "Wistful. Our castle back home had similar chairs.",
+  "humanDescription" : "A chair with a large red hexagon cushion. Super!",
+  "hylotlDescription" : "Not too soft, not too firm. A good spot for meditation.",
+  "novakidDescription" : "This chair's a bit fancy for my likin'.",
+  
+  "saturnDescription" : "The cushions on this chair are made from dyed silk.",
+  "saturn2Description" : "The cushions on this chair are made from dyed silk.",
+  "satkyterranDescription" : "The cushions on this chair are made from dyed silk.",
+  "saturnmothman" : "The cushions on this chair are made from dyed silk.",
+
   "inventoryIcon" : "saturnwaspmimchairicon.png",
   "orientations" : [
     {

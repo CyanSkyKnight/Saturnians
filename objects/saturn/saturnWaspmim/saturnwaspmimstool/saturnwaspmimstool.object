@@ -8,17 +8,17 @@
   "category" : "furniture",
   "price" : 5,
 
-  "apexDescription" : "This stool looks like it was grown into the shape it's in.",
+  "apexDescription" : "A small striped stool made of brass and wood.",
   "avianDescription" : "A stool. Perhaps for one to rest one's talons.",
   "floranDescription" : "Tiny ssseat.",
   "glitchDescription" : "Unimpressed. A very small stool.",
   "humanDescription" : "A cute little stool.",
   "hylotlDescription" : "A charming stool.",
   "novakidDescription" : "A lil wooden stool, straight outta some fairytale.",
-  "saturnDescription" : "This stool was carved to resemble the roots of giant ebony trees.",
-  "saturn2Description" : "This stool was carved to resemble the roots of giant ebony trees.",
-  "satkyterranDescription" : "This stool was carved to resemble the roots of giant ebony trees.",
-  "saturnmothman" : "This stool was carved to resemble the roots of giant ebony trees.",
+  "saturnDescription" : "A small striped stool with a red cushion.",
+  "saturn2Description" : "A small striped stool with a red cushion.",
+  "satkyterranDescription" : "A small striped stool made of brass and wood.",
+  "saturnmothman" : "A small striped stool with a red cushion.",
   "inventoryIcon" : "saturnwaspmimstoolicon.png",
   "orientations" : [
     {

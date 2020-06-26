@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "saturnOak", "count" : 20 },
+    { "item" : "glass", "count" : 2 }
+  ],
+  "duration" : 0.005,
+  "output" : { "item" : "saturnwaspmimdoor", "count" : 1 },
+  "groups" : [ "saturnfurniture", "all" ]
+}

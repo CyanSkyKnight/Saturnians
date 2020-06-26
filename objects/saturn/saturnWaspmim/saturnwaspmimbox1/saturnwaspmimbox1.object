@@ -19,10 +19,10 @@
   "humanDescription" : "A crate made of small wood planks.",
   "hylotlDescription" : "A wooden crate. It's has a pretty pattern carved into it.",
   "novakidDescription" : "A simple lookin' crate made from wood.",
-  "saturnDescription" : "These crates are very common in sky towns.",
+  "saturnDescription" : "The Waspmim love to engrave hexagon patterns on their furniture.",
   "saturn2Description" : "It's your average wooden crate, but with a simple engraving to spruce it up a bit.",
   "satkyterranDescription" : "It's an engraved crate.",
-  "saturnmothman" : "These crates are very common in sky towns.",
+  "saturnmothman" : "Lots of hexagons.",
   "inventoryIcon" : "saturnwaspmimbox1icon.png",
   "orientations" : [
     {

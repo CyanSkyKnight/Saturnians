@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "saturnOak", "count" : 10 }
+  ],
+  "duration" : 0.005,
+  "output" : { "item" : "saturnwaspmimceilingcabinet1", "count" : 1 },
+  "groups" : [ "saturnstorage", "all" ]
+}

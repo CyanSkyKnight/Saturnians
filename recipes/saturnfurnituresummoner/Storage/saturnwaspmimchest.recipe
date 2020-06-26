@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "saturnOak", "count" : 10 },
+	{ "item" : "saturnslopedbrasspanel", "count" : 5 }
+  ],
+  "duration" : 0.005,
+  "output" : { "item" : "saturnwaspmimchest", "count" : 1 },
+  "groups" : [ "saturnstorage", "all" ]
+}

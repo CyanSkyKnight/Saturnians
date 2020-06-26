@@ -8,17 +8,17 @@
   "shortdescription" : "Dark Oak Table",
   "race" : "saturn",
   
-  "apexDescription" : "A very simple wooden table.",
-  "avianDescription" : "The simplest of tables.",
-  "floranDescription" : "Sssimple wood table.",
+  "apexDescription" : "A simple wooden table with a red silk cloth.",
+  "avianDescription" : "A simple table with a nice red tablecloth.",
+  "floranDescription" : "Blood red cloth, Floranss favourite colour.",
   "glitchDescription" : "Bored. A very simple table.",
   "humanDescription" : "Not much to say about this table.",
   "hylotlDescription" : "A table, very simple in every way.",
   "novakidDescription" : "Just a table.",
   
-  "saturnDescription" : "A Glitch style table made from ebony wood.",
-  "saturn2Description" : "A Glitch style table made from ebony wood.",
-  "satkyterranDescription" : "Saturnians seem to really like the Glitch's furniture.",
+  "saturnDescription" : "A simple wooden table with a red silk cloth.",
+  "saturn2Description" : "A simple table with a nice red tablecloth.",
+  "satkyterranDescription" : "A simple wooden table with a red silk cloth.",
   
   "inventoryIcon" : "saturnwaspmimtableicon.png",
   "orientations" : [

@@ -48,8 +48,7 @@
 			"back" : [ { "name" : "saturnWingMothman" } ],
 			
             "primary" : [
-			"saturnscytheMM",
-			"npcaxe"
+			"saturnscytheMM"
 			],
 			"alt" : [
             { "name" : "satringshieldleveled" },

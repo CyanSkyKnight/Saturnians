@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "saturnslopedmetalpanel", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "saturnbronzeblock",
+    "count" : 1
+  },
+  "duration" : 0,
+  "groups"  : [ "craftingfurniture", "saturnmaterials", "materials", "all" ]
+}

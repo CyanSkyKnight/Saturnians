@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "saturnOak", "count" : 10 },
+	{ "item" : "paper", "count" : 5 }
+  ],
+  "duration" : 0.005,
+  "output" : { "item" : "saturnsmallscrollshelf4", "count" : 1 },
+  "groups" : [ "saturnclutter", "all" ]
+}
