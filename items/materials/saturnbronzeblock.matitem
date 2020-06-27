@@ -4,6 +4,8 @@
   "category" : "block",
   "rarity" : "Common",
   "inventoryIcon" : "saturnbronzeblock.png",
+  "largeImage" : "/items/materials/tooltips/saturnbronzeblock.png",
+  "tooltipKind" : "saturnpaintedblock",
   "description" : "A solid bronze block.",
   "shortdescription" : "Bronze Block",
 

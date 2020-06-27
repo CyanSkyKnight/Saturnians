@@ -4,6 +4,8 @@
   "category" : "block",
   "rarity" : "Common",
   "inventoryIcon" : "saturnbrassblock.png",
+  "largeImage" : "/items/materials/tooltips/saturnbrassblock.png",
+  "tooltipKind" : "saturnpaintedblock",
   "description" : "A solid brass block.",
   "shortdescription" : "Brass Block",
 

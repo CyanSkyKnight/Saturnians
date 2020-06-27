@@ -17,9 +17,9 @@
 
 				
 				{ "item" : [ "crystal", 5]},
-				{ "item" : [ "petalred", 5]},
-				{ "item" : [ "petalyellow", 5]},
-				{ "item" : [ "petalblue", 5]},
+				{ "item" : [ "petalred", 4]},
+				{ "item" : [ "petalyellow", 4]},
+				{ "item" : [ "petalblue", 4]},
 				{ "item" : [ "silkfibre", 3]},
 				{ "item" : [ "saturnslopedglass", 100]},
 				{ "item" : [ "saturnslopedmetalpanel", 100]}
@@ -45,9 +45,9 @@
 
 				
 				{ "item" : [ "crystal", 5]},
-				{ "item" : [ "petalred", 5]},
-				{ "item" : [ "petalyellow", 5]},
-				{ "item" : [ "petalblue", 5]},
+				{ "item" : [ "petalred", 4]},
+				{ "item" : [ "petalyellow", 4]},
+				{ "item" : [ "petalblue", 4]},
 				{ "item" : [ "silkfibre", 3]},
 				{ "item" : [ "saturnslopedglass", 100]},
 				{ "item" : [ "saturnslopedmetalpanel", 100]}
