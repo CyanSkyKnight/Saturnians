@@ -124,7 +124,7 @@
     "baseDps" : 11.5,
 
     "damageConfig" : {
-      "damageSourceKind" : "broadsword",
+      "damageSourceKind" : "<elementalType>broadsword",
       "statusEffects" : [ ],
       "knockbackMode" : "facing",
       "timeout" : 0.10

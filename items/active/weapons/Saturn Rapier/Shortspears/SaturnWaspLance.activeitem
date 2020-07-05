@@ -26,6 +26,9 @@
   "elementalType" : "poison",
   "primaryAbilityType" : "Saturnshortswordcombo",
   "primaryAbility" : {
+    "damageConfig" : {
+    "damageSourceKind" : "<elementalType>spear"
+	},
     "fireTime" : 0.625,
     "baseDps" : 7.5
   },

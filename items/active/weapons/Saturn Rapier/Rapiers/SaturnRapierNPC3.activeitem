@@ -33,6 +33,9 @@
   "elementalType" : "electric",
   "primaryAbilityType" : "Saturnshortswordcombo",
   "primaryAbility" : {
+    "damageConfig" : {
+    "damageSourceKind" : "<elementalType>shortsword"
+	},
     "fireTime" : 0.625,
     "baseDps" : 7.5
   },

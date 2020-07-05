@@ -35,7 +35,7 @@
     "baseDps" : 8,
     "damageConfig" : {
       "knockback" : 50,
-	  "damageSourceKind" : "hammer"
+	  "damageSourceKind" : "<elementalType>hammer"
     }
   },
   "builder" : "/items/buildscripts/buildunrandweapon.lua"

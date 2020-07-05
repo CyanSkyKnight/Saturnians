@@ -4,7 +4,7 @@
   "level" : 3,
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "On the third attack, the blade is extended and deals 1.5x damage .",
+  "description" : "On the third attack, the blade is extended and deals 1.5x damage.",
   "shortdescription" : "Crystal Rapier",
   "tooltipKind" : "sword",
   "category" : "saturnrapier",
@@ -33,6 +33,9 @@
   "elementalType" : "electric",
   "primaryAbilityType" : "Saturnshortswordcombo",
   "primaryAbility" : {
+    "damageConfig" : {
+    "damageSourceKind" : "<elementalType>shortsword"
+	},
     "fireTime" : 0.625,
     "baseDps" : 7.5
   },

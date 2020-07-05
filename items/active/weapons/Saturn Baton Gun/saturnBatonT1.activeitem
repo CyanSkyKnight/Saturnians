@@ -104,7 +104,7 @@
         "allowFlip" : true
       },
       "fire" : {
-        "duration" : 0.5,
+        "duration" : 0.2,
         "armRotation" : -20,
         "weaponRotation" : -70,
         "weaponOffset" : [0, 1],
