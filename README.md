@@ -1,5 +1,6 @@
 
 I recommend you subscribe to the Steam version if you can so you get automatic updates: https://steamcommunity.com/workshop/filedetails/?id=1103027918
+
 If you can't, then get a stable version from here: https://github.com/CyanSkyKnight/Saturnians/releases
 
 The forum page (with more pictures) is here: https://community.playstarbound.com/resources/the-saturnians.4918/
