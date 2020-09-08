@@ -1,0 +1,16 @@
+{
+  "itemName" : "saturnbronzeplatform",
+  "price" : 0,
+  "category" : "platform",
+  "rarity" : "Common",
+  "inventoryIcon" : "saturnbronzeplatform.png",
+  "largeImage" : "/items/materials/tooltips/saturnbronzeplatform.png",
+  "tooltipKind" : "saturnpaintedblock",
+  "description" : "A platform made from bronze.",
+  "shortdescription" : "Bronze Platform",
+  "glitchdescription" : "Interested. This platform appears to be made from bronze.",
+  "florandescription" : "Platformss made from bronze.",
+  "novakiddescription" : "I reckon it must've been tough makin' this platform with bronze.",
+
+  "materialId" : 54736
+}

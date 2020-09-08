@@ -23,6 +23,25 @@
   [
     {
       "op": "add",
+      "path": "/greeting/satkyterran",
+      "value": {
+        "default": [
+          "Hello.",
+          "Greetings.",
+          "Salutations!",
+          "Nice to meet you.",
+          "I hope you are well, my friend.",
+          "Welcome traveler.",
+          "Nice to make your acquaintance",
+          "Hi.",
+          "Hello"
+        ]
+      }
+    }
+  ],
+  [
+    {
+      "op": "add",
       "path": "/greeting/saturnmothman",
       "value": {
         "default": [
@@ -230,6 +249,7 @@
         "Lepidoptian": [
 		  "Something about the way you talk feels familiar to me. Hmmm...",
 		  "Perhaps our species are like lost siblings.",
+		  "It's good to know that we aren't the only moths out there.",
 		  "I hear Lepidoptians metamorphosize as well.",
 		  "Does your species have wizards too?",
 		  "Our silk is a little bit different than yours. I wonder if weaving the two together would make even better fabric.",
@@ -239,7 +259,7 @@
 		  "Lepidoptians have excellent fashion sense.",
 		  "Do people try to get you to translate their weird old scrolls as well?",
 		  "Have you heard of the Kyterran peninsula? A terrible place, I've heard. There's an airsip from Lineata, if you have any reason to go.",
-		  "Wait? I know you...",
+		  "Wait. I know you...",
 		  "Hello fellow moth!",
 		  "Hello fellow bug!"
         ],
@@ -252,6 +272,7 @@
 //saturnians mod species
         "satkyterran": [
           "Are you from the exploration guild?",
+		  "It's not often we see other species from Myrasyl.",
 		  "Do your antennae pick up random radio waves too?",
 		  "I think you are the first Kyterran explorer to visit here."
         ],
@@ -270,7 +291,7 @@
           "I wonder if we can get our teleporters linked back up to Solalei.",
           "Did you attend the wizard college in Solalei? You look familiar.",
           "I'm glad Actias is still on the surface. Their necromages would surely give Saturnians a bad name!",
-          "Can you believe how far we are from Solalei?"
+          "Can you believe how far we are from Myrasyl?"
         ],
 		"saturn2": [
           "Are you from the exploration guild?",
@@ -285,7 +306,7 @@
           "I wonder if we can get our teleporters linked back up to Solalei.",
           "Your accent reminds me of Actias.",
           "I'm glad Actias is still on the surface. Uh, Why are you looking at me like that?",
-          "Can you believe how far we are from Solalei?"
+          "Can you believe how far we are from Myrasyl?"
         ]
       }
     }
@@ -503,7 +524,7 @@
         ]
     }
   ],
-  
+
 [ { "op": "copy", "from": "/converse/apex/saturn", "path": "/converse/apex/saturn2" } ], 
 
 [ { "op": "copy", "from": "/converse/human/saturn", "path": "/converse/human/saturn2" } ], 

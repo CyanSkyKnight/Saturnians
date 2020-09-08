@@ -1,0 +1,23 @@
+{
+  "materialId" : 54736,
+  "materialName" : "saturnbronzeplatform",
+  "collisionKind" : "platform",
+  "itemDrop" : "saturnbronzeplatform",
+  "shortdescription" : "Bronze Platform",
+  "description" : "A platform made from bronze.",
+  "glitchDescription" : "Interested. This platform appears to be made from bronze.",
+  "floranDescription" : "Platformss made from bronze.",
+  "novakidDescription" : "I reckon it must've been tough makin' this platform with bronze.",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "saturnbronzeplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

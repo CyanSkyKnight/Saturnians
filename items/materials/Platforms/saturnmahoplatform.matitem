@@ -1,0 +1,16 @@
+{
+  "itemName" : "saturnmahoplatform",
+  "price" : 0,
+  "category" : "platform",
+  "rarity" : "Common",
+  "inventoryIcon" : "saturnmahoplatform.png",
+  "largeImage" : "/items/materials/tooltips/saturnmahoplatform.png",
+  "tooltipKind" : "saturnpaintedblock",
+  "description" : "Nicely finished ornate, wooden platforms.",
+  "shortdescription" : "Mahogany Platform",
+  "glitchdescription" : "Delighted. These ornate platforms have been finely sanded and finished.",
+  "florandescription" : "Ornate platformss made from wood.",
+  "novakiddescription" : "Some ornate looking wooden platforms.",
+
+  "materialId" : 54735
+}

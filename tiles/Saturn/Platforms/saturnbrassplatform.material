@@ -1,0 +1,23 @@
+{
+  "materialId" : 54737,
+  "materialName" : "saturnbrassplatform",
+  "collisionKind" : "platform",
+  "itemDrop" : "saturnbrassplatform",
+  "shortdescription" : "Brass Platform",
+  "description" : "A platform made from brass.",
+  "glitchDescription" : "Interested. This platform appears to be made from brass.",
+  "floranDescription" : "Platformss made from brass.",
+  "novakidDescription" : "I reckon it must've been tough makin' this platform with brass.",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "saturnbrassplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

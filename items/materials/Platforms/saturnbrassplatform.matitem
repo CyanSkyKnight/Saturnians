@@ -1,0 +1,16 @@
+{
+  "itemName" : "saturnbrassplatform",
+  "price" : 0,
+  "category" : "platform",
+  "rarity" : "Common",
+  "inventoryIcon" : "saturnbrassplatform.png",
+  "largeImage" : "/items/materials/tooltips/saturnbrassplatform.png",
+  "tooltipKind" : "saturnpaintedblock",
+  "description" : "A platform made from brass.",
+  "shortdescription" : "Brass Platform",
+  "glitchdescription" : "Interested. This platform appears to be made from brass.",
+  "florandescription" : "Platformss made from brass.",
+  "novakiddescription" : "I reckon it must've been tough makin' this platform with brass.",
+
+  "materialId" : 54737
+}
