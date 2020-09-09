@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "saturnbirch", "count" : 1 }
+
+  ],
+  "output" : { "item" : "saturnbirchplatform", "count" : 10 },
+  "duration" : 0,
+  "groups"  : [ "craftingfurniture", "saturnmaterials", "materials", "all" ]
+}

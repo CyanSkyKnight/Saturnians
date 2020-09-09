@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "saturnslopedbrasspanel", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "saturnbrassplatform",
+    "count" : 10
+  },
+  "duration" : 0,
+  "groups"  : [ "craftingfurniture", "saturnmaterials", "materials", "all" ]
+}

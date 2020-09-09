@@ -6,7 +6,7 @@
 
     },
  "spacing":0,
- "tilecount":29,
+ "tilecount":35,
  "tileheight":8,
  "tileproperties":
     {
@@ -222,6 +222,50 @@
          "\/\/name":"saturnslopedBronzeglass",
          "\/\/shortdescription":"Bronze Glass",
          "material":"saturnslopedBronzeglass"
+        },
+		
+		
+	 "29":
+        {
+         "\/\/description":"saturnbirchplatform",
+         "\/\/name":"saturnbirchplatform",
+         "\/\/shortdescription":"birch platform",
+         "material":"saturnbirchplatform"
+        },
+	 "30":
+        {
+         "\/\/description":"saturnebonyplatform",
+         "\/\/name":"saturnebonyplatform",
+         "\/\/shortdescription":"ebony platform",
+         "material":"saturnebonyplatform"
+        },
+	 "31":
+        {
+         "\/\/description":"saturnmahoplatform",
+         "\/\/name":"saturnmahoplatform",
+         "\/\/shortdescription":"maho platform",
+         "material":"saturnmahoplatform"
+        },
+	 "32":
+        {
+         "\/\/description":"saturnoakplatform",
+         "\/\/name":"saturnoakplatform",
+         "\/\/shortdescription":"oak platform",
+         "material":"saturnoakplatform"
+        },
+	 "33":
+        {
+         "\/\/description":"saturnbrassplatform",
+         "\/\/name":"saturnbrassplatform",
+         "\/\/shortdescription":"brass platform",
+         "material":"saturnbrassplatform"
+        },
+	 "34":
+        {
+         "\/\/description":"saturnbronzeplatform",
+         "\/\/name":"saturnbronzeplatform",
+         "\/\/shortdescription":"bronze platform",
+         "material":"saturnbronzeplatform"
         }
 		
 		
@@ -346,6 +390,30 @@
      "28":
         {
          "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnslopedBronzeglass.png"
+        },
+     "29":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnbirchplatform.png"
+        },
+     "30":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnebonyplatform.png"
+        },
+     "31":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnmahoplatform.png"
+        },
+     "32":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnoakplatform.png"
+        },
+     "33":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnbrassplatform.png"
+        },
+     "34":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnbronzeplatform.png"
         }
     },
  "tilewidth":8
