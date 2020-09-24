@@ -1,6 +1,4 @@
-[
 
-//Saturnians Villages
 [
 
   { "op" : "add", "path" : "/planetTypes/forest/layers/surface/dungeons/-", "value" :
@@ -86,14 +84,5 @@
 	"saturnskygarden"
 	] 
   }
-],
-
-//Starry Planets Support
-[
-	{ "op" : "test", "path" : "/planetTypes/om_starryplanet" },
-	{ "op" : "add", "path" : "/planetTypes/om_starryplanet/layers/surface/dungeons/-", "value" : [4.0, "saturnskygarden"]  }
-]
-
-
 ]
 
