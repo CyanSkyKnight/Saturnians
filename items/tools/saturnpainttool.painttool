@@ -1,20 +1,18 @@
 {
   "itemName" : "saturnpainttool",
   "price" : 3500,
-  "inventoryIcon" : "/items/tools/paintergunicon.png",
+  "inventoryIcon" : "/items/tools/saturnpaintergun.png",
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "Primary fire applies paint, secondary changes colour.",
-  "shortdescription" : "Saturnian Paint Tool",
+  "shortdescription" : "Solalei Paint Tool",
 
   "fireTime" : 0.05,
   "blockRadius" : 3,
   "altBlockRadius" : 1,
   "twoHanded" : true,
   "strikeSounds" : [ "/sfx/tools/paint_splash.ogg" ],
-  "largeImage" : "saturnpaintgunlarge.png",
-  "tooltipKind" : "mm",
-  "category" : "Tool",
+  "category" : "tool",
 
   "image" : "/items/tools/saturnpaintergunvariants.png:0",
   "endImages" : [ "/humanoid/any/saturnball.png", "/humanoid/any/saturntileglow.png", "/humanoid/any/saturn4tileglow.png", "/humanoid/any/saturnball.png" ],

@@ -5,6 +5,7 @@
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",
+  "price" : 5000,
   "category" : "storage",
   "description" : "A locker. Store some stuff, why don't you?",
   "shortdescription" : "Saturnian Shiplocker",

@@ -1,0 +1,41 @@
+{
+  "objectName" : "saturnplush3",
+  "colonyTags" : ["saturn", "dark"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 2500,
+  "printable" : false,
+
+  "description" : "Where did this come from?",
+  "shortdescription" : "Shadow Moth Plush",
+  "race" : "saturn",
+
+
+
+
+  "inventoryIcon" : "saturnplush3icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "saturnplush3lit.png:<color>.<frame>", "fullbright" : true }, { "image" : "saturnplush3.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.5,
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "saturnplush3lit.png:<color>.<frame>", "fullbright" : true }, { "image" : "saturnplush3.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.5,
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

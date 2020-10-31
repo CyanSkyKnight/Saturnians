@@ -6,7 +6,7 @@
 
     },
  "spacing":0,
- "tilecount":35,
+ "tilecount":37,
  "tileheight":8,
  "tileproperties":
     {
@@ -266,6 +266,20 @@
          "\/\/name":"saturnbronzeplatform",
          "\/\/shortdescription":"bronze platform",
          "material":"saturnbronzeplatform"
+        },
+	 "35":
+        {
+         "\/\/description":"saturnbrassblock",
+         "\/\/name":"saturnbrassblock",
+         "\/\/shortdescription":"saturnbrassblock",
+         "material":"saturnbrassblock"
+        },
+	 "36":
+        {
+         "\/\/description":"saturnbronzeblock",
+         "\/\/name":"saturnbronzeblock",
+         "\/\/shortdescription":"saturnbronzeblock",
+         "material":"saturnbronzeblock"
         }
 		
 		
@@ -414,6 +428,14 @@
      "34":
         {
          "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnbronzeplatform.png"
+        },
+     "35":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnbrassblock.png"
+        },
+     "36":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/tiled\/packed\/saturnmaterials\/saturnbronzeblock.png"
         }
     },
  "tilewidth":8

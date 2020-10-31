@@ -1,9 +1,9 @@
 {
   "objectName" : "saturnclothes1",
   "colonyTags" : ["saturn", "dark"],
-  "rarity" : "Rare",
+  "rarity" : "Legendary",
   "category" : "decorative",
-  "price" : 250,
+  "price" : 2500,
   "printable" : false,
 
   "description" : "Where did this come from?",

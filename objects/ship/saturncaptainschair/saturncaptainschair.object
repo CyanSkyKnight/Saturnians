@@ -16,7 +16,8 @@
   "humanDescription" : "The Captain's chair. The person sitting here decides where the ship goes",
   "hylotlDescription" : "Sitting on the Captain's chair allows me to fly this ship.",
   "novakidDescription" : "The Captain's chair. The guy who sits here decides where the ship goes",
-   "saturnDescription" : "The pilot's seat...",
+  "saturnDescription" : "This pilot's chair has hardlight controls installed.",
+  "saturn2Description" : "This pilot's chair has hardlight controls installed.",
   "inventoryIcon" : "saturncaptainschairicon.png",
   "orientations" : [
     {

@@ -16,14 +16,15 @@
   "humanDescription" : "A good spot to store valuables, when its actually working.",
   "hylotlDescription" : "An old Hylotl saying comes to mind, it means nothing when the locker is broken however.",
   "novakidDescription" : "A locker, for puttin' things in. Shame this one is wrecked.",
-  "saturnDescription" : "This locker's failsafe has been enabled due to the damage. SAIL could reboot it for me.",
+  "saturnDescription" : "This locker shows a screensaver when the ship is in low power mode. SAIL could reboot it for me.",
+  "saturn2Description" : "This locker shows a screensaver when the ship is in low power mode. SAIL could reboot it for me.",
   "inventoryIcon" : "shiplockericonTier0.png",
   "orientations" : [
     {
-      "image" : "saturnshiplockerTier0.png:<color>.<frame>",
+      "imageLayers" : [ { "image" : "saturnshiplockerTier0.png:<color>.<frame>", "fullbright" : true }, { "image" : "saturnshiplockerTier0lit.png:<color>.<frame>" } ],
       "imagePosition" : [-16, -8],
       "frames" : 8,
-      "animationCycle" : 1,
+      "animationCycle" : 1.0,
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
     }

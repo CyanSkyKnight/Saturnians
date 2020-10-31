@@ -1,0 +1,86 @@
+{
+  "type" : "saturnspacemerchant",
+  "baseType" : "merchant",
+  
+
+
+
+  
+  
+  "dropPools" : [ "wizardtreasure" ],
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "merchant" : {
+      "categories" : {
+        "override": [ "Saturnspacesaturnian", "Saturntiles" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 50,
+      "storeRadius" : -1,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "Solalei Space Merchant",
+          "subtitle" : "Sells rare goods."
+        }
+      }
+    },
+
+
+	
+
+    "dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+              "Hello traveler, I have collected a bunch of peculiar things to sell. "
+            ]
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+              "Farewell, traveler.",
+              "I hope to see you in the future.",
+              "Courage to you!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ "saturnNocturneRobeBchest" ],
+            "legs" : [ "saturnNocturneRobeBpants" ],
+            "head" : [ 
+			{ "name" : "saturnSolmechanic" },
+			{ "name" : "SK414hoodhead" },
+			{ "name" : "saturnSolChead" },
+			{ "name" : "saturnSolChead" },
+			{ "name" : "saturnSolmechanic2" },			
+			{ "name" : "saturnSolmechanic2" },
+			{ "name" : "saturnSolmechanic2" }
+
+			],
+            "back" : [ "saturnWingMerchant" ],
+            "primary" : [ "saturnlightstaff2" ],
+            "sheathedprimary" : [
+              "SaturnGenwand"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

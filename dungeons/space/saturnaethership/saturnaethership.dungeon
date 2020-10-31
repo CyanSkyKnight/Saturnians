@@ -1,14 +1,14 @@
 {
   "metadata" : {
     "name" : "saturnaethership",
-  "species" : "generic",
+    "species" : "generic",
     "rules" : [
     ],
-    "anchor" : [ "back_1", "back_2" ],
+    "anchor" : [ "saturnsolship", "saturnsolshipRed", "saturnsolshipBlue", "saturnsolshipGreen", "saturnsolshipPurple" ],
     "gravity" : 80,
     "breathable" : true,
     "maxRadius" : 1000000,
-    "maxParts" : 4,
+    "maxParts" : 2,
     "protected" : true
 },
 
@@ -25,47 +25,55 @@
       "markDungeonId" : false
     },
 
-    // MERCHANT SHIP
+    // brass ship
+    {
+      "name" : "saturnsolship",
+      "rules" : [
+        [ "doNotCombineWith", [ "saturnsolship" ] ]
+      ],
+      "def" : [ "tmx", "saturnsolship.json" ],
+      "chance" : 1
+    },
+	
+    // red ship
+    {
+      "name" : "saturnsolshipRed",
+      "rules" : [
+        [ "doNotCombineWith", [ "saturnsolshipRed" ] ]
+      ],
+      "def" : [ "tmx", "saturnsolshipRed.json" ],
+      "chance" : 1
+    },
 
+    // blue ship
     {
-      "name" : "back_1",
+      "name" : "saturnsolshipBlue",
       "rules" : [
-        [ "doNotCombineWith", [ "back_1" ] ]
+        [ "doNotCombineWith", [ "saturnsolshipBlue" ] ]
       ],
-      "def" : [ "tmx", "back_1.json" ],
-      "chance" : 0.3
+      "def" : [ "tmx", "saturnsolshipBlue.json" ],
+      "chance" : 1
     },
+	
+    // green ship
     {
-      "name" : "back_2",
+      "name" : "saturnsolshipGreen",
       "rules" : [
-        [ "doNotCombineWith", [ "back_2" ] ]
+        [ "doNotCombineWith", [ "saturnsolshipGreen" ] ]
       ],
-      "def" : [ "tmx", "back_2.json" ],
-      "chance" : 0.3
+      "def" : [ "tmx", "saturnsolshipGreen.json" ],
+      "chance" : 1
     },
+	
+    // purple ship
     {
-      "name" : "front_1",
+      "name" : "saturnsolshipPurple",
       "rules" : [
-        [ "doNotCombineWith", [ "front_1", "front_2", "front_3" ] ]
+        [ "doNotCombineWith", [ "saturnsolshipPurple" ] ]
       ],
-      "def" : [ "tmx", "front_1.json" ],
-      "chance" : 0.3
-    },
-    {
-      "name" : "front_2",
-      "rules" : [
-        [ "doNotCombineWith", [ "front_1", "front_2", "front_3" ] ]
-      ],
-      "def" : [ "tmx", "front_2.json" ],
-      "chance" : 0.3
-    },
-    {
-      "name" : "front_3",
-      "rules" : [
-        [ "doNotCombineWith", [ "front_1", "front_2", "front_3" ] ]
-      ],
-      "def" : [ "tmx", "front_3.json" ],
-      "chance" : 0.3
+      "def" : [ "tmx", "saturnsolshipPurple.json" ],
+      "chance" : 1
     }
+
   ]
 }

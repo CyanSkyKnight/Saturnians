@@ -1,0 +1,86 @@
+{
+  "type" : "saturnspacemerchantfurniture",
+  "baseType" : "merchant",
+  
+
+
+
+  
+  
+  "dropPools" : [ "wizardtreasure" ],
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "merchant" : {
+      "categories" : {
+        "override": [ "Saturnfurniture" ]
+      },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 50,
+      "storeRadius" : -1,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "Solalei Furniture Merchant",
+          "subtitle" : "Sells furniture."
+        }
+      }
+    },
+
+
+	
+
+    "dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+              "I sell extra furniture we don't need."
+            ]
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+              "Farewell, traveler.",
+              "I hope to see you in the future.",
+              "Courage to you!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ "saturnNocturneRobeBchest" ],
+            "legs" : [ "saturnNocturneRobeBpants" ],
+            "head" : [ 
+			{ "name" : "saturnSolmechanic" },
+			{ "name" : "SK414hoodhead" },
+			{ "name" : "saturnSolChead" },
+			{ "name" : "saturnSolChead" },
+			{ "name" : "saturnSolmechanic2" },			
+			{ "name" : "saturnSolmechanic2" },
+			{ "name" : "saturnSolmechanic2" }
+
+			],
+            "back" : [ "saturnWingMerchant" ],
+            "primary" : [ "saturnlightstaff2" ],
+            "sheathedprimary" : [
+              "SaturnGenwand"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

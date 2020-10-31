@@ -1,4 +1,140 @@
 [
+{"op" : "add", "path" : "/Saturnspacesaturnian", "value":[
+	[0, [
+	  { "item" : { "name" : "saturnSolmechanic" }},
+	  { "item" : { "name" : "saturnSolmechanic2" }},
+	  
+	  { "item" : { "name" : "mechbodysaturnproto" }},
+	  
+	  { "item" : { "name" : "saturnshiplocker" } },
+	  { "item" : { "name" : "saturn2shiplocker" } },
+	  { "item" : { "name" : "saturnshipdoor" } },
+	  { "item" : { "name" : "saturnshipdoor2" } },
+	  { "item" : { "name" : "saturnshipdoororange" } },
+	  { "item" : { "name" : "saturnshipdoorpurple" } },
+	  { "item" : { "name" : "saturnshiphatch" } },
+	  { "item" : { "name" : "saturnshiphatch2" } },
+	  { "item" : { "name" : "saturnshiphatchorange" } },
+	  { "item" : { "name" : "saturnshiphatchpurple" } },
+	 
+	  { "item" : { "name" : "Saturnstationtram" }},
+	  { "item" : { "name" : "Saturnstationtram2" }},
+	  
+	  { "item" : { "name" : "Saturnrailhook", "data" : { "price" : 2500 }}},
+	  
+	  { "item" : { "name" : "SaturnSilkshade", "data" : { "price" : 10000 }}},
+	  
+	  { "item" : { "name" : "saturnLampshade" }},
+	  { "item" : { "name" : "saturnplush3" }}
+	]]
+	]},
+	
+{"op" : "add", "path" : "/Saturntiles", "value":[
+	[0, [
+
+	  { "item" : { "name" : "saturnSTslopedpanel" } },
+	  { "item" : { "name" : "saturnSTslopedbrasspanel" } },
+	  { "item" : { "name" : "saturnSTebony" } },
+	  { "item" : { "name" : "saturnSTbirch" } },
+	  { "item" : { "name" : "saturnSTMaho" } },
+	  { "item" : { "name" : "saturnSTOak" } },
+	  { "item" : { "name" : "saturnSTcolorfulclaywalls" } }
+	]]
+	]},
+	
+{"op" : "add", "path" : "/Saturnfurniture", "value":[
+	[0, [
+
+
+	  { "item" : { "name" : "saturnianEbonyarmchair1" } },
+	  { "item" : { "name" : "saturnianEbonybed" } },
+	  { "item" : { "name" : "saturnianEbonybed2" } },
+	  { "item" : { "name" : "saturnianEbonybed2Mask" } },
+	  
+	  { "item" : { "name" : "saturnianEbonybox1" } },
+	  { "item" : { "name" : "saturnianEbonybox2" } },
+	  { "item" : { "name" : "saturnianEbonybox3" } },
+	  
+	  { "item" : { "name" : "saturnianEbonycabinet1" } },
+	  { "item" : { "name" : "saturnianEbonycabinet2" } },
+	  { "item" : { "name" : "saturnianEbonycabinet3" } },
+	  { "item" : { "name" : "saturnianEbonyceilingbookcase1" } },
+	  { "item" : { "name" : "saturnianEbonyceilingcabinet1" } },
+	  { "item" : { "name" : "saturnianEbonyceilingcabinet2" } },
+	  
+	  { "item" : { "name" : "saturnianEbonychair" } },
+	  
+	  { "item" : { "name" : "saturnianEbonychest" } },
+	  
+	  { "item" : { "name" : "saturnianEbonycrate1" } },
+	  { "item" : { "name" : "saturnianEbonycrate2" } },
+	  
+	  { "item" : { "name" : "saturnianEbonydesk" } },
+	  { "item" : { "name" : "saturnianEbonydoor" } },
+	  { "item" : { "name" : "saturnianEbonysink" } },
+	  { "item" : { "name" : "saturnianEbonystand1" } },
+	  { "item" : { "name" : "saturnianEbonystool" } },
+	  
+	  { "item" : { "name" : "saturnbookcase" } },
+	  { "item" : { "name" : "saturncanvas" } },
+	  { "item" : { "name" : "saturncanvaslumoth" } },
+	  { "item" : { "name" : "saturncanvaspoptop" } },
+	  { "item" : { "name" : "saturnebonychair" } },
+	  { "item" : { "name" : "saturnebonytable" } },
+	  { "item" : { "name" : "saturnianStaffCase" } },
+	  { "item" : { "name" : "saturnpropeller" } },
+	  { "item" : { "name" : "saturnmarketstall" } },
+	  { "item" : { "name" : "saturnmarketstall2" } }
+	]]
+	]},
+{"op" : "add", "path" : "/Saturnlamps", "value":[
+	[0, [
+
+	{"item" : { "name" : "cabinlamp"} },
+	{"item" : { "name" : "doomlight"} },
+	{"item" : { "name" : "sunmodel"} },
+	{"item" : { "name" : "executivelight"} },
+	{"item" : { "name" : "geometriclight"} },
+	{"item" : { "name" : "islandlamp"} },
+	{"item" : { "name" : "opulentlight"} },
+	{"item" : { "name" : "lamppost1"} },
+	{"item" : { "name" : "lamppost2"} },
+	{"item" : { "name" : "lamppost3"} },
+	{"item" : { "name" : "pastellight"} },
+	{"item" : { "name" : "retroscifilight"} },
+	{"item" : { "name" : "sealamp"} },
+	{"item" : { "name" : "serenelight"} },
+	{"item" : { "name" : "steampunklamp"} },
+	{"item" : { "name" : "wavelight"} },
+	{"item" : { "name" : "ancientlightround"} },
+	{"item" : { "name" : "ancientlight"} },
+	{"item" : { "name" : "ancientbust"} },
+	{"item" : { "name" : "outpostlight"} },
+	{"item" : { "name" : "ancientchest"} },
+	{"item" : { "name" : "classiclight"} },
+	{"item" : { "name" : "apexlamp2"} },
+	{"item" : { "name" : "crystaltorch"} },
+	{"item" : { "name" : "floranlamp1"} },
+	{"item" : { "name" : "fairylights"} },
+	{"item" : { "name" : "floodlights"} },
+	{"item" : { "name" : "woodenlamp1"} },
+	{"item" : { "name" : "woodenlamp2"} },
+	{"item" : { "name" : "holidaylights"} },
+	{"item" : { "name" : "hylotllamp"} },
+	{"item" : { "name" : "hylotlsign1g"} },
+	{"item" : { "name" : "numisign"} },
+	{"item" : { "name" : "frontierlamp"} },
+	{"item" : { "name" : "officelamp"} },
+	{"item" : { "name" : "outpostlamp"} },
+	{"item" : { "name" : "penguinbarlamp"} },
+	{"item" : { "name" : "peacekeeperlamppost"} },
+	{"item" : { "name" : "protectoratelavalamp"} },
+	{"item" : { "name" : "tier2light"} },
+	{"item" : { "name" : "tier3light"} },
+	{"item" : { "name" : "tier4light"} }
+	]]
+	]},
+
 {"op" : "add", "path" : "/Saturnclothes", "value":[
 	[0, [
 	  { "item" : { "name" : "saturnmerchantchest" }},
