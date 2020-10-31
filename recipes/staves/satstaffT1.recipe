@@ -4,5 +4,5 @@
     { "item" : "darkwoodmaterial", "count" : 4 }
   ],
   "output" : { "item" : "satstaffT1", "count" : 1 },
-  "groups" : [ "craftinganvil", "weapons", "saturnstaff", "all" ]
+  "groups" : [ "craftinganvil", "weapons", "saturnstaff", "staff", "armory1",  "all" ]
 }

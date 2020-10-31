@@ -6,5 +6,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "saturnNecromagechest", "count" : 1 },
-  "groups" : [ "craftinganvil3", "armours", "all" ]
+  "groups" : [ "craftinganvil3", "armours", "armors", "armory2", "all" ]
 }

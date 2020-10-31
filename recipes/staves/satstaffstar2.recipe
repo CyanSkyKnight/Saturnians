@@ -5,5 +5,5 @@
     { "item" : "diamond", "count" : 3 }
   ],
   "output" : { "item" : "satstaffstar2", "count" : 1 },
-  "groups" : [ "craftingmanipulator", "weapons", "saturnstaff2", "all" ]
+  "groups" : [ "craftingmanipulator", "weapons", "saturnstaff2", "staff", "armory3", "all" ]
 }

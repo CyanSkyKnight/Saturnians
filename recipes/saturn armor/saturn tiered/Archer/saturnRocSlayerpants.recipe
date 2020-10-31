@@ -5,5 +5,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "saturnRocSlayerpants", "count" : 1 },
-  "groups" : [ "craftingaccelerator", "armours", "all" ]
+  "groups" : [ "craftingaccelerator", "armours", "armors", "armory3", "all" ]
 }

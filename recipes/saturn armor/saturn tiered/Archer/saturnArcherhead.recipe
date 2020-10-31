@@ -6,5 +6,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "saturnArcherhead", "count" : 1 },
-  "groups" : [ "craftingaccelerator", "armours", "all" ]
+  "groups" : [ "craftingaccelerator", "armours", "armors", "armory3", "all" ]
 }

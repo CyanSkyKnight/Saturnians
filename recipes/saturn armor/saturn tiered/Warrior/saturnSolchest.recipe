@@ -5,5 +5,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "saturnSolchest", "count" : 1 },
-  "groups" : [ "craftingseparator", "armours", "all" ]
+  "groups" : [ "craftingseparator", "armours", "armors", "armory3", "all" ]
 }

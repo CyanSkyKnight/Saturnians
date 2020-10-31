@@ -5,5 +5,5 @@
     { "item" : "diamond", "count" : 1 }
   ],
   "output" : { "item" : "SaturnBowT6", "count" : 1 },
-  "groups" : [ "craftingaccelerator", "saturnenchantedranged", "weapons", "all" ]
+  "groups" : [ "craftingaccelerator", "saturnenchantedranged", "weapons", "bow", "armory3", "all" ]
 }

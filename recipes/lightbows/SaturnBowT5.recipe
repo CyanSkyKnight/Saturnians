@@ -4,5 +4,5 @@
 	{ "item" : "goldbar", "count" : 3 }
   ],
   "output" : { "item" : "SaturnBowT5", "count" : 1 },
-  "groups" : [ "craftingaccelerator", "saturnenchantedranged", "weapons", "all" ]
+  "groups" : [ "craftingaccelerator", "saturnenchantedranged", "weapons", "bow", "armory3", "all" ]
 }

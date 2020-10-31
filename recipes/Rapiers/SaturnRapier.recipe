@@ -4,5 +4,5 @@
     { "item" : "climbingrope", "count" : 2 }
   ],
   "output" : { "item" : "SaturnRapier", "count" : 1 },
-  "groups" : [ "craftinganvil", "saturnenchantedweapon", "weapons", "all" ]
+  "groups" : [ "craftinganvil", "saturnenchantedweapon", "weapons", "melee", "armory1", "all" ]
 }

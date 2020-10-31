@@ -4,5 +4,5 @@
     { "item" : "copperbar", "count" : 4 }
   ],
   "output" : { "item" : "satstaffT4", "count" : 1 },
-  "groups" : [ "craftinganvil3", "weapons", "saturnstaff2", "all" ]
+  "groups" : [ "craftinganvil3", "weapons", "saturnstaff2", "staff", "armory2",  "all" ]
 }

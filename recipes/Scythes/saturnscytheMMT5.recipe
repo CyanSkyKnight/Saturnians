@@ -4,5 +4,5 @@
     { "item" : "saturnscytheT5", "count" : 1 }
   ],
   "output" : { "item" : "saturnscytheMMT5", "count" : 1 },
-  "groups" : [ "craftingseparator", "saturnenchantedweapon", "weapons", "all" ]
+  "groups" : [ "craftingseparator", "saturnenchantedweapon", "weapons", "melee2", "armory3", "all" ]
 }

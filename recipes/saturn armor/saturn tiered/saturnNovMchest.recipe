@@ -6,5 +6,5 @@
   ],
   "duration" : 5,
   "output" : { "item" : "saturnNovMchest", "count" : 1 },
-  "groups" : [ "craftinganvil", "armours", "all" ]
+  "groups" : [ "craftinganvil", "armours", "armors", "armory1", "all" ]
 }

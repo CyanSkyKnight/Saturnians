@@ -4,5 +4,5 @@
     { "item" : "refinedviolium", "count" : 6 }
   ],
   "output" : { "item" : "saturnscytheT6", "count" : 1 },
-  "groups" : [ "craftingseparator", "saturnenchantedweapon", "weapons", "all" ]
+  "groups" : [ "craftingseparator", "saturnenchantedweapon", "weapons", "melee2", "armory3", "all" ]
 }
