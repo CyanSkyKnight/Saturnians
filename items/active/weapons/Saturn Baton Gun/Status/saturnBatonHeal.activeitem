@@ -8,7 +8,7 @@
   "tooltipKind" : "saturngun",
   "category" : "saturntoolbaton",
   "twoHanded" : false,
-  "itemTags" : ["weapon","ranged", "wand", "upgradeableWeapon"],
+  "itemTags" : ["weapon","ranged", "wand" ],
   "level" : 1,
 
   "inventoryIcon" : "saturnBatonHeal.png",

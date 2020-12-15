@@ -8,7 +8,7 @@
   "tooltipKind" : "saturngun",
   "category" : "Mage Scepter",
   "twoHanded" : false,
-  "itemTags" : ["weapon", "ranged", "wand", "upgradeableWeapon"],
+  "itemTags" : ["weapon","ranged", "wand"],
   "level" : 1,
 
   "inventoryIcon" : "saturnBatonGreen.png",

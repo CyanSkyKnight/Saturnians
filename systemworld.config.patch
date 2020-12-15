@@ -2,5 +2,8 @@
 
 { "op" : "add", "path" : "/objectSpawnPool/-", "value" : 
 [0.1, "saturnaethership"]
+},
+{ "op" : "add", "path" : "/objectSpawnPool/-", "value" : 
+[0.06, "saturnaethershiprare"]
 }
 ]

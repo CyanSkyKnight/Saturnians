@@ -1,10 +1,10 @@
 {
   "metadata" : {
-    "name" : "saturnshadowsky",
+    "name" : "saturnoutposttest",
     "species" : "generic",
     "rules" : [
     ],
-    "anchor" : [ "saturnshadowsky" ],
+    "anchor" : [ "saturnoutposttest" ],
     "gravity" : 80,
     "maxRadius" : 1000000,
     "maxParts" : 100,
@@ -13,11 +13,11 @@
 
   "parts" : [
     {
-      "name" : "saturnshadowsky",
+      "name" : "saturnoutposttest",
       "rules" : [
         [ "maxSpawnCount", [1] ]
       ],
-      "def" : [ "tmx", "saturnshadowsky.json" ]
+      "def" : [ "tmx", "saturnoutposttest.json" ]
     }
   ]
 }

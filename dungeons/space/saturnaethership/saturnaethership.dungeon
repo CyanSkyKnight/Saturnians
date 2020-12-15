@@ -4,7 +4,7 @@
     "species" : "generic",
     "rules" : [
     ],
-    "anchor" : [ "saturnsolship", "saturnsolshipRed", "saturnsolshipBlue", "saturnsolshipGreen", "saturnsolshipPurple" ],
+    "anchor" : [ "saturnsolaleiship" ],
     "gravity" : 80,
     "breathable" : true,
     "maxRadius" : 1000000,
@@ -24,54 +24,13 @@
       "chance" : 0,
       "markDungeonId" : false
     },
-
     // brass ship
     {
-      "name" : "saturnsolship",
+      "name" : "saturnsolaleiship",
       "rules" : [
-        [ "doNotCombineWith", [ "saturnsolship" ] ]
+        [ "doNotCombineWith", [ "saturnsolaleiship" ] ]
       ],
-      "def" : [ "tmx", "saturnsolship.json" ],
-      "chance" : 1
-    },
-	
-    // red ship
-    {
-      "name" : "saturnsolshipRed",
-      "rules" : [
-        [ "doNotCombineWith", [ "saturnsolshipRed" ] ]
-      ],
-      "def" : [ "tmx", "saturnsolshipRed.json" ],
-      "chance" : 1
-    },
-
-    // blue ship
-    {
-      "name" : "saturnsolshipBlue",
-      "rules" : [
-        [ "doNotCombineWith", [ "saturnsolshipBlue" ] ]
-      ],
-      "def" : [ "tmx", "saturnsolshipBlue.json" ],
-      "chance" : 1
-    },
-	
-    // green ship
-    {
-      "name" : "saturnsolshipGreen",
-      "rules" : [
-        [ "doNotCombineWith", [ "saturnsolshipGreen" ] ]
-      ],
-      "def" : [ "tmx", "saturnsolshipGreen.json" ],
-      "chance" : 1
-    },
-	
-    // purple ship
-    {
-      "name" : "saturnsolshipPurple",
-      "rules" : [
-        [ "doNotCombineWith", [ "saturnsolshipPurple" ] ]
-      ],
-      "def" : [ "tmx", "saturnsolshipPurple.json" ],
+      "def" : [ "tmx", "saturnsolaleiship.json" ],
       "chance" : 1
     }
 

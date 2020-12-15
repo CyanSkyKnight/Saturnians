@@ -1,0 +1,79 @@
+{
+  "metadata" : {
+    "name" : "saturnaethershiprare",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "saturnsolship", "saturnsolshipRed", "saturnsolshipBlue", "saturnsolshipGreen", "saturnsolshipPurple" ],
+    "gravity" : 80,
+    "breathable" : true,
+    "maxRadius" : 1000000,
+    "maxParts" : 2,
+    "protected" : true
+},
+
+  "parts" : [
+
+    // SAFE ZONE
+    {
+      "name" : "safe-empty",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/hazards/safe-empty.json" ],
+      "chance" : 0,
+      "markDungeonId" : false
+    },
+
+    // brass ship
+    {
+      "name" : "saturnsolship",
+      "rules" : [
+        [ "doNotCombineWith", [ "saturnsolship" ] ]
+      ],
+      "def" : [ "tmx", "saturnsolship.json" ],
+      "chance" : 1
+    },
+	
+    // red ship
+    {
+      "name" : "saturnsolshipRed",
+      "rules" : [
+        [ "doNotCombineWith", [ "saturnsolshipRed" ] ]
+      ],
+      "def" : [ "tmx", "saturnsolshipRed.json" ],
+      "chance" : 1
+    },
+
+    // blue ship
+    {
+      "name" : "saturnsolshipBlue",
+      "rules" : [
+        [ "doNotCombineWith", [ "saturnsolshipBlue" ] ]
+      ],
+      "def" : [ "tmx", "saturnsolshipBlue.json" ],
+      "chance" : 1
+    },
+	
+    // green ship
+    {
+      "name" : "saturnsolshipGreen",
+      "rules" : [
+        [ "doNotCombineWith", [ "saturnsolshipGreen" ] ]
+      ],
+      "def" : [ "tmx", "saturnsolshipGreen.json" ],
+      "chance" : 1
+    },
+	
+    // purple ship
+    {
+      "name" : "saturnsolshipPurple",
+      "rules" : [
+        [ "doNotCombineWith", [ "saturnsolshipPurple" ] ]
+      ],
+      "def" : [ "tmx", "saturnsolshipPurple.json" ],
+      "chance" : 1
+    }
+
+  ]
+}

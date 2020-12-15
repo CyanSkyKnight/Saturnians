@@ -5,23 +5,22 @@
   "image" : "saturnpaintballcyan.png",
   "animationCycle" : 0.5,
   "frameNumber" : 4,
-  "timeToLive" : 2,
+  "timeToLive" : 0.2,
   "power" : 50,
   "lightColor" : [40, 20, 4],
   "speed" : 19,
   "fullbright" : true,
-  "periodicActions" : [
-    {
-      "action" : "particle",
-      "specification" : "saturnpaintdripcyan",
-      "rotate" : true,
-      "time" : 0.01,
-      "repeat" : true
-    }
+  "damagePoly" : [],
+  "actionOnReap" : [
+  {
+  "action":"spawnmonster",
+  "type":"lumoth",
+  "level":1,
+  "arguments":{}
+  }
   ],
 
   "damageKind" : "default",
   "statusEffects" : [
-    "saturnhoneyslow"
   ]
 }

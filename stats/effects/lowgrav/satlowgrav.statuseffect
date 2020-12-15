@@ -1,7 +1,7 @@
 {
   "name" : "satlowgrav",
   "effectConfig" : {
-    "gravityModifier" : 0.7
+    "fallSpeedLimit" : -35
   },
   "defaultDuration" : 5,
 
@@ -9,7 +9,7 @@
     "satlowgrav.lua"
   ],
   
-  "label" : "Featherweight",
+  "label" : "Slow Fall",
   "icon" : "/interface/statuses/saturnmothwings.png",
 
   "animationConfig" : "satlowgrav.animation"

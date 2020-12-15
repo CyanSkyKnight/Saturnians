@@ -17,9 +17,30 @@
     "parameters" : {
       "icon" : "/celestial/system/ships/saturnship.png",
       "displayName" : "Saturnian Ship",
-      "description" : "This ship acknowledges our communications and her captain cordially invites us to pay a visit."
+      "description" : "This Solalei ship transports goods to sky cities. Her captain invites us to visit."
     }
 }
+},
+{ "op" : "add", "path" : "/saturnaethershiprare", "value" : 
+    
+{
+    "warpAction" : "InstanceWorld:saturnaethershiprare",
+    "threatLevel" : 1,
+    "skyParameters" : {
+      "seed" : 0,
+      "horizonClouds" : false,
+      "horizonImages" : [ { "left": "/celestial/system/ships/shiphorizonleft.png", "right": "/celestial/system/ships/shiphorizonright.png" } ]
+    },
 
+    "moving" : true,
+    "speed" : 15.0,
+    "orbitRange" : [1, 1],
+    "lifeTime" : [1500, 2100],
+    "parameters" : {
+      "icon" : "/celestial/system/ships/saturnshipb.png",
+      "displayName" : "Saturnian Ship",
+      "description" : "This strange-looking Solalei ship transports goods to sky cities. Her captain invites us to visit."
+    }
+}
 }
 ]

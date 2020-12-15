@@ -60,8 +60,21 @@
  	"saturnclutterkitchen" : [
     [1, {
       "pool" : [
-        {"weight" : 0.15, "item" : [ "fossilbrushbeginner", 3]},
-        {"weight" : 0.15, "item" : [ "saturnLightKnife", 1]}
+        {"weight" : 0.10, "item" : [ "bottledsaturnnectar", 1]},
+        {"weight" : 0.15, "item" : [ "applebasket", 1]},
+        {"weight" : 0.15, "item" : [ "baguettebox", 1]},
+        {"weight" : 0.15, "item" : [ "smashabledrink4", 3]},
+        {"weight" : 0.15, "item" : [ "smashabledrink1", 3]},
+        {"weight" : 0.07, "item" : [ "flowerbasket1", 1]},
+        {"weight" : 0.07, "item" : [ "flowerbasket2", 1]},
+		
+        {"weight" : 0.15, "item" : [ "classicbowl", 3]},
+        {"weight" : 0.15, "item" : [ "classicmug", 3]},
+        {"weight" : 0.15, "item" : [ "classicplate", 3]},
+
+
+        {"weight" : 0.15, "item" : [ "saturnLightSpoon", 3]},
+        {"weight" : 0.15, "item" : [ "saturnLightKnife", 3]}
       ],
       "poolRounds" : [
         [0.30, 0],

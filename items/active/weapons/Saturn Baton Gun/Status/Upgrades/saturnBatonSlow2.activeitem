@@ -1,22 +1,22 @@
 {
-  "itemName" : "saturnBatonCalm",
+  "itemName" : "saturnBatonSlow2",
   "price" : 640,
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "Foes directly in front deal only 60% damage for 15 seconds.",
-  "shortdescription" : "Calm Scepter",
+  "description" : "Launches a cocoon that greatly slows down targets for 10 seconds. ",
+  "shortdescription" : "Silk Scepter",
   "tooltipKind" : "saturngun",
   "category" : "saturntoolbaton",
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged", "wand"],
   "level" : 1,
 
-  "inventoryIcon" : "saturnBatonCalm.png",
+  "inventoryIcon" : "saturnBatonSlow.png",
 
   "animation" : "/items/active/weapons/ranged/saturnwindupgun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "saturnBatonCalm.png",
+    "middle" : "saturnBatonSlow.png",
     "barrel" : "",
     "muzzleFlash" : "/items/active/weapons/ranged/saturnmuzzleflash.png"
   },
@@ -48,10 +48,11 @@
 
     "fireType" : "auto",
 
-    "projectileType" : "saturnspinswooshcalm",
+    "projectileType" : "saturnsilkorb",
     "projectileParameters" : {
-      "knockback" : 0,
-	  "speed" : 5
+      "knockback" : 30,
+	  "power" : 0,
+	  "speed" : 30
     },
     "stances" : {
       "idle" : {

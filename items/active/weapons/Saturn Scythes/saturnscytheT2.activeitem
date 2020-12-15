@@ -248,7 +248,7 @@
     "dashControlForce" : 1600,
 
     "damageConfig" : {
-      "damageSourceKind" : "broadsword",
+      "damageSourceKind" : "<elementalType>broadsword",
       "baseDamage" : 6,
       "knockback" : [0, 50],
       "timeout" : 0.3,

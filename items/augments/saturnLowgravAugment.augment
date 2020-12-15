@@ -1,11 +1,11 @@
 {
   "itemName" : "saturnLowgravAugment",
-  "price" : 10,
+  "price" : 1390,
   "rarity" : "Rare",
   "tooltipKind" : "saturnwingback",
   "category" : "eppAugment",
   "inventoryIcon" : "saturnLowgravAugment.png",
-  "description" : "Weakens gravity a bit and prevents fall damage.\n^gray;The bright red color is a warning that it tastes horrible.^reset;", 
+  "description" : "Slows your fall and prevents fall damage.\n^gray;It's bright red color must mean that it tastes horrible.^reset;", 
   "shortdescription" : "Wing Augment",
 
   "augment" : {

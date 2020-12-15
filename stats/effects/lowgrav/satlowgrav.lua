@@ -1,16 +1,8 @@
 function init()
-  self.gravityModifier = config.getParameter("gravityModifier")
-  self.movementParams = mcontroller.baseParameters()
+  self.fallSpeedLimit = config.getParameter("fallSpeedLimit")
   effect.addStatModifierGroup({{stat = "fallDamageMultiplier", effectiveMultiplier = 0}})
-  setGravityMultiplier()
 
   activateVisualEffects()
-end
-
-function setGravityMultiplier()
-  local oldGravityMultiplier = self.movementParams.gravityMultiplier or 1
-
-  self.newGravityMultiplier = self.gravityModifier * oldGravityMultiplier
 end
 
 function activateVisualEffects()
@@ -19,11 +11,15 @@ function activateVisualEffects()
 end
 
 function update(dt)
-  mcontroller.controlParameters({
-     gravityMultiplier = self.newGravityMultiplier
-  })
+
+  --Limit fall speed
+  local velocity = mcontroller.velocity()
+  if velocity[2] < self.fallSpeedLimit then
+    mcontroller.setYVelocity(self.fallSpeedLimit)
+  end
 end
 
 function uninit()
 
 end
+

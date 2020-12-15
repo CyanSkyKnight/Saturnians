@@ -2109,6 +2109,14 @@
                  "height":16,
                  "id":2283,
                  "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"treasurePools\":[\"saturncluttergeneric\"]}"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -2121,6 +2129,14 @@
                  "height":16,
                  "id":2284,
                  "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"treasurePools\":[\"basicSpaceTreasure\"]}"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -2133,6 +2149,14 @@
                  "height":16,
                  "id":2285,
                  "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"treasurePools\":[\"saturncluttergeneric\"]}"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -2145,6 +2169,14 @@
                  "height":16,
                  "id":2286,
                  "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"treasurePools\":[\"saturncluttergeneric\"]}"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -2181,6 +2213,14 @@
                  "height":16,
                  "id":2292,
                  "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"treasurePools\":[\"saturnclutterkitchen\"]}"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -2480,18 +2520,6 @@
                  "y":600
                 }, 
                 {
-                 "gid":2098,
-                 "height":38,
-                 "id":2522,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":336,
-                 "y":552
-                }, 
-                {
                  "gid":9259,
                  "height":24,
                  "id":2525,
@@ -2672,6 +2700,14 @@
                  "height":24,
                  "id":2557,
                  "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"treasurePools\":[\"saturnclutterkitchen\"]}"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -3054,6 +3090,26 @@
                  "width":8,
                  "x":760,
                  "y":536
+                }, 
+                {
+                 "gid":11369,
+                 "height":38,
+                 "id":2619,
+                 "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"treasurePools\":[\"industrialcargoCanister\"]}"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":336,
+                 "y":552
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3156,7 +3212,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":2619,
+ "nextobjectid":2620,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tileheight":8,
@@ -3344,6 +3400,10 @@
         {
          "firstgid":9542,
          "source":"..\/..\/..\/..\/..\/..\/Starbound\/assets\/packed\/tilesets\/packed\/objects-by-colonytag\/astro.json"
+        }, 
+        {
+         "firstgid":9556,
+         "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/starsassets\/One four Release\/tilesets\/packed\/objects-by-race\/generic.json"
         }],
  "tilewidth":8,
  "version":1,

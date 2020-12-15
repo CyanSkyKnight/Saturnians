@@ -1,32 +1,35 @@
 {
-  "itemName" : "saturnBatonCalm",
+  "itemName" : "saturnBatonHeal2",
   "price" : 640,
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "Foes directly in front deal only 60% damage for 15 seconds.",
-  "shortdescription" : "Calm Scepter",
+  "description" : "Heals 50 HP over 10 seconds. The healing effect is applied to anyone within the circle, including the user.",
+  "shortdescription" : "Heal Scepter",
   "tooltipKind" : "saturngun",
   "category" : "saturntoolbaton",
   "twoHanded" : false,
-  "itemTags" : ["weapon","ranged", "wand"],
+  "itemTags" : ["weapon","ranged", "wand" ],
   "level" : 1,
 
-  "inventoryIcon" : "saturnBatonCalm.png",
+  "inventoryIcon" : "saturnBatonHeal.png",
 
   "animation" : "/items/active/weapons/ranged/saturnwindupgun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "saturnBatonCalm.png",
-    "barrel" : "",
-    "muzzleFlash" : "/items/active/weapons/ranged/saturnmuzzleflash.png"
+    "middle" : "saturnBatonHeal.png",
+    "barrel" : "saturnBatonHealFB.png",
+    "muzzleFlash" : ""
   },
   "animationCustom" : {
     "sounds" : {
-    "charge" : [ "/sfx/melee/saturnshortstaffcharge1.ogg" ],
-	"charge2" : [ "/sfx/melee/SaturnShortwandSwish.ogg" ],
+    "charge" : [ "/sfx/melee/saturnQuickSpin.ogg" ],
+	"charge2" : [ "/sfx/melee/saturnshortstaffcharge1.ogg" ],
 	"charge3" : [ "/sfx/melee/SaturnShortwandFlick.ogg" ],
     "fire" : [ "/sfx/melee/SaturnFencingSwordThrust5.ogg" ]
-	}
+	},
+    "lights" : { "glow" : {
+      "color" : [45, 20, 20]
+    }}
   },
 
 
@@ -40,15 +43,15 @@
     "scripts" : ["/items/active/weapons/ranged/saturngunfire.lua"],
     "class" : "SaturnGunFire",
 
-    "fireTime" : 1,
+    "fireTime" : 0.5,
     "baseDps" : 0,
-    "energyUsage" : 50,
+    "energyUsage" : 200,
     "projectileCount" : 1,
     "inaccuracy" : 0,
 
     "fireType" : "auto",
 
-    "projectileType" : "saturnspinswooshcalm",
+    "projectileType" : "saturnhealspinswoosh",
     "projectileParameters" : {
       "knockback" : 0,
 	  "speed" : 5
@@ -58,30 +61,30 @@
         "armRotation" : -90,
         "weaponRotation" : 0,
         "weaponOffset" : [0, 0.5],
-  
         "allowRotate" : true,
         "allowFlip" : true
       },
       "windup" : {
-        "duration" : 0.2,
-        "armRotation" : -40,
+        "duration" : 0.5,
+        "armRotation" : -80,
         "weaponRotation" : -70,
         "weaponOffset" : [0, 0.5],
-		"armAngularVelocity" : 300,
+		"armAngularVelocity" : 250,
+		"weaponAngularVelocity" : 1230,
         "allowRotate" : true,
         "allowFlip" : true
       },
       "windup2" : {
-        "duration" : 0.2,
-        "armRotation" : 50,
-        "weaponRotation" : -90,
+        "duration" : 0.8,
+        "armRotation" : 10,
+        "weaponRotation" : -30,
         "weaponOffset" : [0, 0.5],
-		"armAngularVelocity" : -300,
+		"armAngularVelocity" : 100,
         "allowRotate" : true,
         "allowFlip" : true
       },
       "windup3" : {
-        "duration" : 0.2,
+        "duration" : 0,
         "armRotation" : 10,
         "weaponRotation" : -30,
         "weaponOffset" : [0, 0.5],
@@ -94,7 +97,6 @@
         "armRotation" : -20,
         "weaponRotation" : -70,
         "weaponOffset" : [0, 1],
-  
         "allowRotate" : true,
         "allowFlip" : true
       },
@@ -103,16 +105,14 @@
         "armRotation" : -20,
         "weaponRotation" : -70,
         "weaponOffset" : [0, 1],
-  
         "allowRotate" : true,
         "allowFlip" : true
       },
       "cooldown" : {
-        "duration" : 0.001,
+        "duration" : 0,
         "armRotation" : -20,
         "weaponRotation" : -70,
         "weaponOffset" : [0, 1],
-  
         "allowRotate" : true,
         "allowFlip" : true
       }
