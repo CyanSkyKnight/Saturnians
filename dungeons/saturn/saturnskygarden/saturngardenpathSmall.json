@@ -3,7 +3,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJztlsENwyAMRZmF7lKCuHeWHrsdt85UIYHqftnYbnMoUSJ9Ech\/MTYkoobwqESBuSp4JJ90rcjk+JaFQR\/292K4eXoYaz4z\/97Mv9bay6QoyxIH21WZ4fOsKcY7GZmZ7TPUanvHyrTx+2XOtOeZ1GD4tTjNRxlLnZG5EbV3X\/u3QMdnTOpMUhjv3Ga5Y8sxG3iwLzFbz3\/ca0wh3qZiZArxe5hyMMZbA2+tv1nT4S+E05gcP\/O37FHqtdSA82A8ZJ5BFjK\/\/K89ZwqN4\/zW8\/LJHJ\/x6AViw1mv",
+         "data":"eJztltENwyAMRJmF7lIS8ZMNuko6HX+dqUIN6vWEwW7zUaIgnQjknmwMQiTn1gRylZbII\/mkNiIz+7c0DPt4vBdTy9PCaNfT8u\/N\/GutrUzwsjRxuB+VKT7LnnK8k5GZ1jljjXZ2tEyev1\/aTP4\/Qw2Kvxcn+5BZvFuLAgjnmbmB8v+rf\/U432LCxoQOs1AenBfn1lo79zVmIg+PJWba7oLy3WMieLOikongtzDxYIy1BtZaf7OnxR+B6zGz\/1y\/5oyiV1ODmofjMfNwspj55b62vCl6XM2vfS+fzPEZi55\/mGYT",
          "encoding":"base64",
          "height":70,
          "name":"back",
@@ -16,7 +16,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJztldEKgzAMRfUzxt6yf2lRGfRp37LPl2CLlzSxZXMPwxwI2uRe0lZah8FxnG+ItMVttKNoChNtcYTUtPSa7j72eVB3hgfX\/ss+V\/QwAb6xtteBav3rUeeP6p943nnMTw2rzuNo9ImKXstpvaKYWw+o4\/dEe+BeY156uG+gek2Y1zyljhS9tmacQ0\/+n7DuEOd8fK\/7iPmfzOfqqUTKdTz3C9k+1C\/irEpfaug139ShR98M0dI712UFYwY3AA==",
+         "data":"eJztlWEKgzAMhfUYY\/+yu7Q4GfQGO8tuLsGGPWJiy+Z+DPNB0CbvkbbSOgxBEHxDpjUuox+iESZaYw+taekt3XXs86DuCA+u\/Zd9zuhhEnxja68TbfXP2za\/V\/\/E86pjflp4dR5np0829FbO6pXV3HpAHb8XegfuNea1h\/umWkNKzev5i0d8iOitNeMcevL\/hHeHBMcTe91Hrv9kPlcPI0qt470zk+9D\/azOqvaVht7yTR169N0hWvrgvCwdQDfG",
          "encoding":"base64",
          "height":70,
          "name":"front",
@@ -47,7 +47,7 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":8845,
+                 "gid":8853,
                  "height":48,
                  "id":1085,
                  "name":"",
@@ -329,15 +329,15 @@
          "source":"..\/..\/..\/tilesets\/saturn-custom\/saturnianTiles.json"
         }, 
         {
-         "firstgid":8802,
+         "firstgid":8810,
          "source":"..\/..\/..\/tilesets\/saturn-custom\/SaturnFurniture.json"
         }, 
         {
-         "firstgid":8887,
+         "firstgid":8896,
          "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/starsassets\/onethree\/tilesets\/packed\/materials.json"
         }, 
         {
-         "firstgid":9082,
+         "firstgid":9091,
          "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/starsassets\/onethree\/tilesets\/packed\/miscellaneous.json"
         }],
  "tilewidth":8,

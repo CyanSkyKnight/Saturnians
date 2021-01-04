@@ -12,7 +12,7 @@
   "maxStack" : 1,
   
   
-  
+  "acceptsAugmentType" : "back",
   "statusEffects" : [
   "satlowgrav", "saturnjumpboost"
   ],

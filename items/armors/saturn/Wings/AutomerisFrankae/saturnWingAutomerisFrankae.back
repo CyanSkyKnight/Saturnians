@@ -11,6 +11,7 @@
   "femaleFrames" : "back.png",
   "maxStack" : 1,
   
+  "acceptsAugmentType" : "back",
   "statusEffects" : [
   "satlowgrav"
   ],

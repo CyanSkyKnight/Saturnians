@@ -2,8 +2,8 @@
   "background" : {
     "type" : "background",
     "fileHeader" : "/interface/tooltips/header.png",
-    "fileBody" : "/interface/tooltips/bodyobjects.png",
-    "fileFooter" : "/interface/tooltips/footerobjects.png"
+    "fileBody" : "/interface/tooltips/bodyaugment.png",
+    "fileFooter" : "/interface/tooltips/footer.png"
   },
   "moneyIcon" : {
     "type" : "image",
@@ -18,7 +18,7 @@
   },
   "descriptionLabel" : {
     "type" : "label",
-    "position" : [11, 81],
+    "position" : [9, 115],
     "hAnchor" : "left",
 	"fontSize" : 7,
     "vAnchor" : "top",
@@ -31,9 +31,26 @@
     "centered" : true,
     "wrapWidth" : 126
   },
+  "augmentIconImageBackground" : {
+    "type" : "image",
+    "position" : [11, 166],
+    "zlevel" : 2,
+    "file" : "/interface/tooltips/augment.png"
+  },
+  "augmentIconImage" : {
+    "type" : "image",
+    "position" : [6, 38],
+    "zlevel" : 3,
+    "file" : ""
+  },
+  "augmentNameLabel" : {
+    "type" : "label",
+    "position" : [30, 42],
+    "value" : ""
+  },
   "objectImage" : {
     "type" : "image",
-    "position" : [69, 111],
+    "position" : [69, 161],
     "file" : "",
     "centered" : true,
     "maxSize" : [70, 45],

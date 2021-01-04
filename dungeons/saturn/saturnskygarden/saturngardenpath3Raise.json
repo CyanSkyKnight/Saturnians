@@ -3,7 +3,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJztmk1OAzEMhecs5S79oRs2cBaW3ITjdMeZqAVWLStOnhPH0CpPsqadzjj+XjwzJfSybdtlRTU84nNen7aPv667p36p9yuDjnuqv8Sx3+XzzBBxcOjPMjiov6NY5HxksJTGtcb3KnNeShy6v3sYPPlmXRs1H3t5Xhq+zLq+I\/vrpPzQ77Wi70+R88K16y2iEY7o64U0wkIaeV6g\/e0R1c8h96Pz3stS62907NJxJY7PDevjURa9Rce2jnskFs7lzUfysJQ81P0dwVLKj9wLUJbonvD4jSqaRepw\/cyKoaIN9bKg8z763PAIZfH2rjyvtJ2hmX9bkRZLn2azkHp6s0cZLKTZHKTF4tdi8Wmx+PUoLI9yT36kZ+ViuYnWRE47bG3kv7OQ0DWeaBbto8Xi8ZuOuf79trVixrzI+mrzgvrNLG9Pt7r3goH3e9aOo330ssi69+q9d16iffTku\/pIc1r0hD9jligfeT0W8dGzdmv1qtxKllEf5Ro54qNnTZ1rPiqGo8GC+NhiECxNHz3\/J5S1H3+\/D\/FrzYL62GLx+Fg732I57248FPS+wNL00RqnNnbNx558VDvz8GuLBfHRO7bl4wiLjBpLlo+zWTJ9zGDJ8jGLJWPskXzItX8PLOg9OdPHnnzgs3IaS+S9hDnOP89viCXDx558J1EX89RYsnzsyScZsp+VNR+9+Up9IvOWWLJ8bOV4FsfQ8V+bHdZ3y1EfT8IPzmHts2ovsbTCuvY9Psoxa95ZYbHwPg6Eg1la\/ajH5HO9\/umQeVu\/b2tx8DGtfqyNyTy05d8j1OrnY6TvyG\/1kIjwj2uSPSLrPqg8UlEcCA\/i34iiWdB+vBeWkVgsi2WxLJbFMh7f2LvP4w==",
+         "data":"eJztmkFSwzAMRX2W9C6kgU23bOAqcBKO0x1nomKqqUZYtiTbKs34z2jSBkfW+1GS1vScUjrPKIZFeMzbIX3cu25P\/VSfFwYej1R\/juNpiecZIeDA4H+L4ID+7sVCz0cES25eaX6rIs9LjoP3t4fBkm\/UtVHy0cvzWvFl1PXds7825gd\/z9X7\/tTzvGDtfKtRC0fv6wXUwgJqeV5o+9siqB+D7teedy9Lqb+1c+fG5Ti+kq6PW1n4Vju3NG5PLJjLmg9kYcl5yPu7B0suv+ZeoGXp3RMWv7XqzUK1Xv4mRVPRgrws2vPe+tywSMti7V16XG47QiO\/W4Emi0+jWUCe3vQoggU0mgM0WeyaLDZNFrv2wrKXe\/KenpWT5SZYE9kW3drIf2cBadd4erNwHyUWi98w5rTcgn6no\/tHnBdaX+m8aP2Gce+HlDCg7st3wt8t3W9ZO+7to5dlvbKsThbM6Zlb8tGS77T89YfvQ5ZePuJ6rMZHy9qt1Kt0iyw9fKRr5BofLWvqWPORMRwrLCUfawwYGh8t\/yektR+vn4fwNWfR+lhjsfhYOl5ieVluPBDwnrNofJTmKc1d8tGTD2pHHnwtsWh8tM4t+djCQqPEEuXjaJZIHyNYonyMYomYuyWf5tp\/BBbtPTnSR08+zbPyHj56WbZrnk3JEuGjJ99G6kKeEkuUj558lCH6WVny0Zov1yc0b44lysdajmcyBsZ\/Jzmkz5atPm7ED8wh7ZNqz7HUQrr2LT7SOUveSSGx4D4MDQey1PqRz4nHWv3jQfPWft9W48AxtX4szYk8sMW1glL9OIb6rvmtniZ6+Ic10R6hda8sD1UvDg2Pxr8W9WbR9uOjsLTEZJksk2WyTJb2+AEiqfjV",
          "encoding":"base64",
          "height":70,
          "name":"back",
@@ -16,13 +16,13 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJztWVtuwzAMc48x7C+9S4OsP\/3aWfbZE\/ZMq7FoNTyplRza6goRENAYgk0yzMNpSs+Dw5TO3hwQyDqovLlswdc+nXNlHfTbm1MLOO4eelB5qOcZnTNkvj21oPPtpQWdb+\/rBe2j532sRya8ni+98j1ah3e+0XiV5zThVd6fCK+iI6DD2y6dc83TrfKx1Ds\/WT6If8l5uXKkoh5O3wLUIvkoFdcnzV3zPKzakNeqxsd7\/DR9Ge+7v1o+97IWTR5bfdzaZ9WiyWOrjz36tPmS8tjq46g+DtI5bF2bu662zGcBWsuoPglcHv+rlhFrhxYMvDj2eBf30PLoudiKVh+le7KGn6cW7dravnIfbuH6CEgftX3zqgO5P0H7aOmbwecF7aPFb3S+0D5a\/M49pyklqhLS+D308NHSd103ZyPz+OV9Wo9pXAutj\/S9rPSrvCeX49pva6Sl5l0eW7TQnI96iJ\/kVzlu+U5YelCeFy5jmjxqzwlpId5VT5orLejnoCaPkpaSE5exElzG0Jo0eeS0ILig9VjyWPPYunbP+QIypPfkQCAQCIxH3JMDgX6g\/7KoaD90SXJZ95W9wHHP4\/Q\/3AgtLf5xHGruHI7rHkqa42jUgvBvi5+kZymK06E5h1r\/FqWexeDnx\/RTx+n2uz62aNFCo8eiwwp0HtHzWaHNowaWTKDhuXYgEAgEbvgGhIOrsA==",
+         "data":"eJztmd1twzAMhJUxir45u8Rw89INukq6YGZqhJqIoJIxKZ\/ENOAHCIgNQuKdz79J6Xk4Teni3QOCrIOGdy97+D6mSx5ZB\/327qkFrncPPag81POMzhky355a0Pn20oLOt\/f5gvbR8zrWIxNe95de+R6twzvfaF7lPk28yvMT8So6Ah1vh3TJY57uI29LtfOT5YP6L3tebj3SoBpO3wLUIvkoDa5Omrvu87RqQ56rGh8f9aepy7wf\/mr5OspaNHls9XFvnVWLJo+tPvao0+ZLymOrj6PqOKRj2Lo2d17tmc8CWsuoOgkuj\/9Vy4i1QwsGrx57PIt7aNm6L7bS6qN0Tdb056lFu7a2rnwPt\/S6BdJHbd286kC+n6B9tNTN4OOC9tHiNzpfaB8tfueazyklGiXS\/kf08NFSd1s3Z4PVkvfPBi1aH+l7WelXeU0u92u\/rZEW0lOtl2ajFppzq4b60\/ho+U5oyZimVntMSMuWj72+e2p8lLSUPXEZq+erM4bWpPGR04LoBa2n9ZqHzkd8nx6H9JwcBEEQjCeuyUHQD\/oviwa9D12TPKzvlb3ges\/76X+4EVpa\/ON6qHvnOK\/vUNIcZ6MWhH97\/CQ9SzE4HZpjqPVvUepZDH5+TL\/jPN1\/19sWLVo0eiw6rKDziJ7PijaPGiyZQOO5dhAEQXDnBzM5qUw=",
          "encoding":"base64",
          "height":70,
          "name":"front",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":51,
          "x":0,
          "y":0
@@ -47,7 +47,7 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":8812,
+                 "gid":8820,
                  "height":32,
                  "id":1028,
                  "name":"",
@@ -59,7 +59,7 @@
                  "y":88
                 }, 
                 {
-                 "gid":8812,
+                 "gid":8820,
                  "height":32,
                  "id":1034,
                  "name":"",
@@ -71,7 +71,7 @@
                  "y":56
                 }, 
                 {
-                 "gid":8813,
+                 "gid":8821,
                  "height":32,
                  "id":1061,
                  "name":"",
@@ -83,7 +83,7 @@
                  "y":360
                 }, 
                 {
-                 "gid":8813,
+                 "gid":8821,
                  "height":32,
                  "id":1062,
                  "name":"",
@@ -95,7 +95,7 @@
                  "y":360
                 }, 
                 {
-                 "gid":8845,
+                 "gid":8853,
                  "height":48,
                  "id":1069,
                  "name":"",
@@ -262,7 +262,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "width":0,
          "x":0,
          "y":0
@@ -425,15 +425,15 @@
          "source":"..\/..\/..\/tilesets\/saturn-custom\/saturnianTiles.json"
         }, 
         {
-         "firstgid":8802,
+         "firstgid":8810,
          "source":"..\/..\/..\/tilesets\/saturn-custom\/SaturnFurniture.json"
         }, 
         {
-         "firstgid":8887,
+         "firstgid":8896,
          "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/starsassets\/onethree\/tilesets\/packed\/materials.json"
         }, 
         {
-         "firstgid":9082,
+         "firstgid":9091,
          "source":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Modding\/Starbound Modding\/starsassets\/onethree\/tilesets\/packed\/miscellaneous.json"
         }],
  "tilewidth":8,
