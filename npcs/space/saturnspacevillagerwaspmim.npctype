@@ -1,0 +1,92 @@
+{
+  "type" : "saturnspacevillagerwaspmim",
+  "baseType" : "villager",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "converse" : "/dialog/saturnspaceconverse.config:spacesaturnwasp"
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "saturn" : [
+      [0, [
+		{
+            "head" : [
+              { "name" : "saturnWaspGhead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspGhead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspGhead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspGhead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspGhead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspGhead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWasphead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWasphead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWasphead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWasphead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeshead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeshead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeshead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeshead", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } }
+            ],
+            "chest" : [
+              { "name" : "saturnWaspchest", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeschest", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeschest", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeschest", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeschest", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } }
+			  
+			  
+            ],
+            "legs" : [
+			
+			  { "name" : "saturnWaspmimRobeslegs", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeslegs", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeslegs", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  { "name" : "saturnWaspmimRobeslegs", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  
+			  { "name" : "saturnornaterobespants", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			  
+              { "name" : "saturnWasppants", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } }
+            ],
+			"back" : [
+			{ "name" : "saturnWingWasp", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			
+			{ "name" : "saturnWingWasp2", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp2", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp2", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp2", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp2", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp2", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			
+			{ "name" : "saturnWingWasp3", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp3", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp3", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingWasp3", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } },
+			{ "name" : "saturnWingBeeFly", "data" : { "colorIndex" : [1, 4, 5, 6, 7, 13, 20] } }
+			],
+            "primary" : [
+              "saturnHoneyScepter"
+            ]
+          }
+
+
+        ] ]
+    ]
+
+  }
+}

@@ -24,15 +24,51 @@
         "eveningColors" : [[200, 200, 255], [200, 200, 255]],
         "nightColors" : [[200, 200, 255], [200, 200, 255]],
 
-        "morningLightColor" : [120, 120, 120],
-        "dayLightColor" : [120, 120, 120],
-        "eveningLightColor" : [120, 120, 120],
-        "nightLightColor" : [120, 120, 120]
+        "morningLightColor" : [125, 120, 125],
+        "dayLightColor" : [125, 120, 125],
+        "eveningLightColor" : [125, 120, 125],
+        "nightLightColor" : [125, 120, 125]
 		}
 	}
 	}
 
 },
+
+{ "op" : "add", "path" : "/saturnwaspship", "value" :
+
+{
+    "type" : "FloatingDungeon",
+    "dungeonWorld" : "saturnwaspship",
+    "beamUpRule" : "Anywhere",
+    "disableDeathDrops" : true,
+
+    "tempWorldDeleteTime" : 600000,
+
+    "skyParameters" : {
+      "dayLength" : 10000,
+      "surfaceLevel" : 1000,
+      "spaceLevel" : 3000,
+      "seed" : -5288806180628666923,
+
+      "skyType" : "barren",
+      "skyColoring" : {
+        "mainColor" : [220, 220, 200],
+
+        "morningColors" : [[220, 220, 200], [220, 220, 200]],
+        "dayColors" : [[220, 220, 200], [220, 220, 200]],
+        "eveningColors" : [[220, 220, 200], [220, 220, 200]],
+        "nightColors" : [[220, 220, 200], [220, 220, 200]],
+
+        "morningLightColor" : [130, 130, 120],
+        "dayLightColor" : [130, 130, 120],
+        "eveningLightColor" : [130, 130, 120],
+        "nightLightColor" : [130, 130, 120]
+		}
+	}
+	}
+
+},
+
 { "op" : "add", "path" : "/saturnaethershiprare", "value" :
 
 {

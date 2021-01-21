@@ -1,0 +1,91 @@
+{
+  "type": "saturnspacemerchantwaspmim",
+  "baseType": "merchant",
+  "dropPools": [
+    "wizardtreasure"
+  ],
+  "scriptConfig": {
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+    "merchant": {
+      "categories": {
+        "override": [
+          "saturnspacemerchantwaspmim"
+        ]
+      },
+      "buyFactorRange": [
+        1,
+        1
+      ],
+      "sellFactorRange": [
+        0.2,
+        0.2
+      ],
+      "numItems": 20,
+      "storeRadius": -1,
+      "paneLayoutOverride": {
+        "windowtitle": {
+          "title": "  Waspmin Trader",
+          "subtitle": "  Sells Waspmim Gear"
+        }
+      }
+    },
+    "dialog": {
+      "merchant": {
+        "start": {
+          "default": {
+            "default": [
+              "You can tell by my hood that I am the bee wizard. Buzz buzz!",
+              "I'm <selfname>, a space bee wizard captain! Buzz buzz!",
+              "With the power of... bees? The elements will be yours to command? Yeah, let's go with that."
+            ]
+          }
+        }
+      },
+      "end": {
+        "default": {
+          "default": [
+            "Farewell, traveler.",
+            "May the Great Queen guide your travels.",
+            "I hope to see you more in future.",
+            "Buzziness to you!"
+          ]
+        },
+        "glitch": {
+          "default": [
+            "Cordial. Farewell, traveller.",
+            "Convivial. I hope to see you more in future.",
+            "Kindly. Courage to you!"
+          ]
+        }
+      }
+    }
+  },
+  "items": {
+    "override": [
+      [
+        0,
+        [
+          {
+            "chest": [
+              "saturnWaspmimRobeschest"
+            ],
+            "legs": [
+              "saturnWaspmimRobeslegs"
+            ],
+            "head": [
+              "saturnWaspmimRobeshead"
+            ],
+            "back": [
+              "saturnWingWasp"
+            ],
+            "primary": [
+              "saturnHoneyScepter"
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

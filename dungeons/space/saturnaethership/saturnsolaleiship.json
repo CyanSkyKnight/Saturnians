@@ -691,6 +691,14 @@
                  "height":32,
                  "id":2561,
                  "name":"",
+                 "properties":
+                    {
+                     "parameters":"{\"treasurePools\":[\"saturnCrystalLamps\"]}"
+                    },
+                 "propertytypes":
+                    {
+                     "parameters":"string"
+                    },
                  "rotation":0,
                  "type":"",
                  "visible":true,

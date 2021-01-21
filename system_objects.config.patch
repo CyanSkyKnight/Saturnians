@@ -21,6 +21,28 @@
     }
 }
 },
+{ "op" : "add", "path" : "/saturnwaspship", "value" : 
+    
+{
+    "warpAction" : "InstanceWorld:saturnwaspship",
+    "threatLevel" : 1,
+    "skyParameters" : {
+      "seed" : 0,
+      "horizonClouds" : false,
+      "horizonImages" : [ { "left": "/celestial/system/ships/shiphorizonleft.png", "right": "/celestial/system/ships/shiphorizonright.png" } ]
+    },
+
+    "moving" : true,
+    "speed" : 15.0,
+    "orbitRange" : [1, 1],
+    "lifeTime" : [1500, 2100],
+    "parameters" : {
+      "icon" : "/celestial/system/ships/saturnshipb.png",
+      "displayName" : "Waspmim Ship",
+      "description" : "This Waspmim ship transports goods. Her captain has buzzed us in."
+    }
+}
+},
 { "op" : "add", "path" : "/saturnaethershiprare", "value" : 
     
 {
@@ -37,7 +59,7 @@
     "orbitRange" : [1, 1],
     "lifeTime" : [1500, 2100],
     "parameters" : {
-      "icon" : "/celestial/system/ships/saturnshipb.png",
+      "icon" : "/celestial/system/ships/saturnshipc.png",
       "displayName" : "Saturnian Ship",
       "description" : "This strange-looking Solalei ship transports goods to sky cities. Her captain invites us to visit."
     }

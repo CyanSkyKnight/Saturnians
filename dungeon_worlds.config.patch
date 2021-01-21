@@ -9,7 +9,7 @@
     "worldSize" : [1300, 200],
     "dungeonBaseHeight" : 150,
     "dungeonSurfaceHeight" : 150,
-    "ambientLightLevel" : [32, 32, 32],
+    "ambientLightLevel" : [40, 32, 40],
     "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
     "musicTrack" : "/music/crystal-exploration1.ogg",
     "environmentStatusEffects" : ["biomeairless", "dontstarve"],
@@ -31,6 +31,26 @@
     "ambientLightLevel" : [32, 32, 32],
     "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
     "musicTrack" : "/music/crystal-exploration1.ogg",
+    "environmentStatusEffects" : ["biomeairless", "dontstarve"],
+    "worldEdgeForceRegions" : "TopAndBottom",
+    "biome" : "space"
+    }
+
+},
+
+{ "op" : "add", "path" : "/saturnwaspship", "value" :
+
+{
+    "primaryDungeon" : "saturnwaspship",
+    "threatLevel" : 3,
+    "gravity" : 0,
+    "airless" : true,
+    "worldSize" : [1300, 200],
+    "dungeonBaseHeight" : 150,
+    "dungeonSurfaceHeight" : 150,
+    "ambientLightLevel" : [40, 40, 32],
+    "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+    "musicTrack" : "/music/ocean-exploration2.ogg",
     "environmentStatusEffects" : ["biomeairless", "dontstarve"],
     "worldEdgeForceRegions" : "TopAndBottom",
     "biome" : "space"

@@ -29,6 +29,39 @@
 	]]
 	]},
 	
+{"op" : "add", "path" : "/saturnspacemerchantwaspmim", "value":[
+	[0, [
+	  { "item" : { "name" : "buzzyback" }},
+	  { "item" : { "name" : "buzzyhead" }},
+	  
+	  { "item" : { "name" : "saturnWaspmimRobeshead" }},
+	  { "item" : { "name" : "saturnWaspmimRobeschest" }},
+	  { "item" : { "name" : "saturnWaspmimRobeslegs" }},
+	  
+	  { "item" : { "name" : "saturn_honey" } },
+	  { "item" : { "name" : "SaturnGenwandPractical" } },
+	  
+	  { "item" : { "name" : "saturnWasparmorhead", "data" : { "price" : 1500, "level" : 2 }}},
+	  { "item" : { "name" : "saturnWaspGhead", "data" : { "price" : 1500, "level" : 2 }}},
+	  { "item" : { "name" : "saturnWasphead", "data" : { "price" : 1500, "level" : 2 }}},
+	  { "item" : { "name" : "saturnWaspchest", "data" : { "price" : 1500, "level" : 2 }}},
+	  { "item" : { "name" : "saturnWasppants", "data" : { "price" : 1500, "level" : 2 }}},
+	  
+	  { "item" : { "name" : "saturnWasphead", "data" : { "price" : 1500, "level" : 2 }}},
+	  { "item" : { "name" : "saturnWaspchest", "data" : { "price" : 1500, "level" : 2 }}},
+	  { "item" : { "name" : "saturnWasppants", "data" : { "price" : 1500, "level" : 2 }}},
+	  
+	  { "item" : { "name" : "mechbodysaturnproto" }},
+	 
+	  { "item" : { "name" : "Saturnstationtram" }},
+	  { "item" : { "name" : "Saturnstationtram2" }},
+	  
+	  { "item" : { "name" : "Saturnrailhook", "data" : { "price" : 2500 }}},
+	  
+	  { "item" : { "name" : "SaturnSilkshade", "data" : { "price" : 10000 }}}
+	]]
+	]},
+	
 {"op" : "add", "path" : "/Saturntiles", "value":[
 	[0, [
 
@@ -440,7 +473,6 @@
 	  { "item" : { "name" : "rarewand" } }	  
 	]]
 	]},
-	
 	
 	
 {"op" : "add", "path" : "/SaturnWaspWizardMerchant", "value":[

@@ -30,6 +30,7 @@
         {"weight" : 0.02, "item" : [ "satshieldroyal", 1]},
         {"weight" : 0.05, "item" : [ "satringshieldleveled", 1]},
         {"weight" : 0.02, "item" : [ "satshieldwoodtower", 1]},
+        {"weight" : 0.02, "item" : [ "saturnMaceT0", 1]},
 		{"weight" : 0.01, "item" : [ "saturnbroomT1", 1]},
 		{"weight" : 0.15, "item" : [ "saturnslopedglass", 50]},
 		{"weight" : 0.15, "item" : [ "saturnslopedhomewalls", 50]},

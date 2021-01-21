@@ -1,0 +1,38 @@
+{
+  "metadata" : {
+    "name" : "saturnwaspship",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "saturnwaspship" ],
+    "gravity" : 80,
+    "breathable" : true,
+    "maxRadius" : 1000000,
+    "maxParts" : 2,
+    "protected" : true
+},
+
+  "parts" : [
+
+    // SAFE ZONE
+    {
+      "name" : "safe-empty",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/hazards/safe-empty.json" ],
+      "chance" : 0,
+      "markDungeonId" : false
+    },
+    // brass ship
+    {
+      "name" : "saturnwaspship",
+      "rules" : [
+        [ "doNotCombineWith", [ "saturnwaspship" ] ]
+      ],
+      "def" : [ "tmx", "saturnwaspship.json" ],
+      "chance" : 1
+    }
+
+  ]
+}
