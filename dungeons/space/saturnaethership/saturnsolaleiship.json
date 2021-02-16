@@ -1571,6 +1571,10 @@
         {
          "firstgid":14098,
          "source":"C:\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/assets\/packed\/tilesets\/packed\/objects-by-colonytag\/astro.json"
+        }, 
+        {
+         "firstgid":14112,
+         "source":"..\/..\/..\/tilesets\/saturn-custom\/saturnianTilesPainted.json"
         }],
  "tilewidth":8,
  "version":1,

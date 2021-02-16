@@ -1,0 +1,112 @@
+{
+  "columns": 0,
+  "margin": 0,
+  "name": "saturnianTilesPainted",
+  "properties": {},
+  "spacing": 0,
+  "tilecount": 10,
+  "tileheight": 8,
+  "tileproperties": {
+    "0": {
+      "//description": "",
+      "//name": "saturncolorfulclaywalls",
+      "//shortdescription": "Cyan Clay Walls",
+      "material": "saturncolorfulclaywalls"
+    },
+    "1": {
+      "//description": "",
+      "//name": "saturncolorfulclaywalls",
+      "//shortdescription": "Red Clay Walls",
+      "material": "saturncolorfulclaywalls",
+      "colorVariant": "1"
+    },
+    "2": {
+      "//description": "",
+      "//name": "saturncolorfulclaywalls",
+      "//shortdescription": "Orange Clay Walls",
+      "material": "saturncolorfulclaywalls",
+      "colorVariant": "6"
+    },
+    "3": {
+      "//description": "",
+      "//name": "saturncolorfulclaywalls",
+      "//shortdescription": "Yellow Clay Walls",
+      "material": "saturncolorfulclaywalls",
+      "colorVariant": "4"
+    },
+    "4": {
+      "//description": "",
+      "//name": "saturncolorfulclaywalls",
+      "//shortdescription": "Green Clay Walls",
+      "material": "saturncolorfulclaywalls",
+      "colorVariant": "3"
+    },
+    "5": {
+      "//description": "SPACER",
+      "//name": "tilesets have rows of 5, but theres 9 colors per tile",
+      "//shortdescription": "this stays black so everything stays nice and aligned",
+      "material": "saturncolorfulclaywalls"
+    },
+    "6": {
+      "//description": "",
+      "//name": "saturncolorfulclaywalls",
+      "//shortdescription": "Blue Clay Walls",
+      "material": "saturncolorfulclaywalls",
+      "colorVariant": "2"
+    },
+    "7": {
+      "//description": "",
+      "//name": "saturncolorfulclaywalls",
+      "//shortdescription": "Purple Clay Walls",
+      "material": "saturncolorfulclaywalls",
+      "colorVariant": "7"
+    },
+    "8": {
+      "//description": "",
+      "//name": "saturncolorfulclaywalls",
+      "//shortdescription": "Black Clay Walls",
+      "material": "saturncolorfulclaywalls",
+      "colorVariant": "8"
+    },
+    "9": {
+      "//description": "",
+      "//name": "saturncolorfulclaywalls",
+      "//shortdescription": "White Clay Walls",
+      "material": "saturncolorfulclaywalls",
+      "colorVariant": "9"
+    }
+  },
+  "tiles": {
+    "0": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturncolorfulclaywalls.png"
+    },
+    "1": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturncolorfulclaywallsred.png"
+    },
+    "2": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturncolorfulclaywallsorange.png"
+    },
+    "3": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturncolorfulclaywallsyellow.png"
+    },
+    "4": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturncolorfulclaywallsgreen.png"
+    },
+    "5": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
+    },
+    "6": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturncolorfulclaywallsblue.png"
+    },
+    "7": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturncolorfulclaywallspurple.png"
+    },
+    "8": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturncolorfulclaywallsblack.png"
+    },
+    "9": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturncolorfulclaywallswhite.png"
+    }
+  },
+  "tilewidth": 8
+}

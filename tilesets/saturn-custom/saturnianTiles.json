@@ -104,59 +104,67 @@
          "\/\/description":"Technical block. Red painted Clay",
          "\/\/name":"saturncolorfulclaywallsred",
          "\/\/shortdescription":"Red Clay",
-         "material":"saturncolorfulclaywallsred"
+		 "material": "saturncolorfulclaywalls",
+		 "colorVariant": "1"
         },
      "13":
         {
          "\/\/description":"Technical block. Blue painted Clay",
          "\/\/name":"saturncolorfulclaywallsblue",
          "\/\/shortdescription":"Blue Clay",
-         "material":"saturncolorfulclaywallsblue"
+		 "material": "saturncolorfulclaywalls",
+		 "colorVariant": "2"
         },
      "14":
         {
          "\/\/description":"Technical block. Green painted Clay",
          "\/\/name":"saturncolorfulclaywallsgreen",
          "\/\/shortdescription":"Green Clay",
-         "material":"saturncolorfulclaywallsgreen"
+		 "material": "saturncolorfulclaywalls",
+		 "colorVariant": "3"
         },
-		
-		
      "15":
         {
          "\/\/description":"Technical block. Yellow painted Clay",
          "\/\/name":"saturncolorfulclaywallsyellow",
          "\/\/shortdescription":"Yellow Clay",
-         "material":"saturncolorfulclaywallsyellow"
+		 "material": "saturncolorfulclaywalls",
+		 "colorVariant": "4"
         },
      "16":
         {
          "\/\/description":"Technical block. Orange painted Clay",
          "\/\/name":"saturncolorfulclaywallsorange",
          "\/\/shortdescription":"Orange Clay",
-         "material":"saturncolorfulclaywallsorange"
+		 "material": "saturncolorfulclaywalls",
+		 "colorVariant": "5"
         },
      "17":
         {
          "\/\/description":"Technical block. Green painted Clay",
          "\/\/name":"saturncolorfulclaywallspurple",
          "\/\/shortdescription":"Purple Clay",
-         "material":"saturncolorfulclaywallspurple"
+		 "material": "saturncolorfulclaywalls",
+		 "colorVariant": "6"
         },
      "18":
         {
          "\/\/description":"Technical block. Black painted Clay",
          "\/\/name":"saturncolorfulclaywallsblack",
          "\/\/shortdescription":"Black Clay",
-         "material":"saturncolorfulclaywallsblack"
+		 "material": "saturncolorfulclaywalls",
+		 "colorVariant": "7"
         },
      "19":
         {
          "\/\/description":"Technical block. White painted Clay",
          "\/\/name":"saturncolorfulclaywallswhite",
          "\/\/shortdescription":"White Clay",
-         "material":"saturncolorfulclaywallswhite"
+		 "material": "saturncolorfulclaywalls",
+		 "colorVariant": "8"
         },
+		
+		
      "20":
         {
          "\/\/description":"Technical block. Yellow painted Bronze",
