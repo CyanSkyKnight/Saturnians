@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 12 },
+    { "item" : "saturnkni5head", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "saturnLunahead", "count" : 1 },
+  "groups" : [ "craftingseparator", "armours", "armors", "armory3", "all" ]
+}

@@ -87,7 +87,7 @@
 	//SATURNIAN MIDNIGHT   28 gay (actual rainbow)
     { "85250f" : "A5341F", "c64040" : "E54747","f37e7e" : "F56D6D", "c27d41" : "D88640", "f3ba88" : "F8B06C", "b3a250" : "CFA826", "e5d797" : "F8DF6A", "55be97" : "317E42", "98dfc5" : "62AD5C", "438793" : "3467B0", "93d2de" : "4384C5", "2A626C" : "993895", "1F3A64" : "993895", "456493" : "B347A5", "97b6e3" : "CC62B9" },	
 	//SATURNIAN EVOLIGHT   29 ---
-	{ "ffca8a" : "FFFFFF", "e0975c" : "FFFCC9", "a85636" : "FFE6A5", "6f2919" : "F2CE91" },
+	{ "ffca8a" : "FFFEF2FE", "e0975c" : "F9F1BBFE", "a85636" : "EDD289FE", "6f2919" : "D3AC6EFE" },
 	
 	//Dummy dye because the last on the list doesn't show on mannequins for some reason
 	{ "ffca8a" : "5EC2E7", "e0975c" : "ABACAD", "a85636" : "C0FFEE", "6f2919" : "1E91D0" }

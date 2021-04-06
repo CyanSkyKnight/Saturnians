@@ -6,7 +6,7 @@
   
   "category" : "decorative",
   "description" : "Store some stuff, why don't you?",
-  "shortdescription" : "Shiplocker",
+  "shortdescription" : "Locked Shiplocker",
   "race" : "saturn2",
   "lightColor" : [102, 90, 61],
   "apexDescription" : "A Glitch storage unit. It appears to be malfunctioning.",

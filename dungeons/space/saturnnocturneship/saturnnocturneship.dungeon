@@ -1,0 +1,38 @@
+{
+  "metadata" : {
+    "name" : "saturnnocturneship",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "saturnnocturneship" ],
+    "gravity" : 80,
+    "breathable" : true,
+    "maxRadius" : 1000000,
+    "maxParts" : 2,
+    "protected" : true
+},
+
+  "parts" : [
+
+    // SAFE ZONE
+    {
+      "name" : "safe-empty",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/hazards/safe-empty.json" ],
+      "chance" : 0,
+      "markDungeonId" : false
+    },
+    // brass ship
+    {
+      "name" : "saturnnocturneship",
+      "rules" : [
+        [ "doNotCombineWith", [ "saturnnocturneship" ] ]
+      ],
+      "def" : [ "tmx", "saturnnocturneship.json" ],
+      "chance" : 1
+    }
+
+  ]
+}

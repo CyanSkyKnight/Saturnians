@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "saturnLunachest", "count" : 1 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "saturnSolchest", "count" : 1 },
+  "groups" : [ "saturntransmogbonus", "all" ]
+}

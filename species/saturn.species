@@ -146,15 +146,17 @@
 	  { "item" : "saturncirclesollamp" },
       { "item" : "saturncirclesollampblue" },
 	  
-      { "item" : "saturnebonychair" },
-      { "item" : "saturnebonytable" },
+      { "item" : "saturnebonychair" }, 
 	  
+      { "item" : "glitchstoragelocker" }, 	//89
+      { "item" : "glitchshipdoor" }, 		//90
+      { "item" : "glitchshiphatch" }, 		//91
 	  
-      { "item" : "glitchstoragelocker" },
-      { "item" : "glitchshipdoor" },
-      { "item" : "glitchshiphatch" },
-	  
+
+      { "item" : "saturnebonytable" }, 
+
       { "item" : "saturnshiplocker" },
+	  { "item" : "saturn2shiplocker" },
 	  
       { "item" : "saturnshipdoor" },
       { "item" : "saturnshiphatch" },

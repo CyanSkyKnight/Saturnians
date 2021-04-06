@@ -88,9 +88,9 @@
 	  { "item" : "saturnkni5chest" },
 	  { "item" : "saturnkni5pants" },
 	  
-      { "item" : "saturnSolhead" },
-	  { "item" : "saturnSolchest" },
-	  { "item" : "saturnSolpants" },
+      { "item" : "saturnLunahead" },
+	  { "item" : "saturnLunachest" },
+	  { "item" : "saturnLunapants" },
 	  
       { "item" : "violiumshortsword" },
       { "item" : "violiumbroadsword" },
@@ -144,16 +144,19 @@
 	  
 	  { "item" : "saturncirclesollamp" },
       { "item" : "saturncirclesollampblue" },
+      
+      { "item" : "saturnebonychair" },	  
+      
+      { "item" : "glitchstoragelocker" }, 	//89
+      { "item" : "glitchshipdoor" }, 		//90
+      { "item" : "glitchshiphatch" }, 		//91
+	  { "item" : "torch" },					//92 -To prevent a compatibility issue 
 	  
-      { "item" : "saturnebonychair" },
-      { "item" : "saturnebonytable" },
-	  
-	  
-      { "item" : "glitchstoragelocker" },
-      { "item" : "glitchshipdoor" },
-      { "item" : "glitchshiphatch" },
+
+      { "item" : "saturnebonytable" }, 
 	  
       { "item" : "saturnshiplocker" },
+	  { "item" : "saturn2shiplocker" },
 	  
       { "item" : "saturnshipdoor" },
       { "item" : "saturnshiphatch" },

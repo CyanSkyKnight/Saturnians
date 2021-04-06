@@ -74,7 +74,7 @@
 	
 	
 	//SATURNIAN LUNA MOTH GREEN * Maroon													23
-	{ "ffca8a" : "A3ED9A", "e0975c" : "7BD67A", "a85636" : "53AD5F", "6f2919" : "3A874A", "DCEDEB" : "794E4E", "B9CECE" : "5B3B3B", "92B1B2" : "412629" },
+	{ "ffca8a" : "A3EC99", "e0975c" : "7BD579", "a85636" : "459E54", "6f2919" : "286839", "DCEDEB" : "794E4E", "B9CECE" : "5B3B3B", "92B1B2" : "412629" },
 	
 	
 	//SATURNIAN IO PURPLE 		* Yellow													24
@@ -92,7 +92,7 @@
 	{ "ffca8a" : "232323", "e0975c" : "131313", "a85636" : "040404", "6f2919" : "020202", "DCEDEB" : "515151", "B9CECE" : "393939", "92B1B2" : "303030" },
 	
 	//SATURNIAN EVOLIGHT 		* Evo Grey													29
-	{ "ffca8a" : "FFFFFF", "e0975c" : "FFFCC9", "a85636" : "FFE6A5", "6f2919" : "F2CE91", "DCEDEB" : "6D6D6D", "B9CECE" : "555555", "92B1B2" : "3D3D3D" },
+	{ "ffca8a" : "FFFEF2FE", "e0975c" : "F9F1BBFE", "a85636" : "EDD289FE", "6f2919" : "D3AC6EFE", "DCEDEB" : "6D6D6D", "B9CECE" : "555555", "92B1B2" : "3D3D3D" },
 	
 	//Dummy dye because the last on the list doesn't show on mannequins for some reason
 	{ "ffca8a" : "232323", "e0975c" : "131313", "a85636" : "040404", "6f2919" : "020202" }
