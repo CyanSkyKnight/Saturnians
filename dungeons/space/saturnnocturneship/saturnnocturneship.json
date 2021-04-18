@@ -9,14 +9,14 @@
          "name":"back",
          "opacity":0.5,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":200,
          "x":0,
          "y":0
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt3EEKgzAQBVCPUbvvvXMTr1ZCK4qojRajJu\/B30SXDsPAxKYBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA+nQ7A6WL33n4Rn3AYFobj5mElXMoVWrfiM\/PqI\/n6xPILaVvjOtgKUfo62IayGHvLJ5j\/liqDTUCAAAAAAAAAAAA13bl\/UQ425bd9l\/77e0oUIotd2rjO+4PUpvUPhJWzvUPSvbPvxnMH9TAfA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwF28AdKceWA=",
+         "data":"eJzt3EGOwiAUBmCPoe5n6Z17k7nBnMk0jhEJ9NHaKJjvS96mvLDiDyYChwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwPf6LdSWvtZ5YCSldV1a21Ff6zzQm9rajeqYVNQXjUOP5vU5\/Zd8wEOejWOhpoXvp6SW+qJ55IPetO4b83hLbqK+aDx3\/rkVvFvLvpGu31rl+0etonnSfNxzkRe8w31f+Lu8XmmOor5ofFbLhowwonT\/AJ7JB9Slv6+AZ\/IBZaX\/B4Eb+YBlzhkCAAAAsLeezyfCp605277n+Xb5YBRr7tTOPXvcj5IPRtK6j0wL39fcr5UPRvPK2wxb3mcoZcP7DPRs69s+W98vybMhHwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtLoCVDEZLg==",
          "encoding":"base64",
          "height":128,
          "name":"front",
@@ -160,30 +160,6 @@
                  "visible":true,
                  "width":40,
                  "x":744,
-                 "y":552
-                }, 
-                {
-                 "gid":9337,
-                 "height":40,
-                 "id":2643,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":656,
-                 "y":552
-                }, 
-                {
-                 "gid":9337,
-                 "height":40,
-                 "id":2644,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":504,
                  "y":552
                 }, 
                 {
@@ -389,6 +365,114 @@
                  "width":32,
                  "x":600,
                  "y":536
+                }, 
+                {
+                 "gid":8691,
+                 "height":24,
+                 "id":2832,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":160,
+                 "y":336
+                }, 
+                {
+                 "gid":8689,
+                 "height":24,
+                 "id":2833,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":200,
+                 "y":336
+                }, 
+                {
+                 "gid":8690,
+                 "height":32,
+                 "id":2835,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":232,
+                 "y":336
+                }, 
+                {
+                 "gid":8680,
+                 "height":32,
+                 "id":2836,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":272,
+                 "y":336
+                }, 
+                {
+                 "gid":8680,
+                 "height":32,
+                 "id":2837,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":288,
+                 "y":336
+                }, 
+                {
+                 "gid":8676,
+                 "height":16,
+                 "id":2838,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":304,
+                 "y":336
+                }, 
+                {
+                 "gid":8677,
+                 "height":32,
+                 "id":2839,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":344,
+                 "y":336
+                }, 
+                {
+                 "gid":8696,
+                 "height":32,
+                 "id":2840,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":56,
+                 "x":160,
+                 "y":280
+                }, 
+                {
+                 "gid":9406,
+                 "height":40,
+                 "id":2845,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":40,
+                 "x":520,
+                 "y":552
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -491,7 +575,7 @@
          "x":0,
          "y":0
         }],
- "nextobjectid":2829,
+ "nextobjectid":2846,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tileheight":8,
@@ -691,6 +775,10 @@
         {
          "firstgid":11566,
          "source":"..\/..\/..\/tilesets\/packed\/objects-by-colonytag\/humanbunker.json"
+        }, 
+        {
+         "firstgid":11638,
+         "source":"..\/..\/..\/tilesets\/saturn-custom\/saturnianTilesPainted.json"
         }],
  "tilewidth":8,
  "version":1,

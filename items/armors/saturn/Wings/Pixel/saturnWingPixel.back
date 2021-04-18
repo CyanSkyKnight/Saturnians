@@ -4,7 +4,7 @@
   "inventoryIcon" : "icon.png",
   "rarity" : "Rare",
   "category" : "backwear",
-  "description" : "Huh? These are butterfly wings! They seem familiar...\n^gray;Family: Papilionidae? #414^reset;",
+  "description" : "Huh? These are butterfly wings! They seem familiar...\n^gray;Family: Papilionidae? Cent. K. #22^reset;",
   "shortdescription" : "Pixel Wings",
   "tooltipKind" : "saturnwingback",
   "maleFrames" : "back.png",
