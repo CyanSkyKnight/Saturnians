@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "chestarmour",
-  "description" : "",
-  "shortdescription" : "Royal Moon Guard Chestplate",
+  "description" : "This armor attracts ancient spirits to protect its wearer.",
+  "shortdescription" : "Moon Guard Chestplate",
   "tooltipKind" : "armor",
   "maleFrames" : {
     "body" : "chestm.png",
