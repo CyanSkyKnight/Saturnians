@@ -1,6 +1,18 @@
 [ 
 
 { "op": "add", 
+		"path": "/scriptConfig/chatSounds/saturn", 
+		"value": {
+		"male": [ "/sfx/humanoid/saturn_hawkchat1b.ogg", "/sfx/humanoid/saturn_hawkchat2b.ogg", "/sfx/humanoid/saturn_hawkchat3b.ogg" ],
+		"female": [ "/sfx/humanoid/saturn_hawkchat1.ogg", "/sfx/humanoid/saturn_hawkchat2.ogg", "/sfx/humanoid/saturn_hawkchat3.ogg" ]
+} },
+{ "op": "add", 
+		"path": "/scriptConfig/chatSounds/saturn2", 
+		"value": {
+		"male": [ "/sfx/humanoid/saturn_hawkchat1b.ogg", "/sfx/humanoid/saturn_hawkchat2b.ogg", "/sfx/humanoid/saturn_hawkchat3b.ogg" ],
+		"female": [ "/sfx/humanoid/saturn_hawkchat1.ogg", "/sfx/humanoid/saturn_hawkchat2.ogg", "/sfx/humanoid/saturn_hawkchat3.ogg" ]
+} },
+{ "op": "add", 
 		"path": "/scriptConfig/chatSounds/satkyterran", 
 		"value": {
 		"male": [ "/sfx/humanoid/saturnkyta_sfx1.ogg", "/sfx/humanoid/saturnkyta_sfx2.ogg", "/sfx/humanoid/saturnkyta_sfx3.ogg" ],
