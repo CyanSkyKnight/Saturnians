@@ -1,0 +1,6 @@
+[
+{ "op" : "add", "path" : "/supportedSpecies/-", "value" : "saturn" },
+{ "op" : "add", "path" : "/customHeadSpecies/-", "value" : "saturn" },
+{ "op" : "add", "path" : "/supportedSpecies/-", "value" : "saturn2" },
+{ "op" : "add", "path" : "/customHeadSpecies/-", "value" : "saturn2" }
+]
