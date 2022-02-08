@@ -15,7 +15,22 @@
         "Hoom? Fluffy mesti cuddle?"
 			]
 	},
-
+	{
+		"op": "add",
+		"path": "/hail/floran/saturn2",
+		"value": [
+        "Hoom flutter! Bizarra no light fry!",
+        "Halhoom gloomsqueak. Choka smashroom nab house.",
+	    "Halhoom lampbeast. Choka smashroom nab house.",
+        "Halhalhoom, weepa cantara swoop nab moonchaser.",
+        "Hoomay, gloomsqueak! Mycocculture?",
+        "Haba hoom, gloomsqueak! Hehehe! Swoop bizarra!",
+        "Hoom gloomsqueak? Saturniidae?",
+        "Hoom! Hoom hoom! Chop smashroom nab peace kisser!",
+        "Hoom habba flutter flap, deka nab thaumataka?",
+        "Hoom? Fluffy mesti cuddle?"
+			]
+	},
 	{
 		"op": "add",
 		"path": "/hail/floran/satkyterran",
