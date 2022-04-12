@@ -1,0 +1,18 @@
+{
+  "itemName" : "saturnshroomblock",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "saturnshroomblock.png",
+  
+  "largeImage" : "/items/materials/tooltips/saturnshroomblock.png",
+  "tooltipKind" : "saturnpaintedblock",
+
+  "description" : "A block made of soft fungus.",
+  "shortdescription" : "Fungus Block",
+  "glitchDescription" : "Intrigued. Although assembled as a block, this mushroom is alive.",
+  "floranDescription" : "Lovely mushroomss.",
+  "novakidDescription" : "Ain't that somethin'. Seems this block is made from mushrooms.",
+  "learnBlueprintsOnPickup" : [ "saturnfungusstalk", "saturnshroomblock"],
+  "materialId" : 54739
+}
