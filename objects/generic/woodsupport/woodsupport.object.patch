@@ -1,1 +1,6 @@
-[{"op":"add","path":"/saturnDescription","value":"There's beetle larvae inside it! Hello!"}]
+[{"op":"add","path":"/saturnDescription","value":"There's beetle larvae inside it! Hello!"},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "It's infested with wood boring beetles. They're so much smaller here."
+}]

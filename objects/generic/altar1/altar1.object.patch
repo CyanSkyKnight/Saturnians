@@ -1,1 +1,6 @@
-[{"op":"add","path":"/saturnDescription","value":"An altar? Could I enchant something here?"}]
+[{"op":"add","path":"/saturnDescription","value":"An altar? Could I enchant something here?"},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "Altars like this have been known to be used for blood magic. I should tread carefully."
+}]

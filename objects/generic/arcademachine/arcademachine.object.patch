@@ -1,1 +1,6 @@
-[{"op":"add","path":"/saturnDescription","value":"It's a game where you fly a space ship. I do that in real life!"}]
+[{"op":"add","path":"/saturnDescription","value":"It's a game where you fly a space ship. I do that in real life!"},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "The player flies a ship in this game, and obliterates the enemy ships. "
+}]

@@ -1,1 +1,6 @@
-[{"op":"add","path":"/saturnDescription","value":"According to Otmir's Guide to Exploring, treasure chests have been mysteriously appearing to adventurers all across history."}]
+[{"op":"add","path":"/saturnDescription","value":"According to Otmir's Guide to Exploring, treasure chests have been mysteriously appearing to adventurers all across history."},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "A treasure chest? What's inside?"
+}]
