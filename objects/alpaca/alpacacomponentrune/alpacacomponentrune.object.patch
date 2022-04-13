@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "An ancient rune that looks like an atom; the main component of magic crystals."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "This rune symbolises the basic components of life. From afar, it kinda looks like a moth."
+    }
+]

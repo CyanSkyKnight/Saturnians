@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"To most Saturnians, spirals symbolize growth, protection, and metamorphosis. It makes me feel dizzy."}]
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "To most Saturnians, spirals symbolize growth, protection, and metamorphosis. It makes me feel dizzy."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "To most Saturnians, spirals symbolize growth, protection, and metamorphosis. I just think it looks like a proboscis."
+    }
+]
