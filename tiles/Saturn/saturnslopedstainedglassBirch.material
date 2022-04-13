@@ -5,9 +5,9 @@
   "itemDrop" : "saturnslopedstainedglassBirch",
 
   "description" : "Lined glowing crystal paneling used in sky cities.",
-  "glitchdescription" : "Observant. This is panelling widely used for ship and station construction.",
-  "florandescription" : "Shiny sssmooth glassss.",
-  "novakiddescription" : "Some thick glass, looks mighty solid.",
+  "glitchDescription" : "Observant. This is panelling widely used for ship and station construction.",
+  "floranDescription" : "Shiny sssmooth glassss.",
+  "novakidDescription" : "Some thick glass, looks mighty solid.",
   "shortdescription" : "Mage Birch Glass",
   "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
   "health" : 12,
