@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"Avos has a moon too?"}]
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "Avos has a moon too?"
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "Do Avian also worship their moon?"
+    }
+]

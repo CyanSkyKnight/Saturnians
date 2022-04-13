@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"There must be an airship nearby."}]
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "There must be an airship nearby."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "Did an airship lose its anchor, or is this supposed to hold the place down?"
+    }
+]

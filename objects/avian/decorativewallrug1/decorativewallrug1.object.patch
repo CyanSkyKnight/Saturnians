@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"This tapestry has wonderful patterns woven into it."}]
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "This tapestry has wonderful patterns woven into it."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "A beautifully well crafted wall tapestry. It would be softer were it to use Saturnian silk."
+    }
+]

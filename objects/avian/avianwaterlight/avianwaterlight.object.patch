@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"This light is beautiful."}]
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "This light is beautiful."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "A beautiful light emitting crystal. Its pale glow reminds me of the moon."
+    }
+]
