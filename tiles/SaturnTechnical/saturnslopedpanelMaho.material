@@ -11,7 +11,7 @@
   "floranDescription" : "Sssplintery wood plankss.",
   "humanDescription" : "Some simple planks made from wood.",
   "hylotlDescription" : "Basic wood planks.",
-  "saturndescription" : "This wood has been colored with illusory magic. It's actually ebony.",
+  "saturnDescription" : "This wood has been colored with illusory magic. It's actually ebony.",
   "shortdescription" : "Mage Mahogany Panel",
   "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
   "health" : 12,
