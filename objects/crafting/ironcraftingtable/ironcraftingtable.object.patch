@@ -1,7 +1,12 @@
 [
-{
-"op": "add",
-"path": "/saturnDescription",
-"value": "An iron crafting table."
-}
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "An iron crafting table. Not as useful as more specialized crafting stations."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "A basic alien crafting table. The tools are rather primitive, and not adapted for magic."
+    }
 ]

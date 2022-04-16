@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "A station for producing modular components to improve my mech."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "With this, I can modify my mech to explore the moons better."
+    }
+]
