@@ -1,0 +1,32 @@
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "An apothecary. I can use it to make balms to heal my wounds and fix damaged chitin."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/0/itemSpawnParameters/saturnDescription",
+        "value": "An apothecary. I can use it to make balms to heal my wounds and fix damaged chitin."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/1/itemSpawnParameters/saturnDescription",
+        "value": "An advanced medical station, for when things really hurt."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "An apothecary for the preparation of balms and bandages I can use to heal my wounds and fix damaged chitin."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/0/itemSpawnParameters/saturn2Description",
+        "value": "An apothecary for the preparation of balms and bandages I can use to heal my wounds and fix damaged chitin."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/1/itemSpawnParameters/saturn2Description",
+        "value": "A fully kitted-out medical station. I hope I won't require any of it anytime soon..."
+    }
+]

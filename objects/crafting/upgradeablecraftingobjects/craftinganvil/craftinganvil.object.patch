@@ -1,0 +1,42 @@
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "Some wandsmiths swear by using anvils, but wands made with them tend to take long to charge."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/0/itemSpawnParameters/saturnDescription",
+        "value": "Some wandsmiths swear by using anvils, but wands made with them tend to take long to charge."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/1/itemSpawnParameters/saturnDescription",
+        "value": "Forges like this one are often used to craft Saturnian weapons, but when it comes to wands and staves, nothing beats an enchanting table."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/2/itemSpawnParameters/saturnDescription",
+        "value": "A replicator! It can make some very powerful bows, scythes, maces, and rapiers."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "A boring anvil. It doesn't even GLOW!"
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/0/itemSpawnParameters/saturn2Description",
+        "value": "A boring anvil. It doesn't even GLOW!"
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/1/itemSpawnParameters/saturn2Description",
+        "value": "This forge could probably work some decent weapons, but an enchanting table would undeniably give better staves and wands."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/2/itemSpawnParameters/saturn2Description",
+        "value": "With the right addons, this replicator could make weapons to match the strongest mages of Actias."
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "I've heard the moon guards of Actias use weapons and armors similar to what this addon can produce."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "This allows the replicator to conjure the legendary armors and scythes used by the royal guards of Actias."
+    }
+]

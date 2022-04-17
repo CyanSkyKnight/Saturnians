@@ -1,0 +1,32 @@
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "A table with foraging tools. Just what I need to cultivate lumen fruits, the main ingredient of lumenade!"
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/0/itemSpawnParameters/saturnDescription",
+        "value": "A table with foraging tools. Just what I need to cultivate lumen fruits, the main ingredient of lumenade!"
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/1/itemSpawnParameters/saturnDescription",
+        "value": "With this, I can craft all I need to hunt, cultivate, and mine lumen fruits. Or anything else... But mostly lumen fruits!"
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "A table with foraging tools. This is where I need to start if I want to cover a planet in lumen fruits."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/0/itemSpawnParameters/saturn2Description",
+        "value": "A table with foraging tools. This is where I need to start if I want to cover a planet in lumen fruits."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/1/itemSpawnParameters/saturn2Description",
+        "value": "With this, I can craft everything I need to hunt, cultivate, and mine lumen fruits... And anything else that glows!"
+    }
+]

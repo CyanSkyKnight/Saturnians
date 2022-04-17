@@ -1,0 +1,42 @@
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "A dangerous fire hazard, but I need this to smelt ore... It's okay, I just need to look away! It has such a nice glow though..."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/0/itemSpawnParameters/saturnDescription",
+        "value": "A dangerous fire hazard, but I need this to smelt ore... It's okay, I just need to look away! It has such a nice glow though..."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/1/itemSpawnParameters/saturnDescription",
+        "value": "If I keep the front grill closed, I can look inside while I smelt harder material, and I shouldn't set myself on fire... Right?"
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/2/itemSpawnParameters/saturnDescription",
+        "value": "This atomic furnace can smelt anything, and comes with a safety glass for me to observe the glow without risk!"
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "Smelts ore with such a pretty glow... If I keep the front grill closed, I can look without setting myself on fire... I think."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/0/itemSpawnParameters/saturn2Description",
+        "value": "Smelts ore with such a pretty glow... If I keep the front grill closed, I can look without setting myself on fire... I think."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/1/itemSpawnParameters/saturn2Description",
+        "value": "I wonder how many Thaumoth have turned themselves into chitin bars by succumbing to the temptation..."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/2/itemSpawnParameters/saturn2Description",
+        "value": "This can transmute any kind of ore, and it's much safer to use than a smelter thanks to the Thaumoth-proof glass protecting the glowy parts."
+    }
+]
