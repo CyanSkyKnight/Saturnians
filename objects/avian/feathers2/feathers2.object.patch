@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"These look like Roc feathers. Before the Roc Slayers time, a single Roc could destroy entire Saturnian cities."}]
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "These look like Roc feathers. Before the Roc Slayers time, a single Roc could destroy entire Saturnian cities."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "These remind me of a Roc's feathers. A single one of those monstrous birds could devour entire Thaumoth cities."
+    }
+]

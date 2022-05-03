@@ -1,0 +1,32 @@
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "I can use this to build myself a cozy place, but it's a lot more work than using a Saturnian furniture summoner."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/0/itemSpawnParameters/saturnDescription",
+        "value": "I can use this to build myself a cozy place, but it's a lot more work than using a Saturnian surniture summoner."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/1/itemSpawnParameters/saturnDescription",
+        "value": "I can use this to craft impressive furniture, but would it be as cozy as what I can conjure using a Saturnian furniture summoner?"
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "A woodworking station to craft furniture... I could instead conjure propper Thaumoth furnishings using a furniture summoner."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/0/itemSpawnParameters/saturn2Description",
+        "value": "A woodworking station to craft furniture... I could instead conjure propper Thaumoth furnishings using a furniture summoner."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/1/itemSpawnParameters/saturn2Description",
+        "value": "I can use this to craft impressive furnishings, but conjured Thaumoth furniture is usually cozier."
+    }
+]

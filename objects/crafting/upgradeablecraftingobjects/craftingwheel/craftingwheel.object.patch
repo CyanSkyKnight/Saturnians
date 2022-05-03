@@ -1,0 +1,32 @@
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "A basic spinning wheel for tailoring. I can easily build a better one."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/0/itemSpawnParameters/saturnDescription",
+        "value": "A basic spinning wheel for tailoring. I can easily build a better one."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/1/itemSpawnParameters/saturnDescription",
+        "value": "An alien sewing machine. It's not as good as a Saturnian loom."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "A simple alien loom. It lacks the finess required to work Thaumoth silk."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/0/itemSpawnParameters/saturn2Description",
+        "value": "A simple alien loom. It lacks the finess required to work Thaumoth silk."
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/1/itemSpawnParameters/saturn2Description",
+        "value": "An automatic sewing machine. It can handle Thaumoth silk, but lacks the finess to craft wings or traditional Thaumoth clothes."
+    }
+]
