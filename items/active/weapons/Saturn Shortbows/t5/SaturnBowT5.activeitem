@@ -6,7 +6,7 @@
   "rarity" : "Rare",
   "tooltipKind" : "bow",
   "category" : "saturnbow",
-  "description" : "A golden bow. How does it keep its shape?",
+  "description" : "A bow made from a bright white metal.",
   "shortdescription" : "Regal Light Bow",
   "twoHanded" : true,
   "itemTags" : ["weapon", "ranged", "bow", "upgradeableWeapon"],
