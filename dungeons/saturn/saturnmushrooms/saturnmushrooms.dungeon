@@ -1,0 +1,86 @@
+{
+  "metadata" : {
+    "name" : "saturnmushrooms",
+    "species" : "saturn2",
+    "rules" : [
+    ],
+    "anchor" : [ "saturnmushroomsLeft", "saturnmushroomsRight" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 10,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+  
+    {
+      "name" : "saturnmushrooms1",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "saturnmushrooms1" ] ]
+		
+      ],
+      "def" : [ "tmx", "saturnmushrooms1.json" ]
+    },
+  
+    {
+      "name" : "saturnmushrooms2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "saturnmushrooms2" ] ]
+		
+      ],
+      "def" : [ "tmx", "saturnmushrooms1.json" ]
+    },
+
+    {
+      "name" : "saturnmushrooms3",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "saturnmushrooms3" ] ]
+		
+      ],
+      "def" : [ "tmx", "saturnmushrooms1.json" ]
+    },
+  
+    {
+      "name" : "saturnmushroomsForest",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "saturnmushroomsForest" ] ]
+		
+      ],
+      "def" : [ "tmx", "saturnmushroomsForest.json" ]
+    },
+	
+	
+    {
+      "name" : "saturnmushroomsLeft",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "saturnmushroomsLeft" ] ]
+		
+      ],
+      "def" : [ "tmx", "saturnmushroomsLeft.json" ],
+	  "chance" : 0
+    },
+	
+    {
+      "name" : "saturnmushroomsRight",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "ignorePartMaximumRule" ],
+        [ "doNotConnectToPart", [ "saturnmushroomsRight" ] ]
+		
+      ],
+      "def" : [ "tmx", "saturnmushroomsRight.json" ],
+	  "chance" : 0
+    }
+	
+	
+	
+  ]
+}
