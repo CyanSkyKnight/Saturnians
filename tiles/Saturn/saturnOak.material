@@ -12,7 +12,7 @@
   "humanDescription" : "Some simple planks made from wood.",
   "hylotlDescription" : "Basic wood planks.",
   "novakidDescription" : "Just some basic lookin' wood planks.",
-  "saturndescription" : "Supposedly, this wood is only so popular because alchemists and wizards can't set it on fire.",
+  "saturnDescription" : "Supposedly, this wood is only so popular because alchemists and wizards can't set it on fire.",
   "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
   "health" : 2,
   "category" : "materials",

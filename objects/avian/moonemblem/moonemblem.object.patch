@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"I sure hope there aren't any moon-sized rocs around here."}]
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "I sure hope there aren't any moon-sized rocs around here."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "Is this a moon-sized roc? This would certainly explain why the moons seem so angry recently..."
+    }
+]

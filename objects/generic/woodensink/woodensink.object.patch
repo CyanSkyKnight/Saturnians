@@ -1,1 +1,6 @@
-[{"op":"add","path":"/saturnDescription","value":"Where does this sink get its water from?"}]
+[{"op":"add","path":"/saturnDescription","value":"Where does this sink get its water from?"},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "Water is essential to alchemy, for both plants and potions."
+}]

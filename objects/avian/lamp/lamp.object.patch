@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"Could a spirit reside in this lamp? It smells nice, but it has no fuel in it."}]
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "Could a spirit reside in this lamp? It smells nice, but it has no fuel in it."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "This lamp smells like the sweetest fruits from Actias."
+    }
+]

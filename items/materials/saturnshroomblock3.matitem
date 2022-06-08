@@ -1,0 +1,18 @@
+{
+  "itemName" : "saturnshroomblock3",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "saturnshroomblock3.png",
+  
+  "largeImage" : "/items/materials/tooltips/saturnshroomblock3.png",
+  "tooltipKind" : "saturnpaintedblock",
+
+  "description" : "A block made of powdery fungus.",
+  "shortdescription" : "Dusty Fungus Block",
+  "glitchdescription" : "Intrigued. Although assembled as a block, this mushroom is alive.",
+  "florandescription" : "Lovely mushroomss.",
+  "novakiddescription" : "Ain't that somethin'. Seems this block is made from mushrooms.",
+
+  "materialId" : 54748
+}

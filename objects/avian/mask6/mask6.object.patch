@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"This mask looks fierce!"}]
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "This mask looks fierce!"
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "This mask looks like it's angry and staring down at me, it's unnerving."
+    }
+]

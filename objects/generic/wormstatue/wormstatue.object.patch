@@ -1,1 +1,6 @@
-[{"op":"add","path":"/saturnDescription","value":"Oh no! What happened to their legs?"}]
+[{"op":"add","path":"/saturnDescription","value":"Oh no! What happened to their legs?"},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "This alien looks like a caterpillar without legs."
+}]

@@ -1,1 +1,6 @@
-[{"op":"add","path":"/saturnDescription","value":"A tiny lamp!"}]
+[{"op":"add","path":"/saturnDescription","value":"A tiny lamp!"},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "Wow! That's a small lamp."
+}]

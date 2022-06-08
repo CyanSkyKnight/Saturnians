@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "I can use this to summon perfect replicas of Solalei's royal guards' armors, and the best types of rapiers and mauls."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "This allows the replicator to conjure the legendary armors and scythes used by the royal guards of Actias."
+    }
+]

@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"It may not be silk, but it still is very soft."}]
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "It may not be silk, but it still is very soft."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "It's very soft, but not as much as Thaumoth silk."
+    }
+]

@@ -25,7 +25,7 @@
       "//name": "saturncolorfulclaywalls",
       "//shortdescription": "Orange Clay Walls",
       "material": "saturncolorfulclaywalls",
-      "colorVariant": "6"
+      "colorVariant": "5"
     },
     "3": {
       "//description": "",
@@ -59,21 +59,21 @@
       "//name": "saturncolorfulclaywalls",
       "//shortdescription": "Purple Clay Walls",
       "material": "saturncolorfulclaywalls",
-      "colorVariant": "7"
+      "colorVariant": "6"
     },
     "8": {
       "//description": "",
       "//name": "saturncolorfulclaywalls",
       "//shortdescription": "Black Clay Walls",
       "material": "saturncolorfulclaywalls",
-      "colorVariant": "8"
+      "colorVariant": "7"
     },
     "9": {
       "//description": "",
       "//name": "saturncolorfulclaywalls",
       "//shortdescription": "White Clay Walls",
       "material": "saturncolorfulclaywalls",
-      "colorVariant": "9"
+      "colorVariant": "8"
     },
     "10": {
       "//description": "",
@@ -93,7 +93,7 @@
       "//name": "saturnbirch",
       "//shortdescription": "Orange Birch Planks",
       "material": "saturnbirch",
-      "colorVariant": "6"
+      "colorVariant": "5"
     },
     "13": {
       "//description": "",
@@ -127,21 +127,21 @@
       "//name": "saturnbirch",
       "//shortdescription": "Purple Birch Planks",
       "material": "saturnbirch",
-      "colorVariant": "7"
+      "colorVariant": "6"
     },
     "18": {
       "//description": "",
       "//name": "saturnbirch",
       "//shortdescription": "Black Birch Planks",
       "material": "saturnbirch",
-      "colorVariant": "8"
+      "colorVariant": "7"
     },
     "19": {
       "//description": "",
       "//name": "saturnbirch",
       "//shortdescription": "White Birch Planks",
       "material": "saturnbirch",
-      "colorVariant": "9"
+      "colorVariant": "8"
     },
     "20": {
       "//description": "",
@@ -161,7 +161,7 @@
       "//name": "saturnebony",
       "//shortdescription": "Orange Ebony Planks",
       "material": "saturnebony",
-      "colorVariant": "6"
+      "colorVariant": "5"
     },
     "23": {
       "//description": "",
@@ -195,21 +195,21 @@
       "//name": "saturnebony",
       "//shortdescription": "Purple Ebony Planks",
       "material": "saturnebony",
-      "colorVariant": "7"
+      "colorVariant": "6"
     },
     "28": {
       "//description": "",
       "//name": "saturnebony",
       "//shortdescription": "Black Ebony Planks",
       "material": "saturnebony",
-      "colorVariant": "8"
+      "colorVariant": "7"
     },
     "29": {
       "//description": "",
       "//name": "saturnebony",
       "//shortdescription": "White Ebony Planks",
       "material": "saturnebony",
-      "colorVariant": "9"
+      "colorVariant": "8"
     },
     "30": {
       "//description": "",
@@ -229,7 +229,7 @@
       "//name": "saturnMaho",
       "//shortdescription": "Orange Mahogany Planks",
       "material": "saturnMaho",
-      "colorVariant": "6"
+      "colorVariant": "5"
     },
     "33": {
       "//description": "",
@@ -263,21 +263,21 @@
       "//name": "saturnMaho",
       "//shortdescription": "Purple Mahogany Planks",
       "material": "saturnMaho",
-      "colorVariant": "7"
+      "colorVariant": "6"
     },
     "38": {
       "//description": "",
       "//name": "saturnMaho",
       "//shortdescription": "Black Mahogany Planks",
       "material": "saturnMaho",
-      "colorVariant": "8"
+      "colorVariant": "7"
     },
     "39": {
       "//description": "",
       "//name": "saturnMaho",
       "//shortdescription": "White Mahogany Planks",
       "material": "saturnMaho",
-      "colorVariant": "9"
+      "colorVariant": "8"
     },
     "40": {
       "//description": "",
@@ -297,7 +297,7 @@
       "//name": "saturnOak",
       "//shortdescription": "Orange Oak Planks",
       "material": "saturnOak",
-      "colorVariant": "6"
+      "colorVariant": "5"
     },
     "43": {
       "//description": "",
@@ -331,21 +331,21 @@
       "//name": "saturnOak",
       "//shortdescription": "Purple Oak Planks",
       "material": "saturnOak",
-      "colorVariant": "7"
+      "colorVariant": "6"
     },
     "48": {
       "//description": "",
       "//name": "saturnOak",
       "//shortdescription": "Black Oak Planks",
       "material": "saturnOak",
-      "colorVariant": "8"
+      "colorVariant": "7"
     },
     "49": {
       "//description": "",
       "//name": "saturnOak",
       "//shortdescription": "White Oak Planks",
       "material": "saturnOak",
-      "colorVariant": "9"
+      "colorVariant": "8"
     },
     "50": {
       "//description": "",
@@ -365,7 +365,7 @@
       "//name": "saturnslopedBronzeglass",
       "//shortdescription": "Orange Bronze Glass",
       "material": "saturnslopedBronzeglass",
-      "colorVariant": "6"
+      "colorVariant": "5"
     },
     "53": {
       "//description": "",
@@ -399,21 +399,21 @@
       "//name": "saturnslopedBronzeglass",
       "//shortdescription": "Purple Bronze Glass",
       "material": "saturnslopedBronzeglass",
-      "colorVariant": "7"
+      "colorVariant": "6"
     },
     "58": {
       "//description": "",
       "//name": "saturnslopedBronzeglass",
       "//shortdescription": "Black Bronze Glass",
       "material": "saturnslopedBronzeglass",
-      "colorVariant": "8"
+      "colorVariant": "7"
     },
     "59": {
       "//description": "",
       "//name": "saturnslopedBronzeglass",
       "//shortdescription": "White Bronze Glass",
       "material": "saturnslopedBronzeglass",
-      "colorVariant": "9"
+      "colorVariant": "8"
     },
     "60": {
       "//description": "",
@@ -433,7 +433,7 @@
       "//name": "saturnslopedglass",
       "//shortdescription": "Orange Brass Glass",
       "material": "saturnslopedglass",
-      "colorVariant": "6"
+      "colorVariant": "5"
     },
     "63": {
       "//description": "",
@@ -467,21 +467,21 @@
       "//name": "saturnslopedglass",
       "//shortdescription": "Purple Brass Glass",
       "material": "saturnslopedglass",
-      "colorVariant": "7"
+      "colorVariant": "6"
     },
     "68": {
       "//description": "",
       "//name": "saturnslopedglass",
       "//shortdescription": "Black Brass Glass",
       "material": "saturnslopedglass",
-      "colorVariant": "8"
+      "colorVariant": "7"
     },
     "69": {
       "//description": "",
       "//name": "saturnslopedglass",
       "//shortdescription": "White Brass Glass",
       "material": "saturnslopedglass",
-      "colorVariant": "9"
+      "colorVariant": "8"
     },
     "70": {
       "//description": "",
@@ -501,7 +501,7 @@
       "//name": "saturnslopedstainedglass",
       "//shortdescription": "Orange Ebony Glass",
       "material": "saturnslopedstainedglass",
-      "colorVariant": "6"
+      "colorVariant": "5"
     },
     "73": {
       "//description": "",
@@ -535,21 +535,21 @@
       "//name": "saturnslopedstainedglass",
       "//shortdescription": "Purple Ebony Glass",
       "material": "saturnslopedstainedglass",
-      "colorVariant": "7"
+      "colorVariant": "6"
     },
     "78": {
       "//description": "",
       "//name": "saturnslopedstainedglass",
       "//shortdescription": "Black Ebony Glass",
       "material": "saturnslopedstainedglass",
-      "colorVariant": "8"
+      "colorVariant": "7"
     },
     "79": {
       "//description": "",
       "//name": "saturnslopedstainedglass",
       "//shortdescription": "White Ebony Glass",
       "material": "saturnslopedstainedglass",
-      "colorVariant": "9"
+      "colorVariant": "8"
     },
     "80": {
       "//description": "",
@@ -569,7 +569,7 @@
       "//name": "saturnslopedstainedglassBirch",
       "//shortdescription": "Orange Birch Glass",
       "material": "saturnslopedstainedglassBirch",
-      "colorVariant": "6"
+      "colorVariant": "5"
     },
     "83": {
       "//description": "",
@@ -603,21 +603,21 @@
       "//name": "saturnslopedstainedglassBirch",
       "//shortdescription": "Purple Birch Glass",
       "material": "saturnslopedstainedglassBirch",
-      "colorVariant": "7"
+      "colorVariant": "6"
     },
     "88": {
       "//description": "",
       "//name": "saturnslopedstainedglassBirch",
       "//shortdescription": "Black Birch Glass",
       "material": "saturnslopedstainedglassBirch",
-      "colorVariant": "8"
+      "colorVariant": "7"
     },
     "89": {
       "//description": "",
       "//name": "saturnslopedstainedglassBirch",
       "//shortdescription": "White Birch Glass",
       "material": "saturnslopedstainedglassBirch",
-      "colorVariant": "9"
+      "colorVariant": "8"
     },
     "90": {
       "//description": "",
@@ -637,7 +637,7 @@
       "//name": "saturnslopedstainedglassMaho",
       "//shortdescription": "Orange Mahogany Glass",
       "material": "saturnslopedstainedglassMaho",
-      "colorVariant": "6"
+      "colorVariant": "5"
     },
     "93": {
       "//description": "",
@@ -671,21 +671,21 @@
       "//name": "saturnslopedstainedglassMaho",
       "//shortdescription": "Purple Mahogany Glass",
       "material": "saturnslopedstainedglassMaho",
-      "colorVariant": "7"
+      "colorVariant": "6"
     },
     "98": {
       "//description": "",
       "//name": "saturnslopedstainedglassMaho",
       "//shortdescription": "Black Mahogany Glass",
       "material": "saturnslopedstainedglassMaho",
-      "colorVariant": "8"
+      "colorVariant": "7"
     },
     "99": {
       "//description": "",
       "//name": "saturnslopedstainedglassMaho",
       "//shortdescription": "White Mahogany Glass",
       "material": "saturnslopedstainedglassMaho",
-      "colorVariant": "9"
+      "colorVariant": "8"
     },
     "100": {
       "//description": "",
@@ -705,7 +705,7 @@
       "//name": "saturnslopedstainedglassOak",
       "//shortdescription": "Orange Oak Glass",
       "material": "saturnslopedstainedglassOak",
-      "colorVariant": "6"
+      "colorVariant": "5"
     },
     "103": {
       "//description": "",
@@ -739,21 +739,21 @@
       "//name": "saturnslopedstainedglassOak",
       "//shortdescription": "Purple Oak Glass",
       "material": "saturnslopedstainedglassOak",
-      "colorVariant": "7"
+      "colorVariant": "6"
     },
     "108": {
       "//description": "",
       "//name": "saturnslopedstainedglassOak",
       "//shortdescription": "Black Oak Glass",
       "material": "saturnslopedstainedglassOak",
-      "colorVariant": "8"
+      "colorVariant": "7"
     },
     "109": {
       "//description": "",
       "//name": "saturnslopedstainedglassOak",
       "//shortdescription": "White Oak Glass",
       "material": "saturnslopedstainedglassOak",
-      "colorVariant": "9"
+      "colorVariant": "8"
     }
   },
   "tiles": {

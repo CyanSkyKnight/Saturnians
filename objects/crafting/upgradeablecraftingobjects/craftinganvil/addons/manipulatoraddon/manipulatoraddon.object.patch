@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "I'm not sure how I feel about this. It doesn't feel right to make such powerful wands and staves without an energized enchanting table."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "This abomination can replicate extremely powerful staves and wands. Such weapons should only ever be made and wielded by masters in the art of light weaving."
+    }
+]

@@ -1,0 +1,24 @@
+{
+  "materialId" : 54738,
+  "materialName" : "saturnfungusstalk",
+  "particleColor" : [132, 129, 126, 255],
+  "itemDrop" : "saturnfungusstalk",
+  "description" : "Cactus that's been fashioned into a construction block. Still prickly.",
+  "shortdescription" : "Fungus Stalk",
+  "glitchDescription" : "Intrigued. Although assembled as a block, this mushroom is alive.",
+  "floranDescription" : "Lovely mushroomss.",
+  "novakidDescription" : "Ain't that somethin'. Seems this block is made from mushrooms.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.ogg",
+  "health" : 2,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "saturnfungusstalk.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 1760
+  }
+}

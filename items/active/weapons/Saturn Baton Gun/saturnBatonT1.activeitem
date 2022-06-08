@@ -3,7 +3,7 @@
   "price" : 200,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Batons function more like guns than wands. This one fires a burst of sparks.",
+  "description" : "Fires a scattering burst of sparks. It seems to be firing glitter and electricity.",
   "shortdescription" : "^#000100;^reset;Sparkler Baton",
   "tooltipKind" : "saturngun",
   "category" : "saturnbaton",
@@ -32,7 +32,7 @@
     "charge" : [ "/sfx/melee/SaturnShortwandSwish.ogg" ],
 	"charge2" : [ "/sfx/melee/SaturnShortwandSwish.ogg" ],
 	"charge3" : [ "/sfx/melee/SaturnShortwandFlick.ogg" ],
-    "fire" : [ "/sfx/melee/saturnsfxbell.ogg" ]
+    "fire" : [ "/sfx/melee/saturnsfxbellb1.ogg", "/sfx/melee/saturnsfxbellb2.ogg", "/sfx/melee/saturnsfxbellb3.ogg" ]
 	}
   },
   "aimOffset" : -1,

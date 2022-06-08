@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"An ancient symbol of one's home. I wonder how far from home I am."}]
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "An ancient symbol of one's home. I wonder how far from home I am."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "This rune is the symbol of one's home, but what does it mean by home?"
+    }
+]

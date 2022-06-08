@@ -1,0 +1,1092 @@
+{
+  "columns": 0,
+  "margin": 0,
+  "name": "saturnianTilesMushroom",
+  "properties": {},
+  "spacing": 0,
+  "tilecount": 110,
+  "tileheight": 8,
+  "tileproperties": {
+    "0": {
+      "//description": "It smells like vanilla",
+      "//name": "shroomblock",
+      "//shortdescription": "Shroom Block",
+      "material": "shroomblock"
+    },
+    "1": {
+      "//description": "This is absolutely necessary",
+      "//name": "shroomblock",
+      "//shortdescription": "Red Shroom Block",
+      "material": "shroomblock",
+      "colorVariant": "1"
+    },
+    "2": {
+      "//description": "",
+      "//name": "shroomblock",
+      "//shortdescription": "Blue Shroom Block",
+      "material": "shroomblock",
+      "colorVariant": "2"
+    },
+    "3": {
+      "//description": "",
+      "//name": "shroomblock",
+      "//shortdescription": "Green Shroom Block",
+      "material": "shroomblock",
+      "colorVariant": "3"
+    },
+    "4": {
+      "//description": "",
+      "//name": "shroomblock",
+      "//shortdescription": "Yellow Shroom Block",
+      "material": "shroomblock",
+      "colorVariant": "4"
+    },
+    "5": {
+      "//description": "SPACER",
+      "//name": "tilesets have rows of 5, but theres 9 colors per tile",
+      "//shortdescription": "this stays black so everything stays nice and aligned",
+      "material": "saturncolorfulclaywalls"
+    },
+    "6": {
+      "//description": "",
+      "//name": "shroomblock",
+      "//shortdescription": "Orange Shroom Block",
+      "material": "shroomblock",
+      "colorVariant": "5"
+    },
+    "7": {
+      "//description": "",
+      "//name": "shroomblock",
+      "//shortdescription": "Purple Shroom Block",
+      "material": "shroomblock",
+      "colorVariant": "6"
+    },
+    "8": {
+      "//description": "",
+      "//name": "shroomblock",
+      "//shortdescription": "Black Shroom Block",
+      "material": "shroomblock",
+      "colorVariant": "7"
+    },
+    "9": {
+      "//description": "",
+      "//name": "shroomblock",
+      "//shortdescription": "White Shroom Block",
+      "material": "shroomblock",
+      "colorVariant": "8"
+    },
+    "10": {
+      "//description": "",
+      "//name": "saturnshroomblock",
+      "//shortdescription": "Bright Fungus",
+      "material": "saturnshroomblock"
+    },
+    "11": {
+      "//description": "",
+      "//name": "saturnshroomblock",
+      "//shortdescription": "Red Bright Fungus",
+      "material": "saturnshroomblock",
+      "colorVariant": "1"
+    },
+    "12": {
+      "//description": "",
+      "//name": "saturnshroomblock",
+      "//shortdescription": "Blue Bright Fungus",
+      "material": "saturnshroomblock",
+      "colorVariant": "2"
+    },
+    "13": {
+      "//description": "",
+      "//name": "saturnshroomblock",
+      "//shortdescription": "Green Bright Fungus",
+      "material": "saturnshroomblock",
+      "colorVariant": "3"
+    },
+    "14": {
+      "//description": "",
+      "//name": "saturnshroomblock",
+      "//shortdescription": "Yellow Bright Fungus",
+      "material": "saturnshroomblock",
+      "colorVariant": "4"
+    },
+    "15": {
+      "//description": "SPACER",
+      "//name": "tilesets have rows of 5, but theres 9 colors per tile",
+      "//shortdescription": "this stays black so everything stays nice and aligned",
+      "material": "saturncolorfulclaywalls"
+    },
+    "16": {
+      "//description": "",
+      "//name": "saturnshroomblock",
+      "//shortdescription": "Orange Bright Fungus",
+      "material": "saturnshroomblock",
+      "colorVariant": "5"
+    },
+    "17": {
+      "//description": "",
+      "//name": "saturnshroomblock",
+      "//shortdescription": "Purple Bright Fungus",
+      "material": "saturnshroomblock",
+      "colorVariant": "6"
+    },
+    "18": {
+      "//description": "",
+      "//name": "saturnshroomblock",
+      "//shortdescription": "Black Bright Fungus",
+      "material": "saturnshroomblock",
+      "colorVariant": "7"
+    },
+    "19": {
+      "//description": "",
+      "//name": "saturnshroomblock",
+      "//shortdescription": "White Bright Fungus",
+      "material": "saturnshroomblock",
+      "colorVariant": "8"
+    },
+    "20": {
+      "//description": "",
+      "//name": "saturnshroomblock2",
+      "//shortdescription": "Pastel Fungus",
+      "material": "saturnshroomblock2"
+    },
+    "21": {
+      "//description": "",
+      "//name": "saturnshroomblock2",
+      "//shortdescription": "Red Pastel Fungus",
+      "material": "saturnshroomblock2",
+      "colorVariant": "1"
+    },
+    "22": {
+      "//description": "",
+      "//name": "saturnshroomblock2",
+      "//shortdescription": "Blue Pastel Fungus",
+      "material": "saturnshroomblock2",
+      "colorVariant": "2"
+    },
+    "23": {
+      "//description": "",
+      "//name": "saturnshroomblock2",
+      "//shortdescription": "Green Pastel Fungus",
+      "material": "saturnshroomblock2",
+      "colorVariant": "3"
+    },
+    "24": {
+      "//description": "",
+      "//name": "saturnshroomblock2",
+      "//shortdescription": "Yellow Pastel Fungus",
+      "material": "saturnshroomblock2",
+      "colorVariant": "4"
+    },
+    "25": {
+      "//description": "SPACER",
+      "//name": "tilesets have rows of 5, but theres 9 colors per tile",
+      "//shortdescription": "this stays black so everything stays nice and aligned",
+      "material": "saturncolorfulclaywalls"
+    },
+    "26": {
+      "//description": "",
+      "//name": "saturnshroomblock2",
+      "//shortdescription": "Orange Pastel Fungus",
+      "material": "saturnshroomblock2",
+      "colorVariant": "5"
+    },
+    "27": {
+      "//description": "",
+      "//name": "saturnshroomblock2",
+      "//shortdescription": "Purple Pastel Fungus",
+      "material": "saturnshroomblock2",
+      "colorVariant": "6"
+    },
+    "28": {
+      "//description": "",
+      "//name": "saturnshroomblock2",
+      "//shortdescription": "Black Pastel Fungus",
+      "material": "saturnshroomblock2",
+      "colorVariant": "7"
+    },
+    "29": {
+      "//description": "",
+      "//name": "saturnshroomblock2",
+      "//shortdescription": "White Pastel Fungus",
+      "material": "saturnshroomblock2",
+      "colorVariant": "8"
+    },
+    "30": {
+      "//description": "",
+      "//name": "saturnshroomblock3",
+      "//shortdescription": "Dusty Fungus",
+      "material": "saturnshroomblock3"
+    },
+    "31": {
+      "//description": "",
+      "//name": "saturnshroomblock3",
+      "//shortdescription": "Red Dusty Fungus",
+      "material": "saturnshroomblock3",
+      "colorVariant": "1"
+    },
+    "32": {
+      "//description": "",
+      "//name": "saturnshroomblock3",
+      "//shortdescription": "Blue Dusty Fungus",
+      "material": "saturnshroomblock3",
+      "colorVariant": "2"
+    },
+    "33": {
+      "//description": "",
+      "//name": "saturnshroomblock3",
+      "//shortdescription": "Green Dusty Fungus",
+      "material": "saturnshroomblock3",
+      "colorVariant": "3"
+    },
+    "34": {
+      "//description": "",
+      "//name": "saturnshroomblock3",
+      "//shortdescription": "Yellow Dusty Fungus",
+      "material": "saturnshroomblock3",
+      "colorVariant": "4"
+    },
+    "35": {
+      "//description": "SPACER",
+      "//name": "tilesets have rows of 5, but theres 9 colors per tile",
+      "//shortdescription": "this stays black so everything stays nice and aligned",
+      "material": "saturncolorfulclaywalls"
+    },
+    "36": {
+      "//description": "",
+      "//name": "saturnshroomblock3",
+      "//shortdescription": "Orange Dusty Fungus",
+      "material": "saturnshroomblock3",
+      "colorVariant": "5"
+    },
+    "37": {
+      "//description": "",
+      "//name": "saturnshroomblock3",
+      "//shortdescription": "Purple Dusty Fungus",
+      "material": "saturnshroomblock3",
+      "colorVariant": "6"
+    },
+    "38": {
+      "//description": "",
+      "//name": "saturnshroomblock3",
+      "//shortdescription": "Black Dusty Fungus",
+      "material": "saturnshroomblock3",
+      "colorVariant": "7"
+    },
+    "39": {
+      "//description": "",
+      "//name": "saturnshroomblock3",
+      "//shortdescription": "White Dusty Fungus",
+      "material": "saturnshroomblock3",
+      "colorVariant": "8"
+    },
+    "40": {
+      "//description": "",
+      "//name": "saturnfungusstalk",
+      "//shortdescription": "Fungus Stalk",
+      "material": "saturnfungusstalk"
+    },
+    "41": {
+      "//description": "",
+      "//name": "saturnfungusstalk",
+      "//shortdescription": "Red Fungus Stalk",
+      "material": "saturnfungusstalk",
+      "colorVariant": "1"
+    },
+    "42": {
+      "//description": "",
+      "//name": "saturnfungusstalk",
+      "//shortdescription": "Blue Fungus Stalk",
+      "material": "saturnfungusstalk",
+      "colorVariant": "6"
+    },
+    "43": {
+      "//description": "",
+      "//name": "saturnfungusstalk",
+      "//shortdescription": "Green Fungus Stalk",
+      "material": "saturnfungusstalk",
+      "colorVariant": "4"
+    },
+    "44": {
+      "//description": "",
+      "//name": "saturnfungusstalk",
+      "//shortdescription": "Yellow Fungus Stalk",
+      "material": "saturnfungusstalk",
+      "colorVariant": "3"
+    },
+    "45": {
+      "//description": "SPACER",
+      "//name": "tilesets have rows of 5, but theres 9 colors per tile",
+      "//shortdescription": "this stays black so everything stays nice and aligned",
+      "material": "saturncolorfulclaywalls"
+    },
+    "46": {
+      "//description": "",
+      "//name": "saturnfungusstalk",
+      "//shortdescription": "Orange Fungus Stalk",
+      "material": "saturnfungusstalk",
+      "colorVariant": "2"
+    },
+    "47": {
+      "//description": "",
+      "//name": "saturnfungusstalk",
+      "//shortdescription": "Purple Fungus Stalk",
+      "material": "saturnfungusstalk",
+      "colorVariant": "7"
+    },
+    "48": {
+      "//description": "",
+      "//name": "saturnfungusstalk",
+      "//shortdescription": "Black Fungus Stalk",
+      "material": "saturnfungusstalk",
+      "colorVariant": "8"
+    },
+    "49": {
+      "//description": "",
+      "//name": "saturnfungusstalk",
+      "//shortdescription": "White Fungus Stalk",
+      "material": "saturnfungusstalk",
+      "colorVariant": "9"
+    },
+    "50": {
+      "//description": "",
+      "//name": "saturnslopedBronzeglass",
+      "//shortdescription": "Bronze Glass",
+      "material": "saturnslopedBronzeglass"
+    },
+    "51": {
+      "//description": "",
+      "//name": "saturnslopedBronzeglass",
+      "//shortdescription": "Red Bronze Glass",
+      "material": "saturnslopedBronzeglass",
+      "colorVariant": "1"
+    },
+    "52": {
+      "//description": "",
+      "//name": "saturnslopedBronzeglass",
+      "//shortdescription": "Blue Bronze Glass",
+      "material": "saturnslopedBronzeglass",
+      "colorVariant": "6"
+    },
+    "53": {
+      "//description": "",
+      "//name": "saturnslopedBronzeglass",
+      "//shortdescription": "Green Bronze Glass",
+      "material": "saturnslopedBronzeglass",
+      "colorVariant": "4"
+    },
+    "54": {
+      "//description": "",
+      "//name": "saturnslopedBronzeglass",
+      "//shortdescription": "Yellow Bronze Glass",
+      "material": "saturnslopedBronzeglass",
+      "colorVariant": "3"
+    },
+    "55": {
+      "//description": "SPACER",
+      "//name": "tilesets have rows of 5, but theres 9 colors per tile",
+      "//shortdescription": "this stays black so everything stays nice and aligned",
+      "material": "saturncolorfulclaywalls"
+    },
+    "56": {
+      "//description": "",
+      "//name": "saturnslopedBronzeglass",
+      "//shortdescription": "Orange Bronze Glass",
+      "material": "saturnslopedBronzeglass",
+      "colorVariant": "2"
+    },
+    "57": {
+      "//description": "",
+      "//name": "saturnslopedBronzeglass",
+      "//shortdescription": "Purple Bronze Glass",
+      "material": "saturnslopedBronzeglass",
+      "colorVariant": "7"
+    },
+    "58": {
+      "//description": "",
+      "//name": "saturnslopedBronzeglass",
+      "//shortdescription": "Black Bronze Glass",
+      "material": "saturnslopedBronzeglass",
+      "colorVariant": "8"
+    },
+    "59": {
+      "//description": "",
+      "//name": "saturnslopedBronzeglass",
+      "//shortdescription": "White Bronze Glass",
+      "material": "saturnslopedBronzeglass",
+      "colorVariant": "9"
+    },
+    "60": {
+      "//description": "",
+      "//name": "saturnslopedglass",
+      "//shortdescription": "Brass Glass",
+      "material": "saturnslopedglass"
+    },
+    "61": {
+      "//description": "",
+      "//name": "saturnslopedglass",
+      "//shortdescription": "Red Brass Glass",
+      "material": "saturnslopedglass",
+      "colorVariant": "1"
+    },
+    "62": {
+      "//description": "",
+      "//name": "saturnslopedglass",
+      "//shortdescription": "Blue Brass Glass",
+      "material": "saturnslopedglass",
+      "colorVariant": "6"
+    },
+    "63": {
+      "//description": "",
+      "//name": "saturnslopedglass",
+      "//shortdescription": "Green Brass Glass",
+      "material": "saturnslopedglass",
+      "colorVariant": "4"
+    },
+    "64": {
+      "//description": "",
+      "//name": "saturnslopedglass",
+      "//shortdescription": "Yellow Brass Glass",
+      "material": "saturnslopedglass",
+      "colorVariant": "3"
+    },
+    "65": {
+      "//description": "SPACER",
+      "//name": "tilesets have rows of 5, but theres 9 colors per tile",
+      "//shortdescription": "this stays black so everything stays nice and aligned",
+      "material": "saturncolorfulclaywalls"
+    },
+    "66": {
+      "//description": "",
+      "//name": "saturnslopedglass",
+      "//shortdescription": "Orange Brass Glass",
+      "material": "saturnslopedglass",
+      "colorVariant": "2"
+    },
+    "67": {
+      "//description": "",
+      "//name": "saturnslopedglass",
+      "//shortdescription": "Purple Brass Glass",
+      "material": "saturnslopedglass",
+      "colorVariant": "7"
+    },
+    "68": {
+      "//description": "",
+      "//name": "saturnslopedglass",
+      "//shortdescription": "Black Brass Glass",
+      "material": "saturnslopedglass",
+      "colorVariant": "8"
+    },
+    "69": {
+      "//description": "",
+      "//name": "saturnslopedglass",
+      "//shortdescription": "White Brass Glass",
+      "material": "saturnslopedglass",
+      "colorVariant": "9"
+    },
+    "70": {
+      "//description": "",
+      "//name": "saturnslopedstainedglass",
+      "//shortdescription": "Ebony Glass",
+      "material": "saturnslopedstainedglass"
+    },
+    "71": {
+      "//description": "",
+      "//name": "saturnslopedstainedglass",
+      "//shortdescription": "Red Ebony Glass",
+      "material": "saturnslopedstainedglass",
+      "colorVariant": "1"
+    },
+    "72": {
+      "//description": "",
+      "//name": "saturnslopedstainedglass",
+      "//shortdescription": "Blue Ebony Glass",
+      "material": "saturnslopedstainedglass",
+      "colorVariant": "6"
+    },
+    "73": {
+      "//description": "",
+      "//name": "saturnslopedstainedglass",
+      "//shortdescription": "Green Ebony Glass",
+      "material": "saturnslopedstainedglass",
+      "colorVariant": "4"
+    },
+    "74": {
+      "//description": "",
+      "//name": "saturnslopedstainedglass",
+      "//shortdescription": "Yellow Ebony Glass",
+      "material": "saturnslopedstainedglass",
+      "colorVariant": "3"
+    },
+    "75": {
+      "//description": "SPACER",
+      "//name": "tilesets have rows of 5, but theres 9 colors per tile",
+      "//shortdescription": "this stays black so everything stays nice and aligned",
+      "material": "saturncolorfulclaywalls"
+    },
+    "76": {
+      "//description": "",
+      "//name": "saturnslopedstainedglass",
+      "//shortdescription": "Orange Ebony Glass",
+      "material": "saturnslopedstainedglass",
+      "colorVariant": "2"
+    },
+    "77": {
+      "//description": "",
+      "//name": "saturnslopedstainedglass",
+      "//shortdescription": "Purple Ebony Glass",
+      "material": "saturnslopedstainedglass",
+      "colorVariant": "7"
+    },
+    "78": {
+      "//description": "",
+      "//name": "saturnslopedstainedglass",
+      "//shortdescription": "Black Ebony Glass",
+      "material": "saturnslopedstainedglass",
+      "colorVariant": "8"
+    },
+    "79": {
+      "//description": "",
+      "//name": "saturnslopedstainedglass",
+      "//shortdescription": "White Ebony Glass",
+      "material": "saturnslopedstainedglass",
+      "colorVariant": "9"
+    },
+    "80": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassBirch",
+      "//shortdescription": "Birch Glass",
+      "material": "saturnslopedstainedglassBirch"
+    },
+    "81": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassBirch",
+      "//shortdescription": "Red Birch Glass",
+      "material": "saturnslopedstainedglassBirch",
+      "colorVariant": "1"
+    },
+    "82": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassBirch",
+      "//shortdescription": "Blue Birch Glass",
+      "material": "saturnslopedstainedglassBirch",
+      "colorVariant": "6"
+    },
+    "83": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassBirch",
+      "//shortdescription": "Green Birch Glass",
+      "material": "saturnslopedstainedglassBirch",
+      "colorVariant": "4"
+    },
+    "84": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassBirch",
+      "//shortdescription": "Yellow Birch Glass",
+      "material": "saturnslopedstainedglassBirch",
+      "colorVariant": "3"
+    },
+    "85": {
+      "//description": "SPACER",
+      "//name": "tilesets have rows of 5, but theres 9 colors per tile",
+      "//shortdescription": "this stays black so everything stays nice and aligned",
+      "material": "saturncolorfulclaywalls"
+    },
+    "86": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassBirch",
+      "//shortdescription": "Orange Birch Glass",
+      "material": "saturnslopedstainedglassBirch",
+      "colorVariant": "2"
+    },
+    "87": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassBirch",
+      "//shortdescription": "Purple Birch Glass",
+      "material": "saturnslopedstainedglassBirch",
+      "colorVariant": "7"
+    },
+    "88": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassBirch",
+      "//shortdescription": "Black Birch Glass",
+      "material": "saturnslopedstainedglassBirch",
+      "colorVariant": "8"
+    },
+    "89": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassBirch",
+      "//shortdescription": "White Birch Glass",
+      "material": "saturnslopedstainedglassBirch",
+      "colorVariant": "9"
+    },
+    "90": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassMaho",
+      "//shortdescription": "Mahogany Glass",
+      "material": "saturnslopedstainedglassMaho"
+    },
+    "91": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassMaho",
+      "//shortdescription": "Red Mahogany Glass",
+      "material": "saturnslopedstainedglassMaho",
+      "colorVariant": "1"
+    },
+    "92": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassMaho",
+      "//shortdescription": "Blue Mahogany Glass",
+      "material": "saturnslopedstainedglassMaho",
+      "colorVariant": "6"
+    },
+    "93": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassMaho",
+      "//shortdescription": "Green Mahogany Glass",
+      "material": "saturnslopedstainedglassMaho",
+      "colorVariant": "4"
+    },
+    "94": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassMaho",
+      "//shortdescription": "Yellow Mahogany Glass",
+      "material": "saturnslopedstainedglassMaho",
+      "colorVariant": "3"
+    },
+    "95": {
+      "//description": "SPACER",
+      "//name": "tilesets have rows of 5, but theres 9 colors per tile",
+      "//shortdescription": "this stays black so everything stays nice and aligned",
+      "material": "saturncolorfulclaywalls"
+    },
+    "96": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassMaho",
+      "//shortdescription": "Orange Mahogany Glass",
+      "material": "saturnslopedstainedglassMaho",
+      "colorVariant": "2"
+    },
+    "97": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassMaho",
+      "//shortdescription": "Purple Mahogany Glass",
+      "material": "saturnslopedstainedglassMaho",
+      "colorVariant": "7"
+    },
+    "98": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassMaho",
+      "//shortdescription": "Black Mahogany Glass",
+      "material": "saturnslopedstainedglassMaho",
+      "colorVariant": "8"
+    },
+    "99": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassMaho",
+      "//shortdescription": "White Mahogany Glass",
+      "material": "saturnslopedstainedglassMaho",
+      "colorVariant": "9"
+    },
+    "100": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassOak",
+      "//shortdescription": "Oak Glass",
+      "material": "saturnslopedstainedglassOak"
+    },
+    "101": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassOak",
+      "//shortdescription": "Red Oak Glass",
+      "material": "saturnslopedstainedglassOak",
+      "colorVariant": "1"
+    },
+    "102": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassOak",
+      "//shortdescription": "Blue Oak Glass",
+      "material": "saturnslopedstainedglassOak",
+      "colorVariant": "6"
+    },
+    "103": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassOak",
+      "//shortdescription": "Green Oak Glass",
+      "material": "saturnslopedstainedglassOak",
+      "colorVariant": "4"
+    },
+    "104": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassOak",
+      "//shortdescription": "Yellow Oak Glass",
+      "material": "saturnslopedstainedglassOak",
+      "colorVariant": "3"
+    },
+    "105": {
+      "//description": "SPACER",
+      "//name": "tilesets have rows of 5, but theres 9 colors per tile",
+      "//shortdescription": "this stays black so everything stays nice and aligned",
+      "material": "saturncolorfulclaywalls"
+    },
+    "106": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassOak",
+      "//shortdescription": "Orange Oak Glass",
+      "material": "saturnslopedstainedglassOak",
+      "colorVariant": "2"
+    },
+    "107": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassOak",
+      "//shortdescription": "Purple Oak Glass",
+      "material": "saturnslopedstainedglassOak",
+      "colorVariant": "7"
+    },
+    "108": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassOak",
+      "//shortdescription": "Black Oak Glass",
+      "material": "saturnslopedstainedglassOak",
+      "colorVariant": "8"
+    },
+    "109": {
+      "//description": "",
+      "//name": "saturnslopedstainedglassOak",
+      "//shortdescription": "White Oak Glass",
+      "material": "saturnslopedstainedglassOak",
+      "colorVariant": "9"
+    }
+  },
+  "tiles": {
+    "0": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/shroomblock.png"
+    },
+    "1": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/shroomblock1.png"
+    },
+    "2": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/shroomblock2.png"
+    },
+    "3": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/shroomblock3.png"
+    },
+    "4": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/shroomblock4.png"
+    },
+    "5": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
+    },
+    "6": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/shroomblock5.png"
+    },
+    "7": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/shroomblock6.png"
+    },
+    "8": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/shroomblock7.png"
+    },
+    "9": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/shroomblock8.png"
+    },
+    "10": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock.png"
+    },
+    "11": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock1.png"
+    },
+    "12": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock5.png"
+    },
+    "13": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock4.png"
+    },
+    "14": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock3.png"
+    },
+    "15": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
+    },
+    "16": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock2.png"
+    },
+    "17": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock6.png"
+    },
+    "18": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock7.png"
+    },
+    "19": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock8.png"
+    },
+    "20": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock20.png"
+    },
+    "21": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock21.png"
+    },
+    "22": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock22.png"
+    },
+    "23": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock23.png"
+    },
+    "24": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock24.png"
+    },
+    "25": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
+    },
+    "26": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock25.png"
+    },
+    "27": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock26.png"
+    },
+    "28": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock27.png"
+    },
+    "29": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock28.png"
+    },
+    "30": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock30.png"
+    },
+    "31": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock31.png"
+    },
+    "32": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock32.png"
+    },
+    "33": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock33.png"
+    },
+    "34": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock34.png"
+    },
+    "35": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
+    },
+    "36": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock35.png"
+    },
+    "37": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock36.png"
+    },
+    "38": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock37.png"
+    },
+    "39": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock38.png"
+    },
+    "40": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnfungusstalk.png"
+    },
+    "41": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnfungusstalk1.png"
+    },
+    "42": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnfungusstalk2.png"
+    },
+    "43": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnfungusstalk3.png"
+    },
+    "44": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnfungusstalk4.png"
+    },
+    "45": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
+    },
+    "46": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnfungusstalk5.png"
+    },
+    "47": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnfungusstalk6.png"
+    },
+    "48": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnfungusstalk7.png"
+    },
+    "49": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnfungusstalk8.png"
+    },
+    "50": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedBronzeglass.png"
+    },
+    "51": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedBronzeglass1.png"
+    },
+    "52": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedBronzeglass5.png"
+    },
+    "53": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedBronzeglass4.png"
+    },
+    "54": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedBronzeglass3.png"
+    },
+    "55": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
+    },
+    "56": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedBronzeglass2.png"
+    },
+    "57": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedBronzeglass6.png"
+    },
+    "58": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedBronzeglass7.png"
+    },
+    "59": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedBronzeglass8.png"
+    },
+    "60": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedglass.png"
+    },
+    "61": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedglass1.png"
+    },
+    "62": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedglass5.png"
+    },
+    "63": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedglass4.png"
+    },
+    "64": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedglass3.png"
+    },
+    "65": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
+    },
+    "66": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedglass2.png"
+    },
+    "67": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedglass6.png"
+    },
+    "68": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedglass7.png"
+    },
+    "69": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedglass8.png"
+    },
+    "70": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglass.png"
+    },
+    "71": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglass1.png"
+    },
+    "72": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglass5.png"
+    },
+    "73": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglass4.png"
+    },
+    "74": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglass3.png"
+    },
+    "75": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
+    },
+    "76": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglass2.png"
+    },
+    "77": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglass6.png"
+    },
+    "78": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglass7.png"
+    },
+    "79": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglass8.png"
+    },
+    "80": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassBirch.png"
+    },
+    "81": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassBirch1.png"
+    },
+    "82": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassBirch5.png"
+    },
+    "83": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassBirch4.png"
+    },
+    "84": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassBirch3.png"
+    },
+    "85": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
+    },
+    "86": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassBirch2.png"
+    },
+    "87": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassBirch6.png"
+    },
+    "88": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassBirch7.png"
+    },
+    "89": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassBirch8.png"
+    },
+    "90": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassMaho.png"
+    },
+    "91": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassMaho1.png"
+    },
+    "92": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassMaho5.png"
+    },
+    "93": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassMaho4.png"
+    },
+    "94": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassMaho3.png"
+    },
+    "95": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
+    },
+    "96": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassMaho2.png"
+    },
+    "97": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassMaho6.png"
+    },
+    "98": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassMaho7.png"
+    },
+    "99": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassMaho8.png"
+    },
+    "100": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassOak.png"
+    },
+    "101": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassOak1.png"
+    },
+    "102": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassOak5.png"
+    },
+    "103": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassOak4.png"
+    },
+    "104": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassOak3.png"
+    },
+    "105": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
+    },
+    "106": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassOak2.png"
+    },
+    "107": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassOak6.png"
+    },
+    "108": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassOak7.png"
+    },
+    "109": {
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassOak8.png"
+    }
+  },
+  "tilewidth": 8
+}

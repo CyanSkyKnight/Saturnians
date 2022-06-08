@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"The Avian emblem for air. Air is really important to Saturnians too."}]
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "The Avian emblem for air. Air is really important to Saturnians too."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "The Avian emblem for air. It makes me long for the wind flowing through the trees of Actias."
+    }
+]

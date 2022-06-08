@@ -7,6 +7,6 @@
 {
 "op": "add",
 "path": "/saturn2Description",
-"value": "This stores pixels, but some will inexplicably vanish."
+"value": "This compresses pixels so they can be safely stored away."
 }
 ]

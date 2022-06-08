@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"There's a growth rune engraved into this stone, but why isn't it growing?"}]
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "There's a growth rune engraved into this stone, but why isn't it growing?"
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "This growth rune doesn't seem to work; I'm still the same size."
+    }
+]

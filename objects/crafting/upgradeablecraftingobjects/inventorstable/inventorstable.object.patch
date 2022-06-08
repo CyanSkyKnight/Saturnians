@@ -1,12 +1,42 @@
 [
-{
-"op": "add",
-"path": "/saturnDescription",
-"value": "It's a crafting table for crafting tables!"
-},
-{
-"op": "add",
-"path": "/saturn2Description",
-"value": "I can use this to blueprint crafting tables."
-}
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "It's a crafting table for crafting tables!"
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/0/itemSpawnParameters/saturnDescription",
+        "value": "It's a crafting table for crafting tables!"
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/1/itemSpawnParameters/saturnDescription",
+        "value": "A well kitted crafting table for producing advanced blueprints. It comes with a magnifying glass!"
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/2/itemSpawnParameters/saturnDescription",
+        "value": "A high-tech crafting station for producing high-tech crafting stations!"
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "It's a crafting table for crafting tables!"
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/0/itemSpawnParameters/saturn2Description",
+        "value": "It's a crafting table for crafting tables!"
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/1/itemSpawnParameters/saturn2Description",
+        "value": "A well kitted crafting table for producing advanced blueprints. It comes with a magnifying glass!"
+    },
+    {
+        "op": "add",
+        "path": "/upgradeStages/2/itemSpawnParameters/saturn2Description",
+        "value": "A high-tech crafting station for producing high-tech crafting stations!"
+    }
 ]

@@ -1,1 +1,6 @@
-[{"op":"add","path":"/saturnDescription","value":"Is this hatch handmade? It must have been fun to make."}]
+[{"op":"add","path":"/saturnDescription","value":"Is this hatch handmade? It must have been fun to make."},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "A simple wooden hatch like this would fit nicely in a tower."
+}]

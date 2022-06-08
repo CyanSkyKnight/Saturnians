@@ -14,7 +14,7 @@
   "animation" : "/items/active/weapons/Saturn Rapier/Saturnshortswordcombo.animation",
   "animationParts" : {
     "handle": "",
-    "blade" : "SaturnEpee.png"
+    "blade" : "SaturnEpeeSport.png"
   },
   "animationCustom" : {
     "sounds" : {

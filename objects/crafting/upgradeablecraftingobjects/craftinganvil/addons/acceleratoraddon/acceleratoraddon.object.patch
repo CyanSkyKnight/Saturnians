@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "This allows the replicator to summon the legendary bows and armors used by the Roc slayers of Solalei."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "I've heard the Roc slayers of Solalei use bows and armors similar to what this addon can conjure."
+    }
+]

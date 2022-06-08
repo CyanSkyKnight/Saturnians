@@ -1,7 +1,12 @@
 [
-{
-"op": "add",
-"path": "/saturnDescription",
-"value": "A station for excavating and displaying fossils."
-}
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "A station for excavating and displaying fossils."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "With these tools, I can extract bones and fossils for display or study."
+    }
 ]

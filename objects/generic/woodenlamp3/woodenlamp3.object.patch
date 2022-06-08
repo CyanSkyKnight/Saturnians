@@ -1,1 +1,6 @@
-[{"op":"add","path":"/saturnDescription","value":"A marvelous ceiling lamp."}]
+[{"op":"add","path":"/saturnDescription","value":"A marvelous ceiling lamp."},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "This lamp hangs from the celling like an upside down mushroom."
+}]

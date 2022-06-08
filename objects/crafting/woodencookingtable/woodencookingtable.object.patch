@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "All the tools I need to make some delicious dishes and drinks."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "With this, I can combine ingredients to conjure delicious flavours."
+    }
+]

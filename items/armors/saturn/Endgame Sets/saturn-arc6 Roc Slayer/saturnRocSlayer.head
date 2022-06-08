@@ -106,6 +106,6 @@
 	{ "ffca8a" : "FFFEF2FE", "e0975c" : "F9F1BBFE", "a85636" : "EDD289FE", "6f2919" : "D3AC6EFE" },
 	
 	//Dummy dye because the last on the list doesn't show on mannequins for some reason
-	{ "ffca8a" : "5EC2E7", "e0975c" : "ABACAD", "a85636" : "C0FFEE", "6f2919" : "1E91D0" }
+	{ "ffca8a" : "232323", "e0975c" : "131313", "a85636" : "040404", "6f2919" : "020202" }
   ]
 }

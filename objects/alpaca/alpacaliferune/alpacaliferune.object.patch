@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturndescription","value":"A rune for \"life\" is engraved into this stone, but it doesn't seem to have any real purpose."}]
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "A rune for \"life\" is engraved into this stone, but it doesn't seem to have any real purpose."
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "This rock is engraved with the rune of life, but it doesn't seem very alive."
+    }
+]

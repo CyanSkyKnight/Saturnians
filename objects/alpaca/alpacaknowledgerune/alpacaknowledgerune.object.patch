@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"It's the rune for knowledge. Did someone believe this would trick the rock into thinking?"}]
+[
+    {
+        "op": "add",
+        "path": "/saturnDescription",
+        "value": "It's the rune for knowledge. Did someone believe this would trick the rock into thinking?"
+    },
+    {
+        "op": "add",
+        "path": "/saturn2Description",
+        "value": "There's a rune of knowledge engraved into this rock. It must be very smart."
+    }
+]
