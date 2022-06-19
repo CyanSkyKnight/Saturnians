@@ -1,0 +1,159 @@
+{
+ 	"saturndebugAAhat" : [
+		[0, {
+			"fill" : [
+				{ "item" : [ "afrowighead", 1]},
+				{ "item" : [ "bananahead", 1]},
+				{ "item" : [ "bandithat1", 1]},
+				{ "item" : [ "bandithat2", 1]},
+				{ "item" : [ "bearhead", 1]},
+				{ "item" : [ "bedouinhead", 1]},
+				{ "item" : [ "beehivehead", 1]},
+				{ "item" : [ "berethead", 1]},
+				{ "item" : [ "bettyhead", 1]},
+				{ "item" : [ "bevhead", 1]},
+				{ "item" : [ "bioluminhead", 1]},
+				{ "item" : [ "bunnyhead", 1]},
+				{ "item" : [ "buzzyhead", 1]},
+				{ "item" : [ "caphead", 1]},
+				{ "item" : [ "captainshead", 1]},
+				{ "item" : [ "cardboardhead", 1]},
+				{ "item" : [ "carrothathead", 1]},
+				{ "item" : [ "causticstaghead", 1]},
+				{ "item" : [ "chefhead", 1]},
+				{ "item" : [ "clocktophathead", 1]}
+				
+				
+			]
+		} ]
+	],
+ 	"saturndebugAAhat2" : [
+		[0, {
+			"fill" : [
+				{ "item" : [ "coolshadeshead", 1]},
+				{ "item" : [ "copperarmorhead", 1]},
+				{ "item" : [ "cupidshead", 1]},
+				{ "item" : [ "darkdisguisehead", 1]},
+				{ "item" : [ "demonhornshead", 1]},
+				{ "item" : [ "dinosaurhead", 1]},
+				{ "item" : [ "divingmaskhead", 1]},
+				{ "item" : [ "electroniumhat", 1]},
+				{ "item" : [ "executionershead", 1]},
+				{ "item" : [ "eyehead", 1]},
+				{ "item" : [ "eyehead2", 1]},
+				{ "item" : [ "eyepatchhead", 1]},
+				{ "item" : [ "faceleechhead", 1]},
+				{ "item" : [ "fairyhead", 1]},
+				{ "item" : [ "fancaphead", 1]},
+				{ "item" : [ "fancyhead", 1]},
+				{ "item" : [ "fedorahead", 1]},
+				{ "item" : [ "firelordhead", 1]},
+				{ "item" : [ "floppyhathead", 1]},
+				{ "item" : [ "floweryhead", 1]}
+				
+				
+			]
+		} ]
+	],
+ 	"saturndebugAAhat3" : [
+		[0, {
+			"fill" : [
+				{ "item" : [ "foundrygoggleshead", 1]},
+				{ "item" : [ "foundryhardhathead", 1]},
+				{ "item" : [ "gasmaskhead", 1]},
+				{ "item" : [ "geodehead", 1]},
+				{ "item" : [ "giantbowhead", 1]},
+				{ "item" : [ "goldarmorhead", 1]},
+				{ "item" : [ "herocaphead", 1]},
+				{ "item" : [ "hobohead", 1]},
+				{ "item" : [ "icearmorhead", 1]},
+				{ "item" : [ "industrialcrewhead", 1]},
+				{ "item" : [ "kathoodhead", 1]},
+				{ "item" : [ "kittyhead", 1]},
+				{ "item" : [ "ladyhathead", 1]},
+				{ "item" : [ "lighthelmhead", 1]},
+				{ "item" : [ "luchadorhead", 1]},
+				{ "item" : [ "m1helmethead", 1]},
+				{ "item" : [ "mechpilothead", 1]},
+				{ "item" : [ "mercenaryhead", 1]},
+				{ "item" : [ "minerhead", 1]},
+				{ "item" : [ "miniknoghead", 1]}
+				
+				
+			]
+		} ]
+	],
+ 	"saturndebugAAhat4" : [
+		[0, {
+			"fill" : [
+				{ "item" : [ "mininghathead", 1]},
+				{ "item" : [ "moneybagshead", 1]},
+				{ "item" : [ "mrclaushead", 1]},
+				{ "item" : [ "multicamhat", 1]},
+				{ "item" : [ "pathfinderhead", 1]},
+				{ "item" : [ "penguinhead", 1]},
+				{ "item" : [ "phrygiancaphead", 1]},
+				{ "item" : [ "pipehat", 1]},
+				{ "item" : [ "plaguedoctorhead", 1]},
+				{ "item" : [ "plaguemasterhead", 1]},
+				{ "item" : [ "plainhoodhead", 1]},
+				{ "item" : [ "plumeknighthead", 1]},
+				{ "item" : [ "predatoryhead", 1]},
+				{ "item" : [ "protectorateflowerhead", 1]},
+				{ "item" : [ "pyramidhead", 1]},
+				{ "item" : [ "rainbowhoodhead", 1]},
+				{ "item" : [ "sabertoothhelm", 1]},
+				{ "item" : [ "safetyhelmethead", 1]},
+				{ "item" : [ "sensorysquidhathead", 1]},
+				{ "item" : [ "sharkhead", 1]}
+				
+				
+			]
+		} ]
+	],
+ 	"saturndebugAAhat5" : [
+		[0, {
+			"fill" : [
+				{ "item" : [ "silverarmorhead", 1]},
+				{ "item" : [ "slimehead", 1]},
+				{ "item" : [ "snorkelhead", 1]},
+				{ "item" : [ "snowinfantryhead", 1]},
+				{ "item" : [ "sombrerohead", 1]},
+				{ "item" : [ "soulguise", 1]},
+				{ "item" : [ "stargazer", 1]},
+				{ "item" : [ "steampunkhead", 1]},
+				{ "item" : [ "strawberryhead", 1]},
+				{ "item" : [ "swamphat", 1]},
+				{ "item" : [ "tarhead", 1]},
+				{ "item" : [ "teddyhead", 1]},
+				{ "item" : [ "thehrodgardhead", 1]},
+				{ "item" : [ "thinkingcaphead", 1]},
+				{ "item" : [ "tigerhead", 1]},
+				{ "item" : [ "trackerhead", 1]},
+				{ "item" : [ "tricornhat", 1]},
+				{ "item" : [ "uncathat", 1]},
+				{ "item" : [ "ushankahead", 1]},
+				{ "item" : [ "valkyriehelm", 1]}
+				
+				
+			]
+		} ]
+	],
+
+ 	"saturndebugAAhat6" : [
+		[0, {
+			"fill" : [
+				{ "item" : [ "valoroushead", 1]},
+				{ "item" : [ "venetianmaskhead", 1]},
+				{ "item" : [ "vikinghead", 1]},
+				{ "item" : [ "visorhead", 1]},
+				{ "item" : [ "voyagerhead", 1]},
+				{ "item" : [ "weldershelmethead", 1]},
+				{ "item" : [ "wighead", 1]}
+				
+				
+			]
+		} ]
+	]
+
+}
