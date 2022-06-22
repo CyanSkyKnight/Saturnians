@@ -8,6 +8,9 @@
   "description" : "A hood modeled after those worn by a necromancer cult.",
   "shortdescription" : "Necromage Hood",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

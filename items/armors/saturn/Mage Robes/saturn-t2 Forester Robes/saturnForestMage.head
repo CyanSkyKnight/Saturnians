@@ -8,6 +8,9 @@
   "description" : "A green hood covering a tungsten helmet. It smells of pine resin.",
   "shortdescription" : "Forest Armored Hood",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

@@ -8,6 +8,9 @@
   "description" : "Saturnians across many different cultures place spirals on many things. The reasons are unclear.",
   "shortdescription" : "Flux Hood",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
