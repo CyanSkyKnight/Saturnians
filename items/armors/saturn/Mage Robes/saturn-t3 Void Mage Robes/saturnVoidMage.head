@@ -9,7 +9,7 @@
   "shortdescription" : "Void Hood",
   "tooltipKind" : "armor",
   
- "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
   
   
   "maleFrames" : "head.png",

@@ -8,6 +8,9 @@
   "description" : "Usually worn by those who have just completed their metamorphosis. (Dye to add a circlet)",
   "shortdescription" : "Novice's Hood",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

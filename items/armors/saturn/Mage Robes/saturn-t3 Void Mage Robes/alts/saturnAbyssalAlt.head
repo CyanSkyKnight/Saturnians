@@ -8,6 +8,9 @@
   "description" : "A long hood with a cotton ball on the end. Or is it silk?",
   "shortdescription" : "Long Hood",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

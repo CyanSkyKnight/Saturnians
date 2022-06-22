@@ -8,6 +8,9 @@
   "description" : "Void Mages are best known for their teleportation magic, but they're also among the best lightning wizards.",
   "shortdescription" : "Ancient Void Hood",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
