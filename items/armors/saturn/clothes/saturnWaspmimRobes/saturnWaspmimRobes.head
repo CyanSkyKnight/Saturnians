@@ -8,6 +8,7 @@
   "description" : "Worn by Waspmim mages, who also worship the Great Bee. Buzz?",
   "shortdescription" : "Waspmim Hood",
   "tooltipKind" : "armor",
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

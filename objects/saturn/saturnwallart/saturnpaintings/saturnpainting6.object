@@ -1,0 +1,24 @@
+{
+  "objectName" : "saturnpainting6",
+  "colonyTags" : ["saturn", "pretty", "solalei", "saturnpaintings"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 70,
+  "description" : "A painting of the Archmage of Solalei, leader of the Saturnians.",
+  "saturnDescription" : "A painting of the archmage perched on top of the Staff of Solakinth.",
+  "saturn2Description" : "The Saturnian ruler has altered their appearance through light magic.",
+  "shortdescription" : "^#000250;^white;Archmage Painting",
+  "race" : "saturn",
+
+  "inventoryIcon" : "saturnpainting6icon.png",
+  "orientations" : [
+    {
+      "image" : "saturnpainting6.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

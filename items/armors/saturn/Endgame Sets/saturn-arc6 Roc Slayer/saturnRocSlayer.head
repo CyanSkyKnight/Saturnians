@@ -8,6 +8,9 @@
   "description" : "Mask of the legendary Roc Slayers.",
   "shortdescription" : "Roc Slayer's Mask",
   "tooltipKind" : "armor",
+    
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

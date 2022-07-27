@@ -8,6 +8,7 @@
   "description" : "A Peacekeeper uniform hat - worn by Peacekeepers on sunny days.",
   "shortdescription" : "^cyan;^white;Peacekeeper Hat",
   "tooltipKind" : "armor",
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

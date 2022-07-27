@@ -8,6 +8,9 @@
   "description" : "A kettle helm worn by royal archers.",
   "shortdescription" : "Regal Archer's Helm",
   "tooltipKind" : "armor",
+    
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

@@ -8,6 +8,9 @@
   "description" : "An old styled helmet worn by the Royal Sun Guard of Solalei.",
   "shortdescription" : "Royal Sun Guard Helm",
   "tooltipKind" : "armor",
+    
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
