@@ -8,6 +8,9 @@
   "description" : "The royal guard of Actias are guided by the moon. Their weapons of choice are magic, spirit-channeling scythes. ",
   "shortdescription" : "Moon Guard Helm",
   "tooltipKind" : "armor",
+    
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

@@ -8,6 +8,9 @@
   "description" : "A classic wizard hat worn by court wizards.",
   "shortdescription" : "Court Mage Hat",
   "tooltipKind" : "armor",
+    
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

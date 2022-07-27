@@ -8,6 +8,9 @@
   "description" : "The antennae are made from evolight, a glass material that seems to glow like sunlight.",
   "shortdescription" : "Light Wizard's Hood",
   "tooltipKind" : "armor",
+    
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

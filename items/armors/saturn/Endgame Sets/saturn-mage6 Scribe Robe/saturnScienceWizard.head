@@ -8,6 +8,9 @@
   "description" : "The metal antennas help the wearer be aware of their surroundings",
   "shortdescription" : "Sci Scribe Hood",
   "tooltipKind" : "armor",
+    
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

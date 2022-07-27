@@ -8,6 +8,7 @@
   "description" : "A hood.",
   "shortdescription" : "Villager's Hood",
   "tooltipKind" : "armor",
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

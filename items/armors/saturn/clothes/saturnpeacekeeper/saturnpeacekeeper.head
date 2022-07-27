@@ -8,6 +8,7 @@
   "description" : "A wizard hat designed to fit in with a Peacekeeper uniform.",
   "shortdescription" : "Peacekeeper Mage Hat",
   "tooltipKind" : "armor",
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
