@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "headwear",
-  "description" : "...",
+  "description" : "A menacing glow, or perhaps you are too close to a light.",
   "shortdescription" : "Glow Contacts",
   "tooltipKind" : "armor",
   "maleFrames" : "head.png",
