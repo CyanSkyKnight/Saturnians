@@ -8,6 +8,9 @@
   "description" : "A simple hood that outlines the wearer's face with white.",
   "shortdescription" : "Loose Hood",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

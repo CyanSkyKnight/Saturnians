@@ -1,0 +1,24 @@
+{
+  "itemName" : "saturnZZZPGIbubble",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1000,
+  "rarity" : "Common",
+  "category" : "block",
+  "description" : "This item was recalled for causing dimensional distortion. Click while holding to open.",
+  "shortdescription" : "Lamentably Specific Sphere",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "saturnZZZPGIbubble.png",
+  "animation" : "saturnBlockStack.animation",
+  "animationCustom" : {},
+  "scripts" : ["saturnBlockStack.lua"],
+
+  "fireTime" : 0.01,
+  "fireOffset" : [0.5, 0.0],
+
+  "treasure" : {
+    "pool" : "saturnZZZPGIbubble",
+    "level" : 1
+  }
+}

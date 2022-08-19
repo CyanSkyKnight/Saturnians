@@ -8,6 +8,9 @@
   "description" : "Some of the best void wizards fight by channeling magic through their fists.",
   "shortdescription" : "Shade Hat",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

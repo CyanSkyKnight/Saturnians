@@ -1,0 +1,24 @@
+{
+  "itemName" : "saturnVoidArmorchest",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1000,
+  "rarity" : "Legendary",
+  "category" : "block",
+  "description" : "OBJECT CONTAINED. DISTORTION REMOVED BY VOID MAGE. BREAK WHILE HOLDING TO REPAIR.",
+  "shortdescription" : "Midnight Robe Chest",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "saturnZZZPGIbubble.png",
+  "animation" : "saturnBlockStack.animation",
+  "animationCustom" : {},
+  "scripts" : ["saturnBlockStack.lua"],
+
+  "fireTime" : 0.01,
+  "fireOffset" : [0.5, 0.0],
+
+  "treasure" : {
+    "pool" : "saturnZZZPGIsaturnVoidArmorchest",
+    "level" : 1
+  }
+}

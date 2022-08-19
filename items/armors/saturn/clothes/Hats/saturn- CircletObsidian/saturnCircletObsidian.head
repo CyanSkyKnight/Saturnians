@@ -8,6 +8,9 @@
   "description" : "Obsidian is especially receptive to Saturnian magic, but collecting it is difficult.",
   "shortdescription" : "Obsidian Circlet",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
