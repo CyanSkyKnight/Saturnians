@@ -8,6 +8,9 @@
   "description" : "You would think we would be done with this joke by now...",
   "shortdescription" : "Lampshade Hat",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

@@ -8,6 +8,9 @@
   "description" : "A silver circlet with a shiny gemstone.",
   "shortdescription" : "Silver Circlet",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

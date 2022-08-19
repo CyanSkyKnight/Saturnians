@@ -8,6 +8,9 @@
   "description" : "A cap with some sort of circlet on it. It's a bit small.",
   "shortdescription" : "Sorcerer's Cap",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

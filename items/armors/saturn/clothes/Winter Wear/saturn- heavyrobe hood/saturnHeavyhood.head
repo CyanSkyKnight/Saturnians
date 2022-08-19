@@ -8,6 +8,9 @@
   "description" : "A large hood often seen in cold seasons.",
   "shortdescription" : "Winter Hood",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

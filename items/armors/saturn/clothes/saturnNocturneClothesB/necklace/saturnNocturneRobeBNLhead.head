@@ -8,6 +8,9 @@
   "description" : "Hoods like this are commonly worn by sky dwelling Saturnians.",
   "shortdescription" : "Sun Hood (Necklace)",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

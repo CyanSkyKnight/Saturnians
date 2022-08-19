@@ -8,6 +8,9 @@
   "description" : "A replica of the kind worn in the Northern Desert. It's weird not seeing it covered in sand.",
   "shortdescription" : "Kyterran Helm",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

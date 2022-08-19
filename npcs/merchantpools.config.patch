@@ -814,9 +814,9 @@
 	  { "item" : { "name" : "saturnSTebony" }},
 	  { "item" : { "name" : "saturnSTslopedpanel" }},
 	  
-	  { "item" : { "name" : "saturnVoidArmorhead" }},
-	  { "item" : { "name" : "saturnVoidArmorchest" }},
-	  { "item" : { "name" : "saturnVoidArmorpants" }},
+	  { "item" : { "name" : "saturnMidnightRobehead" }},
+	  { "item" : { "name" : "saturnMidnightRobechest" }},
+	  { "item" : { "name" : "saturnMidnightRobepants" }},
 
 	  { "item" : { "name" : "saturnWideShadyHat" }},
 	  { "item" : { "name" : "saturnCircletObsidian" }},

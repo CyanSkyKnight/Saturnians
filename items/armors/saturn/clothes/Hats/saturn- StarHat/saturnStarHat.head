@@ -8,6 +8,9 @@
   "description" : "A Glitch design rarely actually worn by glitch.",
   "shortdescription" : "Star Wizard Hat",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

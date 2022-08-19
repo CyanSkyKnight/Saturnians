@@ -8,6 +8,9 @@
   "description" : "A mask made to look like a Lumoth.",
   "shortdescription" : "Lumoth Mask",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

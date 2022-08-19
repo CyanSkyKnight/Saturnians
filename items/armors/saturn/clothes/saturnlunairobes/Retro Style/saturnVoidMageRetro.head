@@ -8,6 +8,9 @@
   "description" : "An old, long Void Mage's hood.",
   "shortdescription" : "Old Void Mage Hood",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

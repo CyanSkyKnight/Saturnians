@@ -1,0 +1,53 @@
+{
+   	"saturnZZZPGI" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "blackblock", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  
+//MidnightRobe---------------------------------------------------------------
+   	"saturnZZZPGIsaturnVoidArmorhead" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnMidnightRobehead", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  
+   	"saturnZZZPGIsaturnVoidArmorchest" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnMidnightRobechest", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+  
+   	"saturnZZZPGIsaturnVoidArmorpants" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnMidnightRobepants", 1]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ]
+  
+}
+
+
