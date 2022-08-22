@@ -8,6 +8,9 @@
     "description" : "(Dual Colored) A Glitch wizard's hat that has holes cut for antennae.",
   "shortdescription" : "^yellow;҂^white;Star Wizard Hat (Glasses)",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

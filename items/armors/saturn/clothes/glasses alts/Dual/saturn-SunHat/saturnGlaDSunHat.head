@@ -8,6 +8,9 @@
     "description" : "(Dual Colored) This hat is made from a soft material that can be easily dyed.",
   "shortdescription" : "Wide Sun Hat (Glasses)",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

@@ -8,6 +8,9 @@
   "description" : "Goggles and a hat worn together for experiments.",
   "shortdescription" : "^yellow;҂^white;Alchemist Hat Set",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

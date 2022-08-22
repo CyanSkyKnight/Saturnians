@@ -8,6 +8,9 @@
   "description" : "Protects your eyes and tints everything.",
   "shortdescription" : "Saturnian Huge Goggles",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

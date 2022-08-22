@@ -8,6 +8,9 @@
   "description" : "Who could this have possibly been made for?",
   "shortdescription" : "^yellow;҂^white;Big Wizard Hat",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

@@ -8,6 +8,9 @@
   "description" : "To make the wearer look like a professional chef.",
   "shortdescription" : "^yellow;҂^white;Saturnian Chef Hat",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

@@ -8,6 +8,9 @@
   "description" : "(Dual Colored) Hat of a dark wizard?",
   "shortdescription" : "Horned Wizard Hat (Glasses)",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

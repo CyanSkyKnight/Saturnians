@@ -8,6 +8,9 @@
   "description" : "An expensive looking hood, made of silk and gold thread.",
   "shortdescription" : "^yellow;҂^white;Ornate Hood",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
