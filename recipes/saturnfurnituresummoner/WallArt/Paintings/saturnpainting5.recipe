@@ -1,6 +1,6 @@
 {
   "input" : [
-	{ "item" : "canvas", "count" : 2 }
+	{ "item" : "canvas", "count" : 3 }
   ],
   "duration" : 0.005,
   "output" : { "item" : "saturnpainting5", "count" : 1 },

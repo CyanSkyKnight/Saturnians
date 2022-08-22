@@ -8,6 +8,9 @@
   "description" : "A wizard hat covered in paint.",
   "shortdescription" : "^yellow;҂^white;Art Wizard Hat",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",

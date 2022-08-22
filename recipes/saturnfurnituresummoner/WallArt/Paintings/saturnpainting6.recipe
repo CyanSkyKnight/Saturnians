@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "canvas", "count" : 5 }
+  ],
+  "duration" : 0.005,
+  "output" : { "item" : "saturnpainting6", "count" : 1 },
+  "groups" : [ "saturnart", "all" ]
+}

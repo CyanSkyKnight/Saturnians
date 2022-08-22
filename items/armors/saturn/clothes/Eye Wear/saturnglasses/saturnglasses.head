@@ -8,6 +8,9 @@
   "description" : " Large glasses for Saturnian eyes.",
   "shortdescription" : "Saturnian Round Glasses",
   "tooltipKind" : "armor",
+  
+  "builder" : "/armorAdapt/armorAdaptBuilder.lua",
+  
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
