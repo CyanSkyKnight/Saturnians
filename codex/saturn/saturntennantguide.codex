@@ -8,6 +8,8 @@
 	
     "Most Saturnians will not just show up to any colony deed you place. You need to ^#ffd24c;furnish^reset; a room for them with objects they like, a light source, and a door. The requirements listed in this book do not need to be exact, but sticking closer to them will give better results.",	
 	
+	"^#ff4000;ERRATUM^reset; :\nPrevious versions of this guide mentioned that tenants cared about the ^#ffd24c;number of objects of a type^reset;. Recent studies suggest that most tenants actually care about ^#ffd24c;how much space is devoted to these objects^reset;. If you are instructed to build with 6x of storage objects, for example, you should place enough storage objects to occupy roughly 6 standard galactic tiles.",	
+	
 	"General list:\n^#BC9262;-Saturnian Furniture: ^#8f8f8f;Nearly anything found in a Saturnian village or crafted with a Furniture Summoning Table. Almost all ebony/obsidian furniture.\n^#BC9262;-Waspmim Furniture: ^#8f8f8f;Banners/posters that the Waspmim put in their villages.\n^#BC9262;-Combat Objects: ^#8f8f8f;Does not need to be Saturnian made. Weapon chests, weapon displays. weapon racks, shield/armor displays. ",	
 	
 	"Kyterran Furniture: ^#BC9262;These objects are somewhat uncommon since Kyterrans are only recently traveling in space: ^#8f8f8f;\nSaturnian Bug Poster\nAsh Kyterran Painting\nSaturnian Spiral Banner\nKyterran Sword/Drill Banner",	
@@ -19,7 +21,7 @@
     "^cyan;Tenant Type:^reset; ^#ff8000;Waspmim Villager^reset;\nBuzz buzz BUZZ! Buzz buzz, buzz!\n^#ffd24c;Objects Needed:^reset;\n^#BC9262;-4x Saturnian Furniture ^#8f8f8f;(any)^#BC9262;\n-6x Waspmim Furniture ^#8f8f8f;(Examples: Waspmim banners or posters)",
 	
 //kyterran
-    "^cyan;Tenant Type:^reset; ^#b32d00;Kyterran Villager^reset;\n^#ffd24c;Objects Needed:^reset;\n^#BC9262;-1x Kyterran Furniture ^#8f8f8f;(page 4)^#BC9262;^#BC9262;\n-6x Mining Objects ^#8f8f8f;(Examples: Lunar base mining gear)",
+    "^cyan;Tenant Type:^reset; ^#b32d00;Kyterran Villager^reset;\n^#ffd24c;Objects Needed:^reset;\n^#BC9262;-1x Kyterran Furniture ^#8f8f8f;(page 5)^#BC9262;^#BC9262;\n-6x Mining Objects ^#8f8f8f;(Examples: Lunar base mining gear)",
 
 //Guards
     "^#ffd24c;~Guard Tenants~^reset;\n^cyan;Tenant Type:^reset; ^#BC9262;Town Guard^reset;\nTown guards can have a wide variety of weapons. Will be Lv. 1 unless you add 6 tiered furniture objects, or a ^cyan;Defense Gem^reset;\n^#ffd24c;Objects Needed:^reset;\n^#BC9262;-6x Saturnian Furniture ^#8f8f8f;(any)^#BC9262;\n-8x Combat Objects ^#8f8f8f;(Weapon chests and displays)\n^#ffd24c;Needed for higher level guards:\n^#BC9262;-6x Furniture made from ^#ff4c4d;one^#BC9262; of these:^reset;\nL2-Tungsten L3-Titanium L4-Durasteel\n^reset;^#ff4c4d;OR ^#ffd24c;-1x Ferozium/Solarium Defense Gem for L5/L6",
@@ -28,7 +30,7 @@
 	
     "^cyan;Tenant Type:^reset; ^#ff8000;Waspmim Guard^reset;\nWaspmim guards prefer spears and lances, but may also use bee firing batons. Buzz buzz BUZZ!\n^#ffd24c;Objects Needed:^reset;\n^#BC9262;-4x Saturnian Furniture ^#8f8f8f;(any)^#BC9262;\n-4x Waspmim Furniture ^#8f8f8f;(Examples: Waspmim banners or posters)^#BC9262;\n-4x Combat Objects ^#8f8f8f;(Weapon chests and displays)\n^#ffd24c;Needed for higher level guards:\n^#BC9262;-4x Furniture made from ^#ff4c4d;one^#BC9262; of these:^reset;\nL2-Tungsten L3-Titanium L4-Durasteel\n^reset;^#ff4c4d;OR ^#ffd24c;-1x Ferozium/Solarium Defense Gem for L5/L6",
 	
-    "^cyan;Tenant Type:^reset; ^#b32d00;Kyterran Guard^reset;\nKyterran guards use war picks, axes, and bows.\n^#ffd24c;Objects Needed:^reset;\n^#BC9262;-1x Kyterran Furniture ^#8f8f8f;(page 4)^#BC9262;\n-6x Mining Objects ^#8f8f8f;(Examples: Lunar base mining gear)^#BC9262;\n-4x Combat Objects ^#8f8f8f;(Weapon chests and displays)\n^#ffd24c;Needed for higher level guards:\n^#BC9262;-4x Furniture made from ^#ff4c4d;one^#BC9262; of these:^reset;\nL2-Tungsten L3-Titanium L4-Durasteel\n^reset;^#ff4c4d;OR ^#ffd24c;-1x Ferozium/Solarium Defense Gem for L5/L6",
+    "^cyan;Tenant Type:^reset; ^#b32d00;Kyterran Guard^reset;\nKyterran guards use war picks, axes, and bows.\n^#ffd24c;Objects Needed:^reset;\n^#BC9262;-1x Kyterran Furniture ^#8f8f8f;(page 5)^#BC9262;\n-6x Mining Objects ^#8f8f8f;(Examples: Lunar base mining gear)^#BC9262;\n-4x Combat Objects ^#8f8f8f;(Weapon chests and displays)\n^#ffd24c;Needed for higher level guards:\n^#BC9262;-4x Furniture made from ^#ff4c4d;one^#BC9262; of these:^reset;\nL2-Tungsten L3-Titanium L4-Durasteel\n^reset;^#ff4c4d;OR ^#ffd24c;-1x Ferozium/Solarium Defense Gem for L5/L6",
 	
 //merchants
     "^#ffd24c;~Merchant Tenants~^reset;\n^cyan;Tenant Type:^reset; ^#BC9262;General Merchant^reset;\nSells a variety of things. \n^#ffd24c;Objects Needed:^reset;\n^#BC9262;-8x Saturnian Furniture ^#8f8f8f;(any)^#BC9262;\n-8x Storage Objects\n-8x Commerce Objects^#8f8f8f;(Desks, Crates)^#BC9262;",
@@ -49,13 +51,13 @@
 
     "^cyan;Tenant Type:^reset; ^cyan;Solalei Smith (Saturnian)^reset;\nSells a mixture of Saturnian and Kyterran weapons and armor. \n^#ffd24c;Objects Needed:^reset;\n^#BC9262;-6x Saturnian Furniture ^#8f8f8f;(any)^#BC9262;\n-4x Crafting Tables ^#8f8f8f;(Anvils, Furnaces, Inventor's Tables, etc)^#BC9262;",
 	
-    "^cyan;Tenant Type:^reset; ^cyan;Solalei Smith (Kyterran)^reset;\nSells a mixture of Saturnian and Kyterran weapons and armor. \n^#ffd24c;Objects Needed:^reset;\n^#BC9262;-1x Kyterran Furniture ^#8f8f8f;(page 4)^#BC9262;\n-4x Crafting Tables ^#8f8f8f;(Anvils, Furnaces, Inventor's Tables, etc)^#BC9262;\n-6x Mining Objects ^#8f8f8f;(Examples: Lunar base mining gear)",
+    "^cyan;Tenant Type:^reset; ^cyan;Solalei Smith (Kyterran)^reset;\nSells a mixture of Saturnian and Kyterran weapons and armor. \n^#ffd24c;Objects Needed:^reset;\n^#BC9262;-1x Kyterran Furniture ^#8f8f8f;(page 5)^#BC9262;\n-4x Crafting Tables ^#8f8f8f;(Anvils, Furnaces, Inventor's Tables, etc)^#BC9262;\n-6x Mining Objects ^#8f8f8f;(Examples: Lunar base mining gear)",
 	
     "^cyan;Tenant Type:^reset; ^#ff8000;Waspmim Wizard^reset;\nSells Waspmim weapons and whatever they had laying around at their last store. \n^#ffd24c;Objects Needed:^reset;\n^#BC9262;-4x Saturnian Furniture ^#8f8f8f;(any)^#BC9262;\n-6x Waspmim Furniture ^#8f8f8f;(Examples: Waspmim banners or posters)^#BC9262;\n-6x Magic Objects ^#8f8f8f;(Crystal Balls, Staff Cases, Mage Banners/posters, Enchanter's/Crystal Book)^#BC9262;",
 	
 //special
 
-    "(This page appears to have had ink spilled all over it.)\n^cyan;-------^reset; ^#660000;M-t-ma-^reset;\n^#20202f;Friend?^reset;\n^#ff7373;________^reset;\n^#8f8f8f;-2x Saturn-- Furn--re (any)\n^#20202f;-0-^reset; ^#8f8f8f;Li--- ---rces^reset;\n^#8f8f8f;-4x S---ow ----iture (midnight, obj---- like sha--- -hests and ---dow --imes.)^reset;",
+    "(This page appears to have had ink spilled all over it.)\n^cyan;-------^reset; ^#660000;M-t--an^reset;\n^#20202f;Friend?^reset;\n^#ff7373;________^reset;\n^#8f8f8f;-2x Saturn-- Furn--re (any)\n^#20202f;-0-^reset; ^#8f8f8f;Li--- ---rces^reset;\n^#8f8f8f;-4x S---ow ----iture (midnight, obj---- like sha--- -hests and ---dow --imes.)^reset;",
 	
     "^#ffd24c;(Unlike the rest of the guide, this page appears to have been handwritten.) ^reset;\n^cyan;tennat typ:^reset; ^#ffff73;lumoth?^reset;\nplease giv light. \n^#ffd24c;needed:^reset;\n^#BC9262;~2x saturnian furniture ^#8f8f8f;(pls)^#BC9262;\n^#ffd24c;~50x ^#BC9262;light sources ^#ffd24c;(vry important!!!)^reset;",
 	
