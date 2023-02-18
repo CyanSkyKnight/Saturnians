@@ -1,10 +1,10 @@
 {
   "materialId" : 54748,
-  "materialName" : "saturnshroomblock3",
+  "materialName" : "saturnshroomdust",
   "particleColor" : [234, 231, 222, 255],
-  "itemDrop" : "saturnshroomblock3",
-  "description" : "A block made of soft fungus.",
-  "shortdescription" : "Dusty Fungus Block",
+  "itemDrop" : "saturnshroomdust",
+  "description" : "A block made of soft, dusty fungus.",
+  "shortdescription" : "Dust Tuft Block",
   "glitchDescription" : "Intrigued. Although assembled as a block, this mushroom is alive.",
   "floranDescription" : "Lovely mushroomss.",
   "novakidDescription" : "Ain't that somethin'. Seems this block is made from mushrooms.",
@@ -14,7 +14,7 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "saturnshroomblock3.png",
+    "texture" : "saturnshroomdust.png",
     "variants" : 14,
     "lightTransparent" : false,
     "occludesBelow" : true,

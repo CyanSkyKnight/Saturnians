@@ -4,7 +4,7 @@
   "name": "saturnianTilesMushroom",
   "properties": {},
   "spacing": 0,
-  "tilecount": 110,
+  "tilecount": 80,
   "tileheight": 8,
   "tileproperties": {
     "0": {
@@ -77,36 +77,36 @@
     },
     "10": {
       "//description": "",
-      "//name": "saturnshroomblock",
-      "//shortdescription": "Bright Fungus",
-      "material": "saturnshroomblock"
+      "//name": "saturnshroomfairy",
+      "//shortdescription": "Cyan Fairy Shroom",
+      "material": "saturnshroomfairy"
     },
     "11": {
       "//description": "",
-      "//name": "saturnshroomblock",
-      "//shortdescription": "Red Bright Fungus",
-      "material": "saturnshroomblock",
+      "//name": "saturnshroomfairy",
+      "//shortdescription": "Red Fairy Shroom",
+      "material": "saturnshroomfairy",
       "colorVariant": "1"
     },
     "12": {
       "//description": "",
-      "//name": "saturnshroomblock",
-      "//shortdescription": "Blue Bright Fungus",
-      "material": "saturnshroomblock",
+      "//name": "saturnshroomfairy",
+      "//shortdescription": "Blue Fairy Shroom",
+      "material": "saturnshroomfairy",
       "colorVariant": "2"
     },
     "13": {
       "//description": "",
-      "//name": "saturnshroomblock",
-      "//shortdescription": "Green Bright Fungus",
-      "material": "saturnshroomblock",
+      "//name": "saturnshroomfairy",
+      "//shortdescription": "Green Fairy Shroom",
+      "material": "saturnshroomfairy",
       "colorVariant": "3"
     },
     "14": {
       "//description": "",
-      "//name": "saturnshroomblock",
-      "//shortdescription": "Yellow Bright Fungus",
-      "material": "saturnshroomblock",
+      "//name": "saturnshroomfairy",
+      "//shortdescription": "Yellow Fairy Shroom",
+      "material": "saturnshroomfairy",
       "colorVariant": "4"
     },
     "15": {
@@ -117,64 +117,64 @@
     },
     "16": {
       "//description": "",
-      "//name": "saturnshroomblock",
-      "//shortdescription": "Orange Bright Fungus",
-      "material": "saturnshroomblock",
+      "//name": "saturnshroomfairy",
+      "//shortdescription": "Orange Fairy Shroom",
+      "material": "saturnshroomfairy",
       "colorVariant": "5"
     },
     "17": {
       "//description": "",
-      "//name": "saturnshroomblock",
-      "//shortdescription": "Purple Bright Fungus",
-      "material": "saturnshroomblock",
+      "//name": "saturnshroomfairy",
+      "//shortdescription": "Purple Fairy Shroom",
+      "material": "saturnshroomfairy",
       "colorVariant": "6"
     },
     "18": {
       "//description": "",
-      "//name": "saturnshroomblock",
-      "//shortdescription": "Black Bright Fungus",
-      "material": "saturnshroomblock",
+      "//name": "saturnshroomfairy",
+      "//shortdescription": "Black Fairy Shroom",
+      "material": "saturnshroomfairy",
       "colorVariant": "7"
     },
     "19": {
       "//description": "",
-      "//name": "saturnshroomblock",
-      "//shortdescription": "White Bright Fungus",
-      "material": "saturnshroomblock",
+      "//name": "saturnshroomfairy",
+      "//shortdescription": "White Fairy Shroom",
+      "material": "saturnshroomfairy",
       "colorVariant": "8"
     },
     "20": {
       "//description": "",
-      "//name": "saturnshroomblock2",
-      "//shortdescription": "Pastel Fungus",
-      "material": "saturnshroomblock2"
+      "//name": "saturnshroommist",
+      "//shortdescription": "Mistbell",
+      "material": "saturnshroommist"
     },
     "21": {
       "//description": "",
-      "//name": "saturnshroomblock2",
-      "//shortdescription": "Red Pastel Fungus",
-      "material": "saturnshroomblock2",
+      "//name": "saturnshroommist",
+      "//shortdescription": "Red Mistbell",
+      "material": "saturnshroommist",
       "colorVariant": "1"
     },
     "22": {
       "//description": "",
-      "//name": "saturnshroomblock2",
-      "//shortdescription": "Blue Pastel Fungus",
-      "material": "saturnshroomblock2",
+      "//name": "saturnshroommist",
+      "//shortdescription": "Blue Mistbell",
+      "material": "saturnshroommist",
       "colorVariant": "2"
     },
     "23": {
       "//description": "",
-      "//name": "saturnshroomblock2",
-      "//shortdescription": "Green Pastel Fungus",
-      "material": "saturnshroomblock2",
+      "//name": "saturnshroommist",
+      "//shortdescription": "Green Mistbell",
+      "material": "saturnshroommist",
       "colorVariant": "3"
     },
     "24": {
       "//description": "",
-      "//name": "saturnshroomblock2",
-      "//shortdescription": "Yellow Pastel Fungus",
-      "material": "saturnshroomblock2",
+      "//name": "saturnshroommist",
+      "//shortdescription": "Yellow Mistbell",
+      "material": "saturnshroommist",
       "colorVariant": "4"
     },
     "25": {
@@ -185,64 +185,64 @@
     },
     "26": {
       "//description": "",
-      "//name": "saturnshroomblock2",
-      "//shortdescription": "Orange Pastel Fungus",
-      "material": "saturnshroomblock2",
+      "//name": "saturnshroommist",
+      "//shortdescription": "Orange Mistbell",
+      "material": "saturnshroommist",
       "colorVariant": "5"
     },
     "27": {
       "//description": "",
-      "//name": "saturnshroomblock2",
-      "//shortdescription": "Purple Pastel Fungus",
-      "material": "saturnshroomblock2",
+      "//name": "saturnshroommist",
+      "//shortdescription": "Purple Mistbell",
+      "material": "saturnshroommist",
       "colorVariant": "6"
     },
     "28": {
       "//description": "",
-      "//name": "saturnshroomblock2",
-      "//shortdescription": "Black Pastel Fungus",
-      "material": "saturnshroomblock2",
+      "//name": "saturnshroommist",
+      "//shortdescription": "Black Mistbell",
+      "material": "saturnshroommist",
       "colorVariant": "7"
     },
     "29": {
       "//description": "",
-      "//name": "saturnshroomblock2",
-      "//shortdescription": "White Pastel Fungus",
-      "material": "saturnshroomblock2",
+      "//name": "saturnshroommist",
+      "//shortdescription": "White Mistbell",
+      "material": "saturnshroommist",
       "colorVariant": "8"
     },
     "30": {
       "//description": "",
-      "//name": "saturnshroomblock3",
+      "//name": "saturnshroomdust",
       "//shortdescription": "Dusty Fungus",
-      "material": "saturnshroomblock3"
+      "material": "saturnshroomdust"
     },
     "31": {
       "//description": "",
-      "//name": "saturnshroomblock3",
+      "//name": "saturnshroomdust",
       "//shortdescription": "Red Dusty Fungus",
-      "material": "saturnshroomblock3",
+      "material": "saturnshroomdust",
       "colorVariant": "1"
     },
     "32": {
       "//description": "",
-      "//name": "saturnshroomblock3",
+      "//name": "saturnshroomdust",
       "//shortdescription": "Blue Dusty Fungus",
-      "material": "saturnshroomblock3",
+      "material": "saturnshroomdust",
       "colorVariant": "2"
     },
     "33": {
       "//description": "",
-      "//name": "saturnshroomblock3",
+      "//name": "saturnshroomdust",
       "//shortdescription": "Green Dusty Fungus",
-      "material": "saturnshroomblock3",
+      "material": "saturnshroomdust",
       "colorVariant": "3"
     },
     "34": {
       "//description": "",
-      "//name": "saturnshroomblock3",
+      "//name": "saturnshroomdust",
       "//shortdescription": "Yellow Dusty Fungus",
-      "material": "saturnshroomblock3",
+      "material": "saturnshroomdust",
       "colorVariant": "4"
     },
     "35": {
@@ -253,65 +253,65 @@
     },
     "36": {
       "//description": "",
-      "//name": "saturnshroomblock3",
+      "//name": "saturnshroomdust",
       "//shortdescription": "Orange Dusty Fungus",
-      "material": "saturnshroomblock3",
+      "material": "saturnshroomdust",
       "colorVariant": "5"
     },
     "37": {
       "//description": "",
-      "//name": "saturnshroomblock3",
+      "//name": "saturnshroomdust",
       "//shortdescription": "Purple Dusty Fungus",
-      "material": "saturnshroomblock3",
+      "material": "saturnshroomdust",
       "colorVariant": "6"
     },
     "38": {
       "//description": "",
-      "//name": "saturnshroomblock3",
+      "//name": "saturnshroomdust",
       "//shortdescription": "Black Dusty Fungus",
-      "material": "saturnshroomblock3",
+      "material": "saturnshroomdust",
       "colorVariant": "7"
     },
     "39": {
       "//description": "",
-      "//name": "saturnshroomblock3",
+      "//name": "saturnshroomdust",
       "//shortdescription": "White Dusty Fungus",
-      "material": "saturnshroomblock3",
+      "material": "saturnshroomdust",
       "colorVariant": "8"
     },
     "40": {
       "//description": "",
-      "//name": "saturnfungusstalk",
-      "//shortdescription": "Fungus Stalk",
-      "material": "saturnfungusstalk"
+      "//name": "saturnshroomash",
+      "//shortdescription": "Ashroom",
+      "material": "saturnshroomash"
     },
     "41": {
       "//description": "",
-      "//name": "saturnfungusstalk",
-      "//shortdescription": "Red Fungus Stalk",
-      "material": "saturnfungusstalk",
+      "//name": "saturnshroomash",
+      "//shortdescription": "Red Ashroom",
+      "material": "saturnshroomash",
       "colorVariant": "1"
     },
     "42": {
       "//description": "",
-      "//name": "saturnfungusstalk",
-      "//shortdescription": "Blue Fungus Stalk",
-      "material": "saturnfungusstalk",
-      "colorVariant": "6"
+      "//name": "saturnshroomash",
+      "//shortdescription": "Blue Ashroom",
+      "material": "saturnshroomash",
+      "colorVariant": "2"
     },
     "43": {
       "//description": "",
-      "//name": "saturnfungusstalk",
-      "//shortdescription": "Green Fungus Stalk",
-      "material": "saturnfungusstalk",
-      "colorVariant": "4"
+      "//name": "saturnshroomash",
+      "//shortdescription": "Green Ashroom",
+      "material": "saturnshroomash",
+      "colorVariant": "3"
     },
     "44": {
       "//description": "",
-      "//name": "saturnfungusstalk",
-      "//shortdescription": "Yellow Fungus Stalk",
-      "material": "saturnfungusstalk",
-      "colorVariant": "3"
+      "//name": "saturnshroomash",
+      "//shortdescription": "Yellow Ashroom",
+      "material": "saturnshroomash",
+      "colorVariant": "4"
     },
     "45": {
       "//description": "SPACER",
@@ -321,65 +321,65 @@
     },
     "46": {
       "//description": "",
-      "//name": "saturnfungusstalk",
-      "//shortdescription": "Orange Fungus Stalk",
-      "material": "saturnfungusstalk",
-      "colorVariant": "2"
+      "//name": "saturnshroomash",
+      "//shortdescription": "Orange Ashroom",
+      "material": "saturnshroomash",
+      "colorVariant": "5"
     },
     "47": {
       "//description": "",
-      "//name": "saturnfungusstalk",
-      "//shortdescription": "Purple Fungus Stalk",
-      "material": "saturnfungusstalk",
-      "colorVariant": "7"
+      "//name": "saturnshroomash",
+      "//shortdescription": "Purple Ashroom",
+      "material": "saturnshroomash",
+      "colorVariant": "6"
     },
     "48": {
       "//description": "",
-      "//name": "saturnfungusstalk",
-      "//shortdescription": "Black Fungus Stalk",
-      "material": "saturnfungusstalk",
-      "colorVariant": "8"
+      "//name": "saturnshroomash",
+      "//shortdescription": "Black Ashroom",
+      "material": "saturnshroomash",
+      "colorVariant": "7"
     },
     "49": {
       "//description": "",
-      "//name": "saturnfungusstalk",
-      "//shortdescription": "White Fungus Stalk",
-      "material": "saturnfungusstalk",
-      "colorVariant": "9"
+      "//name": "saturnshroomash",
+      "//shortdescription": "White Ashroom",
+      "material": "saturnshroomash",
+      "colorVariant": "8"
     },
     "50": {
       "//description": "",
-      "//name": "saturnslopedBronzeglass",
-      "//shortdescription": "Bronze Glass",
-      "material": "saturnslopedBronzeglass"
+      "//name": "saturnfungusstalk",
+      "//shortdescription": "Fungal Stalk",
+      "material": "saturnfungusstalk"
     },
     "51": {
       "//description": "",
-      "//name": "saturnslopedBronzeglass",
-      "//shortdescription": "Red Bronze Glass",
-      "material": "saturnslopedBronzeglass",
+      "//name": "saturnfungusstalk",
+      "//shortdescription": "Red Fungal Stalk",
+      "material": "saturnfungusstalk",
       "colorVariant": "1"
     },
     "52": {
       "//description": "",
-      "//name": "saturnslopedBronzeglass",
-      "//shortdescription": "Blue Bronze Glass",
-      "material": "saturnslopedBronzeglass",
-      "colorVariant": "6"
+      "//name": "saturnfungusstalk",
+      "//shortdescription": "Blue Fungal Stalk",
+      "material": "saturnfungusstalk",
+      "colorVariant": "2"
     },
     "53": {
       "//description": "",
-      "//name": "saturnslopedBronzeglass",
-      "//shortdescription": "Green Bronze Glass",
-      "material": "saturnslopedBronzeglass",
-      "colorVariant": "4"
+      "//name": "saturnfungusstalk",
+      "//shortdescription": "Green Fungal Stalk",
+      "material": "saturnfungusstalk",
+      "colorVariant": "3"
     },
     "54": {
       "//description": "",
-      "//name": "saturnslopedBronzeglass",
-      "//shortdescription": "Yellow Bronze Glass",
-      "material": "saturnslopedBronzeglass",
-      "colorVariant": "3"
+      "//name": "saturnfungusstalk",
+      "//shortdescription": "Yellow Fungal Stalk",
+      "material": "saturnfungusstalk",
+      "colorVariant": "4"
     },
     "55": {
       "//description": "SPACER",
@@ -389,65 +389,65 @@
     },
     "56": {
       "//description": "",
-      "//name": "saturnslopedBronzeglass",
-      "//shortdescription": "Orange Bronze Glass",
-      "material": "saturnslopedBronzeglass",
-      "colorVariant": "2"
+      "//name": "saturnfungusstalk",
+      "//shortdescription": "Orange Fungal Stalk",
+      "material": "saturnfungusstalk",
+      "colorVariant": "5"
     },
     "57": {
       "//description": "",
-      "//name": "saturnslopedBronzeglass",
-      "//shortdescription": "Purple Bronze Glass",
-      "material": "saturnslopedBronzeglass",
-      "colorVariant": "7"
+      "//name": "saturnfungusstalk",
+      "//shortdescription": "Purple Fungal Stalk",
+      "material": "saturnfungusstalk",
+      "colorVariant": "6"
     },
     "58": {
       "//description": "",
-      "//name": "saturnslopedBronzeglass",
-      "//shortdescription": "Black Bronze Glass",
-      "material": "saturnslopedBronzeglass",
-      "colorVariant": "8"
+      "//name": "saturnfungusstalk",
+      "//shortdescription": "Black Fungal Stalk",
+      "material": "saturnfungusstalk",
+      "colorVariant": "7"
     },
     "59": {
       "//description": "",
-      "//name": "saturnslopedBronzeglass",
-      "//shortdescription": "White Bronze Glass",
-      "material": "saturnslopedBronzeglass",
-      "colorVariant": "9"
+      "//name": "saturnfungusstalk",
+      "//shortdescription": "White Fungal Stalk",
+      "material": "saturnfungusstalk",
+      "colorVariant": "8"
     },
     "60": {
       "//description": "",
-      "//name": "saturnslopedglass",
-      "//shortdescription": "Brass Glass",
-      "material": "saturnslopedglass"
+      "//name": "saturnfungusgills",
+      "//shortdescription": "Fungal Gills",
+      "material": "saturnfungusgills"
     },
     "61": {
       "//description": "",
-      "//name": "saturnslopedglass",
-      "//shortdescription": "Red Brass Glass",
-      "material": "saturnslopedglass",
+      "//name": "saturnfungusgills",
+      "//shortdescription": "Red Fungal Gills",
+      "material": "saturnfungusgills",
       "colorVariant": "1"
     },
     "62": {
       "//description": "",
-      "//name": "saturnslopedglass",
-      "//shortdescription": "Blue Brass Glass",
-      "material": "saturnslopedglass",
-      "colorVariant": "6"
+      "//name": "saturnfungusgills",
+      "//shortdescription": "Blue Fungal Gills",
+      "material": "saturnfungusgills",
+      "colorVariant": "2"
     },
     "63": {
       "//description": "",
-      "//name": "saturnslopedglass",
-      "//shortdescription": "Green Brass Glass",
-      "material": "saturnslopedglass",
-      "colorVariant": "4"
+      "//name": "saturnfungusgills",
+      "//shortdescription": "Green Fungal Gills",
+      "material": "saturnfungusgills",
+      "colorVariant": "3"
     },
     "64": {
       "//description": "",
-      "//name": "saturnslopedglass",
-      "//shortdescription": "Yellow Brass Glass",
-      "material": "saturnslopedglass",
-      "colorVariant": "3"
+      "//name": "saturnfungusgills",
+      "//shortdescription": "Yellow Fungal Gills",
+      "material": "saturnfungusgills",
+      "colorVariant": "4"
     },
     "65": {
       "//description": "SPACER",
@@ -457,65 +457,65 @@
     },
     "66": {
       "//description": "",
-      "//name": "saturnslopedglass",
-      "//shortdescription": "Orange Brass Glass",
-      "material": "saturnslopedglass",
-      "colorVariant": "2"
+      "//name": "saturnfungusgills",
+      "//shortdescription": "Orange Fungal Gills",
+      "material": "saturnfungusgills",
+      "colorVariant": "5"
     },
     "67": {
       "//description": "",
-      "//name": "saturnslopedglass",
-      "//shortdescription": "Purple Brass Glass",
-      "material": "saturnslopedglass",
-      "colorVariant": "7"
+      "//name": "saturnfungusgills",
+      "//shortdescription": "Purple Fungal Gills",
+      "material": "saturnfungusgills",
+      "colorVariant": "6"
     },
     "68": {
       "//description": "",
-      "//name": "saturnslopedglass",
-      "//shortdescription": "Black Brass Glass",
-      "material": "saturnslopedglass",
-      "colorVariant": "8"
+      "//name": "saturnfungusgills",
+      "//shortdescription": "Black Fungal Gills",
+      "material": "saturnfungusgills",
+      "colorVariant": "7"
     },
     "69": {
       "//description": "",
-      "//name": "saturnslopedglass",
-      "//shortdescription": "White Brass Glass",
-      "material": "saturnslopedglass",
-      "colorVariant": "9"
+      "//name": "saturnfungusgills",
+      "//shortdescription": "White Fungal Gills",
+      "material": "saturnfungusgills",
+      "colorVariant": "8"
     },
     "70": {
       "//description": "",
-      "//name": "saturnslopedstainedglass",
-      "//shortdescription": "Ebony Glass",
-      "material": "saturnslopedstainedglass"
+      "//name": "saturnshroompores",
+      "//shortdescription": "Fungal Pores",
+      "material": "saturnshroompores"
     },
     "71": {
       "//description": "",
-      "//name": "saturnslopedstainedglass",
-      "//shortdescription": "Red Ebony Glass",
-      "material": "saturnslopedstainedglass",
+      "//name": "saturnshroompores",
+      "//shortdescription": "Red Fungal Pores",
+      "material": "saturnshroompores",
       "colorVariant": "1"
     },
     "72": {
       "//description": "",
-      "//name": "saturnslopedstainedglass",
-      "//shortdescription": "Blue Ebony Glass",
-      "material": "saturnslopedstainedglass",
-      "colorVariant": "6"
+      "//name": "saturnshroompores",
+      "//shortdescription": "Blue Fungal Pores",
+      "material": "saturnshroompores",
+      "colorVariant": "2"
     },
     "73": {
       "//description": "",
-      "//name": "saturnslopedstainedglass",
-      "//shortdescription": "Green Ebony Glass",
-      "material": "saturnslopedstainedglass",
-      "colorVariant": "4"
+      "//name": "saturnshroompores",
+      "//shortdescription": "Green Fungal Pores",
+      "material": "saturnshroompores",
+      "colorVariant": "3"
     },
     "74": {
       "//description": "",
-      "//name": "saturnslopedstainedglass",
-      "//shortdescription": "Yellow Ebony Glass",
-      "material": "saturnslopedstainedglass",
-      "colorVariant": "3"
+      "//name": "saturnshroompores",
+      "//shortdescription": "Yellow Fungal Pores",
+      "material": "saturnshroompores",
+      "colorVariant": "4"
     },
     "75": {
       "//description": "SPACER",
@@ -525,567 +525,273 @@
     },
     "76": {
       "//description": "",
-      "//name": "saturnslopedstainedglass",
-      "//shortdescription": "Orange Ebony Glass",
-      "material": "saturnslopedstainedglass",
-      "colorVariant": "2"
+      "//name": "saturnshroompores",
+      "//shortdescription": "Orange Fungal Pores",
+      "material": "saturnshroompores",
+      "colorVariant": "5"
     },
     "77": {
       "//description": "",
-      "//name": "saturnslopedstainedglass",
-      "//shortdescription": "Purple Ebony Glass",
-      "material": "saturnslopedstainedglass",
-      "colorVariant": "7"
+      "//name": "saturnshroompores",
+      "//shortdescription": "Purple Fungal Pores",
+      "material": "saturnshroompores",
+      "colorVariant": "6"
     },
     "78": {
       "//description": "",
-      "//name": "saturnslopedstainedglass",
-      "//shortdescription": "Black Ebony Glass",
-      "material": "saturnslopedstainedglass",
-      "colorVariant": "8"
+      "//name": "saturnshroompores",
+      "//shortdescription": "Black Fungal Pores",
+      "material": "saturnshroompores",
+      "colorVariant": "7"
     },
     "79": {
       "//description": "",
-      "//name": "saturnslopedstainedglass",
-      "//shortdescription": "White Ebony Glass",
-      "material": "saturnslopedstainedglass",
-      "colorVariant": "9"
-    },
-    "80": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassBirch",
-      "//shortdescription": "Birch Glass",
-      "material": "saturnslopedstainedglassBirch"
-    },
-    "81": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassBirch",
-      "//shortdescription": "Red Birch Glass",
-      "material": "saturnslopedstainedglassBirch",
-      "colorVariant": "1"
-    },
-    "82": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassBirch",
-      "//shortdescription": "Blue Birch Glass",
-      "material": "saturnslopedstainedglassBirch",
-      "colorVariant": "6"
-    },
-    "83": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassBirch",
-      "//shortdescription": "Green Birch Glass",
-      "material": "saturnslopedstainedglassBirch",
-      "colorVariant": "4"
-    },
-    "84": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassBirch",
-      "//shortdescription": "Yellow Birch Glass",
-      "material": "saturnslopedstainedglassBirch",
-      "colorVariant": "3"
-    },
-    "85": {
-      "//description": "SPACER",
-      "//name": "tilesets have rows of 5, but theres 9 colors per tile",
-      "//shortdescription": "this stays black so everything stays nice and aligned",
-      "material": "saturncolorfulclaywalls"
-    },
-    "86": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassBirch",
-      "//shortdescription": "Orange Birch Glass",
-      "material": "saturnslopedstainedglassBirch",
-      "colorVariant": "2"
-    },
-    "87": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassBirch",
-      "//shortdescription": "Purple Birch Glass",
-      "material": "saturnslopedstainedglassBirch",
-      "colorVariant": "7"
-    },
-    "88": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassBirch",
-      "//shortdescription": "Black Birch Glass",
-      "material": "saturnslopedstainedglassBirch",
+      "//name": "saturnshroompores",
+      "//shortdescription": "White Fungal Pores",
+      "material": "saturnshroompores",
       "colorVariant": "8"
-    },
-    "89": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassBirch",
-      "//shortdescription": "White Birch Glass",
-      "material": "saturnslopedstainedglassBirch",
-      "colorVariant": "9"
-    },
-    "90": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassMaho",
-      "//shortdescription": "Mahogany Glass",
-      "material": "saturnslopedstainedglassMaho"
-    },
-    "91": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassMaho",
-      "//shortdescription": "Red Mahogany Glass",
-      "material": "saturnslopedstainedglassMaho",
-      "colorVariant": "1"
-    },
-    "92": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassMaho",
-      "//shortdescription": "Blue Mahogany Glass",
-      "material": "saturnslopedstainedglassMaho",
-      "colorVariant": "6"
-    },
-    "93": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassMaho",
-      "//shortdescription": "Green Mahogany Glass",
-      "material": "saturnslopedstainedglassMaho",
-      "colorVariant": "4"
-    },
-    "94": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassMaho",
-      "//shortdescription": "Yellow Mahogany Glass",
-      "material": "saturnslopedstainedglassMaho",
-      "colorVariant": "3"
-    },
-    "95": {
-      "//description": "SPACER",
-      "//name": "tilesets have rows of 5, but theres 9 colors per tile",
-      "//shortdescription": "this stays black so everything stays nice and aligned",
-      "material": "saturncolorfulclaywalls"
-    },
-    "96": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassMaho",
-      "//shortdescription": "Orange Mahogany Glass",
-      "material": "saturnslopedstainedglassMaho",
-      "colorVariant": "2"
-    },
-    "97": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassMaho",
-      "//shortdescription": "Purple Mahogany Glass",
-      "material": "saturnslopedstainedglassMaho",
-      "colorVariant": "7"
-    },
-    "98": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassMaho",
-      "//shortdescription": "Black Mahogany Glass",
-      "material": "saturnslopedstainedglassMaho",
-      "colorVariant": "8"
-    },
-    "99": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassMaho",
-      "//shortdescription": "White Mahogany Glass",
-      "material": "saturnslopedstainedglassMaho",
-      "colorVariant": "9"
-    },
-    "100": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassOak",
-      "//shortdescription": "Oak Glass",
-      "material": "saturnslopedstainedglassOak"
-    },
-    "101": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassOak",
-      "//shortdescription": "Red Oak Glass",
-      "material": "saturnslopedstainedglassOak",
-      "colorVariant": "1"
-    },
-    "102": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassOak",
-      "//shortdescription": "Blue Oak Glass",
-      "material": "saturnslopedstainedglassOak",
-      "colorVariant": "6"
-    },
-    "103": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassOak",
-      "//shortdescription": "Green Oak Glass",
-      "material": "saturnslopedstainedglassOak",
-      "colorVariant": "4"
-    },
-    "104": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassOak",
-      "//shortdescription": "Yellow Oak Glass",
-      "material": "saturnslopedstainedglassOak",
-      "colorVariant": "3"
-    },
-    "105": {
-      "//description": "SPACER",
-      "//name": "tilesets have rows of 5, but theres 9 colors per tile",
-      "//shortdescription": "this stays black so everything stays nice and aligned",
-      "material": "saturncolorfulclaywalls"
-    },
-    "106": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassOak",
-      "//shortdescription": "Orange Oak Glass",
-      "material": "saturnslopedstainedglassOak",
-      "colorVariant": "2"
-    },
-    "107": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassOak",
-      "//shortdescription": "Purple Oak Glass",
-      "material": "saturnslopedstainedglassOak",
-      "colorVariant": "7"
-    },
-    "108": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassOak",
-      "//shortdescription": "Black Oak Glass",
-      "material": "saturnslopedstainedglassOak",
-      "colorVariant": "8"
-    },
-    "109": {
-      "//description": "",
-      "//name": "saturnslopedstainedglassOak",
-      "//shortdescription": "White Oak Glass",
-      "material": "saturnslopedstainedglassOak",
-      "colorVariant": "9"
     }
   },
   "tiles": {
     "0": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/shroomblock.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/shroomblock.png"
     },
     "1": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/shroomblock1.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/shroomblock1.png"
     },
     "2": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/shroomblock2.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/shroomblock2.png"
     },
     "3": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/shroomblock3.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/shroomblock3.png"
     },
     "4": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/shroomblock4.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/shroomblock4.png"
     },
     "5": {
       "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
     },
     "6": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/shroomblock5.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/shroomblock5.png"
     },
     "7": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/shroomblock6.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/shroomblock6.png"
     },
     "8": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/shroomblock7.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/shroomblock7.png"
     },
     "9": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/shroomblock8.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/shroomblock8.png"
     },
     "10": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomfairy.png"
     },
     "11": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock1.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomfairy1.png"
     },
     "12": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock5.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomfairy5.png"
     },
     "13": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock4.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomfairy4.png"
     },
     "14": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock3.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomfairy3.png"
     },
     "15": {
       "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
     },
     "16": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock2.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomfairy2.png"
     },
     "17": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock6.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomfairy6.png"
     },
     "18": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock7.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomfairy7.png"
     },
     "19": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock8.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomfairy8.png"
     },
     "20": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock20.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroommist.png"
     },
     "21": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock21.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroommist1.png"
     },
     "22": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock22.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroommist2.png"
     },
     "23": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock23.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroommist3.png"
     },
     "24": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock24.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroommist4.png"
     },
     "25": {
       "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
     },
     "26": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock25.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroommist5.png"
     },
     "27": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock26.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroommist6.png"
     },
     "28": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock27.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroommist7.png"
     },
     "29": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock28.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroommist8.png"
     },
     "30": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock30.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomdust.png"
     },
     "31": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock31.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomdust1.png"
     },
     "32": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock32.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomdust2.png"
     },
     "33": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock33.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomdust3.png"
     },
     "34": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock34.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomdust4.png"
     },
     "35": {
       "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
     },
     "36": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock35.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomdust5.png"
     },
     "37": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock36.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomdust6.png"
     },
     "38": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock37.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomdust7.png"
     },
     "39": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnshroomblock38.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomdust8.png"
     },
     "40": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnfungusstalk.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomash.png"
     },
     "41": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnfungusstalk1.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomash1.png"
     },
     "42": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnfungusstalk2.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomash2.png"
     },
     "43": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnfungusstalk3.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomash3.png"
     },
     "44": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnfungusstalk4.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomash4.png"
     },
     "45": {
       "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
     },
     "46": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnfungusstalk5.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomash5.png"
     },
     "47": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnfungusstalk6.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomash6.png"
     },
     "48": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnfungusstalk7.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomash7.png"
     },
     "49": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnfungusstalk8.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroomash8.png"
     },
     "50": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedBronzeglass.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnfungusstalk.png"
     },
     "51": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedBronzeglass1.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnfungusstalk1.png"
     },
     "52": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedBronzeglass5.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnfungusstalk5.png"
     },
     "53": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedBronzeglass4.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnfungusstalk4.png"
     },
     "54": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedBronzeglass3.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnfungusstalk3.png"
     },
     "55": {
       "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
     },
     "56": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedBronzeglass2.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnfungusstalk2.png"
     },
     "57": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedBronzeglass6.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnfungusstalk6.png"
     },
     "58": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedBronzeglass7.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnfungusstalk7.png"
     },
     "59": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedBronzeglass8.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnfungusstalk8.png"
     },
     "60": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedglass.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnfungusgills.png"
     },
     "61": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedglass1.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnfungusgills1.png"
     },
     "62": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedglass5.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnfungusgills5.png"
     },
     "63": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedglass4.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnfungusgills4.png"
     },
     "64": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedglass3.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnfungusgills3.png"
     },
     "65": {
       "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
     },
     "66": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedglass2.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnfungusgills2.png"
     },
     "67": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedglass6.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnfungusgills6.png"
     },
     "68": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedglass7.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnfungusgills7.png"
     },
     "69": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedglass8.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnfungusgills8.png"
     },
     "70": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglass.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroompores.png"
     },
     "71": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglass1.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroompores1.png"
     },
     "72": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglass5.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroompores5.png"
     },
     "73": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglass4.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroompores4.png"
     },
     "74": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglass3.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroompores3.png"
     },
     "75": {
       "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
     },
     "76": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglass2.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroompores2.png"
     },
     "77": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglass6.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroompores6.png"
     },
     "78": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglass7.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroompores7.png"
     },
     "79": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglass8.png"
-    },
-    "80": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassBirch.png"
-    },
-    "81": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassBirch1.png"
-    },
-    "82": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassBirch5.png"
-    },
-    "83": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassBirch4.png"
-    },
-    "84": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassBirch3.png"
-    },
-    "85": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
-    },
-    "86": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassBirch2.png"
-    },
-    "87": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassBirch6.png"
-    },
-    "88": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassBirch7.png"
-    },
-    "89": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassBirch8.png"
-    },
-    "90": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassMaho.png"
-    },
-    "91": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassMaho1.png"
-    },
-    "92": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassMaho5.png"
-    },
-    "93": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassMaho4.png"
-    },
-    "94": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassMaho3.png"
-    },
-    "95": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
-    },
-    "96": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassMaho2.png"
-    },
-    "97": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassMaho6.png"
-    },
-    "98": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassMaho7.png"
-    },
-    "99": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassMaho8.png"
-    },
-    "100": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassOak.png"
-    },
-    "101": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassOak1.png"
-    },
-    "102": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassOak5.png"
-    },
-    "103": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassOak4.png"
-    },
-    "104": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassOak3.png"
-    },
-    "105": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnmaterials/saturnebonycore.png"
-    },
-    "106": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassOak2.png"
-    },
-    "107": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassOak6.png"
-    },
-    "108": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassOak7.png"
-    },
-    "109": {
-      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/saturnslopedstainedglassOak8.png"
+      "image": "../../../../../../../../../Modding/Starbound Modding/tiled/packed/saturnpainted/mushroom/saturnshroompores8.png"
     }
   },
   "tilewidth": 8

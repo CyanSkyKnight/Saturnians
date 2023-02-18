@@ -1,10 +1,10 @@
 {
   "materialId" : 54747,
-  "materialName" : "saturnshroomblock2",
+  "materialName" : "saturnshroommist",
   "particleColor" : [234, 231, 222, 255],
-  "itemDrop" : "saturnshroomblock2",
-  "description" : "A block made of hard fungus.",
-  "shortdescription" : "Pastel Fungus Block",
+  "itemDrop" : "saturnshroommist",
+  "description" : "A block made of hard, faintly glowing fungus.",
+  "shortdescription" : "Mistbell Block",
   "glitchDescription" : "Intrigued. Although assembled as a block, this mushroom is alive.",
   "floranDescription" : "Lovely mushroomss.",
   "novakidDescription" : "Ain't that somethin'. Seems this block is made from mushrooms.",
@@ -14,11 +14,12 @@
 
   "renderTemplate" : "/tiles/classicmaterialtemplate.config",
   "renderParameters" : {
-    "texture" : "saturnshroomblock2.png",
-    "variants" : 14,
+    "texture" : "saturnshroommist.png",
+    "variants" : 5,
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : true,
-    "zLevel" : 3400
+    "zLevel" : 3400,
+	"radiantLight" : [40, 35, 50]
   }
 }
