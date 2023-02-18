@@ -1,0 +1,41 @@
+{
+  "objectName" : "saturnkronolunaplush",
+  "colonyTags" : ["saturn2","pretty"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 250,
+  "printable" : false,
+
+  "description" : "This large moth plush seems very squishable. \n^#5858df;Drawn by Krono^reset; ",
+  "shortdescription" : "Luna Moth Plush",
+  "race" : "saturn2",
+
+
+
+
+  "inventoryIcon" : "saturnkronolunaplushicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "saturnkronolunaplush.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.5,
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "saturnkronolunaplush.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.5,
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
