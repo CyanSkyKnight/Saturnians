@@ -1,15 +1,15 @@
 {
-  "itemName" : "saturnshroomblock2",
-  "price" : 0,
+  "itemName" : "saturnshroommist",
+  "price" : 1,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "saturnshroomblock2.png",
+  "inventoryIcon" : "saturnshroommist.png",
   
   "largeImage" : "/items/materials/tooltips/saturnshroomblock2.png",
   "tooltipKind" : "saturnpaintedblock",
 
-  "description" : "A block made of hard fungus.",
-  "shortdescription" : "Pastel Fungus Block",
+  "description" : "A material made from giant mushrooms. Mistbells glow faintly.",
+  "shortdescription" : "Mistbell Block",
   "glitchdescription" : "Intrigued. Although assembled as a block, this mushroom is alive.",
   "florandescription" : "Lovely mushroomss.",
   "novakiddescription" : "Ain't that somethin'. Seems this block is made from mushrooms.",

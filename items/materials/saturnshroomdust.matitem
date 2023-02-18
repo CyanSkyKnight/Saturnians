@@ -1,15 +1,15 @@
 {
-  "itemName" : "saturnshroomblock3",
-  "price" : 0,
+  "itemName" : "saturnshroomdust",
+  "price" : 1,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "saturnshroomblock3.png",
+  "inventoryIcon" : "saturnshroomdust.png",
   
   "largeImage" : "/items/materials/tooltips/saturnshroomblock3.png",
   "tooltipKind" : "saturnpaintedblock",
 
-  "description" : "A block made of powdery fungus.",
-  "shortdescription" : "Dusty Fungus Block",
+  "description" : "A material made from giant mushrooms. The surface is powdery like loose dirt.",
+  "shortdescription" : "Dust Tuft Block",
   "glitchdescription" : "Intrigued. Although assembled as a block, this mushroom is alive.",
   "florandescription" : "Lovely mushroomss.",
   "novakiddescription" : "Ain't that somethin'. Seems this block is made from mushrooms.",

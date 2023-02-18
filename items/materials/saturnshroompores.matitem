@@ -1,18 +1,17 @@
 {
-  "itemName" : "saturnfungusstalk",
+  "itemName" : "saturnshroompores",
   "price" : 0,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "saturnfungusstalk.png",
+  "inventoryIcon" : "saturnshroompores.png",
   
-  "largeImage" : "/items/materials/tooltips/saturnfungusstalk.png",
+  "largeImage" : "/items/materials/tooltips/saturnshroompores.png",
   "tooltipKind" : "saturnpaintedblock",
 
-  "description" : "The stalk of a giant mushroom",
-  "shortdescription" : "Fungus Stalk",
+  "description" : "Pores from the underside of a giant mushroom.",
+  "shortdescription" : "Fungal Pores",
   "glitchDescription" : "Intrigued. Although assembled as a block, this mushroom is alive.",
   "floranDescription" : "Lovely mushroomss.",
   "novakidDescription" : "Ain't that somethin'. Seems this block is made from mushrooms.",
-  "learnBlueprintsOnPickup" : [ "saturnfungusstalk", "saturnshroomblock"],
-  "materialId" : 54738
+  "materialId" : 54745
 }

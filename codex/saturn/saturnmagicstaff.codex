@@ -4,11 +4,13 @@
 	"description" : "A guide to different magical weapons.",
 	"icon" : "saturnbook5.png",
 	"contentPages" : [
-	"Magic generally needs a focus to be useful. There are 2 popular types of magic focusing tools: Staves, which need to be charged before they can fire; and Batons, which are weaker, but can be instantly fired.",
+	"Magic generally needs a focus to be useful. There are 2 popular types of tools made exclusively to focus magic: Staves, which need to be charged before they can fire; and Batons, which are weaker, but can be instantly fired.",
 	
     "Staves and wands are the most common magical weapons in the galaxy. The user needs to focus before casting. The casted magic can then be controlled mid-flight. Typically, the energy used to cast will be regained before the user can cast again. Off world, other species sometimes call these \"scistaves\".",
 	
-	"Batons can cast magic without focusing at all. These are functionally similar to guns, though the magic cast tends to move slower than bullets. The fast casting times tend to drain energy much faster than most staff types."
+	"Batons can cast magic without focusing at all. These are functionally similar to guns, though the magic cast tends to move slower than bullets. The fast casting times tend to drain energy much faster than most staff types.",
+	
+	"Some mages use hybrids of staves and other weapons. The Thaumoths of Actias are known for using scythe staff hybrids to harvest both plants and souls."
 
   ],
     "itemConfig" : {

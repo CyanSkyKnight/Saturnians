@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "seed",
   "description" : "This plant collects minerals by melting stone. Watering it makes it produce needles of obsidian. ",
-  "shortdescription" : "Lavabulb Seed",
+  "shortdescription" : "Test Plant",
   "objectType" : "farmable",
   "printable" : false,
   "price" : 500,
