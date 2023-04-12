@@ -5,17 +5,17 @@
       "path": "/greeting/saturn",
       "value": {
         "default": [
-          "Hello.",
-          "How are you?",
-          "How are you doing?",
-          "Nice to meet you.",
-          "I hope you are well, my friend.",
-          "Welcome traveler.",
-          "Nice to make your acquaintance!",
-          "Hi.",
+		  "Hello.",
+		  "How are you?",
+		  "How are you doing?",
+		  "Nice to meet you.",
+		  "I hope you are well, my friend.",
+		  "Welcome traveler.",
+		  "Nice to make your acquaintance!",
+		  "Hi.",
 		  "Hiya!",
 		  "Um... Hi...",
-          "Hello!"
+		  "Hello!"
         ]
       }
     }
@@ -26,15 +26,15 @@
       "path": "/greeting/satkyterran",
       "value": {
         "default": [
-          "Hello.",
-          "Greetings.",
-          "Salutations!",
-          "Nice to meet you.",
-          "I hope you are well, my friend.",
-          "Welcome traveler.",
-          "Nice to make your acquaintance",
-          "Hi.",
-          "Hello"
+		  "Hello.",
+		  "Greetings.",
+		  "Salutations!",
+		  "Nice to meet you.",
+		  "I hope you are well, my friend.",
+		  "Welcome traveler.",
+		  "Nice to make your acquaintance",
+		  "Hi.",
+		  "Hello"
         ]
       }
     }
@@ -45,16 +45,16 @@
       "path": "/greeting/saturnmothman",
       "value": {
         "default": [
-          "Hello.",
-          "How are you?",
-          "How are you doing?",
-          "Nice to meet you.",
-          "I hope you are well, my friend.",
-          "Welcome traveler.",
-          "Nice to make your acquaintance!",
-          "Hi.",
+		  "Hello.",
+		  "How are you?",
+		  "How are you doing?",
+		  "Nice to meet you.",
+		  "I hope you are well, my friend.",
+		  "Welcome traveler.",
+		  "Nice to make your acquaintance!",
+		  "Hi.",
 		  "Hiya!",
-          "Hello!"
+		  "Hello!"
         ]
       }
     }
@@ -66,42 +66,42 @@
       "value": {
 		"generic":[
 		  "Would you like to join our book club?",
-          "I've run out of watercolors. I wonder if mixing water with scale dust would work.",
-          "Are you a wizard?!",
-          "Would you say you are more of a warrior, mage or ranger?",
-          "Maybe one day we will be good friends.",
-          "I'm running so late today.",
-          "Oh no... I lost my knitting needles.",
-          "I'd like a sparring partner. I haven't practiced my fighting skills in a while.",
-          "Where are you from? Is your homeland pretty?",
-          "I'm going kite flying tomorrow! I get to be the kite!",
-          "You seem overwhelmed, do you need me to take you under my wing?",
-          "I'm looking forward to a change in the weather. The variety is great.",
-          "Nice outfit you've got there.",
-          "I've been learning the ocarina! My neighbors wish I had a quieter instrument.",
-          "I've been nervous for the past few days, like something bad is going to happen.",
-          "What do you want to talk about?",
-          "I really can't talk now, sorry!",
-          "You found any cool weapons lately?",
+		  "I've run out of watercolors. I wonder if mixing water with scale dust would work.",
+		  "Are you a wizard?!",
+		  "Would you say you are more of a warrior, mage or ranger?",
+		  "Maybe one day we will be good friends.",
+		  "I'm running so late today.",
+		  "Oh no... I lost my knitting needles.",
+		  "I'd like a sparring partner. I haven't practiced my fighting skills in a while.",
+		  "Where are you from? Is your homeland pretty?",
+		  "I'm going kite flying tomorrow! I get to be the kite!",
+		  "You seem overwhelmed, do you need me to take you under my wing?",
+		  "I'm looking forward to a change in the weather. The variety is great.",
+		  "Nice outfit you've got there.",
+		  "I've been learning the ocarina! My neighbors wish I had a quieter instrument.",
+		  "I've been nervous for the past few days, like something bad is going to happen.",
+		  "What do you want to talk about?",
+		  "I really can't talk now, sorry!",
+		  "You found any cool weapons lately?",
 		  "Please don't hurt anyone out there.",
-          "I'm jealous of you, being an adventurer.",
-          "The universe is a big, scary place.",
-          "I'm so tired today. Actually, I'm tired every day.",
-          "Look at how pretty the sky is today.",
-          "One day follows the next but time seems to stand still.",
-          "People often think I look regal.",
-          "One day I'll become an amazing blacksmith.",
-          "Have you seen my hat? I've been looking for it for about an hour.",
-          "Are you a scholar? Do you have any books I can borrow?",
-          "Sorry for the dust; I was drawing with chalk pastels earlier.",
-          "I am trying to make a new staff.",
-          "I miss the times when we just had one sky to chart.",
-          "Today is a good day for painting. Just like yesterday!",
-          "Travelers complain about how sweet Saturnian drinks are. I only use eight spoons of sugar!",
-          "You're from far away too, right?",
-          "It is strange seeing a different sun every day.",
-          "Certain plants and animals seem to have traveled the stars before we have. Am I to believe that potatoes are better at space travel than me?",
-          "Nearly every moon is suddenly causing some sort of interference, and now things are just phasing in and out of existence. What is going on?!",
+		  "I'm jealous of you, being an adventurer.",
+		  "The universe is a big, scary place.",
+		  "I'm so tired today. Actually, I'm tired every day.",
+		  "Look at how pretty the sky is today.",
+		  "One day follows the next but time seems to stand still.",
+		  "People often think I look regal.",
+		  "One day I'll become an amazing blacksmith.",
+		  "Have you seen my hat? I've been looking for it for about an hour.",
+		  "Are you a scholar? Do you have any books I can borrow?",
+		  "Sorry for the dust; I was drawing with chalk pastels earlier.",
+		  "I am trying to make a new staff.",
+		  "I miss the times when we just had one sky to chart.",
+		  "Today is a good day for painting. Just like yesterday!",
+		  "Travelers complain about how sweet Saturnian drinks are. I only use eight spoons of sugar!",
+		  "You're from far away too, right?",
+		  "It is strange seeing a different sun every day.",
+		  "Certain plants and animals seem to have traveled the stars before we have. Am I to believe that potatoes are better at space travel than me?",
+		  "Nearly every moon is suddenly causing some sort of interference, and now things are just phasing in and out of existence. What is going on?!",
 		  "I wish I could find a world with an endless sunset.",
 		  "Have you found any lights?",
 		  "It's too dark here; I need at least ten more lights.",
@@ -117,7 +117,7 @@
 		  "Do you want to hear a cool bug fact?", 
 		  "You wouldn't believe how much I had to sweep today.", 
 		  "Uhhh...",
-          "Squeak?",
+		  "Squeak?",
 		  "Squeak!"
 		  ],
         "default": [
@@ -129,56 +129,56 @@
 		  "Does your species have wizards too?",
 		  "Huh? What are you?",
 		  "I feel like I should have something to say.",
-          "..."
+		  "..."
         ],
 		
 //vanilla species =========================================================
         "apex": [
-          "I hear the Apex are great alchemists. Have any tips?",
-          "When I was traveling, I found a cocoon with an Apex in it. Do you think the Miniknog have done this?",
+		  "I hear the Apex are great alchemists. Have any tips?",
+		  "When I was traveling, I found a cocoon with an Apex in it. Do you think the Miniknog have done this?",
 		  "You aren't part of the Miniknog, are you?",
-          "I wonder why the Miniknog's standard issue furniture is covered in spots. Were they inspired by the Waspmim?",
-          "We will NOT eat your clothes."
+		  "I wonder why the Miniknog's standard issue furniture is covered in spots. Were they inspired by the Waspmim?",
+		  "We will NOT eat your clothes."
         ],
         "avian": [
 		  "AAAHHH! Oh, sorry, I thought you were something else.",
-          "Your feathers are a lot like my scales.",
-          "Our wings are more of a style thing, really.",
-          "I-I-I'm not scared. I'm sh-sh-shaking to warm up my w-w-wings",
+		  "Your feathers are a lot like my scales.",
+		  "Our wings are more of a style thing, really.",
+		  "I-I-I'm not scared. I'm sh-sh-shaking to warm up my w-w-wings",
 		  "Um... H-h-hello?",
-          "I have heard your species knows a lot about crystals.",
+		  "I have heard your species knows a lot about crystals.",
 		  "I love the crystal technology Avians use.",
 		  "Avian banners are beautiful. Do you sew too?",
 		  "It's good to know there are others that appreciate the magical value of crystals.",
-          "How can you weave anything without a spinneret?",
+		  "How can you weave anything without a spinneret?",
 		  "I think I'll make my next staff with one of those red Avolite crystals as the focus.",
 		  "I hope the others know that Avians aren't related to the rocs, like, at all...",
-          "We will NOT eat your clothes."
+		  "We will NOT eat your clothes."
         ],
         "floran": [
-          "Don't worry about us trying to drink out of you.",
+		  "Don't worry about us trying to drink out of you.",
 		  "You must also hate fire.",
-          "Do you have any flowers?",
-          "Are you flora or fauna?",
-          "Can you photosynthesize?",
-          "We will NOT eat your clothes."
+		  "Do you have any flowers?",
+		  "Are you flora or fauna?",
+		  "Can you photosynthesize?",
+		  "We will NOT eat your clothes."
         ],
         "glitch": [
-          "Are you a knight?",
-          "I hear that Glitch alchemists only produce stims. How do you even use them?",
-          "What kind of magic animates you?",
+		  "Are you a knight?",
+		  "I hear that Glitch alchemists only produce stims. How do you even use them?",
+		  "What kind of magic animates you?",
 		  "You don't serve any royalty, do you? Ours are just figureheads; the Archmage and their mage council have the real power.",
 		  "Glitch-styled clothes are really popular with us.",
-          "Your armor looks very protective; I can only see your eyes.",
+		  "Your armor looks very protective; I can only see your eyes.",
 		  "You have a metal exoskeleton! What kind of bug are you?",
-          "How did you get your eyes to glow like that?",
+		  "How did you get your eyes to glow like that?",
 		  "What kind of metal are you made of?",
-          "We will NOT eat your clothes."
+		  "We will NOT eat your clothes."
         ],
         "novakid": [
-          "Ow. I think I need sunglasses just to look in your direction.",
-          "Whoa! Your so bright, I'm having trouble orienting myself.",
-          "Hi, how are- wait where was I going again?",
+		  "Ow. I think I need sunglasses just to look in your direction.",
+		  "Whoa! Your so bright, I'm having trouble orienting myself.",
+		  "Hi, how are- wait where was I going again?",
 		  "How do you glow like that?",
 		  "Are you made from sunlight?! That's amazing!",
 		  "WHOA! You're glowing!",
@@ -186,61 +186,62 @@
 		  "LIGHT!",
 		  "GASP!",
 		  "Do you mind if I run circles around you?",
-          "We will NOT eat your clothes."
+		  "We will NOT eat your clothes."
         ],
         "hylotl": [
-          "Your skin looks slimy. Sorry if my scales stick to you!",
+		  "Your skin looks slimy. Sorry if my scales stick to you!",
 		  "Hylotl like tea, don't they? I need to try it sometime.",
 		  "I wonder if Saturnians could build underwater.",
-          "I need to figure out how to explore the sea.",
+		  "I need to figure out how to explore the sea.",
 		  "I visited a Hylotl city below the ocean once. There was so much light, I wandered there for hours.",
-          "Your species name sounds like an Avian word.",
-          "Aren't you cold?",
-          "We will NOT eat your clothes."
+		  "Your species name sounds like an Avian word.",
+		  "Aren't you cold?",
+		  "We will NOT eat your clothes."
         ],
         "human": [
-          "Athath dara thu. That broke your translator, didn't it. Just kidding, it's gibberish!",
+		  "Athath dara thu. That broke your translator, didn't it. Just kidding, it's gibberish!",
 		  "Do humans have ANY cities in space? I have only ever found temporary cities.",
 		  "I've been reading books about human wizards. These stories are really popular around here.",
 		  "The Archmage wanted Solalei to officially join the Protectorate. I think there were even some Saturnians already in it.",
 		  "If your homeworld was covered in oceans, then where are your gills?",
-          "We will NOT eat your clothes."
+		  "We will NOT eat your clothes."
         ],
 //NPC species =========================================================
         "shadow": [
-          "What manner of dark magic created you?",
+		  "What manner of dark magic created you?",
 		  "How do you absorb light like that? ",
 		  "You remind me of an old legend of a shadowy moth with red eyes.",
 		  "Some explorers traveled to a dark world and never returned. You wouldn't happen to know anything about that, would you?",
-          "...?"
+		  "...?"
         ],
 		
 //Modded species =========================================================	
         "arachne": [
-          "AAAHHH! P-p-p-please d-d-don't hurt me, spider!",
+		  "AAAHHH! P-p-p-please d-d-don't hurt me, spider!",
 		  "Are you friendly, spider?",
+		  "A spider?!",
+		  "I hear spider silk is really strong".,
 		  "You make things from silk too?"
-        ],
-        "avali": [
-          "Hello traveler. Uh... Have you been working with ammonia recently?",
-		  "Aerogel sounds like a useful material. Do you know of any books that detail how to make it?",
-		  "Huh? Are you an Avali? You are much taller than my guide book said you would be.",
-          "You are really fluffy and feathery. Are you warm-blooded as well?",
-          "You're really different from the other species I usually see around here. You must have traveled far."
         ],
 		
         "smolavali": [
-          "Hello traveler. Uh... Have you been working with ammonia recently?",
+		  "Hello traveler. Uh... Have you been working with ammonia recently?",
 		  "Aerogel sounds like a useful material. Do you know of any books that detail how to make it?",
-		  "Oh! You're so cute!",
-          "You are really fluffy and feathery. Are you warm-blooded as well?",
-          "You're really different from the other species I usually see around here. You must have traveled far."
+		  "Huh? Are you an Avali? You are much taller than my guide book said you would be.",
+		  "You are really fluffy and feathery. Are you warm-blooded as well?",
+		  "You're really different from the other species I usually see around here. You must have traveled far.",
+		  "Hello, Avali.",
+		  "You have beautiful wings.",
+		  "I like your plumage.",
+		  "Aww, how cute! Squeak!",
+		  "Might I borrow a feather? I need it for a spell I'm working on..."
         ],
 		
         "Indix": [
-          "A ghost?! Do the Thaumoth know about this?",
+		  "A ghost?! Do the Thaumoth know about this?",
 		  "How do you glow like that?",
 		  "WHOA! You're glowing!",
+		  "I can see through you! Are you a ghost?",
 		  "Has anyone told you that you glow?"
         ],
 
@@ -274,48 +275,52 @@
         ],
         "lucario": [
 		  "Do you think I could make a staff with auracite?",
+		  "You can just manipulate aura? Without a staff?",
+		  "I've heard your species can read auras! Can you see what color mine is?",
+		  "Did I just see... blue flames in your hands?",
 		  "I sense something strange about you.",
 		  "My antennae are picking up something from you. It makes me feel dizzy..."
         ],
 		
 //saturnians mod species
         "satkyterran": [
-          "Are you from the exploration guild?",
+		  "Are you from the exploration guild?",
+		  "I've heard that Kyterran colonization efforts have had some setbacks recently.",
 		  "It's not often we see other species from Myrasyl.",
 		  "Do your antennae pick up random radio waves too?",
 		  "I think you are the first Kyterran explorer to visit here."
         ],
 		
         "saturn": [
-          "Are you from the exploration guild?",
-          "Do your antennae pick up random radio waves too?",
-          "Some sort of interference deleted all of my bookmarks, so now I can't go back home. Huh? You too?",
-          "You're not from around here. I hope you're not from Actias.",
-          "There was a beam of light on the horizon that was unmistakably from a void teleporter. That was you?",
-          "I miss the times when we just had one sky to chart.",
-          "What have you found out there? Can we share notes?",
-          "I feel like I could spend the rest of my life in this spot, but we need to keep moving on to other worlds.",
-          "I wonder if the Actians will travel out into space now that every moon has attracted spirits.",
-          "Did you hear that the Kyterran are planning to fully ally with us?",
-          "I wonder if we can get our teleporters linked back up to Solalei.",
-          "Did you attend the wizard college in Solalei? You look familiar.",
-          "I'm glad Actias is still on the surface. Their necromages would surely give Saturnians a bad name!",
-          "Can you believe how far we are from Myrasyl?"
+		  "Are you from the exploration guild?",
+		  "Do your antennae pick up random radio waves too?",
+		  "Some sort of interference deleted all of my bookmarks, so now I can't go back home. Huh? You too?",
+		  "You're not from around here. I hope you're not from Actias.",
+		  "There was a beam of light on the horizon that was unmistakably from a void teleporter. That was you?",
+		  "I miss the times when we just had one sky to chart.",
+		  "What have you found out there? Can we share notes?",
+		  "I feel like I could spend the rest of my life in this spot, but we need to keep moving on to other worlds.",
+		  "I wonder if the Actians will travel out into space now that every moon has attracted spirits.",
+		  "Did you hear that the Kyterran are planning to fully ally with us?",
+		  "I wonder if we can get our teleporters linked back up to Solalei.",
+		  "Did you attend the wizard college in Solalei? You look familiar.",
+		  "I'm glad Actias is still on the surface. Their necromages would surely give Saturnians a bad name!",
+		  "Can you believe how far we are from Myrasyl?"
         ],
 		"saturn2": [
-          "Are you from the exploration guild?",
-          "Do your antennae pick up random radio waves too?",
-          "Some sort of interference deleted all of my bookmarks, so now I can't go back home. Huh? You too?",
-          "There was a beam of light on the horizon that was unmistakably from a void teleporter. That was you?",
-          "I miss the times when we just had one sky to chart.",
-          "What have you found out there? Can we share notes?",
-          "I feel like I could spend the rest of my life in this spot, but we need to keep moving on to other worlds.",
-          "I wonder if the Actians will travel out into space now that every moon has attracted spirits.",
-          "Did you hear that the Kyterran are planning to fully ally with us?",
-          "I wonder if we can get our teleporters linked back up to Solalei.",
-          "Your accent reminds me of Actias.",
-          "I'm glad Actias is still on the surface. Uh, Why are you looking at me like that?",
-          "Can you believe how far we are from Myrasyl?"
+		  "Are you from the exploration guild?",
+		  "Do your antennae pick up random radio waves too?",
+		  "Some sort of interference deleted all of my bookmarks, so now I can't go back home. Huh? You too?",
+		  "There was a beam of light on the horizon that was unmistakably from a void teleporter. That was you?",
+		  "I miss the times when we just had one sky to chart.",
+		  "What have you found out there? Can we share notes?",
+		  "I feel like I could spend the rest of my life in this spot, but we need to keep moving on to other worlds.",
+		  "I wonder if the Actians will travel out into space now that every moon has attracted spirits.",
+		  "Did you hear that the Kyterran are planning to fully ally with us?",
+		  "I wonder if we can get our teleporters linked back up to Solalei.",
+		  "Your accent reminds me of Actias.",
+		  "I'm glad Actias is still on the surface. Uh, Why are you looking at me like that?",
+		  "Can you believe how far we are from Myrasyl?"
         ]
       }
     }
@@ -326,42 +331,43 @@
       "path": "/converse/saturn2",
       "value": {
 		"generic":[
-		 "The Thaumoth are planing to start terraforming worlds to resemble Actias.",
-		 "Have you seen an erchius ghost? I wonder what makes them love erchius so much.",
-		 "Do you have any plants. It's quite calming taking care of them.",
-		 "Our scythes are weapons, farming tools and staves.",
-		 "It's hard to grow alien plants, but they are so interesting to learn about.",
-		 "I'm running so late today.",
-		 "Have you seen a Gosmet before? They're thought to be the spirits of long dead Hylotl warriors.",
-		 "Is that outfit fashionable where you are from?",
-		 "Something bad has happened with the moons of the worlds.",
-		 "What do you want to talk about?",
-		 "I'm much too busy to talk to some traveler.",
-		 "I hope I can learn something that's worthy of passing down.",
-		 "Erchius must have some sort of use for spirit magic. ",
-		 "The moon is haunted.",
-		 "I want to build a staff, but the moon isn't in an optimal phase yet.",
-		 "I don't want to even think about how to plan around multiple moons.",
-		 "Why do other species center their schedule around the sun?",
-		 "I will become the greatest sorcerer.",
-		 "Are you a scholar? Do you have any books I can borrow?",
-		 "You're from far away too, right?",
-		 "It is strange seeing a different sun every day.",
-		 "Certain plants and animals seem to have traveled the stars before we have. Am I to believe that potatoes are better at space travel than me?",
-		 "Nearly every moon is suddenly causing some sort of interference, and now things are just phasing in and out of existence. What is going on?!",
-		 "Midnight worlds may be in eternal darkness, but they still have day and night.",
-		 "I met a maggot man once. I wonder what kind of fly they turn into.",
-		 "There's at least two other moth species, completely unrelated to us out there. I hope I can meet them someday!",
-		 "I don't have anything prepared to say. Please move along to the next moth.",
-		 "Gravity is desire. Time is sight!",
-		 "I want to find a world that is perfectly lit. No distractions there!",
-		 "Have you noticed that every sun looks yellow from a planet surface?",
-		 "Light doesn't affect us as badly as most think; only those with no sort of will at all could fly into a star, for example.",
-		 "Squeak?",
-		 "Squeak!"
+		  "Have you seen an erchius ghost? I wonder what makes them love erchius so much.",
+		  "Have you seen a Gosmet before? They're thought to be the spirits of long dead Hylotl warriors.",
+		  "Be careful if you see a Wisper. The air around them is unbearably cold. Do not follow them or you will lose your sense of direction.",
+		  "There is this creature called a Skimbus that is frequently found in orbit above planets. It's been theorized that they are from space.",
+		  "I met a maggot man once. I wonder what kind of fly they turn into.",
+		  "Do you have any plants. It's quite calming taking care of them.",
+		  "It's hard to grow alien plants, but they are so interesting to learn about.",
+		  "Our scythes are weapons, farming tools and staves.",
+		  "The Thaumoth are planing to start terraforming worlds to resemble Actias.",
+		  "Is that outfit fashionable where you are from?",
+		  "Something bad has happened with the moons of the worlds.",
+		  "What do you want to talk about?",
+		  "I'm much too busy to talk to some traveler.",
+		  "I hope I can learn something that's worthy of passing down.",
+		  "Erchius must have some sort of use for spirit magic. ",
+		  "The moon is haunted. They all are.",
+		  "I want to build a staff, but the moon isn't in an optimal phase yet.",
+		  "I don't want to even think about how to plan around multiple moons.",
+		  "Why do other species center their schedule around the sun?",
+		  "I will become the greatest sorcerer.",
+		  "Are you a scholar? Do you have any books I can borrow?",
+		  "You're from far away too, right?",
+		  "It is strange seeing a different moon every night.",
+		  "I don't have time to talk right now. Come back when Myrasyl's moon begins to wane.",
+		  "Certain plants and animals seem to have traveled the stars before we have. Am I to believe that potatoes are better at space travel than me?",
+		  "Nearly every moon is suddenly causing some sort of interference, and now things are just phasing in and out of existence. What is going on?!",
+		  "Midnight worlds may be in eternal darkness, but they still have day and night. How they stop sunlight from reaching the surface is anyone's guess.",
+		  "There's at least two other moth species, completely unrelated to us out there. I hope I can meet them someday!",
+		  "I don't have anything prepared to say. Please move along to the next moth.",
+		  "Gravity is desire. Time is sight!",
+		  "I want to find a world that is perfectly lit. No distractions there!",
+		  "Have you noticed that every sun looks yellow from a planet surface?",
+		  "Light doesn't affect us as badly as most think; only those with no sort of will at all could fly into a star, for example.",
+		  "Squeak?",
+		  "Squeak!"
 		  ],
         "default": [
-
 		  "I haven't seen anyone like you before.",
 		  "What a strange creature.",
 		  "I wonder what your species' towns look like.",
@@ -372,20 +378,20 @@
         ],
 		
         "saturn": [
-          "Are you from the Solalei Exploration Guild?",
-          "Do your antennae pick up random radio waves too?",
-          "Some sort of interference deleted all of my bookmarks, so now I can't go back home. Huh? You too?",
-          "There was a beam of light on the horizon that was unmistakably from a void teleporter. That was you?",
-          "What have you found out there? Can we share notes?",
-          "I feel like I could spend the rest of my life in this spot, but we need to keep moving on to other worlds.",
-          "Can you believe how far we are from Myrasyl?"
+		  "Are you from the Solalei Exploration Guild?",
+		  "Do your antennae pick up random radio waves too?",
+		  "Some sort of interference deleted all of my bookmarks, so now I can't go back home. Huh? You too?",
+		  "There was a beam of light on the horizon that was unmistakably from a void teleporter. That was you?",
+		  "What have you found out there? Can we share notes?",
+		  "I feel like I could spend the rest of my life in this spot, but we need to keep moving on to other worlds.",
+		  "Can you believe how far we are from Myrasyl?"
         ],
 		"saturn2": [
-          "Ah, your from Actias, too. What are you doing out here?",
-          "Some sort of interference deleted all of my bookmarks, so now I can't go back home. Huh? You too?",
-          "There was a beam of light on the horizon that was unmistakably from a void teleporter. That was you?",
-          "What have you found out there? Can we share notes?",
-          "Can you believe how far we are from Myrasyl?"
+		  "Ah, your from Actias, too. What are you doing out here?",
+		  "Some sort of interference deleted all of my bookmarks, so now I can't go back home. Huh? You too?",
+		  "There was a beam of light on the horizon that was unmistakably from a void teleporter. That was you?",
+		  "What have you found out there? Can we share notes?",
+		  "Can you believe how far we are from Myrasyl?"
         ]
       }
     }
@@ -398,19 +404,19 @@
       "value": {
 		"generic":[
 		  "Huh.",
-          "*Yawn* I'm never getting used to this jet lag.",
-          "ZZZ... HUH?! Was I asleep? Traveling is so tiring.",
-          "This place needs more sand.",
+		  "*Yawn* I'm never getting used to this jet lag.",
+		  "ZZZ... HUH?! Was I asleep? Traveling is so tiring.",
+		  "This place needs more sand.",
 		  "Don't you think it's a bit cold here?",
 		  "It's comforting to have land below my legs again. Space is really disorienting!",
 		  "Do you know how hard it is to design spaceship controls for a species with claws?",
 		  "Us Kyterran are starting to get really good at piloting ships. You should be seeing more of us soon.",
-          "Most of us Kyterran live below the ground, so we only recently are building ships. Our new alliance is the only reason we can travel through space at all."
+		  "Most of us Kyterran live below the ground, so we only recently are building ships. Our new alliance is the only reason we can travel through space at all."
 		  ],
         "default": [
 		  "Oh, another traveler from afar. Where are you from?",
-          "Why are you looking at me like that? Have you never seen a Kyterran before?",
-          "..."
+		  "Why are you looking at me like that? Have you never seen a Kyterran before?",
+		  "..."
         ]
       }
     }
@@ -523,6 +529,46 @@
 		  "Do you have a spinneret?",
 		  "Saturnian wands must work similarly to our crystal technology.",
 		  "I am envious of your wings. Can you fly?"
+        ]
+    }
+  ],
+  
+[
+    {
+      "op": "add",
+      "path": "/converse/floran/saturn",
+      "value": [
+        "Behave, sssilly thing.",
+        "What are you?",
+		"Have you met Floransss before?",
+		"If your people don't hunt, how do you know who is the sstrongest?",
+		"Creature!",
+		"Floran like bugsss.",
+		"Bug also hate fire?",
+		"Pretty colorsss.",
+		"Do not drink nectar from Floran'sss head, or Floran ssstab.",
+		"Why are your eyesss ssso big?",
+		"Bug man!"
+        ]
+    }
+  ],
+  
+[
+    {
+      "op": "add",
+      "path": "/converse/floran/saturn2",
+      "value": [
+        "Behave, sssilly thing.",
+        "What are you?",
+		"Have you met Floransss before?",
+		"If your people don't hunt, how do you know who is the sstrongest?",
+		"Creature!",
+		"Floran like bugsss.",
+		"Bug man likes plants?",
+		"Pretty colorsss.",
+		"Do not drink nectar from Floran'sss head, or Floran ssstab.",
+		"Why are your eyesss ssso big?",
+		"Bug man!"
         ]
     }
   ],
