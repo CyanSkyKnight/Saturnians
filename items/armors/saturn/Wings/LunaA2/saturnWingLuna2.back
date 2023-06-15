@@ -4,7 +4,7 @@
   "inventoryIcon" : "icon.png",
   "rarity" : "Common",
   "category" : "backwear",
-  "description" : "Rarely seen, the Luna Mages are well known for their spirit magic.\n^#A0FA8E;Graellsia isabellae^reset;",
+  "description" : "The Sylvan Moon Moths of Actias are known for their natural magic, cultivating large mushrooms and trees.\n^#A0FA8E;Graellsia isabellae^reset;",
   "shortdescription" : "Sp. Moon Moth Wings",
   "tooltipKind" : "saturnwingback",
   "maleFrames" : "back.png",

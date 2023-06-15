@@ -4,7 +4,7 @@
   "inventoryIcon" : "icon.png",
   "rarity" : "Common",
   "category" : "backwear",
-  "description" : "Old folklore says that western luna scale dust could make objects disappear.\n^#A3ED9A;Actias luna^reset;",
+  "description" : "Rarely seen, the Luna Mages are well known for their spirit magic.\n^#A3ED9A;Actias luna^reset;",
   "shortdescription" : "Luna Cloak Wings",
   "tooltipKind" : "saturnwingback",
   "maleFrames" : "back.png",
