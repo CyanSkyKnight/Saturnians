@@ -10,7 +10,7 @@
   "twoHanded" : false,
   "itemTags" : ["weapon", "wand", "ranged", "upgradeableWeapon"],
   "level" : 1,
-  "inventoryIcon" : "saturnchargestaffT1icon.png",
+  "inventoryIcon" : "saturnScepterT2icon.png",
   "animation" : "saturnchargestaff.animation",
   "animationParts" : {
     "gun" : "saturnScepterT2.png",

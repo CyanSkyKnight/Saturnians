@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "headarmour",
-  "description" : "An old styled helmet worn by the Royal Sun Guard of Solalei.",
-  "shortdescription" : "Royal Sun Guard Helm",
+  "description" : "A helmet worn by the Royal Sun Guard of Solalei, who protect the royal family of the old Sun Kingdom. They are devout worshipers of the Sun Deity, Solakinth, who was said to have created light and flame.",
+  "shortdescription" : "Royal Sun Helm",
   "tooltipKind" : "armor",
     
   "builder" : "/armorAdapt/armorAdaptBuilder.lua",

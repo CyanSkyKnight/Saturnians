@@ -21,7 +21,7 @@
       "color" : [60, 120, 100]
     }}
   },
-  "inventoryIcon" : "satstaffwood1.png",
+  "inventoryIcon" : "saturnBatonT0.png",
   "scripts" : ["/items/active/weapons/staff/staff.lua"],
   "stances" : {
     "idle" : {

@@ -11,7 +11,7 @@
   "printable" : false,
   "animation" : "saturnMagicCrystalTable.animation",
   "animationPosition" : [0, 16],
-  "description" : "A table that can be used to craft a wide variety of wands, staves, batons, and scepters.",
+  "description" : "A table that can be used to craft a wide variety of wands, staves, and batons.",
   "shortdescription" : "^orange;Staff Enchanting Table^reset;",
   "race" : "saturn",
   "category" : "crafting",
@@ -54,7 +54,7 @@
         "placementImage" : "saturnMagicCrystalTable.png",
         "placementImagePosition" : [-16, 0],   
 
-        "description" : "Crafts wands, staves, batons, scepters, and other magical weapons.",
+        "description" : "Crafts Saturnian wands, staves, batons, and other magical weapons.",
         "shortdescription" : "^orange;Staff Enchanting Table^white;",
 
   "apexDescription" : "This table can craft weapons that seem to weave together hard light.",
@@ -73,9 +73,9 @@
     "paneLayoutOverride" : {
       "windowtitle" : {
         "title" : "Staff Enchanting Table",
-        "subtitle" : "Light into matter.",
+        "subtitle" : "Create staves that weave light into matter.",
         "icon" : {
-          "file" : "/interface/crafting/craftingfurnace3.png"
+          "file" : "/interface/crafting/craftingsaturnwand.png"
 				 }
 		}
         },
@@ -100,7 +100,7 @@
         "placementImage" : "saturnMagicCrystalTable2.png",
         "placementImagePosition" : [-16, 0],   
 
-        "description" : "Crafts wands, staves, batons, scepters, and other magical weapons.",
+        "description" : "Crafts Saturnian wands, staves, batons, and other magical weapons.",
         "shortdescription" : "^orange;Energized Enchanting Table^white;",
 
   "apexDescription" : "This table can craft weapons that seem to weave together hard light.",
@@ -121,7 +121,7 @@
         "title" : "Energized Enchanting Table",
         "subtitle" : "Crafts powerful light controlling weapons and tools.",
         "icon" : {
-          "file" : "/interface/crafting/craftingfurnace3.png"
+          "file" : "/interface/crafting/craftingsaturnwand.png"
 				 }
 		}
         },

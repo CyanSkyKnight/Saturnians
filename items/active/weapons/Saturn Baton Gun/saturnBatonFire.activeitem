@@ -11,7 +11,7 @@
   "itemTags" : ["weapon", "ranged", "wand", "upgradeableWeapon"],
   "level" : 1,
 
-  "inventoryIcon" : "saturnBatonFire.png",
+  "inventoryIcon" : "saturnBatonBeamFire.png",
 
   "animation" : "/items/active/weapons/ranged/saturnwindupgun.animation",
   "animationParts" : {

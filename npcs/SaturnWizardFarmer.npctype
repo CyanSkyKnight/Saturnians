@@ -177,7 +177,7 @@
               "saturnmerchantlegs"
             ],
             "head": [
-			{ "name" : "SunHat", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
+			{ "name" : "saturnSunHat", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
 			{ "name" : "saturnWideHat", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
 			{ "name" : "saturnBuckledHat", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } },
 			{ "name" : "saturnnull", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] } }
