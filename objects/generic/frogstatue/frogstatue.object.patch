@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"I hope someday, everyone can achieve the level of peace this frog has."}]
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "I hope someday, everyone can achieve the level of peace this frog has."
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "A statue of a meditating frog. Do they also meditate with spirits?"
+}
+]

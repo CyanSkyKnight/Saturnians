@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"Aliens use this symbol to mean something is dangerous to life."}]
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "Humans use this symbol to mean something is dangerous to life."
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "A rather menacing symbol. It reminds me of disease."
+}
+]

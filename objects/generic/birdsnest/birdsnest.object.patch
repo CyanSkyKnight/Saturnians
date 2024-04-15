@@ -1,1 +1,13 @@
-[{"op":"add","path":"/saturnDescription","value":"Why are you hiding in there? Don't be scared!"}]
+
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "Why are you hiding in there? Don't be scared!"
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "Whatever creature left this small egg here is probably not dangerous."
+}
+]

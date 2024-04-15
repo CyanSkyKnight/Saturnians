@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"It's the Miniknog's flag. I can bookmark this flag for my ship warp pad, though I should be careful if the Miniknog are apparently near."}]
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "It's the Miniknog's flag. I can bookmark this flag for my ship warp pad, though I should be careful if the Miniknog are apparently near."
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "I can bookmark this flag's location to return later if I must, though a Miniknog flag does not seem like the most trustworthy warp point."
+}
+]

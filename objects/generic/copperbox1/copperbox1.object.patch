@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"This crate shows no signs of corrosion. It must be new!"}]
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "This crate shows no signs of oxidization. It must be new!"
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "A crate made of a cold metal."
+}
+]

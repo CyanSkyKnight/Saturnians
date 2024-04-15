@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"A racecar bed! Can it fly?"}]
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "A racecar bed! Can it fly?"
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "This bed resembles some sort of vehicle."
+}
+]

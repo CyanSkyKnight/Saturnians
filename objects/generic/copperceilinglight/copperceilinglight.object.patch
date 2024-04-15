@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"If I flew into this metal light, it would probably hurt my head. \nMust...\nResist..."}]
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "If I flew into this metal light, it would probably hurt my head. \nMust...\nResist..."
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "The hard metal shade of this light punishes those that cannot control their instinct to chase light."
+}
+]

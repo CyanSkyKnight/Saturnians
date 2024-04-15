@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"A clay pot. What could be inside?"}]
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "This pot is full of cracks and holes. I feel like it could crumble just from me looking at it!"
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "Someone hasn't been taking care of their pottery."
+}
+]

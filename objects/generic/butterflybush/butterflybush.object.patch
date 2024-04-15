@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"Butterflies are inside this bush. There are stories of butterfly people on the otherside of my homeworld, but I have never seen them."}]
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "Butterflies? I've heard stories of butterfly people on the other side of Myrasyl, but I have never seen them myself."
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "The creatures living in this bush resemble Thaumoths."
+}
+]

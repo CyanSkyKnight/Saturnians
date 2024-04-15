@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"Cardboard is pretty rare in Solalei. "}]
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "Cardboard is pretty rare in Solalei."
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "A strange paper-like material forms this box."
+}
+]

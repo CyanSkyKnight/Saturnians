@@ -2,7 +2,7 @@
     {
         "op": "add",
         "path": "/saturnDescription",
-        "value": "This tapestry has wonderful patterns woven into it."
+        "value": "This tapestry has wonderful patterns woven into it. What type of fabric is this?"
     },
     {
         "op": "add",

@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"A copper oil lantern! "}]
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "The glass on this light protects me from the fire inside, allowing me to safely observe it."
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "This light is fueled by a dangerous flammable liquid."
+}
+]

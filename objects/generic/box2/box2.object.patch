@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"This crate is re-enforced with iron."}]
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "This crate is re-enforced with iron."
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "Thaumoths would usually reinforce crates with strong roots."
+}
+]

@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"Don't burn your feet!"}]
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "I need to somehow watch my step without staring at the bright light of these coals..."
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "The coals glow with a warm glow. I must stay away..."
+}
+]

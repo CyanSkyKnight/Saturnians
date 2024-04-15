@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"Huh? The Apex don't lay eggs!"}]
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "Huh? Is this chair made from a giant egg?"
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "This chair reminds me of a cocoon."
+}
+]

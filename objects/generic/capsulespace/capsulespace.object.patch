@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"What could lie within this capsule? Is it even safe to hit with a mech?"}]
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "What could lie within this capsule? Is it even safe to break open?"
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "A storage capsule mounted to a wall. What could it have been for?"
+}
+]

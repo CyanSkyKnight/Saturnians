@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"I wonder if I could find the flower this flag is based on, if it even exists. I can bookmark the location this flag is in if I need to come back here."}]
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "I wonder if I could find the flower this flag is based on, if it even exists. I can bookmark the location this flag is in if I need to come back here."
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "The Floran flag displays a flower. Perhaps it's a native plant to Floran lands? I can bookmark the location this flag is in if I must return here."
+}
+]

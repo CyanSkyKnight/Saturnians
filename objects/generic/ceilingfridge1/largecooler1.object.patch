@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"It's a large icebox."}]
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "It's a large icebox for preserving food."
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "A chest that preserves food by freezing it."
+}
+]

@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"The type of door you would see in a jail of some kind."}]
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "The type of door you would see in a jail of some kind."
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "It looks like a jail cell door."
+}
+]

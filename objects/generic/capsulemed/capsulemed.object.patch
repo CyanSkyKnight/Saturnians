@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"What could lie within this capsule? "}]
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "What could lie within this capsule?"
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "One of many capsules Earth's Protectorate littered about everywhere."
+}
+]

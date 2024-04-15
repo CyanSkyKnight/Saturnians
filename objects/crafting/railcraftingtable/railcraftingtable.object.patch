@@ -2,11 +2,11 @@
     {
         "op": "add",
         "path": "/saturnDescription",
-        "value": "This rail station is for creating really fun transportation."
+        "value": "This station can create trams and skyrails. These are the main way to travel in Solalei!"
     },
     {
         "op": "add",
         "path": "/saturn2Description",
-        "value": "This rail station is for creating really fun transportation."
+        "value": "This station is for creating rail-based transportation."
     }
 ]

@@ -1,1 +1,12 @@
-[{"op":"add","path":"/saturnDescription","value":"I wonder, does the Hylotls' home system have three stars?. I can bookmark the location this flag is in if I need to come back here."}]
+[
+{
+"op": "add",
+"path": "/saturnDescription",
+"value": "I wonder, does the Hylotls' home system have three stars?. I can bookmark the location this flag is in if I need to come back here."
+},
+{
+"op": "add",
+"path": "/saturn2Description",
+"value": "I feel like this Hylotl flag is watching me. I can bookmark the location this flag is in if I must return later."
+}
+]
