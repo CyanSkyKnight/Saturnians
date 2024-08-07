@@ -10,6 +10,6 @@
 
   "animationConfig" : "saturnburning.animation",
 
-  "label" : "Soul Burning",
-  "icon" : "/interface/statuses/fire.png"
+  "label" : "Soul Flame",
+  "icon" : "/interface/statuses/frozenfire.png"
 }

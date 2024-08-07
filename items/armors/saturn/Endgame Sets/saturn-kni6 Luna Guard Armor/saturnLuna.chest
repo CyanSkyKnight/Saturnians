@@ -43,8 +43,8 @@
   ],
   "itemTags" : [ "tier6armour" ],
   "colorOptions" : [
-	//LUNA MOTH GREEN
-	{ "ffca8a" : "A3EC99", "e0975c" : "7BD579", "a85636" : "459E54", "6f2919" : "286839" },
+	//SATURNIAN LIME 14
+	{ "ffca8a" : "C2CC6A", "e0975c" : "9BBA3D", "a85636" : "63822E", "6f2919" : "32491A" },
     // BLACK
     { "ffca8a" : "686868", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     // GREY

@@ -12,6 +12,6 @@
 
   "animationConfig" : "heal.animation",
 
-  "label" : "Vampire Healing",
+  "label" : "Vampiric Healing",
   "icon" : "/interface/statuses/heal.png"
 }
