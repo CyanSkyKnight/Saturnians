@@ -1,0 +1,9 @@
+{
+  "name" : "turquoise",
+  "category" : "saturnmorb",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "turquoise.png"
+  }
+}

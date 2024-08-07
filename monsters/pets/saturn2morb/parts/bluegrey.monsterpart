@@ -1,0 +1,9 @@
+{
+  "name" : "bluegrey",
+  "category" : "saturn2morb",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "bluegrey.png"
+  }
+}

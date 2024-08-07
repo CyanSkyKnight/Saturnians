@@ -1,0 +1,9 @@
+{
+  "name" : "orange",
+  "category" : "saturn2morb",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "orange.png"
+  }
+}

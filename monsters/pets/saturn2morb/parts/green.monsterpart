@@ -1,0 +1,9 @@
+{
+  "name" : "green",
+  "category" : "saturn2morb",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "green.png"
+  }
+}

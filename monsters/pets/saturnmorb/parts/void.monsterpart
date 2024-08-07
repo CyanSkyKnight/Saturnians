@@ -1,0 +1,9 @@
+{
+  "name" : "void",
+  "category" : "saturnmorb",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "void.png"
+  }
+}
