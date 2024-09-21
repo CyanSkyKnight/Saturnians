@@ -8,9 +8,8 @@ SaturnGunFire = WeaponAbility:new()
 
 function SaturnGunFire:init()
   self.weapon:setStance(self.stances.idle)
-
+  self.chargeTimer = (self.stances.windup.duration + self.stances.windup2.duration + self.stances.windup3.duration)
   self.cooldownTimer = self.fireTime
-  self.chargeTimer = (self.stances.windup.duration + self.stances.windup2.duration + self.stances.windup3.duration + self.stances.aimcorrect.duration)
   activeItem.setCursor("/cursors/reticle0.cursor")
   animator.setParticleEmitterActive("charge", false)
   self.weapon.onLeaveAbility = function()
@@ -40,9 +39,9 @@ function SaturnGunFire:update(dt, fireMode, shiftHeld)
   end
 end
 
+--Auto Stances
 
-
-function SaturnGunFire:windupa()
+function SaturnGunFire:windupa() -- auto windup step 1
   self.weapon:setStance(self.stances.windup)
   self.weapon:updateAim()
   self:chargeFlash()
@@ -58,7 +57,7 @@ function SaturnGunFire:windupa()
   self:setState(self.windup2a)
 end
 
-function SaturnGunFire:windup2a()
+function SaturnGunFire:windup2a() -- auto windup step 2
   self.weapon:setStance(self.stances.windup2)
   self.weapon:updateAim()
   animator.playSound("charge2")
@@ -70,7 +69,7 @@ function SaturnGunFire:windup2a()
   self:setState(self.windup3a)
 end
 
-function SaturnGunFire:windup3a()
+function SaturnGunFire:windup3a() -- auto windup step 3
   self.weapon:setStance(self.stances.windup3)
   self.weapon:updateAim()
   animator.playSound("charge3")
@@ -82,7 +81,7 @@ function SaturnGunFire:windup3a()
   self:setState(self.windupaca)
 end
 
-function SaturnGunFire:windupaca()
+function SaturnGunFire:windupaca() -- Aim correction. Delays aiming a bit, otherwise the weapon will fire just before the stance has actually updated. This should always be a small duration like 0.001
   self.weapon:setStance(self.stances.aimcorrect)
   self.weapon:updateAim()
 
@@ -94,10 +93,10 @@ function SaturnGunFire:windupaca()
   self:setState(self.auto)
 end
 
-function SaturnGunFire:auto()
+function SaturnGunFire:auto() -- auto fire
   self.weapon:setStance(self.stances.fire)
   
-if not world.lineTileCollision(mcontroller.position(), self:firePosition()) then
+if not world.lineTileCollision(mcontroller.position(), self:firePosition()) then -- boop if fired into a wall
 	self:fireProjectile()
   else
 	animator.playSound("boop")
@@ -114,9 +113,9 @@ if not world.lineTileCollision(mcontroller.position(), self:firePosition()) then
   self:setState(self.cooldown)
 end
 
+--Burst Stances
 
-
-function SaturnGunFire:windupb()
+function SaturnGunFire:windupb() -- burst windup step 1
   self.weapon:setStance(self.stances.windup)
   self.weapon:updateAim()
   self:chargeFlash()
@@ -132,7 +131,7 @@ function SaturnGunFire:windupb()
   self:setState(self.windup2b)
 end
 
-function SaturnGunFire:windup2b()
+function SaturnGunFire:windup2b() -- burst windup step 2
   self.weapon:setStance(self.stances.windup2)
   self.weapon:updateAim()
   animator.playSound("charge2")
@@ -144,7 +143,7 @@ function SaturnGunFire:windup2b()
   self:setState(self.windup3b)
 end
 
-function SaturnGunFire:windup3b()
+function SaturnGunFire:windup3b() -- burst windup step 3
   self.weapon:setStance(self.stances.windup3)
   self.weapon:updateAim()
   animator.playSound("charge3")
@@ -156,7 +155,7 @@ function SaturnGunFire:windup3b()
   self:setState(self.windupacb)
 end
 
-function SaturnGunFire:windupacb()
+function SaturnGunFire:windupacb() -- burst windup correct aim
   self.weapon:setStance(self.stances.aimcorrect)
   self.weapon:updateAim()
 
@@ -168,7 +167,7 @@ function SaturnGunFire:windupacb()
   self:setState(self.burst)
 end
 
-function SaturnGunFire:burst()
+function SaturnGunFire:burst() -- burst fire
   self.weapon:setStance(self.stances.fire)
   animator.setParticleEmitterActive("charge", false)
 
@@ -269,7 +268,9 @@ function SaturnGunFire:energyPerShot()
 end
 
 function SaturnGunFire:damagePerShot()
-  return (self.baseDamage or (self.baseDps * (self.fireTime))) * (self.baseDamageMultiplier or 1.0) * config.getParameter("damageLevelMultiplier") / self.projectileCount
+  return (self.baseDamage 
+  or (self.baseDps * (self.fireTime + self.chargeTimer))) * (self.baseDamageMultiplier or 1.0) * config.getParameter("damageLevelMultiplier") 
+/ (self.projectileCount + (self.burstCount or 0))
 end
 
 function SaturnGunFire:uninit()

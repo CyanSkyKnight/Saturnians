@@ -6,7 +6,7 @@
   "description" : "Casts a lightning ball that bounces off of walls. Doriyah!",
   "shortdescription" : "^#000400;^reset;Phantom Baton",
   "tooltipKind" : "saturngun",
-  "category" : "saturnbaton",
+  "category" : "saturn2baton",
   "twoHanded" : false,
   "itemTags" : ["weapon", "ranged", "wand", "upgradeableWeapon"],
   "level" : 4,
@@ -44,8 +44,8 @@
     "scripts" : ["/items/active/weapons/ranged/saturngunfire.lua"],
     "class" : "SaturnGunFire",
 
-    "fireTime" : 0.5,
-    "baseDps" : 15.5,
+    "fireTime" : 0.6,
+    "baseDps" : 10,
     "energyUsage" : 32,
 	"projectileCount" : 1,
     "inaccuracy" : 0,
@@ -122,5 +122,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandsaturnbaton.lua"
 }

@@ -15,7 +15,8 @@
   ],
   "power" : 5.0,
   "speed" : 0.2,
-  "damageKind" : "default",
+  "knockback" : 5,
+  "damageKind" : "firebow",
   "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
   "statusEffects" : [ "love" ],
 

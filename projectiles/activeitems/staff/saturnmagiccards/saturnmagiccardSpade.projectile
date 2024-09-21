@@ -13,12 +13,12 @@
       "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
     }
   ],
-  "statusEffects" : [ ],
   "power" : 5.0,
   "speed" : 0.2,
-  "damageKind" : "default",
+  "knockback" : 5,
+  "damageKind" : "fryingpan",
   "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
-
+  "statusEffects" : [ "saturnspadecardstun" ],
 
   "timeToLive" : 3,
 

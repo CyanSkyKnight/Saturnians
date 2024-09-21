@@ -4,7 +4,7 @@
   "price" : 1500,
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "It's a magic themed durasteel fishing rod.",
+  "description" : "They told me to practice my casting.",
   "shortdescription" : "Fishing Wand",
   "tooltipKind" : "fishingrod",
   "category" : "fishingRod",

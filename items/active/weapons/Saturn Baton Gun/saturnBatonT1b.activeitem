@@ -39,9 +39,8 @@
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/saturngunfire.lua"],
     "class" : "SaturnGunFire",
-
     "fireTime" : 0.2,
-    "baseDps" : 8,
+    "baseDps" : 10,
     "energyUsage" : 25,
     "projectileCount" : 1,
     "inaccuracy" : 0.15,
@@ -121,5 +120,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandsaturnbaton.lua"
 }

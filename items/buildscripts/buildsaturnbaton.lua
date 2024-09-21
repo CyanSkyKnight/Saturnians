@@ -162,7 +162,13 @@ function build(directory, config, parameters, level, seed)
       table.insert(config.inventoryIcon, drawable)
     end
   end
-
+  
+local stances = config.primaryAbility.stances
+  local stancedWindupTime = 0
+  if stances then
+    stancedWindupTime = stances.windup.duration + stances.windup2.duration + stances.windup3.duration
+  end
+  
   -- populate tooltip fields
   config.tooltipFields = {}
   local fireTime = parameters.primaryAbility.fireTime or config.primaryAbility.fireTime or 1.0
@@ -171,7 +177,7 @@ function build(directory, config, parameters, level, seed)
   config.tooltipFields.levelLabel = util.round(configParameter("level", 1), 1)
   config.tooltipFields.dpsLabel = util.round(baseDps * config.damageLevelMultiplier, 1)
   config.tooltipFields.speedLabel = util.round(1 / fireTime, 1)
-  config.tooltipFields.damagePerShotLabel = util.round(baseDps * fireTime * config.damageLevelMultiplier, 1)
+  config.tooltipFields.damagePerShotLabel = util.round((config.primaryAbility.baseDps or 0) * ((config.primaryAbility.fireTime or 1.0) + stancedWindupTime) * config.damageLevelMultiplier, 1)
   config.tooltipFields.energyPerShotLabel = util.round(energyUsage * fireTime, 1)
   if elementalType ~= "physical" then
     config.tooltipFields.damageKindImage = "/interface/elements/"..elementalType..".png"
@@ -185,7 +191,6 @@ function build(directory, config, parameters, level, seed)
     config.tooltipFields.altAbilityLabel = config.altAbility.name or "unknown"
   end
 
-  -- set price
   config.price = (config.price or 0) * root.evalFunction("itemLevelPriceMultiplier", configParameter("level", 1))
 
   return config, parameters

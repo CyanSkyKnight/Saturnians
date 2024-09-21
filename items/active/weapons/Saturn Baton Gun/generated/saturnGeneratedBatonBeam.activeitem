@@ -38,7 +38,7 @@
     "class" : "SaturnGunFire",
 
     "fireTime" : 0.5,
-    "baseDps" : 12.25,
+    "baseDps" : 12,
     "energyUsage" : 30,
 	"projectileCount" : 1,
     "inaccuracy" : 0.01,

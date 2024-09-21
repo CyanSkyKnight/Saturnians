@@ -1,0 +1,15 @@
+{
+  "name" : "saturnspadecardstun",
+  "blockingStat" : "stunImmunity",
+  "effectConfig" : {},
+  "defaultDuration" : 0.5,
+
+  "scripts" : [
+    "stun.lua"
+  ],
+
+  "animationConfig" : "stun.animation",
+
+  "label" : "Slow",
+  "icon" : "/interface/statuses/slow.png"
+}

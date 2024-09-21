@@ -3,7 +3,7 @@
   "price" : 0,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "Batons have faster charge times than wands, but fire like a gun. You could make a better baton with a ^orange;Staff Enchanting Table^reset;.",
+  "description" : "Batons are magic weapons that fire like a gun. You could make a better baton with a ^orange;Staff Enchanting Table^reset;.",
   "shortdescription" : "^#000100;^reset;Broken Baton",
   "tooltipKind" : "saturngun",
   "category" : "saturnbaton",
@@ -41,7 +41,7 @@
     "class" : "SaturnGunFire",
 
     "fireTime" : 0.4,
-    "baseDps" : 15,
+    "baseDps" : 12,
     "energyUsage" : 32,
     "projectileCount" : 1,
     "inaccuracy" : 0,
@@ -118,5 +118,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandsaturnbaton.lua"
 }

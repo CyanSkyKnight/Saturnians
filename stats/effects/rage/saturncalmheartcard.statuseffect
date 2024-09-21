@@ -1,7 +1,7 @@
 {
   "name" : "saturncalmheartcard",
   "effectConfig" : {
-    "powerModifier" : 0.9
+    "powerModifier" : 0.6
   },
   "defaultDuration" : 3,
 
@@ -9,8 +9,8 @@
     "rage.lua"
   ],
 
-  "animationConfig" : "saturncalmnowords.animation",
+  "animationConfig" : "saturncalmcharm.animation",
 
-  "label" : "90% Damage",
+  "label" : "Charmed: 60% Damage",
   "icon" : "/interface/statuses/saturnbrokensword.png"
 }

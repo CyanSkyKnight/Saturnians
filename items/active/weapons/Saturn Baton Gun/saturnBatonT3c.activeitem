@@ -40,7 +40,7 @@
     "class" : "SaturnGunFire",
 
     "fireTime" : 0.2,
-    "baseDps" : 10.5,
+    "baseDps" : 10,
     "energyUsage" : 25,
     "burstCount" : 3,
     "burstTime" : 0.1,
@@ -49,9 +49,6 @@
     "fireType" : "burst",
 
     "projectileType" : ["saturnmagiccardClub", "saturnmagiccardDiamond", "saturnmagiccardHeart", "saturnmagiccardSpade"  ],
-    "projectileParameters" : {
-	"knockback" : 5
-    },
     "stances" : {
       "idle" : {
         "armRotation" : -90,
@@ -119,5 +116,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandsaturnbaton.lua"
 }

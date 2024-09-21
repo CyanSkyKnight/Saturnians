@@ -4,7 +4,7 @@
   "maxStack" : 1,
   "fixedLevel" : false,
   "rarity" : "Common",
-  "description" : "You will never guess what this baton shoots.",
+  "description" : "You will never beelive what this baton shoots.",
   "shortdescription" : "Bee Baton",
   "tooltipKind" : "saturngun",
   "category" : "saturnbaton",
@@ -42,14 +42,14 @@
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "poison",
 
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/saturngunfire.lua"],
     "class" : "SaturnGunFire",
 
     "fireTime" : 0.5,
-    "baseDps" : 10.5,
+    "baseDps" : 15,
     "energyUsage" : 18.75,
     "inaccuracy" : 0.2,
     "projectileCount" : 3,
@@ -127,5 +127,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandsaturnbaton.lua"
 }

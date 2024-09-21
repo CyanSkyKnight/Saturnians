@@ -6,7 +6,7 @@
   "description" : "Casts an orb that leeches life from struck foes. ",
   "shortdescription" : "^#000400;^reset;Vampire Moth Scepter",
   "tooltipKind" : "saturngun",
-  "category" : "saturnbaton",
+  "category" : "saturn2baton",
   "twoHanded" : false,
   "itemTags" : ["weapon", "ranged", "wand", "upgradeableWeapon"],
   "level" : 4,
@@ -45,7 +45,7 @@
     "scripts" : ["/items/active/weapons/ranged/saturngunfire.lua"],
     "class" : "SaturnGunFire",
 
-    "fireTime" : 0.5,
+    "fireTime" : 0.6,
     "baseDps" : 10,
     "energyUsage" : 25,
     "projectileCount" : 1,
@@ -124,5 +124,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandsaturnbaton.lua"
 }

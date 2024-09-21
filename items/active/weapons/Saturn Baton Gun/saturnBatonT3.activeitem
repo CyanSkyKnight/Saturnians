@@ -46,7 +46,7 @@
     "class" : "SaturnGunFire",
 
     "fireTime" : 0.2,
-    "baseDps" : 6.5,
+    "baseDps" : 12,
     "energyUsage" : 25,
     "projectileCount" : 1,
     "inaccuracy" : 0.05,
@@ -106,7 +106,7 @@
         "allowFlip" : true
       },
       "fire" : {
-        "duration" : 0.8,
+        "duration" : 0.2,
         "armRotation" : -20,
         "weaponRotation" : -70,
         "weaponOffset" : [0, 1],
@@ -126,5 +126,5 @@
     }
     },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/buildunrandsaturnbaton.lua"
 }

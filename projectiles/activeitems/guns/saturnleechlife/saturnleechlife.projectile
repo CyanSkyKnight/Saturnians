@@ -46,7 +46,7 @@
 	{
       "action" : "projectile",
       "type" : "saturninvis",
-	  "inheritDamageFactor" : 0.1,
+	  "inheritDamageFactor" : 0,
       "config" : {"speed" : 0}
     }
   ],
