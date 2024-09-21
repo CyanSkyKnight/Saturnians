@@ -3,7 +3,7 @@
   "price" : 640,
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "Boosts run speed, but also lowers your max energy by 15% for one minute. (Incomplete)",
+  "description" : "Boosts run speed, but also lowers your max energy by 15% for one minute. (Unused)",
   "shortdescription" : "Accelerate Scepter",
   "tooltipKind" : "saturngun",
   "category" : "Mage Scepter",
