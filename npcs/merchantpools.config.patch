@@ -420,7 +420,8 @@
 	  { "item" : { "name" : "saturnGeneratedBatonOrb" } },
 	  { "item" : { "name" : "SaturnGenwand" } },
 	  { "item" : { "name" : "SaturnGenwand" } },
-	  { "item" : { "name" : "SaturnGenwandPractical" } }
+	  { "item" : { "name" : "SaturnGenwandPractical" } },
+	  { "item" : { "name" : "saturnbroomcontroller" } }
 	]],
 	[3.9, [
 	  { "item" : { "name" : "saturnSTslopedpanel" } },
