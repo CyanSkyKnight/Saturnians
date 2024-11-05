@@ -21,9 +21,9 @@
   "animationCustom" : {
     "animatedParts" : { "parts" : { 
 	"swoosh" : { "partStates" : { "swoosh" : { 
-	"fire" : { "properties" : { "image" : "/items/active/weapons/melee/broadsword/swoosh/timeswoosh.png:<frame>" }},
+	"fire" : { "properties" : { "image" : "/items/active/weapons/melee/broadsword/swoosh/saturntimeswoosh.png:<frame>" }},
 	
-    "fire2" : { "properties" : { "image" : "/items/active/weapons/melee/broadsword/swoosh2/timeswoosh.png:<frame>" }},
+    "fire2" : { "properties" : { "image" : "/items/active/weapons/melee/broadsword/swoosh2/saturntimeswoosh.png:<frame>" }},
 	
     "fire3" : { "properties" : { "image" : "/items/active/weapons/Saturn Scythes/risingswoosh/saturnrisingswooshtime.png:<frame>" }}
 	

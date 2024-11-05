@@ -20,15 +20,15 @@
   "animationCustom" : {
     "animatedParts" : { "parts" : { 
 	"swoosh" : { "partStates" : { "swoosh" : { 
-	"fire" : { "properties" : { "image" : "/items/active/weapons/Saturn Scythes/swoosh/timeswoosh.png:<frame>",
+	"fire" : { "properties" : { "image" : "/items/active/weapons/Saturn Scythes/swoosh/saturntimeswoosh.png:<frame>",
 	"fullbright" : false}
 	
 	},
 	
-    "fire2" : { "properties" : { "image" : "/items/active/weapons/Saturn Scythes/swoosh2/timeswoosh.png:<frame>",
+    "fire2" : { "properties" : { "image" : "/items/active/weapons/Saturn Scythes/swoosh2/saturntimeswoosh.png:<frame>",
 	"fullbright" : false}},
 	
-    "fire3" : { "properties" : { "image" : "/items/active/weapons/Saturn Scythes/risingswoosh/timeswoosh.png:<frame>",
+    "fire3" : { "properties" : { "image" : "/items/active/weapons/Saturn Scythes/risingswoosh/saturntimeswoosh.png:<frame>",
 	"fullbright" : false}}
 	
     }}},
