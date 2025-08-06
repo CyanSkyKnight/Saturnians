@@ -43,7 +43,7 @@
     "/objects/spawner/techstation.lua"
   ],
   "scriptDelta" : 20,
-  "shipPetType" : "snugget",
+  "shipPetType" : "saturnmorb",
   "spawnOffset" : [2, -1],
 
   "chatPortrait" : "/ai/portraits/saturnportrait.png:yell.1",

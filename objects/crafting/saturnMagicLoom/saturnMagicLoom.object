@@ -11,7 +11,7 @@
         "title" : "Saturnian Loom",
         "subtitle" : "Used to create fabrics, dyes, and synthetic wings.",
         "icon" : {
-          "file" : "/interface/crafting/crafting_wheel.png"
+          "file" : "/interface/crafting/craftingsaturnwheel.png"
         }
       }
     },

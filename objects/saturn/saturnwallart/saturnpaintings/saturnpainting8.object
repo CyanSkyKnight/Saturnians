@@ -1,0 +1,22 @@
+{
+  "objectName" : "saturnpainting8",
+  "colonyTags" : ["saturn", "pretty", "solalei", "saturnpaintings"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "description" : "The sun must always set for there to be a new day.",
+  "shortdescription" : "^#000250;^white;Solalei At Dusk Painting",
+  "race" : "saturn",
+
+  "inventoryIcon" : "saturnpainting8icon.png",
+  "orientations" : [
+    {
+      "image" : "saturnpainting8.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

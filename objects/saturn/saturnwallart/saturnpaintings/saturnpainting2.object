@@ -1,10 +1,10 @@
 {
   "objectName" : "saturnpainting2",
-  "colonyTags" : ["saturn", "thaumoth", "pretty", "magic", "saturnpaintings"],
+  "colonyTags" : ["saturn", "saturn2", "pretty", "magic", "saturnpaintings"],
   "rarity" : "Common",
   "category" : "decorative",
   "price" : 70,
-  "description" : "A painting of a wizard standing above a sea of fog.",
+  "description" : "A painting of a wizard watching over a foggy landscape.",
   "shortdescription" : "^#000250;^white;Wizard Painting",
   "race" : "saturn",
 
