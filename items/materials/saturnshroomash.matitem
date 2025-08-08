@@ -9,10 +9,9 @@
   "tooltipKind" : "saturnpaintedblock",
 
   "description" : "A material made from giant mushrooms. Ashrooms are known for growing on cave ceilings in volcanic areas.",
-  "shortdescription" : "Ashroom Block",
+  "shortdescription" : "Ashroom Cap",
   "glitchdescription" : "Intrigued. Although assembled as a block, this mushroom is alive.",
   "florandescription" : "Lovely mushroomss.",
   "novakiddescription" : "Ain't that somethin'. Seems this block is made from mushrooms.",
-
   "materialId" : 54749
 }

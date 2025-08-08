@@ -9,10 +9,9 @@
   "tooltipKind" : "saturnpaintedblock",
 
   "description" : "A material made from giant mushrooms. This species is known to grow in large fairy rings.",
-  "shortdescription" : "Fairy Cap Block",
+  "shortdescription" : "Fairy Cap",
   "glitchdescription" : "Intrigued. Although assembled as a block, this mushroom is alive.",
   "florandescription" : "Lovely mushroomss.",
   "novakiddescription" : "Ain't that somethin'. Seems this block is made from mushrooms.",
-
   "materialId" : 54739
 }

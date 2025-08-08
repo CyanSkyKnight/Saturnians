@@ -2,7 +2,7 @@
   "objectName" : "saturnupsidedownplant",
   "colonyTags" : ["kyterran", "nature"],
   "rarity" : "Common",
-  "category" : "seed",
+  "category" : "saturndev",
   "description" : "You may have noticed that this unused test plant is in fact right side up. I don't know either.",
   "shortdescription" : "Test Upside Down Plant",
   "objectType" : "farmable",

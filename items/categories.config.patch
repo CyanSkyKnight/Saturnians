@@ -1,28 +1,60 @@
 [
 
-// Weapons----------~
-
+////// melee
 { "op" : "add", "path" : "/labels/saturnrapier",
 "value" : "Saturnian Rapier"
 },
 { "op" : "add", "path" : "/labels/saturnmace",
 "value" : "Saturnian Mace"
 },
-
-{ "op" : "add", "path" : "/labels/saturnbow",
-"value" : "Saturnian Light Bow"
+{ "op" : "add", "path" : "/labels/saturn2sickle",
+"value" : "Thaumoth Sickle"
 },
 
-{ "op" : "add", "path" : "/labels/saturnminigun",
-"value" : "Nocturne Minigun"
-},
 
+{ "op" : "add", "path" : "/labels/saturnhalberd",
+"value" : "Saturnian Archalberd"
+},
 { "op" : "add", "path" : "/labels/saturnscythe",
 "value" : "Thaumoth Scythe"
 },
 
+//////ranged
+{ "op" : "add", "path" : "/labels/saturnbow",
+"value" : "Saturnian Light Bow"
+},
+{ "op" : "add", "path" : "/labels/saturn2bow",
+"value" : "Thaumoth Soul Bow"
+},
+
+{ "op" : "add", "path" : "/labels/saturnminigun",
+"value" : "Arcane Gun"
+},
+
+
+//////magic
 { "op" : "add", "path" : "/labels/saturnwand",
 "value" : "Saturnian Wand"
+},
+{ "op" : "add", "path" : "/labels/saturn2wand",
+"value" : "Thaumoth Wand"
+},
+
+{ "op" : "add", "path" : "/labels/saturnstaff",
+"value" : "Saturnian Staff"
+},
+{ "op" : "add", "path" : "/labels/saturn2staff",
+"value" : "Thaumoth Staff"
+},
+
+{ "op" : "add", "path" : "/labels/saturnbaton",
+"value" : "Saturnian Baton"
+},
+{ "op" : "add", "path" : "/labels/saturn2baton",
+"value" : "Thaumoth Baton"
+},
+{ "op" : "add", "path" : "/labels/saturntoolbaton",
+"value" : "Mage's Scepter"
 },
 
 { "op" : "add", "path" : "/labels/saturngenwand",
@@ -37,18 +69,7 @@
 "value" : "Random Moth Baton"
 },
 
-{ "op" : "add", "path" : "/labels/saturnstaff",
-"value" : "Saturnian Staff"
-},
-{ "op" : "add", "path" : "/labels/saturn2wand",
-"value" : "Thaumoth Wand"
-},
-{ "op" : "add", "path" : "/labels/saturnbaton",
-"value" : "Mage's Baton"
-},
-{ "op" : "add", "path" : "/labels/saturntoolbaton",
-"value" : "Mage's Scepter"
-},
+
 
 // Clothes----------~
 
@@ -58,7 +79,7 @@
 // Misc----------~
 
 { "op" : "add", "path" : "/labels/saturncraftingguide",
-"value" : "Crafting Guide Scroll"
+"value" : "Crafting Guide"
 },
 { "op" : "add", "path" : "/labels/saturnsilkitem",
 "value" : "Saturnian Silk"
@@ -66,6 +87,6 @@
 
 // Debug----------~
 { "op" : "add", "path" : "/labels/saturndev",
-"value" : "UNUSED ITEM (Saturnians) Please report!"
+"value" : "You shouldn't have this"
 }
 ]

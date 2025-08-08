@@ -108,7 +108,87 @@
       "allowDuplication" : true
     }]
   ],
+//Mushroom---------------------------------------------------------------
   
+   	"saturnSTshroommist" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnshroommist", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+   	"saturnSTshroomfairy" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnshroomfairy", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+   	"saturnSTshroomdust" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnshroomdust", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+   	"saturnSTshroomash" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnshroomash", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+   	"saturnSTfungusstalk" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnfungusstalk", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+   	"saturnSTfungusgills" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnfungusgills", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+   	"saturnSTshroompores" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : [ "saturnshroompores", 1000]}
+      ],
+      "poolRounds" : [
+        [1, 1]
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+
+
 //Stone---------------------------------------------------------------
   
    	"saturnSTcolorfulclaywalls" : [

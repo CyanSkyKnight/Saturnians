@@ -2,7 +2,7 @@
   "objectName" : "saturnlavaplant",
   "colonyTags" : ["kyterran", "nature"],
   "rarity" : "Common",
-  "category" : "seed",
+  "category" : "saturndev",
   "description" : "A strain of the Kyterran Lavabulb plant used for decoration only.",
   "shortdescription" : "Emberbulb Seed",
   "objectType" : "farmable",

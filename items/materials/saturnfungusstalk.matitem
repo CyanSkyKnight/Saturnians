@@ -9,10 +9,9 @@
   "tooltipKind" : "saturnpaintedblock",
 
   "description" : "The stalk of a giant mushroom",
-  "shortdescription" : "Fungus Stalk",
+  "shortdescription" : "Fungal Stalk",
   "glitchDescription" : "Intrigued. Although assembled as a block, this mushroom is alive.",
   "floranDescription" : "Lovely mushroomss.",
   "novakidDescription" : "Ain't that somethin'. Seems this block is made from mushrooms.",
-  "learnBlueprintsOnPickup" : [ "saturnfungusstalk", "saturnshroomblock"],
   "materialId" : 54738
 }
