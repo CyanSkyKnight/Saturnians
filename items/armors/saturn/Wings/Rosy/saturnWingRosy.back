@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "category" : "backwear",
   "description" : "Bright pink and yellow wings used as camouflage among flowers.\n^pink;Dryocampa rubicunda^reset;",
-  "shortdescription" : "Rosy Maple Wings",
+  "shortdescription" : "Rosy Maple Cloak Wings",
   "tooltipKind" : "saturnwingback",
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",
