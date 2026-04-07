@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "saturnMaho", "count" : 1 }
+    { "item" : "saturnMaho", "count" : 10 }
 
   ],
-  "output" : { "item" : "saturnslopedpanelMaho", "count" : 1 },
+  "output" : { "item" : "saturnslopedpanelMaho", "count" : 10 },
   "duration" : 0,
   "groups"  : [ "craftingfurniture", "saturnmaterials", "materials", "all" ]
 }

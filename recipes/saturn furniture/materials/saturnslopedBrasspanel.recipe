@@ -1,11 +1,10 @@
 {
   "input" : [
-    { "item" : "copperbar", "count" : 1 },
-    { "item" : "reddye", "count" : 1 }
+    { "item" : "saturnbrassblock", "count" : 10 }
   ],
   "output" : {
     "item" : "saturnslopedbrasspanel",
-    "count" : 200
+    "count" : 10
   },
   "duration" : 0,
   "groups"  : [ "craftingfurniture", "saturnmaterials", "materials", "all" ]

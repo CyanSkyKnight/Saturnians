@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "saturnebony", "count" : 1 }
+    { "item" : "saturnebony", "count" : 10 }
 
   ],
-  "output" : { "item" : "saturnebonycore", "count" : 1 },
+  "output" : { "item" : "saturnebonycore", "count" : 10 },
   "duration" : 0,
   "groups"  : [ "craftingfurniture", "saturnmaterials", "materials", "all" ]
 }

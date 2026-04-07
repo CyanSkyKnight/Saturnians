@@ -6,7 +6,9 @@
   "inventoryIcon" : "sathomewalls1.png",
   "largeImage" : "/items/materials/tooltips/sathomewalls1.png",
   "tooltipKind" : "saturnpaintedblock",
-  
+  "glitchdescription" : "Delighted. These painted bricks are quaint.",
+  "florandescription" : "Pretty painted bricksss.",
+  "novakiddescription" : "Some real pretty painted bricks.",
   "description" : "Apparently, some Saturnians paint walls darker to make it look like there's more space.",
   "shortdescription" : "Dark Painted Brick",
 

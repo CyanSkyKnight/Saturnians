@@ -1,9 +1,10 @@
 {
   "input" : [
-    { "item" : "homewalls1", "count" : 1 } 
+    { "item" : "brickmaterial", "count" : 1 },
+    { "item" : "blackdye", "count" : 1 } 	
 
   ],
-  "output" : { "item" : "sathomewalls1", "count" : 1 },
+  "output" : { "item" : "sathomewalls1", "count" : 50 },
   "duration" : 0,
   "groups"  : [ "craftingfurniture", "saturnmaterials", "materials", "all" ]
 }
