@@ -3,6 +3,6 @@
     { "item" : "saturnLunahead", "count" : 1 }
   ],
   "duration" : 0.1,
-  "output" : { "item" : "saturnNovaWizardhead", "count" : 1 },
+  "output" : { "item" : "saturnSolhead", "count" : 1 },
   "groups" : [ "saturntransmogbonus", "all" ]
 }
