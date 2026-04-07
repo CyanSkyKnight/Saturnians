@@ -128,7 +128,7 @@
   "engineIdleVolume" : 0.75,
   "engineRevVolume" : 1.0,
 
-  "materialKind" : "robotic",
+  "materialKind" : "wooden",
   "terrainCollisionDamageSourceKind" : "falling",
   "accelerationTrackingCount" : 2,
 
@@ -155,18 +155,19 @@
   ],
 
   "movementSettings" : {
-    "collisionPoly" : [[-4.0, 0.5], [-2.0, -1.5], [2.0, -1.5], [4.0, 0.5]],
+    "collisionPoly" : [[-2.0, 0.5], [-2.0, -1.5], [2.0, -1.5], [2.0, 0.5]],
     "mass" : 4,
     "airFriction" : 8,
-    "ignorePlatformCollision" : true,
+    "ignorePlatformCollision" : false,
     "gravityEnabled" : true,
     "collisionEnabled" : true
   },
 
   "occupiedMovementSettings" : {
-    "collisionPoly" : [[-4.0, 0.5], [-2.0, -1.5], [2.0, -1.5], [4.0, 0.5]],
+    "collisionPoly" : [[-2.0, 2.0], [-2.0, -1.5], [2.0, -1.5], [2.0, 2.0]],
     "mass" : 4,
     "gravityEnabled" : false,
+	"ignorePlatformCollision" : true,
     "collisionEnabled" : true
   }
 
